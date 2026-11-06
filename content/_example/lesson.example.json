@@ -1,0 +1,55 @@
+{
+  "_comment": "Schema example. Real lessons go in content/hsk3/lesson-01.json, content/hsk4/lesson-01.json, ... (files under _example are ignored by the seeder). Titles and grammar points come from content/curriculum.json. See content/hsk3/lesson-01.json for a complete lesson, and check new content with tools/validate_content.py.",
+  "level": 3,
+  "number": 1,
+  "summary": "Tóm tắt ngắn nội dung bài",
+  "content": {
+    "vocab": [
+      { "id": "v1", "hanzi": "打算", "pinyin": "dǎsuàn", "pos": "động từ", "meaning_vi": "dự định", "example_zh": "你周末有什么打算？", "example_pinyin": "Nǐ zhōumò yǒu shénme dǎsuàn?", "example_vi": "Cuối tuần bạn có dự định gì?" }
+    ],
+    "grammar": [
+      { "id": "g1", "title": "Tên điểm ngữ pháp", "pattern": "S + 打算 + V", "explanation_vi": "Giải thích bằng tiếng Việt", "examples": [{ "zh": "我打算去北京。", "pinyin": "Wǒ dǎsuàn qù Běijīng.", "vi": "Tôi định đi Bắc Kinh." }] }
+    ],
+    "dialogue": {
+      "title_vi": "Hội thoại",
+      "lines": [{ "speaker": "A", "zh": "你周末有什么打算？", "pinyin": "Nǐ zhōumò yǒu shénme dǎsuàn?", "vi": "Cuối tuần bạn có dự định gì?" }]
+    },
+    "exercises": [
+      { "id": "e1", "type": "choice", "tag": "v:打算", "prompt_vi": "…", "question_zh": "周末你有什么____？", "options": ["打算", "作业"], "answer": 0, "explanation_vi": "…" },
+      { "id": "e2", "type": "order", "tag": "g:…", "prompt_vi": "…", "words": ["我", "去", "北京"], "answers": ["我去北京"], "translation_vi": "…", "explanation_vi": "…" },
+      { "id": "e3", "type": "match", "tag": "vocab", "prompt_vi": "…", "pairs": [{ "zh": "周末", "vi": "cuối tuần" }] }
+    ],
+    "quiz": { "grammar": ["… câu hỏi dạng choice như exercises, 6 câu"] },
+    "test": [
+      "… 16 câu = 8 dạng x 2: choice, match, order, fill {sentence_zh có ____, answers, hint_vi}, listen_choice {audio_text, options, answer}, dictation {audio_text, answers}, translate_vi_zh {source_vi, answers}, translate_zh_vi {source_zh, answers_vi, keywords}"
+    ],
+    "reading": [
+      {
+        "id": "rp1",
+        "title_zh": "（标题）",
+        "title_vi": "Tiêu đề tiếng Việt",
+        "paragraphs": [
+          {
+            "tokens": [["小李", "Xiǎo Lǐ", "Tiểu Lý (tên người)"], ["去", "qù", "đi"], ["公园", "gōngyuán", "công viên"], ["。"]],
+            "vi": "Bản dịch tiếng Việt của đoạn."
+          }
+        ],
+        "questions": [
+          { "id": "rq1", "type": "choice", "tag": "reading", "prompt_vi": "…", "question_zh": "…", "options": ["…", "…"], "answer": 0, "explanation_vi": "…" }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "lp1",
+        "title_vi": "Tiêu đề tiếng Việt",
+        "text_zh": "（短文，不超过 380 个字符）",
+        "pinyin": "…",
+        "vi": "…",
+        "questions": [
+          { "id": "lq1", "type": "choice", "tag": "listening", "prompt_vi": "…", "question_zh": "…", "options": ["…", "…"], "answer": 0, "explanation_vi": "…" }
+        ]
+      }
+    ]
+  }
+}

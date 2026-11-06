@@ -1,0 +1,159 @@
+{
+  "level": 3,
+  "number": 2,
+  "summary": "Hỏi thăm người vắng mặt trong văn phòng; học bổ ngữ xu hướng đơn “来/去”, hai động tác nối tiếp nhau và câu hỏi tu từ “能……吗？”.",
+  "content": {
+    "vocab": [
+      {"id":"v1","hanzi":"什么时候","pinyin":"shénme shíhou","pos":"cụm từ nghi vấn","meaning_vi":"khi nào","example_zh":"你什么时候回家？","example_pinyin":"Nǐ shénme shíhou huí jiā?","example_vi":"Khi nào bạn về nhà?"},
+      {"id":"v2","hanzi":"办公室","pinyin":"bàngōngshì","pos":"danh từ","meaning_vi":"văn phòng","example_zh":"经理在办公室里。","example_pinyin":"Jīnglǐ zài bàngōngshì lǐ.","example_vi":"Giám đốc đang ở trong văn phòng."},
+      {"id":"v3","hanzi":"经理","pinyin":"jīnglǐ","pos":"danh từ","meaning_vi":"giám đốc, quản lý","example_zh":"王经理今天很忙。","example_pinyin":"Wáng jīnglǐ jīntiān hěn máng.","example_vi":"Giám đốc Vương hôm nay rất bận."},
+      {"id":"v4","hanzi":"开会","pinyin":"kāi huì","pos":"động từ","meaning_vi":"họp","example_zh":"他正在开会。","example_pinyin":"Tā zhèngzài kāi huì.","example_vi":"Anh ấy đang họp."},
+      {"id":"v5","hanzi":"回来","pinyin":"huílái","pos":"động từ","meaning_vi":"trở về","example_zh":"爸爸晚上六点回来。","example_pinyin":"Bàba wǎnshang liù diǎn huílái.","example_vi":"Bố sáu giờ tối về."},
+      {"id":"v6","hanzi":"进来","pinyin":"jìnlái","pos":"động từ","meaning_vi":"đi vào (về phía người nói)","example_zh":"请进来坐。","example_pinyin":"Qǐng jìnlái zuò.","example_vi":"Mời vào ngồi."},
+      {"id":"v7","hanzi":"出去","pinyin":"chūqù","pos":"động từ","meaning_vi":"đi ra ngoài","example_zh":"他刚出去。","example_pinyin":"Tā gāng chūqù.","example_vi":"Anh ấy vừa mới ra ngoài."},
+      {"id":"v8","hanzi":"告诉","pinyin":"gàosu","pos":"động từ","meaning_vi":"nói cho biết","example_zh":"请你告诉我他的电话。","example_pinyin":"Qǐng nǐ gàosu wǒ tā de diànhuà.","example_vi":"Xin bạn cho tôi biết số điện thoại của anh ấy."},
+      {"id":"v9","hanzi":"电话","pinyin":"diànhuà","pos":"danh từ","meaning_vi":"điện thoại, cuộc gọi","example_zh":"我给他打了一个电话。","example_pinyin":"Wǒ gěi tā dǎ le yí ge diànhuà.","example_vi":"Tôi đã gọi cho anh ấy một cuộc điện thoại."},
+      {"id":"v10","hanzi":"带","pinyin":"dài","pos":"động từ","meaning_vi":"mang, đem theo","example_zh":"你带手机了吗？","example_pinyin":"Nǐ dài shǒujī le ma?","example_vi":"Bạn có mang điện thoại không?"},
+      {"id":"v11","hanzi":"忘","pinyin":"wàng","pos":"động từ","meaning_vi":"quên","example_zh":"我忘了他的名字。","example_pinyin":"Wǒ wàng le tā de míngzi.","example_vi":"Tôi quên tên anh ấy rồi."},
+      {"id":"v12","hanzi":"担心","pinyin":"dān xīn","pos":"động từ","meaning_vi":"lo lắng","example_zh":"别担心，他很快就回来。","example_pinyin":"Bié dānxīn, tā hěn kuài jiù huílái.","example_vi":"Đừng lo, anh ấy sẽ về ngay thôi."},
+      {"id":"v13","hanzi":"重要","pinyin":"zhòngyào","pos":"tính từ","meaning_vi":"quan trọng","example_zh":"这件事很重要。","example_pinyin":"Zhè jiàn shì hěn zhòngyào.","example_vi":"Việc này rất quan trọng."},
+      {"id":"v14","hanzi":"马上","pinyin":"mǎshàng","pos":"phó từ","meaning_vi":"lập tức, ngay","example_zh":"我马上就到。","example_pinyin":"Wǒ mǎshàng jiù dào.","example_vi":"Tôi đến ngay đây."}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Bổ ngữ xu hướng đơn: V + 来 / 去",
+        "pattern":"V (回/进/出/上/下) + 来/去",
+        "explanation_vi":"“来” biểu thị động tác hướng về phía người nói, “去” biểu thị động tác hướng ra xa người nói. Khi có tân ngữ chỉ nơi chốn, tân ngữ đứng giữa động từ và “来/去”: 回家去, 上楼来.",
+        "examples":[
+          {"zh":"他回家去了。","pinyin":"Tā huí jiā qù le.","vi":"Anh ấy về nhà rồi."},
+          {"zh":"请进来坐。","pinyin":"Qǐng jìnlái zuò.","vi":"Mời vào ngồi."},
+          {"zh":"你下来吧，我在楼下等你。","pinyin":"Nǐ xiàlái ba, wǒ zài lóuxià děng nǐ.","vi":"Bạn xuống đi, mình đợi bạn ở dưới nhà."},
+          {"zh":"经理出去了，一会儿就回来。","pinyin":"Jīnglǐ chūqù le, yíhuìr jiù huílái.","vi":"Giám đốc ra ngoài rồi, lát nữa sẽ về."}
+        ]
+      },
+      {
+        "id":"g2",
+        "title":"Hai động tác nối tiếp nhau",
+        "pattern":"V1 + 了 + (O1) + 就/再 + V2 (+ O2)",
+        "explanation_vi":"Diễn tả động tác thứ hai xảy ra ngay sau động tác thứ nhất. Dùng “就” khi nói về việc đã/sẽ xảy ra ngay sau đó; dùng “再” khi động tác thứ hai chưa xảy ra và muốn nhấn mạnh thứ tự “xong việc này rồi mới làm việc kia”.",
+        "examples":[
+          {"zh":"我下了班就回家。","pinyin":"Wǒ xià le bān jiù huí jiā.","vi":"Tan làm xong là tôi về nhà ngay."},
+          {"zh":"你吃了饭再去吧。","pinyin":"Nǐ chī le fàn zài qù ba.","vi":"Bạn ăn cơm xong rồi hãy đi."},
+          {"zh":"他开完会就回办公室。","pinyin":"Tā kāi wán huì jiù huí bàngōngshì.","vi":"Họp xong anh ấy về văn phòng ngay."}
+        ]
+      },
+      {
+        "id":"g3",
+        "title":"Câu hỏi tu từ “能……吗？”",
+        "pattern":"S + 能 + V + ……吗？",
+        "explanation_vi":"Đây là câu hỏi không cần trả lời, mang nghĩa phủ định mạnh: “sao có thể…?”, thể hiện sự ngạc nhiên hoặc phản đối. Phân biệt với câu hỏi thật “能……吗？” (xin phép / hỏi khả năng) qua ngữ cảnh và ngữ điệu.",
+        "examples":[
+          {"zh":"这么重要的东西，你能忘了吗？","pinyin":"Zhème zhòngyào de dōngxi, nǐ néng wàng le ma?","vi":"Đồ quan trọng thế này mà bạn lại quên được sao?"},
+          {"zh":"这么晚了，你能一个人出去吗？","pinyin":"Zhème wǎn le, nǐ néng yí ge rén chūqù ma?","vi":"Muộn thế này rồi, sao bạn có thể ra ngoài một mình?"},
+          {"zh":"在图书馆里，你能打电话吗？","pinyin":"Zài túshūguǎn lǐ, nǐ néng dǎ diànhuà ma?","vi":"Trong thư viện mà bạn lại gọi điện thoại sao?"}
+        ]
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Tìm giám đốc ở văn phòng",
+      "lines": [
+        {"speaker":"小张","zh":"你好，王经理在办公室吗？","pinyin":"Nǐ hǎo, Wáng jīnglǐ zài bàngōngshì ma?","vi":"Chào bạn, giám đốc Vương có ở văn phòng không?"},
+        {"speaker":"同事","zh":"他出去了，正在开会。你进来坐吧。","pinyin":"Tā chūqù le, zhèngzài kāi huì. Nǐ jìnlái zuò ba.","vi":"Anh ấy ra ngoài rồi, đang họp. Bạn vào ngồi đi."},
+        {"speaker":"小张","zh":"他什么时候回来？","pinyin":"Tā shénme shíhou huílái?","vi":"Khi nào anh ấy về?"},
+        {"speaker":"同事","zh":"开完会他就回来，应该还要一个小时。","pinyin":"Kāi wán huì tā jiù huílái, yīnggāi hái yào yí ge xiǎoshí.","vi":"Họp xong là anh ấy về, chắc còn khoảng một tiếng nữa."},
+        {"speaker":"小张","zh":"我给他打了好几个电话，他都没接。","pinyin":"Wǒ gěi tā dǎ le hǎo jǐ ge diànhuà, tā dōu méi jiē.","vi":"Mình gọi cho anh ấy mấy cuộc rồi mà anh ấy đều không nghe."},
+        {"speaker":"同事","zh":"他忘了带手机。","pinyin":"Tā wàng le dài shǒujī.","vi":"Anh ấy quên mang điện thoại."},
+        {"speaker":"小张","zh":"这么重要的会，他能忘了带手机吗？","pinyin":"Zhème zhòngyào de huì, tā néng wàng le dài shǒujī ma?","vi":"Cuộc họp quan trọng thế này mà anh ấy lại quên mang điện thoại sao?"},
+        {"speaker":"同事","zh":"你别担心，他一回来，我马上告诉他你来过了。","pinyin":"Nǐ bié dānxīn, tā yì huílái, wǒ mǎshàng gàosu tā nǐ lái guo le.","vi":"Bạn đừng lo, anh ấy vừa về là mình báo ngay là bạn đã đến."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:开会","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"王经理正在____，你等一会儿。","options":["开会","担心","告诉","重要"],"answer":0,"explanation_vi":"“正在开会” = đang họp, phù hợp với việc phải đợi một lát."},
+      {"id":"e2","type":"choice","tag":"v:带","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我忘了____手机。","options":["带","回来","出去","进来"],"answer":0,"explanation_vi":"“带手机” = mang điện thoại. “忘了带” = quên mang."},
+      {"id":"e3","type":"choice","tag":"g:趋向补语来去","prompt_vi":"Chọn bổ ngữ xu hướng đúng (người nói đang ở trong văn phòng).","question_zh":"经理出去了，一会儿就回____。","options":["来","去","到","过"],"answer":0,"explanation_vi":"Giám đốc quay về chỗ người nói đang ở, nên dùng “来”."},
+      {"id":"e4","type":"choice","tag":"g:趋向补语来去","prompt_vi":"Chọn bổ ngữ xu hướng đúng (người nói đang ở trong phòng).","question_zh":"你站在门口干什么？快进____吧！","options":["来","去","到","了"],"answer":0,"explanation_vi":"Người nói ở trong phòng, người kia đi vào phía người nói, nên dùng “进来”."},
+      {"id":"e5","type":"choice","tag":"g:趋向补语来去","prompt_vi":"Chọn bổ ngữ xu hướng đúng.","question_zh":"他回家____了。","options":["去","来","着","过"],"answer":0,"explanation_vi":"Người nói không ở nhà, anh ấy đi ra xa người nói, nên dùng “回家去”."},
+      {"id":"e6","type":"choice","tag":"g:连续动作","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我下了班____回家。","options":["就","也","还","都"],"answer":0,"explanation_vi":"“V1了(O1)就V2” diễn tả hai động tác nối tiếp nhau: tan làm xong là về nhà ngay."},
+      {"id":"e7","type":"choice","tag":"g:连续动作","prompt_vi":"Chọn câu đúng.","question_zh":"“Tôi ăn cơm xong là đến thư viện ngay.”","options":["我吃了饭就去图书馆。","我吃了饭去就图书馆。","我就吃了饭去图书馆。","我去图书馆吃了饭就。"],"answer":0,"explanation_vi":"Trật tự đúng: V1 + 了 + O1 + 就 + V2 + O2."},
+      {"id":"e8","type":"choice","tag":"g:反问能吗","prompt_vi":"Câu nào là câu hỏi tu từ (không cần trả lời)?","question_zh":"Chọn một đáp án.","options":["这么重要的会，他能忘了带手机吗？","你能告诉我他的电话号码吗？","他今天不能来开会。","我能马上回来。"],"answer":0,"explanation_vi":"Câu đầu mang ý ngạc nhiên “sao có thể quên”. Câu 2 là câu hỏi thật (nhờ giúp đỡ)."},
+      {"id":"e9","type":"choice","tag":"g:反问能吗","prompt_vi":"Chọn ý nghĩa đúng.","question_zh":"他说：“这么晚了，你能一个人出去吗？” 他的意思是：","options":["你可以一个人出去","你不应该一个人出去","你想和我一起出去","你什么时候出去"],"answer":1,"explanation_vi":"“能……吗？” dạng tu từ mang nghĩa phủ định: “sao bạn có thể ra ngoài một mình”, tức là không nên."},
+      {"id":"e10","type":"order","tag":"g:连续动作","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","开完会","就","回办公室"],"answers":["他开完会就回办公室"],"translation_vi":"Họp xong anh ấy về văn phòng ngay.","explanation_vi":"“就” đứng trước động từ thứ hai, sau cụm động từ thứ nhất “开完会”."},
+      {"id":"e11","type":"order","tag":"g:趋向补语来去","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","回","家","去","了"],"answers":["他回家去了"],"translation_vi":"Anh ấy về nhà rồi.","explanation_vi":"Tân ngữ chỉ nơi chốn “家” đứng giữa động từ “回” và “去”."},
+      {"id":"e12","type":"order","tag":"g:反问能吗","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这么重要的事","你","能","忘","了","吗"],"answers":["这么重要的事你能忘了吗","你能忘了这么重要的事吗"],"translation_vi":"Việc quan trọng thế này mà bạn lại quên được sao?","explanation_vi":"Cấu trúc câu hỏi tu từ: 能 + V + 了 + 吗. Cụm “这么重要的事” có thể làm chủ đề đầu câu hoặc tân ngữ."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"办公室","vi":"văn phòng"},{"zh":"经理","vi":"giám đốc"},{"zh":"开会","vi":"họp"},{"zh":"告诉","vi":"nói cho biết"},{"zh":"担心","vi":"lo lắng"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"回来","vi":"trở về"},{"zh":"出去","vi":"đi ra ngoài"},{"zh":"带","vi":"mang theo"},{"zh":"忘","vi":"quên"},{"zh":"马上","vi":"lập tức"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:趋向补语来去","prompt_vi":"Chọn bổ ngữ xu hướng đúng (người nói đang ở trong phòng).","question_zh":"请你进____坐一会儿。","options":["来","去","到","着"],"answer":0,"explanation_vi":"Người nói ở trong phòng, người kia đi vào phía người nói nên dùng “进来”."},
+        {"id":"q2","type":"choice","tag":"g:趋向补语来去","prompt_vi":"Chọn bổ ngữ xu hướng đúng (người nói không ở nhà).","question_zh":"他回家____了，明天才来上班。","options":["去","来","着","过"],"answer":0,"explanation_vi":"Anh ấy về nhà, hướng ra xa người nói nên dùng “回家去”."},
+        {"id":"q3","type":"choice","tag":"g:连续动作","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我下了课____去图书馆。","options":["就","也","还","都"],"answer":0,"explanation_vi":"“V1了(O1)就V2” diễn tả hai động tác nối tiếp nhau: tan học xong là đến thư viện ngay."},
+        {"id":"q4","type":"choice","tag":"g:连续动作","prompt_vi":"Chọn câu đúng.","question_zh":"“Anh ấy họp xong là về nhà.”","options":["他开完会就回家。","他就开完会回家。","他回家就开完会。","他开完就会回家。"],"answer":0,"explanation_vi":"Trật tự đúng: chủ ngữ + V1 + 完/了 + O1 + 就 + V2."},
+        {"id":"q5","type":"choice","tag":"g:反问能吗","prompt_vi":"Chọn câu có nghĩa: “Sao anh ấy có thể quên mang điện thoại được?”","question_zh":"Chọn một đáp án.","options":["他能忘了带手机吗？","他带手机了吗？","他能带手机吗？","他不带手机。"],"answer":0,"explanation_vi":"“能……吗？” dạng tu từ diễn đạt sự ngạc nhiên / phản đối: sao có thể…?"},
+        {"id":"q6","type":"choice","tag":"g:反问能吗","prompt_vi":"Chọn câu có nghĩa: “Trong thư viện mà bạn lại gọi điện thoại sao?”","question_zh":"Chọn một đáp án.","options":["在图书馆里，你能打电话吗？","在图书馆里，你打电话了吗？","你想在图书馆里打电话吗？","图书馆里有电话吗？"],"answer":0,"explanation_vi":"Câu hỏi tu từ “能……吗？” mang nghĩa phản đối: không nên gọi điện thoại ở thư viện."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:带","prompt_vi":"Chọn đáp án đúng.","question_zh":"他忘了____手机，所以我打不通他的电话。","options":["带","告诉","开会","担心"],"answer":0,"explanation_vi":"“忘了带手机” = quên mang điện thoại, nên gọi không được."},
+      {"id":"t2","type":"choice","tag":"g:趋向补语来去","prompt_vi":"Chọn đáp án đúng (người nói đang ở trong văn phòng).","question_zh":"A：王经理在办公室吗？ B：他不在，他出____了。","options":["去","来","到","着"],"answer":0,"explanation_vi":"Giám đốc đi ra xa chỗ người nói đang đứng nên dùng “出去”."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"办公室","vi":"văn phòng"},{"zh":"经理","vi":"giám đốc"},{"zh":"开会","vi":"họp"},{"zh":"电话","vi":"điện thoại"},{"zh":"重要","vi":"quan trọng"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"回来","vi":"trở về"},{"zh":"进来","vi":"đi vào"},{"zh":"出去","vi":"đi ra ngoài"},{"zh":"告诉","vi":"nói cho biết"},{"zh":"担心","vi":"lo lắng"}]},
+      {"id":"t5","type":"order","tag":"g:连续动作","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["下了班","我","就","回家"],"answers":["我下了班就回家","下了班我就回家"],"translation_vi":"Tan làm xong là tôi về nhà ngay.","explanation_vi":"“就” đứng trước động từ thứ hai, sau cụm động từ thứ nhất “下了班”."},
+      {"id":"t6","type":"order","tag":"g:反问能吗","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["在图书馆里","你","能","打电话","吗"],"answers":["在图书馆里你能打电话吗","你在图书馆里能打电话吗"],"translation_vi":"Trong thư viện mà bạn lại gọi điện thoại sao?","explanation_vi":"Cấu trúc câu hỏi tu từ: 能 + V + 吗. Trạng ngữ nơi chốn “在图书馆里” đứng trước hoặc sau chủ ngữ."},
+      {"id":"t7","type":"fill","tag":"v:电话","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我给他打了好几个____，他都没接。","answers":["电话"],"hint_vi":"dùng để gọi cho người khác","explanation_vi":"“打电话” = gọi điện thoại. Cả câu: Tôi gọi cho anh ấy mấy cuộc mà anh ấy đều không nghe."},
+      {"id":"t8","type":"fill","tag":"g:反问能吗","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"这么重要的会，他____忘了带手机吗？","answers":["能"],"hint_vi":"trợ động từ trong câu hỏi tu từ, nghĩa là “có thể”","explanation_vi":"Câu hỏi tu từ 能……吗？ thể hiện sự ngạc nhiên: sao có thể quên mang điện thoại?"},
+      {"id":"t9","type":"listen_choice","tag":"v:开会","prompt_vi":"Nghe audio và chọn nghĩa đúng.","audio_text":"他正在开会，你进来坐吧。","options":["Anh ấy đang họp, bạn vào ngồi đi.","Anh ấy đi họp rồi, bạn ra ngoài đi.","Anh ấy sắp họp, bạn đợi nhé.","Anh ấy không ở đây, bạn về đi."],"answer":0,"explanation_vi":"正在开会 = đang họp; 进来坐 = vào ngồi."},
+      {"id":"t10","type":"listen_choice","tag":"v:回来","prompt_vi":"Nghe audio và chọn câu bạn nghe được.","audio_text":"他什么时候回来？","options":["他什么时候回来？","他什么时候出去？","你什么时候回来？","他什么时候开会？"],"answer":0,"explanation_vi":"Câu nghe được: 他什么时候回来？ (Khi nào anh ấy về?)."},
+      {"id":"t11","type":"dictation","tag":"v:忘","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"他忘了带手机。","answers":["他忘了带手机"],"explanation_vi":"他忘了带手机 = Anh ấy quên mang điện thoại."},
+      {"id":"t12","type":"dictation","tag":"v:担心","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你别担心，我马上告诉他。","answers":["你别担心我马上告诉他"],"explanation_vi":"你别担心，我马上告诉他 = Bạn đừng lo, tôi sẽ báo cho anh ấy ngay."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:什么时候","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Khi nào anh ấy về?","answers":["他什么时候回来","他什么时候回来呢","他什么时候回家","他什么时候回家呢"],"explanation_vi":"Mẫu câu: 他 + 什么时候 + 回来？ (“什么时候” đứng trước động từ)."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:连续动作","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Họp xong là anh ấy về văn phòng ngay.","answers":["他开完会就回办公室","开完会他就回办公室","他开完会就回办公室了"],"explanation_vi":"Hai động tác nối tiếp: 开完会 + 就 + 回办公室."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:开会","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他出去了，正在开会。","answers_vi":["Anh ấy ra ngoài rồi, đang họp.","Anh ấy đi ra ngoài rồi, đang họp."],"keywords":[["anh ấy","cô ấy","ông ấy","bà ấy","họ"],["ra ngoài","đi ra ngoài","đi vắng","không có ở đây"],["đang họp","họp"]],"explanation_vi":"出去了 = đã ra ngoài; 正在开会 = đang họp."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:反问能吗","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这么晚了，你能一个人出去吗？","answers_vi":["Muộn thế này rồi, sao bạn có thể ra ngoài một mình?","Muộn thế này, bạn có thể ra ngoài một mình sao?"],"keywords":[["muộn","khuya"],["một mình"],["ra ngoài","đi ra ngoài"],["sao","có thể","được không","được sao"]],"explanation_vi":"“能……吗？” dạng tu từ mang nghĩa phản đối: muộn thế này không nên ra ngoài một mình."}
+    ],
+    "reading": [
+      {
+        "id": "rp1",
+        "title_zh": "找经理",
+        "title_vi": "Đi tìm giám đốc",
+        "paragraphs": [
+          {
+            "tokens": [["今天","jīntiān","hôm nay"],["上午","shàngwǔ","buổi sáng"],["，"],["小张","Xiǎo Zhāng","Tiểu Trương (tên người)"],["去","qù","đi"],["办公室","bàngōngshì","văn phòng"],["找","zhǎo","tìm"],["王经理","Wáng jīnglǐ","giám đốc Vương"],["。"],["王经理","Wáng jīnglǐ","giám đốc Vương"],["不","bú","không"],["在","zài","có mặt, ở"],["，"],["同事","tóngshì","đồng nghiệp"],["说","shuō","nói"],["他","tā","anh ấy"],["出去","chūqù","đi ra ngoài"],["开会","kāi huì","họp"],["了","le","rồi"],["。"]],
+            "vi": "Sáng nay, Tiểu Trương đến văn phòng tìm giám đốc Vương. Giám đốc Vương không có ở đó, đồng nghiệp nói anh ấy ra ngoài họp rồi."
+          },
+          {
+            "tokens": [["小张","Xiǎo Zhāng","Tiểu Trương"],["问","wèn","hỏi"],["："],["“"],["他","tā","anh ấy"],["什么时候","shénme shíhou","khi nào"],["回来","huílái","trở về"],["？"],["”"],["同事","tóngshì","đồng nghiệp"],["说","shuō","nói"],["："],["“"],["开完会","kāi wán huì","họp xong"],["他","tā","anh ấy"],["就","jiù","thì, ngay"],["回来","huílái","trở về"],["，"],["应该","yīnggāi","chắc là, nên"],["还","hái","còn"],["要","yào","cần"],["一个小时","yí ge xiǎoshí","một tiếng đồng hồ"],["。"],["”"],["小张","Xiǎo Zhāng","Tiểu Trương"],["给","gěi","gọi cho, cho"],["经理","jīnglǐ","giám đốc"],["打","dǎ","gọi (điện)"],["了","le","(trợ từ hoàn thành)"],["好几个","hǎo jǐ ge","mấy (cái), khá nhiều"],["电话","diànhuà","cuộc điện thoại"],["，"],["经理","jīnglǐ","giám đốc"],["都","dōu","đều"],["没","méi","không"],["接","jiē","nghe (máy)"],["。"],["同事","tóngshì","đồng nghiệp"],["说","shuō","nói"],["："],["“"],["他","tā","anh ấy"],["忘","wàng","quên"],["了","le","(trợ từ hoàn thành)"],["带","dài","mang"],["手机","shǒujī","điện thoại di động"],["。"],["”"]],
+            "vi": "Tiểu Trương hỏi: “Khi nào anh ấy về?” Đồng nghiệp nói: “Họp xong là anh ấy về, chắc còn khoảng một tiếng nữa.” Tiểu Trương gọi cho giám đốc mấy cuộc điện thoại nhưng giám đốc đều không nghe máy. Đồng nghiệp nói: “Anh ấy quên mang điện thoại.”"
+          },
+          {
+            "tokens": [["小张","Xiǎo Zhāng","Tiểu Trương"],["很","hěn","rất"],["担心","dān xīn","lo lắng"],["，"],["因为","yīnwèi","bởi vì"],["这件事","zhè jiàn shì","việc này"],["很","hěn","rất"],["重要","zhòngyào","quan trọng"],["。"],["同事","tóngshì","đồng nghiệp"],["说","shuō","nói"],["："],["“"],["你","nǐ","bạn"],["别","bié","đừng"],["担心","dān xīn","lo lắng"],["，"],["进来","jìnlái","vào đi (về phía người nói)"],["坐","zuò","ngồi"],["吧","ba","nhé"],["，"],["他","tā","anh ấy"],["一","yì","hễ, vừa"],["回来","huílái","trở về"],["我","wǒ","tôi"],["就","jiù","thì, ngay"],["告诉","gàosu","nói cho biết"],["他","tā","anh ấy"],["。"],["”"],["一个小时","yí ge xiǎoshí","một tiếng đồng hồ"],["以后","yǐhòu","sau đó"],["，"],["经理","jīnglǐ","giám đốc"],["回来","huílái","trở về"],["了","le","rồi"],["，"],["小张","Xiǎo Zhāng","Tiểu Trương"],["马上","mǎshàng","lập tức"],["进去","jìnqù","đi vào"],["告诉","gàosu","nói cho biết"],["他","tā","anh ấy"],["这件事","zhè jiàn shì","việc này"],["。"]],
+            "vi": "Tiểu Trương rất lo, vì việc này rất quan trọng. Đồng nghiệp nói: “Bạn đừng lo, vào ngồi đi, anh ấy vừa về là tôi báo ngay.” Một tiếng sau, giám đốc về, Tiểu Trương lập tức đi vào báo cho anh ấy việc này."
+          }
+        ],
+        "questions": [
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小张去办公室找谁？","options":["王经理","同事","朋友","老师"],"answer":0,"explanation_vi":"Đoạn 1: 小张去办公室找王经理 (Tiểu Trương đến văn phòng tìm giám đốc Vương)."},
+          {"id":"rq2","type":"choice","tag":"v:开会","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"王经理为什么不在办公室？","options":["他去开会了","他回家了","他生病了","他去买东西了"],"answer":0,"explanation_vi":"Đoạn 1: 同事说他出去开会了 (đồng nghiệp nói anh ấy ra ngoài họp)."},
+          {"id":"rq3","type":"choice","tag":"v:忘","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"经理为什么没接电话？","options":["他忘了带手机","他不想接","他在睡觉","手机坏了"],"answer":0,"explanation_vi":"Đoạn 2: 他忘了带手机 (anh ấy quên mang điện thoại)."},
+          {"id":"rq4","type":"choice","tag":"g:连续动作","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"同事说经理还要多长时间回来？","options":["一个小时","十分钟","三个小时","明天"],"answer":0,"explanation_vi":"Đoạn 2: 开完会他就回来，应该还要一个小时 (họp xong là về, chắc còn một tiếng)."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"小张很担心，因为他不认识王经理。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 小张很担心，因为这件事很重要 (lo vì việc này rất quan trọng), không phải vì không quen giám đốc."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id": "lp1",
+        "title_vi": "Giám đốc quên mang điện thoại",
+        "text_zh": "王经理不在办公室，他去开会了。他的手机在桌子上，他忘了带。我给他打了电话，没有人接。同事说，他开完会就回来，应该十点半回来。",
+        "pinyin": "Wáng jīnglǐ bú zài bàngōngshì, tā qù kāi huì le. Tā de shǒujī zài zhuōzi shang, tā wàng le dài. Wǒ gěi tā dǎ le diànhuà, méiyǒu rén jiē. Tóngshì shuō, tā kāi wán huì jiù huílái, yīnggāi shí diǎn bàn huílái.",
+        "vi": "Giám đốc Vương không ở văn phòng, anh ấy đi họp rồi. Điện thoại của anh ấy ở trên bàn, anh ấy quên mang. Tôi gọi cho anh ấy nhưng không ai nghe máy. Đồng nghiệp nói họp xong là anh ấy về, chắc khoảng mười giờ rưỡi sẽ về.",
+        "questions": [
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"王经理现在在做什么？","options":["开会","打电话","回家","吃饭"],"answer":0,"explanation_vi":"Nghe được: 他去开会了 (anh ấy đi họp rồi)."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"王经理的手机在哪儿？","options":["桌子上","家里","车里","同事那儿"],"answer":0,"explanation_vi":"Nghe được: 他的手机在桌子上 (điện thoại của anh ấy ở trên bàn)."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"为什么没有人接电话？","options":["他忘了带手机","他不想接","他在睡觉","手机坏了"],"answer":0,"explanation_vi":"Nghe được: 他忘了带 (anh ấy quên mang), nên không ai nghe máy."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"同事说王经理几点回来？","options":["十点半","十点","十一点","九点半"],"answer":0,"explanation_vi":"Nghe được: 应该十点半回来 (chắc mười giờ rưỡi sẽ về)."}
+        ]
+      }
+    ]
+  }
+}

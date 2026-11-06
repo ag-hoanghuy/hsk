@@ -1,0 +1,12 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+SQLAlchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+edge-tts>=7.0.0
+numpy>=2.0
+scipy>=1.13
+praat-parselmouth>=0.4.5
+pypinyin>=0.53
+soundfile>=0.12
+faster-whisper>=1.1
