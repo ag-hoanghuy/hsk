@@ -131,6 +131,12 @@ export default function SpeakPractice({ lessonId, item, onScored, onNext }: Prop
             <div className="font-han text-3xl font-bold leading-snug text-stone-800">{item.zh}</div>
             {showPinyin && <PinyinText text={item.pinyin} className="mt-1 block text-lg font-medium" />}
             {showVi && <div className="mt-1 text-stone-500">{item.vi}</div>}
+            {item.tip && (
+              <p className="mt-3 rounded-2xl bg-amber-50 px-3 py-2 text-sm text-amber-800">
+                <span className="font-semibold">Chú ý: </span>
+                {item.tip}
+              </p>
+            )}
           </div>
           <div className="flex shrink-0 items-center gap-2">
             <AudioButton text={item.zh} label="Nghe mẫu" />

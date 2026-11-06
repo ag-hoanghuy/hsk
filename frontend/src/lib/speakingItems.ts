@@ -6,6 +6,7 @@ export interface SpeakItem {
   pinyin: string;
   vi: string;
   speaker?: string;
+  tip?: string; // what to watch out for when saying it
 }
 
 export interface SpeakGroup {
@@ -29,6 +30,11 @@ export function buildSpeakingGroups(content: LessonContent): SpeakGroup[] {
     return true;
   };
 
+  const drills: SpeakItem[] = [];
+  (content.speaking ?? []).forEach((d) => {
+    if (take(d.zh)) drills.push({ id: d.id, zh: d.zh, pinyin: d.pinyin, vi: d.vi, tip: d.tip_vi });
+  });
+
   const dialogue: SpeakItem[] = [];
   (content.dialogue?.lines ?? []).forEach((l, i) => {
     if (take(l.zh)) dialogue.push({ id: `d${i}`, zh: l.zh, pinyin: l.pinyin, vi: l.vi, speaker: l.speaker });
@@ -48,6 +54,7 @@ export function buildSpeakingGroups(content: LessonContent): SpeakGroup[] {
   });
 
   return [
+    { key: "drills", label: "Câu luyện nói (dễ đến khó)", items: drills },
     { key: "dialogue", label: "Hội thoại", items: dialogue },
     { key: "grammar", label: "Mẫu câu ngữ pháp", items: grammar },
     { key: "vocab", label: "Câu ví dụ từ vựng", items: vocab },

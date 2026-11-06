@@ -1,25 +1,31 @@
 {
-  "_comment": "Schema example. Real lessons go in content/hsk3/lesson-01.json, content/hsk4/lesson-01.json, ... (files under _example are ignored by the seeder). Titles and grammar points come from content/curriculum.json. See content/hsk3/lesson-01.json for a complete lesson, and check new content with tools/validate_content.py.",
+  "_comment": "Schema example (placeholders; files under _example are ignored by the seeder and the validator). Full rules: content/_example/README.md. Complete reference lesson: content/hsk3/lesson-01.json.",
   "level": 3,
   "number": 1,
   "summary": "Tóm tắt ngắn nội dung bài",
   "content": {
+    "objectives": ["Hỏi và nói về dự định cuối tuần", "…"],
     "vocab": [
-      { "id": "v1", "hanzi": "打算", "pinyin": "dǎsuàn", "pos": "động từ", "meaning_vi": "dự định", "example_zh": "你周末有什么打算？", "example_pinyin": "Nǐ zhōumò yǒu shénme dǎsuàn?", "example_vi": "Cuối tuần bạn có dự định gì?" }
+      { "id": "v1", "hanzi": "打算", "pinyin": "dǎsuàn", "pos": "động từ / danh từ", "meaning_vi": "dự định", "example_zh": "你周末有什么打算？", "example_pinyin": "Nǐ zhōumò yǒu shénme dǎsuàn?", "example_vi": "Cuối tuần bạn có dự định gì?", "hanviet": "ĐẢ TOÁN", "note_vi": "Ghi chú tuỳ chọn: từ dễ nhầm, cách dùng" }
     ],
+    "extra_vocab": [
+      { "id": "x1", "hanzi": "…", "pinyin": "…", "pos": "…", "meaning_vi": "…", "example_zh": "…", "example_pinyin": "…", "example_vi": "…" }
+    ],
+    "glossary": [{ "hanzi": "…", "pinyin": "…", "meaning_vi": "…", "kind": "base" }],
     "grammar": [
-      { "id": "g1", "title": "Tên điểm ngữ pháp", "pattern": "S + 打算 + V", "explanation_vi": "Giải thích bằng tiếng Việt", "examples": [{ "zh": "我打算去北京。", "pinyin": "Wǒ dǎsuàn qù Běijīng.", "vi": "Tôi định đi Bắc Kinh." }] }
+      { "id": "g1", "title": "Tên điểm ngữ pháp", "pattern": "S + 打算 + V", "explanation_vi": "Giải thích bằng tiếng Việt", "examples": [{ "zh": "我打算去北京。", "pinyin": "Wǒ dǎsuàn qù Běijīng.", "vi": "Tôi định đi Bắc Kinh." }], "mistakes_vi": "✗ câu sai\n✓ câu đúng\nVì sao", "compare_vi": "Tuỳ chọn: so sánh với tiếng Việt" }
     ],
     "dialogue": {
       "title_vi": "Hội thoại",
-      "lines": [{ "speaker": "A", "zh": "你周末有什么打算？", "pinyin": "Nǐ zhōumò yǒu shénme dǎsuàn?", "vi": "Cuối tuần bạn có dự định gì?" }]
+      "scene_vi": "Bối cảnh một câu",
+      "lines": [{ "speaker": "小李", "zh": "你周末有什么打算？", "pinyin": "Nǐ zhōumò yǒu shénme dǎsuàn?", "vi": "Cuối tuần bạn có dự định gì?" }]
     },
     "exercises": [
-      { "id": "e1", "type": "choice", "tag": "v:打算", "prompt_vi": "…", "question_zh": "周末你有什么____？", "options": ["打算", "作业"], "answer": 0, "explanation_vi": "…" },
+      { "id": "e1", "type": "choice", "tag": "v:打算", "prompt_vi": "…", "question_zh": "周末你有什么____？", "options": ["打算", "作业", "附近", "比赛"], "answer": 0, "explanation_vi": "…" },
       { "id": "e2", "type": "order", "tag": "g:…", "prompt_vi": "…", "words": ["我", "去", "北京"], "answers": ["我去北京"], "translation_vi": "…", "explanation_vi": "…" },
       { "id": "e3", "type": "match", "tag": "vocab", "prompt_vi": "…", "pairs": [{ "zh": "周末", "vi": "cuối tuần" }] }
     ],
-    "quiz": { "grammar": ["… câu hỏi dạng choice như exercises, 6 câu"] },
+    "quiz": { "grammar": ["… 6 câu dạng choice như exercises"] },
     "test": [
       "… 16 câu = 8 dạng x 2: choice, match, order, fill {sentence_zh có ____, answers, hint_vi}, listen_choice {audio_text, options, answer}, dictation {audio_text, answers}, translate_vi_zh {source_vi, answers}, translate_zh_vi {source_zh, answers_vi, keywords}"
     ],
@@ -50,6 +56,8 @@
           { "id": "lq1", "type": "choice", "tag": "listening", "prompt_vi": "…", "question_zh": "…", "options": ["…", "…"], "answer": 0, "explanation_vi": "…" }
         ]
       }
-    ]
+    ],
+    "speaking": [{ "id": "s1", "zh": "…", "pinyin": "…", "vi": "…", "tip_vi": "Chú ý thanh điệu …" }],
+    "review": { "remember": ["… 5 ý"], "mistakes": ["… 3 lỗi"] }
   }
 }

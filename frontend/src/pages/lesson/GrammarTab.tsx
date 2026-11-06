@@ -30,6 +30,18 @@ export default function GrammarTab({ grammar }: { grammar: GrammarItem[] }) {
               </div>
             ))}
           </div>
+          {g.mistakes_vi && (
+            <div className="mt-4 rounded-2xl bg-amber-50 p-4 text-sm leading-relaxed text-amber-900">
+              <div className="mb-1 font-semibold">Lỗi người Việt hay gặp</div>
+              <p className="whitespace-pre-line">{g.mistakes_vi}</p>
+            </div>
+          )}
+          {g.compare_vi && (
+            <div className="mt-3 rounded-2xl bg-sky-50 p-4 text-sm leading-relaxed text-sky-900">
+              <div className="mb-1 font-semibold">So với tiếng Việt</div>
+              <p className="whitespace-pre-line">{g.compare_vi}</p>
+            </div>
+          )}
         </Card>
       ))}
     </div>

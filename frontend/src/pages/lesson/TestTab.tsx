@@ -8,7 +8,7 @@ import { newSeed } from "../../lib/random";
 import { tagLabel } from "../../lib/tags";
 import TestResult from "./TestResult";
 
-function TestRunner({
+export function TestRunner({
   questions,
   pool,
   seed,

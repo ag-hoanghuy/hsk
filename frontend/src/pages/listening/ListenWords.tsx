@@ -7,13 +7,15 @@ import PinyinText from "../../components/PinyinText";
 import { newSeed, seededShuffle } from "../../lib/random";
 import { useSequencePlayer } from "../../lib/useSequence";
 
-export default function ListenWords({ vocab }: { vocab: VocabItem[] }) {
+export default function ListenWords({ vocab, extra = [] }: { vocab: VocabItem[]; extra?: VocabItem[] }) {
   const [seed, setSeed] = useState<string | null>(null); // null = lesson order
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
   const [all, setAll] = useState(false);
+  const [useExtra, setUseExtra] = useState(false);
   const { index, play, stop } = useSequencePlayer();
 
-  const words = useMemo(() => (seed ? seededShuffle(vocab, seed) : vocab), [vocab, seed]);
+  const list = useExtra ? extra : vocab;
+  const words = useMemo(() => (seed ? seededShuffle(list, seed) : list), [list, seed]);
   const toggle = (id: string) =>
     setRevealed((s) => {
       const next = new Set(s);
@@ -27,6 +29,29 @@ export default function ListenWords({ vocab }: { vocab: VocabItem[] }) {
       <p className="mb-4 text-sm text-stone-500">
         Nghe từng từ và đoán nghĩa trước, rồi bấm vào thẻ để kiểm tra. Có thể nghe lại nhiều lần, hoặc nghe chậm.
       </p>
+      {extra.length > 0 && (
+        <div className="mb-4 inline-flex rounded-full bg-rose-50 p-1">
+          {[
+            { on: false, label: `Từ chính (${vocab.length})` },
+            { on: true, label: `Từ mở rộng (${extra.length})` },
+          ].map((o) => (
+            <button
+              key={o.label}
+              type="button"
+              onClick={() => {
+                stop();
+                setUseExtra(o.on);
+                setRevealed(new Set());
+              }}
+              className={`rounded-full px-5 py-1.5 text-sm font-semibold transition ${
+                useExtra === o.on ? "bg-white text-rose-500 shadow-card" : "text-stone-500 hover:text-rose-500"
+              }`}
+            >
+              {o.label}
+            </button>
+          ))}
+        </div>
+      )}
       <div className="mb-5 flex flex-wrap items-center gap-2">
         {index === null ? (
           <Button onClick={() => play(words.map((w) => w.hanzi), { gapMs: 1200 })}>Nghe lần lượt cả bài</Button>

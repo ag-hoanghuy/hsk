@@ -28,6 +28,8 @@ services:
       - ./content:/content
       - ./audio:/audio
       - ./models:/models
+      - ./tools:/tools
+      - ./docs:/docs
     ports:
       - "8000:8000"
     depends_on:

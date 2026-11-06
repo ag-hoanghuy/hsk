@@ -235,18 +235,168 @@ def walk_pairs(obj, where: str) -> None:
             walk_pairs(v, where)
 
 
-def check_lesson(path: Path, curriculum: dict[tuple[int, int], dict]) -> None:
+def count_range(n: int, lo: int, hi: int, where: str, what: str) -> None:
+    if not lo <= n <= hi:
+        warn(where, f"{what}: {n} (expected {lo}-{hi})")
+
+
+TEST_TYPES = ["choice", "match", "order", "fill", "listen_choice", "dictation", "translate_vi_zh", "translate_zh_vi"]
+REQUIRED = ["objectives", "vocab", "extra_vocab", "grammar", "dialogue", "exercises", "quiz", "test", "reading", "listening", "speaking", "review"]
+
+
+def check_structure(c: dict, level: int, where: str) -> None:
+    """The lesson layout every lesson must follow (see content/_example/README.md)."""
+    for key in REQUIRED:
+        if not c.get(key):
+            err(where, f"missing section {key!r}")
+    count_range(len(c.get("objectives", [])), 3, 4, where, "objectives")
+    count_range(len(c.get("vocab", [])), 15, 20, where, "core vocab")
+    count_range(len(c.get("extra_vocab", [])), 25, 35, where, "extra vocab")
+    count_range(len(c.get("grammar", [])), 2, 4, where, "grammar points")
+    for g in c.get("grammar", []):
+        gw = f"{where}/grammar/{g.get('id')}"
+        if len(g.get("examples", [])) < 3:
+            warn(gw, f"only {len(g.get('examples', []))} examples (expected 3)")
+        if not g.get("mistakes_vi"):
+            warn(gw, "no mistakes_vi (common mistakes of Vietnamese learners)")
+    count_range(len(c.get("dialogue", {}).get("lines", [])), 8, 10, where, "dialogue lines")
+    count_range(len(c.get("exercises", [])), 12, 14, where, "exercises")
+    if len(c.get("quiz", {}).get("grammar", [])) != 6:
+        warn(where, f"quiz.grammar has {len(c.get('quiz', {}).get('grammar', []))} questions (expected 6)")
+    types = [q.get("type") for q in c.get("test", [])]
+    for t in TEST_TYPES:
+        if types.count(t) != 2:
+            err(where, f"test must have 2 questions of type {t}, has {types.count(t)}")
+    lo, hi = (80, 150) if level == 3 else (150, 250)
+    for p in c.get("reading", []):
+        n = sum(len(r) for para in p.get("paragraphs", []) for t in para.get("tokens", []) for r in HAN.findall(t[0]))
+        count_range(n, lo, hi, f"{where}/reading/{p.get('id')}", "characters")
+        qs = p.get("questions", [])
+        count_range(len(qs), 4, 5, f"{where}/reading/{p.get('id')}", "questions")
+        if not any(q.get("options") == ["对", "错"] for q in qs):
+            warn(f"{where}/reading/{p.get('id')}", "no true/false (对/错) question")
+    for p in c.get("listening", []):
+        count_range(len(p.get("questions", [])), 3, 4, f"{where}/listening/{p.get('id')}", "questions")
+    count_range(len(c.get("speaking", [])), 5, 8, where, "speaking drills")
+    check_ids(c.get("speaking", []), f"{where}/speaking")
+    for s in c.get("speaking", []):
+        if not (s.get("vi") and s.get("tip_vi")):
+            err(f"{where}/speaking/{s.get('id')}", "missing vi or tip_vi")
+    review = c.get("review", {})
+    count_range(len(review.get("remember", [])), 5, 5, where, "review.remember")
+    count_range(len(review.get("mistakes", [])), 3, 3, where, "review.mistakes")
+    for g in c.get("glossary", []):
+        if g.get("kind") not in ("base", "beyond") or not g.get("meaning_vi"):
+            err(f"{where}/glossary/{g.get('hanzi')}", "glossary entry needs kind base|beyond and meaning_vi")
+
+
+# ---- HSK word lists (content/reference) ---------------------------------------------------
+
+
+class Lists:
+    """HSK 3.0 levels (word -> lowest level) and old HSK 2.0 levels, when the reference files exist."""
+
+    def __init__(self) -> None:
+        self.new: dict[str, int] = {}
+        self.old: dict[str, int] = {}
+        ref = CONTENT / "reference"
+        for name, table in (("hsk30_words.json", self.new), ("hsk20_words.json", self.old)):
+            path = ref / name
+            if not path.exists():
+                continue
+            for item in json.loads(path.read_text(encoding="utf-8")):
+                for form in [item["hanzi"], *item.get("variants", [])]:
+                    form = form.strip()
+                    if form and (form not in table or item["level"] < table[form]):
+                        table[form] = int(item["level"])
+        self.longest = max((len(w) for w in self.new), default=1)
+
+    @property
+    def available(self) -> bool:
+        return bool(self.new)
+
+    def segment(self, text: str, extra: set[str]) -> list[str]:
+        """Forward maximum matching over the HSK 3.0 list plus the given words; unknown characters come out one by one."""
+        out: list[str] = []
+        for run in HAN.findall(text):
+            i = 0
+            while i < len(run):
+                for n in range(min(max(self.longest, 4), len(run) - i), 0, -1):
+                    w = run[i : i + n]
+                    if n == 1 or w in self.new or w in extra:
+                        out.append(w)
+                        i += n
+                        break
+        return out
+
+
+def lesson_texts(c: dict) -> list[str]:
+    texts = [l["zh"] for l in c.get("dialogue", {}).get("lines", [])]
+    texts += [e["zh"] for g in c.get("grammar", []) for e in g.get("examples", [])]
+    texts += [v.get("example_zh", "") for v in c.get("vocab", []) + c.get("extra_vocab", [])]
+    texts += ["".join(t[0] for para in p.get("paragraphs", []) for t in para.get("tokens", [])) for p in c.get("reading", [])]
+    texts += [p.get("text_zh", "") for p in c.get("listening", [])]
+    texts += [s.get("zh", "") for s in c.get("speaking", [])]
+    return texts
+
+
+def check_levels(lessons: list[tuple[str, dict]], lists: Lists) -> None:
+    """Taught words belong to the lesson's HSK 3.0 level, are taught once, and every word the texts use that the
+    learner cannot be expected to know (HSK 3.0 level 1-2 beyond old HSK 1-2, or not taught yet) is in the glossary."""
+    taught_at: dict[str, str] = {}
+    known: set[str] = {w for w, lv in lists.old.items() if lv <= 2}
+    for where, data in lessons:  # sorted by level, number
+        c, level = data["content"], data["level"]
+        words = [v["hanzi"] for v in c.get("vocab", []) + c.get("extra_vocab", [])]
+        for w in words:
+            lv = lists.new.get(w)
+            if lv is None:
+                warn(where, f"taught word {w} is not in the HSK 3.0 list")
+            elif lv != level:
+                warn(where, f"taught word {w} is HSK 3.0 level {lv}, lesson is level {level}")
+            if w in taught_at:
+                warn(where, f"word {w} is already taught in {taught_at[w]}")
+        for w in words:
+            taught_at.setdefault(w, where)
+        glossary = {g["hanzi"] for g in c.get("glossary", [])}
+        seen = set(taught_at) | known
+        missing: dict[str, str] = {}
+        for text in lesson_texts(c):
+            for w in lists.segment(text, seen | glossary):
+                if w in seen or w in glossary:
+                    continue
+                lv = lists.new.get(w)
+                if lv is None:
+                    continue  # names and characters outside the lists
+                missing[w] = "base" if lv <= 2 else "beyond"
+        if missing:
+            listed = ", ".join(f"{w}({k})" for w, k in sorted(missing.items()))
+            warn(where, f"{len(missing)} word(s) used but not taught/known/glossed: {listed}")
+
+
+def coverage(lessons: list[tuple[str, dict]], lists: Lists) -> list[str]:
+    lines = []
+    for level in (3, 4):
+        target = {w for w, lv in lists.new.items() if lv == level}
+        taught = {v["hanzi"] for _, d in lessons if d["level"] == level for v in d["content"].get("vocab", []) + d["content"].get("extra_vocab", [])}
+        if target:
+            lines.append(f"HSK 3.0 level {level}: {len(taught & target)}/{len(target)} words taught ({100 * len(taught & target) // len(target)}%)")
+    return lines
+
+
+def check_lesson(path: Path, curriculum: dict[tuple[int, int], dict]) -> dict:
     where = f"{path.parent.name}/{path.name}"
     data = json.loads(path.read_text(encoding="utf-8"))
     key = (data["level"], data["number"])
     if key not in curriculum:
         err(where, f"HSK{key[0]} lesson {key[1]} is not in curriculum.json")
     c = data["content"]
-    vocab = {v["hanzi"] for v in c.get("vocab", [])}
-    check_ids(c.get("vocab", []), f"{where}/vocab")
-    for v in c.get("vocab", []):
-        if not (v.get("meaning_vi") and v.get("example_zh") and v.get("example_vi")):
-            err(f"{where}/vocab/{v.get('hanzi')}", "missing meaning/example")
+    check_structure(c, data["level"], where)
+    vocab = {v["hanzi"] for v in c.get("vocab", []) + c.get("extra_vocab", [])}
+    check_ids(c.get("vocab", []) + c.get("extra_vocab", []), f"{where}/vocab")
+    for v in c.get("vocab", []) + c.get("extra_vocab", []):
+        if not (v.get("meaning_vi") and v.get("example_zh") and v.get("example_vi") and v.get("pos")):
+            err(f"{where}/vocab/{v.get('hanzi')}", "missing pos/meaning/example")
     walk_pairs(c, where)
     for section in ("exercises", "test"):
         items = c.get(section, [])
@@ -259,6 +409,7 @@ def check_lesson(path: Path, curriculum: dict[tuple[int, int], dict]) -> None:
         check_question(q, f"{where}/quiz/{q.get('id')}", vocab)
     check_reading(c.get("reading", []), f"{where}/reading", vocab)
     check_listening(c.get("listening", []), f"{where}/listening", vocab)
+    return data
 
 
 def main() -> int:
@@ -271,16 +422,34 @@ def main() -> int:
         if nums != list(range(1, 21)):
             err("curriculum.json", f"HSK{level} lessons are not 1..20: {nums}")
 
+    only = [a for a in sys.argv[1:] if not a.startswith("-")]  # e.g. hsk3/lesson-05.json to report on one lesson
     files = sorted(CONTENT.glob("hsk*/lesson-*.json"))
+    lessons: list[tuple[str, dict]] = []
     for f in files:
-        check_lesson(f, curriculum)
+        lessons.append((f"{f.parent.name}/{f.name}", check_lesson(f, curriculum)))
+    lessons.sort(key=lambda x: (x[1]["level"], x[1]["number"]))
+
+    lists = Lists()
+    if lists.available:
+        check_levels(lessons, lists)
+    else:
+        warnings.append("content/reference/hsk30_words.json not found: HSK level and glossary checks skipped")
+
+    def shown(line: str) -> bool:
+        return not only or any(line.startswith(o) for o in only)
 
     for w in warnings:
-        print("WARN ", w)
+        if shown(w):
+            print("WARN ", w)
     for e in errors:
-        print("ERROR", e)
-    print(f"\n{len(files)} lesson file(s) checked: {len(errors)} error(s), {len(warnings)} warning(s)")
-    return 1 if errors else 0
+        if shown(e):
+            print("ERROR", e)
+    if lists.available:
+        print("\n" + "\n".join(coverage(lessons, lists)))
+    n_err = sum(1 for e in errors if shown(e))
+    n_warn = sum(1 for w in warnings if shown(w))
+    print(f"\n{len(files)} lesson file(s) checked{' (showing ' + ', '.join(only) + ')' if only else ''}: {n_err} error(s), {n_warn} warning(s)")
+    return 1 if n_err else 0
 
 
 if __name__ == "__main__":

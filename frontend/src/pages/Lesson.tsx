@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 
 import { api, LessonDetail, ProgressRow, Section } from "../api";
 import { Button } from "../components/Card";
@@ -7,27 +7,35 @@ import DialogueTab from "./lesson/DialogueTab";
 import GrammarTab from "./lesson/GrammarTab";
 import PracticeTab from "./lesson/PracticeTab";
 import QuizTab from "./lesson/QuizTab";
+import ReviewTab from "./lesson/ReviewTab";
 import TestTab from "./lesson/TestTab";
 import VocabTab from "./lesson/VocabTab";
 
-const TABS: { key: Section; label: string }[] = [
+type TabKey = Section | "review";
+
+const TABS: { key: TabKey; label: string }[] = [
   { key: "vocab", label: "Từ vựng" },
   { key: "grammar", label: "Ngữ pháp" },
   { key: "dialogue", label: "Hội thoại" },
   { key: "practice", label: "Bài tập" },
   { key: "quiz", label: "Quiz" },
   { key: "test", label: "Kiểm tra" },
+  { key: "review", label: "Ôn nhanh" },
 ];
 
 // Study sections the learner ticks off by hand; practice, quiz and test record themselves on completion.
-const MANUAL_SECTIONS: Section[] = ["vocab", "grammar", "dialogue"];
+const MANUAL_SECTIONS: TabKey[] = ["vocab", "grammar", "dialogue"];
 
 export default function Lesson() {
   const { id } = useParams();
+  const [search] = useSearchParams();
   const lessonId = Number(id);
   const [lesson, setLesson] = useState<LessonDetail | null>(null);
   const [progress, setProgress] = useState<ProgressRow[]>([]);
-  const [tab, setTab] = useState<Section>("vocab");
+  const [tab, setTab] = useState<TabKey>(() => {
+    const wanted = search.get("tab");
+    return TABS.some((t) => t.key === wanted) ? (wanted as TabKey) : "vocab";
+  });
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -36,7 +44,7 @@ export default function Lesson() {
     api.progress(lessonId).then(setProgress).catch(() => undefined);
   }, [lessonId]);
 
-  const done = (s: Section) => progress.find((p) => p.section === s);
+  const done = (s: TabKey) => progress.find((p) => p.section === s);
 
   const markDone = async (section: Section, score?: number) => {
     const row = await api.saveProgress(lessonId, section, score);
@@ -66,6 +74,19 @@ export default function Lesson() {
         <h1 className="mt-1 font-han text-3xl font-bold text-stone-800">{lesson.title_zh}</h1>
         <p className="mt-1 text-stone-500">{lesson.title_vi}</p>
         {lesson.summary && <p className="mt-3 text-sm text-stone-500">{lesson.summary}</p>}
+        {c.objectives && c.objectives.length > 0 && (
+          <div className="mt-4 rounded-3xl bg-white p-4 shadow-card">
+            <div className="text-sm font-semibold text-stone-500">Học xong bài này, bạn có thể:</div>
+            <ul className="mt-2 grid gap-1.5 text-stone-700 sm:grid-cols-2">
+              {c.objectives.map((o, i) => (
+                <li key={i} className="flex gap-2">
+                  <span className="text-rose-400">✓</span>
+                  <span>{o}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       <div className="mt-6 flex flex-wrap gap-2">
@@ -84,9 +105,10 @@ export default function Lesson() {
       </div>
 
       <div className="mt-6">
-        {tab === "vocab" && <VocabTab vocab={c.vocab} />}
+        {tab === "vocab" && <VocabTab vocab={c.vocab} extra={c.extra_vocab} glossary={c.glossary} />}
         {tab === "grammar" && <GrammarTab grammar={c.grammar} />}
-        {tab === "dialogue" && <DialogueTab title={c.dialogue.title_vi} lines={c.dialogue.lines} />}
+        {tab === "dialogue" && <DialogueTab title={c.dialogue.title_vi} scene={c.dialogue.scene_vi} lines={c.dialogue.lines} />}
+        {tab === "review" && <ReviewTab lesson={lesson} />}
         {tab === "practice" && (
           <PracticeTab key={lessonId} exercises={c.exercises} onFinish={(score) => markDone("practice", score)} />
         )}
@@ -99,7 +121,7 @@ export default function Lesson() {
                 Đã học xong phần này ✓
               </span>
             ) : (
-              <Button onClick={() => markDone(tab)}>Đánh dấu đã học xong</Button>
+              <Button onClick={() => markDone(tab as Section)}>Đánh dấu đã học xong</Button>
             )}
           </div>
         )}

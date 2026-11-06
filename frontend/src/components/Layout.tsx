@@ -5,7 +5,8 @@ const NAV = [
   { to: "/speaking", label: "Luyện nói" },
   { to: "/reading", label: "Luyện đọc" },
   { to: "/listening", label: "Luyện nghe" },
-  { to: "/tests", label: "Kiểm tra" },
+  { to: "/progress", label: "Tiến độ" },
+  { to: "/roadmap", label: "Lộ trình" },
 ];
 
 export default function Layout() {

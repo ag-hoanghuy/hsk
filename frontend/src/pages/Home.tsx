@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { api, LessonSummary, ProgressRow, SECTIONS } from "../api";
+import { api, LessonSummary, Overview, ProgressRow, SECTIONS } from "../api";
 
 const LEVELS = [3, 4];
 
@@ -47,10 +47,39 @@ function LessonCard({ lesson, done }: { lesson: LessonSummary; done: number }) {
   );
 }
 
+function TodayBanner({ data }: { data: Overview }) {
+  const due = data.reviews_due.length;
+  return (
+    <div className="mt-5 flex flex-wrap items-center gap-4 rounded-3xl bg-gradient-to-r from-rose-100 to-amber-50 p-5">
+      <div className="text-4xl">{data.streak > 0 ? "🔥" : "🌱"}</div>
+      <div className="min-w-0 flex-1">
+        <div className="font-bold text-stone-800">
+          {data.streak > 0 ? `Bạn đã học ${data.streak} ngày liên tiếp!` : "Hôm nay mình bắt đầu học nhé!"}
+        </div>
+        <div className="text-sm text-stone-600">
+          {due > 0
+            ? `Có ${due} bài đến hạn ôn hôm nay: ${data.reviews_due
+                .slice(0, 3)
+                .map((r) => `HSK${r.level} bài ${r.number}`)
+                .join(", ")}${due > 3 ? "…" : ""}.`
+            : "Không có bài nào cần ôn, học tiếp bài mới thôi."}
+        </div>
+      </div>
+      <Link
+        to="/progress"
+        className="rounded-full bg-white px-5 py-2 text-sm font-semibold text-rose-500 shadow-card transition hover:bg-rose-50"
+      >
+        {due > 0 ? "Ôn ngay" : "Xem tiến độ"}
+      </Link>
+    </div>
+  );
+}
+
 export default function Home() {
   const [level, setLevel] = useState(3);
   const [lessons, setLessons] = useState<LessonSummary[] | null>(null);
   const [progress, setProgress] = useState<ProgressRow[]>([]);
+  const [overview, setOverview] = useState<Overview | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -60,10 +89,15 @@ export default function Home() {
     api.progress().then(setProgress).catch(() => undefined);
   }, [level]);
 
+  useEffect(() => {
+    api.overview().then(setOverview).catch(() => undefined);
+  }, []);
+
   return (
     <div>
       <h1 className="text-2xl font-bold text-stone-800">Danh sách bài học</h1>
       <p className="mt-1 text-stone-500">Chọn một bài để bắt đầu học hôm nay.</p>
+      {overview && <TodayBanner data={overview} />}
 
       <div className="mt-6 inline-flex rounded-full bg-rose-50 p-1">
         {LEVELS.map((l) => (

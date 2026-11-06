@@ -94,7 +94,7 @@ export default function ListeningLesson() {
       </div>
 
       <div className="mt-6">
-        {mode === "words" && <ListenWords vocab={c.vocab} />}
+        {mode === "words" && <ListenWords vocab={c.vocab} extra={c.extra_vocab} />}
         {mode === "dialogue" && <ListenDialogue title={c.dialogue.title_vi} lines={c.dialogue.lines} />}
         {mode === "passage" && <ListenPassageTab passages={c.listening ?? []} onFinish={finish} />}
         {mode === "choice" && (

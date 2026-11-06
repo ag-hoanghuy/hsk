@@ -10,3 +10,4 @@ praat-parselmouth>=0.4.5
 pypinyin>=0.53
 soundfile>=0.12
 faster-whisper>=1.1
+tzdata>=2024.1

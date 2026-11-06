@@ -19,6 +19,24 @@ export interface VocabItem {
   example_zh: string;
   example_pinyin: string;
   example_vi: string;
+  hanviet?: string; // Sino-Vietnamese reading, e.g. "CHU MẠT"
+  note_vi?: string; // easily confused words, usage notes
+}
+
+/** A word that appears in the lesson's texts but is not taught in it (base HSK 3.0 level 1–2 word, or above the level). */
+export interface GlossaryItem {
+  hanzi: string;
+  pinyin: string;
+  meaning_vi: string;
+  kind: "base" | "beyond";
+}
+
+export interface SpeakingDrill {
+  id: string;
+  zh: string;
+  pinyin: string;
+  vi: string;
+  tip_vi: string; // what to watch out for (tones, sandhi, sounds)
 }
 
 export interface Example {
@@ -33,6 +51,8 @@ export interface GrammarItem {
   pattern: string;
   explanation_vi: string;
   examples: Example[];
+  mistakes_vi?: string; // typical mistakes of Vietnamese learners (wrong → right)
+  compare_vi?: string; // comparison with Vietnamese, when it helps
 }
 
 export interface DialogueLine extends Example {
@@ -150,9 +170,14 @@ export type TestQuestion =
 export type TestType = TestQuestion["type"];
 
 export interface LessonContent {
+  objectives?: string[];
   vocab: VocabItem[];
+  extra_vocab?: VocabItem[];
+  glossary?: GlossaryItem[];
   grammar: GrammarItem[];
-  dialogue: { title_vi: string; lines: DialogueLine[] };
+  dialogue: { title_vi: string; scene_vi?: string; lines: DialogueLine[] };
+  speaking?: SpeakingDrill[];
+  review?: { remember: string[]; mistakes: string[] };
   exercises: Exercise[];
   quiz?: { grammar?: ChoiceExercise[] };
   test?: TestQuestion[];
@@ -261,6 +286,73 @@ export interface SpeakingBest {
   tries: number;
 }
 
+export interface ReviewStep {
+  step: number; // 1..5 → 1, 3, 7, 14, 30 days after the lesson test
+  due: string; // YYYY-MM-DD
+  done_on: string | null;
+  status: "done" | "due" | "upcoming";
+}
+
+export interface ReviewItem extends ReviewStep {
+  lesson_id: number;
+  level: number;
+  number: number;
+  title_zh: string;
+  title_vi: string;
+  overdue_days?: number;
+}
+
+export interface LessonOverview {
+  id: number;
+  level: number;
+  number: number;
+  title_zh: string;
+  title_vi: string;
+  available: boolean;
+  done: Section[];
+  scores: Partial<Record<Section, number>>;
+  speaking_best: number | null;
+  last_activity: string | null;
+  learned_on: string | null;
+  reviews: ReviewStep[];
+}
+
+export interface Overview {
+  today: string;
+  streak: number;
+  active_days: number;
+  calendar: { date: string; count: number }[];
+  totals: {
+    lessons_available: number;
+    lessons_started: number;
+    lessons_finished: number;
+    words_learned: number;
+    tests_taken: number;
+    avg_test: number | null;
+    speaking_attempts: number;
+    mock_best: Record<string, number | null>;
+  };
+  lessons: LessonOverview[];
+  reviews_due: ReviewItem[];
+  reviews_upcoming: ReviewItem[];
+  mistakes: { lesson_id: number; level: number; number: number; tag: string; total: number; wrong: number }[];
+}
+
+export interface CurriculumItem {
+  level: number;
+  number: number;
+  title_zh: string;
+  title_vi: string;
+  grammar_points: string[];
+  theme_vi: string;
+  goal_vi: string;
+  id: number | null;
+  available: boolean;
+  vocab_count: number;
+  extra_count: number;
+  objectives: string[];
+}
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(path, init);
   if (!res.ok) {
@@ -316,4 +408,16 @@ export const api = {
       body: wav,
     }),
   speakingBest: (lessonId: number) => request<SpeakingBest[]>(`/api/speaking/best?lesson_id=${lessonId}`),
+  overview: () => request<Overview>("/api/overview"),
+  createMock: (level: number, answers: (AnswerRecord & { lesson_id: number })[]) =>
+    request<Attempt>("/api/mock", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ level, answers }),
+    }),
+  mocks: (level: number) => request<Attempt[]>(`/api/mock?level=${level}`),
+  mock: (id: number) => request<Attempt>(`/api/mock/${id}`),
+  acceptMockAnswer: (id: number, questionId: string) =>
+    request<Attempt>(`/api/mock/${id}/answers/${encodeURIComponent(questionId)}/accept`, { method: "POST" }),
+  curriculum: () => request<CurriculumItem[]>("/api/curriculum"),
 };

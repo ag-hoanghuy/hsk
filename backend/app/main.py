@@ -13,7 +13,7 @@ from pydantic import BaseModel
 from sqlalchemy import select
 from sqlalchemy.orm import Session, selectinload
 
-from . import speaking, tts
+from . import mock, overview, speaking, tts
 from .db import SessionLocal, get_db
 from .models import Attempt, AttemptAnswer, Lesson, SectionProgress
 from .seed import seed_lessons
@@ -45,6 +45,8 @@ app = FastAPI(title="HSK Web API", lifespan=lifespan)
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 app.mount("/audio", StaticFiles(directory=AUDIO_DIR), name="audio")
 app.include_router(speaking.router)
+app.include_router(overview.router)
+app.include_router(mock.router)
 
 
 def lesson_summary(lesson: Lesson) -> dict:

@@ -74,6 +74,21 @@ class SpeakingAttempt(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
 
 
+class MockAttempt(Base):
+    """An end-of-level mock exam. `answers` holds one record per question: question_id ("<lesson_id>:<id>"),
+    lesson_id, qtype, tag, user_answer, is_correct, overridden."""
+
+    __tablename__ = "mock_attempts"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    level: Mapped[int] = mapped_column(Integer, index=True)
+    correct: Mapped[int] = mapped_column(Integer)
+    total: Mapped[int] = mapped_column(Integer)
+    score: Mapped[int] = mapped_column(Integer)
+    answers: Mapped[list] = mapped_column(JsonType, default=list)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+
+
 class AttemptAnswer(Base):
     """The learner's answer to one question. `tag` names the vocab word / grammar point it tests."""
 

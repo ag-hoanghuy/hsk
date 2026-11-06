@@ -254,6 +254,27 @@ type Phase =
   | { name: "play"; kind: QuizKind; questions: QuizQuestion[] }
   | { name: "result"; kind: QuizKind; questions: QuizQuestion[]; summary: Summary };
 
+function Switch({ on, onToggle, title, desc }: { on: boolean; onToggle: () => void; title: string; desc: string }) {
+  return (
+    <div className="mb-3 flex items-center justify-between gap-3 rounded-2xl bg-white p-4 shadow-card">
+      <div>
+        <div className="font-semibold text-stone-800">{title}</div>
+        <div className="text-sm text-stone-500">{desc}</div>
+      </div>
+      <button
+        type="button"
+        role="switch"
+        aria-checked={on}
+        aria-label={title}
+        onClick={onToggle}
+        className={`relative h-7 w-12 shrink-0 rounded-full transition ${on ? "bg-rose-500" : "bg-stone-300"}`}
+      >
+        <span className={`absolute top-0.5 h-6 w-6 rounded-full bg-white shadow transition-all ${on ? "left-[1.5rem]" : "left-0.5"}`} />
+      </button>
+    </div>
+  );
+}
+
 export default function QuizTab({
   lesson,
   onFinished,
@@ -266,9 +287,15 @@ export default function QuizTab({
   const [best, setBest] = useState<Partial<Record<QuizKind, { points: number; score: number }>>>({});
   const [saveError, setSaveError] = useState(false);
 
+  const [withExtra, setWithExtra] = useState(false);
   const grammarItems = lesson.content.quiz?.grammar ?? [];
+  const extra = lesson.content.extra_vocab ?? [];
   const build = (kind: QuizKind) =>
-    kind === "quiz_vocab" ? buildVocabQuiz(lesson.content.vocab, 10) : buildGrammarQuiz(grammarItems);
+    kind === "quiz_vocab"
+      ? withExtra && extra.length > 0
+        ? buildVocabQuiz([...lesson.content.vocab, ...extra], 15)
+        : buildVocabQuiz(lesson.content.vocab, 10)
+      : buildGrammarQuiz(grammarItems);
 
   const loadBest = () => {
     (["quiz_vocab", "quiz_grammar"] as QuizKind[]).forEach((kind) =>
@@ -336,7 +363,10 @@ export default function QuizTab({
       kind: "quiz_vocab",
       icon: "📖",
       title: "Quiz từ vựng",
-      desc: "10 câu: chọn nghĩa, chọn từ tiếng Trung, nghe và chọn từ.",
+      desc:
+        withExtra && extra.length > 0
+          ? `15 câu từ ${lesson.content.vocab.length} từ chính và ${extra.length} từ mở rộng.`
+          : "10 câu: chọn nghĩa, chọn từ tiếng Trung, nghe và chọn từ.",
       disabled: lesson.content.vocab.length < 4,
     },
     {
@@ -350,24 +380,21 @@ export default function QuizTab({
 
   return (
     <div>
-      <div className="mb-5 flex items-center justify-between gap-3 rounded-2xl bg-white p-4 shadow-card">
-        <div>
-          <div className="font-semibold text-stone-800">Đếm giờ (20 giây mỗi câu)</div>
-          <div className="text-sm text-stone-500">Trả lời nhanh được thêm điểm. Tắt đi để chơi thong thả.</div>
-        </div>
-        <button
-          type="button"
-          role="switch"
-          aria-checked={timed}
-          onClick={() => setTimed(!timed)}
-          className={`relative h-7 w-12 shrink-0 rounded-full transition ${timed ? "bg-rose-500" : "bg-stone-300"}`}
-        >
-          <span
-            className={`absolute top-0.5 h-6 w-6 rounded-full bg-white shadow transition-all ${timed ? "left-[1.5rem]" : "left-0.5"}`}
-          />
-        </button>
-      </div>
-      <div className="grid gap-4 sm:grid-cols-2">
+      <Switch
+        on={timed}
+        onToggle={() => setTimed(!timed)}
+        title="Đếm giờ (20 giây mỗi câu)"
+        desc="Trả lời nhanh được thêm điểm. Tắt đi để chơi thong thả."
+      />
+      {extra.length > 0 && (
+        <Switch
+          on={withExtra}
+          onToggle={() => setWithExtra(!withExtra)}
+          title="Gồm cả từ mở rộng"
+          desc={`Quiz từ vựng hỏi thêm ${extra.length} từ mở rộng của bài.`}
+        />
+      )}
+      <div className="mt-5 grid gap-4 sm:grid-cols-2">
         {cards.map((c) => (
           <Card key={c.kind}>
             <div className="text-4xl">{c.icon}</div>

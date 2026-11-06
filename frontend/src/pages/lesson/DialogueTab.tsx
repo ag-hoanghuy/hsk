@@ -8,6 +8,7 @@ import { playText, stopAudio } from "../../lib/audio";
 
 interface Props {
   title: string;
+  scene?: string;
   lines: DialogueLine[];
 }
 
@@ -25,7 +26,7 @@ function Toggle({ on, label, onClick }: { on: boolean; label: string; onClick: (
   );
 }
 
-export default function DialogueTab({ title, lines }: Props) {
+export default function DialogueTab({ title, scene, lines }: Props) {
   const [showPinyin, setShowPinyin] = useState(true);
   const [showVi, setShowVi] = useState(true);
   const [playing, setPlaying] = useState<number | null>(null);
@@ -63,6 +64,7 @@ export default function DialogueTab({ title, lines }: Props) {
         <Toggle on={showVi} label="Tiếng Việt" onClick={() => setShowVi(!showVi)} />
         {playing === null ? <Button onClick={playAll}>Nghe cả bài</Button> : <Button variant="soft" onClick={stopAll}>Dừng</Button>}
       </div>
+      {scene && <p className="-mt-2 mb-5 text-sm italic text-stone-500">{scene}</p>}
       <div className="space-y-4">
         {lines.map((line, i) => {
           const right = speakers.indexOf(line.speaker) % 2 === 1;
