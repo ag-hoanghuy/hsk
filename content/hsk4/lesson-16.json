@@ -1,0 +1,256 @@
+{
+  "level": 4,
+  "number": 16,
+  "summary": "Hai bạn cùng phòng bàn cách thay đổi thói quen để cuộc sống tươi đẹp hơn: dậy sớm, lên kế hoạch, dọn dẹp; học 可 (nhấn mạnh, dặn dò), 恐怕 (e rằng), 到底 (rốt cuộc), 拿……来说 (lấy… làm ví dụ), 敢 (dám) cùng từ vựng về thói quen và nhà ở",
+  "readings_ok": ["得 děi"],
+  "content": {
+    "objectives": [
+      "Nói về thói quen tốt bằng 养成、改变、好处、坏处、计划、安排、整理、收拾、提醒",
+      "Nhấn mạnh, dặn dò bằng 可 (今天可冷了, 你可别忘了) và phỏng đoán điều không hay bằng 恐怕",
+      "Hỏi dồn hay chốt ý bằng 到底, đưa ví dụ minh họa bằng 拿……来说",
+      "Nói “dám / không dám” bằng 敢"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"恐怕","pinyin":"kǒngpà","pos":"phó từ","meaning_vi":"e rằng, chắc là (phỏng đoán điều không hay)","example_zh":"看这天气，恐怕要下雨了。","example_pinyin":"Kàn zhè tiānqì, kǒngpà yào xià yǔ le.","example_vi":"Nhìn thời tiết này, e rằng sắp mưa rồi.","hanviet":"KHỦNG PHÁ","note_vi":"Dùng cho phỏng đoán không thuận lợi, hơi lo lắng; cũng dùng để từ chối lịch sự: 我恐怕不能去了. Không dùng cho tin tốt (✗ 恐怕你会成功)."},
+      {"id":"v2","hanzi":"到底","pinyin":"dàodǐ","pos":"phó từ","meaning_vi":"rốt cuộc, cuối cùng; thực ra","example_zh":"你到底想吃什么？","example_pinyin":"Nǐ dàodǐ xiǎng chī shénme?","example_vi":"Rốt cuộc bạn muốn ăn gì?","hanviet":"ĐÁO ĐỀ","note_vi":"(1) Trong câu hỏi: ép người nghe trả lời, thiếu kiên nhẫn. (2) Trong câu kể: sau nhiều lần mới có kết quả (他到底成功了). (3) Giải thích: 他到底是个孩子 (dù sao thì cậu ấy vẫn là trẻ con)."},
+      {"id":"v3","hanzi":"敢","pinyin":"gǎn","pos":"động từ năng nguyện","meaning_vi":"dám","example_zh":"我不敢一个人走夜路。","example_pinyin":"Wǒ bù gǎn yí ge rén zǒu yèlù.","example_vi":"Tôi không dám đi đường đêm một mình.","hanviet":"CẢM","note_vi":"敢 + động từ. Phủ định là 不敢; nghi vấn là 敢不敢 / 敢……吗. Hán Việt “cảm” (dũng cảm) khác 感 (cảm xúc). Không dùng cùng 要: ✗ 敢要去."},
+      {"id":"v4","hanzi":"美好","pinyin":"měihǎo","pos":"tính từ","meaning_vi":"tốt đẹp, tươi đẹp","example_zh":"这是一个美好的早晨。","example_pinyin":"Zhè shì yí ge měihǎo de zǎochen.","example_vi":"Đây là một buổi sáng tươi đẹp.","hanviet":"MỸ HẢO","note_vi":"美好 nói về điều trừu tượng, tốt đẹp (生活、回忆、愿望, 美好的一天); 美丽 (bài 8) thiên về vẻ ngoài của cảnh vật, người."},
+      {"id":"v5","hanzi":"更加","pinyin":"gèngjiā","pos":"phó từ","meaning_vi":"càng thêm, hơn nữa","example_zh":"他比以前更加努力了。","example_pinyin":"Tā bǐ yǐqián gèngjiā nǔlì le.","example_vi":"Anh ấy còn chăm chỉ hơn trước.","note_vi":"更加 + tính từ / động từ tâm lý (更加高兴, 更加喜欢). So với 更: 更加 hơi trang trọng hơn, hay đi với từ hai âm tiết."},
+      {"id":"v6","hanzi":"改变","pinyin":"gǎibiàn","pos":"động từ","meaning_vi":"thay đổi","example_zh":"这件事改变了他的生活。","example_pinyin":"Zhè jiàn shì gǎibiàn le tā de shēnghuó.","example_vi":"Chuyện này đã thay đổi cuộc sống của anh ấy.","hanviet":"CẢI BIẾN","note_vi":"改变 + tân ngữ (改变看法、改变习惯) nhấn mạnh việc làm cho khác đi; 改 (sửa) nhỏ hơn: 改作业. 变 (trở nên) không có tân ngữ: 天气变了."},
+      {"id":"v7","hanzi":"养成","pinyin":"yǎngchéng","pos":"động từ","meaning_vi":"hình thành (thói quen)","example_zh":"养成好习惯不容易。","example_pinyin":"Yǎngchéng hǎo xíguàn bù róngyì.","example_vi":"Hình thành thói quen tốt không dễ.","hanviet":"DƯỠNG THÀNH","note_vi":"养成 + 习惯 / 好习惯 / 生活方式: tập thành thói quen sau một thời gian. Không dùng cho vật nuôi (đó là 养)."},
+      {"id":"v8","hanzi":"好处","pinyin":"hǎochù","pos":"danh từ","meaning_vi":"lợi ích, điểm tốt","example_zh":"早睡早起对身体有很多好处。","example_pinyin":"Zǎo shuì zǎo qǐ duì shēntǐ yǒu hěn duō hǎochù.","example_vi":"Ngủ sớm dậy sớm có nhiều lợi ích cho sức khỏe.","note_vi":"对……有好处 (có lợi cho…). Trái nghĩa: 坏处. Chữ 处 đọc chù (thanh 4)."},
+      {"id":"v9","hanzi":"坏处","pinyin":"huàichù","pos":"danh từ","meaning_vi":"tác hại, điểm xấu","example_zh":"吸烟对身体有很多坏处。","example_pinyin":"Xī yān duì shēntǐ yǒu hěn duō huàichù.","example_vi":"Hút thuốc có nhiều tác hại cho cơ thể.","note_vi":"对……有坏处 (có hại cho…). Cặp đối lập: 好处 – 坏处."},
+      {"id":"v10","hanzi":"方式","pinyin":"fāngshì","pos":"danh từ","meaning_vi":"cách thức, phương thức","example_zh":"每个人的生活方式都不一样。","example_pinyin":"Měi ge rén de shēnghuó fāngshì dōu bù yíyàng.","example_vi":"Lối sống của mỗi người đều khác nhau.","hanviet":"PHƯƠNG THỨC","note_vi":"Hay gặp: 生活方式 (lối sống), 学习方式, 思考方式. Khác 方法 (phương pháp cụ thể để làm một việc)."},
+      {"id":"v11","hanzi":"日常","pinyin":"rìcháng","pos":"tính từ","meaning_vi":"thường ngày, hằng ngày","example_zh":"这是日常生活中的小事。","example_pinyin":"Zhè shì rìcháng shēnghuó zhōng de xiǎo shì.","example_vi":"Đây là chuyện nhỏ trong cuộc sống thường ngày.","hanviet":"NHẬT THƯỜNG","note_vi":"Chỉ làm định ngữ: 日常生活, 日常用品, 日常工作. Không đứng một mình làm vị ngữ."},
+      {"id":"v12","hanzi":"计划","pinyin":"jìhuà","pos":"danh từ / động từ","meaning_vi":"kế hoạch; lên kế hoạch","example_zh":"你周末有什么计划？","example_pinyin":"Nǐ zhōumò yǒu shénme jìhuà?","example_vi":"Cuối tuần bạn có kế hoạch gì?","hanviet":"KẾ HOẠCH","note_vi":"Danh từ: 做计划, 有计划, 学习计划. Động từ: 我计划明年去旅行. Khác 打算 (dự định, nhẹ hơn)."},
+      {"id":"v13","hanzi":"安排","pinyin":"ānpái","pos":"động từ / danh từ","meaning_vi":"sắp xếp, bố trí","example_zh":"老师安排我们明天去参观。","example_pinyin":"Lǎoshī ānpái wǒmen míngtiān qù cānguān.","example_vi":"Cô giáo sắp xếp cho chúng tôi ngày mai đi tham quan.","hanviet":"AN BÀI","note_vi":"安排时间 (sắp xếp thời gian), 安排工作, 生活安排. Nhấn mạnh việc sắp đặt cụ thể, khác 计划 (kế hoạch tổng thể)."},
+      {"id":"v14","hanzi":"轻松","pinyin":"qīngsōng","pos":"tính từ","meaning_vi":"thoải mái, nhẹ nhàng, dễ dàng","example_zh":"周末不用上班，心情很轻松。","example_pinyin":"Zhōumò búyòng shàngbān, xīnqíng hěn qīngsōng.","example_vi":"Cuối tuần không phải đi làm, tâm trạng rất thoải mái.","note_vi":"Có thể nói về tâm trạng (心情轻松), công việc (工作轻松), cách làm (轻松地完成). Trái nghĩa: 紧张."},
+      {"id":"v15","hanzi":"提醒","pinyin":"tíxǐng","pos":"động từ","meaning_vi":"nhắc nhở","example_zh":"谢谢你提醒我，我差点儿忘了。","example_pinyin":"Xièxie nǐ tíxǐng wǒ, wǒ chàdiǎnr wàng le.","example_vi":"Cảm ơn bạn đã nhắc, tôi suýt quên.","hanviet":"ĐỀ TỈNH","note_vi":"提醒 + ai + (làm gì / điều gì). Khác 通知 (thông báo) và 告诉 (nói cho biết)."},
+      {"id":"v16","hanzi":"收拾","pinyin":"shōushi","pos":"động từ","meaning_vi":"thu dọn, dọn dẹp","example_zh":"客人快到了，我们赶快收拾一下房间。","example_pinyin":"Kèrén kuài dào le, wǒmen gǎnkuài shōushi yíxià fángjiān.","example_vi":"Khách sắp đến rồi, chúng ta mau dọn phòng một chút.","note_vi":"收拾房间 (dọn phòng), 收拾行李 (thu xếp hành lý), 收拾东西 (thu dọn đồ). Khẩu ngữ. Chữ 拾 đọc nhẹ."},
+      {"id":"v17","hanzi":"整理","pinyin":"zhěnglǐ","pos":"động từ","meaning_vi":"sắp xếp gọn gàng, chỉnh lý","example_zh":"他每天晚上都整理书桌。","example_pinyin":"Tā měi tiān wǎnshang dōu zhěnglǐ shūzhuō.","example_vi":"Mỗi tối anh ấy đều sắp xếp lại bàn học.","hanviet":"CHỈNH LÝ","note_vi":"整理 làm cho có thứ tự (整理资料、整理衣服); 收拾 thiên về dọn cho gọn, nhặt đồ. Hai từ thường đi cùng: 收拾整理."},
+      {"id":"v18","hanzi":"今后","pinyin":"jīnhòu","pos":"danh từ","meaning_vi":"từ nay về sau","example_zh":"今后我要早点儿睡觉。","example_pinyin":"Jīnhòu wǒ yào zǎo diǎnr shuìjiào.","example_vi":"Từ nay về sau tôi sẽ đi ngủ sớm hơn.","hanviet":"KIM HẬU","note_vi":"今后 = 从现在开始以后, hướng tương lai. Khác 以后 (về sau, có thể quá khứ+): 毕业以后. 今后 chỉ nói về tương lai gần từ thời điểm nói."},
+      {"id":"v19","hanzi":"早晨","pinyin":"zǎochen","pos":"danh từ","meaning_vi":"sáng sớm, buổi sớm","example_zh":"早晨的空气很好。","example_pinyin":"Zǎochen de kōngqì hěn hǎo.","example_vi":"Không khí buổi sớm rất trong lành.","hanviet":"TẢO THẦN","note_vi":"Chữ 晨 đọc nhẹ: zǎochen. 早晨 gần với 早上 nhưng văn vẻ hơn, nhấn thời gian từ lúc mặt trời mọc đến khoảng 8–9 giờ."},
+      {"id":"v20","hanzi":"提前","pinyin":"tíqián","pos":"động từ","meaning_vi":"làm trước, sớm hơn dự định","example_zh":"你最好提前十分钟到。","example_pinyin":"Nǐ zuì hǎo tíqián shí fēnzhōng dào.","example_vi":"Bạn nên đến sớm mười phút.","hanviet":"ĐỀ TIỀN","note_vi":"提前 + khoảng thời gian + V (提前十分钟到) hoặc 提前 + V (提前准备). Trái nghĩa: 推迟 (dời muộn)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"时间表","pinyin":"shíjiānbiǎo","pos":"danh từ","meaning_vi":"thời gian biểu, lịch trình","example_zh":"我做了一个学习时间表。","example_pinyin":"Wǒ zuò le yí ge xuéxí shíjiānbiǎo.","example_vi":"Tôi đã làm một thời gian biểu học tập."},
+      {"id":"x2","hanzi":"醒","pinyin":"xǐng","pos":"động từ","meaning_vi":"tỉnh giấc","example_zh":"我今天五点就醒了。","example_pinyin":"Wǒ jīntiān wǔ diǎn jiù xǐng le.","example_vi":"Hôm nay năm giờ tôi đã tỉnh giấc.","note_vi":"醒 là tỉnh, mở mắt; 起床 là rời khỏi giường. 醒来 (tỉnh dậy)."},
+      {"id":"x3","hanzi":"做梦","pinyin":"zuòmèng","pos":"động từ","meaning_vi":"nằm mơ","example_zh":"我昨晚做了一个很长的梦。","example_pinyin":"Wǒ zuówǎn zuò le yí ge hěn cháng de mèng.","example_vi":"Đêm qua tôi mơ một giấc mơ rất dài.","note_vi":"Động từ li hợp (做 + 梦): 做了一个梦, 做过梦."},
+      {"id":"x4","hanzi":"梦","pinyin":"mèng","pos":"danh từ","meaning_vi":"giấc mơ","example_zh":"我梦到了小时候的家。","example_pinyin":"Wǒ mèng dào le xiǎo shíhou de jiā.","example_vi":"Tôi mơ thấy ngôi nhà thuở nhỏ.","hanviet":"MỘNG","note_vi":"梦 vừa là danh từ (一个梦) vừa là động từ (梦到, nằm mơ thấy)."},
+      {"id":"x5","hanzi":"晚安","pinyin":"wǎn'ān","pos":"động từ","meaning_vi":"chúc ngủ ngon","example_zh":"晚安，明天见！","example_pinyin":"Wǎn'ān, míngtiān jiàn!","example_vi":"Chúc ngủ ngon, mai gặp!","hanviet":"VÃN AN"},
+      {"id":"x6","hanzi":"改","pinyin":"gǎi","pos":"động từ","meaning_vi":"sửa, đổi","example_zh":"这个计划我想改一下。","example_pinyin":"Zhège jìhuà wǒ xiǎng gǎi yíxià.","example_vi":"Kế hoạch này tôi muốn sửa lại một chút.","hanviet":"CẢI"},
+      {"id":"x7","hanzi":"定","pinyin":"dìng","pos":"động từ","meaning_vi":"định, chốt","example_zh":"我们把时间定在明天下午。","example_pinyin":"Wǒmen bǎ shíjiān dìng zài míngtiān xiàwǔ.","example_vi":"Chúng ta chốt thời gian vào chiều mai.","hanviet":"ĐỊNH"},
+      {"id":"x8","hanzi":"空","pinyin":"kōng","pos":"tính từ","meaning_vi":"trống, rỗng","example_zh":"房间里是空的，什么都没有。","example_pinyin":"Fángjiān li shì kōng de, shénme dōu méiyǒu.","example_vi":"Trong phòng trống không, chẳng có gì cả.","hanviet":"KHÔNG","note_vi":"空 kōng (trống) khác 空 kòng (rảnh: 有空儿). Ở đây đọc kōng."},
+      {"id":"x9","hanzi":"外出","pinyin":"wàichū","pos":"động từ","meaning_vi":"ra ngoài, đi vắng","example_zh":"他今天外出了，不在家。","example_pinyin":"Tā jīntiān wàichū le, bú zài jiā.","example_vi":"Hôm nay anh ấy ra ngoài, không có ở nhà."},
+      {"id":"x10","hanzi":"顺便","pinyin":"shùnbiàn","pos":"phó từ","meaning_vi":"tiện thể","example_zh":"你出去的时候，顺便帮我买瓶水。","example_pinyin":"Nǐ chūqu de shíhou, shùnbiàn bāng wǒ mǎi píng shuǐ.","example_vi":"Lúc bạn ra ngoài, tiện thể mua giúp tôi chai nước.","hanviet":"THUẬN TIỆN"},
+      {"id":"x11","hanzi":"赶快","pinyin":"gǎnkuài","pos":"phó từ","meaning_vi":"mau lên, nhanh lên","example_zh":"天要下雨了，赶快回家吧。","example_pinyin":"Tiān yào xià yǔ le, gǎnkuài huí jiā ba.","example_vi":"Trời sắp mưa, mau về nhà thôi."},
+      {"id":"x12","hanzi":"租","pinyin":"zū","pos":"động từ","meaning_vi":"thuê","example_zh":"我在学校附近租了一个房子。","example_pinyin":"Wǒ zài xuéxiào fùjìn zū le yí ge fángzi.","example_vi":"Tôi thuê một căn nhà gần trường.","hanviet":"TÔ"},
+      {"id":"x13","hanzi":"出租","pinyin":"chūzū","pos":"động từ","meaning_vi":"cho thuê","example_zh":"这个房子出租，一个月两千块。","example_pinyin":"Zhège fángzi chūzū, yí ge yuè liǎng qiān kuài.","example_vi":"Căn nhà này cho thuê, một tháng hai nghìn tệ.","hanviet":"XUẤT TÔ"},
+      {"id":"x14","hanzi":"房租","pinyin":"fángzū","pos":"danh từ","meaning_vi":"tiền thuê nhà","example_zh":"这个月的房租已经交了。","example_pinyin":"Zhège yuè de fángzū yǐjīng jiāo le.","example_vi":"Tiền thuê nhà tháng này đã đóng rồi."},
+      {"id":"x15","hanzi":"房东","pinyin":"fángdōng","pos":"danh từ","meaning_vi":"chủ nhà","example_zh":"我的房东是一位很好的老人。","example_pinyin":"Wǒ de fángdōng shì yí wèi hěn hǎo de lǎorén.","example_vi":"Chủ nhà của tôi là một cụ già rất tốt."},
+      {"id":"x16","hanzi":"家具","pinyin":"jiājù","pos":"danh từ","meaning_vi":"đồ nội thất","example_zh":"这套家具是新买的。","example_pinyin":"Zhè tào jiājù shì xīn mǎi de.","example_vi":"Bộ đồ nội thất này mới mua.","hanviet":"GIA CỤ"},
+      {"id":"x17","hanzi":"客厅","pinyin":"kètīng","pos":"danh từ","meaning_vi":"phòng khách","example_zh":"客人来了，请他们坐在客厅里。","example_pinyin":"Kèrén lái le, qǐng tāmen zuò zài kètīng li.","example_vi":"Khách đến rồi, mời họ ngồi ở phòng khách.","hanviet":"KHÁCH SẢNH"},
+      {"id":"x18","hanzi":"厕所","pinyin":"cèsuǒ","pos":"danh từ","meaning_vi":"nhà vệ sinh","example_zh":"请问，厕所在哪儿？","example_pinyin":"Qǐngwèn, cèsuǒ zài nǎr?","example_vi":"Xin hỏi, nhà vệ sinh ở đâu?"},
+      {"id":"x19","hanzi":"钥匙","pinyin":"yàoshi","pos":"danh từ","meaning_vi":"chìa khóa","example_zh":"我找不到家里的钥匙了。","example_pinyin":"Wǒ zhǎo bu dào jiā li de yàoshi le.","example_vi":"Tôi không tìm thấy chìa khóa nhà.","note_vi":"钥匙 đọc yàoshi, trùng cách đọc với 要是 (nếu) – chỉ khác chữ viết và ngữ cảnh."},
+      {"id":"x20","hanzi":"毛巾","pinyin":"máojīn","pos":"danh từ","meaning_vi":"khăn mặt, khăn tắm nhỏ","example_zh":"洗完脸，用毛巾擦干。","example_pinyin":"Xǐ wán liǎn, yòng máojīn cā gān.","example_vi":"Rửa mặt xong, dùng khăn lau khô."},
+      {"id":"x21","hanzi":"牙膏","pinyin":"yágāo","pos":"danh từ","meaning_vi":"kem đánh răng","example_zh":"牙膏用完了，要再买一支。","example_pinyin":"Yágāo yòng wán le, yào zài mǎi yì zhī.","example_vi":"Kem đánh răng hết rồi, phải mua thêm một tuýp."},
+      {"id":"x22","hanzi":"擦","pinyin":"cā","pos":"động từ","meaning_vi":"lau, chùi","example_zh":"请把桌子擦干净。","example_pinyin":"Qǐng bǎ zhuōzi cā gānjìng.","example_vi":"Xin hãy lau sạch cái bàn."},
+      {"id":"x23","hanzi":"敲","pinyin":"qiāo","pos":"động từ","meaning_vi":"gõ","example_zh":"有人在敲门。","example_pinyin":"Yǒu rén zài qiāo mén.","example_vi":"Có người đang gõ cửa."},
+      {"id":"x24","hanzi":"理发","pinyin":"lǐfà","pos":"động từ","meaning_vi":"cắt tóc","example_zh":"我下午要去理发。","example_pinyin":"Wǒ xiàwǔ yào qù lǐfà.","example_vi":"Chiều nay tôi phải đi cắt tóc.","note_vi":"Động từ li hợp (理 + 发): 理了发, 理个发. Ở đây 发 đọc fà (tóc)."},
+      {"id":"x25","hanzi":"街道","pinyin":"jiēdào","pos":"danh từ","meaning_vi":"đường phố","example_zh":"这条街道很干净。","example_pinyin":"Zhè tiáo jiēdào hěn gānjìng.","example_vi":"Con phố này rất sạch sẽ.","hanviet":"NHAI ĐẠO"},
+      {"id":"x26","hanzi":"对面","pinyin":"duìmiàn","pos":"danh từ","meaning_vi":"đối diện, phía đối diện","example_zh":"超市就在学校对面。","example_pinyin":"Chāoshì jiù zài xuéxiào duìmiàn.","example_vi":"Siêu thị ở ngay đối diện trường học.","hanviet":"ĐỐI DIỆN"},
+      {"id":"x27","hanzi":"市区","pinyin":"shìqū","pos":"danh từ","meaning_vi":"nội thành, trung tâm thành phố","example_zh":"从这儿到市区要半个小时。","example_pinyin":"Cóng zhèr dào shìqū yào bàn ge xiǎoshí.","example_vi":"Từ đây đến nội thành mất nửa tiếng."},
+      {"id":"x28","hanzi":"月份","pinyin":"yuèfèn","pos":"danh từ","meaning_vi":"tháng (trong năm)","example_zh":"一年有十二个月份。","example_pinyin":"Yì nián yǒu shí'èr ge yuèfèn.","example_vi":"Một năm có mười hai tháng."},
+      {"id":"x29","hanzi":"末","pinyin":"mò","pos":"danh từ","meaning_vi":"cuối (kỳ, tháng, năm)","example_zh":"这个月末我要搬进新房子。","example_pinyin":"Zhège yuè mò wǒ yào bān jìn xīn fángzi.","example_vi":"Cuối tháng này tôi sẽ chuyển vào nhà mới.","note_vi":"末 trong từ ghép: 周末 (cuối tuần), 月末, 年末, 期末. Chuyển nhà là 搬家."},
+      {"id":"x30","hanzi":"整","pinyin":"zhěng","pos":"tính từ / phó từ","meaning_vi":"cả, nguyên, trọn vẹn","example_zh":"他看了整整一天的书。","example_pinyin":"Tā kàn le zhěngzhěng yì tiān de shū.","example_vi":"Anh ấy đã đọc sách suốt cả một ngày.","note_vi":"整 + lượng từ / thời gian: 整天 (suốt ngày), 整个 (cả), 整整 (tròn đúng, nhấn mạnh)."}
+    ],
+    "glossary": [
+      {"hanzi":"搬","pinyin":"bān","meaning_vi":"chuyển, dọn (nhà)","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“可” nhấn mạnh và dặn dò",
+        "pattern":"可 + Adj + 了 / 呢　·　可 + 别 / 要 / 得 + V　·　可 + 不 + V",
+        "explanation_vi":"可 là phó từ khẩu ngữ để nhấn mạnh thái độ, có ba cách dùng thường gặp:\n(1) 可 + tính từ + 了 / 呢 = “thật là… đấy / lắm đấy”, dùng khi cảm thán hoặc để người nghe chú ý: 今天可冷了！他可聪明呢！ Cuối câu thường có 了 / 呢 / 啦.\n(2) 可 + 别 / 要 / 得 + động từ = dặn dò, nhắc nhở với giọng nghiêm túc: 你可别忘了！路上可要小心！这件事你可得想清楚！ Có thể dịch “nhớ đấy”, “đừng có… nhé”.\n(3) 可 + 不 + động từ = nhấn mạnh sự phủ định: 我可不想去 (tôi thật sự không muốn đi), 他可不是小孩子.\nCác từ 可以 / 可能 / 可是 là từ khác, đừng nhầm lẫn.",
+        "examples":[
+          {"zh":"今天可冷了，你多穿点儿衣服。","pinyin":"Jīntiān kě lěng le, nǐ duō chuān diǎnr yīfu.","vi":"Hôm nay lạnh lắm đấy, bạn mặc thêm quần áo vào."},
+          {"zh":"你可别忘了明天要早起。","pinyin":"Nǐ kě bié wàng le míngtiān yào zǎoqǐ.","vi":"Bạn nhớ đừng quên ngày mai phải dậy sớm nhé."},
+          {"zh":"这件事你可得想清楚。","pinyin":"Zhè jiàn shì nǐ kě děi xiǎng qīngchu.","vi":"Chuyện này bạn phải nghĩ cho thật kỹ đấy."},
+          {"zh":"我可不想一个人去。","pinyin":"Wǒ kě bù xiǎng yí ge rén qù.","vi":"Tôi thật sự không muốn đi một mình."}
+        ],
+        "mistakes_vi":"✗ 今天可冷。\n✓ 今天可冷了！\n可 + tính từ nhấn mạnh thường kết thúc bằng 了 / 呢 / 啦, không để trơ trọi.\n✗ 我可很高兴。\n✓ 我可高兴了！\n可 đã mang nghĩa nhấn mạnh, không dùng chung với 很.\n✗ 你可别要忘了。\n✓ 你可别忘了。\nDặn dò: 可 + 别 + động từ, không thêm 要.",
+        "compare_vi":"可 ≈ “thật là, đấy” (nhấn mạnh); 可别 ≈ “nhớ đừng”; 可得 ≈ “phải đấy”."
+      },
+      {
+        "id":"g2",
+        "title":"“恐怕” (e rằng) và “到底” (rốt cuộc)",
+        "pattern":"S + 恐怕 + V　·　S + 到底 + V不V / 疑问词　·　S + 到底 + V + 了",
+        "explanation_vi":"(1) 恐怕 là phó từ chỉ phỏng đoán điều không hay hoặc đáng lo: “e rằng, chắc là (không tốt)”. Dùng khi nói về thời tiết xấu, khó khăn, tin xấu: 恐怕要下雨了. Cũng dùng để từ chối nhẹ nhàng: 我恐怕不能去了 (tôi e là không đi được). Không dùng cho điều tốt đẹp hay chắc chắn.\n(2) 到底 có ba nghĩa:\n— Trong câu hỏi: “rốt cuộc, cuối cùng thì…”, thúc người nghe trả lời: 你到底去不去？ 你到底想吃什么？\n— Trong câu kể: “cuối cùng, rốt cuộc” sau một quá trình dài: 试了很多次，他到底成功了。\n— Nêu lý do: “dù sao thì, suy cho cùng”: 他到底是个孩子.\n到底 đặt sau chủ ngữ, trước động từ hoặc cụm nghi vấn.",
+        "examples":[
+          {"zh":"看这天气，恐怕要下雨了。","pinyin":"Kàn zhè tiānqì, kǒngpà yào xià yǔ le.","vi":"Nhìn thời tiết này, e rằng sắp mưa."},
+          {"zh":"这个周末我恐怕没有时间。","pinyin":"Zhège zhōumò wǒ kǒngpà méiyǒu shíjiān.","vi":"Cuối tuần này e là tôi không có thời gian."},
+          {"zh":"你到底想吃什么？","pinyin":"Nǐ dàodǐ xiǎng chī shénme?","vi":"Rốt cuộc bạn muốn ăn gì?"},
+          {"zh":"你到底去不去？大家都在等你呢。","pinyin":"Nǐ dàodǐ qù bu qù? Dàjiā dōu zài děng nǐ ne.","vi":"Rốt cuộc bạn có đi không? Mọi người đang đợi bạn đấy."},
+          {"zh":"试了很多次，他到底成功了。","pinyin":"Shì le hěn duō cì, tā dàodǐ chénggōng le.","vi":"Thử rất nhiều lần, cuối cùng anh ấy đã thành công."}
+        ],
+        "mistakes_vi":"✗ 恐怕你会得第一名。\n✓ 你一定会得第一名。\n恐怕 chỉ dùng cho khả năng không tốt hoặc đáng lo.\n✗ 到底你是不是老师？\n✓ 你到底是不是老师？\n到底 đứng sau chủ ngữ.\n✗ 你到底去不去吗？\n✓ 你到底去不去？\n到底 đã có sắc thái hỏi dồn, câu 去不去 là câu hỏi hoàn chỉnh, không thêm 吗.",
+        "compare_vi":"恐怕 ≈ “e rằng, sợ rằng”. 到底 ≈ “rốt cuộc, cuối cùng thì”."
+      },
+      {
+        "id":"g3",
+        "title":"“拿……来说” (lấy… làm ví dụ)",
+        "pattern":"拿 + N + 来说，+ nhận định / ví dụ",
+        "explanation_vi":"拿……来说 dùng để đưa ra một ví dụ cụ thể minh họa cho điều đang bàn: “lấy… mà nói, chẳng hạn như…, riêng… thì…”. N ở giữa là đối tượng được chọn làm ví dụ (người, sự vật, địa điểm), sau dấu phẩy là nhận định về ví dụ ấy. Cũng có thể nói 拿……来看 / 拿……来讲.\nCần phân biệt với 对……来说 (“đối với… mà nói”, chỉ ra góc nhìn của một đối tượng). 拿……来说 để đưa ví dụ; 对……来说 để nêu cảm nhận, đánh giá.",
+        "examples":[
+          {"zh":"拿我来说，晚上总是玩手机到十二点。","pinyin":"Ná wǒ lái shuō, wǎnshang zǒngshì wán shǒujī dào shí'èr diǎn.","vi":"Lấy tôi làm ví dụ, buổi tối tôi toàn chơi điện thoại đến mười hai giờ."},
+          {"zh":"拿学习汉语来说，每天坚持比一次学很多更重要。","pinyin":"Ná xuéxí Hànyǔ lái shuō, měi tiān jiānchí bǐ yí cì xué hěn duō gèng zhòngyào.","vi":"Lấy việc học tiếng Trung làm ví dụ, kiên trì mỗi ngày quan trọng hơn học thật nhiều trong một lần."},
+          {"zh":"拿这个城市来说，交通越来越方便了。","pinyin":"Ná zhège chéngshì lái shuō, jiāotōng yuè lái yuè fāngbiàn le.","vi":"Lấy thành phố này làm ví dụ, giao thông ngày càng thuận tiện."},
+          {"zh":"拿我家来说，房租不贵，可是离市区很远。","pinyin":"Ná wǒ jiā lái shuō, fángzū bú guì, kěshì lí shìqū hěn yuǎn.","vi":"Lấy nhà tôi làm ví dụ, tiền thuê không đắt nhưng cách trung tâm rất xa."}
+        ],
+        "mistakes_vi":"✗ 拿我说，我总是起不来。\n✓ 拿我来说，我总是起不来。\nCấu trúc cố định là 拿……来说, thiếu 来 là sai.\n✗ 对我来说，我每天晚上玩手机到十二点。\n✓ 拿我来说，我每天晚上玩手机到十二点。\nMuốn đưa ví dụ về bản thân dùng 拿, còn 对……来说 là “đối với tôi” (quan điểm, cảm nhận).\n✗ 拿我来说我总是起不来，。\n✓ 拿我来说，我总是起不来。\nSau 来说 có dấu phẩy rồi mới tới nhận định.",
+        "compare_vi":"拿……来说 ≈ “lấy… mà nói”, “nói riêng về…”, “ví dụ như…”."
+      },
+      {
+        "id":"g4",
+        "title":"“敢” (dám)",
+        "pattern":"S + 敢 + V　·　S + 不敢 + V　·　S + 敢不敢 + V　·　S + 敢 + V + 吗",
+        "explanation_vi":"敢 là động từ năng nguyện nghĩa “dám”, đứng trước động từ chính. Phủ định là 不敢 (không dám); nghi vấn dùng 敢不敢 hoặc 敢……吗. Có thể dùng một mình khi trả lời: 敢！/ 不敢。\n敢 không kết hợp với các động từ năng nguyện khác như 要、想、能 (✗ 敢要去). Không đặt 不 giữa 敢 và động từ chính (✗ 敢不去 muốn nói “không dám đi”): phải nói 不敢去.\nCâu phổ biến: 不敢相信 (không dám tin), 不敢当 (xin nhận lời khen một cách khiêm tốn), 谁敢…? (ai dám…?).",
+        "examples":[
+          {"zh":"你敢不敢一个人去旅行？","pinyin":"Nǐ gǎn bu gǎn yí ge rén qù lǚxíng?","vi":"Bạn có dám đi du lịch một mình không?"},
+          {"zh":"我不敢一个人走夜路。","pinyin":"Wǒ bù gǎn yí ge rén zǒu yèlù.","vi":"Tôi không dám đi đường đêm một mình."},
+          {"zh":"他不敢告诉妈妈自己考得不好。","pinyin":"Tā bù gǎn gàosu māma zìjǐ kǎo de bù hǎo.","vi":"Cậu ấy không dám nói với mẹ là mình thi chưa tốt."},
+          {"zh":"这个问题，谁敢回答？","pinyin":"Zhège wèntí, shéi gǎn huídá?","vi":"Câu hỏi này, ai dám trả lời?"}
+        ],
+        "mistakes_vi":"✗ 我不敢要去。\n✓ 我不敢去。\n敢 không dùng chung với 要 / 想 / 能.\n✗ 我敢不去。 (muốn nói “tôi không dám đi”)\n✓ 我不敢去。\n不 phải đặt trước 敢.\n✗ 你敢不敢吗？\n✓ 你敢不敢？/ 你敢吗？\nDạng 敢不敢 đã là câu hỏi chính phản, không thêm 吗.",
+        "compare_vi":"敢 ≈ “dám”; 不敢 ≈ “không dám”. Cùng cách dùng với tiếng Việt, chỉ khác là phải đặt 不 trước 敢."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Làm cho cuộc sống tươi đẹp hơn",
+      "scene_vi": "Sáng Chủ nhật, hai bạn cùng phòng Tiểu Trần và Tiểu Trương trò chuyện về việc thay đổi thói quen: dậy sớm, lên kế hoạch, dọn dẹp để sống tốt hơn.",
+      "lines": [
+        {"speaker":"小陈","zh":"小张，你到底几点起床的？我早晨醒来，你已经不在了。","pinyin":"Xiǎo Zhāng, nǐ dàodǐ jǐ diǎn qǐchuáng de? Wǒ zǎochen xǐng lái, nǐ yǐjīng bú zài le.","vi":"Tiểu Trương, rốt cuộc cậu dậy lúc mấy giờ vậy? Sáng tớ tỉnh dậy thì cậu đã không còn đó rồi."},
+        {"speaker":"小张","zh":"我现在五点半就起床，然后跑步半个小时。我想养成早起的好习惯。","pinyin":"Wǒ xiànzài wǔ diǎn bàn jiù qǐchuáng, ránhòu pǎobù bàn ge xiǎoshí. Wǒ xiǎng yǎngchéng zǎo qǐ de hǎo xíguàn.","vi":"Giờ tớ năm rưỡi đã dậy, rồi chạy bộ nửa tiếng. Tớ muốn tập thói quen dậy sớm."},
+        {"speaker":"小陈","zh":"五点半？我可不敢，恐怕一个星期也坚持不下去。","pinyin":"Wǔ diǎn bàn? Wǒ kě bù gǎn, kǒngpà yí ge xīngqī yě jiānchí bu xiàqu.","vi":"Năm rưỡi á? Tớ không dám đâu, e là một tuần cũng không kiên trì nổi."},
+        {"speaker":"小张","zh":"刚开始我也觉得难，不过早起有很多好处：早晨的空气好，一天的计划也能安排得更轻松。","pinyin":"Gāng kāishǐ wǒ yě juéde nán, búguò zǎoqǐ yǒu hěn duō hǎochù: zǎochen de kōngqì hǎo, yì tiān de jìhuà yě néng ānpái de gèng qīngsōng.","vi":"Lúc đầu tớ cũng thấy khó, nhưng dậy sớm có nhiều lợi ích: không khí buổi sớm trong lành, kế hoạch cả ngày cũng sắp xếp thoải mái hơn."},
+        {"speaker":"小陈","zh":"拿我来说，晚上总是玩手机到十二点，早晨起不来，所以整天都很累。","pinyin":"Ná wǒ lái shuō, wǎnshang zǒngshì wán shǒujī dào shí'èr diǎn, zǎochen qǐ bu lái, suǒyǐ zhěng tiān dōu hěn lèi.","vi":"Lấy tớ làm ví dụ, tối nào tớ cũng chơi điện thoại đến mười hai giờ, sáng không dậy nổi, nên cả ngày rất mệt."},
+        {"speaker":"小张","zh":"那你今后可以提前一个小时睡觉，我可以提醒你。","pinyin":"Nà nǐ jīnhòu kěyǐ tíqián yí ge xiǎoshí shuìjiào, wǒ kěyǐ tíxǐng nǐ.","vi":"Vậy từ nay cậu có thể đi ngủ sớm một tiếng, tớ sẽ nhắc cậu."},
+        {"speaker":"小陈","zh":"好啊！还有，我的房间太乱了，我要收拾一下。","pinyin":"Hǎo a! Háiyǒu, wǒ de fángjiān tài luàn le, wǒ yào shōushi yíxià.","vi":"Được thôi! Còn nữa, phòng tớ bừa quá, tớ phải dọn dẹp một chút."},
+        {"speaker":"小张","zh":"先整理书桌，再整理衣服，慢慢来，别着急。","pinyin":"Xiān zhěnglǐ shūzhuō, zài zhěnglǐ yīfu, mànmàn lái, bié zháojí.","vi":"Sắp xếp bàn học trước, rồi sắp xếp quần áo, cứ từ từ, đừng vội."},
+        {"speaker":"小陈","zh":"这样一改变，我的生活方式就会更加健康了。","pinyin":"Zhèyàng yì gǎibiàn, wǒ de shēnghuó fāngshì jiù huì gèngjiā jiànkāng le.","vi":"Thay đổi như vậy thì lối sống của tớ sẽ lành mạnh hơn nhiều."},
+        {"speaker":"小张","zh":"对！生活可以更美好，只要你愿意改变。我们一起加油！","pinyin":"Duì! Shēnghuó kěyǐ gèng měihǎo, zhǐyào nǐ yuànyì gǎibiàn. Wǒmen yìqǐ jiāyóu!","vi":"Đúng! Cuộc sống có thể tươi đẹp hơn, chỉ cần cậu chịu thay đổi. Chúng mình cùng cố lên!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:好处","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"早睡早起对身体有很多____。","options":["好处","坏处","计划","方式"],"answer":0,"explanation_vi":"Ngủ sớm dậy sớm tốt cho cơ thể → 好处 (lợi ích)."},
+      {"id":"e2","type":"choice","tag":"v:坏处","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"吸烟对身体有很多____。","options":["坏处","好处","日常","安排"],"answer":0,"explanation_vi":"Hút thuốc hại cho cơ thể → 坏处 (tác hại)."},
+      {"id":"e3","type":"choice","tag":"v:养成","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"好习惯需要慢慢____。","options":["养成","整理","提醒","安排"],"answer":0,"explanation_vi":"Thói quen tốt cần từ từ hình thành: 养成习惯."},
+      {"id":"e4","type":"choice","tag":"v:改变","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这次旅行____了他的看法。","options":["改变","收拾","提醒","提前"],"answer":0,"explanation_vi":"Chuyến đi làm anh ấy đổi quan điểm: 改变了他的看法."},
+      {"id":"e5","type":"choice","tag":"v:提醒","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"谢谢你____我，我差点儿忘了。","options":["提醒","收拾","整理","安排"],"answer":0,"explanation_vi":"Nhờ ai nhắc nên suýt quên mà vẫn nhớ: 提醒 (nhắc nhở)."},
+      {"id":"e6","type":"choice","tag":"v:收拾","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"客人快到了，我们赶快____一下房间。","options":["收拾","改变","养成","提前"],"answer":0,"explanation_vi":"Khách sắp đến, phải dọn phòng nhanh: 收拾房间."},
+      {"id":"e7","type":"choice","tag":"v:轻松","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"周末不用上班，心情很____。","options":["轻松","美好","日常","早晨"],"answer":0,"explanation_vi":"Không đi làm nên tâm trạng thoải mái: 心情很轻松."},
+      {"id":"e8","type":"choice","tag":"g:可","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["你可别忘了明天要早起。","你可别要忘了明天要早起。","你可忘别了明天要早起。","可你别忘了明天要早起。"],"answer":0,"explanation_vi":"Dặn dò: 可 + 别 + động từ. Không thêm 要 và không đảo thứ tự."},
+      {"id":"e9","type":"choice","tag":"g:恐怕","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"看这天气，____要下雨了。","options":["恐怕","千万","偶尔","不如"],"answer":0,"explanation_vi":"Phỏng đoán điều không hay (mưa): 恐怕."},
+      {"id":"e10","type":"choice","tag":"g:到底","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你____想吃什么？快点儿告诉我。","options":["到底","大概","偶尔","也许"],"answer":0,"explanation_vi":"Hỏi dồn “rốt cuộc bạn muốn ăn gì”: 到底 + từ nghi vấn."},
+      {"id":"e11","type":"choice","tag":"g:拿来说","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____我来说，晚上总是玩手机到十二点。","options":["拿","把","被","给"],"answer":0,"explanation_vi":"Lấy bản thân làm ví dụ: 拿我来说."},
+      {"id":"e12","type":"choice","tag":"g:敢","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你____不敢一个人去旅行？","options":["敢","能","会","要"],"answer":0,"explanation_vi":"Chính phản của 敢 là 敢不敢 (có dám không)."},
+      {"id":"e13","type":"order","tag":"g:到底","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","到底","去","不","去"],"answers":["你到底去不去"],"translation_vi":"Rốt cuộc bạn có đi không?","explanation_vi":"你 + 到底 + 去不去: 到底 đứng sau chủ ngữ, trước cụm chính phản."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"家具","vi":"đồ nội thất"},{"zh":"客厅","vi":"phòng khách"},{"zh":"钥匙","vi":"chìa khóa"},{"zh":"毛巾","vi":"khăn mặt"},{"zh":"牙膏","vi":"kem đánh răng"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:可","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"路上____要小心！","options":["可","很","真","太"],"answer":0,"explanation_vi":"Dặn dò: 可 + 要 + động từ (路上可要小心 = nhớ phải cẩn thận)."},
+        {"id":"q2","type":"choice","tag":"g:恐怕","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个周末我____没有时间。","options":["恐怕","千万","偶尔","越来越"],"answer":0,"explanation_vi":"Từ chối lịch sự, nói khả năng không tốt: 我恐怕没有时间."},
+        {"id":"q3","type":"choice","tag":"g:到底","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["你到底去不去？","到底你去不去？","你去到底不去？","你到底去不去吗？"],"answer":0,"explanation_vi":"到底 đứng sau chủ ngữ, trước 去不去; không thêm 吗."},
+        {"id":"q4","type":"choice","tag":"g:拿来说","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____学习汉语来说，每天坚持比一次学很多更重要。","options":["拿","把","被","让"],"answer":0,"explanation_vi":"Đưa ví dụ minh họa: 拿……来说."},
+        {"id":"q5","type":"choice","tag":"g:敢","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我不敢一个人走夜路。","我不敢要一个人走夜路。","我敢不一个人走夜路。","我不一个人敢走夜路。"],"answer":0,"explanation_vi":"不 đứng trước 敢; 敢 không đi cùng 要."},
+        {"id":"q6","type":"choice","tag":"g:敢","prompt_vi":"Chọn câu trả lời thích hợp.","question_zh":"A：你敢不敢一个人去旅行？ B：____","options":["我不敢。","我不敢吗。","我不不敢。","我敢不敢。"],"answer":0,"explanation_vi":"Trả lời câu 敢不敢: 敢 hoặc 不敢。"}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:计划","prompt_vi":"Chọn đáp án đúng.","question_zh":"你周末有什么____？","options":["计划","好处","坏处","早晨"],"answer":0,"explanation_vi":"Hỏi cuối tuần có kế hoạch gì: 有什么计划?"},
+      {"id":"t2","type":"choice","tag":"g:可","prompt_vi":"Chọn đáp án đúng.","question_zh":"你____别忘了明天要早起！","options":["可","很","最","更"],"answer":0,"explanation_vi":"Dặn dò nhấn mạnh: 可别忘了."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"时间表","vi":"thời gian biểu"},{"zh":"醒","vi":"tỉnh giấc"},{"zh":"做梦","vi":"nằm mơ"},{"zh":"晚安","vi":"chúc ngủ ngon"},{"zh":"改","vi":"sửa, đổi"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"租","vi":"thuê"},{"zh":"房租","vi":"tiền thuê nhà"},{"zh":"房东","vi":"chủ nhà"},{"zh":"出租","vi":"cho thuê"},{"zh":"外出","vi":"ra ngoài, đi vắng"}]},
+      {"id":"t5","type":"order","tag":"g:拿来说","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["拿","我","来说","晚上","总是","玩手机"],"answers":["拿我来说晚上总是玩手机"],"translation_vi":"Lấy tôi làm ví dụ, buổi tối tôi toàn chơi điện thoại.","explanation_vi":"拿 + 我 + 来说, rồi mới đến nhận định."},
+      {"id":"t6","type":"order","tag":"g:恐怕","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个周末","我","恐怕","没有","时间"],"answers":["这个周末我恐怕没有时间","我这个周末恐怕没有时间"],"translation_vi":"Cuối tuần này e là tôi không có thời gian.","explanation_vi":"恐怕 đứng sau chủ ngữ, trước động từ 没有."},
+      {"id":"t7","type":"fill","tag":"g:到底","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"你____想吃什么？","answers":["到底"],"hint_vi":"rốt cuộc","explanation_vi":"到底 + từ nghi vấn = hỏi dồn."},
+      {"id":"t8","type":"fill","tag":"g:敢","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我不____一个人走夜路。","answers":["敢"],"hint_vi":"dám","explanation_vi":"不敢 + động từ = không dám làm gì."},
+      {"id":"t9","type":"listen_choice","tag":"g:恐怕","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"看这天气，恐怕要下雨了。","options":["Nhìn thời tiết này, e rằng sắp mưa.","Nhìn thời tiết này, chắc chắn không mưa.","Tôi sợ trời mưa nên không dám đi.","Hôm qua trời mưa suốt cả ngày."],"answer":0,"explanation_vi":"恐怕要下雨了 = e rằng sắp mưa."},
+      {"id":"t10","type":"listen_choice","tag":"v:提前","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"你最好提前十分钟到。","options":["你最好提前十分钟到。","你最好晚十分钟到。","你最好十分钟以后到。","你不用提前到。"],"answer":0,"explanation_vi":"Câu nghe được: 你最好提前十分钟到 = Bạn nên đến sớm mười phút."},
+      {"id":"t11","type":"dictation","tag":"g:到底","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你到底去不去？","answers":["你到底去不去"],"explanation_vi":"你到底去不去 = Rốt cuộc bạn có đi không?"},
+      {"id":"t12","type":"dictation","tag":"v:养成","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"养成好习惯不容易。","answers":["养成好习惯不容易"],"explanation_vi":"养成好习惯不容易 = Hình thành thói quen tốt không dễ."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:敢","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bạn có dám một mình đi du lịch không?","answers":["你敢不敢一个人去旅行","你敢一个人去旅行吗","你敢不敢自己去旅行","你敢自己去旅行吗","你敢不敢一个人去旅游","你敢一个人去旅游吗","你敢不敢一个人去旅行呢","你敢不敢一个人旅行"],"explanation_vi":"你敢不敢 + 一个人去旅行 (hoặc 你敢……吗)."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:可","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bạn nhớ đừng quên nhé.","answers":["你可别忘了","你可别忘了啊","你可别忘了哦","你可千万别忘了","你可不要忘了","你可别忘记了","你可别忘","你可不要忘记"],"explanation_vi":"可别忘了 = nhớ đừng quên (dặn dò)."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:拿来说","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"拿我来说，我每天晚上玩手机到十二点。","answers_vi":["Lấy tôi làm ví dụ, mỗi tối tôi chơi điện thoại đến mười hai giờ.","Như tôi chẳng hạn, tối nào tôi cũng chơi điện thoại đến mười hai giờ."],"keywords":[["lấy tôi","như tôi","tôi chẳng hạn","riêng tôi","tôi mà nói","nói về tôi","ví dụ","lấy bản thân","chẳng hạn"],["mỗi tối","hằng đêm","hàng đêm","tối nào","mỗi đêm","buổi tối","hằng tối"],["điện thoại"],["mười hai giờ","12 giờ","12h","nửa đêm"]],"explanation_vi":"拿我来说 = lấy tôi làm ví dụ; 玩手机到十二点 = chơi điện thoại đến mười hai giờ."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:到底","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"你到底想吃什么？","answers_vi":["Rốt cuộc bạn muốn ăn gì?","Cuối cùng thì cậu muốn ăn gì đây?"],"keywords":[["rốt cuộc","cuối cùng","thực ra","tóm lại","vậy"],["ăn"],["gì","cái gì","món gì"]],"explanation_vi":"到底 = rốt cuộc; 想吃什么 = muốn ăn gì."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"小林的新计划",
+        "title_vi":"Kế hoạch mới của Tiểu Lâm",
+        "paragraphs":[
+          {
+            "tokens":[["小林","Xiǎo Lín","Tiểu Lâm"],["今年","jīnnián","năm nay"],["二十五","èrshíwǔ","hai mươi lăm"],["岁","suì","tuổi"],["，"],["在","zài","ở"],["一","yì","một"],["家","jiā","(lượng từ: công ty)"],["公司","gōngsī","công ty"],["工作","gōngzuò","làm việc"],["。"],["她","tā","cô ấy"],["的","de","(của)"],["日常","rìcháng","thường ngày"],["生活","shēnghuó","cuộc sống"],["很","hěn","rất"],["忙","máng","bận"],["："],["早晨","zǎochen","buổi sáng sớm"],["七","qī","bảy"],["点","diǎn","giờ"],["起床","qǐchuáng","thức dậy"],["，"],["八","bā","tám"],["点","diǎn","giờ"],["出门","chūmén","ra khỏi nhà"],["，"],["晚上","wǎnshang","buổi tối"],["常常","chángcháng","thường"],["九","jiǔ","chín"],["点","diǎn","giờ"],["以后","yǐhòu","sau"],["才","cái","mới"],["回家","huí jiā","về nhà"],["。"],["回到","huí dào","về đến"],["家","jiā","nhà"],["以后","yǐhòu","sau khi"],["，"],["房间","fángjiān","phòng"],["总是","zǒngshì","luôn luôn"],["很","hěn","rất"],["乱","luàn","bừa bộn"],["，"],["她","tā","cô ấy"],["也","yě","cũng"],["没有","méiyǒu","không có"],["力气","lìqi","sức lực"],["收拾","shōushi","dọn dẹp"],["。"]],
+            "vi":"Tiểu Lâm năm nay hai mươi lăm tuổi, làm việc ở một công ty. Cuộc sống thường ngày của cô rất bận: bảy giờ sáng dậy, tám giờ ra khỏi nhà, buổi tối thường chín giờ sau mới về. Về đến nhà, phòng lúc nào cũng bừa bộn mà cô cũng chẳng còn sức dọn dẹp."
+          },
+          {
+            "tokens":[["上个月","shàng ge yuè","tháng trước"],["，"],["她","tā","cô ấy"],["的","de","(của)"],["朋友","péngyou","bạn"],["提醒","tíxǐng","nhắc"],["她","tā","cô ấy"],["："],["“"],["你","nǐ","bạn"],["到底","dàodǐ","rốt cuộc"],["想","xiǎng","muốn"],["不","bu","không"],["想","xiǎng","muốn"],["改变","gǎibiàn","thay đổi"],["现在","xiànzài","bây giờ"],["的","de","(của)"],["生活","shēnghuó","cuộc sống"],["？"],["”"],["小林","Xiǎo Lín","Tiểu Lâm"],["想","xiǎng","nghĩ"],["了","le","(rồi)"],["很久","hěn jiǔ","rất lâu"],["。"],["她","tā","cô ấy"],["觉得","juéde","thấy"],["，"],["生活","shēnghuó","cuộc sống"],["可以","kěyǐ","có thể"],["更","gèng","hơn"],["美好","měihǎo","tươi đẹp"],["，"],["但是","dànshì","nhưng"],["她","tā","cô ấy"],["恐怕","kǒngpà","e rằng"],["需要","xūyào","cần"],["一个","yí ge","một"],["计划","jìhuà","kế hoạch"],["。"],["于是","yúshì","thế là"],["，"],["她","tā","cô ấy"],["做","zuò","làm"],["了","le","(đã)"],["一个","yí ge","một"],["时间表","shíjiānbiǎo","thời gian biểu"],["："],["每天","měi tiān","mỗi ngày"],["提前","tíqián","sớm hơn"],["半个","bàn ge","nửa"],["小时","xiǎoshí","tiếng"],["起床","qǐchuáng","dậy"],["，"],["晚上","wǎnshang","buổi tối"],["十","shí","mười"],["点","diǎn","giờ"],["以前","yǐqián","trước"],["睡觉","shuìjiào","ngủ"],["，"],["每个","měi ge","mỗi"],["周末","zhōumò","cuối tuần"],["整理","zhěnglǐ","sắp xếp"],["一次","yí cì","một lần"],["房间","fángjiān","phòng"],["。"]],
+            "vi":"Tháng trước, bạn của cô nhắc: “Rốt cuộc bạn có muốn thay đổi cuộc sống hiện tại không?” Tiểu Lâm nghĩ rất lâu. Cô thấy cuộc sống có thể tươi đẹp hơn, nhưng e rằng cô cần một kế hoạch. Thế là cô làm một thời gian biểu: mỗi ngày dậy sớm nửa tiếng, trước mười giờ tối đi ngủ, mỗi cuối tuần sắp xếp phòng một lần."
+          },
+          {
+            "tokens":[["一个","yí ge","một"],["月","yuè","tháng"],["以后","yǐhòu","sau"],["，"],["小林","Xiǎo Lín","Tiểu Lâm"],["发现","fāxiàn","thấy"],["自己","zìjǐ","bản thân"],["的","de","(của)"],["变化","biànhuà","thay đổi"],["很大","hěn dà","rất lớn"],["。"],["早晨","zǎochen","buổi sớm"],["的","de","(của)"],["空气","kōngqì","không khí"],["让","ràng","khiến"],["她","tā","cô ấy"],["心情","xīnqíng","tâm trạng"],["很","hěn","rất"],["好","hǎo","tốt"],["，"],["房间","fángjiān","phòng"],["也","yě","cũng"],["干净","gānjìng","sạch"],["了","le","(rồi)"],["，"],["工作","gōngzuò","làm việc"],["起来","qǐlai","(lên)"],["更加","gèngjiā","hơn"],["轻松","qīngsōng","thoải mái"],["。"],["她","tā","cô ấy"],["说","shuō","nói"],["："],["“"],["拿","ná","lấy"],["我","wǒ","tôi"],["来说","lái shuō","mà nói"],["，"],["以前","yǐqián","trước đây"],["我","wǒ","tôi"],["不","bù","không"],["敢","gǎn","dám"],["相信","xiāngxìn","tin"],["，"],["一个","yí ge","một"],["小小","xiǎoxiǎo","nho nhỏ"],["的","de","(trợ từ)"],["计划","jìhuà","kế hoạch"],["，"],["能","néng","có thể"],["让","ràng","khiến"],["生活","shēnghuó","cuộc sống"],["有","yǒu","có"],["这么","zhème","như vậy"],["大","dà","lớn"],["的","de","(của)"],["改变","gǎibiàn","thay đổi"],["。"],["”"]],
+            "vi":"Một tháng sau, Tiểu Lâm thấy bản thân thay đổi rất nhiều. Không khí buổi sớm khiến tâm trạng cô rất tốt, phòng cũng sạch sẽ, làm việc cũng thoải mái hơn. Cô nói: “Lấy tôi làm ví dụ, trước đây tôi không dám tin một kế hoạch nho nhỏ lại có thể làm cuộc sống thay đổi lớn như vậy.”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小林以前的日常生活怎么样？","options":["很忙，常常很晚才回家","很轻松，每天都早睡","没有工作","每天都出去旅行"],"answer":0,"explanation_vi":"Đoạn 1: 日常生活很忙……常常九点以后才回家."},
+          {"id":"rq2","type":"choice","tag":"g:到底","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"朋友提醒小林什么？","options":["问她到底想不想改变生活","让她换工作","让她去旅行","让她搬家"],"answer":0,"explanation_vi":"Đoạn 2: 你到底想不想改变现在的生活?"},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"小林的时间表里，有“每个周末整理一次房间”。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 每个周末整理一次房间 — câu này đúng."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"一个月以后，小林觉得工作更累了。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 工作起来更加轻松 — câu này sai."},
+          {"id":"rq5","type":"choice","tag":"g:敢","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小林说以前她不敢相信什么？","options":["一个小计划能让生活有这么大的改变","自己会换工作","早晨的空气很好","房间能变干净"],"answer":0,"explanation_vi":"Đoạn 3: 以前我不敢相信，一个小小的计划，能让生活有这么大的改变."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Căn nhà thuê mới",
+        "text_zh":"我上个月在市区租了一个小房子。房东是一位六十多岁的老人，他对我很好。房租每个月两千五，不太便宜，不过房间很干净，家具也很新。住进来的第一天，我就把客厅和厕所都收拾了一遍，还买了新毛巾和牙膏。房东给了我两把钥匙，还提醒我晚上十点以后不要太吵。他顺便告诉我，对面有一家很好吃的饭馆。我觉得，今后的生活一定会更加美好。",
+        "pinyin":"Wǒ shàng ge yuè zài shìqū zū le yí ge xiǎo fángzi. Fángdōng shì yí wèi liùshí duō suì de lǎorén, tā duì wǒ hěn hǎo. Fángzū měi ge yuè liǎng qiān wǔ, bú tài piányi, búguò fángjiān hěn gānjìng, jiājù yě hěn xīn. Zhù jìnlai de dì yī tiān, wǒ jiù bǎ kètīng hé cèsuǒ dōu shōushi le yí biàn, hái mǎi le xīn máojīn hé yágāo. Fángdōng gěi le wǒ liǎng bǎ yàoshi, hái tíxǐng wǒ wǎnshang shí diǎn yǐhòu búyào tài chǎo. Tā shùnbiàn gàosu wǒ, duìmiàn yǒu yì jiā hěn hǎochī de fànguǎn. Wǒ juéde, jīnhòu de shēnghuó yídìng huì gèngjiā měihǎo.",
+        "vi":"Tháng trước tôi thuê một căn nhà nhỏ ở nội thành. Chủ nhà là một cụ già hơn sáu mươi tuổi, rất tốt với tôi. Tiền thuê mỗi tháng hai nghìn năm trăm, không rẻ lắm, nhưng phòng rất sạch, đồ nội thất cũng rất mới. Ngày đầu tiên dọn vào, tôi đã dọn dẹp phòng khách và nhà vệ sinh một lượt, còn mua khăn mặt và kem đánh răng mới. Chủ nhà đưa tôi hai chiếc chìa khóa, còn nhắc tôi sau mười giờ tối đừng ồn ào quá. Ông tiện thể nói với tôi, đối diện có một quán ăn rất ngon. Tôi nghĩ, cuộc sống từ nay về sau chắc chắn sẽ tươi đẹp hơn.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"v:房东","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"房东是一个什么样的人？","options":["六十多岁的老人，对“我”很好","二十多岁的年轻人","很严格的老师","住在外地的人"],"answer":0,"explanation_vi":"Nghe được: 房东是一位六十多岁的老人，他对我很好."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"每个月的房租是多少？","options":["两千五","两千","三千五","五百"],"answer":0,"explanation_vi":"Nghe được: 房租每个月两千五."},
+          {"id":"lq3","type":"choice","tag":"v:收拾","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"住进来的第一天，“我”做了什么？","options":["收拾了客厅和厕所，买了毛巾和牙膏","去见朋友","去饭馆吃饭","给房东打电话"],"answer":0,"explanation_vi":"Nghe được: 把客厅和厕所都收拾了一遍，还买了新毛巾和牙膏."},
+          {"id":"lq4","type":"choice","tag":"v:提醒","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"房东提醒“我”什么？","options":["晚上十点以后不要太吵","每天早点儿起床","不要带朋友来","按时交房租"],"answer":0,"explanation_vi":"Nghe được: 提醒我晚上十点以后不要太吵."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"恐怕","pinyin":"kǒngpà","vi":"e rằng","tip_vi":"恐 kǒng: k bật hơi mạnh, -ong ở cuống lưỡi, thanh 3. 怕 pà: p bật hơi, thanh 4. Hai chữ: 恐 đọc nửa thanh 3 vì đứng trước thanh 4."},
+      {"id":"s2","zh":"到底，敢","pinyin":"dàodǐ, gǎn","vi":"rốt cuộc; dám","tip_vi":"到底 dàodǐ: d không bật hơi (khác t), 底 dǐ thanh 3 đọc đủ (xuống rồi lên) khi đứng cuối. 敢 gǎn: g không bật hơi, -an kết thúc ở đầu lưỡi, thanh 3."},
+      {"id":"s3","zh":"你到底去不去？","pinyin":"Nǐ dàodǐ qù bu qù?","vi":"Rốt cuộc bạn có đi không?","tip_vi":"你到底: 你 thanh 3 đứng trước thanh 4 (到) nên đọc nửa thanh 3. 去不去 qù bu qù: 不 đọc nhẹ, ngắn; q bật hơi, ü tròn môi. Giọng đi lên ở cuối câu hỏi."},
+      {"id":"s4","zh":"看这天气，恐怕要下雨了。","pinyin":"Kàn zhè tiānqì, kǒngpà yào xià yǔ le.","vi":"Nhìn thời tiết này, e rằng sắp mưa.","tip_vi":"看这: kàn zhè hai thanh 4 liền, đọc rõ và dứt khoát. 天气 tiānqì: q bật hơi, miệng bẹt. 要下雨了: 雨 yǔ ü tròn môi, thanh 3; 了 đọc nhẹ. Nhấn vào 恐怕."},
+      {"id":"s5","zh":"拿我来说，晚上总是玩手机到十二点。","pinyin":"Ná wǒ lái shuō, wǎnshang zǒngshì wán shǒujī dào shí'èr diǎn.","vi":"Lấy tôi làm ví dụ, buổi tối tôi toàn chơi điện thoại đến mười hai giờ.","tip_vi":"拿我: 拿 ná thanh 2, 我 wǒ thanh 3 đứng trước thanh 2 nên đọc nửa thanh 3. 来说 láishuō: 说 shuō uốn lưỡi, thanh 1. 十二 shí'èr: có dấu nháy, 二 èr cuốn lưỡi. 晚上 wǎnshang: 上 đọc nhẹ."},
+      {"id":"s6","zh":"你可别忘了明天要早起。","pinyin":"Nǐ kě bié wàng le míngtiān yào zǎoqǐ.","vi":"Bạn nhớ đừng quên mai phải dậy sớm nhé.","tip_vi":"可 kě: k bật hơi, giọng nhấn mạnh. 别忘了 bié wàng le: 别 thanh 2 lên rõ, 忘 wàng thanh 4, 了 nhẹ. 早起 zǎoqǐ: hai thanh 3 liền, 早 đọc thành thanh 2 (záoqǐ)."},
+      {"id":"s7","zh":"生活可以更美好，只要你愿意改变。","pinyin":"Shēnghuó kěyǐ gèng měihǎo, zhǐyào nǐ yuànyì gǎibiàn.","vi":"Cuộc sống có thể tươi đẹp hơn, chỉ cần bạn chịu thay đổi.","tip_vi":"可以: 可 thanh 3 + 以 thanh 3 liền, 可 đọc thành thanh 2 (kéyǐ). 美好 měihǎo: hai thanh 3, 美 đọc thành thanh 2 (méihǎo). 只要你: ba thanh 3 liền nhau – nhớ đổi thanh, đừng đọc cứng. 愿意 yuànyì: ü tròn môi (yuàn)."}
+    ],
+    "review": {
+      "remember": [
+        "可 + Adj + 了 = nhấn mạnh (今天可冷了); 可别 / 可要 / 可得 + V = dặn dò nhớ đấy; 可不 + V = thật sự không.",
+        "恐怕 = e rằng (phỏng đoán điều không hay, hoặc từ chối lịch sự); 到底 = rốt cuộc (hỏi dồn: 你到底去不去？; kể: cuối cùng; giải thích: dù sao).",
+        "拿 + N + 来说，nhận định = lấy N làm ví dụ; khác 对……来说 = đối với… (góc nhìn).",
+        "敢 + V = dám; 不敢 + V; 敢不敢 + V; không dùng cùng 要 / 想 / 能, và 不 phải đứng trước 敢.",
+        "养成 + 习惯; 好处 ↔ 坏处; 收拾 (dọn cho gọn) ≈ 整理 (sắp xếp có thứ tự); 提前 = sớm hơn dự định; 今后 = từ nay về sau."
+      ],
+      "mistakes": [
+        "✗ 我可很高兴 → ✓ 我可高兴了: 可 nhấn mạnh không đi chung với 很.",
+        "✗ 到底你去不去 → ✓ 你到底去不去: 到底 đứng sau chủ ngữ.",
+        "✗ 我敢不去 (muốn nói “không dám đi”) → ✓ 我不敢去: 不 phải đứng trước 敢."
+      ]
+    }
+  }
+}

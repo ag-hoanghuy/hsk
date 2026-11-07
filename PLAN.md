@@ -71,12 +71,12 @@ Quiz từ vựng tự sinh (có thể gồm cả từ mở rộng) và quiz ng�
 - [x] `start-web.bat` / `stop-web.bat`, tự sao lưu mỗi ngày. Có `scripts/backup.ps1`, `restore.ps1`, `create-shortcut.ps1`.
 - [x] Bộ kiểm thử trong repo: `e2e/` (trình duyệt) và `backend/tests` (logic).
 
-### Giai đoạn 7: nội dung 40 bài (đang làm)
+### Giai đoạn 7: nội dung 40 bài (xong)
 - [x] Phần A, tham khảo: `docs/tham-khao.md` (tóm tắt), `docs/research/pedagogy.md`, `content/reference/`.
 - [x] Phân bổ từ vựng theo đề cương 2025 cho 40 bài.
-- [x] HSK3 bài 1 viết lại làm bài mẫu, có đủ 11 phần.
-- [ ] HSK3 bài 2–20 và HSK4 bài 1–20: viết theo đợt 3 bài, mỗi bài qua công cụ kiểm tra và bộ chấm. Ghi chú cần xem lại ở `docs/review-notes/`.
-- [ ] Bản đọc Markdown của 40 bài (`docs/bai-hoc/`) và danh sách tổng hợp chỗ cần xem lại (`docs/can-xem-lai.md`).
+- [x] HSK3 bài 1–20 và HSK4 bài 1–20 đã viết, qua công cụ kiểm tra (0 lỗi). Phủ 491/491 từ cấp 3, 990/990 từ cấp 4 và 171/171 từ cấp 1–2 còn thiếu. Ghi chú cần xem lại ở `docs/review-notes/` (HSK4 bài 7–20 viết ở chế độ tiết kiệm, không có ghi chú riêng; các cảnh báo còn lại do công cụ kiểm tra liệt kê).
+- [x] Bản đọc Markdown của 40 bài (`docs/bai-hoc/`) và danh sách tổng hợp chỗ cần xem lại (`docs/can-xem-lai.md`).
+- Bước cuối chưa làm theo yêu cầu tiết kiệm: chạy lại bộ kiểm thử trình duyệt `e2e/` trên đủ 40 bài.
 
 ## 5. Ghi chú về bộ chấm phát âm
 

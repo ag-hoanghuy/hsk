@@ -1,0 +1,257 @@
+{
+  "level": 4,
+  "number": 18,
+  "summary": "Cậu cháu hướng dẫn bà dùng điện thoại thông minh để nhắn tin, gọi video; học 是否 (liệu có… hay không), 受不了 (chịu không nổi), 接着 (rồi tiếp theo), 此外 / 除此以外 (ngoài ra), 把……叫作…… (gọi… là…) cùng từ vựng về khoa học công nghệ và internet",
+  "readings_ok": ["了 liǎo"],
+  "content": {
+    "objectives": [
+      "Nói về công nghệ và internet bằng 科技、技术、互联网、信息、视频、速度、使用、提供、产生",
+      "Đặt câu hỏi trang trọng bằng 是否 và nói “chịu không nổi” bằng 受不了",
+      "Kể trình tự bằng 接着 và thêm ý bằng 此外 / 除此以外",
+      "Gọi tên, giải thích thuật ngữ bằng 把……叫作……"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"是否","pinyin":"shìfǒu","pos":"phó từ","meaning_vi":"có hay không, liệu có","example_zh":"请告诉我你明天是否有时间。","example_pinyin":"Qǐng gàosu wǒ nǐ míngtiān shìfǒu yǒu shíjiān.","example_vi":"Xin hãy cho tôi biết ngày mai bạn có thời gian hay không.","hanviet":"THỊ PHỦ","note_vi":"Cách nói trang trọng, văn viết của 是不是. Đứng trước động từ hoặc tính từ, thường nằm trong câu hỏi gián tiếp: 不知道是否……、请问是否……. Không thêm 吗."},
+      {"id":"v2","hanzi":"受不了","pinyin":"shòubuliǎo","pos":"động từ","meaning_vi":"chịu không nổi, không chịu được","example_zh":"今天太热了，我受不了了。","example_pinyin":"Jīntiān tài rè le, wǒ shòubuliǎo le.","example_vi":"Hôm nay nóng quá, tôi chịu không nổi nữa.","note_vi":"Dạng phủ định của 受得了 (chịu được). Dùng cho thời tiết, tiếng ồn, mùi, hay cách cư xử của người khác. Chữ 了 trong 受不了 đọc liǎo."},
+      {"id":"v3","hanzi":"接着","pinyin":"jiēzhe","pos":"phó từ / động từ","meaning_vi":"rồi tiếp theo; tiếp tục","example_zh":"他先打了个电话，接着又发了一条短信。","example_pinyin":"Tā xiān dǎ le ge diànhuà, jiēzhe yòu fā le yì tiáo duǎnxìn.","example_vi":"Anh ấy gọi điện trước, rồi lại gửi một tin nhắn.","note_vi":"Phó từ: nối việc nối tiếp ngay sau (先……，接着……). Động từ: 接着说 / 接着看 / 接着干 (nói tiếp, xem tiếp, làm tiếp). Chữ 着 đọc nhẹ."},
+      {"id":"v4","hanzi":"此","pinyin":"cǐ","pos":"đại từ","meaning_vi":"này, đây (văn viết)","example_zh":"请大家不要在此停车。","example_pinyin":"Qǐng dàjiā búyào zài cǐ tíng chē.","example_vi":"Xin mọi người không đỗ xe ở đây.","hanviet":"THỬ","note_vi":"此 = 这 trong văn viết. Gặp trong 因此 (bài 8), 此外, 此时, 此处. Hầu như không đứng một mình trong khẩu ngữ."},
+      {"id":"v5","hanzi":"此外","pinyin":"cǐwài","pos":"liên từ","meaning_vi":"ngoài ra","example_zh":"这个手机速度很快，此外，价格也不贵。","example_pinyin":"Zhège shǒujī sùdù hěn kuài, cǐwài, jiàgé yě bú guì.","example_vi":"Chiếc điện thoại này chạy rất nhanh, ngoài ra giá cũng không đắt.","hanviet":"THỬ NGOẠI","note_vi":"Đứng đầu vế sau, thêm ý bổ sung. Trang trọng; khẩu ngữ hay dùng 除此以外 hoặc 另外. Sau 此外 thường có dấu phẩy."},
+      {"id":"v6","hanzi":"叫作","pinyin":"jiàozuò","pos":"động từ","meaning_vi":"gọi là, có tên là","example_zh":"人们把这个东西叫作手机。","example_pinyin":"Rénmen bǎ zhège dōngxi jiàozuò shǒujī.","example_vi":"Mọi người gọi thứ này là điện thoại.","note_vi":"叫作 (= 叫做) dùng khi giải thích tên gọi, thuật ngữ. Thường đi với 把: 把A叫作B. Không dùng để giới thiệu tên mình: ✗ 我叫作小明 → ✓ 我叫小明."},
+      {"id":"v7","hanzi":"科技","pinyin":"kējì","pos":"danh từ","meaning_vi":"khoa học và công nghệ","example_zh":"科技让我们的生活更方便。","example_pinyin":"Kējì ràng wǒmen de shēnghuó gèng fāngbiàn.","example_vi":"Khoa học công nghệ làm cuộc sống của chúng ta thuận tiện hơn.","hanviet":"KHOA KỸ","note_vi":"科技 là viết tắt của 科学技术. Hay gặp: 科技发展、科技公司、高科技."},
+      {"id":"v8","hanzi":"技术","pinyin":"jìshù","pos":"danh từ","meaning_vi":"kỹ thuật, công nghệ; tay nghề","example_zh":"这家公司的技术很好。","example_pinyin":"Zhè jiā gōngsī de jìshù hěn hǎo.","example_vi":"Công nghệ của công ty này rất tốt.","hanviet":"KỸ THUẬT","note_vi":"技术 vừa là “kỹ thuật, công nghệ” (新技术) vừa là “tay nghề” (他的技术很好). 科技 rộng hơn (khoa học + công nghệ)."},
+      {"id":"v9","hanzi":"科学","pinyin":"kēxué","pos":"danh từ / tính từ","meaning_vi":"khoa học; khoa học (hợp lý)","example_zh":"科学告诉我们很多有意思的事情。","example_pinyin":"Kēxué gàosu wǒmen hěn duō yǒu yìsi de shìqing.","example_vi":"Khoa học cho chúng ta biết nhiều điều thú vị.","hanviet":"KHOA HỌC","note_vi":"Danh từ: 学习科学. Tính từ: 科学的方法 (phương pháp khoa học), 科学地使用 (dùng một cách khoa học, hợp lý)."},
+      {"id":"v10","hanzi":"互联网","pinyin":"hùliánwǎng","pos":"danh từ","meaning_vi":"internet, mạng Internet","example_zh":"现在很多事情都可以在互联网上做。","example_pinyin":"Xiànzài hěn duō shìqing dōu kěyǐ zài hùliánwǎng shang zuò.","example_vi":"Bây giờ rất nhiều việc có thể làm trên internet.","note_vi":"互联网 = Internet. Nói thường ngày: 网络 / 网 / 上网 (lên mạng). Hùliánwǎng đọc ba âm tiết liền, nhấn vào 联."},
+      {"id":"v11","hanzi":"信息","pinyin":"xìnxī","pos":"danh từ","meaning_vi":"thông tin","example_zh":"我们可以在网上查找信息。","example_pinyin":"Wǒmen kěyǐ zài wǎng shang cházhǎo xìnxī.","example_vi":"Chúng ta có thể tra cứu thông tin trên mạng.","note_vi":"信息 là thông tin nói chung (查信息, 信息很多). 消息 là tin tức cụ thể, mới (好消息). Không đếm bằng 个."},
+      {"id":"v12","hanzi":"使用","pinyin":"shǐyòng","pos":"động từ","meaning_vi":"sử dụng","example_zh":"请不要在这里使用手机。","example_pinyin":"Qǐng búyào zài zhèli shǐyòng shǒujī.","example_vi":"Xin đừng sử dụng điện thoại ở đây.","hanviet":"SỬ DỤNG","note_vi":"Giống nghĩa 用 nhưng trang trọng hơn, thường dùng cho thiết bị, công cụ: 使用方法 (cách sử dụng), 使用手机."},
+      {"id":"v13","hanzi":"作用","pinyin":"zuòyòng","pos":"danh từ / động từ","meaning_vi":"tác dụng; ảnh hưởng","example_zh":"这种药对感冒很有作用。","example_pinyin":"Zhè zhǒng yào duì gǎnmào hěn yǒu zuòyòng.","example_vi":"Loại thuốc này rất có tác dụng với bệnh cảm.","hanviet":"TÁC DỤNG","note_vi":"Cụm hay gặp: 有作用 / 没有作用 / 起到作用 / 作用很大. Có thể chỉ tác động tốt hoặc xấu (不好的作用)."},
+      {"id":"v14","hanzi":"产生","pinyin":"chǎnshēng","pos":"động từ","meaning_vi":"nảy sinh, phát sinh","example_zh":"互联网的出现产生了很多新工作。","example_pinyin":"Hùliánwǎng de chūxiàn chǎnshēng le hěn duō xīn gōngzuò.","example_vi":"Sự xuất hiện của internet đã tạo ra nhiều công việc mới.","hanviet":"SẢN SINH","note_vi":"产生 + thứ trừu tượng: 产生问题、产生兴趣、产生影响. Không dùng cho việc sản xuất hàng hóa (đó là 生产)."},
+      {"id":"v15","hanzi":"提供","pinyin":"tígōng","pos":"động từ","meaning_vi":"cung cấp, đưa ra","example_zh":"这家酒店提供早饭。","example_pinyin":"Zhè jiā jiǔdiàn tígōng zǎofàn.","example_vi":"Khách sạn này có cung cấp bữa sáng.","hanviet":"ĐỀ CUNG","note_vi":"提供 + thứ cần thiết (提供帮助、提供信息、提供服务). Chủ ngữ thường là tổ chức, người có điều kiện."},
+      {"id":"v16","hanzi":"速度","pinyin":"sùdù","pos":"danh từ","meaning_vi":"tốc độ","example_zh":"网络的速度越来越快。","example_pinyin":"Wǎngluò de sùdù yuè lái yuè kuài.","example_vi":"Tốc độ mạng ngày càng nhanh.","hanviet":"TỐC ĐỘ","note_vi":"速度 + 快 / 慢 (không dùng 高 / 低). Hay nói: 加快速度 (tăng tốc), 放慢速度 (giảm tốc)."},
+      {"id":"v17","hanzi":"视频","pinyin":"shìpín","pos":"danh từ","meaning_vi":"video, clip","example_zh":"我喜欢看旅行视频。","example_pinyin":"Wǒ xǐhuan kàn lǚxíng shìpín.","example_vi":"Tôi thích xem video du lịch.","note_vi":"Các cụm: 看视频 (xem video), 拍视频 (quay video), 视频聊天 (gọi video)."},
+      {"id":"v18","hanzi":"消息","pinyin":"xiāoxi","pos":"danh từ","meaning_vi":"tin tức; tin nhắn","example_zh":"你听到这个好消息了吗？","example_pinyin":"Nǐ tīng dào zhège hǎo xiāoxi le ma?","example_vi":"Bạn nghe tin vui này chưa?","note_vi":"消息 là một tin cụ thể (好消息、坏消息). Trên điện thoại: 发消息 (nhắn tin), 收到消息 (nhận tin nhắn). Chữ 息 đọc nhẹ: xiāoxi."},
+      {"id":"v19","hanzi":"发送","pinyin":"fāsòng","pos":"động từ","meaning_vi":"gửi, phát đi","example_zh":"请把图片发送给我。","example_pinyin":"Qǐng bǎ túpiàn fāsòng gěi wǒ.","example_vi":"Xin hãy gửi tấm ảnh cho tôi.","hanviet":"PHÁT TỐNG","note_vi":"发送 trang trọng, dùng cho tin nhắn, thư điện tử, tệp; nút “Gửi” trên điện thoại cũng ghi 发送. Khẩu ngữ thường nói 发."},
+      {"id":"v20","hanzi":"用来","pinyin":"yònglái","pos":"động từ","meaning_vi":"dùng để","example_zh":"手机可以用来看视频、发消息。","example_pinyin":"Shǒujī kěyǐ yònglái kàn shìpín, fā xiāoxi.","example_vi":"Điện thoại có thể dùng để xem video, nhắn tin.","note_vi":"用来 + động từ: nêu công dụng. Có thể nói A 用来 V (手机用来打电话). Gần với 用于 nhưng 用来 theo sau là động từ, 用于 theo sau là lĩnh vực."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"用于","pinyin":"yòngyú","pos":"động từ","meaning_vi":"dùng vào (lĩnh vực)","example_zh":"这种技术已经用于医院。","example_pinyin":"Zhè zhǒng jìshù yǐjīng yòngyú yīyuàn.","example_vi":"Công nghệ này đã được dùng trong bệnh viện."},
+      {"id":"x2","hanzi":"便于","pinyin":"biànyú","pos":"động từ","meaning_vi":"tiện cho, dễ dàng để","example_zh":"小手机便于带在身上。","example_pinyin":"Xiǎo shǒujī biànyú dài zài shēn shang.","example_vi":"Điện thoại nhỏ tiện mang theo người."},
+      {"id":"x3","hanzi":"不便","pinyin":"búbiàn","pos":"tính từ","meaning_vi":"bất tiện","example_zh":"没有网络，生活很不方便。","example_pinyin":"Méiyǒu wǎngluò, shēnghuó hěn bù fāngbiàn.","example_vi":"Không có mạng thì cuộc sống rất bất tiện.","note_vi":"不便 đọc búbiàn (不 đọc bú trước thanh 4). Trong ví dụ dùng cách nói thông thường 不方便; 不便 trang trọng hơn."},
+      {"id":"x4","hanzi":"快速","pinyin":"kuàisù","pos":"tính từ","meaning_vi":"nhanh chóng","example_zh":"这个软件可以快速地找到信息。","example_pinyin":"Zhège ruǎnjiàn kěyǐ kuàisù de zhǎodào xìnxī.","example_vi":"Phần mềm này có thể tìm thông tin nhanh chóng."},
+      {"id":"x5","hanzi":"加快","pinyin":"jiākuài","pos":"động từ","meaning_vi":"tăng nhanh, đẩy nhanh","example_zh":"请加快速度，我们要迟到了。","example_pinyin":"Qǐng jiākuài sùdù, wǒmen yào chídào le.","example_vi":"Xin hãy nhanh lên, chúng ta sắp muộn rồi."},
+      {"id":"x6","hanzi":"大大","pinyin":"dàdà","pos":"phó từ","meaning_vi":"rất nhiều, lớn lao","example_zh":"科技大大改变了我们的生活。","example_pinyin":"Kējì dàdà gǎibiàn le wǒmen de shēnghuó.","example_vi":"Khoa học công nghệ đã thay đổi cuộc sống chúng ta rất nhiều.","note_vi":"大大 + động từ chỉ thay đổi (大大提高、大大改变). Ở đây 大大 đọc dàdà (cả hai thanh 4)."},
+      {"id":"x7","hanzi":"进入","pinyin":"jìnrù","pos":"động từ","meaning_vi":"đi vào, bước vào","example_zh":"请大家进入教室。","example_pinyin":"Qǐng dàjiā jìnrù jiàoshì.","example_vi":"Mời mọi người vào lớp học.","hanviet":"TIẾN NHẬP"},
+      {"id":"x8","hanzi":"获取","pinyin":"huòqǔ","pos":"động từ","meaning_vi":"thu được, lấy được","example_zh":"现在获取信息很方便。","example_pinyin":"Xiànzài huòqǔ xìnxī hěn fāngbiàn.","example_vi":"Bây giờ thu thập thông tin rất thuận tiện.","hanviet":"HOẠCH THỦ"},
+      {"id":"x9","hanzi":"查找","pinyin":"cházhǎo","pos":"động từ","meaning_vi":"tra cứu, tìm kiếm","example_zh":"你可以在网上查找资料。","example_pinyin":"Nǐ kěyǐ zài wǎng shang cházhǎo zīliào.","example_vi":"Bạn có thể tra tài liệu trên mạng."},
+      {"id":"x10","hanzi":"起到","pinyin":"qǐdào","pos":"động từ","meaning_vi":"có tác dụng, đóng vai trò","example_zh":"老师的话起到了很大的作用。","example_pinyin":"Lǎoshī de huà qǐdào le hěn dà de zuòyòng.","example_vi":"Lời thầy đã có tác dụng rất lớn.","note_vi":"起到 + (很大的) + 作用 / 效果. Cụm cố định: 起到作用."},
+      {"id":"x11","hanzi":"能否","pinyin":"néngfǒu","pos":"phó từ","meaning_vi":"có thể hay không","example_zh":"请问您能否帮我一个忙？","example_pinyin":"Qǐngwèn nín néngfǒu bāng wǒ yí ge máng?","example_vi":"Xin hỏi ông có thể giúp tôi một việc được không?","note_vi":"能否 = 能不能 (trang trọng), cùng họ với 是否."},
+      {"id":"x12","hanzi":"将要","pinyin":"jiāngyào","pos":"phó từ","meaning_vi":"sắp, sẽ","example_zh":"电影将要开始了。","example_pinyin":"Diànyǐng jiāngyào kāishǐ le.","example_vi":"Bộ phim sắp bắt đầu."},
+      {"id":"x13","hanzi":"短信","pinyin":"duǎnxìn","pos":"danh từ","meaning_vi":"tin nhắn SMS","example_zh":"他给我发了一条短信。","example_pinyin":"Tā gěi wǒ fā le yì tiáo duǎnxìn.","example_vi":"Anh ấy gửi cho tôi một tin nhắn.","note_vi":"Lượng từ: 条."},
+      {"id":"x14","hanzi":"回复","pinyin":"huífù","pos":"động từ","meaning_vi":"trả lời, phản hồi","example_zh":"请你快点儿回复我。","example_pinyin":"Qǐng nǐ kuài diǎnr huífù wǒ.","example_vi":"Bạn hãy trả lời tôi nhanh lên nhé."},
+      {"id":"x15","hanzi":"转发","pinyin":"zhuǎnfā","pos":"động từ","meaning_vi":"chuyển tiếp (tin nhắn, bài đăng)","example_zh":"请把这条消息转发给大家。","example_pinyin":"Qǐng bǎ zhè tiáo xiāoxi zhuǎnfā gěi dàjiā.","example_vi":"Xin hãy chuyển tiếp tin này cho mọi người."},
+      {"id":"x16","hanzi":"信号","pinyin":"xìnhào","pos":"danh từ","meaning_vi":"tín hiệu, sóng","example_zh":"山里手机信号不好。","example_pinyin":"Shān li shǒujī xìnhào bù hǎo.","example_vi":"Trong núi sóng điện thoại không tốt.","hanviet":"TÍN HIỆU"},
+      {"id":"x17","hanzi":"网址","pinyin":"wǎngzhǐ","pos":"danh từ","meaning_vi":"địa chỉ trang web","example_zh":"请把网址发给我。","example_pinyin":"Qǐng bǎ wǎngzhǐ fā gěi wǒ.","example_vi":"Xin hãy gửi địa chỉ trang web cho tôi."},
+      {"id":"x18","hanzi":"密码","pinyin":"mìmǎ","pos":"danh từ","meaning_vi":"mật khẩu, mã bí mật","example_zh":"请不要把密码告诉别人。","example_pinyin":"Qǐng búyào bǎ mìmǎ gàosu biéren.","example_vi":"Xin đừng nói mật khẩu cho người khác."},
+      {"id":"x19","hanzi":"播放","pinyin":"bōfàng","pos":"động từ","meaning_vi":"phát (video, nhạc)","example_zh":"视频正在播放，请安静。","example_pinyin":"Shìpín zhèngzài bōfàng, qǐng ānjìng.","example_vi":"Video đang phát, xin giữ yên lặng."},
+      {"id":"x20","hanzi":"暂停","pinyin":"zàntíng","pos":"động từ","meaning_vi":"tạm dừng","example_zh":"电影暂停了十分钟。","example_pinyin":"Diànyǐng zàntíng le shí fēnzhōng.","example_vi":"Bộ phim tạm dừng mười phút.","hanviet":"TẠM ĐÌNH"},
+      {"id":"x21","hanzi":"广播","pinyin":"guǎngbō","pos":"động từ / danh từ","meaning_vi":"phát thanh; đài phát thanh","example_zh":"我每天早上听广播。","example_pinyin":"Wǒ měi tiān zǎoshang tīng guǎngbō.","example_vi":"Sáng nào tôi cũng nghe đài.","hanviet":"QUẢNG BÁ"},
+      {"id":"x22","hanzi":"收听","pinyin":"shōutīng","pos":"động từ","meaning_vi":"nghe (đài, chương trình)","example_zh":"欢迎收听今天的节目。","example_pinyin":"Huānyíng shōutīng jīntiān de jiémù.","example_vi":"Chào mừng bạn nghe chương trình hôm nay."},
+      {"id":"x23","hanzi":"打印","pinyin":"dǎyìn","pos":"động từ","meaning_vi":"in (từ máy tính)","example_zh":"我要打印一份资料。","example_pinyin":"Wǒ yào dǎyìn yí fèn zīliào.","example_vi":"Tôi cần in một bản tài liệu."},
+      {"id":"x24","hanzi":"打印机","pinyin":"dǎyìnjī","pos":"danh từ","meaning_vi":"máy in","example_zh":"这台打印机坏了。","example_pinyin":"Zhè tái dǎyìnjī huài le.","example_vi":"Cái máy in này hỏng rồi."},
+      {"id":"x25","hanzi":"复印","pinyin":"fùyìn","pos":"động từ","meaning_vi":"photocopy","example_zh":"请帮我复印这张图片。","example_pinyin":"Qǐng bāng wǒ fùyìn zhè zhāng túpiàn.","example_vi":"Xin hãy photocopy giúp tôi tấm hình này."},
+      {"id":"x26","hanzi":"发出","pinyin":"fāchū","pos":"động từ","meaning_vi":"phát ra, gửi đi","example_zh":"手机发出了很大的声音。","example_pinyin":"Shǒujī fāchū le hěn dà de shēngyīn.","example_vi":"Điện thoại phát ra tiếng rất to."},
+      {"id":"x27","hanzi":"按","pinyin":"àn","pos":"động từ / giới từ","meaning_vi":"bấm, nhấn; theo","example_zh":"你按一下这儿，视频就开始了。","example_pinyin":"Nǐ àn yíxià zhèr, shìpín jiù kāishǐ le.","example_vi":"Bạn nhấn vào đây là video bắt đầu.","note_vi":"按 còn là giới từ “theo”: 按时 (đúng giờ), 按顺序 (theo thứ tự)."},
+      {"id":"x28","hanzi":"推","pinyin":"tuī","pos":"động từ","meaning_vi":"đẩy","example_zh":"请把门推开。","example_pinyin":"Qǐng bǎ mén tuī kāi.","example_vi":"Xin đẩy cửa ra.","note_vi":"Trái nghĩa 拉 (kéo)."},
+      {"id":"x29","hanzi":"通","pinyin":"tōng","pos":"động từ / tính từ","meaning_vi":"thông, thông suốt","example_zh":"电话打通了。","example_pinyin":"Diànhuà dǎ tōng le.","example_vi":"Điện thoại gọi thông rồi.","note_vi":"通 là bổ ngữ kết quả hay gặp: 打通 (gọi thông), 看通 (hiểu thấu). Ngoài ra: 不通 (không thông, không lưu thông), 交通."},
+      {"id":"x30","hanzi":"台","pinyin":"tái","pos":"lượng từ","meaning_vi":"chiếc, cái (máy móc)","example_zh":"我家有一台电脑。","example_pinyin":"Wǒ jiā yǒu yì tái diànnǎo.","example_vi":"Nhà tôi có một chiếc máy tính.","note_vi":"Lượng từ cho máy móc: 一台电脑, 一台电视, 一台打印机."}
+    ],
+    "glossary": [
+      {"hanzi":"软件","pinyin":"ruǎnjiàn","meaning_vi":"phần mềm","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“是否” (có… hay không)",
+        "pattern":"S + 是否 + V / Adj　·　不知道 / 请问 + 是否 + ……　·　能否 + V",
+        "explanation_vi":"是否 là cách nói trang trọng, văn viết của 是不是, nghĩa “có… hay không, liệu có…”. Đứng trước động từ hoặc tính từ trong câu nghi vấn gián tiếp (不知道他是否来了, 请告诉我你是否同意) hoặc câu hỏi lịch sự trang trọng (您是否有时间？).\nKhông thêm 吗 vì 是否 đã mang nghĩa hỏi. Trong hội thoại thân mật, người ta nói 是不是 hay 有没有, dùng 是否 sẽ nghe cứng. 能否 là dạng tương tự của 能不能.",
+        "examples":[
+          {"zh":"请告诉我你明天是否有时间。","pinyin":"Qǐng gàosu wǒ nǐ míngtiān shìfǒu yǒu shíjiān.","vi":"Xin hãy cho tôi biết ngày mai bạn có thời gian hay không."},
+          {"zh":"我不知道他是否已经到了。","pinyin":"Wǒ bù zhīdào tā shìfǒu yǐjīng dào le.","vi":"Tôi không biết anh ấy đã đến hay chưa."},
+          {"zh":"网上的信息是否都是真的，需要仔细判断。","pinyin":"Wǎng shang de xìnxī shìfǒu dōu shì zhēn de, xūyào zǐxì pànduàn.","vi":"Thông tin trên mạng có đúng là thật hay không thì cần phán đoán kỹ."},
+          {"zh":"您是否同意这个办法？","pinyin":"Nín shìfǒu tóngyì zhège bànfǎ?","vi":"Ông có đồng ý với cách này không?"}
+        ],
+        "mistakes_vi":"✗ 你是否同意吗？\n✓ 你是否同意？\n是否 đã có nghĩa hỏi, không thêm 吗.\n✗ 你吃了饭是否？\n✓ 你是否吃了饭？\n是否 đứng trước động từ, không đặt ở cuối câu.\n✗ 朋友聊天时问：“你是否吃饭了？”\n✓ 朋友聊天时问：“你吃饭了吗？”\nTrò chuyện thân mật nên dùng 吗 / 是不是, 是否 chỉ hợp văn viết, thông báo, câu hỏi lịch sự.",
+        "compare_vi":"是否 ≈ “liệu có… hay không”, “có phải… hay không” (văn viết). Khẩu ngữ: 是不是."
+      },
+      {
+        "id":"g2",
+        "title":"“受不了” (chịu không nổi)",
+        "pattern":"S + 受不了 + (O)　·　Adj + 得 + 受不了　·　S + 受得了 / 受不了 + 吗",
+        "explanation_vi":"受不了 (shòubuliǎo) nghĩa là “không chịu được, chịu không nổi”: nói về cảm giác khó chịu quá mức (nóng, lạnh, ồn, mùi, hay cách cư xử của ai đó). Dạng khẳng định là 受得了 (chịu được), thường dùng trong câu hỏi hoặc phản vấn: 你受得了吗？ 谁受得了？\nCấu trúc: S + 受不了 + O (我受不了这个声音); Adj + 得 + 受不了 (热得受不了); 受不了了 (hết chịu nổi rồi). 受不了 không đi cùng 很: ✗ 很受不了. Chữ 了 trong 受不了 đọc liǎo, còn 了 cuối câu là trợ từ đọc le.",
+        "examples":[
+          {"zh":"今天太热了，我受不了了。","pinyin":"Jīntiān tài rè le, wǒ shòubuliǎo le.","vi":"Hôm nay nóng quá, tôi chịu không nổi nữa."},
+          {"zh":"我受不了这么大的声音。","pinyin":"Wǒ shòubuliǎo zhème dà de shēngyīn.","vi":"Tôi chịu không nổi tiếng ồn lớn thế này."},
+          {"zh":"他冷得受不了，只好回家了。","pinyin":"Tā lěng de shòubuliǎo, zhǐhǎo huí jiā le.","vi":"Anh ấy lạnh đến mức chịu không nổi, đành phải về nhà."},
+          {"zh":"这么长的会，谁受得了？","pinyin":"Zhème cháng de huì, shéi shòudeliǎo?","vi":"Cuộc họp dài thế này, ai mà chịu nổi?"},
+          {"zh":"我受不了他总是迟到。","pinyin":"Wǒ shòubuliǎo tā zǒngshì chídào.","vi":"Tôi chịu không nổi việc anh ta lúc nào cũng đến muộn."}
+        ],
+        "mistakes_vi":"✗ 我很受不了这个声音。\n✓ 我受不了这个声音。\n受不了 đã nhấn mạnh sẵn, không thêm 很.\n✗ 我不受了这个声音。\n✓ 我受不了这个声音。\nDạng khả năng phải là 受不了 (chèn 不 giữa 受 và 了).\n✗ 我受不了了热。\n✓ 我受不了这么热的天气。\nTân ngữ đặt ngay sau 受不了, không chèn 了 giữa.",
+        "compare_vi":"受不了 ≈ “chịu không nổi”, “không chịu nổi”. 受得了 ≈ “chịu được”."
+      },
+      {
+        "id":"g3",
+        "title":"“接着” (rồi tiếp theo) và “此外 / 除此以外” (ngoài ra)",
+        "pattern":"先……，接着……　·　接着 + 说 / 看 / 干　·　……，此外，……　·　……，除此以外，还……",
+        "explanation_vi":"(1) 接着: phó từ nối hai việc xảy ra liên tiếp, việc sau xảy ra ngay sau việc trước: 他先打了个电话，接着又发了一条短信. Cũng là động từ “tiếp tục”: 接着说 (nói tiếp), 接着看 (xem tiếp), 接着干 (làm tiếp). Dùng một mình, không cần thêm 然后.\n(2) 此外 / 除此以外: thêm một ý khác, “ngoài ra, ngoài điều đó ra”. Đứng đầu vế sau, theo sau là dấu phẩy: 这个手机速度很快，此外，价格也不贵. 此外 nghe trang trọng hơn 除此以外; ý bổ sung thường có 还 / 也. Hai cách này đồng nghĩa, chỉ khác phong cách.",
+        "examples":[
+          {"zh":"他先打了个电话，接着又发了一条短信。","pinyin":"Tā xiān dǎ le ge diànhuà, jiēzhe yòu fā le yì tiáo duǎnxìn.","vi":"Anh ấy gọi điện trước, rồi lại gửi một tin nhắn."},
+          {"zh":"你先说，我接着说。","pinyin":"Nǐ xiān shuō, wǒ jiēzhe shuō.","vi":"Bạn nói trước, tôi nói tiếp."},
+          {"zh":"这个手机速度很快，此外，价格也不贵。","pinyin":"Zhège shǒujī sùdù hěn kuài, cǐwài, jiàgé yě bú guì.","vi":"Chiếc điện thoại này chạy nhanh, ngoài ra giá cũng không đắt."},
+          {"zh":"手机可以打电话，除此以外，还可以看视频。","pinyin":"Shǒujī kěyǐ dǎ diànhuà, chú cǐ yǐwài, hái kěyǐ kàn shìpín.","vi":"Điện thoại có thể gọi điện, ngoài ra còn có thể xem video."},
+          {"zh":"我们先学发消息，接着学视频聊天。","pinyin":"Wǒmen xiān xué fā xiāoxi, jiēzhe xué shìpín liáotiān.","vi":"Chúng mình học nhắn tin trước, rồi học gọi video."}
+        ],
+        "mistakes_vi":"✗ 先吃饭，然后接着洗澡。\n✓ 先吃饭，接着洗澡。\n然后 và 接着 cùng nghĩa, chọn một.\n✗ 手机可以打电话，它此外还可以看视频。\n✓ 手机可以打电话，此外，还可以看视频。\n此外 đứng đầu vế sau, theo sau là dấu phẩy, không chen vào giữa câu.\n✗ 接着我们吃饭，先看电影。\n✓ 先看电影，接着我们吃饭。\n先……，接着……: việc trước đứng trước.",
+        "compare_vi":"接着 ≈ “rồi tiếp theo, sau đó, tiếp”. 此外 / 除此以外 ≈ “ngoài ra”."
+      },
+      {
+        "id":"g4",
+        "title":"“把……叫作……” (gọi… là…)",
+        "pattern":"S + 把 + A + 叫作 / 叫做 + B　·　A + 被叫作 + B　·　这 / 那 + 叫作 + B",
+        "explanation_vi":"把A叫作B nghĩa là “gọi A là B”, dùng để giải thích tên gọi, thuật ngữ, hay cách người ta gọi một sự vật: 人们把这个东西叫作手机. Chủ ngữ thường là 人们 / 大家 / 我们 / 中国人. Nghi vấn: 你们把这个叫作什么？ Cũng có dạng bị động A 被叫作 B hoặc A 叫作 B (这叫作……).\nKhác với 叫: 叫 dùng để nói tên người, vật (我叫小明, 这个字叫……). 叫作 trang trọng, định nghĩa. Có thể dùng 叫做 (cùng nghĩa) hoặc 称为 (xưng là).",
+        "examples":[
+          {"zh":"人们把这个东西叫作手机。","pinyin":"Rénmen bǎ zhège dōngxi jiàozuò shǒujī.","vi":"Mọi người gọi thứ này là điện thoại."},
+          {"zh":"你们把这个小红点叫作什么？","pinyin":"Nǐmen bǎ zhège xiǎo hóngdiǎn jiàozuò shénme?","vi":"Các bạn gọi cái chấm đỏ nhỏ này là gì?"},
+          {"zh":"我们把它叫作“消息提醒”。","pinyin":"Wǒmen bǎ tā jiàozuò “xiāoxi tíxǐng”.","vi":"Chúng tôi gọi nó là “nhắc nhở tin nhắn”."},
+          {"zh":"老师把这种学习方法叫作“慢慢积累”。","pinyin":"Lǎoshī bǎ zhè zhǒng xuéxí fāngfǎ jiàozuò “mànmàn jīlěi”.","vi":"Cô giáo gọi phương pháp học này là “tích lũy từ từ”."}
+        ],
+        "mistakes_vi":"✗ 人们叫作这个东西手机。\n✓ 人们把这个东西叫作手机。\nCấu trúc là 把A叫作B; không đặt A sau 叫作.\n✗ 我叫作小明。\n✓ 我叫小明。\nTự giới thiệu tên dùng 叫, không dùng 叫作.\n✗ 我们把它叫手机作。\n✓ 我们把它叫作手机。\n叫作 là một từ, không tách thành 叫……作.",
+        "compare_vi":"把A叫作B ≈ “gọi A là B”. Trong tiếng Việt, “người ta gọi X là Y” cũng dùng khi giải thích thuật ngữ."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Bà học dùng điện thoại",
+      "scene_vi": "Chiều Chủ nhật ở nhà. Bà nội nhờ cháu trai Tiểu Đông dạy dùng điện thoại thông minh để nhắn tin và gọi video với bố mẹ ở xa.",
+      "lines": [
+        {"speaker":"奶奶","zh":"小东，你教我用手机吧。我看你们年轻人天天用，是否很难学？","pinyin":"Xiǎo Dōng, nǐ jiāo wǒ yòng shǒujī ba. Wǒ kàn nǐmen niánqīngrén tiāntiān yòng, shìfǒu hěn nán xué?","vi":"Tiểu Đông, con dạy bà dùng điện thoại đi. Bà thấy bọn trẻ các con ngày nào cũng dùng, liệu có khó học lắm không?"},
+        {"speaker":"小东","zh":"不难，奶奶。手机可以用来打电话、发消息、看视频。我们先学发消息吧。","pinyin":"Bù nán, nǎinai. Shǒujī kěyǐ yònglái dǎ diànhuà, fā xiāoxi, kàn shìpín. Wǒmen xiān xué fā xiāoxi ba.","vi":"Không khó đâu bà. Điện thoại dùng để gọi điện, nhắn tin, xem video được. Chúng ta học nhắn tin trước nhé."},
+        {"speaker":"奶奶","zh":"好。我以前觉得手机很复杂，现在看起来也没有那么难。","pinyin":"Hǎo. Wǒ yǐqián juéde shǒujī hěn fùzá, xiànzài kàn qǐlai yě méiyǒu nàme nán.","vi":"Được. Trước đây bà thấy điện thoại rất phức tạp, giờ nhìn lại cũng không khó đến thế."},
+        {"speaker":"小东","zh":"您按一下这里，就可以说话，然后点“发送”。接着，我的手机就会收到您的消息。","pinyin":"Nín àn yíxià zhèli, jiù kěyǐ shuō huà, ránhòu diǎn “fāsòng”. Jiēzhe, wǒ de shǒujī jiù huì shōudào nín de xiāoxi.","vi":"Bà nhấn vào đây là có thể nói, rồi bấm “Gửi”. Sau đó điện thoại của con sẽ nhận được tin nhắn của bà."},
+        {"speaker":"奶奶","zh":"真快！这个速度，比写信快多了。除此以外，它还能干什么？","pinyin":"Zhēn kuài! Zhège sùdù, bǐ xiě xìn kuài duō le. Chú cǐ yǐwài, tā hái néng gàn shénme?","vi":"Nhanh thật! Tốc độ này nhanh hơn viết thư nhiều. Ngoài ra nó còn làm được gì nữa?"},
+        {"speaker":"小东","zh":"除此以外，还可以视频聊天。您想爸爸妈妈了，马上就能看到他们。","pinyin":"Chú cǐ yǐwài, hái kěyǐ shìpín liáotiān. Nín xiǎng bàba māma le, mǎshàng jiù néng kàn dào tāmen.","vi":"Ngoài ra còn gọi video được. Bà nhớ bố mẹ con là có thể thấy họ ngay."},
+        {"speaker":"奶奶","zh":"太好了！不过有些东西我真是受不了，比如那些广告，一直响个不停。","pinyin":"Tài hǎo le! Búguò yǒuxiē dōngxi wǒ zhēn shì shòubuliǎo, bǐrú nàxiē guǎnggào, yìzhí xiǎng ge bù tíng.","vi":"Hay quá! Có điều có thứ bà thật sự chịu không nổi, ví dụ mấy cái quảng cáo cứ kêu mãi không ngừng."},
+        {"speaker":"小东","zh":"哈哈，那些您可以关掉。我再教您怎么关。","pinyin":"Hāhā, nàxiē nín kěyǐ guān diào. Wǒ zài jiāo nín zěnme guān.","vi":"Ha ha, mấy cái đó bà tắt đi được. Con sẽ dạy bà cách tắt."},
+        {"speaker":"奶奶","zh":"对了，你们把屏幕上那个小红点叫作什么？","pinyin":"Duì le, nǐmen bǎ píngmù shang nàge xiǎo hóngdiǎn jiàozuò shénme?","vi":"À đúng rồi, các con gọi cái chấm đỏ nhỏ trên màn hình là gì?"},
+        {"speaker":"小东","zh":"我们把它叫作“消息提醒”。有新消息，它就会出现。您学得真快！科技让我们的生活更方便，也让家人离得更近了。","pinyin":"Wǒmen bǎ tā jiàozuò “xiāoxi tíxǐng”. Yǒu xīn xiāoxi, tā jiù huì chūxiàn. Nín xué de zhēn kuài! Kējì ràng wǒmen de shēnghuó gèng fāngbiàn, yě ràng jiārén lí de gèng jìn le.","vi":"Bọn con gọi nó là “nhắc nhở tin nhắn”. Có tin mới là nó sẽ hiện ra. Bà học nhanh thật! Công nghệ làm cuộc sống tiện hơn, cũng làm cho người thân gần nhau hơn."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:科技","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____让我们的生活更方便。","options":["科技","速度","消息","作用"],"answer":0,"explanation_vi":"“Khoa học công nghệ giúp cuộc sống tiện hơn”: 科技."},
+      {"id":"e2","type":"choice","tag":"v:信息","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们可以在网上查找____。","options":["信息","作用","速度","目的"],"answer":0,"explanation_vi":"Tìm thông tin trên mạng: 查找信息."},
+      {"id":"e3","type":"choice","tag":"v:使用","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请不要在这里____手机。","options":["使用","产生","提供","发送"],"answer":0,"explanation_vi":"Không được sử dụng điện thoại ở đây: 使用手机."},
+      {"id":"e4","type":"choice","tag":"v:提供","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这家酒店____早饭。","options":["提供","产生","发送","使用"],"answer":0,"explanation_vi":"Khách sạn cung cấp bữa sáng: 提供早饭."},
+      {"id":"e5","type":"choice","tag":"v:产生","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"互联网的出现____了很多新工作。","options":["产生","发送","使用","用来"],"answer":0,"explanation_vi":"Sự xuất hiện của internet tạo ra nhiều công việc mới: 产生."},
+      {"id":"e6","type":"choice","tag":"v:速度","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"网络的____越来越快。","options":["速度","作用","信息","消息"],"answer":0,"explanation_vi":"“Tốc độ mạng ngày càng nhanh”: 速度越来越快."},
+      {"id":"e7","type":"choice","tag":"v:发送","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请把图片____给我。","options":["发送","产生","提供","使用"],"answer":0,"explanation_vi":"Gửi hình ảnh đi: 发送给我."},
+      {"id":"e8","type":"choice","tag":"g:是否","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请告诉我你明天____有时间。","options":["是否","是不","还是","或者"],"answer":0,"explanation_vi":"Câu hỏi gián tiếp trang trọng: 是否有时间."},
+      {"id":"e9","type":"choice","tag":"g:受不了","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天太热了，我____了。","options":["受不了","受得到","受不到","受过了"],"answer":0,"explanation_vi":"“Chịu không nổi nữa”: 受不了了."},
+      {"id":"e10","type":"choice","tag":"g:接着","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他先打了个电话，____又发了一条短信。","options":["接着","所以","但是","如果"],"answer":0,"explanation_vi":"Hai việc nối tiếp: gọi điện rồi gửi tin nhắn → 接着."},
+      {"id":"e11","type":"choice","tag":"g:除此以外","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"手机可以打电话，____，还可以看视频。","options":["除此以外","因此","所以","可是"],"answer":0,"explanation_vi":"Thêm một công dụng nữa → 除此以外 (ngoài ra)."},
+      {"id":"e12","type":"choice","tag":"g:把叫作","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["人们把这个东西叫作手机。","人们叫作这个东西手机。","人们把叫作这个东西手机。","人们这个东西把叫作手机。"],"answer":0,"explanation_vi":"Cấu trúc: S + 把 + A + 叫作 + B."},
+      {"id":"e13","type":"order","tag":"g:把叫作","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["人们","把","这个东西","叫作","手机"],"answers":["人们把这个东西叫作手机"],"translation_vi":"Mọi người gọi thứ này là điện thoại.","explanation_vi":"S + 把 + A + 叫作 + B."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"短信","vi":"tin nhắn SMS"},{"zh":"回复","vi":"trả lời"},{"zh":"转发","vi":"chuyển tiếp"},{"zh":"信号","vi":"tín hiệu"},{"zh":"密码","vi":"mật khẩu"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:是否","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我不知道他是否已经到了。","我不知道他已经到了是否。","我不知道他是否已经到了吗。","我不知道是否他已经到了吗。"],"answer":0,"explanation_vi":"是否 đứng trước vị ngữ, không thêm 吗."},
+        {"id":"q2","type":"choice","tag":"g:受不了","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我受不了这么大的声音。","我很受不了这么大的声音。","我不受了这么大的声音。","我受了不这么大的声音。"],"answer":0,"explanation_vi":"受不了 + tân ngữ; không thêm 很."},
+        {"id":"q3","type":"choice","tag":"g:接着","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你先说，我____说。","options":["接着","因此","但是","一起"],"answer":0,"explanation_vi":"“Bạn nói trước, tôi nói tiếp”: 接着说."},
+        {"id":"q4","type":"choice","tag":"g:除此以外","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["手机可以打电话，除此以外，还可以看视频。","手机可以打电话，它除此以外还可以看视频。","手机可以打电话，除此以外手机，还可以看视频。","除此以外，手机可以打电话，还可以看视频。"],"answer":0,"explanation_vi":"除此以外 đứng đầu vế sau, sau nó là dấu phẩy rồi 还可以……."},
+        {"id":"q5","type":"choice","tag":"g:把叫作","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你们____这个小红点叫作什么？","options":["把","被","给","让"],"answer":0,"explanation_vi":"把A叫作B: 你们把这个小红点叫作什么?"},
+        {"id":"q6","type":"choice","tag":"g:受不了","prompt_vi":"Chọn cách nói đúng điền vào chỗ trống.","question_zh":"这么长的会，谁____？","options":["受得了","受得着","受不着","受了不"],"answer":0,"explanation_vi":"Câu hỏi tu từ “ai mà chịu nổi?”: 谁受得了?"}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:互联网","prompt_vi":"Chọn đáp án đúng.","question_zh":"现在很多事情都可以在____上做。","options":["互联网","速度","作用","消息"],"answer":0,"explanation_vi":"“Làm trên internet”: 在互联网上."},
+      {"id":"t2","type":"choice","tag":"g:接着","prompt_vi":"Chọn đáp án đúng.","question_zh":"我们先学发消息，____学视频聊天。","options":["接着","因此","所以","或者"],"answer":0,"explanation_vi":"先……，接着……: học nhắn tin trước rồi học gọi video."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"用于","vi":"dùng vào"},{"zh":"便于","vi":"tiện cho"},{"zh":"快速","vi":"nhanh chóng"},{"zh":"加快","vi":"đẩy nhanh"},{"zh":"大大","vi":"rất nhiều"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"进入","vi":"đi vào"},{"zh":"获取","vi":"thu được"},{"zh":"查找","vi":"tra cứu"},{"zh":"起到","vi":"có tác dụng"},{"zh":"能否","vi":"có thể hay không"}]},
+      {"id":"t5","type":"order","tag":"g:是否","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["请","告诉","我","你","是否","有时间"],"answers":["请告诉我你是否有时间"],"translation_vi":"Xin hãy cho tôi biết bạn có thời gian hay không.","explanation_vi":"请告诉我 + (你 + 是否 + 有时间)."},
+      {"id":"t6","type":"order","tag":"g:除此以外","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个手机","速度快","此外","价格也","不贵"],"answers":["这个手机速度快此外价格也不贵"],"translation_vi":"Chiếc điện thoại này chạy nhanh, ngoài ra giá cũng không đắt.","explanation_vi":"Vế 1: 这个手机速度快; 此外 mở vế sau; 价格也不贵."},
+      {"id":"t7","type":"fill","tag":"g:受不了","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"今天太热了，我____了。","answers":["受不了"],"hint_vi":"chịu không nổi","explanation_vi":"受不了了 = hết chịu nổi rồi."},
+      {"id":"t8","type":"fill","tag":"g:把叫作","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"人们____这个东西叫作手机。","answers":["把"],"hint_vi":"(giới từ dùng để đưa tân ngữ lên trước)","explanation_vi":"把A叫作B."},
+      {"id":"t9","type":"listen_choice","tag":"g:是否","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我不知道他是否已经到了。","options":["Tôi không biết anh ấy đã đến hay chưa.","Tôi biết chắc anh ấy đã đến rồi.","Tôi hy vọng anh ấy sẽ đến sớm.","Anh ấy hỏi tôi đã đến chưa."],"answer":0,"explanation_vi":"不知道 + 是否 = không biết có… hay không."},
+      {"id":"t10","type":"listen_choice","tag":"v:速度","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"网络的速度越来越快。","options":["网络的速度越来越快。","网络的信号越来越好。","网络的价格越来越高。","网络的用户越来越多。"],"answer":0,"explanation_vi":"Câu nghe được: 网络的速度越来越快 = Tốc độ mạng ngày càng nhanh."},
+      {"id":"t11","type":"dictation","tag":"g:接着","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"他先打了个电话，接着又发了一条短信。","answers":["他先打了个电话接着又发了一条短信"],"explanation_vi":"他先打了个电话，接着又发了一条短信 = Anh ấy gọi điện trước, rồi lại gửi một tin nhắn."},
+      {"id":"t12","type":"dictation","tag":"v:科技","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"科技让我们的生活更方便。","answers":["科技让我们的生活更方便"],"explanation_vi":"科技让我们的生活更方便 = Khoa học công nghệ làm cuộc sống chúng ta tiện hơn."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:受不了","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Hôm nay nóng quá, tôi chịu không nổi nữa.","answers":["今天太热了，我受不了了","今天太热了，我受不了","今天热得我受不了了","今天热得受不了","今天热得我受不了","今天太热，我受不了了","今天太热了，我受不了啦","今天太热了我受不了了"],"explanation_vi":"今天太热了 + 我受不了了."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:把叫作","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Mọi người gọi thứ này là điện thoại.","answers":["人们把这个东西叫作手机","人们把这个东西叫做手机","人们把这种东西叫作手机","人们把它叫作手机","大家把这个东西叫作手机","人们把这个叫作手机","人们把这个东西称为手机","大家把它叫作手机"],"explanation_vi":"人们 + 把 + 这个东西 + 叫作 + 手机."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:除此以外","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"手机可以打电话，除此以外，还可以看视频。","answers_vi":["Điện thoại có thể gọi điện, ngoài ra còn có thể xem video.","Điện thoại dùng để gọi, ngoài việc đó còn xem được video."],"keywords":[["điện thoại"],["gọi"],["ngoài ra","ngoài việc đó","bên cạnh đó","ngoài điều này","ngoài"],["xem"],["video","clip","phim"]],"explanation_vi":"除此以外，还…… = ngoài ra còn…."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:提供","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这家酒店提供早饭。","answers_vi":["Khách sạn này có cung cấp bữa sáng.","Khách sạn này phục vụ bữa sáng."],"keywords":[["khách sạn"],["cung cấp","có","phục vụ","bao"],["bữa sáng","điểm tâm","ăn sáng","bữa điểm tâm"]],"explanation_vi":"提供 = cung cấp; 早饭 = bữa sáng."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"互联网改变了什么",
+        "title_vi":"Internet đã thay đổi điều gì",
+        "paragraphs":[
+          {
+            "tokens":[["二十","èrshí","hai mươi"],["年","nián","năm"],["前","qián","trước"],["，"],["如果","rúguǒ","nếu"],["你","nǐ","bạn"],["想","xiǎng","muốn"],["知道","zhīdào","biết"],["一个","yí ge","một"],["信息","xìnxī","thông tin"],["，"],["可能","kěnéng","có thể"],["要","yào","phải"],["去","qù","đi"],["图书馆","túshūguǎn","thư viện"],["查找","cházhǎo","tra cứu"],["很多","hěn duō","nhiều"],["书","shū","sách"],["。"],["现在","xiànzài","bây giờ"],["，"],["互联网","hùliánwǎng","internet"],["大大","dàdà","rất nhiều"],["改变","gǎibiàn","thay đổi"],["了","le","(đã)"],["这","zhè","điều này"],["一切","yīqiè","tất cả"],["。"],["只要","zhǐyào","chỉ cần"],["有","yǒu","có"],["手机","shǒujī","điện thoại"],["，"],["我们","wǒmen","chúng ta"],["什么","shénme","lúc nào"],["时候","shíhou","lúc"],["都","dōu","cũng"],["可以","kěyǐ","có thể"],["查找","cházhǎo","tra cứu"],["信息","xìnxī","thông tin"],["，"],["而且","érqiě","hơn nữa"],["速度","sùdù","tốc độ"],["非常","fēicháng","rất"],["快","kuài","nhanh"],["。"]],
+            "vi":"Hai mươi năm trước, nếu bạn muốn biết một thông tin, có thể phải đến thư viện tra rất nhiều sách. Bây giờ, internet đã thay đổi tất cả những điều đó. Chỉ cần có điện thoại, lúc nào chúng ta cũng có thể tra thông tin, hơn nữa tốc độ rất nhanh."
+          },
+          {
+            "tokens":[["互联网","hùliánwǎng","internet"],["还","hái","còn"],["产生","chǎnshēng","tạo ra"],["了","le","(đã)"],["很多","hěn duō","nhiều"],["新","xīn","mới"],["的","de","(của)"],["工作","gōngzuò","công việc"],["，"],["比如","bǐrú","ví dụ"],["拍","pāi","quay"],["视频","shìpín","video"],["、"],["写","xiě","viết"],["文章","wénzhāng","bài viết"],["。"],["很多","hěn duō","nhiều"],["人","rén","người"],["通过","tōngguò","thông qua"],["网络","wǎngluò","mạng"],["提供","tígōng","đưa ra"],["自己","zìjǐ","của mình"],["的","de","(của)"],["作品","zuòpǐn","tác phẩm"],["，"],["让","ràng","để"],["更多","gèng duō","nhiều hơn"],["的","de","(trợ từ)"],["人","rén","người"],["看到","kàn dào","nhìn thấy"],["。"]],
+            "vi":"Internet còn tạo ra rất nhiều công việc mới, ví dụ như quay video, viết bài. Nhiều người thông qua mạng đăng tải tác phẩm của mình để nhiều người hơn nhìn thấy."
+          },
+          {
+            "tokens":[["当然","dāngrán","tất nhiên"],["，"],["科技","kējì","công nghệ"],["也","yě","cũng"],["有","yǒu","có"],["不好","bù hǎo","không tốt"],["的","de","(của)"],["作用","zuòyòng","tác dụng"],["。"],["有人","yǒu rén","có người"],["一整天","yì zhěng tiān","cả ngày"],["都","dōu","đều"],["在","zài","đang"],["看","kàn","xem"],["手机","shǒujī","điện thoại"],["，"],["连","lián","ngay cả"],["饭","fàn","cơm"],["都","dōu","cũng"],["忘","wàng","quên"],["了","le","(rồi)"],["吃","chī","ăn"],["。"],["此外","cǐwài","ngoài ra"],["，"],["网上","wǎng shang","trên mạng"],["的","de","(của)"],["信息","xìnxī","thông tin"],["是否","shìfǒu","có hay không"],["都","dōu","đều"],["是","shì","là"],["真","zhēn","thật"],["的","de","(trợ từ)"],["，"],["我们","wǒmen","chúng ta"],["也","yě","cũng"],["需要","xūyào","cần"],["仔细","zǐxì","kỹ"],["判断","pànduàn","phán đoán"],["。"],["因此","yīncǐ","vì vậy"],["，"],["我们","wǒmen","chúng ta"],["应该","yīnggāi","nên"],["科学","kēxué","hợp lý"],["地","de","(một cách)"],["使用","shǐyòng","sử dụng"],["互联网","hùliánwǎng","internet"],["，"],["不要","búyào","đừng"],["让","ràng","để"],["它","tā","nó"],["影响","yǐngxiǎng","ảnh hưởng"],["我们","wǒmen","chúng ta"],["的","de","(của)"],["生活","shēnghuó","cuộc sống"],["。"]],
+            "vi":"Tất nhiên, công nghệ cũng có tác dụng không tốt. Có người cả ngày xem điện thoại, ngay cả cơm cũng quên ăn. Ngoài ra, thông tin trên mạng có thật hay không, chúng ta cũng cần phán đoán kỹ. Vì vậy, chúng ta nên dùng internet một cách hợp lý, đừng để nó ảnh hưởng đến cuộc sống."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"二十年前，想知道一个信息，可能要做什么？","options":["去图书馆查找很多书","给朋友打电话","去网吧上网","去商店买手机"],"answer":0,"explanation_vi":"Đoạn 1: 可能要去图书馆查找很多书."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"互联网产生了什么新东西？","options":["很多新的工作","很多新的学校","更多的汽车","更多的图书馆"],"answer":0,"explanation_vi":"Đoạn 2: 互联网还产生了很多新的工作."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"现在用手机查找信息的速度很慢。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 1: 速度非常快 — câu này sai."},
+          {"id":"rq4","type":"choice","tag":"g:是否","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"作者认为网上的信息都是真的。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 网上的信息是否都是真的，我们也需要仔细判断 — không phải tất cả đều thật, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"作者建议我们怎么做？","options":["科学地使用互联网","不要用手机","每天看一整天视频","只相信网上的信息"],"answer":0,"explanation_vi":"Đoạn 3: 我们应该科学地使用互联网."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Chương trình công nghệ trên đài",
+        "text_zh":"各位听众，欢迎收听今天的科技节目。今天我们要介绍一种新手机。它的速度非常快，一秒钟就可以打开一个视频。除此以外，它还可以用来翻译，你说一句话，它马上帮你翻译成另一种话。很多人觉得这样的科技太方便了。不过，也有人受不了它的价格，因为它要八千块。是否买它，请大家自己决定。接着，我们来听听大家的看法。",
+        "pinyin":"Gè wèi tīngzhòng, huānyíng shōutīng jīntiān de kējì jiémù. Jīntiān wǒmen yào jièshào yì zhǒng xīn shǒujī. Tā de sùdù fēicháng kuài, yì miǎo zhōng jiù kěyǐ dǎkāi yí ge shìpín. Chú cǐ yǐwài, tā hái kěyǐ yònglái fānyì, nǐ shuō yí jù huà, tā mǎshàng bāng nǐ fānyì chéng lìng yì zhǒng huà. Hěn duō rén juéde zhèyàng de kējì tài fāngbiàn le. Búguò, yě yǒu rén shòubuliǎo tā de jiàgé, yīnwèi tā yào bā qiān kuài. Shìfǒu mǎi tā, qǐng dàjiā zìjǐ juédìng. Jiēzhe, wǒmen lái tīngting dàjiā de kànfǎ.",
+        "vi":"Kính chào quý thính giả, chào mừng đến với chương trình công nghệ hôm nay. Hôm nay chúng tôi sẽ giới thiệu một loại điện thoại mới. Tốc độ của nó rất nhanh, một giây là có thể mở một video. Ngoài ra nó còn dùng để dịch được, bạn nói một câu, nó lập tức dịch giúp sang một ngôn ngữ khác. Nhiều người thấy công nghệ như vậy quá tiện. Tuy nhiên cũng có người không chịu nổi giá của nó vì nó có giá tám nghìn tệ. Có mua hay không, xin mời mọi người tự quyết định. Tiếp theo, chúng ta cùng nghe ý kiến của mọi người.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这个节目介绍的是什么？","options":["一种新手机","一本新书","一家新商店","一种新药"],"answer":0,"explanation_vi":"Nghe được: 今天我们要介绍一种新手机."},
+          {"id":"lq2","type":"choice","tag":"v:速度","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这种手机打开一个视频要多长时间？","options":["一秒钟","一分钟","十秒钟","一个小时"],"answer":0,"explanation_vi":"Nghe được: 一秒钟就可以打开一个视频."},
+          {"id":"lq3","type":"choice","tag":"g:除此以外","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"除了速度快，这种手机还可以用来做什么？","options":["翻译","打印","复印","听广播"],"answer":0,"explanation_vi":"Nghe được: 除此以外，它还可以用来翻译."},
+          {"id":"lq4","type":"choice","tag":"g:受不了","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"有人为什么受不了？","options":["它的价格太高","它的速度太慢","它的声音太大","它太重了"],"answer":0,"explanation_vi":"Nghe được: 有人受不了它的价格，因为它要八千块."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"是否","pinyin":"shìfǒu","vi":"có hay không","tip_vi":"是 shì: sh uốn lưỡi, thanh 4 xuống mạnh. 否 fǒu: f giống “ph”, vần ou như “âu” rồi tròn môi, thanh 3 (đọc đủ khi đứng cuối)."},
+      {"id":"s2","zh":"受不了","pinyin":"shòubuliǎo","vi":"chịu không nổi","tip_vi":"受 shòu: sh uốn lưỡi, vần ou, thanh 4. 不 đọc nhẹ bu. 了 liǎo: thanh 3, đọc đủ (xuống rồi lên) vì đứng cuối. Bốn âm đọc liền nhau, nhấn vào 受 và 了."},
+      {"id":"s3","zh":"此外","pinyin":"cǐwài","vi":"ngoài ra","tip_vi":"此 cǐ: c bật hơi, đầu lưỡi chạm răng trên, vần -i như “ư” ngắn, thanh 3 đọc nửa thanh vì đứng trước thanh 4. 外 wài: w gần như u ngắn, thanh 4."},
+      {"id":"s4","zh":"我不知道他是否已经到了。","pinyin":"Wǒ bù zhīdào tā shìfǒu yǐjīng dào le.","vi":"Tôi không biết anh ấy đã đến hay chưa.","tip_vi":"我不: 我 thanh 3 đọc nửa thanh vì đứng trước thanh 4. 知道 zhīdào: zh uốn lưỡi; 道 đọc nhẹ. 已经 yǐjīng: 已 thanh 3 trước thanh 1 → nửa thanh 3. 是否已经: nhịp chậm, nhấn vào 是否. 了 le nhẹ."},
+      {"id":"s5","zh":"今天太热了，我受不了了。","pinyin":"Jīntiān tài rè le, wǒ shòubuliǎo le.","vi":"Hôm nay nóng quá, tôi chịu không nổi nữa.","tip_vi":"热 rè: r uốn lưỡi nhẹ, thanh 4 xuống mạnh. 我受: 我 thanh 3 trước thanh 4 → nửa thanh 3. 受不了了: 了 đầu đọc liǎo, 了 cuối đọc le (nhẹ). Nhấn mạnh cảm xúc ở 太热了."},
+      {"id":"s6","zh":"人们把这个东西叫作手机。","pinyin":"Rénmen bǎ zhège dōngxi jiàozuò shǒujī.","vi":"Mọi người gọi thứ này là điện thoại.","tip_vi":"人们 rénmen: r uốn lưỡi, 们 nhẹ. 把这个: 把 thanh 3 trước thanh 4 → nửa thanh 3. 东西 dōngxi: 西 đọc nhẹ. 叫作 jiàozuò: j không bật hơi, zuò z không bật hơi. 手机 shǒujī: 手 thanh 3 nửa."},
+      {"id":"s7","zh":"他先打了个电话，接着又发了一条短信。","pinyin":"Tā xiān dǎ le ge diànhuà, jiēzhe yòu fā le yì tiáo duǎnxìn.","vi":"Anh ấy gọi điện trước, rồi lại gửi một tin nhắn.","tip_vi":"打了个: 打 thanh 3 trước 了 (nhẹ) đọc đủ. 电话 diànhuà: hai thanh 4 liền, 话 uốn nhẹ. 接着 jiēzhe: 着 nhẹ, zh uốn lưỡi. 一条 yì tiáo: 一 đổi thành yì trước thanh 2. 短信 duǎnxìn: 短 thanh 3 nửa."}
+    ],
+    "review": {
+      "remember": [
+        "是否 = có… hay không (trang trọng, như 是不是 / 能否 = 能不能); đứng trước vị ngữ, không thêm 吗: 不知道他是否已经到了.",
+        "受不了 (shòubuliǎo) = chịu không nổi; 受得了 = chịu được. Không đi với 很: 我受不了这个声音.",
+        "接着 = rồi tiếp theo / tiếp tục (先……，接着……; 接着说). 此外 / 除此以外 = ngoài ra, đứng đầu vế sau, có dấu phẩy.",
+        "把A叫作B = gọi A là B (giải thích tên gọi, thuật ngữ); 叫作 không dùng để giới thiệu tên mình (我叫……).",
+        "科技 (khoa học + công nghệ), 技术 (kỹ thuật, tay nghề), 信息 (thông tin) ≠ 消息 (tin tức cụ thể), 使用 (trang trọng hơn 用), 速度 + 快 / 慢."
+      ],
+      "mistakes": [
+        "✗ 你是否同意吗？ → ✓ 你是否同意？: 是否 đã là câu hỏi, không thêm 吗.",
+        "✗ 我很受不了这个声音 → ✓ 我受不了这个声音: không dùng 很 với 受不了.",
+        "✗ 人们叫作这个东西手机 → ✓ 人们把这个东西叫作手机: cấu trúc 把A叫作B."
+      ]
+    }
+  }
+}

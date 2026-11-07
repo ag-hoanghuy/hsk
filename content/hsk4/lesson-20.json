@@ -1,0 +1,260 @@
+{
+  "level": 4,
+  "number": 20,
+  "summary": "Hai người bạn lái xe đường dài đến điểm du lịch, ngắm cảnh và lo trời sắp mưa; học V着V着 (đang… thì…), 一……就…… (hễ… là…), 究竟 (rốt cuộc), 起来 và V + 起 (bắt đầu, nhắc đến, có đủ khả năng) cùng từ vựng về du lịch, sân bay, giao thông",
+  "readings_ok": ["着 zháo"],
+  "content": {
+    "objectives": [
+      "Kể trải nghiệm trên đường bằng 旅行、风景、景点、导游、目的地、路过、乘坐、度假、入住",
+      "Nói “đang… thì (bất chợt)…” bằng V着V着 và “hễ… là…” bằng 一……就……",
+      "Hỏi dồn trang trọng bằng 究竟",
+      "Dùng 起来 (bắt đầu) và V + 起 (nhắc đến, mua không nổi, kể từ…)"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"究竟","pinyin":"jiūjìng","pos":"phó từ / danh từ","meaning_vi":"rốt cuộc; ngọn ngành","example_zh":"你究竟想去哪儿？","example_pinyin":"Nǐ jiūjìng xiǎng qù nǎr?","example_vi":"Rốt cuộc bạn muốn đi đâu?","hanviet":"CỨU CÁNH","note_vi":"Chủ yếu đứng trong câu hỏi để hỏi dồn, hơi trang trọng hơn 到底. Danh từ: 看个究竟 / 问个究竟 (xem cho ra ngọn ngành)."},
+      {"id":"v2","hanzi":"旅行","pinyin":"lǚxíng","pos":"động từ / danh từ","meaning_vi":"du lịch, đi chơi xa","example_zh":"我最喜欢的事就是旅行。","example_pinyin":"Wǒ zuì xǐhuan de shì jiùshì lǚxíng.","example_vi":"Việc tôi thích nhất chính là đi du lịch.","hanviet":"LỮ HÀNH","note_vi":"旅行 là chuyến đi xa vì thú vui; 去旅行 / 旅行社. Khác 出差 (đi công tác)."},
+      {"id":"v3","hanzi":"风景","pinyin":"fēngjǐng","pos":"danh từ","meaning_vi":"phong cảnh","example_zh":"山上的风景特别美。","example_pinyin":"Shān shang de fēngjǐng tèbié měi.","example_vi":"Phong cảnh trên núi đẹp đặc biệt.","hanviet":"PHONG CẢNH","note_vi":"Danh từ không đếm bằng 个. 风景 gần 景色 (bài 8) nhưng thông dụng hơn trong khẩu ngữ: 看风景."},
+      {"id":"v4","hanzi":"导游","pinyin":"dǎoyóu","pos":"danh từ / động từ","meaning_vi":"hướng dẫn viên du lịch","example_zh":"导游告诉我们明天早上八点出发。","example_pinyin":"Dǎoyóu gàosu wǒmen míngtiān zǎoshang bā diǎn chūfā.","example_vi":"Hướng dẫn viên báo cho chúng tôi sáng mai tám giờ xuất phát.","hanviet":"ĐẠO DU","note_vi":"Cũng có thể làm động từ “hướng dẫn tham quan”: 他给我们导游. Lượng từ: 位 / 个."},
+      {"id":"v5","hanzi":"景点","pinyin":"jǐngdiǎn","pos":"danh từ","meaning_vi":"điểm tham quan, danh thắng","example_zh":"这个城市有很多有名的景点。","example_pinyin":"Zhège chéngshì yǒu hěn duō yǒumíng de jǐngdiǎn.","example_vi":"Thành phố này có nhiều điểm tham quan nổi tiếng.","hanviet":"CẢNH ĐIỂM","note_vi":"景点 là từng điểm đến cụ thể; 景区 (khu danh thắng, ở phần mở rộng) là khu rộng gồm nhiều điểm."},
+      {"id":"v6","hanzi":"航班","pinyin":"hángbān","pos":"danh từ","meaning_vi":"chuyến bay","example_zh":"这个航班要飞三个小时。","example_pinyin":"Zhège hángbān yào fēi sān ge xiǎoshí.","example_vi":"Chuyến bay này bay ba tiếng.","hanviet":"HÀNH BAN","note_vi":"航班 chỉ chuyến bay theo lịch. Cụm: 航班信息, 航班号, 航班晚点 (chuyến bay trễ)."},
+      {"id":"v7","hanzi":"签证","pinyin":"qiānzhèng","pos":"danh từ / động từ","meaning_vi":"thị thực, visa","example_zh":"去那个国家需要先办签证。","example_pinyin":"Qù nàge guójiā xūyào xiān bàn qiānzhèng.","example_vi":"Đến nước đó cần xin visa trước.","note_vi":"办签证 (xin visa), 签证到期 (visa hết hạn). Không dùng 办 với 护照 như thế: 护照 là hộ chiếu (办护照)."},
+      {"id":"v8","hanzi":"乘坐","pinyin":"chéngzuò","pos":"động từ","meaning_vi":"đi (xe, tàu, máy bay)","example_zh":"请乘坐三号线去机场。","example_pinyin":"Qǐng chéngzuò sān hào xiàn qù jīchǎng.","example_vi":"Xin hãy đi tuyến số ba đến sân bay.","hanviet":"THỪA TỌA","note_vi":"乘坐 trang trọng hơn 坐, dùng cho phương tiện công cộng: 乘坐飞机、乘坐地铁. Thường thấy trong thông báo."},
+      {"id":"v9","hanzi":"乘客","pinyin":"chéngkè","pos":"danh từ","meaning_vi":"hành khách","example_zh":"车上的乘客都下车了。","example_pinyin":"Chē shang de chéngkè dōu xià chē le.","example_vi":"Hành khách trên xe đều đã xuống xe.","hanviet":"THỪA KHÁCH","note_vi":"乘客 là người đi xe, tàu, máy bay. 旅客 (phần mở rộng) là khách đi du lịch, đi đường nói chung."},
+      {"id":"v10","hanzi":"度假","pinyin":"dùjià","pos":"động từ","meaning_vi":"nghỉ phép, đi nghỉ mát","example_zh":"暑假我们全家去海边度假。","example_pinyin":"Shǔjià wǒmen quánjiā qù hǎibiān dùjià.","example_vi":"Kỳ nghỉ hè cả nhà chúng tôi ra biển nghỉ mát.","hanviet":"ĐỘ GIẢ","note_vi":"Động từ li hợp (度 + 假): 度了假, 度个假. Khác 放假 (được nghỉ)."},
+      {"id":"v11","hanzi":"订","pinyin":"dìng","pos":"động từ","meaning_vi":"đặt trước (vé, phòng)","example_zh":"我订了两张去北京的票。","example_pinyin":"Wǒ dìng le liǎng zhāng qù Běijīng de piào.","example_vi":"Tôi đã đặt hai vé đi Bắc Kinh.","hanviet":"ĐỊNH","note_vi":"订 + vé, phòng, bàn (订票、订房间、订位子). Khác 定 (quyết định, ấn định) ở bài 16: dù cùng đọc dìng."},
+      {"id":"v12","hanzi":"入住","pinyin":"rùzhù","pos":"động từ","meaning_vi":"nhận phòng, vào ở","example_zh":"我们下午三点可以入住旅馆。","example_pinyin":"Wǒmen xiàwǔ sān diǎn kěyǐ rùzhù lǚguǎn.","example_vi":"Chúng ta có thể nhận phòng khách sạn lúc ba giờ chiều.","hanviet":"NHẬP TRÚ","note_vi":"入住 + nơi ở: 入住酒店 / 入住旅馆. Ngược lại: 退房 (trả phòng)."},
+      {"id":"v13","hanzi":"旅馆","pinyin":"lǚguǎn","pos":"danh từ","meaning_vi":"nhà nghỉ, khách sạn nhỏ","example_zh":"这家旅馆不大，但是很干净。","example_pinyin":"Zhè jiā lǚguǎn bú dà, dànshì hěn gānjìng.","example_vi":"Nhà nghỉ này không lớn nhưng rất sạch.","hanviet":"LỮ QUÁN","note_vi":"旅馆 thường nhỏ và giá vừa phải; 酒店 / 宾馆 thường lớn hơn, sang hơn."},
+      {"id":"v14","hanzi":"目的地","pinyin":"mùdìdì","pos":"danh từ","meaning_vi":"điểm đến","example_zh":"我们的目的地是一个小村子。","example_pinyin":"Wǒmen de mùdìdì shì yí ge xiǎo cūnzi.","example_vi":"Điểm đến của chúng tôi là một ngôi làng nhỏ.","hanviet":"MỤC ĐÍCH ĐỊA","note_vi":"目的地 = nơi muốn đến (khác 目的 ở bài 10 là mục đích, ý đồ). Cụm: 到达目的地."},
+      {"id":"v15","hanzi":"公里","pinyin":"gōnglǐ","pos":"lượng từ","meaning_vi":"ki-lô-mét, cây số","example_zh":"从这儿到机场有二十公里。","example_pinyin":"Cóng zhèr dào jīchǎng yǒu èrshí gōnglǐ.","example_vi":"Từ đây đến sân bay có hai mươi cây số.","hanviet":"CÔNG LÝ","note_vi":"公里 là đơn vị chuẩn. Khẩu ngữ nói 千米 hay 里 (nửa cây số). 公里 đứng sau số: 三十公里."},
+      {"id":"v16","hanzi":"高速","pinyin":"gāosù","pos":"tính từ","meaning_vi":"cao tốc; tốc độ cao","example_zh":"我们走高速去，会快一些。","example_pinyin":"Wǒmen zǒu gāosù qù, huì kuài yìxiē.","example_vi":"Chúng ta đi đường cao tốc sẽ nhanh hơn một chút.","hanviet":"CAO TỐC","note_vi":"Nói gọn của 高速公路. Hay dùng: 走高速 (đi đường cao tốc), 高速铁路 (đường sắt cao tốc)."},
+      {"id":"v17","hanzi":"登机","pinyin":"dēngjī","pos":"động từ","meaning_vi":"lên máy bay","example_zh":"请乘客现在开始登机。","example_pinyin":"Qǐng chéngkè xiànzài kāishǐ dēngjī.","example_vi":"Xin mời hành khách bắt đầu lên máy bay.","hanviet":"ĐĂNG CƠ","note_vi":"Động từ li hợp (登 + 机). Cụm: 登机口 (cửa lên máy bay), 登机牌 (thẻ lên máy bay)."},
+      {"id":"v18","hanzi":"安检","pinyin":"ānjiǎn","pos":"động từ / danh từ","meaning_vi":"kiểm tra an ninh","example_zh":"过安检的时候，要把手机拿出来。","example_pinyin":"Guò ānjiǎn de shíhou, yào bǎ shǒujī ná chūlai.","example_vi":"Khi qua kiểm tra an ninh, phải lấy điện thoại ra.","hanviet":"AN KIỂM","note_vi":"安检 là cách nói gọn của 安全检查. Dùng với 过 / 做: 过安检, 做安检."},
+      {"id":"v19","hanzi":"换乘","pinyin":"huànchéng","pos":"động từ","meaning_vi":"đổi tuyến, chuyển phương tiện","example_zh":"到了前面一站，你要换乘三号线。","example_pinyin":"Dào le qiánmiàn yí zhàn, nǐ yào huànchéng sān hào xiàn.","example_vi":"Đến trạm phía trước, bạn phải đổi sang tuyến số ba.","note_vi":"换乘 + tuyến / phương tiện (换乘地铁, 换乘飞机). Khác 转机 (đổi máy bay, ở phần mở rộng)."},
+      {"id":"v20","hanzi":"路过","pinyin":"lùguò","pos":"động từ","meaning_vi":"đi ngang qua","example_zh":"回家的时候，我路过一家书店。","example_pinyin":"Huí jiā de shíhou, wǒ lùguò yì jiā shūdiàn.","example_vi":"Lúc về nhà, tôi đi ngang qua một hiệu sách.","hanviet":"LỘ QUÁ","note_vi":"路过 + nơi chốn (không dừng lại hoặc ghé qua): 路过那里. 经过 (bài 9) rộng hơn, dùng cho cả thời gian, trải nghiệm."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"旅客","pinyin":"lǚkè","pos":"danh từ","meaning_vi":"lữ khách, hành khách","example_zh":"旅客们都在大厅里等。","example_pinyin":"Lǚkèmen dōu zài dàtīng li děng.","example_vi":"Các hành khách đều đang đợi trong đại sảnh.","hanviet":"LỮ KHÁCH"},
+      {"id":"x2","hanzi":"景区","pinyin":"jǐngqū","pos":"danh từ","meaning_vi":"khu danh thắng, khu tham quan","example_zh":"这个景区一年四季都很美。","example_pinyin":"Zhège jǐngqū yì nián sìjì dōu hěn měi.","example_vi":"Khu danh thắng này bốn mùa đều đẹp."},
+      {"id":"x3","hanzi":"游玩","pinyin":"yóuwán","pos":"động từ","meaning_vi":"đi chơi, du ngoạn","example_zh":"周末我们去郊区游玩。","example_pinyin":"Zhōumò wǒmen qù jiāoqū yóuwán.","example_vi":"Cuối tuần chúng tôi ra ngoại ô đi chơi."},
+      {"id":"x4","hanzi":"假日","pinyin":"jiàrì","pos":"danh từ","meaning_vi":"ngày nghỉ","example_zh":"假日的时候，景点人很多。","example_pinyin":"Jiàrì de shíhou, jǐngdiǎn rén hěn duō.","example_vi":"Vào ngày nghỉ, các điểm tham quan rất đông."},
+      {"id":"x5","hanzi":"此次","pinyin":"cǐ cì","pos":"danh từ","meaning_vi":"lần này (văn viết)","example_zh":"此次旅行很有意思。","example_pinyin":"Cǐ cì lǚxíng hěn yǒu yìsi.","example_vi":"Chuyến du lịch lần này rất thú vị."},
+      {"id":"x6","hanzi":"背包","pinyin":"bēibāo","pos":"danh từ","meaning_vi":"ba lô","example_zh":"他背着一个大背包。","example_pinyin":"Tā bēi zhe yí ge dà bēibāo.","example_vi":"Anh ấy đeo một chiếc ba lô lớn."},
+      {"id":"x7","hanzi":"背","pinyin":"bēi","pos":"động từ","meaning_vi":"cõng, đeo (trên lưng)","example_zh":"她背着孩子走了很远。","example_pinyin":"Tā bēi zhe háizi zǒu le hěn yuǎn.","example_vi":"Cô ấy cõng con đi rất xa.","note_vi":"背 bēi (đeo, cõng) khác 背 bèi (lưng; học thuộc: 背书)."},
+      {"id":"x8","hanzi":"赶","pinyin":"gǎn","pos":"động từ","meaning_vi":"chạy cho kịp; đuổi","example_zh":"我要赶下午三点的飞机。","example_pinyin":"Wǒ yào gǎn xiàwǔ sān diǎn de fēijī.","example_vi":"Tôi phải chạy cho kịp chuyến bay ba giờ chiều.","note_vi":"赶 + phương tiện / thời gian: 赶火车, 赶时间 (chạy theo thời gian)."},
+      {"id":"x9","hanzi":"转机","pinyin":"zhuǎnjī","pos":"động từ","meaning_vi":"chuyển máy bay (quá cảnh)","example_zh":"我要在上海转机。","example_pinyin":"Wǒ yào zài Shànghǎi zhuǎnjī.","example_vi":"Tôi phải chuyển máy bay ở Thượng Hải.","note_vi":"Động từ li hợp. Cũng có nghĩa “chuyển biến tốt hơn” (có 转机)."},
+      {"id":"x10","hanzi":"降落","pinyin":"jiàngluò","pos":"động từ","meaning_vi":"hạ cánh","example_zh":"飞机马上就要降落了。","example_pinyin":"Fēijī mǎshàng jiù yào jiàngluò le.","example_vi":"Máy bay sắp hạ cánh rồi."},
+      {"id":"x11","hanzi":"证件","pinyin":"zhèngjiàn","pos":"danh từ","meaning_vi":"giấy tờ tùy thân, chứng từ","example_zh":"请带好您的证件。","example_pinyin":"Qǐng dài hǎo nín de zhèngjiàn.","example_vi":"Xin hãy mang theo giấy tờ tùy thân của quý vị."},
+      {"id":"x12","hanzi":"身份证","pinyin":"shēnfènzhèng","pos":"danh từ","meaning_vi":"chứng minh thư, căn cước","example_zh":"坐火车要带身份证。","example_pinyin":"Zuò huǒchē yào dài shēnfènzhèng.","example_vi":"Đi tàu hỏa phải mang theo chứng minh thư."},
+      {"id":"x13","hanzi":"使馆","pinyin":"shǐguǎn","pos":"danh từ","meaning_vi":"đại sứ quán","example_zh":"他去使馆办签证。","example_pinyin":"Tā qù shǐguǎn bàn qiānzhèng.","example_vi":"Anh ấy đến đại sứ quán xin visa."},
+      {"id":"x14","hanzi":"动车","pinyin":"dòngchē","pos":"danh từ","meaning_vi":"tàu cao tốc (D, C)","example_zh":"动车比普通火车快很多。","example_pinyin":"Dòngchē bǐ pǔtōng huǒchē kuài hěn duō.","example_vi":"Tàu cao tốc nhanh hơn tàu thường rất nhiều."},
+      {"id":"x15","hanzi":"大巴","pinyin":"dàbā","pos":"danh từ","meaning_vi":"xe buýt lớn, xe khách","example_zh":"我们坐大巴去景区。","example_pinyin":"Wǒmen zuò dàbā qù jǐngqū.","example_vi":"Chúng tôi đi xe khách đến khu danh thắng."},
+      {"id":"x16","hanzi":"乘","pinyin":"chéng","pos":"động từ","meaning_vi":"đi (xe, tàu)","example_zh":"乘飞机去比较快。","example_pinyin":"Chéng fēijī qù bǐjiào kuài.","example_vi":"Đi máy bay thì nhanh hơn.","note_vi":"乘 trang trọng hơn 坐; thường nằm trong từ ghép 乘车, 乘客, 乘坐."},
+      {"id":"x17","hanzi":"道路","pinyin":"dàolù","pos":"danh từ","meaning_vi":"đường sá, con đường","example_zh":"这条道路很宽。","example_pinyin":"Zhè tiáo dàolù hěn kuān.","example_vi":"Con đường này rất rộng.","hanviet":"ĐẠO LỘ"},
+      {"id":"x18","hanzi":"公路","pinyin":"gōnglù","pos":"danh từ","meaning_vi":"đường quốc lộ","example_zh":"这条公路很长。","example_pinyin":"Zhè tiáo gōnglù hěn cháng.","example_vi":"Con đường quốc lộ này rất dài.","hanviet":"CÔNG LỘ"},
+      {"id":"x19","hanzi":"桥","pinyin":"qiáo","pos":"danh từ","meaning_vi":"cây cầu","example_zh":"前面有一座桥。","example_pinyin":"Qiánmiàn yǒu yí zuò qiáo.","example_vi":"Phía trước có một cây cầu.","hanviet":"KIỀU"},
+      {"id":"x20","hanzi":"前方","pinyin":"qiánfāng","pos":"danh từ","meaning_vi":"phía trước","example_zh":"前方三百米有一个加油站。","example_pinyin":"Qiánfāng sān bǎi mǐ yǒu yí ge jiāyóuzhàn.","example_vi":"Phía trước ba trăm mét có một trạm xăng.","hanviet":"TIỀN PHƯƠNG"},
+      {"id":"x21","hanzi":"十字路口","pinyin":"shízì lùkǒu","pos":"cụm từ","meaning_vi":"ngã tư","example_zh":"到了前面的十字路口，请往左转。","example_pinyin":"Dào le qiánmiàn de shízì lùkǒu, qǐng wǎng zuǒ zhuǎn.","example_vi":"Đến ngã tư phía trước, xin hãy rẽ trái."},
+      {"id":"x22","hanzi":"转","pinyin":"zhuǎn","pos":"động từ","meaning_vi":"rẽ, chuyển hướng; chuyển","example_zh":"在前面的路口往右转。","example_pinyin":"Zài qiánmiàn de lùkǒu wǎng yòu zhuǎn.","example_vi":"Ở ngã rẽ phía trước hãy rẽ phải.","note_vi":"转 zhuǎn (rẽ, chuyển) khác 转 zhuàn (xoay tròn)."},
+      {"id":"x23","hanzi":"停","pinyin":"tíng","pos":"động từ","meaning_vi":"dừng, đỗ","example_zh":"车在门口停了一会儿。","example_pinyin":"Chē zài ménkǒu tíng le yíhuìr.","example_vi":"Xe dừng ở cửa một lát."},
+      {"id":"x24","hanzi":"停车","pinyin":"tíngchē","pos":"động từ","meaning_vi":"đỗ xe, dừng xe","example_zh":"这里不能停车。","example_pinyin":"Zhèli bù néng tíngchē.","example_vi":"Ở đây không được đỗ xe.","note_vi":"Động từ li hợp (停 + 车): 停了车, 停一下车."},
+      {"id":"x25","hanzi":"停车场","pinyin":"tíngchēchǎng","pos":"danh từ","meaning_vi":"bãi đỗ xe","example_zh":"停车场在大楼的后面。","example_pinyin":"Tíngchēchǎng zài dàlóu de hòumiàn.","example_vi":"Bãi đỗ xe nằm phía sau tòa nhà."},
+      {"id":"x26","hanzi":"车位","pinyin":"chēwèi","pos":"danh từ","meaning_vi":"chỗ đỗ xe","example_zh":"这里一个车位也没有了。","example_pinyin":"Zhèli yí ge chēwèi yě méiyǒu le.","example_vi":"Ở đây không còn một chỗ đỗ xe nào."},
+      {"id":"x27","hanzi":"车速","pinyin":"chēsù","pos":"danh từ","meaning_vi":"tốc độ xe","example_zh":"这条路的车速不能太快。","example_pinyin":"Zhè tiáo lù de chēsù bù néng tài kuài.","example_vi":"Tốc độ xe trên con đường này không được quá nhanh."},
+      {"id":"x28","hanzi":"加油站","pinyin":"jiāyóuzhàn","pos":"danh từ","meaning_vi":"trạm xăng","example_zh":"前面有一个加油站。","example_pinyin":"Qiánmiàn yǒu yí ge jiāyóuzhàn.","example_vi":"Phía trước có một trạm xăng."},
+      {"id":"x29","hanzi":"交警","pinyin":"jiāojǐng","pos":"danh từ","meaning_vi":"cảnh sát giao thông","example_zh":"交警在路口提醒大家注意安全。","example_pinyin":"Jiāojǐng zài lùkǒu tíxǐng dàjiā zhùyì ānquán.","example_vi":"Cảnh sát giao thông nhắc mọi người chú ý an toàn ở ngã tư.","hanviet":"GIAO CẢNH"},
+      {"id":"x30","hanzi":"出口","pinyin":"chūkǒu","pos":"danh từ","meaning_vi":"lối ra","example_zh":"高速公路的出口在前面。","example_pinyin":"Gāosù gōnglù de chūkǒu zài qiánmiàn.","example_vi":"Lối ra của đường cao tốc ở phía trước."},
+      {"id":"x31","hanzi":"入口","pinyin":"rùkǒu","pos":"danh từ","meaning_vi":"lối vào","example_zh":"地铁的入口在这边。","example_pinyin":"Dìtiě de rùkǒu zài zhèbiān.","example_vi":"Lối vào ga tàu điện ngầm ở phía này."}
+    ],
+    "glossary": [
+      {"hanzi":"笑话","pinyin":"xiàohua","meaning_vi":"truyện cười, chuyện đùa","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“V着V着” (đang… thì bất chợt…)",
+        "pattern":"V 着 V 着，(就 / 忽然) + tình huống mới",
+        "explanation_vi":"V着V着 lặp lại một động từ có kèm 着 để diễn tả “đang làm việc đó (một lúc) thì bất chợt/ dần dần xảy ra điều khác”. Vế sau nêu một tình huống mới, thường có 就 / 忽然 / 了: 走着走着，天就黑了 (đang đi thì trời tối); 看着看着，就睡着了 (xem mãi rồi ngủ thiếp đi).\nĐộng từ phải là hành động kéo dài được (走、看、聊、唱、想、说、吃). Không dùng động từ chỉ tức thời (到、死、找到). Cách dùng này thường nói về sự việc đã xảy ra hoặc đang xảy ra, mang tính tự nhiên, ít khi ý định có chủ đích.",
+        "examples":[
+          {"zh":"他看着看着，就睡着了。","pinyin":"Tā kàn zhe kàn zhe, jiù shuìzháo le.","vi":"Anh ấy xem xem một lúc rồi ngủ thiếp đi."},
+          {"zh":"我们走着走着，天就黑了。","pinyin":"Wǒmen zǒu zhe zǒu zhe, tiān jiù hēi le.","vi":"Chúng tôi đang đi thì trời tối."},
+          {"zh":"他们聊着聊着，就聊到了十二点。","pinyin":"Tāmen liáo zhe liáo zhe, jiù liáo dào le shí'èr diǎn.","vi":"Họ đang trò chuyện thì đã đến mười hai giờ."},
+          {"zh":"孩子唱着唱着，笑了起来。","pinyin":"Háizi chàng zhe chàng zhe, xiào le qǐlai.","vi":"Đứa bé đang hát thì bật cười."},
+          {"zh":"她想着想着，忽然哭了。","pinyin":"Tā xiǎng zhe xiǎng zhe, hūrán kū le.","vi":"Cô ấy đang nghĩ thì bỗng khóc."}
+        ],
+        "mistakes_vi":"✗ 我们走走着，天黑了。\n✓ 我们走着走着，天黑了。\nPhải lặp đủ cả cụm V着: 走着走着.\n✗ 他到着到着就迟到了。\n✓ 他走着走着就迟到了。\n到 là động từ tức thời, không thể kéo dài. Chọn động từ như 走、看、聊、想.\n✗ 我走着走着，我要回家。\nVế sau phải là một tình huống mới (xảy ra bất chợt), không phải ý muốn của chủ ngữ.",
+        "compare_vi":"V着V着 ≈ “đang… thì…”, “…mãi rồi…”. Tiếng Việt nói “đi đi một lúc thì trời tối”."
+      },
+      {
+        "id":"g2",
+        "title":"“一……就……” (hễ… là…, vừa… thì…)",
+        "pattern":"S + 一 + V1 (+ O)，(S +) 就 + V2　·　一 + 分句，就 + 分句",
+        "explanation_vi":"一……就…… nối hai hành động hoặc hai tình huống xảy ra liền nhau hoặc có quan hệ điều kiện: “vừa… là…”, “hễ… là…”. Có hai cách hiểu:\n(1) Liền nhau trong thời gian: 我们一到景点，就先找地方休息 (vừa đến điểm tham quan là tìm chỗ nghỉ).\n(2) Điều kiện thường xuyên: 他一坐车就想睡觉 (hễ ngồi xe là buồn ngủ).\n一 đứng ngay trước động từ thứ nhất; 就 đứng ngay trước động từ thứ hai. Chủ ngữ hai vế giống hay khác nhau đều được. Vế đầu không dùng 了 ngay sau động từ (✗ 一到了就……). 一 ở đây đọc yí hoặc yì theo thanh điệu từ sau.",
+        "examples":[
+          {"zh":"我们一到景点，就先找地方休息。","pinyin":"Wǒmen yí dào jǐngdiǎn, jiù xiān zhǎo dìfang xiūxi.","vi":"Chúng ta vừa đến điểm tham quan là tìm chỗ nghỉ trước."},
+          {"zh":"他一坐车就想睡觉。","pinyin":"Tā yí zuò chē jiù xiǎng shuìjiào.","vi":"Hễ ngồi xe là anh ấy buồn ngủ."},
+          {"zh":"我一过安检，就听到广播在叫我们的航班登机。","pinyin":"Wǒ yí guò ānjiǎn, jiù tīng dào guǎngbō zài jiào wǒmen de hángbān dēngjī.","vi":"Tôi vừa qua kiểm tra an ninh thì nghe đài gọi chuyến bay của chúng tôi lên máy bay."},
+          {"zh":"我们下车一走就到了。","pinyin":"Wǒmen xià chē yì zǒu jiù dào le.","vi":"Xuống xe đi một chút là tới rồi."},
+          {"zh":"天一黑，路上的车就少了。","pinyin":"Tiān yì hēi, lù shang de chē jiù shǎo le.","vi":"Trời vừa tối là xe trên đường ít đi."}
+        ],
+        "mistakes_vi":"✗ 我一到了就给你打电话。\n✓ 我一到就给你打电话。\nVế đầu không thêm 了 sau động từ.\n✗ 一他来，我就走。\n✓ 他一来，我就走。\n一 đứng ngay trước động từ, sau chủ ngữ.\n✗ 一到景点，先找地方休息。\n✓ 一到景点，就先找地方休息。\nVế sau không thể bỏ 就.",
+        "compare_vi":"一……就…… ≈ “vừa… là…”, “hễ… là…”. Tiếng Việt “vừa đến là gọi điện” = 一到就打电话."
+      },
+      {
+        "id":"g3",
+        "title":"“究竟” (rốt cuộc)",
+        "pattern":"S + 究竟 + 疑问词 / V不V / A 还是 B　·　想 / 看 / 问 + 个究竟",
+        "explanation_vi":"究竟 là phó từ dùng trong câu hỏi để hỏi dồn, đào sâu, muốn biết sự thật: “rốt cuộc, thực ra”. Giống 到底 nhưng trang trọng hơn và chỉ dùng trong câu hỏi (đứng sau chủ ngữ): 你究竟想去哪儿？ 你究竟喜欢大海，还是喜欢旅行？\nKhông dùng 究竟 ở câu kể để nói “cuối cùng thì…” (khi đó dùng 到底): ✗ 他试了很多次，究竟成功了.\n究竟 còn là danh từ “ngọn ngành, đầu đuôi”: 看个究竟 (xem cho rõ ngọn ngành), 想知道个究竟.",
+        "examples":[
+          {"zh":"我们已经开了两个小时了，目的地究竟还有多远？","pinyin":"Wǒmen yǐjīng kāi le liǎng ge xiǎoshí le, mùdìdì jiūjìng hái yǒu duō yuǎn?","vi":"Chúng ta đã lái hai tiếng rồi, rốt cuộc điểm đến còn bao xa?"},
+          {"zh":"你究竟喜欢大海，还是喜欢旅行？","pinyin":"Nǐ jiūjìng xǐhuan dàhǎi, háishi xǐhuan lǚxíng?","vi":"Rốt cuộc bạn thích biển hay thích đi du lịch?"},
+          {"zh":"这件事究竟是怎么回事？","pinyin":"Zhè jiàn shì jiūjìng shì zěnme huí shì?","vi":"Việc này rốt cuộc là thế nào?"},
+          {"zh":"我想去看个究竟。","pinyin":"Wǒ xiǎng qù kàn ge jiūjìng.","vi":"Tôi muốn đi xem cho ra ngọn ngành."}
+        ],
+        "mistakes_vi":"✗ 他试了很多次，究竟成功了。\n✓ 他试了很多次，到底成功了。\n“Cuối cùng cũng…” trong câu kể dùng 到底, không dùng 究竟.\n✗ 究竟你去不去？\n✓ 你究竟去不去？\n究竟 đứng sau chủ ngữ.\n✗ 你究竟去不去吗？\n✓ 你究竟去不去？\n去不去 đã là câu hỏi chính phản, không thêm 吗.",
+        "compare_vi":"究竟 ≈ “rốt cuộc, thực ra” (hỏi dồn). 到底 dùng được cả khi hỏi lẫn khi kể."
+      },
+      {
+        "id":"g4",
+        "title":"“起来” (bắt đầu) và “V + 起” (nhắc đến, không đủ khả năng, kể từ)",
+        "pattern":"V / Adj + 起来 (了)　·　V + 起 + O + 来　·　V得起 / V不起　·　说起 / 提起　·　从……起",
+        "explanation_vi":"(1) 起来 (bắt đầu, chuyển sang trạng thái mới): 笑起来 (bật cười), 唱起歌来 (cất tiếng hát), 下起雨来 (bắt đầu mưa), 天阴起来了 (trời bắt đầu âm u), 热闹起来 (trở nên nhộn nhịp). Khi có tân ngữ, tân ngữ nằm giữa 起 và 来: 唱起歌来. Ngoài ra, 起来 còn là hướng lên (站起来) và đánh giá (看起来 – đã gặp ở bài 15).\n(2) V + 起: V得起 / V不起 = có đủ / không đủ khả năng (tiền, điều kiện): 买得起 (mua nổi), 住不起 (ở không nổi), 吃不起.\n(3) 说起、提起、谈起、想起 = nói đến, nhắc đến: 说起这次旅行….\n(4) 从……起 = kể từ…: 从明天起, 从现在起.",
+        "examples":[
+          {"zh":"听了这个笑话，大家都笑起来了。","pinyin":"Tīng le zhège xiàohua, dàjiā dōu xiào qǐlai le.","vi":"Nghe chuyện cười này, mọi người đều bật cười."},
+          {"zh":"天阴起来了，好像要下雨。","pinyin":"Tiān yīn qǐlai le, hǎoxiàng yào xià yǔ.","vi":"Trời bắt đầu âm u, hình như sắp mưa."},
+          {"zh":"我们在树下唱起歌来。","pinyin":"Wǒmen zài shù xià chàng qǐ gē lái.","vi":"Chúng tôi cất tiếng hát dưới gốc cây."},
+          {"zh":"这家旅馆太贵了，我们住不起。","pinyin":"Zhè jiā lǚguǎn tài guì le, wǒmen zhù bu qǐ.","vi":"Nhà nghỉ này đắt quá, chúng tôi ở không nổi."},
+          {"zh":"说起这次旅行，我已经想了半年了。","pinyin":"Shuō qǐ zhè cì lǚxíng, wǒ yǐjīng xiǎng le bàn nián le.","vi":"Nhắc đến chuyến đi này, tôi đã nghĩ đến nó nửa năm rồi."},
+          {"zh":"从明天起，我每天早上跑步。","pinyin":"Cóng míngtiān qǐ, wǒ měi tiān zǎoshang pǎobù.","vi":"Kể từ ngày mai, mỗi sáng tôi sẽ chạy bộ."}
+        ],
+        "mistakes_vi":"✗ 他唱起来歌。\n✓ 他唱起歌来。\nTân ngữ phải nằm giữa 起 và 来.\n✗ 我买得不起这个包。\n✓ 我买不起这个包。\nKhông nói 买得不起; dạng phủ định của 买得起 là 买不起.\n✗ 说起来这次旅行，我想了半年了。\n✓ 说起这次旅行，我想了半年了。\n“Nhắc đến X” là 说起 + X (không thêm 来 ngay sau 起 trước tân ngữ).",
+        "compare_vi":"起来 ≈ “bắt đầu… lên”; V不起 ≈ “…không nổi” (mua không nổi, ở không nổi); 说起 ≈ “nhắc đến, nói đến”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Đường đến điểm du lịch",
+      "scene_vi": "Sáng thứ Bảy, Tiểu Lâm và Tiểu Chu lái xe trên đường cao tốc đến một điểm du lịch. Họ vừa ngắm phong cảnh vừa lo trời sắp mưa.",
+      "lines": [
+        {"speaker":"小林","zh":"我们已经开了两个小时了，目的地究竟还有多远？","pinyin":"Wǒmen yǐjīng kāi le liǎng ge xiǎoshí le, mùdìdì jiūjìng hái yǒu duō yuǎn?","vi":"Chúng ta đã lái hai tiếng rồi, rốt cuộc điểm đến còn bao xa?"},
+        {"speaker":"小周","zh":"手机地图上说还有三十公里。你一坐车就想睡觉，今天怎么不困？","pinyin":"Shǒujī dìtú shang shuō hái yǒu sānshí gōnglǐ. Nǐ yí zuò chē jiù xiǎng shuìjiào, jīntiān zěnme bú kùn?","vi":"Bản đồ trên điện thoại bảo còn ba mươi cây số. Cậu hễ ngồi xe là buồn ngủ, sao hôm nay không buồn?"},
+        {"speaker":"小林","zh":"看风景看着看着，就忘了困了。你看，这条高速公路两边的风景多美！","pinyin":"Kàn fēngjǐng kàn zhe kàn zhe, jiù wàng le kùn le. Nǐ kàn, zhè tiáo gāosù gōnglù liǎngbiān de fēngjǐng duō měi!","vi":"Ngắm cảnh mãi rồi quên cả buồn ngủ. Cậu nhìn kìa, phong cảnh hai bên con đường cao tốc này đẹp biết bao!"},
+        {"speaker":"小周","zh":"是啊。前面要路过一个景点，我们要不要下车看看？","pinyin":"Shì a. Qiánmiàn yào lùguò yí ge jǐngdiǎn, wǒmen yào bu yào xià chē kànkan?","vi":"Đúng thế. Phía trước sắp đi ngang một điểm tham quan, chúng ta có xuống xe xem không?"},
+        {"speaker":"小林","zh":"好。不过今天要在天黑以前入住旅馆，别玩太久。","pinyin":"Hǎo. Búguò jīntiān yào zài tiān hēi yǐqián rùzhù lǚguǎn, bié wán tài jiǔ.","vi":"Được. Có điều hôm nay phải nhận phòng nhà nghỉ trước khi trời tối, đừng chơi lâu quá."},
+        {"speaker":"小周","zh":"放心，我订的旅馆就在景点对面，我们下车一走就到了。","pinyin":"Fàngxīn, wǒ dìng de lǚguǎn jiù zài jǐngdiǎn duìmiàn, wǒmen xià chē yì zǒu jiù dào le.","vi":"Yên tâm, nhà nghỉ tớ đặt ngay đối diện điểm tham quan, xuống xe đi một đoạn là tới."},
+        {"speaker":"小林","zh":"说起这次旅行，我已经想了半年了。","pinyin":"Shuō qǐ zhè cì lǚxíng, wǒ yǐjīng xiǎng le bàn nián le.","vi":"Nhắc đến chuyến đi này, tớ đã mong nửa năm rồi."},
+        {"speaker":"小周","zh":"是啊，以前我们太忙了，现在一想起来就觉得可惜。你看，天阴起来了，好像要下雨。","pinyin":"Shì a, yǐqián wǒmen tài máng le, xiànzài yì xiǎng qǐlai jiù juéde kěxī. Nǐ kàn, tiān yīn qǐlai le, hǎoxiàng yào xià yǔ.","vi":"Đúng thế, trước đây chúng mình bận quá, giờ hễ nghĩ lại là thấy tiếc. Cậu nhìn kìa, trời bắt đầu âm u, hình như sắp mưa."},
+        {"speaker":"小林","zh":"那我们快一点儿，下雨以前赶到景点。","pinyin":"Nà wǒmen kuài yìdiǎnr, xià yǔ yǐqián gǎn dào jǐngdiǎn.","vi":"Vậy chúng mình nhanh lên một chút, kịp đến điểm tham quan trước khi mưa."},
+        {"speaker":"小周","zh":"没问题。一到景点，我们就先找个地方休息，等雨停了再走。","pinyin":"Méi wèntí. Yí dào jǐngdiǎn, wǒmen jiù xiān zhǎo ge dìfang xiūxi, děng yǔ tíng le zài zǒu.","vi":"Không vấn đề. Vừa đến điểm tham quan là chúng mình tìm chỗ nghỉ trước, đợi mưa tạnh rồi đi tiếp."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:风景","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"山上的____特别美。","options":["风景","航班","签证","公里"],"answer":0,"explanation_vi":"“Phong cảnh trên núi đẹp”: 风景."},
+      {"id":"e2","type":"choice","tag":"v:导游","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____告诉我们明天早上八点出发。","options":["导游","乘客","旅馆","签证"],"answer":0,"explanation_vi":"Người dẫn đoàn thông báo giờ xuất phát: 导游."},
+      {"id":"e3","type":"choice","tag":"v:签证","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"去那个国家需要先办____。","options":["签证","航班","公里","目的地"],"answer":0,"explanation_vi":"Đến nước ngoài cần xin visa: 办签证."},
+      {"id":"e4","type":"choice","tag":"v:乘坐","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请____三号线去机场。","options":["乘坐","路过","度假","入住"],"answer":0,"explanation_vi":"Đi tuyến số ba (phương tiện công cộng): 乘坐三号线."},
+      {"id":"e5","type":"choice","tag":"v:度假","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"暑假我们全家去海边____。","options":["度假","登机","安检","换乘"],"answer":0,"explanation_vi":"Cả nhà ra biển nghỉ mát: 度假."},
+      {"id":"e6","type":"choice","tag":"v:订","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____了两张去北京的票。","options":["订","换乘","路过","登机"],"answer":0,"explanation_vi":"Đặt vé trước: 订票."},
+      {"id":"e7","type":"choice","tag":"v:路过","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"回家的时候，我____一家书店。","options":["路过","乘坐","度假","入住"],"answer":0,"explanation_vi":"Đi ngang qua hiệu sách trên đường về: 路过."},
+      {"id":"e8","type":"choice","tag":"g:V着V着","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我们走着走着，天就黑了。","我们走走着，天就黑了。","我们走着走，天就黑了。","我们走着走着了，天就黑了。"],"answer":0,"explanation_vi":"Cấu trúc đầy đủ: V着V着，(就) + tình huống mới."},
+      {"id":"e9","type":"choice","tag":"g:一就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他一坐车____想睡觉。","options":["就","才","还","都"],"answer":0,"explanation_vi":"Cấu trúc 一……就……: hễ ngồi xe là buồn ngủ."},
+      {"id":"e10","type":"order","tag":"g:一就","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","一","到","景点","就","先","找地方休息"],"answers":["我们一到景点就先找地方休息"],"translation_vi":"Chúng ta vừa đến điểm tham quan là tìm chỗ nghỉ trước.","explanation_vi":"一 + 到景点，就 + 先找地方休息."},
+      {"id":"e11","type":"choice","tag":"g:究竟","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你____喜欢大海，还是喜欢旅行？","options":["究竟","一直","刚刚","马上"],"answer":0,"explanation_vi":"Hỏi dồn giữa hai lựa chọn “A 还是 B”: 究竟."},
+      {"id":"e12","type":"choice","tag":"g:起来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"听了这个笑话，大家都笑____了。","options":["起来","下去","回来","过去"],"answer":0,"explanation_vi":"笑起来 = bật cười (bắt đầu cười)."},
+      {"id":"e13","type":"choice","tag":"g:V起","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这家旅馆太贵了，我们住____。","options":["不起","不出","不开","不过"],"answer":0,"explanation_vi":"住不起 = ở không nổi (vì quá đắt)."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"旅客","vi":"hành khách, lữ khách"},{"zh":"景区","vi":"khu danh thắng"},{"zh":"背包","vi":"ba lô"},{"zh":"证件","vi":"giấy tờ tùy thân"},{"zh":"身份证","vi":"chứng minh thư"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:V着V着","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["他看着看着，就睡着了。","他看看着，就睡着了。","他看着看，就睡着了。","他看着看着了，就睡着了。"],"answer":0,"explanation_vi":"V着V着 + 就 + tình huống mới."},
+        {"id":"q2","type":"choice","tag":"g:一就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____到，就给你打电话。","options":["一","再","还","又"],"answer":0,"explanation_vi":"一……就……: vừa đến là gọi điện ngay."},
+        {"id":"q3","type":"choice","tag":"g:一就","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["他一来，我就走。","一他来，我就走。","他一来了，我就走。","他一来，我走就。"],"answer":0,"explanation_vi":"一 đặt ngay trước động từ, sau chủ ngữ; không thêm 了; 就 đứng trước 走."},
+        {"id":"q4","type":"choice","tag":"g:究竟","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["你究竟想去哪儿？","究竟你想去哪儿？","你想去究竟哪儿？","你究竟想去哪儿吗？"],"answer":0,"explanation_vi":"究竟 đứng sau chủ ngữ, trước động từ; không thêm 吗."},
+        {"id":"q5","type":"choice","tag":"g:起来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"天阴____了，好像要下雨。","options":["起来","起去","出来","上来"],"answer":0,"explanation_vi":"阴起来了 = trời bắt đầu âm u."},
+        {"id":"q6","type":"choice","tag":"g:V起","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我买不起这个包。","我买得不起这个包。","我买起不了这个包。","我不买起这个包。"],"answer":0,"explanation_vi":"Không đủ khả năng mua: 买不起."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:目的地","prompt_vi":"Chọn đáp án đúng.","question_zh":"我们的____是一个小村子。","options":["目的地","旅馆","签证","航班"],"answer":0,"explanation_vi":"Nơi muốn đến là 目的地."},
+      {"id":"t2","type":"choice","tag":"g:究竟","prompt_vi":"Chọn đáp án đúng.","question_zh":"这件事____是怎么回事？","options":["究竟","一直","也许","刚才"],"answer":0,"explanation_vi":"Hỏi dồn “rốt cuộc là chuyện gì”: 究竟."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"游玩","vi":"vui chơi, du ngoạn"},{"zh":"假日","vi":"ngày nghỉ"},{"zh":"此次","vi":"lần này"},{"zh":"背","vi":"đeo, cõng"},{"zh":"赶","vi":"chạy cho kịp"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"转机","vi":"chuyển máy bay"},{"zh":"降落","vi":"hạ cánh"},{"zh":"使馆","vi":"đại sứ quán"},{"zh":"动车","vi":"tàu cao tốc"},{"zh":"大巴","vi":"xe khách lớn"}]},
+      {"id":"t5","type":"order","tag":"g:一就","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["天","一","黑","路上的车","就","少了"],"answers":["天一黑路上的车就少了"],"translation_vi":"Trời vừa tối là xe trên đường ít đi.","explanation_vi":"一 + 黑，就 + 少了."},
+      {"id":"t6","type":"order","tag":"g:V着V着","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","走着","走着","天","就","黑了"],"answers":["我们走着走着天就黑了"],"translation_vi":"Chúng tôi đang đi thì trời tối.","explanation_vi":"我们 + 走着走着，天就黑了."},
+      {"id":"t7","type":"fill","tag":"g:起来","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"天阴____了，好像要下雨。","answers":["起来"],"hint_vi":"bắt đầu (âm u)","explanation_vi":"阴起来了 = trời bắt đầu âm u."},
+      {"id":"t8","type":"fill","tag":"g:一就","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我们____到景点，就先找地方休息。","answers":["一"],"hint_vi":"vừa","explanation_vi":"一……就……: vừa đến là."},
+      {"id":"t9","type":"listen_choice","tag":"g:一就","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"他一坐车就想睡觉。","options":["Hễ ngồi xe là anh ấy buồn ngủ.","Anh ấy ngồi xe rất lâu.","Anh ấy không thích ngồi xe.","Anh ấy ngủ xong mới ngồi xe."],"answer":0,"explanation_vi":"一……就…… = hễ… là…."},
+      {"id":"t10","type":"listen_choice","tag":"v:旅馆","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"这家旅馆不大，但是很干净。","options":["这家旅馆不大，但是很干净。","这家旅馆很大，但是不干净。","这家饭馆不大，但是很干净。","这家旅馆不贵，但是很远。"],"answer":0,"explanation_vi":"Câu nghe được: 这家旅馆不大，但是很干净 = Nhà nghỉ này không lớn nhưng rất sạch."},
+      {"id":"t11","type":"dictation","tag":"g:V着V着","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我们走着走着，天就黑了。","answers":["我们走着走着天就黑了"],"explanation_vi":"我们走着走着，天就黑了 = Chúng tôi đang đi thì trời tối."},
+      {"id":"t12","type":"dictation","tag":"v:风景","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"山上的风景特别美。","answers":["山上的风景特别美"],"explanation_vi":"山上的风景特别美 = Phong cảnh trên núi đẹp đặc biệt."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:一就","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Hễ ngồi xe là anh ấy buồn ngủ.","answers":["他一坐车就想睡觉","他一坐车就想睡","他一坐车就困","他一上车就想睡觉","他一上车就困","他一上车就想睡","他一坐车就会想睡觉"],"explanation_vi":"他一坐车就想睡觉: 一 + 坐车，就 + 想睡觉."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:V起","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Nhà nghỉ này đắt quá, chúng tôi ở không nổi.","answers":["这家旅馆太贵了，我们住不起","这个旅馆太贵了，我们住不起","这家旅馆太贵，我们住不起","这家旅馆太贵了我们住不起","这家酒店太贵了，我们住不起","这个酒店太贵了，我们住不起","这家旅馆太贵了，我们住不起啊"],"explanation_vi":"住不起 = ở không nổi (không đủ tiền)."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:究竟","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"你究竟喜欢大海，还是喜欢旅行？","answers_vi":["Rốt cuộc bạn thích biển hay thích đi du lịch?","Thực ra cậu thích biển hay thích du lịch?"],"keywords":[["rốt cuộc","cuối cùng","thật ra","thực ra","tóm lại"],["thích","yêu"],["biển"],["hay","hoặc"],["du lịch","đi chơi"]],"explanation_vi":"究竟……，还是…… = rốt cuộc… hay…."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:V着V着","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我们走着走着，天就黑了。","answers_vi":["Chúng tôi đang đi thì trời tối.","Đi một lúc thì trời đã tối."],"keywords":[["chúng tôi","chúng ta","mình"],["đi"],["đang","mãi","một lúc","vừa","đi đi"],["trời"],["tối"]],"explanation_vi":"V着V着，就…… = đang… thì…."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"海边的旅行",
+        "title_vi":"Chuyến đi ra biển",
+        "paragraphs":[
+          {
+            "tokens":[["去年","qùnián","năm ngoái"],["暑假","shǔjià","nghỉ hè"],["，"],["我","wǒ","tôi"],["和","hé","và"],["朋友","péngyou","bạn"],["订","dìng","đặt"],["了","le","(đã)"],["两","liǎng","hai"],["张","zhāng","(lượng từ: tấm)"],["去","qù","đi"],["海边","hǎibiān","bờ biển"],["度假","dùjià","nghỉ mát"],["的","de","(của)"],["机票","jīpiào","vé máy bay"],["。"],["那天","nà tiān","hôm đó"],["早上","zǎoshang","buổi sáng"],["六点","liù diǎn","sáu giờ"],["，"],["我们","wǒmen","chúng tôi"],["就","jiù","đã"],["到","dào","đến"],["了","le","(rồi)"],["机场","jīchǎng","sân bay"],["。"],["一","yí","vừa"],["过","guò","qua"],["安检","ānjiǎn","kiểm tra an ninh"],["，"],["就","jiù","thì"],["听到","tīng dào","nghe thấy"],["广播","guǎngbō","đài phát thanh"],["在","zài","đang"],["叫","jiào","gọi"],["我们","wǒmen","chúng tôi"],["的","de","(của)"],["航班","hángbān","chuyến bay"],["登机","dēngjī","lên máy bay"],["。"],["我们","wǒmen","chúng tôi"],["乘坐","chéngzuò","đi"],["的","de","(trợ từ)"],["航班","hángbān","chuyến bay"],["要","yào","phải"],["飞","fēi","bay"],["三个","sān ge","ba"],["小时","xiǎoshí","tiếng"],["，"],["目的地","mùdìdì","điểm đến"],["是","shì","là"],["一个","yí ge","một"],["南方","nánfāng","miền nam"],["的","de","(của)"],["小","xiǎo","nhỏ"],["城市","chéngshì","thành phố"],["。"]],
+            "vi":"Kỳ nghỉ hè năm ngoái, tôi và bạn đặt hai vé máy bay đi nghỉ ở biển. Sáng hôm đó, sáu giờ chúng tôi đã đến sân bay. Vừa qua kiểm tra an ninh thì nghe đài gọi chuyến bay của chúng tôi lên máy bay. Chuyến bay chúng tôi đi phải bay ba tiếng, điểm đến là một thành phố nhỏ ở miền nam."
+          },
+          {
+            "tokens":[["飞机","fēijī","máy bay"],["上","shang","trên"],["，"],["我","wǒ","tôi"],["靠","kào","tựa"],["着","zhe","(đang)"],["窗户","chuānghu","cửa sổ"],["看","kàn","ngắm"],["风景","fēngjǐng","phong cảnh"],["，"],["看着看着","kàn zhe kàn zhe","ngắm mãi"],["，"],["就","jiù","thì"],["睡着","shuìzháo","ngủ thiếp"],["了","le","(rồi)"],["。"],["醒","xǐng","tỉnh"],["来","lái","dậy"],["的","de","(trợ từ)"],["时候","shíhou","lúc"],["，"],["窗外","chuāng wài","ngoài cửa sổ"],["出现","chūxiàn","hiện ra"],["了","le","(rồi)"],["一","yí","một"],["片","piàn","vùng"],["很大","hěn dà","rất lớn"],["的","de","(của)"],["海","hǎi","biển"],["。"],["我们","wǒmen","chúng tôi"],["一","yì","vừa"],["下","xià","xuống"],["飞机","fēijī","máy bay"],["，"],["就","jiù","đã"],["感觉","gǎnjué","cảm thấy"],["到","dào","được"],["空气","kōngqì","không khí"],["变得","biàn de","trở nên"],["又","yòu","vừa"],["暖和","nuǎnhuo","ấm áp"],["又","yòu","vừa"],["新鲜","xīnxiān","trong lành"],["。"],["导游","dǎoyóu","hướng dẫn viên"],["早就","zǎo jiù","đã từ lâu"],["在","zài","ở"],["门口","ménkǒu","cửa"],["等","děng","đợi"],["我们","wǒmen","chúng tôi"],["了","le","(rồi)"],["。"]],
+            "vi":"Trên máy bay, tôi tựa vào cửa sổ ngắm cảnh, ngắm mãi rồi ngủ thiếp đi. Lúc tỉnh dậy, ngoài cửa sổ hiện ra một vùng biển rất lớn. Chúng tôi vừa xuống máy bay đã cảm thấy không khí trở nên vừa ấm áp vừa trong lành. Hướng dẫn viên đã đợi chúng tôi ở cửa từ lâu."
+          },
+          {
+            "tokens":[["旅馆","lǚguǎn","nhà nghỉ"],["就","jiù","ngay"],["在","zài","ở"],["海边","hǎibiān","bờ biển"],["，"],["一","yì","vừa"],["推开","tuī kāi","đẩy ra"],["窗户","chuānghu","cửa sổ"],["就","jiù","là"],["能","néng","có thể"],["看到","kàn dào","nhìn thấy"],["大海","dàhǎi","biển lớn"],["。"],["晚上","wǎnshang","buổi tối"],["我们","wǒmen","chúng tôi"],["坐","zuò","ngồi"],["在","zài","ở"],["窗边","chuāng biān","bên cửa sổ"],["，"],["聊着聊着","liáo zhe liáo zhe","trò chuyện mãi"],["，"],["天","tiān","trời"],["就","jiù","thì"],["黑","hēi","tối"],["了","le","(rồi)"],["。"],["我","wǒ","tôi"],["说起","shuō qǐ","nhắc đến"],["这次","zhè cì","lần này"],["旅行","lǚxíng","chuyến đi"],["，"],["朋友","péngyou","bạn"],["笑","xiào","cười"],["着","zhe","(đang)"],["问","wèn","hỏi"],["："],["“"],["你","nǐ","bạn"],["究竟","jiūjìng","rốt cuộc"],["喜欢","xǐhuan","thích"],["大海","dàhǎi","biển"],["，"],["还是","háishi","hay là"],["喜欢","xǐhuan","thích"],["旅行","lǚxíng","du lịch"],["？"],["”"],["我","wǒ","tôi"],["想","xiǎng","nghĩ"],["了","le","(một chút)"],["想","xiǎng","nghĩ"],["，"],["说","shuō","nói"],["："],["“"],["都","dōu","đều"],["喜欢","xǐhuan","thích"],["，"],["我","wǒ","tôi"],["想","xiǎng","muốn"],["以后","yǐhòu","sau này"],["每年","měi nián","mỗi năm"],["都","dōu","đều"],["来","lái","đến"],["一趟","yí tàng","một chuyến"],["。"],["”"]],
+            "vi":"Nhà nghỉ ở ngay bờ biển, vừa đẩy cửa sổ ra là thấy biển lớn. Buổi tối chúng tôi ngồi bên cửa sổ, trò chuyện mãi rồi trời tối lúc nào không hay. Tôi nhắc đến chuyến đi lần này, bạn cười hỏi: “Rốt cuộc bạn thích biển hay thích đi du lịch?” Tôi suy nghĩ một chút rồi nói: “Thích cả hai. Sau này tôi muốn mỗi năm đến một chuyến.”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"出发那天，“我们”几点到了机场？","options":["早上六点","早上八点","中午十二点","晚上六点"],"answer":0,"explanation_vi":"Đoạn 1: 那天早上六点，我们就到了机场."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我们”乘坐的航班要飞多长时间？","options":["三个小时","一个小时","五个小时","半个小时"],"answer":0,"explanation_vi":"Đoạn 1: 要飞三个小时."},
+          {"id":"rq3","type":"choice","tag":"g:V着V着","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"在飞机上，“我”看着看着，就睡着了。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 看着看着，就睡着了 — câu này đúng."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"旅馆离大海很远。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 旅馆就在海边 — câu này sai."},
+          {"id":"rq5","type":"choice","tag":"g:究竟","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"朋友问了“我”什么问题？","options":["究竟喜欢大海，还是喜欢旅行","什么时候回家","要不要订机票","旅馆在哪儿"],"answer":0,"explanation_vi":"Đoạn 3: 你究竟喜欢大海，还是喜欢旅行?"}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Thông báo trên máy bay",
+        "text_zh":"各位乘客，大家好！欢迎乘坐本次航班。我们这次航班的目的地是杭州，全程大约一千二百公里，飞行时间两个小时左右。飞机一降落，请大家再离开座位，不要着急。如果您需要换乘别的航班，请到大厅找服务员。下飞机以后，您可以乘坐大巴去市区，也可以坐地铁。祝大家旅行愉快！",
+        "pinyin":"Gè wèi chéngkè, dàjiā hǎo! Huānyíng chéngzuò běn cì hángbān. Wǒmen zhè cì hángbān de mùdìdì shì Hángzhōu, quánchéng dàyuē yì qiān èr bǎi gōnglǐ, fēixíng shíjiān liǎng ge xiǎoshí zuǒyòu. Fēijī yí jiàngluò, qǐng dàjiā zài líkāi zuòwèi, búyào zháojí. Rúguǒ nín xūyào huànchéng bié de hángbān, qǐng dào dàtīng zhǎo fúwùyuán. Xià fēijī yǐhòu, nín kěyǐ chéngzuò dàbā qù shìqū, yě kěyǐ zuò dìtiě. Zhù dàjiā lǚxíng yúkuài!",
+        "vi":"Kính chào quý hành khách! Chào mừng quý vị đi chuyến bay này. Điểm đến chuyến bay của chúng ta là Hàng Châu, toàn tuyến khoảng một nghìn hai trăm cây số, thời gian bay khoảng hai tiếng. Máy bay vừa hạ cánh, xin mọi người hãy rời khỏi chỗ ngồi, đừng vội. Nếu quý vị cần chuyển sang chuyến bay khác, xin đến đại sảnh gặp nhân viên phục vụ. Sau khi xuống máy bay, quý vị có thể đi xe khách lớn vào nội thành, cũng có thể đi tàu điện ngầm. Chúc mọi người có chuyến đi vui vẻ!",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"v:目的地","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这次航班的目的地是哪儿？","options":["杭州","北京","上海","成都"],"answer":0,"explanation_vi":"Nghe được: 目的地是杭州."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"飞行时间大约多长？","options":["两个小时左右","一个小时左右","四个小时左右","半个小时左右"],"answer":0,"explanation_vi":"Nghe được: 飞行时间两个小时左右."},
+          {"id":"lq3","type":"choice","tag":"g:一就","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"什么时候可以离开座位？","options":["飞机降落以后","飞机起飞以前","吃饭的时候","睡觉的时候"],"answer":0,"explanation_vi":"Nghe được: 飞机一降落，请大家再离开座位."},
+          {"id":"lq4","type":"choice","tag":"v:乘坐","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"下飞机以后，怎么去市区？","options":["乘坐大巴或者地铁","走路去","骑自行车","打电话叫人来接"],"answer":0,"explanation_vi":"Nghe được: 您可以乘坐大巴去市区，也可以坐地铁."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"究竟","pinyin":"jiūjìng","vi":"rốt cuộc","tip_vi":"究 jiū: j không bật hơi, vần iu như “iêu” ngắn, thanh 1 cao và bằng. 竟 jìng: -ing kết thúc ở cuống lưỡi, thanh 4 xuống mạnh. Hai chữ đều j, đừng đọc thành “ch” hay “x”."},
+      {"id":"s2","zh":"乘坐，乘客","pinyin":"chéngzuò, chéngkè","vi":"đi (phương tiện), hành khách","tip_vi":"乘 chéng: ch uốn lưỡi và bật hơi, -eng ở cuống lưỡi, thanh 2 lên rõ. 坐 zuò: z không bật hơi, -uo tròn môi. 客 kè: k bật hơi mạnh, vần e như “ơ” lùi về sau."},
+      {"id":"s3","zh":"我们走着走着，天就黑了。","pinyin":"Wǒmen zǒu zhe zǒu zhe, tiān jiù hēi le.","vi":"Chúng tôi đang đi thì trời tối.","tip_vi":"走着走着: 着 zhe đọc nhẹ, ngắn; 走 zǒu thanh 3 trước thanh 1/nhẹ chỉ đọc nửa. 天就黑了: 天 tiān thanh 1, 就 jiù thanh 4, 黑 hēi thanh 1; 了 le nhẹ. Nhịp đều, giọng đi xuống ở cuối."},
+      {"id":"s4","zh":"我们一到景点，就先找地方休息。","pinyin":"Wǒmen yí dào jǐngdiǎn, jiù xiān zhǎo dìfang xiūxi.","vi":"Chúng ta vừa đến điểm tham quan là tìm chỗ nghỉ trước.","tip_vi":"一到: 一 đọc yí vì trước thanh 4. 景点 jǐngdiǎn: hai thanh 3, 景 đọc thành thanh 2 (jíng diǎn). 找地方: 找 zhǎo và 地方 dìfang, 方 đọc nhẹ. 休息 xiūxi: 息 đọc nhẹ."},
+      {"id":"s5","zh":"你究竟喜欢大海，还是喜欢旅行？","pinyin":"Nǐ jiūjìng xǐhuan dàhǎi, háishi xǐhuan lǚxíng?","vi":"Rốt cuộc bạn thích biển hay thích đi du lịch?","tip_vi":"你究竟: 你 thanh 3 đứng trước thanh 1 → nửa thanh 3. 喜欢 xǐhuan: 欢 đọc nhẹ. 大海 dàhǎi: 海 hǎi thanh 3 đọc đủ ở cuối cụm. 还是 háishi: 是 đọc nhẹ. 旅行 lǚxíng: lǚ tròn môi (ü), 行 xíng thanh 2. Câu hỏi: giọng đi lên ở cuối."},
+      {"id":"s6","zh":"说起这次旅行，我已经想了半年了。","pinyin":"Shuō qǐ zhè cì lǚxíng, wǒ yǐjīng xiǎng le bàn nián le.","vi":"Nhắc đến chuyến đi này, tôi đã nghĩ đến nó nửa năm rồi.","tip_vi":"说起 shuō qǐ: shuō sh uốn lưỡi, thanh 1 cao và bằng; 起 qǐ thanh 3 đọc nửa. 我已经: 我 và 已 đều thanh 3, 我 đọc thành thanh 2. 半年 bàn nián: bàn thanh 4, nián thanh 2. 了 le nhẹ."},
+      {"id":"s7","zh":"从明天起，我每天早上跑步。","pinyin":"Cóng míngtiān qǐ, wǒ měi tiān zǎoshang pǎobù.","vi":"Kể từ ngày mai, mỗi sáng tôi sẽ chạy bộ.","tip_vi":"从 cóng: c bật hơi, -ong ở cuống lưỡi, thanh 2. 起 qǐ: q bật hơi, thanh 3. 我每天: 我 và 每 đều thanh 3 liền, 我 đọc thành thanh 2. 跑步 pǎobù: p bật hơi mạnh, 跑 thanh 3 nửa vì trước thanh 4."}
+    ],
+    "review": {
+      "remember": [
+        "V着V着，就…… = đang làm gì thì (bất chợt) có chuyện mới: 走着走着，天就黑了; 看着看着，就睡着了.",
+        "一 + V1，就 + V2 = vừa… là… / hễ… là…: 一到景点就找地方休息; 他一坐车就想睡觉. Vế đầu không có 了.",
+        "究竟 = rốt cuộc (chỉ dùng trong câu hỏi, đứng sau chủ ngữ); câu kể “cuối cùng cũng” dùng 到底. 究竟 còn là danh từ: 看个究竟.",
+        "起来 = bắt đầu (笑起来, 下起雨来 – tân ngữ giữa 起 và 来); V得起 / V不起 = đủ / không đủ khả năng; 说起 = nhắc đến; 从……起 = kể từ.",
+        "Du lịch: 旅行、风景、景点、导游、目的地; sân bay: 航班、登机、安检、换乘; đặt chỗ: 订 (vé, phòng), 入住 (nhận phòng); đường: 公里、高速、路过."
+      ],
+      "mistakes": [
+        "✗ 我一到了就给你打电话 → ✓ 我一到就给你打电话: vế đầu không thêm 了.",
+        "✗ 他唱起来歌 → ✓ 他唱起歌来: tân ngữ nằm giữa 起 và 来.",
+        "✗ 他试了很多次，究竟成功了 → ✓ 他试了很多次，到底成功了: 究竟 chỉ dùng trong câu hỏi."
+      ]
+    }
+  }
+}

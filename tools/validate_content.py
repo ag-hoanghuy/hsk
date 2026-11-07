@@ -13,7 +13,9 @@ import sys
 import unicodedata
 from pathlib import Path
 
-from pypinyin import Style, pinyin
+from pypinyin import Style, load_phrases_dict, pinyin
+
+load_phrases_dict({"大夫": [["dài"], ["fu"]]})  # doctor; pypinyin defaults to dà fū (the title)
 
 CONTENT = Path(__file__).resolve().parent.parent / "content"
 HAN = re.compile(r"[一-鿿]+")

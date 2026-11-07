@@ -1,0 +1,253 @@
+{
+  "level": 4,
+  "number": 8,
+  "summary": "Cùng nhau ngắm hoàng hôn và nói về cái đẹp quanh mình; học 使 (khiến, làm cho), 只要……就……, 因此 và 往往, câu đáp đồng tình 可不是, cùng các từ về cảm xúc, phong cảnh và âm nhạc",
+  "readings_ok": [],
+  "content": {
+    "objectives": [
+      "Miêu tả phong cảnh và cảm nhận của mình bằng 景色、美景、心情、感受、激动、难忘",
+      "Nói “A khiến B thế nào đó” bằng 使, và “chỉ cần… thì…” bằng 只要……就……",
+      "Nói nguyên nhân – kết quả bằng 因此, nói thói quen có quy luật bằng 往往",
+      "Đáp lại người khác một cách tự nhiên bằng 可不是 (đúng thế, chứ còn gì nữa)"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"使","pinyin":"shǐ","pos":"động từ","meaning_vi":"khiến, làm cho","example_zh":"这个好消息使我非常激动。","example_pinyin":"Zhège hǎo xiāoxi shǐ wǒ fēicháng jīdòng.","example_vi":"Tin vui này khiến tôi vô cùng xúc động.","note_vi":"Chủ ngữ thường là một sự việc hay một vật (好消息、音乐、这件事), không phải người ra lệnh. “Bảo ai làm gì” phải dùng 让: ✗ 妈妈使我去买菜 → ✓ 妈妈让我去买菜. 使 hơi trang trọng hơn 让."},
+      {"id":"v2","hanzi":"因此","pinyin":"yīncǐ","pos":"liên từ","meaning_vi":"vì vậy, do đó","example_zh":"他每天坚持跑步，因此身体越来越好。","example_pinyin":"Tā měi tiān jiānchí pǎobù, yīncǐ shēntǐ yuè lái yuè hǎo.","example_vi":"Ngày nào anh ấy cũng kiên trì chạy bộ, vì vậy sức khỏe ngày càng tốt.","hanviet":"NHÂN THỬ","note_vi":"Đứng ở vế sau để nêu kết quả, trang trọng hơn 所以. Không dùng chung với 所以 trong cùng một câu: ✗ 因此所以……. Có thể đi sau 因为: 因为……，因此……."},
+      {"id":"v3","hanzi":"往往","pinyin":"wǎngwǎng","pos":"phó từ","meaning_vi":"thường thường, thường là (theo quy luật)","example_zh":"周末他往往睡到十点才起床。","example_pinyin":"Zhōumò tā wǎngwǎng shuì dào shí diǎn cái qǐchuáng.","example_vi":"Cuối tuần anh ấy thường ngủ đến mười giờ mới dậy.","note_vi":"Chỉ rút ra quy luật từ những việc đã xảy ra nhiều lần, nên KHÔNG dùng cho tương lai, ý muốn hay mệnh lệnh: ✗ 明天我往往去公园. 常常 thì dùng được rộng hơn (我常常想去……)."},
+      {"id":"v4","hanzi":"缺少","pinyin":"quēshǎo","pos":"động từ","meaning_vi":"thiếu, thiếu mất","example_zh":"我们班缺少一个会唱歌的人。","example_pinyin":"Wǒmen bān quēshǎo yí ge huì chànggē de rén.","example_vi":"Lớp chúng tôi thiếu một người biết hát.","hanviet":"KHUYẾT THIỂU","note_vi":"缺少 + danh từ: 缺少朋友、缺少时间. Phủ định: 不缺少 / 并不缺少. 缺少 nói về thứ “đáng lẽ phải có”; 缺 (đã học ở phần mở rộng) thì ngắn gọn, khẩu ngữ hơn."},
+      {"id":"v5","hanzi":"美","pinyin":"měi","pos":"tính từ","meaning_vi":"đẹp","example_zh":"这儿的景色真美！","example_pinyin":"Zhèr de jǐngsè zhēn měi!","example_vi":"Phong cảnh ở đây thật đẹp!","hanviet":"MỸ","note_vi":"Thường làm vị ngữ (风景很美) hoặc đứng trong từ ghép (美丽、美景、美食). Trước danh từ nói 美丽的花, không nói 美的花. 美 còn là chữ đầu của 美国 (nước Mỹ)."},
+      {"id":"v6","hanzi":"美丽","pinyin":"měilì","pos":"tính từ","meaning_vi":"đẹp, xinh đẹp","example_zh":"春天的公园里有很多美丽的花。","example_pinyin":"Chūntiān de gōngyuán li yǒu hěn duō měilì de huā.","example_vi":"Công viên mùa xuân có rất nhiều bông hoa đẹp.","hanviet":"MỸ LỆ","note_vi":"Trang trọng, hơi văn viết; hay dùng cho cảnh vật, thành phố, cô gái. Nói chuyện hằng ngày người ta hay dùng 漂亮."},
+      {"id":"v7","hanzi":"美景","pinyin":"měijǐng","pos":"danh từ","meaning_vi":"cảnh đẹp","example_zh":"山上有很多美景，你一定要去看看。","example_pinyin":"Shān shang yǒu hěn duō měijǐng, nǐ yídìng yào qù kànkan.","example_vi":"Trên núi có rất nhiều cảnh đẹp, bạn nhất định phải đi xem.","hanviet":"MỸ CẢNH","note_vi":"Hay gặp trong cụm 欣赏美景 (thưởng thức cảnh đẹp), 留下美景 (lưu lại cảnh đẹp)."},
+      {"id":"v8","hanzi":"感受","pinyin":"gǎnshòu","pos":"động từ / danh từ","meaning_vi":"cảm nhận; cảm nhận, cảm xúc","example_zh":"到了新的城市，我有很多新的感受。","example_pinyin":"Dào le xīn de chéngshì, wǒ yǒu hěn duō xīn de gǎnshòu.","example_vi":"Đến một thành phố mới, tôi có rất nhiều cảm nhận mới.","hanviet":"CẢM THỤ","note_vi":"感受 là điều mình cảm nhận được sau khi trải qua, sâu hơn 感觉 (cảm giác nhất thời của cơ thể). Hay nói: 谈谈你的感受 (nói về cảm nhận của bạn), 感受到 + điều gì (cảm nhận được)."},
+      {"id":"v9","hanzi":"心情","pinyin":"xīnqíng","pos":"danh từ","meaning_vi":"tâm trạng","example_zh":"今天天气很好，我的心情也很好。","example_pinyin":"Jīntiān tiānqì hěn hǎo, wǒ de xīnqíng yě hěn hǎo.","example_vi":"Hôm nay thời tiết đẹp, tâm trạng tôi cũng rất tốt.","hanviet":"TÂM TÌNH","note_vi":"Hán Việt “tâm tình” là tâm sự, tình cảm; còn 心情 nghĩa là TÂM TRẠNG lúc này: 心情好 / 心情不好 / 心情很差. Hay dùng với 好、不好、变好."},
+      {"id":"v10","hanzi":"感人","pinyin":"gǎnrén","pos":"tính từ","meaning_vi":"cảm động, làm xúc động lòng người","example_zh":"这个故事很感人，我看哭了。","example_pinyin":"Zhège gùshi hěn gǎnrén, wǒ kàn kū le.","example_vi":"Câu chuyện này rất cảm động, tôi xem mà khóc.","hanviet":"CẢM NHÂN","note_vi":"感人 mô tả sự vật làm người khác xúc động (故事、歌、画面): 很感人. Còn người xúc động là 激动 hoặc 被……感动: ✗ 我很感人 → ✓ 我很激动."},
+      {"id":"v11","hanzi":"细心","pinyin":"xìxīn","pos":"tính từ","meaning_vi":"tỉ mỉ, chu đáo, cẩn thận","example_zh":"她很细心，每个人的生日她都记得。","example_pinyin":"Tā hěn xìxīn, měi ge rén de shēngrì tā dōu jìde.","example_vi":"Cô ấy rất chu đáo, sinh nhật của ai cô ấy cũng nhớ.","hanviet":"TẾ TÂM","note_vi":"细心 = để ý tới chi tiết, chu đáo; hay dùng để khen người: 细心的人. Khác 小心 (cẩn thận để tránh nguy hiểm: 小心！)."},
+      {"id":"v12","hanzi":"平常","pinyin":"píngcháng","pos":"tính từ / danh từ","meaning_vi":"bình thường, thường ngày; ngày thường","example_zh":"平常我七点起床，周末睡得晚一点儿。","example_pinyin":"Píngcháng wǒ qī diǎn qǐchuáng, zhōumò shuì de wǎn yìdiǎnr.","example_vi":"Ngày thường tôi bảy giờ dậy, cuối tuần thì ngủ muộn hơn một chút.","hanviet":"BÌNH THƯỜNG","note_vi":"平常 = thường ngày, không có gì đặc biệt (平常的一天). Khác 正常 (bài 7): 正常 là “đúng mức bình thường, không có bệnh/sự cố”; 平常 là “như mọi ngày”."},
+      {"id":"v13","hanzi":"景色","pinyin":"jǐngsè","pos":"danh từ","meaning_vi":"phong cảnh, cảnh sắc","example_zh":"这儿的景色春天最美。","example_pinyin":"Zhèr de jǐngsè chūntiān zuì měi.","example_vi":"Phong cảnh ở đây đẹp nhất vào mùa xuân.","hanviet":"CẢNH SẮC","note_vi":"Danh từ không đếm bằng 个: ✗ 一个景色. Muốn đếm phải nói 一处美景 / 一片景色. Gần nghĩa 风景; 景色 hơi văn vẻ hơn."},
+      {"id":"v14","hanzi":"拍","pinyin":"pāi","pos":"động từ","meaning_vi":"chụp (ảnh), quay; vỗ","example_zh":"我用手机拍了很多照片。","example_pinyin":"Wǒ yòng shǒujī pāi le hěn duō zhàopiàn.","example_vi":"Tôi đã dùng điện thoại chụp rất nhiều ảnh.","note_vi":"拍照 (chụp ảnh), 拍照片, 拍视频 (quay video). 拍 còn là “vỗ”: 拍手 (vỗ tay). Người Việt hay nói “chụp” nhưng tiếng Trung dùng 拍, không dùng 照 cho ảnh chụp: ✗ 照照片 (照 là “soi, chiếu”)."},
+      {"id":"v15","hanzi":"图片","pinyin":"túpiàn","pos":"danh từ","meaning_vi":"hình ảnh, tấm ảnh","example_zh":"你把这张图片发给我吧。","example_pinyin":"Nǐ bǎ zhè zhāng túpiàn fā gěi wǒ ba.","example_vi":"Bạn gửi tấm ảnh này cho tôi nhé.","hanviet":"ĐỒ PHIẾN","note_vi":"图片 rộng hơn 照片: gồm ảnh chụp, tranh vẽ, hình trên mạng. Lượng từ: 张. 照片 chủ yếu là ảnh chụp người, cảnh."},
+      {"id":"v16","hanzi":"星星","pinyin":"xīngxing","pos":"danh từ","meaning_vi":"ngôi sao, những vì sao","example_zh":"晚上，天上有很多星星。","example_pinyin":"Wǎnshang, tiān shang yǒu hěn duō xīngxing.","example_vi":"Buổi tối, trên trời có rất nhiều ngôi sao.","note_vi":"Chữ 星 thứ hai đọc nhẹ. Khẩu ngữ; từ ghép trang trọng là 星 (một chữ) như 星空 (bầu trời sao). Lượng từ: 颗."},
+      {"id":"v17","hanzi":"难忘","pinyin":"nánwàng","pos":"tính từ","meaning_vi":"khó quên, không thể quên","example_zh":"那次旅行真让人难忘。","example_pinyin":"Nà cì lǚxíng zhēn ràng rén nánwàng.","example_vi":"Chuyến du lịch đó thật khiến người ta khó quên.","hanviet":"NAN VONG","note_vi":"Dùng như tính từ: 难忘的一天、难忘的经历. 难 ở đây đọc nán (khó), 忘 wàng (quên). Ngược lại là 容易忘."},
+      {"id":"v18","hanzi":"激动","pinyin":"jīdòng","pos":"tính từ / động từ","meaning_vi":"xúc động, phấn khích","example_zh":"听到这个好消息，她激动得哭了。","example_pinyin":"Tīngdào zhège hǎo xiāoxi, tā jīdòng de kū le.","example_vi":"Nghe tin vui này, cô ấy xúc động đến mức bật khóc.","hanviet":"KÍCH ĐỘNG","note_vi":"Bạn hay nhầm với “kích động” (hung hăng) của tiếng Việt. Trong tiếng Trung 激动 chỉ là tình cảm dâng trào, vui hay buồn đều được: 激动得睡不着 (xúc động đến mức không ngủ được)."},
+      {"id":"v19","hanzi":"可惜","pinyin":"kěxī","pos":"tính từ","meaning_vi":"đáng tiếc, tiếc thật","example_zh":"这么好的机会你没去，真可惜！","example_pinyin":"Zhème hǎo de jīhuì nǐ méi qù, zhēn kěxī!","example_vi":"Cơ hội tốt thế mà bạn không đi, tiếc thật!","hanviet":"KHẢ TÍCH","note_vi":"Nói về chuyện không như ý, thường là mất cơ hội. Có thể đứng đầu câu: 可惜他没来。Đừng dùng thay lời xin lỗi (xin lỗi là 对不起)."},
+      {"id":"v20","hanzi":"多么","pinyin":"duōme","pos":"phó từ","meaning_vi":"biết bao, biết nhường nào, thật là","example_zh":"多么美的景色啊！","example_pinyin":"Duōme měi de jǐngsè a!","example_vi":"Phong cảnh đẹp biết bao!","note_vi":"Dùng trong câu cảm thán: 多么 + tính từ (+ 的 + danh từ) + 啊！ Hơi văn vẻ, trong khẩu ngữ hay nói 多……啊 hoặc 真……. Không dùng để hỏi mức độ (hỏi là 多 + tính từ: 多大？)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"鲜花","pinyin":"xiānhuā","pos":"danh từ","meaning_vi":"hoa tươi","example_zh":"我给妈妈买了很多鲜花。","example_pinyin":"Wǒ gěi māma mǎi le hěn duō xiānhuā.","example_vi":"Tôi mua cho mẹ rất nhiều hoa tươi."},
+      {"id":"x2","hanzi":"光","pinyin":"guāng","pos":"danh từ","meaning_vi":"ánh sáng","example_zh":"房间里没有光，什么都看不见。","example_pinyin":"Fángjiān li méiyǒu guāng, shénme dōu kàn bu jiàn.","example_vi":"Trong phòng không có ánh sáng, chẳng nhìn thấy gì cả.","hanviet":"QUANG"},
+      {"id":"x3","hanzi":"亮","pinyin":"liàng","pos":"tính từ / động từ","meaning_vi":"sáng; sáng lên","example_zh":"天亮了，我们该起床了。","example_pinyin":"Tiān liàng le, wǒmen gāi qǐchuáng le.","example_vi":"Trời sáng rồi, chúng ta phải dậy thôi."},
+      {"id":"x4","hanzi":"云","pinyin":"yún","pos":"danh từ","meaning_vi":"mây","example_zh":"天上有很多白云。","example_pinyin":"Tiān shang yǒu hěn duō báiyún.","example_vi":"Trên trời có rất nhiều mây trắng.","hanviet":"VÂN"},
+      {"id":"x5","hanzi":"夜晚","pinyin":"yèwǎn","pos":"danh từ","meaning_vi":"ban đêm, buổi tối","example_zh":"夜晚的城市很安静。","example_pinyin":"Yèwǎn de chéngshì hěn ānjìng.","example_vi":"Thành phố về đêm rất yên tĩnh.","hanviet":"DẠ VÃN"},
+      {"id":"x6","hanzi":"夜","pinyin":"yè","pos":"danh từ / lượng từ","meaning_vi":"đêm","example_zh":"他工作到夜里十二点才回家。","example_pinyin":"Tā gōngzuò dào yèli shí'èr diǎn cái huí jiā.","example_vi":"Anh ấy làm việc đến mười hai giờ đêm mới về nhà.","hanviet":"DẠ"},
+      {"id":"x7","hanzi":"眼前","pinyin":"yǎnqián","pos":"danh từ","meaning_vi":"trước mắt","example_zh":"眼前的景色太美了。","example_pinyin":"Yǎnqián de jǐngsè tài měi le.","example_vi":"Cảnh trước mắt đẹp quá."},
+      {"id":"x8","hanzi":"抬头","pinyin":"táitóu","pos":"động từ","meaning_vi":"ngẩng đầu","example_zh":"我一抬头，就看见了很多星星。","example_pinyin":"Wǒ yì táitóu, jiù kànjiàn le hěn duō xīngxing.","example_vi":"Tôi vừa ngẩng đầu lên là thấy rất nhiều sao.","note_vi":"Động từ li hợp (抬 + 头): 抬起头来, 抬了抬头. Ngược lại: 低头 (cúi đầu)."},
+      {"id":"x9","hanzi":"抬","pinyin":"tái","pos":"động từ","meaning_vi":"nâng, nhấc; khiêng","example_zh":"这张桌子太重了，他一个人抬不动。","example_pinyin":"Zhè zhāng zhuōzi tài zhòng le, tā yí ge rén tái bu dòng.","example_vi":"Cái bàn này nặng quá, một mình anh ấy khiêng không nổi."},
+      {"id":"x10","hanzi":"内心","pinyin":"nèixīn","pos":"danh từ","meaning_vi":"nội tâm, trong lòng","example_zh":"他看起来很平静，但是内心很激动。","example_pinyin":"Tā kàn qǐlai hěn píngjìng, dànshì nèixīn hěn jīdòng.","example_vi":"Trông anh ấy rất bình tĩnh, nhưng trong lòng rất xúc động.","hanviet":"NỘI TÂM"},
+      {"id":"x11","hanzi":"感","pinyin":"gǎn","pos":"hậu tố","meaning_vi":"cảm giác, cảm (đứng sau để tạo danh từ)","example_zh":"看到孩子们高兴的样子，我有一种幸福感。","example_pinyin":"Kàn dào háizimen gāoxìng de yàngzi, wǒ yǒu yì zhǒng xìngfúgǎn.","example_vi":"Nhìn dáng vẻ vui vẻ của lũ trẻ, tôi có cảm giác hạnh phúc.","note_vi":"Ghép sau danh từ/tính từ để chỉ “cảm giác về…”: 幸福感 (cảm giác hạnh phúc), 安全感 (cảm giác an toàn), 美感 (cảm nhận cái đẹp)."},
+      {"id":"x12","hanzi":"缺","pinyin":"quē","pos":"động từ","meaning_vi":"thiếu, khuyết","example_zh":"我们打篮球还缺一个人。","example_pinyin":"Wǒmen dǎ lánqiú hái quē yí ge rén.","example_vi":"Chúng ta chơi bóng rổ còn thiếu một người.","hanviet":"KHUYẾT"},
+      {"id":"x13","hanzi":"留下","pinyin":"liúxia","pos":"động từ","meaning_vi":"để lại; ở lại","example_zh":"他走的时候，给我留下了一张照片。","example_pinyin":"Tā zǒu de shíhou, gěi wǒ liúxia le yì zhāng zhàopiàn.","example_vi":"Lúc đi, anh ấy để lại cho tôi một tấm ảnh.","note_vi":"留下 + O: để lại cái gì (留下美景、留下名字); cũng là “ở lại”: 你留下吧。"},
+      {"id":"x14","hanzi":"窗户","pinyin":"chuānghu","pos":"danh từ","meaning_vi":"cửa sổ","example_zh":"请把窗户打开，房间里太热了。","example_pinyin":"Qǐng bǎ chuānghu dǎkāi, fángjiān li tài rè le.","example_vi":"Làm ơn mở cửa sổ ra, trong phòng nóng quá.","hanviet":"SONG HỘ"},
+      {"id":"x15","hanzi":"窗","pinyin":"chuāng","pos":"danh từ","meaning_vi":"cửa sổ (trong từ ghép)","example_zh":"窗外正在下雨。","example_pinyin":"Chuāng wài zhèngzài xià yǔ.","example_vi":"Ngoài cửa sổ đang mưa.","note_vi":"窗 chủ yếu đứng trong từ ghép (窗外、窗边、窗口); đứng một mình nói 窗户."},
+      {"id":"x16","hanzi":"院子","pinyin":"yuànzi","pos":"danh từ","meaning_vi":"sân, vườn nhỏ","example_zh":"我家的院子里有很多花。","example_pinyin":"Wǒ jiā de yuànzi li yǒu hěn duō huā.","example_vi":"Trong sân nhà tôi có rất nhiều hoa."},
+      {"id":"x17","hanzi":"挂","pinyin":"guà","pos":"động từ","meaning_vi":"treo, móc","example_zh":"请把衣服挂在门后面。","example_pinyin":"Qǐng bǎ yīfu guà zài mén hòumiàn.","example_vi":"Hãy treo quần áo ở sau cánh cửa.","note_vi":"挂电话 là “cúp máy”; 墙上挂着一张画 (trên tường treo một bức tranh)."},
+      {"id":"x18","hanzi":"幅","pinyin":"fú","pos":"lượng từ","meaning_vi":"bức (tranh, ảnh)","example_zh":"他家里挂着一幅很大的画。","example_pinyin":"Tā jiā li guà zhe yì fú hěn dà de huà.","example_vi":"Trong nhà anh ấy treo một bức tranh rất lớn.","note_vi":"Lượng từ cho tranh, ảnh lớn, vải: 一幅画、一幅照片 (trang trọng hơn 张)."},
+      {"id":"x19","hanzi":"图","pinyin":"tú","pos":"danh từ","meaning_vi":"hình, tranh vẽ, biểu đồ","example_zh":"请看这张图，这就是我们的新家。","example_pinyin":"Qǐng kàn zhè zhāng tú, zhè jiù shì wǒmen de xīn jiā.","example_vi":"Xin hãy xem hình này, đây chính là nhà mới của chúng tôi.","hanviet":"ĐỒ"},
+      {"id":"x20","hanzi":"镜子","pinyin":"jìngzi","pos":"danh từ","meaning_vi":"cái gương","example_zh":"她每天早上都会照镜子。","example_pinyin":"Tā měi tiān zǎoshang dōu huì zhào jìngzi.","example_vi":"Sáng nào cô ấy cũng soi gương.","note_vi":"“Soi gương” là 照镜子."},
+      {"id":"x21","hanzi":"歌声","pinyin":"gēshēng","pos":"danh từ","meaning_vi":"tiếng hát","example_zh":"她的歌声很好听，大家都喜欢。","example_pinyin":"Tā de gēshēng hěn hǎotīng, dàjiā dōu xǐhuan.","example_vi":"Giọng hát của cô ấy rất hay, ai cũng thích."},
+      {"id":"x22","hanzi":"歌手","pinyin":"gēshǒu","pos":"danh từ","meaning_vi":"ca sĩ","example_zh":"我弟弟想当一名歌手。","example_pinyin":"Wǒ dìdi xiǎng dāng yì míng gēshǒu.","example_vi":"Em trai tôi muốn trở thành ca sĩ.","hanviet":"CA THỦ"},
+      {"id":"x23","hanzi":"演唱","pinyin":"yǎnchàng","pos":"động từ","meaning_vi":"biểu diễn hát, hát (trước khán giả)","example_zh":"这首歌是她演唱的。","example_pinyin":"Zhè shǒu gē shì tā yǎnchàng de.","example_vi":"Bài hát này do cô ấy trình bày.","hanviet":"DIỄN XƯỚNG","note_vi":"Trang trọng, dùng khi biểu diễn trước người nghe; hằng ngày chỉ nói 唱."},
+      {"id":"x24","hanzi":"钢琴","pinyin":"gāngqín","pos":"danh từ","meaning_vi":"đàn piano","example_zh":"我女儿学了三年钢琴。","example_pinyin":"Wǒ nǚ'ér xué le sān nián gāngqín.","example_vi":"Con gái tôi học piano được ba năm.","hanviet":"CƯƠNG CẦM"},
+      {"id":"x25","hanzi":"弹","pinyin":"tán","pos":"động từ","meaning_vi":"gảy, chơi (đàn phím, đàn dây gảy)","example_zh":"他会弹钢琴，也会唱歌。","example_pinyin":"Tā huì tán gāngqín, yě huì chànggē.","example_vi":"Anh ấy biết chơi piano, cũng biết hát.","note_vi":"Chơi piano, guitar: 弹. Đàn kéo (như vĩ cầm) dùng 拉. Chơi nhạc cụ thổi dùng 吹."},
+      {"id":"x26","hanzi":"拉","pinyin":"lā","pos":"động từ","meaning_vi":"kéo; kéo (đàn)","example_zh":"小朋友拉着妈妈的手走进了公园。","example_pinyin":"Xiǎopéngyou lā zhe māma de shǒu zǒu jìn le gōngyuán.","example_vi":"Em bé nắm tay mẹ đi vào công viên.","note_vi":"Nghĩa gốc là “kéo” (trái nghĩa 推 đẩy). Với đàn kéo như 小提琴 (vĩ cầm) cũng dùng 拉."},
+      {"id":"x27","hanzi":"响","pinyin":"xiǎng","pos":"động từ","meaning_vi":"kêu, vang lên","example_zh":"我的手机响了，是妈妈打来的。","example_pinyin":"Wǒ de shǒujī xiǎng le, shì māma dǎ lái de.","example_vi":"Điện thoại của tôi reo, là mẹ gọi đến."},
+      {"id":"x28","hanzi":"忽然","pinyin":"hūrán","pos":"phó từ","meaning_vi":"đột nhiên, bỗng nhiên","example_zh":"我们正走着，天上忽然下起雨来了。","example_pinyin":"Wǒmen zhèng zǒu zhe, tiān shang hūrán xià qǐ yǔ lái le.","example_vi":"Chúng tôi đang đi thì trên trời bỗng đổ mưa.","hanviet":"HỐT NHIÊN","note_vi":"忽然 + sự việc bất ngờ, đứng trước động từ hoặc đầu câu; không dùng được trước 很、太 kiểu tính từ thường."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“使” (khiến, làm cho)",
+        "pattern":"A + 使 + B + tính từ / động từ tâm lý / động từ",
+        "explanation_vi":"使 nghĩa là “khiến cho, làm cho”: một sự việc, một sự vật tác động lên người (hoặc vật) B và làm B thay đổi, hay có một cảm xúc nào đó. Phía sau 使 PHẢI có đối tượng B: 使 + B + kết quả (使人高兴、使我很激动、使他明白了).\nChủ ngữ A thường là một sự việc, một vật (好消息、音乐、美景、这件事), ít khi là một người đang ra lệnh. Muốn nói “bảo/cho phép ai làm gì” thì dùng 让 hoặc 叫, không dùng 使.\n使 thuộc văn viết và lời nói hơi trang trọng; nói chuyện hằng ngày thường nói 让 (让我很高兴). 使 không mang 了 ngay sau nó và không dùng với 被.",
+        "examples":[
+          {"zh":"这个好消息使我们都很激动。","pinyin":"Zhège hǎo xiāoxi shǐ wǒmen dōu hěn jīdòng.","vi":"Tin vui này khiến chúng tôi đều rất xúc động."},
+          {"zh":"美丽的景色使人心情变好。","pinyin":"Měilì de jǐngsè shǐ rén xīnqíng biàn hǎo.","vi":"Cảnh đẹp khiến tâm trạng con người trở nên tốt hơn."},
+          {"zh":"这次旅行使我对这座城市有了新的感受。","pinyin":"Zhè cì lǚxíng shǐ wǒ duì zhè zuò chéngshì yǒu le xīn de gǎnshòu.","vi":"Chuyến đi này khiến tôi có cảm nhận mới về thành phố này."},
+          {"zh":"听音乐使人放松。","pinyin":"Tīng yīnyuè shǐ rén fàngsōng.","vi":"Nghe nhạc khiến người ta thư giãn."},
+          {"zh":"这件事使他明白了很多。","pinyin":"Zhè jiàn shì shǐ tā míngbai le hěn duō.","vi":"Chuyện này khiến anh ấy hiểu ra rất nhiều."}
+        ],
+        "mistakes_vi":"✗ 妈妈使我去买菜。\n✓ 妈妈让我去买菜。\n“Bảo ai làm gì” là 让 / 叫; 使 chỉ dùng khi một sự việc làm ai đó thay đổi, có cảm xúc.\n✗ 这个消息使很激动。\n✓ 这个消息使我很激动。\nSau 使 bắt buộc phải có người/vật chịu tác động (我、大家、人…).\n✗ 这个消息使激动了我。\n✓ 这个消息使我很激动。\nĐối tượng đứng ngay sau 使, rồi mới đến tính từ hoặc động từ; không đặt 了 ngay sau 使.",
+        "compare_vi":"使 ≈ “khiến, làm cho” trong tiếng Việt: “Tin này khiến tôi vui” = 这个消息使我很高兴. Khác ở chỗ 使 chỉ dùng cho sự việc tác động lên người, không dùng cho “sai bảo”."
+      },
+      {
+        "id":"g2",
+        "title":"“只要……，就……” (chỉ cần… thì…)",
+        "pattern":"只要 + điều kiện，(S +) 就 + kết quả　·　S + 只要 + điều kiện，就……",
+        "explanation_vi":"只要……就…… nêu một điều kiện đủ: chỉ cần có điều kiện ấy là kết quả sẽ xảy ra, không cần thêm gì khác. Vế sau luôn cần 就 (đặt sau chủ ngữ, trước động từ); 才 là sai.\n只要 có thể đứng đầu câu hoặc ngay sau chủ ngữ (你只要细心，就不会错).\nĐừng nhầm với 只有……才……: 只有 nêu điều kiện DUY NHẤT (chỉ có… mới…), vế sau dùng 才. Ví dụ 只要努力，就能成功 = chỉ cần cố gắng là được; 只有努力，才能成功 = nếu không cố gắng thì chắc chắn không thành công.",
+        "examples":[
+          {"zh":"只要你多听多说，汉语就会越来越好。","pinyin":"Zhǐyào nǐ duō tīng duō shuō, Hànyǔ jiù huì yuè lái yuè hǎo.","vi":"Chỉ cần bạn nghe nhiều nói nhiều, tiếng Trung sẽ ngày càng tốt."},
+          {"zh":"只要天气好，我们就去公园拍照。","pinyin":"Zhǐyào tiānqì hǎo, wǒmen jiù qù gōngyuán pāizhào.","vi":"Chỉ cần thời tiết tốt, chúng mình sẽ ra công viên chụp ảnh."},
+          {"zh":"只要晚上没有云，我们就能看到很多星星。","pinyin":"Zhǐyào wǎnshang méiyǒu yún, wǒmen jiù néng kàn dào hěn duō xīngxing.","vi":"Chỉ cần buổi tối không có mây, chúng ta sẽ nhìn thấy rất nhiều sao."},
+          {"zh":"你只要细心一点儿，就不会写错。","pinyin":"Nǐ zhǐyào xìxīn yìdiǎnr, jiù bú huì xiě cuò.","vi":"Chỉ cần bạn cẩn thận hơn một chút là sẽ không viết sai."}
+        ],
+        "mistakes_vi":"✗ 只要你努力，才能成功。\n✓ 只要你努力，就能成功。\n只要 đi với 就; 才 dùng với 只有.\n✗ 只要明天不下雨，我们去公园。\n✓ 只要明天不下雨，我们就去公园。\nVế sau thường không được bỏ 就.\n✗ 就我们去公园，只要明天不下雨。\n✓ 只要明天不下雨，我们就去公园。\nVế 只要 (điều kiện) đứng trước vế kết quả, khác cách nói “… nếu mai không mưa” cuối câu của tiếng Việt.",
+        "compare_vi":"Tiếng Việt: “chỉ cần… là…” / “chỉ cần… thì…”; 就 tương ứng với “là, thì” nhưng đứng sau chủ ngữ."
+      },
+      {
+        "id":"g3",
+        "title":"“因此” (vì vậy) và “往往” (thường thường)",
+        "pattern":"…，因此 + kết quả　·　S + 往往 + V (quy luật đã xảy ra)　·　Điều kiện / thời gian，往往 + V",
+        "explanation_vi":"(1) 因此 = “vì vậy, do đó”, nối vế nguyên nhân với vế kết quả. Nguyên nhân nằm ở câu/vế trước, kết quả đi sau 因此: 昨天下大雨，因此我们没去爬山。 因此 thuộc văn viết, trang trọng hơn 所以; không dùng chung với 所以 trong cùng một vế. Có thể đứng đầu vế sau hoặc sau chủ ngữ (他因此很高兴).\n(2) 往往 = “thường thường, thường là”: nói về một quy luật đã xảy ra nhiều lần, trong những điều kiện nhất định (周末他往往睡到十点). Vì là quy luật nên 往往 KHÔNG dùng cho việc ở tương lai, ý muốn, mệnh lệnh hay việc xảy ra một lần: ✗ 明天我往往去. Muốn nói tần suất đơn giản thì dùng 常常 (dùng được rộng hơn).\nHai từ này hay đi cùng nhau: 他很忙，往往十点以后才回家，因此很少和家人吃饭.",
+        "examples":[
+          {"zh":"他每天坚持跑步，因此身体越来越好。","pinyin":"Tā měi tiān jiānchí pǎobù, yīncǐ shēntǐ yuè lái yuè hǎo.","vi":"Ngày nào anh ấy cũng kiên trì chạy bộ, vì vậy sức khỏe ngày càng tốt."},
+          {"zh":"昨天下了大雨，因此我们没有去爬山。","pinyin":"Zuótiān xià le dàyǔ, yīncǐ wǒmen méiyǒu qù pá shān.","vi":"Hôm qua mưa to, vì vậy chúng tôi không đi leo núi."},
+          {"zh":"周末他往往睡到十点才起床。","pinyin":"Zhōumò tā wǎngwǎng shuì dào shí diǎn cái qǐchuáng.","vi":"Cuối tuần anh ấy thường ngủ đến mười giờ mới dậy."},
+          {"zh":"人心情不好的时候，往往不想吃饭。","pinyin":"Rén xīnqíng bù hǎo de shíhou, wǎngwǎng bù xiǎng chī fàn.","vi":"Khi tâm trạng không tốt, người ta thường không muốn ăn."},
+          {"zh":"他很忙，往往十点以后才能回家，因此很少和家人一起吃晚饭。","pinyin":"Tā hěn máng, wǎngwǎng shí diǎn yǐhòu cái néng huí jiā, yīncǐ hěn shǎo hé jiārén yìqǐ chī wǎnfàn.","vi":"Anh ấy bận, thường sau mười giờ mới về nhà, vì vậy rất ít khi ăn tối cùng gia đình."}
+        ],
+        "mistakes_vi":"✗ 昨天下雨，因此所以我们没去。\n✓ 昨天下雨，因此我们没去。\n因此 đã có nghĩa “vì vậy”, không thêm 所以.\n✗ 明天我往往去公园。\n✓ 明天我想去公园。/ 我常常去公园。\n往往 chỉ dùng cho quy luật đã xảy ra, không dùng cho tương lai hay ý muốn.\n✗ 昨天我往往迟到。\n✓ 昨天我迟到了。\nViệc xảy ra một lần (昨天) không phải “quy luật”, không dùng 往往.",
+        "compare_vi":"因此 ≈ “vì vậy, cho nên” (văn viết). 往往 ≈ “thường là, hay” nhưng nhấn mạnh quy luật; 常常 ≈ “thường xuyên” (chỉ tần suất)."
+      },
+      {
+        "id":"g4",
+        "title":"“可不是” (đúng thế, chứ còn gì nữa)",
+        "pattern":"A：nhận xét　B：可不是(嘛 / 吗)，……",
+        "explanation_vi":"可不是 là câu đáp khẩu ngữ để đồng ý rất mạnh với điều người kia vừa nói, như “đúng thế đấy!”, “chứ còn gì nữa!”, “chính xác!”. Thường thêm 嘛 / 吗 phía sau (可不是嘛 / 可不是吗) và có thể nói tiếp để bổ sung ý của mình: 可不是，我也这么想.\nCó dạng nghi vấn nhưng thực chất không phải để hỏi, mà là lời đồng tình; vì vậy người nghe không trả lời lại. Chỉ dùng để đồng ý với nhận xét, cảm nghĩ (thời tiết, cảnh đẹp, chuyện bực mình…), không dùng để trả lời câu hỏi thông tin “có / không”. Khá thân mật, nói với bạn bè, đồng nghiệp; với người trên thì nói 您说得对 / 是啊 sẽ lịch sự hơn.",
+        "examples":[
+          {"zh":"A：今天的星星真多啊！ B：可不是嘛，我看了一个多小时了。","pinyin":"A: Jīntiān de xīngxing zhēn duō a! B: Kěbushì ma, wǒ kàn le yí ge duō xiǎoshí le.","vi":"A: Hôm nay sao nhiều thật! B: Chứ còn gì nữa, tôi ngắm hơn một tiếng rồi."},
+          {"zh":"A：这儿的景色多美啊！ B：可不是，我都不想回家了。","pinyin":"A: Zhèr de jǐngsè duō měi a! B: Kěbushì, wǒ dōu bù xiǎng huí jiā le.","vi":"A: Phong cảnh ở đây đẹp quá! B: Đúng thế, tôi chẳng muốn về nhà nữa."},
+          {"zh":"A：他唱歌唱得真好。 B：可不是吗，他是我们这儿最有名的歌手。","pinyin":"A: Tā chànggē chàng de zhēn hǎo. B: Kěbushì ma, tā shì wǒmen zhèr zuì yǒumíng de gēshǒu.","vi":"A: Anh ấy hát hay thật. B: Chứ còn gì, anh ấy là ca sĩ nổi tiếng nhất vùng này đấy."},
+          {"zh":"A：最近天气总是下雨。 B：可不是嘛，我的衣服都没干。","pinyin":"A: Zuìjìn tiānqì zǒngshì xià yǔ. B: Kěbushì ma, wǒ de yīfu dōu méi gān.","vi":"A: Dạo này trời cứ mưa suốt. B: Đúng thế, quần áo của tôi chẳng khô được."}
+        ],
+        "mistakes_vi":"✗ A：你是学生吗？ B：可不是。\n✓ A：你是学生吗？ B：是的，我是学生。\n可不是 chỉ để đồng tình với một nhận xét, không dùng để trả lời câu hỏi thông tin.\n✗ 他可不是老师吗？\n✓ 他是不是老师？\nĐừng dùng 可不是吗 để hỏi thật; muốn hỏi “có phải không” thì dùng 是不是.\n✗ 老师，您说得对，可不是嘛！\n✓ 老师，您说得对！\n可不是 thân mật, không dùng với người trên hay trong dịp trang trọng.",
+        "compare_vi":"可不是 ≈ “đúng đấy”, “chứ còn gì nữa”, “còn phải nói”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Hoàng hôn ở công viên",
+      "scene_vi": "Chiều thứ Bảy, Tiểu Vũ rủ Đại Vĩ – người bạn hay tăng ca – ra công viên. Hai người ngắm mây hồng, nghe ca sĩ hát và nói chuyện về cái đẹp quanh mình.",
+      "lines": [
+        {"speaker":"小雨","zh":"大伟，你看！今天公园的景色多么美啊！天上的云都变红了。","pinyin":"Dàwěi, nǐ kàn! Jīntiān gōngyuán de jǐngsè duōme měi a! Tiān shang de yún dōu biàn hóng le.","vi":"Đại Vĩ, cậu nhìn kìa! Hôm nay cảnh công viên đẹp biết bao! Mây trên trời đều chuyển sang màu hồng cả rồi."},
+        {"speaker":"大伟","zh":"可不是嘛！我平常下班很晚，往往天黑了才到家，很少有时间看天。","pinyin":"Kěbushì ma! Wǒ píngcháng xiàbān hěn wǎn, wǎngwǎng tiān hēi le cái dào jiā, hěn shǎo yǒu shíjiān kàn tiān.","vi":"Chứ còn gì nữa! Ngày thường tớ tan làm muộn, thường trời tối mới về đến nhà, rất ít khi có thời gian ngắm trời."},
+        {"speaker":"小雨","zh":"你平常太忙了，因此没发现身边的美。其实生活中不缺少美，只要你愿意抬头看看，就能发现。","pinyin":"Nǐ píngcháng tài máng le, yīncǐ méi fāxiàn shēnbiān de měi. Qíshí shēnghuó zhōng bù quēshǎo měi, zhǐyào nǐ yuànyì táitóu kànkan, jiù néng fāxiàn.","vi":"Thường ngày cậu bận quá, vì vậy không để ý đến cái đẹp ở quanh mình. Thật ra cuộc sống không thiếu cái đẹp, chỉ cần cậu chịu ngẩng đầu nhìn một chút là sẽ thấy."},
+        {"speaker":"大伟","zh":"你说得对。我先拍几张图片，发给妈妈看。","pinyin":"Nǐ shuō de duì. Wǒ xiān pāi jǐ zhāng túpiàn, fā gěi māma kàn.","vi":"Cậu nói đúng. Tớ chụp vài tấm ảnh trước, gửi cho mẹ xem."},
+        {"speaker":"小雨","zh":"好啊。不过手机拍出来的，常常没有眼睛看到的好看，有点儿可惜。","pinyin":"Hǎo a. Búguò shǒujī pāi chūlai de, chángcháng méiyǒu yǎnjing kàn dào de hǎokàn, yǒudiǎnr kěxī.","vi":"Được thôi. Có điều ảnh chụp bằng điện thoại thường không đẹp bằng mắt nhìn, hơi tiếc."},
+        {"speaker":"大伟","zh":"没关系，美景留在心里就行。你听，是谁在唱歌？歌声多好听啊！","pinyin":"Méi guānxi, měijǐng liú zài xīn li jiù xíng. Nǐ tīng, shì shéi zài chànggē? Gēshēng duō hǎotīng a!","vi":"Không sao, cảnh đẹp giữ trong lòng là được. Cậu nghe kìa, ai đang hát vậy? Giọng hát hay quá!"},
+        {"speaker":"小雨","zh":"是前面那位歌手，他每个周末都来这儿演唱。他的歌声使听的人都很放松。","pinyin":"Shì qiánmiàn nà wèi gēshǒu, tā měi ge zhōumò dōu lái zhèr yǎnchàng. Tā de gēshēng shǐ tīng de rén dōu hěn fàngsōng.","vi":"Là ca sĩ ở phía trước kia, cuối tuần nào anh ấy cũng đến đây biểu diễn. Giọng hát của anh làm ai nghe cũng thấy thư giãn."},
+        {"speaker":"大伟","zh":"真的。听着歌，看着星星慢慢出现，我今天的心情真好。","pinyin":"Zhēn de. Tīng zhe gē, kàn zhe xīngxing mànmàn chūxiàn, wǒ jīntiān de xīnqíng zhēn hǎo.","vi":"Đúng vậy. Nghe hát, nhìn những vì sao từ từ hiện ra, hôm nay tâm trạng tớ thật tốt."},
+        {"speaker":"小雨","zh":"对啊，只要你愿意慢下来，生活中的小事也会使你很激动。","pinyin":"Duì a, zhǐyào nǐ yuànyì màn xiàlai, shēnghuó zhōng de xiǎo shì yě huì shǐ nǐ hěn jīdòng.","vi":"Đúng vậy, chỉ cần cậu chịu chậm lại thì những chuyện nhỏ trong cuộc sống cũng khiến cậu xúc động."},
+        {"speaker":"大伟","zh":"今天真是难忘的一天！我想把今天的感受写下来。下个周末，我们再来拍星星吧。","pinyin":"Jīntiān zhēn shì nánwàng de yì tiān! Wǒ xiǎng bǎ jīntiān de gǎnshòu xiě xiàlai. Xià ge zhōumò, wǒmen zài lái pāi xīngxing ba.","vi":"Hôm nay thật là một ngày khó quên! Tớ muốn viết lại cảm nhận hôm nay. Cuối tuần sau chúng mình lại đến chụp sao nhé."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:缺少","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个城市有很多公园，不____绿色。","options":["缺少","拍","抬头","感受"],"answer":0,"explanation_vi":"Thành phố có nhiều công viên nên “không thiếu” màu xanh: 不缺少."},
+      {"id":"e2","type":"choice","tag":"v:心情","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天天气很好，我的____也很好。","options":["心情","景色","图片","星星"],"answer":0,"explanation_vi":"Nói về trạng thái tinh thần: 心情很好 (tâm trạng tốt). 景色 là phong cảnh, không dùng cho người."},
+      {"id":"e3","type":"choice","tag":"v:景色","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"从山上往下看，____真美。","options":["景色","心情","感受","平常"],"answer":0,"explanation_vi":"Nhìn từ trên núi xuống thì thấy phong cảnh: 景色真美."},
+      {"id":"e4","type":"choice","tag":"v:激动","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"听到自己考了第一名，他____得说不出话来。","options":["激动","可惜","细心","平常"],"answer":0,"explanation_vi":"Đạt hạng nhất nên xúc động đến mức không nói nên lời: 激动得说不出话来."},
+      {"id":"e5","type":"choice","tag":"v:可惜","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这么好的电影，你没去看，真____！","options":["可惜","细心","难忘","激动"],"answer":0,"explanation_vi":"Bỏ lỡ bộ phim hay thì thấy “đáng tiếc”: 真可惜!"},
+      {"id":"e6","type":"choice","tag":"g:使","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个好消息____我们都很高兴。","options":["使","被","把","给"],"answer":0,"explanation_vi":"Sự việc (tin vui) khiến người khác vui: A + 使 + B + tính từ. 被 / 把 / 给 không đúng cấu trúc này."},
+      {"id":"e7","type":"choice","tag":"g:使","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"妈妈____我去买点儿水果。","options":["让","使","把","被"],"answer":0,"explanation_vi":"“Bảo ai làm gì” phải dùng 让 (hoặc 叫). 使 chỉ dùng khi sự việc làm ai đó thay đổi, có cảm xúc."},
+      {"id":"e8","type":"choice","tag":"g:只要","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____你多听多说，汉语就会越来越好。","options":["只要","虽然","因为","但是"],"answer":0,"explanation_vi":"“Chỉ cần… thì…” là 只要……就……."},
+      {"id":"e9","type":"choice","tag":"g:只要","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"只要明天不下雨，我们____去公园拍照。","options":["就","才","还","也"],"answer":0,"explanation_vi":"只要 đi với 就. 才 đi với 只有 (只有……才……)."},
+      {"id":"e10","type":"choice","tag":"g:因此","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他每天坚持跑步，____身体越来越好。","options":["因此","因为","虽然","如果"],"answer":0,"explanation_vi":"Vế sau là kết quả của vế trước → 因此 (vì vậy). 因为 dùng để nêu nguyên nhân, không đặt trước kết quả."},
+      {"id":"e11","type":"choice","tag":"g:往往","prompt_vi":"Chọn câu dùng 往往 đúng.","question_zh":"Chọn câu dùng 往往 đúng.","options":["周末他往往睡到十点才起床。","明天我往往去公园。","昨天我往往迟到了。","你往往快点儿吧。"],"answer":0,"explanation_vi":"往往 chỉ quy luật đã xảy ra nhiều lần. Không dùng cho ngày mai, việc xảy ra một lần hay câu mệnh lệnh."},
+      {"id":"e12","type":"choice","tag":"g:可不是","prompt_vi":"Chọn câu đáp thích hợp nhất.","question_zh":"A：这儿的夜晚多美啊！ B：____，我都不想走了。","options":["可不是嘛","不用谢","没关系","对不起"],"answer":0,"explanation_vi":"A khen cảnh đẹp, B đồng tình mạnh: 可不是嘛 (chứ còn gì nữa)."},
+      {"id":"e13","type":"order","tag":"g:只要","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["只要","你","细心","就","不会","写错"],"answers":["只要你细心就不会写错"],"translation_vi":"Chỉ cần bạn cẩn thận là sẽ không viết sai.","explanation_vi":"只要 + điều kiện (你细心)，就 + kết quả (不会写错)."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"鲜花","vi":"hoa tươi"},{"zh":"窗户","vi":"cửa sổ"},{"zh":"镜子","vi":"cái gương"},{"zh":"歌手","vi":"ca sĩ"},{"zh":"钢琴","vi":"đàn piano"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:使","prompt_vi":"Câu nào đúng?","question_zh":"Câu nào đúng?","options":["这个消息使大家都很激动。","这个消息使很激动大家。","这个消息使激动大家都。","这个消息大家使都很激动。"],"answer":0,"explanation_vi":"A + 使 + B + kết quả: 使 + 大家 (đối tượng) rồi mới đến 都很激动."},
+        {"id":"q2","type":"choice","tag":"g:只要","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你只要多练习，____会越来越好。","options":["就","才","而","却"],"answer":0,"explanation_vi":"只要……就……: chỉ cần luyện nhiều là sẽ ngày càng tốt."},
+        {"id":"q3","type":"choice","tag":"g:因此","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["昨天下大雨，因此我们没去爬山。","昨天下大雨，因此所以我们没去爬山。","因为昨天下大雨，因此所以没去爬山。","昨天下大雨，因此我们去爬山了。"],"answer":0,"explanation_vi":"因此 là “vì vậy”, đã đủ nghĩa nên không thêm 所以; và kết quả phải hợp lý (mưa to → không đi)."},
+        {"id":"q4","type":"choice","tag":"g:往往","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他工作很忙，____十点以后才能回家。","options":["往往","明天","一下","刚刚"],"answer":0,"explanation_vi":"Nói về quy luật hằng ngày (thường mười giờ mới về) → 往往."},
+        {"id":"q5","type":"choice","tag":"g:可不是","prompt_vi":"Chọn câu đáp thích hợp.","question_zh":"A：今天的月亮真亮啊！ B：____，像白天一样。","options":["可不是嘛","不客气","请问","再见"],"answer":0,"explanation_vi":"B đồng tình với nhận xét của A → 可不是嘛 (đúng thế!)."},
+        {"id":"q6","type":"choice","tag":"g:因此","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"她很细心，____大家都愿意和她一起工作。","options":["因此","虽然","如果","可是"],"answer":0,"explanation_vi":"Cô ấy chu đáo → vì vậy mọi người muốn làm việc cùng: 因此 nêu kết quả."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"g:往往","prompt_vi":"Chọn đáp án đúng.","question_zh":"人累的时候，____心情不太好。","options":["往往","明天","马上","正在"],"answer":0,"explanation_vi":"Nói về quy luật chung (người mệt thì thường tâm trạng không tốt) → 往往."},
+      {"id":"t2","type":"choice","tag":"v:美丽","prompt_vi":"Chọn đáp án đúng.","question_zh":"春天的公园里有很多____的花。","options":["美丽","细心","激动","可惜"],"answer":0,"explanation_vi":"Bổ nghĩa cho 花 (hoa) dùng 美丽的花; các từ còn lại không hợp nghĩa."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"院子","vi":"sân, vườn nhỏ"},{"zh":"夜晚","vi":"ban đêm"},{"zh":"眼前","vi":"trước mắt"},{"zh":"抬头","vi":"ngẩng đầu"},{"zh":"忽然","vi":"đột nhiên"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"云","vi":"mây"},{"zh":"光","vi":"ánh sáng"},{"zh":"挂","vi":"treo"},{"zh":"歌声","vi":"tiếng hát"},{"zh":"内心","vi":"nội tâm, trong lòng"}]},
+      {"id":"t5","type":"order","tag":"g:使","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个好消息","使","我们","都","很激动"],"answers":["这个好消息使我们都很激动"],"translation_vi":"Tin vui này khiến chúng tôi đều rất xúc động.","explanation_vi":"A (这个好消息) + 使 + B (我们) + 都很激动."},
+      {"id":"t6","type":"order","tag":"g:因此","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","每天","锻炼","因此","身体很好"],"answers":["他每天锻炼因此身体很好","每天他锻炼因此身体很好"],"translation_vi":"Ngày nào anh ấy cũng tập luyện, vì vậy sức khỏe rất tốt.","explanation_vi":"Vế nguyên nhân (他每天锻炼) trước, 因此 mở đầu vế kết quả (身体很好)."},
+      {"id":"t7","type":"fill","tag":"g:只要","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"____你愿意学，就一定能学好。","answers":["只要"],"hint_vi":"chỉ cần","explanation_vi":"只要……就…… = chỉ cần… thì…."},
+      {"id":"t8","type":"fill","tag":"g:可不是","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"A：今天的星星真多！ B：____嘛，我们看了一个小时了。","answers":["可不是"],"hint_vi":"đúng thế, chứ còn gì nữa","explanation_vi":"Đồng tình với nhận xét của A: 可不是嘛."},
+      {"id":"t9","type":"listen_choice","tag":"g:往往","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"周末他往往睡到十点才起床。","options":["Cuối tuần anh ấy thường ngủ đến mười giờ mới dậy.","Cuối tuần này anh ấy sẽ dậy lúc mười giờ.","Anh ấy dậy lúc mười giờ mỗi ngày.","Anh ấy ngủ muộn vì cuối tuần phải làm thêm."],"answer":0,"explanation_vi":"往往 = thường; 睡到十点才起床 = ngủ đến mười giờ mới dậy."},
+      {"id":"t10","type":"listen_choice","tag":"v:激动","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"听到这个好消息，她激动得哭了。","options":["听到这个好消息，她激动得哭了。","听到这个坏消息，她难受得哭了。","看到这个好消息，她高兴得笑了。","听到这个好消息，他激动得睡不着。"],"answer":0,"explanation_vi":"Câu nghe được: 听到这个好消息，她激动得哭了 = Nghe tin vui này, cô ấy xúc động đến bật khóc."},
+      {"id":"t11","type":"dictation","tag":"g:只要","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"只要天气好，我们就去拍照。","answers":["只要天气好我们就去拍照"],"explanation_vi":"只要天气好，我们就去拍照 = Chỉ cần thời tiết tốt, chúng mình sẽ đi chụp ảnh."},
+      {"id":"t12","type":"dictation","tag":"v:星星","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"晚上天上有很多星星。","answers":["晚上天上有很多星星"],"explanation_vi":"晚上天上有很多星星 = Buổi tối trên trời có rất nhiều ngôi sao."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:使","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Âm nhạc khiến tôi thấy thư giãn.","answers":["音乐使我放松","音乐使我很放松","音乐使我感到放松","音乐使我觉得放松","音乐使我感觉很放松","音乐使我感到很放松","音乐使我觉得很放松","音乐使我放松了","音乐使我感觉放松","音乐使我得到放松"],"explanation_vi":"A (音乐) + 使 + B (我) + 放松 / 觉得放松."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:只要","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Chỉ cần cẩn thận một chút, bạn sẽ không viết sai.","answers":["只要你细心一点儿就不会写错","只要你细心一点就不会写错","只要细心一点儿你就不会写错","只要细心一点你就不会写错","只要你细心点儿就不会写错","只要你细心点就不会写错","你只要细心一点儿就不会写错","你只要细心一点就不会写错","只要你细心一点儿，就不会写错了","只要细心一点儿就不会写错"],"explanation_vi":"只要 + 细心一点儿，就 + 不会写错."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:因此","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他平常很忙，因此很少有时间看电影。","answers_vi":["Ngày thường anh ấy rất bận, vì vậy rất ít có thời gian xem phim.","Anh ấy thường ngày rất bận nên hiếm khi có thời gian đi xem phim."],"keywords":[["bận"],["vì vậy","do đó","nên","cho nên"],["ít","hiếm"],["thời gian"],["phim"]],"explanation_vi":"因此 = vì vậy; 很少有时间 = rất ít có thời gian."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:可惜","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这么美的景色，你没看到，真可惜！","answers_vi":["Cảnh đẹp thế này mà bạn không được xem, tiếc thật!","Phong cảnh đẹp như vậy mà bạn không nhìn thấy, thật đáng tiếc!"],"keywords":[["đẹp"],["cảnh","phong cảnh","cảnh sắc"],["không"],["tiếc"]],"explanation_vi":"这么美 = đẹp thế này; 没看到 = không được thấy; 可惜 = đáng tiếc."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"我家的小院子",
+        "title_vi":"Cái sân nhỏ nhà tôi",
+        "paragraphs":[
+          {
+            "tokens":[["我家","wǒ jiā","nhà tôi"],["有","yǒu","có"],["一","yí","một"],["个","ge","(lượng từ)"],["小","xiǎo","nhỏ"],["院子","yuànzi","sân"],["，"],["院子","yuànzi","sân"],["里","li","trong"],["有","yǒu","có"],["一","yì","một"],["棵","kē","(lượng từ: cây)"],["大树","dà shù","cây to"],["，"],["还","hái","còn"],["有","yǒu","có"],["很多","hěn duō","nhiều"],["鲜花","xiānhuā","hoa tươi"],["。"],["平常","píngcháng","thường ngày"],["我","wǒ","tôi"],["工作","gōngzuò","làm việc"],["很","hěn","rất"],["忙","máng","bận"],["，"],["往往","wǎngwǎng","thường là"],["回到","huí dào","về đến"],["家","jiā","nhà"],["天","tiān","trời"],["已经","yǐjīng","đã"],["黑","hēi","tối"],["了","le","(rồi)"],["，"],["因此","yīncǐ","vì vậy"],["很少","hěn shǎo","rất ít"],["有","yǒu","có"],["时间","shíjiān","thời gian"],["看","kàn","ngắm"],["花","huā","hoa"],["。"]],
+            "vi":"Nhà tôi có một cái sân nhỏ, trong sân có một cây to, còn có rất nhiều hoa tươi. Ngày thường tôi làm việc rất bận, về đến nhà thường trời đã tối, vì vậy rất ít có thời gian ngắm hoa."
+          },
+          {
+            "tokens":[["上个周末","shàng ge zhōumò","cuối tuần trước"],["，"],["我","wǒ","tôi"],["不用","búyòng","không cần"],["加班","jiābān","làm thêm giờ"],["。"],["早上","zǎoshang","buổi sáng"],["起来","qǐlai","thức dậy"],["，"],["我","wǒ","tôi"],["忽然","hūrán","đột nhiên"],["发现","fāxiàn","phát hiện"],["窗外","chuāng wài","ngoài cửa sổ"],["有","yǒu","có"],["光","guāng","ánh sáng"],["，"],["原来","yuánlái","hóa ra"],["天","tiān","trời"],["已经","yǐjīng","đã"],["亮","liàng","sáng"],["了","le","(rồi)"],["。"],["我","wǒ","tôi"],["走到","zǒu dào","đi đến"],["院子","yuànzi","sân"],["里","li","trong"],["，"],["看见","kànjiàn","thấy"],["花","huā","hoa"],["开","kāi","nở"],["了","le","(rồi)"],["，"],["有","yǒu","có"],["红","hóng","đỏ"],["的","de","(cái)"],["，"],["有","yǒu","có"],["白","bái","trắng"],["的","de","(cái)"],["，"],["美丽","měilì","đẹp"],["极了","jí le","vô cùng"],["！"],["我","wǒ","tôi"],["拿出","ná chū","lấy ra"],["手机","shǒujī","điện thoại"],["，"],["拍","pāi","chụp"],["了","le","(đã)"],["很多","hěn duō","nhiều"],["图片","túpiàn","ảnh"],["。"]],
+            "vi":"Cuối tuần trước tôi không phải tăng ca. Sáng dậy, tôi bỗng thấy ngoài cửa sổ có ánh sáng, hóa ra trời đã sáng. Tôi bước ra sân, thấy hoa đã nở, có hoa đỏ, có hoa trắng, đẹp vô cùng! Tôi lấy điện thoại ra chụp rất nhiều ảnh."
+          },
+          {
+            "tokens":[["妈妈","māma","mẹ"],["走","zǒu","đi"],["过来","guòlai","lại đây"],["说","shuō","nói"],["："],["“"],["生活","shēnghuó","cuộc sống"],["中","zhōng","trong"],["不","bù","không"],["缺少","quēshǎo","thiếu"],["美","měi","cái đẹp"],["，"],["只要","zhǐyào","chỉ cần"],["你","nǐ","con"],["愿意","yuànyì","sẵn lòng"],["慢","màn","chậm"],["下来","xiàlai","lại"],["，"],["就","jiù","thì"],["能","néng","có thể"],["发现","fāxiàn","phát hiện"],["它","tā","nó"],["。"],["”"],["听","tīng","nghe"],["了","le","(xong)"],["这句话","zhè jù huà","câu nói này"],["，"],["我","wǒ","tôi"],["很","hěn","rất"],["激动","jīdòng","xúc động"],["。"],["从那以后","cóng nà yǐhòu","từ đó về sau"],["，"],["每个","měi ge","mỗi"],["周末","zhōumò","cuối tuần"],["我","wǒ","tôi"],["都","dōu","đều"],["会","huì","sẽ"],["在","zài","ở"],["院子","yuànzi","sân"],["里","li","trong"],["坐","zuò","ngồi"],["一会儿","yíhuìr","một lát"],["，"],["这","zhè","điều này"],["使","shǐ","khiến"],["我","wǒ","tôi"],["的","de","(của)"],["心情","xīnqíng","tâm trạng"],["越来越","yuè lái yuè","ngày càng"],["好","hǎo","tốt"],["。"]],
+            "vi":"Mẹ đi lại nói: “Cuộc sống không thiếu cái đẹp, chỉ cần con sẵn lòng chậm lại thì sẽ phát hiện ra nó.” Nghe câu nói này, tôi rất xúc động. Từ đó về sau, cuối tuần nào tôi cũng ngồi một lát trong sân, điều này khiến tâm trạng tôi ngày càng tốt."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"平常“我”为什么很少看院子里的花？","options":["工作很忙，回家时天已经黑了","不喜欢花","家里没有院子","身体不好"],"answer":0,"explanation_vi":"Đoạn 1: 往往回到家天已经黑了，因此很少有时间看花."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"上个周末早上，“我”做了什么？","options":["拍了很多图片","去公园散步","去公司加班","给妈妈打电话"],"answer":0,"explanation_vi":"Đoạn 2: 我拿出手机，拍了很多图片."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"上个周末，“我”还要去公司加班。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 上个周末，我不用加班 — câu này sai."},
+          {"id":"rq4","type":"choice","tag":"g:只要","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"妈妈说了什么？","options":["只要愿意慢下来，就能发现生活中的美","院子太小，应该换大的","工作比花更重要","手机拍的图片最美"],"answer":0,"explanation_vi":"Đoạn 3: 生活中不缺少美，只要你愿意慢下来，就能发现它."},
+          {"id":"rq5","type":"choice","tag":"g:使","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"从那以后，“我”的心情越来越好。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 这使我的心情越来越好 — câu này đúng."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Tiếng hát của người hàng xóm",
+        "text_zh":"我的邻居王小姐是一名歌手，也会弹钢琴。每天晚上八点，她都会在家练习唱歌。一开始，我觉得有点儿吵。可是有一天，我工作了一天，心情很不好，忽然听到了她的歌声。那首歌很感人，我听着听着，心情变好了很多。从那以后，只要听到她唱歌，我就会打开窗户，坐在窗边听。昨天晚上，她没有唱歌，我觉得很可惜。今天，我给她买了一些鲜花，告诉她：“你的歌声使我每天都很快乐。”她听了很激动。",
+        "pinyin":"Wǒ de línjū Wáng xiǎojiě shì yì míng gēshǒu, yě huì tán gāngqín. Měi tiān wǎnshang bā diǎn, tā dōu huì zài jiā liànxí chànggē. Yì kāishǐ, wǒ juéde yǒudiǎnr chǎo. Kěshì yǒu yì tiān, wǒ gōngzuò le yì tiān, xīnqíng hěn bù hǎo, hūrán tīng dào le tā de gēshēng. Nà shǒu gē hěn gǎnrén, wǒ tīng zhe tīng zhe, xīnqíng biàn hǎo le hěn duō. Cóng nà yǐhòu, zhǐyào tīng dào tā chànggē, wǒ jiù huì dǎkāi chuānghu, zuò zài chuāng biān tīng. Zuótiān wǎnshang, tā méiyǒu chànggē, wǒ juéde hěn kěxī. Jīntiān, wǒ gěi tā mǎi le yìxiē xiānhuā, gàosu tā: “Nǐ de gēshēng shǐ wǒ měi tiān dōu hěn kuàilè.” Tā tīng le hěn jīdòng.",
+        "vi":"Hàng xóm của tôi là cô Vương, một ca sĩ, cũng biết chơi piano. Tối nào đến tám giờ, cô cũng tập hát ở nhà. Lúc đầu tôi thấy hơi ồn. Nhưng có một hôm, tôi làm việc cả ngày, tâm trạng rất tệ, bỗng nghe thấy tiếng hát của cô. Bài hát đó rất cảm động, tôi nghe mãi nghe mãi, tâm trạng tốt lên nhiều. Từ đó về sau, chỉ cần nghe thấy cô hát là tôi mở cửa sổ ra, ngồi cạnh cửa sổ nghe. Tối qua cô không hát, tôi thấy rất tiếc. Hôm nay tôi mua tặng cô ít hoa tươi và nói với cô: “Giọng hát của cô khiến ngày nào tôi cũng vui vẻ.” Nghe xong cô rất xúc động.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"每天晚上八点，王小姐做什么？","options":["在家练习唱歌","去公园散步","出去工作","给朋友打电话"],"answer":0,"explanation_vi":"Nghe được: 每天晚上八点，她都会在家练习唱歌."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"“我”为什么听了她的歌以后心情变好了？","options":["那首歌很感人","“我”认识那个歌手","歌声很大","“我”也想当歌手"],"answer":0,"explanation_vi":"Nghe được: 那首歌很感人，我听着听着，心情变好了很多."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"昨天晚上，“我”为什么觉得可惜？","options":["王小姐没有唱歌","“我”没有买到鲜花","天气不好","“我”要加班"],"answer":0,"explanation_vi":"Nghe được: 昨天晚上，她没有唱歌，我觉得很可惜."},
+          {"id":"lq4","type":"choice","tag":"v:鲜花","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"今天，“我”给王小姐买了什么？","options":["鲜花","钢琴","手机","图片"],"answer":0,"explanation_vi":"Nghe được: 今天，我给她买了一些鲜花."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"星星","pinyin":"xīngxing","vi":"ngôi sao","tip_vi":"x phát âm như “x” tiếng Việt nhưng đầu lưỡi đặt sau răng dưới, miệng bẹt; -ing kết thúc ở cuống lưỡi, như “inh” đọc mũi. Chữ 星 thứ hai là thanh nhẹ: ngắn, nhẹ."},
+      {"id":"s2","zh":"景色真美","pinyin":"jǐngsè zhēn měi","vi":"phong cảnh thật đẹp","tip_vi":"景 jǐng và 美 měi đều thanh 3. 景色 đọc 景 nửa thanh 3 (thấp, rồi dừng). 美 trước khi hết câu thì đọc đủ thanh 3 (xuống rồi lên). s trong 色 là âm đầu lưỡi, không bật hơi, khác “x”."},
+      {"id":"s3","zh":"可不是嘛！","pinyin":"Kěbushì ma!","vi":"Đúng thế đấy!","tip_vi":"可 kě: k bật hơi mạnh; 不 bu và 是 shi đều đọc nhẹ, ngắn. Âm sh phải uốn lưỡi, đừng đọc thành “xư”. Nói với giọng hưởng ứng, hơi cao ở 嘛."},
+      {"id":"s4","zh":"多么美的景色啊！","pinyin":"Duōme měi de jǐngsè a!","vi":"Phong cảnh đẹp biết bao!","tip_vi":"多么 duōme: 么 đọc nhẹ. d không bật hơi, đừng đọc thành “đ” tiếng Việt. 啊 đọc theo âm trước (ở đây là “a”) và kéo dài để thể hiện cảm xúc."},
+      {"id":"s5","zh":"这个消息使我很激动。","pinyin":"Zhège xiāoxi shǐ wǒ hěn jīdòng.","vi":"Tin này khiến tôi rất xúc động.","tip_vi":"使 shǐ: sh uốn lưỡi, thanh 3 đọc nửa thanh vì đứng trước 我. 我很 là hai thanh 3 liền nhau nên 我 đọc thành thanh 2 (wó hěn). 激 jī: j không bật hơi, thanh 1 cao và bằng."},
+      {"id":"s6","zh":"只要你愿意，就一定能发现身边的美。","pinyin":"Zhǐyào nǐ yuànyì, jiù yídìng néng fāxiàn shēnbiān de měi.","vi":"Chỉ cần bạn sẵn lòng, nhất định sẽ phát hiện ra cái đẹp quanh mình.","tip_vi":"只要你: ba thanh 3 liền nhau, hai chữ đầu đọc thành thanh 2 (zhíyáo nǐ → zhí yáo nǐ). 一定 yídìng: 一 đổi thành thanh 2 vì trước thanh 4. 愿 yuàn và 院: tròn môi cho ü, không đọc “duyên”."},
+      {"id":"s7","zh":"我平常下班很晚，往往天黑了才到家，因此很少有时间看天。","pinyin":"Wǒ píngcháng xiàbān hěn wǎn, wǎngwǎng tiān hēi le cái dào jiā, yīncǐ hěn shǎo yǒu shíjiān kàn tiān.","vi":"Ngày thường tôi tan làm muộn, thường trời tối mới về đến nhà, vì vậy rất ít có thời gian ngắm trời.","tip_vi":"往往 wǎngwǎng: -ang kết thúc ở cuống lưỡi, thanh 3 + thanh 3 nên chữ đầu đọc thành thanh 2. 少 shǎo: sh uốn lưỡi. 因此 yīncǐ: c là âm đầu lưỡi răng bật hơi, giống “xư” nhưng đầu lưỡi chạm răng. Câu dài, ngắt hơi ở các dấu phẩy."}
+    ],
+    "review": {
+      "remember": [
+        "A + 使 + B + tính từ / động từ = A khiến B…: 这个消息使我很激动. Sau 使 phải có B; “bảo ai làm gì” dùng 让.",
+        "只要 + điều kiện，就 + kết quả = chỉ cần… thì…. Vế sau dùng 就 (không dùng 才; 才 đi với 只有).",
+        "因此 = vì vậy (đứng ở vế kết quả, không thêm 所以). 往往 = thường là, chỉ quy luật đã xảy ra nhiều lần, không dùng cho tương lai.",
+        "可不是(嘛) = đúng thế, chứ còn gì nữa: câu đáp đồng tình mạnh với một nhận xét, thân mật.",
+        "心情 là tâm trạng (không phải “tâm tình”); 激动 là xúc động (không phải “kích động”); 拍 là chụp ảnh; 景色 không đếm bằng 个."
+      ],
+      "mistakes": [
+        "✗ 妈妈使我去买菜 → ✓ 妈妈让我去买菜: “bảo ai làm gì” là 让, không phải 使.",
+        "✗ 只要你努力，才能成功 → ✓ 只要你努力，就能成功: 只要 đi với 就.",
+        "✗ 明天我往往去公园 → ✓ 明天我想去公园 / 我常常去公园: 往往 chỉ quy luật đã xảy ra."
+      ]
+    }
+  }
+}

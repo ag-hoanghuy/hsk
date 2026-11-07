@@ -1,0 +1,254 @@
+{
+  "level": 4,
+  "number": 17,
+  "summary": "Cậu cháu về quê thăm ông, đi dạo rừng núi và nghe ông kể về mối quan hệ giữa con người và thiên nhiên; học 倒 (rót; ngược lại), 干 (gàn: làm; gān: khô), lượng từ 趟, 为了……而…… (vì… mà…) và 仍然 (vẫn) cùng từ vựng về rừng, thực vật, thời tiết",
+  "readings_ok": ["倒 dǎo", "着 zháo"],
+  "content": {
+    "objectives": [
+      "Nói về thiên nhiên bằng 大自然、森林、植物、生命、适应、危险、寒冷、暖和",
+      "Dùng 倒 (rót, đổ; “thì lại…”) và phân biệt 干 gàn (làm) với 干 gān (khô)",
+      "Đếm chuyến đi bằng 趟: 去一趟、回一趟、来一趟",
+      "Nói mục đích bằng 为了……而……, và nói “vẫn” trang trọng bằng 仍然"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"倒","pinyin":"dào","pos":"động từ / phó từ","meaning_vi":"rót, đổ; (phó từ) lại, thì lại","example_zh":"请给我倒一杯热茶。","example_pinyin":"Qǐng gěi wǒ dào yì bēi rè chá.","example_vi":"Xin rót cho tôi một tách trà nóng.","hanviet":"ĐẢO","note_vi":"倒 dào: rót, đổ (倒水、倒茶、倒垃圾) hoặc phó từ nhẹ giọng “thì lại, cũng”. Cùng chữ 倒 dǎo (thanh 3) là “ngã, đổ” (摔倒、树倒了). Hai cách đọc khác nghĩa."},
+      {"id":"v2","hanzi":"趟","pinyin":"tàng","pos":"lượng từ","meaning_vi":"chuyến (đi và về)","example_zh":"我明天要去一趟市区。","example_pinyin":"Wǒ míngtiān yào qù yí tàng shìqū.","example_vi":"Ngày mai tôi phải vào nội thành một chuyến.","note_vi":"Dùng cho chuyến đi, tới rồi về: 去一趟、来一趟、回一趟、跑一趟. Cũng đếm chuyến xe: 这趟车. Khác 次 (lần, dùng rộng hơn)."},
+      {"id":"v3","hanzi":"仍然","pinyin":"réngrán","pos":"phó từ","meaning_vi":"vẫn, vẫn còn","example_zh":"下雨了，他仍然去跑步。","example_pinyin":"Xià yǔ le, tā réngrán qù pǎobù.","example_vi":"Trời mưa rồi, anh ấy vẫn đi chạy bộ.","note_vi":"Trang trọng hơn 还是 / 还. Dùng khi tình trạng không đổi dù hoàn cảnh thay đổi: 仍然在这儿工作. Phủ định: 仍然不……/ 仍然没有……. r- là âm uốn lưỡi."},
+      {"id":"v4","hanzi":"与","pinyin":"yǔ","pos":"giới từ / liên từ","meaning_vi":"và, với (trang trọng)","example_zh":"这是一个关于人与自然的故事。","example_pinyin":"Zhè shì yí ge guānyú rén yǔ zìrán de gùshi.","example_vi":"Đây là một câu chuyện về con người và thiên nhiên.","hanviet":"DỮ","note_vi":"与 = 和 / 跟 trong văn viết, tên sách, tiêu đề. Cấu trúc: A 与 B, 与……相同, 与……有关. Phát âm yǔ (ü)."},
+      {"id":"v5","hanzi":"自然","pinyin":"zìrán","pos":"danh từ / tính từ / phó từ","meaning_vi":"tự nhiên; thiên nhiên; thoải mái","example_zh":"我们要爱护自然。","example_pinyin":"Wǒmen yào àihù zìrán.","example_vi":"Chúng ta phải giữ gìn thiên nhiên.","hanviet":"TỰ NHIÊN","note_vi":"Danh từ “thiên nhiên” (热爱自然); tính từ “tự nhiên, không gượng” (说话要自然); phó từ “đương nhiên” (自然会好的)."},
+      {"id":"v6","hanzi":"大自然","pinyin":"dàzìrán","pos":"danh từ","meaning_vi":"thiên nhiên, giới tự nhiên","example_zh":"大自然给了我们空气和水。","example_pinyin":"Dàzìrán gěi le wǒmen kōngqì hé shuǐ.","example_vi":"Thiên nhiên đã cho chúng ta không khí và nước.","hanviet":"ĐẠI TỰ NHIÊN","note_vi":"大自然 nhấn mạnh quy mô rộng lớn của thiên nhiên (走进大自然, 保护大自然)."},
+      {"id":"v7","hanzi":"森林","pinyin":"sēnlín","pos":"danh từ","meaning_vi":"rừng","example_zh":"这片森林里有很多动物。","example_pinyin":"Zhè piàn sēnlín li yǒu hěn duō dòngwù.","example_vi":"Khu rừng này có rất nhiều động vật.","hanviet":"SÂM LÂM","note_vi":"Lượng từ: 片. 森林 là rừng lớn; 树林 (cánh rừng nhỏ, hàng cây) ở phần mở rộng."},
+      {"id":"v8","hanzi":"植物","pinyin":"zhíwù","pos":"danh từ","meaning_vi":"thực vật, cây cỏ","example_zh":"这种植物只有夏天才开花。","example_pinyin":"Zhè zhǒng zhíwù zhǐyǒu xiàtiān cái kāi huā.","example_vi":"Loại cây này chỉ nở hoa vào mùa hè.","hanviet":"THỰC VẬT","note_vi":"Đối lập với 动物 (động vật). Ví dụ: 植物园 (vườn bách thảo)."},
+      {"id":"v9","hanzi":"生命","pinyin":"shēngmìng","pos":"danh từ","meaning_vi":"sinh mệnh, sự sống","example_zh":"每一个生命都很重要。","example_pinyin":"Měi yí ge shēngmìng dōu hěn zhòngyào.","example_vi":"Mỗi sinh mệnh đều rất quan trọng.","hanviet":"SINH MỆNH","note_vi":"生命 là sự sống của người, động vật, thực vật. 生活 là cuộc sống thường ngày. Cụm: 爱护生命, 保护生命."},
+      {"id":"v10","hanzi":"适应","pinyin":"shìyìng","pos":"động từ","meaning_vi":"thích nghi, thích ứng","example_zh":"他很快就适应了新的生活。","example_pinyin":"Tā hěn kuài jiù shìyìng le xīn de shēnghuó.","example_vi":"Anh ấy nhanh chóng thích nghi với cuộc sống mới.","hanviet":"THÍCH ỨNG","note_vi":"适应 + môi trường / cuộc sống / thời tiết / công việc. Khác 习惯 (quen với): 适应 là chủ động điều chỉnh."},
+      {"id":"v11","hanzi":"危险","pinyin":"wēixiǎn","pos":"tính từ / danh từ","meaning_vi":"nguy hiểm","example_zh":"晚上一个人走山路很危险。","example_pinyin":"Wǎnshang yí ge rén zǒu shānlù hěn wēixiǎn.","example_vi":"Buổi tối một mình đi đường núi rất nguy hiểm.","hanviet":"NGUY HIỂM","note_vi":"Tính từ: 很危险. Danh từ: 有危险 (có nguy hiểm), 遇到危险 (gặp nguy hiểm)."},
+      {"id":"v12","hanzi":"农村","pinyin":"nóngcūn","pos":"danh từ","meaning_vi":"nông thôn, vùng quê","example_zh":"我小时候住在农村。","example_pinyin":"Wǒ xiǎo shíhou zhù zài nóngcūn.","example_vi":"Hồi nhỏ tôi sống ở nông thôn.","hanviet":"NÔNG THÔN","note_vi":"Đối lập với 城市. Phân biệt: 农村 (vùng quê nói chung), 村 (một làng)."},
+      {"id":"v13","hanzi":"城","pinyin":"chéng","pos":"danh từ","meaning_vi":"thành phố, nội thành; tường thành","example_zh":"他每天进城上班。","example_pinyin":"Tā měi tiān jìn chéng shàngbān.","example_vi":"Ngày nào anh ấy cũng vào thành phố đi làm.","hanviet":"THÀNH","note_vi":"城 hay đứng trong từ ghép: 城市, 进城 (vào thành phố), 城里 (trong thành phố, so với 乡下 / 农村)."},
+      {"id":"v14","hanzi":"周围","pinyin":"zhōuwéi","pos":"danh từ","meaning_vi":"xung quanh","example_zh":"学校周围有很多树。","example_pinyin":"Xuéxiào zhōuwéi yǒu hěn duō shù.","example_vi":"Xung quanh trường có nhiều cây.","hanviet":"CHU VI","note_vi":"周围 + 的 + danh từ (周围的人) hoặc đứng sau địa điểm. Giống 附近 nhưng 周围 nhấn mạnh bao quanh ở mọi phía."},
+      {"id":"v15","hanzi":"相互","pinyin":"xiānghù","pos":"phó từ","meaning_vi":"lẫn nhau, tương hỗ","example_zh":"朋友之间要相互帮助。","example_pinyin":"Péngyou zhījiān yào xiānghù bāngzhù.","example_vi":"Bạn bè với nhau phải giúp đỡ lẫn nhau.","hanviet":"TƯƠNG HỖ","note_vi":"相互 + động từ (相互帮助、相互学习、相互了解). Gần với 互相 nhưng văn vẻ hơn."},
+      {"id":"v16","hanzi":"寒冷","pinyin":"hánlěng","pos":"tính từ","meaning_vi":"giá lạnh","example_zh":"北方的冬天非常寒冷。","example_pinyin":"Běifāng de dōngtiān fēicháng hánlěng.","example_vi":"Mùa đông miền bắc vô cùng giá lạnh.","hanviet":"HÀN LÃNH","note_vi":"寒冷 mạnh hơn 冷, hơi văn vẻ: 寒冷的冬天, 天气寒冷."},
+      {"id":"v17","hanzi":"暖和","pinyin":"nuǎnhuo","pos":"tính từ / động từ","meaning_vi":"ấm áp; sưởi ấm","example_zh":"今天不太冷，很暖和。","example_pinyin":"Jīntiān bú tài lěng, hěn nuǎnhuo.","example_vi":"Hôm nay không lạnh lắm, rất ấm áp.","note_vi":"Chữ 和 đọc nhẹ: nuǎnhuo. Động từ: 暖和暖和 (sưởi ấm một chút)."},
+      {"id":"v18","hanzi":"干活儿","pinyin":"gànhuór","pos":"động từ","meaning_vi":"làm việc (chân tay), làm lụng","example_zh":"爸爸在地里干活儿。","example_pinyin":"Bàba zài dì li gànhuór.","example_vi":"Bố đang làm việc ngoài đồng.","note_vi":"Động từ li hợp, khẩu ngữ, thường là lao động chân tay: 干了一天活儿, 干完活儿. 干 đọc gàn (thanh 4). Biến âm: huór."},
+      {"id":"v19","hanzi":"目的","pinyin":"mùdì","pos":"danh từ","meaning_vi":"mục đích","example_zh":"他去北京的目的是学习汉语。","example_pinyin":"Tā qù Běijīng de mùdì shì xuéxí Hànyǔ.","example_vi":"Mục đích anh ấy đến Bắc Kinh là học tiếng Trung.","hanviet":"MỤC ĐÍCH","note_vi":"目的是…… (mục đích là…), 达到目的 (đạt mục đích). Gần 为了 trong ngữ pháp."},
+      {"id":"v20","hanzi":"老虎","pinyin":"lǎohǔ","pos":"danh từ","meaning_vi":"hổ, con cọp","example_zh":"动物园里有一只老虎。","example_pinyin":"Dòngwùyuán li yǒu yì zhī lǎohǔ.","example_vi":"Trong sở thú có một con hổ.","note_vi":"Lượng từ: 只. 虎 (hổ) trong từ ghép. Ba chữ thanh 3 trong 老虎 liền nhau, đọc 老 thành thanh 2: láohǔ."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"树林","pinyin":"shùlín","pos":"danh từ","meaning_vi":"rừng cây, khu rừng nhỏ","example_zh":"我家后面有一片小树林。","example_pinyin":"Wǒ jiā hòumiàn yǒu yí piàn xiǎo shùlín.","example_vi":"Phía sau nhà tôi có một khu rừng cây nhỏ."},
+      {"id":"x2","hanzi":"叶子","pinyin":"yèzi","pos":"danh từ","meaning_vi":"lá cây","example_zh":"秋天到了，叶子都黄了。","example_pinyin":"Qiūtiān dào le, yèzi dōu huáng le.","example_vi":"Mùa thu đến, lá đều vàng rồi."},
+      {"id":"x3","hanzi":"棵","pinyin":"kē","pos":"lượng từ","meaning_vi":"cây (lượng từ cho cây cối)","example_zh":"院子里有三棵树。","example_pinyin":"Yuànzi li yǒu sān kē shù.","example_vi":"Trong sân có ba cái cây."},
+      {"id":"x4","hanzi":"片","pinyin":"piàn","pos":"lượng từ / danh từ","meaning_vi":"mảnh, vùng; lát","example_zh":"天上有一片白云。","example_pinyin":"Tiān shang yǒu yí piàn báiyún.","example_vi":"Trên trời có một đám mây trắng.","note_vi":"片 đếm vật rộng, phẳng hoặc diện tích: 一片森林, 一片叶子, 一片面包."},
+      {"id":"x5","hanzi":"江","pinyin":"jiāng","pos":"danh từ","meaning_vi":"sông lớn","example_zh":"这条江很长，也很宽。","example_pinyin":"Zhè tiáo jiāng hěn cháng, yě hěn kuān.","example_vi":"Con sông này rất dài và cũng rất rộng.","hanviet":"GIANG"},
+      {"id":"x6","hanzi":"流","pinyin":"liú","pos":"động từ","meaning_vi":"chảy","example_zh":"江水慢慢地向东流。","example_pinyin":"Jiāngshuǐ mànmàn de xiàng dōng liú.","example_vi":"Nước sông chầm chậm chảy về phía đông.","hanviet":"LƯU"},
+      {"id":"x7","hanzi":"深","pinyin":"shēn","pos":"tính từ","meaning_vi":"sâu","example_zh":"这条江很深，小孩子不要去。","example_pinyin":"Zhè tiáo jiāng hěn shēn, xiǎo háizi búyào qù.","example_vi":"Con sông này rất sâu, trẻ nhỏ đừng đến.","hanviet":"THÂM"},
+      {"id":"x8","hanzi":"土","pinyin":"tǔ","pos":"danh từ","meaning_vi":"đất","example_zh":"花需要好土才能长得好。","example_pinyin":"Huā xūyào hǎo tǔ cái néng zhǎng de hǎo.","example_vi":"Hoa cần đất tốt mới mọc tốt được.","hanviet":"THỔ"},
+      {"id":"x9","hanzi":"气","pinyin":"qì","pos":"danh từ / động từ","meaning_vi":"hơi, khí; giận","example_zh":"他气得说不出话来。","example_pinyin":"Tā qì de shuō bu chū huà lái.","example_vi":"Anh ấy tức đến mức không nói nên lời.","hanviet":"KHÍ","note_vi":"气 là danh từ (空气, 天气) và động từ “giận” (生气, 气得……)."},
+      {"id":"x10","hanzi":"气温","pinyin":"qìwēn","pos":"danh từ","meaning_vi":"nhiệt độ không khí","example_zh":"今天的气温是十八摄氏度。","example_pinyin":"Jīntiān de qìwēn shì shíbā shèshìdù.","example_vi":"Nhiệt độ hôm nay là mười tám độ C.","hanviet":"KHÍ ÔN"},
+      {"id":"x11","hanzi":"吹","pinyin":"chuī","pos":"động từ","meaning_vi":"thổi","example_zh":"风吹在脸上，很舒服。","example_pinyin":"Fēng chuī zài liǎn shang, hěn shūfu.","example_vi":"Gió thổi lên mặt, rất dễ chịu.","hanviet":"XUY"},
+      {"id":"x12","hanzi":"落","pinyin":"luò","pos":"động từ","meaning_vi":"rơi, lặn","example_zh":"太阳落山了。","example_pinyin":"Tàiyáng luò shān le.","example_vi":"Mặt trời lặn rồi.","hanviet":"LẠC"},
+      {"id":"x13","hanzi":"降","pinyin":"jiàng","pos":"động từ","meaning_vi":"hạ xuống, giảm","example_zh":"夜里气温降到了零下五摄氏度。","example_pinyin":"Yèli qìwēn jiàng dào le língxià wǔ shèshìdù.","example_vi":"Ban đêm nhiệt độ giảm xuống âm năm độ C.","hanviet":"GIÁNG"},
+      {"id":"x14","hanzi":"火","pinyin":"huǒ","pos":"danh từ","meaning_vi":"lửa","example_zh":"森林里禁止用火。","example_pinyin":"Sēnlín li jìnzhǐ yòng huǒ.","example_vi":"Trong rừng cấm dùng lửa.","hanviet":"HỎA"},
+      {"id":"x15","hanzi":"着火","pinyin":"zháohuǒ","pos":"động từ","meaning_vi":"bốc cháy, cháy","example_zh":"山上着火了，大家快跑！","example_pinyin":"Shān shang zháohuǒ le, dàjiā kuài pǎo!","example_vi":"Trên núi cháy rồi, mọi người chạy mau!","note_vi":"着 trong 着火 đọc zháo (thanh 2), khác 着 zhe (đang)."},
+      {"id":"x16","hanzi":"熊","pinyin":"xióng","pos":"danh từ","meaning_vi":"gấu","example_zh":"山里有熊，晚上不要出去。","example_pinyin":"Shān li yǒu xióng, wǎnshang búyào chūqu.","example_vi":"Trong núi có gấu, buổi tối đừng ra ngoài."},
+      {"id":"x17","hanzi":"多样","pinyin":"duōyàng","pos":"tính từ","meaning_vi":"đa dạng, nhiều kiểu","example_zh":"森林里的植物非常多样。","example_pinyin":"Sēnlín li de zhíwù fēicháng duōyàng.","example_vi":"Thực vật trong rừng vô cùng đa dạng.","hanviet":"ĐA DẠNG"},
+      {"id":"x18","hanzi":"活","pinyin":"huó","pos":"động từ / tính từ","meaning_vi":"sống; sống động","example_zh":"这棵树还活着。","example_pinyin":"Zhè kē shù hái huó zhe.","example_vi":"Cái cây này vẫn còn sống.","note_vi":"活 trái với 死 (chết). Dạng kết hợp: 活动 (hoạt động), 生活 (cuộc sống), 活泼 (hoạt bát)."},
+      {"id":"x19","hanzi":"生","pinyin":"shēng","pos":"động từ","meaning_vi":"sinh ra; mọc, đẻ","example_zh":"她生了一个女儿。","example_pinyin":"Tā shēng le yí ge nǚ'ér.","example_vi":"Cô ấy sinh một bé gái.","hanviet":"SINH","note_vi":"生 còn là: 学生 (học sinh), 生病 (bị bệnh), 生日 (sinh nhật), 生气 (giận)."},
+      {"id":"x20","hanzi":"死","pinyin":"sǐ","pos":"động từ","meaning_vi":"chết","example_zh":"这条鱼已经死了。","example_pinyin":"Zhè tiáo yú yǐjīng sǐ le.","example_vi":"Con cá này đã chết rồi.","hanviet":"TỬ"},
+      {"id":"x21","hanzi":"村","pinyin":"cūn","pos":"danh từ","meaning_vi":"làng, thôn","example_zh":"村里的人都很热情。","example_pinyin":"Cūn li de rén dōu hěn rèqíng.","example_vi":"Người trong làng đều rất nhiệt tình.","hanviet":"THÔN"},
+      {"id":"x22","hanzi":"郊区","pinyin":"jiāoqū","pos":"danh từ","meaning_vi":"ngoại ô","example_zh":"我家住在郊区，空气很好。","example_pinyin":"Wǒ jiā zhù zài jiāoqū, kōngqì hěn hǎo.","example_vi":"Nhà tôi ở ngoại ô, không khí rất tốt.","hanviet":"GIAO KHU"},
+      {"id":"x23","hanzi":"区","pinyin":"qū","pos":"danh từ","meaning_vi":"khu, quận","example_zh":"这个区的环境很好。","example_pinyin":"Zhège qū de huánjìng hěn hǎo.","example_vi":"Môi trường của khu này rất tốt.","hanviet":"KHU"},
+      {"id":"x24","hanzi":"底","pinyin":"dǐ","pos":"danh từ","meaning_vi":"đáy","example_zh":"盒子的底是红色的。","example_pinyin":"Hézi de dǐ shì hóngsè de.","example_vi":"Đáy hộp có màu đỏ.","hanviet":"ĐỀ"},
+      {"id":"x25","hanzi":"底下","pinyin":"dǐxia","pos":"danh từ","meaning_vi":"bên dưới, phía dưới","example_zh":"桌子底下有一只猫。","example_pinyin":"Zhuōzi dǐxia yǒu yì zhī māo.","example_vi":"Dưới gầm bàn có một con mèo."},
+      {"id":"x26","hanzi":"座","pinyin":"zuò","pos":"lượng từ","meaning_vi":"tòa, ngọn (núi, nhà, cầu)","example_zh":"远处有一座高山。","example_pinyin":"Yuǎn chù yǒu yí zuò gāoshān.","example_vi":"Ở xa có một ngọn núi cao.","note_vi":"座 đếm vật lớn, cố định: 一座山, 一座桥, 一座城市."},
+      {"id":"x27","hanzi":"仍","pinyin":"réng","pos":"phó từ","meaning_vi":"vẫn (văn viết)","example_zh":"他仍在努力学习汉语。","example_pinyin":"Tā réng zài nǔlì xuéxí Hànyǔ.","example_vi":"Anh ấy vẫn đang nỗ lực học tiếng Trung.","note_vi":"仍 = 仍然, thường dùng trong văn viết, đứng trước động từ: 仍在、仍是."},
+      {"id":"x28","hanzi":"自","pinyin":"zì","pos":"giới từ","meaning_vi":"từ; tự","example_zh":"他来自农村。","example_pinyin":"Tā láizì nóngcūn.","example_vi":"Anh ấy đến từ nông thôn.","hanviet":"TỰ","note_vi":"自 = “từ” trong 来自 (đến từ), 自从 (kể từ), hoặc “tự” trong 自己, 自学. Ghép từ nhiều."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“倒” (rót, đổ; thì lại…)",
+        "pattern":"倒 dào + 水 / 茶 / 垃圾　·　S + 倒 + Adj / V (…，就是 / 可是……)　·　倒 dǎo: ngã",
+        "explanation_vi":"Chữ 倒 có hai cách đọc và ba cách dùng thường gặp:\n(1) 倒 dào (động từ): rót, đổ, trút: 倒茶 (rót trà), 倒水, 倒垃圾. Hay nói 给人倒茶 / 帮我倒杯水.\n(2) 倒 dào (phó từ): giọng điệu nhẹ, mang ý “thì lại…, cũng…, ngược lại”, dùng để làm dịu đi nhận xét hoặc biểu thị điều trái với suy nghĩ ban đầu: 这个办法倒不错 (cách này thì cũng được đấy), 他倒想去，可是没有时间 (anh ấy thì muốn đi đấy nhưng…). Vế sau thường có 就是 / 可是 / 只是 nêu mặt trái. 倒 đứng ngay trước tính từ hoặc động từ chính, không đi cùng 很.\n(3) 倒 dǎo (động từ): ngã, đổ xuống: 摔倒, 树倒了, 倒下. Ở bài này chú ý chỉ chữ giống nhau, âm khác.",
+        "examples":[
+          {"zh":"请给我倒一杯热茶。","pinyin":"Qǐng gěi wǒ dào yì bēi rè chá.","vi":"Xin rót cho tôi một tách trà nóng."},
+          {"zh":"这个办法倒不错，就是有点儿贵。","pinyin":"Zhège bànfǎ dào búcuò, jiùshì yǒudiǎnr guì.","vi":"Cách này thì cũng được, chỉ là hơi đắt."},
+          {"zh":"他倒想去，可是没有时间。","pinyin":"Tā dào xiǎng qù, kěshì méiyǒu shíjiān.","vi":"Anh ấy thì muốn đi đấy, nhưng không có thời gian."},
+          {"zh":"那棵树倒了。","pinyin":"Nà kē shù dǎo le.","vi":"Cái cây đó đổ rồi."}
+        ],
+        "mistakes_vi":"✗ 我倒一杯给你茶。\n✓ 我给你倒一杯茶。\n“Cho ai” 给 + người đặt trước động từ 倒.\n✗ 这个办法很倒好。\n✓ 这个办法倒不错。\n倒 là phó từ, đứng trước vị ngữ, không đi cùng 很.\n✗ 他倒想去，所以他不去。\n✓ 他倒想去，可是没有时间。\n倒 mở ra một ý tương phản, vế sau cần 可是 / 就是 / 只是.",
+        "compare_vi":"倒 dào (phó từ) ≈ “thì lại, thì cũng”. Không có từ tương đương một chữ trong tiếng Việt; thường dịch bằng “thì… đấy, nhưng…”."
+      },
+      {
+        "id":"g2",
+        "title":"“干” gàn (làm) và “干” gān (khô)",
+        "pattern":"干 gàn + 活儿 / 什么 / 得……　·　干 gān + 净 / 杯 / 了",
+        "explanation_vi":"Chữ 干 có hai cách đọc rất hay gặp:\n— 干 gàn (thanh 4): động từ khẩu ngữ, nghĩa “làm” (việc gì đó), nhất là lao động: 干活儿 (làm việc), 干什么？ (làm gì?), 干得很好 (làm rất tốt), 干了一天活儿. Gần với 做 nhưng khẩu ngữ hơn và không dùng cho công việc “học tập” hay việc văn phòng trang trọng.\n— 干 gān (thanh 1): tính từ, nghĩa “khô, sạch”: 干净 (sạch sẽ), 擦干 (lau khô), 干杯 (cạn ly), 衣服干了 (quần áo đã khô).\nCần dựa vào ngữ cảnh để đọc đúng. Với động từ li hợp 干活儿, trợ từ 了 / thời lượng chèn vào giữa: 干了四十年活儿.",
+        "examples":[
+          {"zh":"爸爸在地里干活儿。","pinyin":"Bàba zài dì li gànhuór.","vi":"Bố đang làm việc ngoài đồng."},
+          {"zh":"你在这儿干什么？","pinyin":"Nǐ zài zhèr gàn shénme?","vi":"Bạn đang làm gì ở đây?"},
+          {"zh":"他干了一天活儿，累极了。","pinyin":"Tā gàn le yì tiān huór, lèi jí le.","vi":"Anh ấy làm lụng cả ngày, mệt vô cùng."},
+          {"zh":"洗完手，请用毛巾擦干。","pinyin":"Xǐ wán shǒu, qǐng yòng máojīn cā gān.","vi":"Rửa tay xong, xin dùng khăn lau khô."},
+          {"zh":"房间收拾得很干净。","pinyin":"Fángjiān shōushi de hěn gānjìng.","vi":"Phòng được dọn dẹp rất sạch sẽ."}
+        ],
+        "mistakes_vi":"✗ 我们去干作业吧。\n✓ 我们去做作业吧。\n干 gàn thiên về lao động hoặc dùng trong khẩu ngữ; làm bài tập dùng 做.\n✗ 他干活儿了一天。\n✓ 他干了一天活儿。\n干活儿 là động từ li hợp, 了 và thời lượng chèn vào giữa.\n✗ 请把桌子擦干 (đọc gàn).\n✓ 请把桌子擦干 (đọc gān).\nCùng một chữ nhưng nghĩa “khô” phải đọc gān, đừng đọc thành gàn.",
+        "compare_vi":"干 gàn ≈ “làm” (tiếng Việt cũng có “làm ăn, làm lụng”); 干 gān ≈ “khô”."
+      },
+      {
+        "id":"g3",
+        "title":"Lượng từ “趟” (chuyến)",
+        "pattern":"V + 数 + 趟 (+ nơi chốn)　·　V + nơi chốn + 数 + 趟　·　这 / 那 + 趟 + 车",
+        "explanation_vi":"趟 là lượng từ cho các chuyến đi đi-về: “một chuyến”. Hay dùng với những động từ chỉ đi lại: 去、来、回、走、跑. Ví dụ: 去一趟、来一趟、回一趟老家. Cũng dùng đếm chuyến xe, chuyến tàu: 这趟车、最后一趟.\nVị trí: nếu tân ngữ là nơi chốn, có thể đặt 趟 trước hoặc sau địa điểm: 去一趟北京 / 去北京一趟; nếu là đại từ chỉ người thì đặt trước 趟: 来找我一趟 → 来一趟. 趟 khác 次: 次 dùng cho mọi sự việc lặp lại (看一次电影), còn 趟 chỉ dùng cho chuyến đi lại.",
+        "examples":[
+          {"zh":"我明天要去一趟市区。","pinyin":"Wǒ míngtiān yào qù yí tàng shìqū.","vi":"Ngày mai tôi phải vào nội thành một chuyến."},
+          {"zh":"你什么时候回一趟老家？","pinyin":"Nǐ shénme shíhou huí yí tàng lǎojiā?","vi":"Khi nào bạn về quê một chuyến?"},
+          {"zh":"一年来一趟也行。","pinyin":"Yì nián lái yí tàng yě xíng.","vi":"Một năm đến một chuyến cũng được."},
+          {"zh":"这趟车人很多。","pinyin":"Zhè tàng chē rén hěn duō.","vi":"Chuyến xe này rất đông người."},
+          {"zh":"我去了两趟银行，都没有人。","pinyin":"Wǒ qù le liǎng tàng yínháng, dōu méiyǒu rén.","vi":"Tôi đã đi ngân hàng hai chuyến, đều không có ai."}
+        ],
+        "mistakes_vi":"✗ 我看了一趟电影。\n✓ 我看了一次电影。\n趟 chỉ dùng cho chuyến đi lại, xem phim dùng 次 hoặc 场.\n✗ 我去一趟了北京。\n✓ 我去了一趟北京。\n了 đi ngay sau động từ, trước 趟.\n✗ 我去了北京一趟了。\n✓ 我去了一趟北京。\nVới địa điểm làm tân ngữ, đặt 一趟 trước nó khi có 了 (去了一趟北京).",
+        "compare_vi":"趟 ≈ “chuyến” (đi một chuyến, về một chuyến). Cách nói của tiếng Việt “đi một chuyến” trùng với 去一趟."
+      },
+      {
+        "id":"g4",
+        "title":"“为了……而……” (vì… mà…) và “仍然” (vẫn)",
+        "pattern":"S + 为了 + mục đích + 而 + V　·　S + 仍然 + V / Adj",
+        "explanation_vi":"(1) 为了A而B: A là mục đích, B là hành động hay lựa chọn để đạt mục đích đó: “vì A mà B”. 而 nối mục đích với hành động, hơi trang trọng. 为了 + A đứng trước 而, chủ ngữ đặt đầu câu hoặc trước 为了. Ví dụ: 他为了保护森林而努力工作. Khi không có 而 vẫn đúng (为了保护森林，他努力工作) nhưng nhẹ hơn. 为了 chỉ mục đích (hướng tới tương lai), khác 因为 chỉ nguyên nhân (đã xảy ra).\n(2) 仍然 là phó từ, nghĩa “vẫn, vẫn còn”, tình trạng không thay đổi dù có điều kiện mới: 虽然下雨了，他仍然去跑步. Trang trọng hơn 还是 / 还. Phủ định đặt sau: 仍然不……、仍然没有…….",
+        "examples":[
+          {"zh":"他为了保护森林而努力工作。","pinyin":"Tā wèile bǎohù sēnlín ér nǔlì gōngzuò.","vi":"Anh ấy làm việc chăm chỉ để bảo vệ rừng."},
+          {"zh":"很多人为了健康而选择骑自行车上班。","pinyin":"Hěn duō rén wèile jiànkāng ér xuǎnzé qí zìxíngchē shàngbān.","vi":"Nhiều người vì sức khỏe mà chọn đạp xe đi làm."},
+          {"zh":"她为了学好汉语而来到中国。","pinyin":"Tā wèile xuéhǎo Hànyǔ ér láidào Zhōngguó.","vi":"Cô ấy vì muốn học tốt tiếng Trung mà đến Trung Quốc."},
+          {"zh":"虽然下雨了，他仍然去跑步。","pinyin":"Suīrán xià yǔ le, tā réngrán qù pǎobù.","vi":"Tuy trời mưa, anh ấy vẫn đi chạy bộ."},
+          {"zh":"这么多年过去了，他仍然记得那个夏天。","pinyin":"Zhème duō nián guòqu le, tā réngrán jìde nàge xiàtiān.","vi":"Bao nhiêu năm trôi qua, anh ấy vẫn nhớ mùa hè đó."}
+        ],
+        "mistakes_vi":"✗ 他因为学汉语而来中国。\n✓ 他为了学汉语而来中国。\n“Vì mục đích” dùng 为了, “vì nguyên nhân” dùng 因为.\n✗ 为了健康，而他每天锻炼。\n✓ 他为了健康而每天锻炼。/ 为了健康，他每天锻炼。\n而 đứng giữa mục đích và hành động, không đứng trước chủ ngữ.\n✗ 仍然他在这儿工作。\n✓ 他仍然在这儿工作。\n仍然 đứng sau chủ ngữ, trước động từ.",
+        "compare_vi":"为了……而…… ≈ “vì… mà…”, “để… mà…”. 仍然 ≈ “vẫn”, nghe trang trọng hơn 还是."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Về quê thăm ông",
+      "scene_vi": "Kỳ nghỉ, Tiểu Minh từ thành phố về nông thôn thăm ông nội. Sáng sớm trời còn lạnh, ông rót trà nóng cho cháu, hai ông cháu nói chuyện về núi rừng.",
+      "lines": [
+        {"speaker":"小明","zh":"爷爷，您这儿的空气真好！城里很少有这么好的空气。","pinyin":"Yéye, nín zhèr de kōngqì zhēn hǎo! Chéng li hěn shǎo yǒu zhème hǎo de kōngqì.","vi":"Ông ơi, không khí ở chỗ ông tốt quá! Ở thành phố hiếm khi có không khí tốt thế này."},
+        {"speaker":"爷爷","zh":"农村周围都是树林和植物，空气当然好。你累不累？","pinyin":"Nóngcūn zhōuwéi dōu shì shùlín hé zhíwù, kōngqì dāngrán hǎo. Nǐ lèi bu lèi?","vi":"Xung quanh nông thôn toàn là rừng cây và cỏ cây, không khí đương nhiên tốt. Cháu có mệt không?"},
+        {"speaker":"小明","zh":"不累，就是有点儿冷。城里已经暖和了，这儿早晨仍然很寒冷。","pinyin":"Bú lèi, jiùshì yǒudiǎnr lěng. Chéng li yǐjīng nuǎnhuo le, zhèr zǎochen réngrán hěn hánlěng.","vi":"Không mệt, chỉ hơi lạnh. Ở thành phố đã ấm rồi, ở đây buổi sáng vẫn rất giá lạnh."},
+        {"speaker":"爷爷","zh":"山里的气温比城里低几度。快把外套穿上，我去给你倒杯热茶。","pinyin":"Shān li de qìwēn bǐ chéng li dī jǐ dù. Kuài bǎ wàitào chuān shàng, wǒ qù gěi nǐ dào bēi rè chá.","vi":"Nhiệt độ trên núi thấp hơn thành phố vài độ. Mau mặc áo khoác vào, ông đi rót cho cháu tách trà nóng."},
+        {"speaker":"小明","zh":"谢谢爷爷。下午我们去森林里走走吧，我想看看大自然。","pinyin":"Xièxie yéye. Xiàwǔ wǒmen qù sēnlín li zǒuzou ba, wǒ xiǎng kànkan dàzìrán.","vi":"Cảm ơn ông. Chiều nay chúng ta vào rừng đi dạo nhé, cháu muốn ngắm thiên nhiên."},
+        {"speaker":"爷爷","zh":"好啊。不过森林里有时候很危险，千万别一个人去。我小时候在山里见过老虎。","pinyin":"Hǎo a. Búguò sēnlín li yǒu shíhou hěn wēixiǎn, qiānwàn bié yí ge rén qù. Wǒ xiǎo shíhou zài shān li jiàn guo lǎohǔ.","vi":"Được thôi. Có điều trong rừng đôi khi rất nguy hiểm, tuyệt đối đừng đi một mình. Hồi nhỏ ông từng thấy hổ ở trong núi."},
+        {"speaker":"小明","zh":"真的吗？那您为什么一直住在这儿？","pinyin":"Zhēn de ma? Nà nín wèi shénme yìzhí zhù zài zhèr?","vi":"Thật ạ? Vậy sao ông vẫn luôn sống ở đây?"},
+        {"speaker":"爷爷","zh":"人与自然是相互的，我们保护它，它也保护我们。我在这儿干了四十年活儿，早就适应这里的生活了。","pinyin":"Rén yǔ zìrán shì xiānghù de, wǒmen bǎohù tā, tā yě bǎohù wǒmen. Wǒ zài zhèr gàn le sìshí nián huór, zǎo jiù shìyìng zhèli de shēnghuó le.","vi":"Con người và thiên nhiên là có qua có lại, ta bảo vệ nó thì nó cũng bảo vệ ta. Ông làm lụng ở đây bốn mươi năm rồi, từ lâu đã quen với cuộc sống ở đây."},
+        {"speaker":"小明","zh":"我也想为了保护大自然而做点事情。","pinyin":"Wǒ yě xiǎng wèile bǎohù dàzìrán ér zuò diǎn shìqing.","vi":"Cháu cũng muốn làm chút gì đó để bảo vệ thiên nhiên."},
+        {"speaker":"爷爷","zh":"好孩子！那就常常来看看，一年来一趟也行。","pinyin":"Hǎo háizi! Nà jiù chángcháng lái kànkan, yì nián lái yí tàng yě xíng.","vi":"Cháu ngoan! Thế thì cứ thường xuyên về thăm, một năm về một chuyến cũng được."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:森林","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这片____里有很多动物。","options":["森林","植物","农村","城"],"answer":0,"explanation_vi":"片 + 森林 (một vùng rừng); trong rừng có nhiều động vật."},
+      {"id":"e2","type":"choice","tag":"v:危险","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"晚上一个人走山路很____。","options":["危险","寒冷","暖和","相互"],"answer":0,"explanation_vi":"Một mình đi đường núi buổi tối → nguy hiểm: 危险."},
+      {"id":"e3","type":"choice","tag":"v:适应","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他很快就____了新的生活。","options":["适应","周围","目的","老虎"],"answer":0,"explanation_vi":"“Thích nghi với cuộc sống mới”: 适应新的生活."},
+      {"id":"e4","type":"choice","tag":"v:农村","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我小时候住在____，每天都能看到大山。","options":["农村","目的","植物","生命"],"answer":0,"explanation_vi":"Nơi có núi, đồng ruộng, ở vùng quê → 农村."},
+      {"id":"e5","type":"choice","tag":"v:相互","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"朋友之间要____帮助。","options":["相互","周围","目的","自然"],"answer":0,"explanation_vi":"“Giúp đỡ lẫn nhau”: 相互帮助."},
+      {"id":"e6","type":"choice","tag":"v:寒冷","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"北方的冬天非常____。","options":["寒冷","暖和","危险","相互"],"answer":0,"explanation_vi":"Mùa đông miền bắc rất giá lạnh: 寒冷."},
+      {"id":"e7","type":"choice","tag":"v:目的","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他去北京的____是学习汉语。","options":["目的","周围","生命","植物"],"answer":0,"explanation_vi":"Điều muốn đạt được khi đi Bắc Kinh là 目的 (mục đích)."},
+      {"id":"e8","type":"choice","tag":"g:倒","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["请给我倒一杯热茶。","请我给倒一杯热茶。","请给倒我一杯热茶。","请给我一杯倒热茶。"],"answer":0,"explanation_vi":"请 + 给我 + 倒 + 一杯热茶: người nhận đặt trước động từ."},
+      {"id":"e9","type":"choice","tag":"g:倒","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个办法____不错，就是有点儿贵。","options":["倒","正","再","才"],"answer":0,"explanation_vi":"倒 + tính từ, theo sau là 就是 nêu điểm trái: “cũng được, chỉ là đắt”."},
+      {"id":"e10","type":"choice","tag":"g:干","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"爸爸在地里____活儿。","options":["干","吃","看","说"],"answer":0,"explanation_vi":"干活儿 (gàn huór) = làm lụng, làm việc chân tay."},
+      {"id":"e11","type":"choice","tag":"g:趟","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我明天要去一____市区。","options":["趟","个","张","本"],"answer":0,"explanation_vi":"Lượng từ cho chuyến đi: 去一趟."},
+      {"id":"e12","type":"choice","tag":"g:为了而","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他____保护森林而努力工作。","options":["为了","因为","虽然","如果"],"answer":0,"explanation_vi":"Mục đích “để bảo vệ rừng”: 为了……而…… (因为 chỉ nguyên nhân)."},
+      {"id":"e13","type":"order","tag":"g:仍然","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["虽然","下雨了","他","仍然","去","跑步"],"answers":["虽然下雨了他仍然去跑步"],"translation_vi":"Tuy trời mưa, anh ấy vẫn đi chạy bộ.","explanation_vi":"虽然 + vế đầu，S + 仍然 + V: 仍然 đứng sau chủ ngữ."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"树林","vi":"rừng cây"},{"zh":"叶子","vi":"lá cây"},{"zh":"江","vi":"sông lớn"},{"zh":"气温","vi":"nhiệt độ không khí"},{"zh":"郊区","vi":"ngoại ô"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:倒","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他____想去，可是没有时间。","options":["倒","就","才","再"],"answer":0,"explanation_vi":"倒 mở ra ý tương phản, vế sau có 可是."},
+        {"id":"q2","type":"choice","tag":"g:干","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["爸爸在地里干了一天活儿。","爸爸在地里干活儿了一天。","爸爸在地里一天干活儿。","爸爸干在地里活儿一天。"],"answer":0,"explanation_vi":"干活儿 là động từ li hợp: 干了一天活儿."},
+        {"id":"q3","type":"choice","tag":"g:趟","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你什么时候回一____老家？","options":["趟","条","个","件"],"answer":0,"explanation_vi":"回一趟老家 = về quê một chuyến."},
+        {"id":"q4","type":"choice","tag":"g:趟","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我去了一趟北京。","我去一趟了北京。","我去了北京一趟了。","我一趟去了北京。"],"answer":0,"explanation_vi":"去了一趟北京: 了 ngay sau động từ, rồi 一趟 + địa điểm."},
+        {"id":"q5","type":"choice","tag":"g:为了而","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["他为了保护森林而努力工作。","他因为保护森林而努力工作。","他为了保护森林而因为努力工作。","他保护森林为了而努力工作。"],"answer":0,"explanation_vi":"为了 + mục đích + 而 + hành động."},
+        {"id":"q6","type":"choice","tag":"g:仍然","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这么多年过去了，他____记得那个夏天。","options":["仍然","刚才","马上","因此"],"answer":0,"explanation_vi":"Tình trạng không đổi sau nhiều năm: 仍然 (vẫn)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:暖和","prompt_vi":"Chọn đáp án đúng.","question_zh":"今天不太冷，很____。","options":["暖和","寒冷","危险","相互"],"answer":0,"explanation_vi":"Không lạnh nhiều, dễ chịu → 暖和 (ấm áp)."},
+      {"id":"t2","type":"choice","tag":"v:周围","prompt_vi":"Chọn đáp án đúng.","question_zh":"学校____有很多树。","options":["周围","目的","生命","适应"],"answer":0,"explanation_vi":"Xung quanh trường: 学校周围."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"棵","vi":"cây (lượng từ)"},{"zh":"片","vi":"mảnh, vùng"},{"zh":"土","vi":"đất"},{"zh":"深","vi":"sâu"},{"zh":"流","vi":"chảy"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"吹","vi":"thổi"},{"zh":"落","vi":"rơi, lặn"},{"zh":"降","vi":"hạ xuống"},{"zh":"着火","vi":"bốc cháy"},{"zh":"熊","vi":"gấu"}]},
+      {"id":"t5","type":"order","tag":"g:趟","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","明天","要","去","一趟","市区"],"answers":["我明天要去一趟市区"],"translation_vi":"Ngày mai tôi phải vào nội thành một chuyến.","explanation_vi":"去 + 一趟 + địa điểm."},
+      {"id":"t6","type":"order","tag":"g:倒","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["请","给","我","倒","一杯","热茶"],"answers":["请给我倒一杯热茶"],"translation_vi":"Xin rót cho tôi một tách trà nóng.","explanation_vi":"请 + 给我 + 倒 + 一杯热茶."},
+      {"id":"t7","type":"fill","tag":"g:为了而","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"他____学好汉语而来到中国。","answers":["为了","为"],"hint_vi":"vì (mục đích)","explanation_vi":"为了A而B = vì A mà B."},
+      {"id":"t8","type":"fill","tag":"g:仍然","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"虽然下雨了，他____去跑步。","answers":["仍然","还是"],"hint_vi":"vẫn","explanation_vi":"Tình trạng không đổi: 仍然 (còn nói 还是)."},
+      {"id":"t9","type":"listen_choice","tag":"g:仍然","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"这么多年过去了，他仍然记得那个夏天。","options":["Bao nhiêu năm trôi qua, anh ấy vẫn nhớ mùa hè đó.","Nhiều năm trôi qua, anh ấy đã quên mùa hè đó.","Anh ấy mong mùa hè này sẽ qua nhanh.","Mùa hè năm nay anh ấy không còn nhớ."],"answer":0,"explanation_vi":"仍然记得 = vẫn còn nhớ."},
+      {"id":"t10","type":"listen_choice","tag":"v:危险","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"晚上一个人走山路很危险。","options":["晚上一个人走山路很危险。","白天一个人走山路很危险。","晚上两个人走山路很危险。","晚上一个人走山路很安全。"],"answer":0,"explanation_vi":"Câu nghe được: 晚上一个人走山路很危险 = Buổi tối một mình đi đường núi rất nguy hiểm."},
+      {"id":"t11","type":"dictation","tag":"g:趟","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我明天要去一趟市区。","answers":["我明天要去一趟市区"],"explanation_vi":"我明天要去一趟市区 = Ngày mai tôi phải vào nội thành một chuyến."},
+      {"id":"t12","type":"dictation","tag":"v:目的","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"他去北京的目的是学习汉语。","answers":["他去北京的目的是学习汉语"],"explanation_vi":"他去北京的目的是学习汉语 = Mục đích anh ấy đến Bắc Kinh là học tiếng Trung."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:为了而","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Anh ấy làm việc chăm chỉ để bảo vệ rừng.","answers":["他为了保护森林而努力工作","他为了保护森林而努力地工作","他为保护森林而努力工作","他为了保护森林而认真工作","他为了保护森林而辛苦工作","他为了保护森林而努力","为了保护森林，他努力工作","他为了保护森林而拼命工作"],"explanation_vi":"为了保护森林 (vì bảo vệ rừng) + 而 + 努力工作."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:趟","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Một năm về quê một chuyến cũng được.","answers":["一年回一趟老家也行","一年回一趟老家也可以","一年回老家一趟也行","一年回一趟老家就行","一年回一趟家也行","一年回一趟家也可以","一年回一趟老家就可以","一年回一趟老家也好"],"explanation_vi":"回一趟老家 = về quê một chuyến; 也行 = cũng được."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:倒","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这个办法倒不错，就是有点儿贵。","answers_vi":["Cách này thì cũng không tệ, chỉ là hơi đắt.","Biện pháp này cũng được đấy, nhưng hơi đắt."],"keywords":[["cách","biện pháp","phương pháp"],["không tệ","được","tốt","hay","ổn","khá"],["hơi","có chút","có phần"],["đắt","mắc"]],"explanation_vi":"倒不错 = cũng được đấy; 就是有点儿贵 = chỉ là hơi đắt."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:适应","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他很快就适应了新的生活。","answers_vi":["Anh ấy nhanh chóng thích nghi với cuộc sống mới.","Chẳng bao lâu cậu ấy đã quen với cuộc sống mới."],"keywords":[["nhanh","chẳng bao lâu","rất sớm","mau"],["thích nghi","thích ứng","quen"],["cuộc sống mới","cuộc sống","đời sống"]],"explanation_vi":"很快 = rất nhanh; 适应 = thích nghi; 新的生活 = cuộc sống mới."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"山里的大森林",
+        "title_vi":"Khu rừng lớn trong núi",
+        "paragraphs":[
+          {
+            "tokens":[["这","zhè","này"],["座","zuò","(lượng từ: ngọn)"],["山","shān","núi"],["里","li","trong"],["有","yǒu","có"],["一","yí","một"],["片","piàn","vùng"],["大","dà","lớn"],["森林","sēnlín","rừng"],["，"],["树","shù","cây"],["很","hěn","rất"],["高","gāo","cao"],["，"],["周围","zhōuwéi","xung quanh"],["住","zhù","sống"],["着","zhe","(đang)"],["很多","hěn duō","nhiều"],["动物","dòngwù","động vật"],["。"],["山下","shān xià","dưới chân núi"],["的","de","(của)"],["村里","cūn li","trong làng"],["人","rén","người"],["很多","hěn duō","nhiều"],["年","nián","năm"],["来","lái","nay"],["都","dōu","đều"],["住","zhù","sống"],["在","zài","ở"],["这里","zhèli","đây"],["，"],["他们","tāmen","họ"],["与","yǔ","với"],["森林","sēnlín","rừng"],["相互","xiānghù","lẫn nhau"],["帮助","bāngzhù","giúp đỡ"],["："],["森林","sēnlín","rừng"],["给","gěi","cho"],["人们","rénmen","mọi người"],["干净","gānjìng","sạch"],["的","de","(trợ từ)"],["水","shuǐ","nước"],["和","hé","và"],["空气","kōngqì","không khí"],["，"],["人们","rénmen","mọi người"],["保护","bǎohù","bảo vệ"],["森林","sēnlín","rừng"],["。"]],
+            "vi":"Trong ngọn núi này có một khu rừng lớn, cây rất cao, xung quanh có nhiều động vật sinh sống. Người dân trong làng dưới chân núi nhiều năm nay đều sống ở đây, họ và khu rừng giúp đỡ lẫn nhau: khu rừng cho mọi người nước sạch và không khí trong lành, mọi người thì bảo vệ khu rừng."
+          },
+          {
+            "tokens":[["前","qián","trước"],["几","jǐ","mấy"],["年","nián","năm"],["，"],["有","yǒu","có"],["人","rén","người"],["为了","wèile","vì"],["多","duō","nhiều"],["卖","mài","bán"],["钱","qián","tiền"],["，"],["把","bǎ","(đưa tân ngữ lên trước)"],["森林","sēnlín","rừng"],["里","li","trong"],["的","de","(của)"],["很多","hěn duō","nhiều"],["树","shù","cây"],["都","dōu","đều"],["弄倒","nòng dǎo","làm đổ"],["了","le","(rồi)"],["。"],["结果","jiéguǒ","kết quả là"],["，"],["森林","sēnlín","rừng"],["一天天","yì tiāntiān","ngày một ngày"],["变小","biàn xiǎo","nhỏ đi"],["，"],["动物们","dòngwùmen","các con vật"],["失去","shīqù","mất"],["了","le","(đã)"],["家","jiā","nhà"],["，"],["老虎","lǎohǔ","hổ"],["也","yě","cũng"],["越来越","yuè lái yuè","ngày càng"],["少","shǎo","ít"],["。"],["下","xià","rơi"],["大雨","dàyǔ","mưa lớn"],["的","de","(trợ từ)"],["时候","shíhou","lúc"],["，"],["山上","shān shang","trên núi"],["的","de","(của)"],["水","shuǐ","nước"],["会","huì","sẽ"],["流","liú","chảy"],["到","dào","đến"],["村里","cūn li","trong làng"],["，"],["非常","fēicháng","rất"],["危险","wēixiǎn","nguy hiểm"],["。"]],
+            "vi":"Mấy năm trước, có người vì muốn bán được nhiều tiền đã làm đổ rất nhiều cây trong rừng. Kết quả là rừng ngày một nhỏ lại, các con vật mất nhà, hổ cũng ngày càng ít. Lúc mưa lớn, nước trên núi còn chảy xuống làng, vô cùng nguy hiểm."
+          },
+          {
+            "tokens":[["村里","cūn li","trong làng"],["人","rén","người"],["发现","fāxiàn","phát hiện"],["问题","wèntí","vấn đề"],["以后","yǐhòu","sau khi"],["，"],["开","kāi","tổ chức"],["了","le","(đã)"],["一个","yí ge","một"],["会","huì","cuộc họp"],["。"],["他们","tāmen","họ"],["决定","juédìng","quyết định"],["为了","wèile","vì"],["保护","bǎohù","bảo vệ"],["森林","sēnlín","rừng"],["而","ér","mà"],["改变","gǎibiàn","thay đổi"],["生活","shēnghuó","cuộc sống"],["方式","fāngshì","cách thức"],["："],["不再","bú zài","không còn"],["随便","suíbiàn","tùy tiện"],["弄倒","nòng dǎo","làm đổ"],["树","shù","cây"],["，"],["每年","měi nián","mỗi năm"],["春天","chūntiān","mùa xuân"],["还","hái","còn"],["要","yào","phải"],["种","zhòng","trồng"],["新","xīn","mới"],["树","shù","cây"],["。"],["十年","shí nián","mười năm"],["过去","guòqu","trôi qua"],["了","le","(rồi)"],["，"],["森林","sēnlín","rừng"],["又","yòu","lại"],["绿","lǜ","xanh"],["了","le","(rồi)"],["。"],["去年","qùnián","năm ngoái"],["冬天","dōngtiān","mùa đông"],["天气","tiānqì","thời tiết"],["非常","fēicháng","rất"],["寒冷","hánlěng","giá lạnh"],["，"],["动物们","dòngwùmen","các con vật"],["仍然","réngrán","vẫn"],["留","liú","ở lại"],["在","zài","ở"],["这片","zhè piàn","vùng này"],["森林","sēnlín","rừng"],["里","li","trong"],["，"],["没有","méiyǒu","không"],["离开","líkāi","rời đi"],["。"]],
+            "vi":"Sau khi phát hiện vấn đề, người trong làng mở một cuộc họp. Họ quyết định vì bảo vệ rừng mà thay đổi cách sống: không còn tùy tiện làm đổ cây, mỗi mùa xuân còn phải trồng cây mới. Mười năm trôi qua, khu rừng lại xanh trở lại. Mùa đông năm ngoái thời tiết rất giá lạnh, nhưng các con vật vẫn ở lại khu rừng này, không rời đi."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"森林给了人们什么？","options":["干净的水和空气","很多钱","新的房子","老虎"],"answer":0,"explanation_vi":"Đoạn 1: 森林给人们干净的水和空气."},
+          {"id":"rq2","type":"choice","tag":"g:为了而","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"前几年，有人为什么把很多树弄倒了？","options":["为了多卖钱","为了盖房子","为了找老虎","为了种花"],"answer":0,"explanation_vi":"Đoạn 2: 有人为了多卖钱，把森林里的很多树都弄倒了."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"森林变小以后，老虎越来越多。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 老虎也越来越少 — câu này sai."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"村里人开会以后决定做什么？","options":["不再随便弄倒树，每年春天种新树","搬到城里去","多卖一些树","不再进森林"],"answer":0,"explanation_vi":"Đoạn 3: 不再随便弄倒树，每年春天还要种新树."},
+          {"id":"rq5","type":"choice","tag":"g:仍然","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"去年冬天很冷，动物们离开了这片森林。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 动物们仍然留在这片森林里，没有离开 — câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Lời chào ở công viên rừng",
+        "text_zh":"欢迎来到大森林公园！这里有两千多种植物，还有很多动物，比如熊和老虎。进山以前，请大家注意：第一，千万别离开路，因为森林里很危险；第二，不能带火进来，着火了就麻烦了；第三，不要乱扔垃圾。山里早晨很寒冷，中午比较暖和，请带好外套。今天我们要走三公里左右，大约两个小时。我们这一趟的目的，是让大家感受大自然，也学会保护它。",
+        "pinyin":"Huānyíng lái dào Dàsēnlín Gōngyuán! Zhèli yǒu liǎng qiān duō zhǒng zhíwù, hái yǒu hěn duō dòngwù, bǐrú xióng hé lǎohǔ. Jìn shān yǐqián, qǐng dàjiā zhùyì: dì yī, qiānwàn bié líkāi lù, yīnwèi sēnlín li hěn wēixiǎn; dì èr, bù néng dài huǒ jìnlai, zháohuǒ le jiù máfan le; dì sān, búyào luàn rēng lājī. Shān li zǎochen hěn hánlěng, zhōngwǔ bǐjiào nuǎnhuo, qǐng dàihǎo wàitào. Jīntiān wǒmen yào zǒu sān gōnglǐ zuǒyòu, dàyuē liǎng ge xiǎoshí. Wǒmen zhè yí tàng de mùdì, shì ràng dàjiā gǎnshòu dàzìrán, yě xuéhuì bǎohù tā.",
+        "vi":"Chào mừng đến với Công viên Rừng lớn! Ở đây có hơn hai nghìn loài thực vật và nhiều động vật, chẳng hạn như gấu và hổ. Trước khi vào núi, xin mọi người lưu ý: thứ nhất, tuyệt đối đừng rời khỏi đường vì trong rừng rất nguy hiểm; thứ hai, không được mang lửa vào, cháy là rắc rối to; thứ ba, đừng vứt rác bừa bãi. Buổi sáng trong núi rất lạnh, buổi trưa khá ấm, xin mang áo khoác. Hôm nay chúng ta đi khoảng ba cây số, mất khoảng hai tiếng. Mục đích chuyến này của chúng ta là để mọi người cảm nhận thiên nhiên và học cách bảo vệ nó.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"v:危险","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"进山以前，第一要注意什么？","options":["千万别离开路","要带火进来","要多拿垃圾","要早点儿回家"],"answer":0,"explanation_vi":"Nghe được: 第一，千万别离开路，因为森林里很危险."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"为什么不能带火进来？","options":["因为着火了就麻烦了","因为火太贵","因为没有地方放","因为动物喜欢火"],"answer":0,"explanation_vi":"Nghe được: 不能带火进来，着火了就麻烦了."},
+          {"id":"lq3","type":"choice","tag":"v:暖和","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"山里什么时候比较暖和？","options":["中午","早晨","晚上","夜里"],"answer":0,"explanation_vi":"Nghe được: 早晨很寒冷，中午比较暖和."},
+          {"id":"lq4","type":"choice","tag":"g:趟","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这一趟的目的是什么？","options":["感受大自然，学会保护它","找老虎","买植物","打电话"],"answer":0,"explanation_vi":"Nghe được: 这一趟的目的，是让大家感受大自然，也学会保护它."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"仍然","pinyin":"réngrán","vi":"vẫn","tip_vi":"r là âm uốn lưỡi, không đọc thành “d” hay “z”: lưỡi cong lên, môi hơi tròn. 仍 réng thanh 2 lên rõ, -eng kết thúc ở cuống lưỡi; 然 rán thanh 2. Hai chữ đều r và thanh 2."},
+      {"id":"s2","zh":"一趟","pinyin":"yí tàng","vi":"một chuyến","tip_vi":"一 đọc yí vì đứng trước thanh 4. 趟 tàng: t bật hơi, -ang kết thúc ở cuống lưỡi, thanh 4 xuống mạnh. Đừng đọc thành “thang” thanh 1."},
+      {"id":"s3","zh":"暖和","pinyin":"nuǎnhuo","vi":"ấm áp","tip_vi":"暖 nuǎn: n đầu lưỡi, vần -uan tròn môi, thanh 3. 和 đọc nhẹ huo (không đọc hé hay hè). Chữ 暖 đọc đủ thanh 3 vì đứng ở đầu từ."},
+      {"id":"s4","zh":"请给我倒一杯热茶。","pinyin":"Qǐng gěi wǒ dào yì bēi rè chá.","vi":"Xin rót cho tôi một tách trà nóng.","tip_vi":"请给我: ba thanh 3 liền nhau, đọc 请 và 给 thành thanh 2. 倒 dào thanh 4 (rót); khác dǎo thanh 3 (ngã). 一杯 yì bēi: 一 đọc yì trước thanh 1. 热 rè: r uốn lưỡi, thanh 4. 茶 chá: ch bật hơi, uốn lưỡi."},
+      {"id":"s5","zh":"我明天要去一趟市区。","pinyin":"Wǒ míngtiān yào qù yí tàng shìqū.","vi":"Ngày mai tôi phải vào nội thành một chuyến.","tip_vi":"我 đứng trước thanh 2 (明) nên đọc nửa thanh 3. 要去 yào qù: hai thanh 4 liền, đọc dứt khoát. 市区 shìqū: sh uốn lưỡi, q bật hơi, ü tròn môi, không đọc “xư-khuy”."},
+      {"id":"s6","zh":"他为了保护森林而努力工作。","pinyin":"Tā wèile bǎohù sēnlín ér nǔlì gōngzuò.","vi":"Anh ấy làm việc chăm chỉ để bảo vệ rừng.","tip_vi":"为了 wèile: 了 đọc nhẹ là le. 保护 bǎohù: hai thanh 3 liền, 保 đọc thành thanh 2. 森林 sēnlín: s đầu lưỡi, -en và -in khác nhau. 而 ér: cuốn lưỡi nhẹ. 努力 nǔlì: ü không phải ü, chỉ là u: nǔ."},
+      {"id":"s7","zh":"虽然下雨了，他仍然去跑步。","pinyin":"Suīrán xià yǔ le, tā réngrán qù pǎobù.","vi":"Tuy trời mưa, anh ấy vẫn đi chạy bộ.","tip_vi":"虽然 suīrán: s + uei (“xuây”), 然 r uốn lưỡi. 下雨了 xià yǔ le: 雨 yǔ ü tròn môi, thanh 3 đọc đủ vì sau là 了 (nhẹ). 仍然 nhấn mạnh. 跑步 pǎobù: p bật hơi mạnh, 跑 thanh 3 đọc nửa vì trước thanh 4."}
+    ],
+    "review": {
+      "remember": [
+        "倒 dào: rót, đổ (倒茶 / 给我倒杯水); phó từ: thì lại, cũng (这个办法倒不错，就是有点儿贵). 倒 dǎo: ngã (树倒了).",
+        "干 gàn: làm (干活儿、干什么); 干 gān: khô, sạch (擦干、干净). 干活儿 là li hợp: 干了一天活儿.",
+        "趟 = lượng từ cho chuyến đi lại: 去一趟、回一趟老家、这趟车; còn 次 dùng rộng hơn (看一次电影).",
+        "为了A而B = vì A mà B (mục đích); 因为 = nguyên nhân. 仍然 = vẫn (trang trọng hơn 还是), đứng sau chủ ngữ.",
+        "Thiên nhiên: 大自然、森林、植物、生命、适应、危险、周围、农村 / 城; 与 = và (trang trọng): 人与自然."
+      ],
+      "mistakes": [
+        "✗ 我倒一杯给你茶 → ✓ 我给你倒一杯茶: người nhận đặt trước động từ.",
+        "✗ 我看了一趟电影 → ✓ 我看了一次电影: 趟 chỉ dùng cho chuyến đi lại.",
+        "✗ 他因为学汉语而来中国 → ✓ 他为了学汉语而来中国: mục đích dùng 为了."
+      ]
+    }
+  }
+}

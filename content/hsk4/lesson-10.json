@@ -1,0 +1,253 @@
+{
+  "level": 4,
+  "number": 10,
+  "summary": "Hai bạn làm bài khảo sát “thế nào là hạnh phúc”; học 不过 và 确实, 在……看来 (theo quan điểm của), 由于 (do, bởi vì), 比如 / 例如 (ví dụ) cùng các từ về hạnh phúc, quan điểm và độ tuổi",
+  "readings_ok": [],
+  "content": {
+    "objectives": [
+      "Nói quan niệm về hạnh phúc bằng 幸福、标准、烦恼、羡慕、看法、想法、意见",
+      "Nêu quan điểm bằng 在……看来 và xác nhận hay bổ sung ý bằng 确实、不过",
+      "Giải thích nguyên nhân (văn viết) bằng 由于",
+      "Nêu ví dụ bằng 比如 / 例如 / 举例 và so sánh bằng 不如"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"不过","pinyin":"búguò","pos":"liên từ / phó từ","meaning_vi":"nhưng, có điều; chỉ là, chẳng qua","example_zh":"这件衣服很好看，不过有点儿贵。","example_pinyin":"Zhè jiàn yīfu hěn hǎokàn, búguò yǒudiǎnr guì.","example_vi":"Chiếc áo này rất đẹp, có điều hơi đắt.","note_vi":"Chuyển ý nhẹ hơn 但是 / 可是, thường dùng để thêm một lưu ý nhỏ sau khi đã khen hoặc đồng ý. 不 đọc bú vì đứng trước thanh 4. Làm phó từ: 他不过二十岁 (cậu ấy mới hai mươi tuổi). Không có nghĩa “không qua” (thi trượt)."},
+      {"id":"v2","hanzi":"确实","pinyin":"quèshí","pos":"phó từ","meaning_vi":"quả thật, đúng là","example_zh":"他确实很努力，成绩越来越好。","example_pinyin":"Tā quèshí hěn nǔlì, chéngjì yuè lái yuè hǎo.","example_vi":"Anh ấy quả thật rất cố gắng, thành tích ngày càng tốt.","hanviet":"XÁC THỰC","note_vi":"Xác nhận điều có thật, đứng trước động từ/tính từ: 确实很好 / 确实有。 Cũng có thể trả lời đồng tình ngắn gọn: 确实！ Nghĩa gần 的确 (cùng nghĩa, hơi văn hơn)."},
+      {"id":"v3","hanzi":"由于","pinyin":"yóuyú","pos":"giới từ / liên từ","meaning_vi":"do, bởi vì (văn viết)","example_zh":"由于下雨，比赛改到下周了。","example_pinyin":"Yóuyú xià yǔ, bǐsài gǎi dào xià zhōu le.","example_vi":"Do trời mưa, trận đấu dời sang tuần sau.","hanviet":"DO VÂN","note_vi":"Trang trọng hơn 因为, thường đặt ở đầu câu, vế sau hay có 所以 / 因此. Không dùng chung với 因为 trong cùng vế."},
+      {"id":"v4","hanzi":"幸福","pinyin":"xìngfú","pos":"tính từ / danh từ","meaning_vi":"hạnh phúc","example_zh":"和家人在一起，我觉得很幸福。","example_pinyin":"Hé jiārén zài yìqǐ, wǒ juéde hěn xìngfú.","example_vi":"Ở bên gia đình, tôi thấy rất hạnh phúc.","hanviet":"HẠNH PHÚC","note_vi":"Giống tiếng Việt “hạnh phúc”. Tính từ: 很幸福; danh từ: 追求幸福, 幸福的生活. Khác 高兴 (vui nhất thời) và 快乐 (vui vẻ): 幸福 là cảm giác sâu và lâu hơn."},
+      {"id":"v5","hanzi":"标准","pinyin":"biāozhǔn","pos":"danh từ / tính từ","meaning_vi":"tiêu chuẩn; chuẩn","example_zh":"每个人对幸福的标准都不一样。","example_pinyin":"Měi ge rén duì xìngfú de biāozhǔn dōu bù yíyàng.","example_vi":"Tiêu chuẩn về hạnh phúc của mỗi người đều khác nhau.","hanviet":"TIÊU CHUẨN","note_vi":"Danh từ: 好的标准, 达到标准. Tính từ: 他的普通话很标准 (tiếng phổ thông của anh ấy rất chuẩn)."},
+      {"id":"v6","hanzi":"人生","pinyin":"rénshēng","pos":"danh từ","meaning_vi":"cuộc đời, đời người","example_zh":"人生有很多选择，每个选择都不容易。","example_pinyin":"Rénshēng yǒu hěn duō xuǎnzé, měi ge xuǎnzé dōu bù róngyì.","example_vi":"Đời người có rất nhiều lựa chọn, lựa chọn nào cũng không dễ.","hanviet":"NHÂN SINH","note_vi":"Chỉ cả quãng đời của một người: 人生的路, 美好的人生. Còn “cuộc sống hằng ngày” dùng 生活."},
+      {"id":"v7","hanzi":"愉快","pinyin":"yúkuài","pos":"tính từ","meaning_vi":"vui vẻ, dễ chịu","example_zh":"祝你周末愉快！","example_pinyin":"Zhù nǐ zhōumò yúkuài!","example_vi":"Chúc bạn cuối tuần vui vẻ!","note_vi":"Trang trọng và lịch sự hơn 高兴; hay dùng trong lời chúc (旅行愉快、合作愉快) và để nói tâm trạng: 心情愉快."},
+      {"id":"v8","hanzi":"烦恼","pinyin":"fánnǎo","pos":"tính từ / danh từ","meaning_vi":"phiền não, lo lắng; nỗi phiền muộn","example_zh":"他没有什么烦恼，每天都很高兴。","example_pinyin":"Tā méiyǒu shénme fánnǎo, měi tiān dōu hěn gāoxìng.","example_vi":"Anh ấy không có gì phiền muộn, ngày nào cũng vui.","hanviet":"PHIỀN NÃO","note_vi":"Làm danh từ (有烦恼 / 没有烦恼) hoặc tính từ (很烦恼). Lưu ý nó nhẹ hơn nghĩa nhà Phật; chỉ là những lo lắng thường ngày."},
+      {"id":"v9","hanzi":"羡慕","pinyin":"xiànmù","pos":"động từ","meaning_vi":"ngưỡng mộ, ao ước","example_zh":"我很羡慕你，每天都能去旅行。","example_pinyin":"Wǒ hěn xiànmù nǐ, měi tiān dōu néng qù lǚxíng.","example_vi":"Tôi rất ngưỡng mộ bạn, ngày nào cũng được đi du lịch.","note_vi":"羡慕 là cảm giác ao ước tốt đẹp, không có ý xấu như “ghen tị”. “Ghen ghét” là 嫉妒. Cấu trúc: 羡慕 + người (+ có điều gì)."},
+      {"id":"v10","hanzi":"看法","pinyin":"kànfǎ","pos":"danh từ","meaning_vi":"cách nhìn, quan điểm","example_zh":"你对这件事有什么看法？","example_pinyin":"Nǐ duì zhè jiàn shì yǒu shénme kànfǎ?","example_vi":"Bạn nhìn nhận chuyện này thế nào?","note_vi":"Cấu trúc hay dùng: 对……有看法 / 谈谈你的看法. Chú ý 有看法 cũng có thể ngầm hiểu là “có ý chưa hài lòng”, tùy ngữ cảnh."},
+      {"id":"v11","hanzi":"想法","pinyin":"xiǎngfǎ","pos":"danh từ","meaning_vi":"suy nghĩ, ý nghĩ, ý tưởng","example_zh":"我有一个新想法，想和你说说。","example_pinyin":"Wǒ yǒu yí ge xīn xiǎngfǎ, xiǎng hé nǐ shuōshuo.","example_vi":"Tôi có một ý tưởng mới, muốn nói với bạn.","note_vi":"想法 thiên về ý nghĩ cá nhân, ý tưởng; 看法 là quan điểm đối với một sự việc. Ví dụ: 我有一个想法 (một ý nghĩ), 我对这件事的看法 (cách nhìn của tôi)."},
+      {"id":"v12","hanzi":"意见","pinyin":"yìjiàn","pos":"danh từ","meaning_vi":"ý kiến; sự bất đồng, bất mãn","example_zh":"对这个计划，大家有什么意见？","example_pinyin":"Duì zhège jìhuà, dàjiā yǒu shénme yìjiàn?","example_vi":"Về kế hoạch này, mọi người có ý kiến gì không?","hanviet":"Ý KIẾN","note_vi":"Cạm bẫy: 他对我有意见 là “anh ấy có ý bất mãn với tôi”, KHÔNG phải “anh ấy có ý kiến về tôi”. 提意见 = góp ý (có thể phê bình); nêu ý kiến trung tính là 发表意见."},
+      {"id":"v13","hanzi":"例如","pinyin":"lìrú","pos":"động từ","meaning_vi":"ví dụ như, chẳng hạn như","example_zh":"我喜欢很多运动，例如游泳、跑步和打球。","example_pinyin":"Wǒ xǐhuan hěn duō yùndòng, lìrú yóuyǒng, pǎobù hé dǎ qiú.","example_vi":"Tôi thích nhiều môn thể thao, ví dụ bơi, chạy bộ và chơi bóng.","hanviet":"LỆ NHƯ","note_vi":"Nghĩa như 比如 nhưng trang trọng hơn, hay gặp trong văn viết. Dùng trước phần liệt kê; có thể thêm 等 ở cuối."},
+      {"id":"v14","hanzi":"举例","pinyin":"jǔlì","pos":"động từ","meaning_vi":"nêu ví dụ","example_zh":"老师常常举例，让我们更容易明白。","example_pinyin":"Lǎoshī chángcháng jǔlì, ràng wǒmen gèng róngyì míngbai.","example_vi":"Thầy cô thường nêu ví dụ để chúng tôi dễ hiểu hơn.","hanviet":"CỬ LỆ","note_vi":"Động từ li hợp (举 + 例): 举个例, 举了一个例子. Cách nói gần: 举个例子 (nêu một ví dụ)."},
+      {"id":"v15","hanzi":"普遍","pinyin":"pǔbiàn","pos":"tính từ","meaning_vi":"phổ biến, rộng rãi","example_zh":"现在很多人都有手机，这很普遍。","example_pinyin":"Xiànzài hěn duō rén dōu yǒu shǒujī, zhè hěn pǔbiàn.","example_vi":"Bây giờ nhiều người có điện thoại, điều này rất phổ biến.","hanviet":"PHỔ BIẾN","note_vi":"Nói về hiện tượng có ở nhiều người, nhiều nơi: 普遍现象, 很普遍. Phó từ 普遍地 hay dùng trong 普遍认为 (mọi người phần lớn cho rằng)."},
+      {"id":"v16","hanzi":"普通","pinyin":"pǔtōng","pos":"tính từ","meaning_vi":"bình thường, thông thường","example_zh":"他只是一个普通的老师，不是什么名人。","example_pinyin":"Tā zhǐshì yí ge pǔtōng de lǎoshī, bú shì shénme míngrén.","example_vi":"Ông ấy chỉ là một thầy giáo bình thường, không phải người nổi tiếng gì.","hanviet":"PHỔ THÔNG","note_vi":"Nghĩa là “bình thường, không đặc biệt”: 普通人, 普通话 (tiếng phổ thông). Khác 普遍 (phổ biến, đông người). Gần 平常 (bài 8) nhưng 普通 dùng cho người, vật, mức độ thông thường."},
+      {"id":"v17","hanzi":"关键","pinyin":"guānjiàn","pos":"danh từ / tính từ","meaning_vi":"mấu chốt, then chốt; quan trọng nhất","example_zh":"学好汉语的关键是多说多练。","example_pinyin":"Xuéhǎo Hànyǔ de guānjiàn shì duō shuō duō liàn.","example_vi":"Mấu chốt để học tốt tiếng Trung là nói nhiều, luyện nhiều.","hanviet":"QUAN KIỆN","note_vi":"关键是…… (mấu chốt là…), 关键问题, 关键时候. Hán Việt “then chốt”."},
+      {"id":"v18","hanzi":"达到","pinyin":"dádào","pos":"động từ","meaning_vi":"đạt tới, đạt được","example_zh":"他的汉语已经达到了四级水平。","example_pinyin":"Tā de Hànyǔ yǐjīng dádào le sì jí shuǐpíng.","example_vi":"Tiếng Trung của anh ấy đã đạt trình độ cấp bốn.","hanviet":"ĐẠT ĐÁO","note_vi":"达到 + mục tiêu, mức độ, tiêu chuẩn (达到目的、达到标准). Không dùng để nói “đến một nơi”: đến Bắc Kinh là 到北京, không phải 达到北京."},
+      {"id":"v19","hanzi":"满","pinyin":"mǎn","pos":"tính từ / động từ","meaning_vi":"đầy; làm đầy","example_zh":"教室里坐满了学生。","example_pinyin":"Jiàoshì li zuò mǎn le xuésheng.","example_vi":"Trong lớp học ngồi đầy học sinh.","hanviet":"MÃN","note_vi":"Làm bổ ngữ kết quả: V + 满 (坐满、装满、写满). Cũng làm tính từ: 水满了 (nước đầy rồi). Hán Việt “mãn” mang nghĩa “đầy đủ” (mãn nguyện) cũng gần nghĩa này."},
+      {"id":"v20","hanzi":"不如","pinyin":"bùrú","pos":"động từ","meaning_vi":"không bằng; chi bằng","example_zh":"我的汉语不如你好。","example_pinyin":"Wǒ de Hànyǔ bùrú nǐ hǎo.","example_vi":"Tiếng Trung của tôi không giỏi bằng bạn.","hanviet":"BẤT NHƯ","note_vi":"(1) A 不如 B (+ tính từ): A không bằng B. (2) 不如 + V: “chi bằng, nên… thì hơn” (看电影不如在家休息: đi xem phim chi bằng ở nhà nghỉ). Phủ định của 比: 他没有我高 ≈ 他不如我高."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"日子","pinyin":"rìzi","pos":"danh từ","meaning_vi":"ngày tháng, cuộc sống","example_zh":"现在的日子过得很幸福。","example_pinyin":"Xiànzài de rìzi guò de hěn xìngfú.","example_vi":"Cuộc sống bây giờ trôi qua rất hạnh phúc.","note_vi":"Chữ 子 đọc nhẹ. 日子 còn chỉ ngày cụ thể: 今天是个好日子."},
+      {"id":"x2","hanzi":"调查","pinyin":"diàochá","pos":"động từ / danh từ","meaning_vi":"điều tra, khảo sát","example_zh":"我们调查了一百个人。","example_pinyin":"Wǒmen diàochá le yì bǎi ge rén.","example_vi":"Chúng tôi đã khảo sát một trăm người.","hanviet":"ĐIỀU TRA"},
+      {"id":"x3","hanzi":"讨论","pinyin":"tǎolùn","pos":"động từ","meaning_vi":"thảo luận","example_zh":"大家正在讨论这个问题。","example_pinyin":"Dàjiā zhèngzài tǎolùn zhège wèntí.","example_vi":"Mọi người đang thảo luận vấn đề này.","hanviet":"THẢO LUẬN"},
+      {"id":"x4","hanzi":"说法","pinyin":"shuōfǎ","pos":"danh từ","meaning_vi":"cách nói, quan điểm","example_zh":"对这件事，大家有不同的说法。","example_pinyin":"Duì zhè jiàn shì, dàjiā yǒu bù tóng de shuōfǎ.","example_vi":"Về chuyện này, mọi người có những cách nói khác nhau."},
+      {"id":"x5","hanzi":"例子","pinyin":"lìzi","pos":"danh từ","meaning_vi":"ví dụ","example_zh":"请你举一个例子。","example_pinyin":"Qǐng nǐ jǔ yí ge lìzi.","example_vi":"Xin bạn nêu một ví dụ."},
+      {"id":"x6","hanzi":"举","pinyin":"jǔ","pos":"động từ","meaning_vi":"giơ lên; nêu (ví dụ)","example_zh":"有问题的同学请举手。","example_pinyin":"Yǒu wèntí de tóngxué qǐng jǔ shǒu.","example_vi":"Bạn nào có câu hỏi xin giơ tay.","hanviet":"CỬ"},
+      {"id":"x7","hanzi":"多数","pinyin":"duōshù","pos":"danh từ","meaning_vi":"đa số","example_zh":"多数人喜欢周末出去玩。","example_pinyin":"Duōshù rén xǐhuan zhōumò chūqu wán.","example_vi":"Đa số mọi người thích cuối tuần ra ngoài chơi."},
+      {"id":"x8","hanzi":"少数","pinyin":"shǎoshù","pos":"danh từ","meaning_vi":"thiểu số, số ít","example_zh":"只有少数人不同意这个办法。","example_pinyin":"Zhǐyǒu shǎoshù rén bù tóngyì zhège bànfǎ.","example_vi":"Chỉ có số ít người không đồng ý cách này."},
+      {"id":"x9","hanzi":"人数","pinyin":"rénshù","pos":"danh từ","meaning_vi":"số người","example_zh":"参加比赛的人数是二十。","example_pinyin":"Cānjiā bǐsài de rénshù shì èrshí.","example_vi":"Số người tham gia thi đấu là hai mươi."},
+      {"id":"x10","hanzi":"所有","pinyin":"suǒyǒu","pos":"tính từ","meaning_vi":"mọi, tất cả các","example_zh":"所有的学生都来了。","example_pinyin":"Suǒyǒu de xuésheng dōu lái le.","example_vi":"Tất cả học sinh đều đã đến.","note_vi":"所有的 + danh từ, thường đi với 都: 所有的人都……"},
+      {"id":"x11","hanzi":"全都","pinyin":"quándōu","pos":"phó từ","meaning_vi":"đều, toàn bộ","example_zh":"他们全都同意这个办法。","example_pinyin":"Tāmen quándōu tóngyì zhège bànfǎ.","example_vi":"Họ đều đồng ý cách này."},
+      {"id":"x12","hanzi":"完全","pinyin":"wánquán","pos":"phó từ / tính từ","meaning_vi":"hoàn toàn","example_zh":"我完全同意你的看法。","example_pinyin":"Wǒ wánquán tóngyì nǐ de kànfǎ.","example_vi":"Tôi hoàn toàn đồng ý với cách nhìn của bạn.","hanviet":"HOÀN TOÀN"},
+      {"id":"x13","hanzi":"方面","pinyin":"fāngmiàn","pos":"danh từ","meaning_vi":"mặt, phương diện","example_zh":"在学习方面，她很努力。","example_pinyin":"Zài xuéxí fāngmiàn, tā hěn nǔlì.","example_vi":"Về mặt học tập, cô ấy rất chăm chỉ.","hanviet":"PHƯƠNG DIỆN"},
+      {"id":"x14","hanzi":"情况","pinyin":"qíngkuàng","pos":"danh từ","meaning_vi":"tình hình, hoàn cảnh","example_zh":"你家里的情况怎么样？","example_pinyin":"Nǐ jiā li de qíngkuàng zěnmeyàng?","example_vi":"Tình hình ở nhà bạn thế nào?"},
+      {"id":"x15","hanzi":"就是","pinyin":"jiùshì","pos":"phó từ / liên từ","meaning_vi":"chính là; chỉ là (có điều)","example_zh":"这件衣服好是好，就是太贵了。","example_pinyin":"Zhè jiàn yīfu hǎo shì hǎo, jiùshì tài guì le.","example_vi":"Chiếc áo này tốt thì tốt, chỉ là đắt quá.","note_vi":"就是 như 不过 trong khẩu ngữ: nêu một điểm chưa hài lòng. Cũng dùng để nhấn mạnh: 我就是小李 (tôi chính là Tiểu Lý)."},
+      {"id":"x16","hanzi":"也许","pinyin":"yěxǔ","pos":"phó từ","meaning_vi":"có lẽ, biết đâu","example_zh":"也许明天会下雨，你带着伞吧。","example_pinyin":"Yěxǔ míngtiān huì xià yǔ, nǐ dài zhe sǎn ba.","example_vi":"Có lẽ ngày mai sẽ mưa, bạn mang ô theo đi."},
+      {"id":"x17","hanzi":"仅仅","pinyin":"jǐnjǐn","pos":"phó từ","meaning_vi":"chỉ, vẻn vẹn","example_zh":"他仅仅学了三个月，就说得很好。","example_pinyin":"Tā jǐnjǐn xué le sān ge yuè, jiù shuō de hěn hǎo.","example_vi":"Anh ấy chỉ mới học ba tháng mà đã nói rất giỏi."},
+      {"id":"x18","hanzi":"不必","pinyin":"búbì","pos":"phó từ","meaning_vi":"không cần, khỏi phải","example_zh":"时间还早，你不必着急。","example_pinyin":"Shíjiān hái zǎo, nǐ búbì zháojí.","example_vi":"Còn sớm, bạn không cần vội.","note_vi":"不 đọc bú vì đứng trước thanh 4. 不必 trang trọng hơn 不用."},
+      {"id":"x19","hanzi":"得意","pinyin":"déyì","pos":"tính từ","meaning_vi":"đắc ý, hài lòng về mình","example_zh":"他考了第一名，看起来很得意。","example_pinyin":"Tā kǎo le dì yī míng, kàn qǐlai hěn déyì.","example_vi":"Anh ấy đứng nhất, trông có vẻ rất đắc ý.","hanviet":"ĐẮC Ý"},
+      {"id":"x20","hanzi":"兴奋","pinyin":"xīngfèn","pos":"tính từ","meaning_vi":"phấn khích, hào hứng","example_zh":"听说要去旅行，大家都很兴奋。","example_pinyin":"Tīngshuō yào qù lǚxíng, dàjiā dōu hěn xīngfèn.","example_vi":"Nghe nói sắp đi du lịch, ai cũng rất háo hức.","hanviet":"HƯNG PHẤN"},
+      {"id":"x21","hanzi":"爱心","pinyin":"àixīn","pos":"danh từ","meaning_vi":"lòng yêu thương, tấm lòng nhân ái","example_zh":"她是一个很有爱心的人。","example_pinyin":"Tā shì yí ge hěn yǒu àixīn de rén.","example_vi":"Cô ấy là người rất có lòng nhân ái."},
+      {"id":"x22","hanzi":"青年","pinyin":"qīngnián","pos":"danh từ","meaning_vi":"thanh niên, người trẻ","example_zh":"现在的青年喜欢新东西。","example_pinyin":"Xiànzài de qīngnián xǐhuan xīn dōngxi.","example_vi":"Thanh niên bây giờ thích những thứ mới.","hanviet":"THANH NIÊN"},
+      {"id":"x23","hanzi":"中年","pinyin":"zhōngnián","pos":"danh từ","meaning_vi":"trung niên","example_zh":"他今年四十五岁，已经是中年人了。","example_pinyin":"Tā jīnnián sìshíwǔ suì, yǐjīng shì zhōngniánrén le.","example_vi":"Năm nay ông ấy bốn mươi lăm tuổi, đã là người trung niên rồi.","hanviet":"TRUNG NIÊN"},
+      {"id":"x24","hanzi":"老年","pinyin":"lǎonián","pos":"danh từ","meaning_vi":"tuổi già, người già","example_zh":"老年人要多注意身体。","example_pinyin":"Lǎoniánrén yào duō zhùyì shēntǐ.","example_vi":"Người già nên chú ý đến sức khỏe nhiều hơn.","hanviet":"LÃO NIÊN"},
+      {"id":"x25","hanzi":"孙子","pinyin":"sūnzi","pos":"danh từ","meaning_vi":"cháu trai (con của con trai)","example_zh":"爷爷的孙子今年五岁了。","example_pinyin":"Yéye de sūnzi jīnnián wǔ suì le.","example_vi":"Cháu nội của ông năm nay đã năm tuổi.","hanviet":"TÔN TỬ","note_vi":"Hán Việt “tôn tử” là Tôn Tử (tên người) hoặc cháu; 孙子 sūnzi là cháu nội trai. Đọc nhẹ chữ 子."},
+      {"id":"x26","hanzi":"孙女","pinyin":"sūnnǚ","pos":"danh từ","meaning_vi":"cháu gái (con của con trai)","example_zh":"奶奶有一个孙女，在北京工作。","example_pinyin":"Nǎinai yǒu yí ge sūnnǚ, zài Běijīng gōngzuò.","example_vi":"Bà có một đứa cháu gái nội, làm việc ở Bắc Kinh.","hanviet":"TÔN NỮ"},
+      {"id":"x27","hanzi":"之前","pinyin":"zhīqián","pos":"danh từ","meaning_vi":"trước (khi), trước đó","example_zh":"吃饭之前，先洗手。","example_pinyin":"Chī fàn zhīqián, xiān xǐ shǒu.","example_vi":"Trước khi ăn, rửa tay trước.","note_vi":"Giống 以前 nhưng trang trọng hơn; có thể đứng sau từ chỉ thời gian hoặc động từ: 三天之前, 来之前."},
+      {"id":"x28","hanzi":"之后","pinyin":"zhīhòu","pos":"danh từ","meaning_vi":"sau (khi), sau đó","example_zh":"下课之后，我们一起去吃饭。","example_pinyin":"Xiàkè zhīhòu, wǒmen yìqǐ qù chī fàn.","example_vi":"Sau giờ học, chúng ta cùng đi ăn.","note_vi":"Giống 以后. 之后 còn dùng ở đầu câu với nghĩa “sau đó”."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“不过” (nhưng, có điều) và “确实” (quả thật)",
+        "pattern":"…，不过 + vế bổ sung　·　S + 不过 + số lượng nhỏ　·　S + 确实 + V / Adj",
+        "explanation_vi":"(1) 不过 làm liên từ: nối hai vế, vế sau bổ sung một điểm chưa hoàn hảo hoặc một điều kiện nhỏ. Nhẹ nhàng hơn 但是 / 可是 vì vế trước thường vẫn đúng: 好看，不过有点儿贵 (đẹp, có điều hơi đắt). 不过 đứng đầu vế sau. 不 đọc bú (búguò). Làm phó từ, 不过 nghĩa “chỉ, chẳng qua” + số lượng: 他不过二十岁.\n(2) 确实 là phó từ “quả thật, đúng là”, xác nhận một sự thật. Đứng trước động từ hoặc tính từ: 他确实很努力. Có thể đứng một mình để đồng tình: 确实！ Phủ định xếp sau 确实: 确实没有。\nHai từ hay đi cùng nhau trong cuộc trò chuyện: 钱确实重要，不过它不是全部。",
+        "examples":[
+          {"zh":"这件衣服很好看，不过有点儿贵。","pinyin":"Zhè jiàn yīfu hěn hǎokàn, búguò yǒudiǎnr guì.","vi":"Chiếc áo này rất đẹp, có điều hơi đắt."},
+          {"zh":"我同意你的意见，不过还有一个问题。","pinyin":"Wǒ tóngyì nǐ de yìjiàn, búguò hái yǒu yí ge wèntí.","vi":"Tôi đồng ý với ý kiến của bạn, có điều vẫn còn một vấn đề."},
+          {"zh":"他不过二十岁，已经是经理了。","pinyin":"Tā búguò èrshí suì, yǐjīng shì jīnglǐ le.","vi":"Anh ấy mới hai mươi tuổi mà đã là giám đốc."},
+          {"zh":"这里的夏天确实很热。","pinyin":"Zhèli de xiàtiān quèshí hěn rè.","vi":"Mùa hè ở đây quả thật rất nóng."},
+          {"zh":"钱确实很重要，不过它不是全部。","pinyin":"Qián quèshí hěn zhòngyào, búguò tā bú shì quánbù.","vi":"Tiền quả thật rất quan trọng, có điều nó không phải là tất cả."}
+        ],
+        "mistakes_vi":"✗ 虽然他很忙，不过但是他来了。\n✓ 虽然他很忙，不过他还是来了。\n不过 và 但是 cùng nghĩa, không dùng chồng lên nhau.\n✗ 这个菜很好吃，确实有点儿贵。\n✓ 这个菜很好吃，不过有点儿贵。\n确实 là “quả thật”, không có nghĩa “nhưng”. Chuyển ý nhẹ là 不过.\n✗ 这次考试我不过了。\n✓ 这次考试我没通过。\nTrong 不过 không có nghĩa “thi trượt”; “không đỗ” là 没通过.",
+        "compare_vi":"不过 ≈ “có điều, có điều là, nhưng mà”; 确实 ≈ “quả thật, đúng là”."
+      },
+      {
+        "id":"g2",
+        "title":"“在……看来” (theo quan điểm của…)",
+        "pattern":"在 + người + 看来，+ ý kiến　·　在 + người + 看来，A + 是 / 就是 + B",
+        "explanation_vi":"在……看来 đưa ra quan điểm của một người hay một nhóm người, nghĩa là “theo ý (họ), trong mắt (họ)”. Ở giữa là người hoặc nhóm người (我、他、老师、很多年轻人), không dùng đại từ sở hữu hay vật.\nSau dấu phẩy là nhận định đầy đủ, không cần thêm 觉得 / 认为: 在我看来，幸福是健康 (không nói 在我看来，我觉得…). Đây là cách nói trung tính và hơi trang trọng; thích hợp khi bàn luận, viết bài hoặc trả lời phỏng vấn.",
+        "examples":[
+          {"zh":"在我看来，幸福就是和家人在一起。","pinyin":"Zài wǒ kànlái, xìngfú jiù shì hé jiārén zài yìqǐ.","vi":"Theo tôi, hạnh phúc chính là được ở bên gia đình."},
+          {"zh":"在老师看来，学习汉语最重要的是多说。","pinyin":"Zài lǎoshī kànlái, xuéxí Hànyǔ zuì zhòngyào de shì duō shuō.","vi":"Theo thầy cô, điều quan trọng nhất khi học tiếng Trung là nói nhiều."},
+          {"zh":"在很多年轻人看来，有一份喜欢的工作比钱更重要。","pinyin":"Zài hěn duō niánqīngrén kànlái, yǒu yí fèn xǐhuan de gōngzuò bǐ qián gèng zhòngyào.","vi":"Theo nhiều người trẻ, có một công việc mình thích quan trọng hơn tiền."},
+          {"zh":"在他看来，这只是一件小事。","pinyin":"Zài tā kànlái, zhè zhǐshì yí jiàn xiǎo shì.","vi":"Trong mắt anh ấy, đây chỉ là một chuyện nhỏ."}
+        ],
+        "mistakes_vi":"✗ 我在看来，幸福就是健康。\n✓ 在我看来，幸福就是健康。\n“Người” phải nằm giữa 在 và 看来.\n✗ 在我的看来，幸福就是健康。\n✓ 在我看来，幸福就是健康。\nKhông thêm 的 vào giữa 在 và 看来.\n✗ 在我看来，我觉得幸福就是健康。\n✓ 在我看来，幸福就是健康。\n在……看来 đã mang nghĩa “theo tôi”, không thêm 觉得 hay 认为.",
+        "compare_vi":"在我看来 ≈ “theo tôi, trong mắt tôi, theo quan điểm của tôi”."
+      },
+      {
+        "id":"g3",
+        "title":"“由于” (do, bởi vì)",
+        "pattern":"由于 + nguyên nhân，(所以 / 因此) + kết quả　·　由于 + N，……",
+        "explanation_vi":"由于 nêu nguyên nhân, dùng nhiều trong văn viết, thông báo, bài báo, phát biểu trang trọng. Có thể đi với danh từ (由于天气) hoặc cả vế (由于工作太忙). Vế sau thường có 所以 hoặc 因此 (không bắt buộc).\nSo với 因为: 因为 khẩu ngữ hơn và có thể đứng ở vế sau (他没来，因为生病了); 由于 chủ yếu đứng đầu câu để nêu lý do trước. Không dùng chung 由于 và 因为 trong cùng một vế.",
+        "examples":[
+          {"zh":"由于下雨，比赛改到下周了。","pinyin":"Yóuyú xià yǔ, bǐsài gǎi dào xià zhōu le.","vi":"Do trời mưa, trận đấu dời sang tuần sau."},
+          {"zh":"由于工作太忙，他很少有时间回家。","pinyin":"Yóuyú gōngzuò tài máng, tā hěn shǎo yǒu shíjiān huí jiā.","vi":"Do công việc quá bận, anh ấy rất ít có thời gian về nhà."},
+          {"zh":"由于每个人的生活不一样，幸福的标准也不一样。","pinyin":"Yóuyú měi ge rén de shēnghuó bù yíyàng, xìngfú de biāozhǔn yě bù yíyàng.","vi":"Do cuộc sống của mỗi người khác nhau, tiêu chuẩn hạnh phúc cũng khác nhau."},
+          {"zh":"由于身体不好，爷爷不能去旅行，所以我们决定在家过节。","pinyin":"Yóuyú shēntǐ bù hǎo, yéye bù néng qù lǚxíng, suǒyǐ wǒmen juédìng zài jiā guòjié.","vi":"Do ông sức khỏe không tốt, không đi du lịch được, nên chúng tôi quyết định ở nhà đón lễ."}
+        ],
+        "mistakes_vi":"✗ 由于下雨，因为比赛改了。\n✓ 由于下雨，所以比赛改了。\n由于 nêu nguyên nhân; vế kết quả dùng 所以 / 因此, không dùng 因为.\n✗ 他没来，由于生病了。\n✓ 他没来，因为生病了。\n由于 thường đặt ở đầu câu; khi nêu lý do sau kết quả hãy dùng 因为.\n✗ 由于因为工作忙，他没去。\n✓ 由于工作忙，他没去。\nChỉ dùng một từ chỉ nguyên nhân.",
+        "compare_vi":"由于 ≈ “do, bởi vì, vì” (văn viết); 因为 ≈ “vì” (nói và viết đều dùng được)."
+      },
+      {
+        "id":"g4",
+        "title":"“比如” (ví dụ như) và “例如”",
+        "pattern":"…，比如 / 例如 + ví dụ 1、ví dụ 2……　·　举个例子，……",
+        "explanation_vi":"比如 và 例如 đều là “ví dụ như, chẳng hạn”. Chúng đứng trước phần ví dụ minh họa cho điều vừa nói ở trước: 我喜欢运动，比如游泳、跑步。 比如 hay dùng khi nói chuyện (còn nói 比如说); 例如 trang trọng hơn, hay gặp trong văn viết. Sau phần liệt kê có thể thêm 等 hoặc 等等 nhưng không đặt cả 还有 và 等等.\nTa còn có cách nói 举个例子 / 举例来说 (để nêu một ví dụ): 举个例子，你可以……",
+        "examples":[
+          {"zh":"我喜欢很多运动，比如游泳、跑步和打球。","pinyin":"Wǒ xǐhuan hěn duō yùndòng, bǐrú yóuyǒng, pǎobù hé dǎ qiú.","vi":"Tôi thích nhiều môn thể thao, ví dụ như bơi, chạy bộ và chơi bóng."},
+          {"zh":"有些事能让人幸福，比如和家人一起吃饭。","pinyin":"Yǒuxiē shì néng ràng rén xìngfú, bǐrú hé jiārén yìqǐ chī fàn.","vi":"Có những việc khiến người ta hạnh phúc, ví dụ như ăn cơm cùng gia đình."},
+          {"zh":"很多城市都很美，例如北京、上海和杭州。","pinyin":"Hěn duō chéngshì dōu hěn měi, lìrú Běijīng, Shànghǎi hé Hángzhōu.","vi":"Nhiều thành phố đều rất đẹp, ví dụ như Bắc Kinh, Thượng Hải và Hàng Châu."},
+          {"zh":"他有很多爱好，比如说，打球、唱歌、看书。","pinyin":"Tā yǒu hěn duō àihào, bǐrú shuō, dǎ qiú, chànggē, kàn shū.","vi":"Anh ấy có nhiều sở thích, chẳng hạn như chơi bóng, hát, đọc sách."},
+          {"zh":"请你举个例子，让我们更容易明白。","pinyin":"Qǐng nǐ jǔ ge lìzi, ràng wǒmen gèng róngyì míngbai.","vi":"Xin bạn nêu một ví dụ để chúng tôi dễ hiểu hơn."}
+        ],
+        "mistakes_vi":"✗ 我喜欢运动，比如游泳、跑步，还有等等。\n✓ 我喜欢运动，比如游泳、跑步等。\n比如 liệt kê vài ví dụ; kết thúc bằng 等 là đủ, không thêm 还有.\n✗ 我举例一下。\n✓ 我举个例子。/ 我来举例说明。\n举例 là li hợp, thường tách ra: 举个例子; không thêm 一下 ngay sau.\n✗ 他比如我高。\n✓ 他比我高。\n比如 (ví dụ) khác 比 (so sánh); đừng lẫn.",
+        "compare_vi":"比如 ≈ “ví dụ như, chẳng hạn”. 例如 trang trọng hơn một chút."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Thế nào là hạnh phúc?",
+      "scene_vi": "Giờ nghỉ trưa ở căng tin, Tiểu Lâm và Tiểu Mã đang làm bài khảo sát cho lớp: “Hạnh phúc là gì?”. Họ trao đổi quan điểm của chính mình.",
+      "lines": [
+        {"speaker":"小林","zh":"老师让我们做一个调查：你觉得什么是幸福？你先说说吧。","pinyin":"Lǎoshī ràng wǒmen zuò yí ge diàochá: nǐ juéde shénme shì xìngfú? Nǐ xiān shuōshuo ba.","vi":"Thầy bảo chúng ta làm một cuộc khảo sát: bạn thấy hạnh phúc là gì? Bạn nói trước đi."},
+        {"speaker":"小马","zh":"在我看来，有很多钱就是幸福。可以买喜欢的东西，去想去的地方。","pinyin":"Zài wǒ kànlái, yǒu hěn duō qián jiù shì xìngfú. Kěyǐ mǎi xǐhuan de dōngxi, qù xiǎng qù de dìfang.","vi":"Theo tớ, có thật nhiều tiền chính là hạnh phúc. Có thể mua thứ mình thích, đi nơi mình muốn."},
+        {"speaker":"小林","zh":"钱确实重要。不过，我觉得有钱的人不一定都幸福。","pinyin":"Qián quèshí zhòngyào. Búguò, wǒ juéde yǒu qián de rén bù yídìng dōu xìngfú.","vi":"Tiền quả thật quan trọng. Có điều tớ thấy người có tiền chưa chắc đã hạnh phúc."},
+        {"speaker":"小马","zh":"为什么这么说？","pinyin":"Wèi shénme zhème shuō?","vi":"Sao cậu nói vậy?"},
+        {"speaker":"小林","zh":"比如我表哥，他很有钱，可是每天工作到很晚，烦恼也很多。由于太忙，他很少有时间和家人在一起。","pinyin":"Bǐrú wǒ biǎogē, tā hěn yǒu qián, kěshì měi tiān gōngzuò dào hěn wǎn, fánnǎo yě hěn duō. Yóuyú tài máng, tā hěn shǎo yǒu shíjiān hé jiārén zài yìqǐ.","vi":"Ví dụ anh họ tớ, anh ấy rất giàu, nhưng ngày nào cũng làm việc đến khuya, phiền muộn cũng nhiều. Do quá bận, anh ấy rất ít thời gian ở bên gia đình."},
+        {"speaker":"小马","zh":"这么说，有钱不如有时间？","pinyin":"Zhème shuō, yǒu qián bùrú yǒu shíjiān?","vi":"Nói vậy thì có tiền không bằng có thời gian?"},
+        {"speaker":"小林","zh":"也许吧。我很羡慕我的爷爷奶奶，他们的日子很普通，可是每天都过得很愉快。","pinyin":"Yěxǔ ba. Wǒ hěn xiànmù wǒ de yéye nǎinai, tāmen de rìzi hěn pǔtōng, kěshì měi tiān dōu guò de hěn yúkuài.","vi":"Có lẽ vậy. Tớ rất ngưỡng mộ ông bà tớ, cuộc sống của họ rất bình thường, nhưng ngày nào cũng trôi qua vui vẻ."},
+        {"speaker":"小马","zh":"他们的幸福标准是什么？","pinyin":"Tāmen de xìngfú biāozhǔn shì shénme?","vi":"Tiêu chuẩn hạnh phúc của họ là gì?"},
+        {"speaker":"小林","zh":"爷爷说，一家人身体健康，每天能一起吃饭，就是最大的幸福。","pinyin":"Yéye shuō, yì jiā rén shēntǐ jiànkāng, měi tiān néng yìqǐ chī fàn, jiù shì zuì dà de xìngfú.","vi":"Ông nói, cả nhà sức khỏe tốt, ngày nào cũng được ăn cơm cùng nhau, đó chính là hạnh phúc lớn nhất."},
+        {"speaker":"小马","zh":"看来幸福的关键不是有多少钱，而是你怎么想。我的想法也要改一改了。","pinyin":"Kànlái xìngfú de guānjiàn bú shì yǒu duōshao qián, ér shì nǐ zěnme xiǎng. Wǒ de xiǎngfǎ yě yào gǎi yi gǎi le.","vi":"Xem ra mấu chốt của hạnh phúc không phải là có bao nhiêu tiền, mà là cậu nghĩ thế nào. Cách nghĩ của tớ cũng phải thay đổi rồi."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:幸福","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"和家人在一起，我觉得很____。","options":["幸福","普通","关键","满"],"answer":0,"explanation_vi":"Ở bên gia đình thì cảm thấy hạnh phúc: 很幸福."},
+      {"id":"e2","type":"choice","tag":"v:标准","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"每个人对幸福的____都不一样。","options":["标准","例子","烦恼","日子"],"answer":0,"explanation_vi":"“Tiêu chuẩn của hạnh phúc”: 幸福的标准. Các từ còn lại không hợp nghĩa."},
+      {"id":"e3","type":"choice","tag":"v:羡慕","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你每天都能去旅行，我真____你。","options":["羡慕","鼓励","达到","举例"],"answer":0,"explanation_vi":"Ao ước người khác được điều tốt đẹp: 羡慕你."},
+      {"id":"e4","type":"choice","tag":"v:烦恼","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他没有什么____，每天都很高兴。","options":["烦恼","标准","意见","关键"],"answer":0,"explanation_vi":"Không có phiền muộn nên ngày nào cũng vui: 没有烦恼."},
+      {"id":"e5","type":"choice","tag":"v:关键","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"学好汉语的____是多说多练。","options":["关键","例如","满","不如"],"answer":0,"explanation_vi":"Mấu chốt để học tốt: 学好汉语的关键 + 是……."},
+      {"id":"e6","type":"choice","tag":"v:普通","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他只是一个____的老师，不是什么名人。","options":["普通","幸福","愉快","羡慕"],"answer":0,"explanation_vi":"Không phải người nổi tiếng → “bình thường”: 普通的老师."},
+      {"id":"e7","type":"choice","tag":"v:不如","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"看电影____在家休息，今天太累了。","options":["不如","不过","确实","由于"],"answer":0,"explanation_vi":"A 不如 B: “A không bằng B / chi bằng B”. Mệt rồi nên ở nhà nghỉ thì tốt hơn."},
+      {"id":"e8","type":"choice","tag":"g:不过","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这件衣服很好看，____有点儿贵。","options":["不过","由于","比如","确实"],"answer":0,"explanation_vi":"Khen rồi bổ sung điểm chưa hài lòng: 不过 (có điều)."},
+      {"id":"e9","type":"choice","tag":"g:确实","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你说得____对，我同意。","options":["确实","不过","比如","由于"],"answer":0,"explanation_vi":"Xác nhận điều đúng: 确实对 (quả thật đúng)."},
+      {"id":"e10","type":"choice","tag":"g:在看来","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["在我看来，幸福就是健康。","我在看来，幸福就是健康。","在我的看来，幸福就是健康。","在看我来，幸福就是健康。"],"answer":0,"explanation_vi":"Cấu trúc cố định 在 + người + 看来; không thêm 的 và không đảo vị trí."},
+      {"id":"e11","type":"choice","tag":"g:由于","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____工作太忙，他很少回家。","options":["由于","虽然","如果","比如"],"answer":0,"explanation_vi":"Nêu nguyên nhân (công việc bận) → kết quả: 由于……,……."},
+      {"id":"e12","type":"choice","tag":"g:比如","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我喜欢很多运动，____游泳、跑步。","options":["比如","不过","由于","确实"],"answer":0,"explanation_vi":"Nêu ví dụ cho “nhiều môn thể thao”: 比如."},
+      {"id":"e13","type":"order","tag":"g:在看来","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["在","我","看来","幸福","就是","健康"],"answers":["在我看来幸福就是健康"],"translation_vi":"Theo tôi, hạnh phúc chính là sức khỏe.","explanation_vi":"在 + 我 + 看来 mở đầu, rồi đến nhận định 幸福就是健康."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"青年","vi":"thanh niên"},{"zh":"中年","vi":"trung niên"},{"zh":"老年","vi":"tuổi già"},{"zh":"孙子","vi":"cháu trai nội"},{"zh":"孙女","vi":"cháu gái nội"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:不过","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["虽然他很忙，不过他还是来了。","虽然他很忙，不过但是他来了。","虽然他很忙，所以他来了。","他很忙虽然，不过来了。"],"answer":0,"explanation_vi":"虽然……不过……; không chồng 不过 với 但是."},
+        {"id":"q2","type":"choice","tag":"g:确实","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这家饭馆的菜____很好吃，你应该去试试。","options":["确实","不过","由于","比如"],"answer":0,"explanation_vi":"Xác nhận món ăn thật sự ngon: 确实很好吃."},
+        {"id":"q3","type":"choice","tag":"g:在看来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____他看来，这只是一件小事。","options":["在","把","给","被"],"answer":0,"explanation_vi":"Cấu trúc 在……看来 (trong mắt…)."},
+        {"id":"q4","type":"choice","tag":"g:由于","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["由于下雨，比赛改到下周了。","由于下雨，因为比赛改到下周了。","下雨由于，比赛改到下周了。","由于下雨，但是比赛改到下周了。"],"answer":0,"explanation_vi":"由于 + nguyên nhân，+ kết quả; không dùng 因为 hay 但是 ở vế kết quả."},
+        {"id":"q5","type":"choice","tag":"g:比如","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我有很多爱好，____看书、唱歌、打球。","options":["比如","不过","确实","由于"],"answer":0,"explanation_vi":"Đưa ví dụ minh họa cho “nhiều sở thích”: 比如."},
+        {"id":"q6","type":"choice","tag":"g:不过","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我也想去，____今天要加班。","options":["不过","确实","比如","由于"],"answer":0,"explanation_vi":"Muốn đi nhưng phải làm thêm giờ → 不过 (có điều)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:愉快","prompt_vi":"Chọn đáp án đúng.","question_zh":"祝你周末____！","options":["愉快","普遍","满","达到"],"answer":0,"explanation_vi":"Lời chúc: 祝你周末愉快! (chúc cuối tuần vui vẻ)."},
+      {"id":"t2","type":"choice","tag":"g:确实","prompt_vi":"Chọn đáp án đúng.","question_zh":"他____很努力，所以成绩越来越好。","options":["确实","不过","比如","由于"],"answer":0,"explanation_vi":"确实 + tính từ/động từ: xác nhận sự thật “quả thật rất cố gắng”."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"方面","vi":"mặt, phương diện"},{"zh":"情况","vi":"tình hình"},{"zh":"完全","vi":"hoàn toàn"},{"zh":"也许","vi":"có lẽ"},{"zh":"仅仅","vi":"chỉ, vẻn vẹn"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"多数","vi":"đa số"},{"zh":"少数","vi":"thiểu số"},{"zh":"人数","vi":"số người"},{"zh":"所有","vi":"mọi, tất cả các"},{"zh":"全都","vi":"đều, toàn bộ"}]},
+      {"id":"t5","type":"order","tag":"g:由于","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["由于","下雨","比赛","改到","下周了"],"answers":["由于下雨比赛改到下周了","比赛由于下雨改到下周了"],"translation_vi":"Do trời mưa, trận đấu dời sang tuần sau.","explanation_vi":"由于下雨 nêu nguyên nhân; có thể đặt đầu câu hoặc sau chủ ngữ 比赛."},
+      {"id":"t6","type":"order","tag":"g:比如","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","喜欢","很多","运动","比如","游泳"],"answers":["我喜欢很多运动比如游泳"],"translation_vi":"Tôi thích nhiều môn thể thao, ví dụ như bơi lội.","explanation_vi":"Nêu nhận định trước (我喜欢很多运动), rồi 比如 + ví dụ (游泳)."},
+      {"id":"t7","type":"fill","tag":"g:在看来","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"____我看来，幸福就是健康。","answers":["在"],"hint_vi":"theo (tôi)…","explanation_vi":"在我看来 = theo tôi."},
+      {"id":"t8","type":"fill","tag":"g:不过","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"这个办法很好，____有点儿贵。","answers":["不过","但是","可是"],"hint_vi":"có điều / nhưng","explanation_vi":"Khen rồi nêu điểm chưa hài lòng → 不过 (但是 / 可是 cũng được)."},
+      {"id":"t9","type":"listen_choice","tag":"g:由于","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"由于工作太忙，他很少回家。","options":["Do công việc quá bận, anh ấy rất ít khi về nhà.","Vì anh ấy ít về nhà nên công việc rất bận.","Công việc bận nên anh ấy ngày nào cũng về nhà.","Dù công việc bận, anh ấy vẫn thường về nhà."],"answer":0,"explanation_vi":"由于工作太忙 = do công việc quá bận; 很少回家 = rất ít về nhà."},
+      {"id":"t10","type":"listen_choice","tag":"v:羡慕","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"我很羡慕你每天都能去旅行。","options":["我很羡慕你每天都能去旅行。","我很高兴你每天都能去旅行。","我很羡慕你每天都能去上班。","我也想每天都去旅行。"],"answer":0,"explanation_vi":"Câu nghe được: 我很羡慕你每天都能去旅行 = Tôi rất ngưỡng mộ bạn, ngày nào cũng được đi du lịch."},
+      {"id":"t11","type":"dictation","tag":"g:确实","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你说得确实很对。","answers":["你说得确实很对","你说得确实对"],"explanation_vi":"你说得确实很对 = Bạn nói quả thật rất đúng."},
+      {"id":"t12","type":"dictation","tag":"v:幸福","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"和家人在一起，我觉得很幸福。","answers":["和家人在一起我觉得很幸福"],"explanation_vi":"和家人在一起，我觉得很幸福 = Ở bên gia đình, tôi thấy rất hạnh phúc."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:在看来","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Theo tôi, hạnh phúc chính là sức khỏe.","answers":["在我看来，幸福就是健康","在我看来幸福就是健康","在我看来，幸福就是身体健康","在我看来幸福就是身体健康","在我看来，幸福就是有一个好身体","在我看来，幸福就是身体好","在我看来，幸福是健康","在我看来，健康就是幸福"],"explanation_vi":"在我看来 = theo tôi; 幸福就是健康 = hạnh phúc chính là sức khỏe."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:比如","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tôi thích nhiều môn thể thao, ví dụ như bơi và chạy bộ.","answers":["我喜欢很多运动，比如游泳和跑步","我喜欢很多运动，比如游泳、跑步","我喜欢很多运动，例如游泳和跑步","我喜欢很多运动，例如游泳、跑步","我喜欢很多体育运动，比如游泳和跑步","我喜欢很多体育运动，例如游泳和跑步","我喜欢很多运动，比如说游泳和跑步","我喜欢很多运动，比如游泳，跑步"],"explanation_vi":"比如 / 例如 + ví dụ; nhiều môn thể thao = 很多运动."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:不如","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这个办法不如那个好。","answers_vi":["Cách này không tốt bằng cách kia.","Biện pháp này kém hơn biện pháp kia."],"keywords":[["cách","biện pháp","phương pháp"],["không bằng","kém","không tốt bằng","chẳng bằng"],["kia","đó"]],"explanation_vi":"A 不如 B 好 = A không tốt bằng B."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:由于","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"由于工作太忙，他很少有时间回家。","answers_vi":["Do công việc quá bận, anh ấy rất ít có thời gian về nhà.","Vì công việc bận quá nên anh ấy hiếm khi có thời gian về nhà."],"keywords":[["do","vì","bởi"],["bận"],["ít","hiếm"],["thời gian"],["về nhà"]],"explanation_vi":"由于 = do; 很少有时间 = rất ít có thời gian."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"什么是幸福？",
+        "title_vi":"Thế nào là hạnh phúc?",
+        "paragraphs":[
+          {
+            "tokens":[["我们班","wǒmen bān","lớp chúng tôi"],["做","zuò","làm"],["了","le","(đã)"],["一个","yí ge","một"],["调查","diàochá","cuộc khảo sát"],["，"],["问","wèn","hỏi"],["了","le","(đã)"],["一百","yì bǎi","một trăm"],["个","ge","(lượng từ)"],["人","rén","người"],["："],["“"],["你","nǐ","bạn"],["觉得","juéde","thấy"],["什么","shénme","cái gì"],["是","shì","là"],["幸福","xìngfú","hạnh phúc"],["？"],["”"],["调查","diàochá","cuộc khảo sát"],["发现","fāxiàn","phát hiện"],["，"],["不同","bù tóng","khác nhau"],["年纪","niánjì","tuổi tác"],["的","de","(trợ từ)"],["人","rén","người"],["，"],["看法","kànfǎ","cách nhìn"],["很","hěn","rất"],["不一样","bù yíyàng","khác nhau"],["。"]],
+            "vi":"Lớp chúng tôi làm một cuộc khảo sát, hỏi một trăm người: “Bạn thấy hạnh phúc là gì?” Khảo sát cho thấy, người ở các độ tuổi khác nhau có cách nhìn rất khác nhau."
+          },
+          {
+            "tokens":[["青年人","qīngniánrén","người trẻ"],["普遍","pǔbiàn","phần lớn"],["认为","rènwéi","cho rằng"],["，"],["有","yǒu","có"],["一","yí","một"],["份","fèn","(lượng từ)"],["喜欢","xǐhuan","thích"],["的","de","(trợ từ)"],["工作","gōngzuò","công việc"],["，"],["有","yǒu","có"],["一个","yí ge","một"],["爱","ài","yêu"],["自己","zìjǐ","mình"],["的","de","(trợ từ)"],["人","rén","người"],["，"],["就是","jiù shì","chính là"],["幸福","xìngfú","hạnh phúc"],["。"],["中年人","zhōngniánrén","người trung niên"],["说","shuō","nói"],["，"],["在","zài","ở"],["他们","tāmen","họ"],["看来","kànlái","xem ra"],["，"],["一家人","yì jiā rén","cả nhà"],["都","dōu","đều"],["健康","jiànkāng","khỏe mạnh"],["，"],["孩子","háizi","con"],["学习","xuéxí","học"],["好","hǎo","tốt"],["，"],["就是","jiù shì","chính là"],["最大","zuì dà","lớn nhất"],["的","de","(trợ từ)"],["幸福","xìngfú","hạnh phúc"],["。"],["老年人","lǎoniánrén","người già"],["的","de","(trợ từ)"],["想法","xiǎngfǎ","suy nghĩ"],["最","zuì","nhất"],["普通","pǔtōng","bình thường"],["："],["能","néng","có thể"],["每天","měi tiān","mỗi ngày"],["和","hé","cùng"],["孙子","sūnzi","cháu trai"],["、"],["孙女","sūnnǚ","cháu gái"],["一起","yìqǐ","cùng nhau"],["吃饭","chī fàn","ăn cơm"],["、"],["聊天","liáotiān","trò chuyện"],["，"],["就","jiù","là"],["很","hěn","rất"],["幸福","xìngfú","hạnh phúc"],["了","le","(rồi)"],["。"]],
+            "vi":"Người trẻ phần lớn cho rằng có một công việc mình thích và có một người yêu mình chính là hạnh phúc. Người trung niên nói, theo họ, cả nhà đều khỏe mạnh, con cái học tốt chính là hạnh phúc lớn nhất. Suy nghĩ của người già bình dị nhất: mỗi ngày được cùng cháu trai, cháu gái ăn cơm, trò chuyện là đã rất hạnh phúc rồi."
+          },
+          {
+            "tokens":[["由于","yóuyú","do"],["每个","měi ge","mỗi"],["人","rén","người"],["的","de","(của)"],["生活","shēnghuó","cuộc sống"],["不一样","bù yíyàng","khác nhau"],["，"],["幸福","xìngfú","hạnh phúc"],["的","de","(của)"],["标准","biāozhǔn","tiêu chuẩn"],["也","yě","cũng"],["不一样","bù yíyàng","khác nhau"],["。"],["不过","búguò","có điều"],["，"],["有","yǒu","có"],["一点","yì diǎn","một điểm"],["是","shì","là"],["一样","yíyàng","giống nhau"],["的","de","(trợ từ)"],["："],["幸福","xìngfú","hạnh phúc"],["的","de","(của)"],["关键","guānjiàn","mấu chốt"],["不","bú","không"],["是","shì","phải là"],["钱","qián","tiền"],["，"],["而是","ér shì","mà là"],["你","nǐ","bạn"],["有","yǒu","có"],["爱","ài","yêu"],["的","de","(trợ từ)"],["人","rén","người"],["，"],["也","yě","cũng"],["有","yǒu","có"],["爱","ài","yêu"],["你","nǐ","bạn"],["的","de","(trợ từ)"],["人","rén","người"],["。"]],
+            "vi":"Do cuộc sống của mỗi người khác nhau nên tiêu chuẩn hạnh phúc cũng khác nhau. Có điều, có một điểm giống nhau: mấu chốt của hạnh phúc không phải là tiền, mà là bạn có người mình yêu, và cũng có người yêu bạn."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"这次调查问了多少人？","options":["一百个","十个","一千个","二百个"],"answer":0,"explanation_vi":"Đoạn 1: 问了一百个人."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"青年人普遍认为什么是幸福？","options":["有喜欢的工作，也有爱自己的人","有很多钱","住很大的房子","每天都不用工作"],"answer":0,"explanation_vi":"Đoạn 2: 有一份喜欢的工作，有一个爱自己的人，就是幸福."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"中年人觉得家人健康、孩子学习好是最大的幸福。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 一家人都健康，孩子学习好，就是最大的幸福 — câu này đúng."},
+          {"id":"rq4","type":"choice","tag":"g:由于","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"为什么每个人的幸福标准不一样？","options":["因为每个人的生活不一样","因为每个人的工作一样","因为大家的年纪一样","因为大家有同样的想法"],"answer":0,"explanation_vi":"Đoạn 3: 由于每个人的生活不一样，幸福的标准也不一样."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"调查发现，幸福的关键是钱。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 幸福的关键不是钱 — câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Hạnh phúc của bà tôi",
+        "text_zh":"我今年七十岁，有一个孙子和一个孙女。以前我工作很忙，没有时间陪孩子，所以烦恼也很多。现在我不工作了，每天的日子很普通：早上去公园散步，下午去学校接孙子和孙女，晚上一家人一起吃饭。有人说我过得太普通了，不过我觉得这就是幸福。我的孙女说：“奶奶，你的幸福标准真低！”我笑着说：“桌子上满满的菜，一家人坐在一起，这就够了。”",
+        "pinyin":"Wǒ jīnnián qīshí suì, yǒu yí ge sūnzi hé yí ge sūnnǚ. Yǐqián wǒ gōngzuò hěn máng, méiyǒu shíjiān péi háizi, suǒyǐ fánnǎo yě hěn duō. Xiànzài wǒ bù gōngzuò le, měi tiān de rìzi hěn pǔtōng: zǎoshang qù gōngyuán sànbù, xiàwǔ qù xuéxiào jiē sūnzi hé sūnnǚ, wǎnshang yì jiā rén yìqǐ chī fàn. Yǒu rén shuō wǒ guò de tài pǔtōng le, búguò wǒ juéde zhè jiù shì xìngfú. Wǒ de sūnnǚ shuō: “Nǎinai, nǐ de xìngfú biāozhǔn zhēn dī!” Wǒ xiào zhe shuō: “Zhuōzi shang mǎnmǎn de cài, yì jiā rén zuò zài yìqǐ, zhè jiù gòu le.”",
+        "vi":"Năm nay tôi bảy mươi tuổi, có một cháu trai và một cháu gái. Trước đây tôi làm việc rất bận, không có thời gian ở bên con, nên phiền muộn cũng nhiều. Bây giờ tôi không đi làm nữa, ngày tháng mỗi ngày rất bình dị: sáng ra công viên đi dạo, chiều đến trường đón cháu trai và cháu gái, tối cả nhà cùng ăn cơm. Có người nói tôi sống quá bình thường, nhưng tôi cho rằng đó chính là hạnh phúc. Cháu gái tôi nói: “Bà ơi, tiêu chuẩn hạnh phúc của bà thấp thật!” Tôi cười nói: “Trên bàn đầy ắp thức ăn, cả nhà ngồi bên nhau, thế là đủ rồi.”",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"“我”有几个孙辈？","options":["一个孙子和一个孙女","两个孙子","两个孙女","三个孙子"],"answer":0,"explanation_vi":"Nghe được: 有一个孙子和一个孙女."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"以前“我”为什么有很多烦恼？","options":["工作很忙，没有时间陪孩子","没有钱","身体不好","孩子不听话"],"answer":0,"explanation_vi":"Nghe được: 以前我工作很忙，没有时间陪孩子，所以烦恼也很多."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"每天晚上，“我”做什么？","options":["一家人一起吃饭","去公园散步","去学校接孩子","在家看电视"],"answer":0,"explanation_vi":"Nghe được: 晚上一家人一起吃饭. Đi dạo là buổi sáng, đón cháu là buổi chiều."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"“我”觉得什么是幸福？","options":["桌子上满满的菜，一家人坐在一起","有很多钱","每天去旅行","工作很忙"],"answer":0,"explanation_vi":"Nghe được: 桌子上满满的菜，一家人坐在一起，这就够了."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"幸福","pinyin":"xìngfú","vi":"hạnh phúc","tip_vi":"x đặt đầu lưỡi sau răng dưới, miệng bẹt; -ing kết thúc ở cuống lưỡi. 幸 xìng thanh 4 xuống mạnh; 福 fú thanh 2 lên rõ. f giống “ph” tiếng Việt."},
+      {"id":"s2","zh":"烦恼","pinyin":"fánnǎo","vi":"phiền muộn","tip_vi":"烦 fán: f răng trên chạm môi dưới, thanh 2 đi lên. 恼 nǎo: n đầu lưỡi chạm lợi trên, thanh 3 xuống rồi lên; nếu đứng trước thanh khác chỉ đọc nửa thanh 3."},
+      {"id":"s3","zh":"不如","pinyin":"bùrú","vi":"không bằng","tip_vi":"不 bù thanh 4 vì 如 là thanh 2. r trong 如 là âm uốn lưỡi, nhẹ như “rờ”, môi hơi tròn; đừng đọc thành “d” hay “z”."},
+      {"id":"s4","zh":"在我看来，幸福就是健康。","pinyin":"Zài wǒ kànlái, xìngfú jiù shì jiànkāng.","vi":"Theo tôi, hạnh phúc chính là sức khỏe.","tip_vi":"在 zài: z không bật hơi, đừng đọc “ch”. 我看来: 我 đứng trước thanh 4 nên đọc nửa thanh 3. 就是 jiù shì: 是 đọc nhẹ. 健康 jiànkāng: k bật hơi mạnh, -ang ở cuống lưỡi."},
+      {"id":"s5","zh":"你说得确实很对。","pinyin":"Nǐ shuō de quèshí hěn duì.","vi":"Bạn nói quả thật rất đúng.","tip_vi":"确 què: q bật hơi, vần üe tròn môi (ü + e), đừng đọc “cuê”. 实 shí: sh uốn lưỡi, thanh 2. 很对: 很 hěn thanh 3 đứng trước thanh 4 nên chỉ đọc nửa thanh 3."},
+      {"id":"s6","zh":"由于工作太忙，他很少有时间回家。","pinyin":"Yóuyú gōngzuò tài máng, tā hěn shǎo yǒu shíjiān huí jiā.","vi":"Do công việc quá bận, anh ấy rất ít có thời gian về nhà.","tip_vi":"由于 yóuyú: hai thanh 2 liền, yú tròn môi (ü). 很少有: ba thanh 3 liền nhau, đọc 很 và 少 thành thanh 2 (hén sháo yǒu). 时间 shíjiān: sh uốn lưỡi, j không bật hơi. Câu dài, ngắt hơi ở dấu phẩy."},
+      {"id":"s7","zh":"我喜欢很多运动，比如游泳、跑步和打球。","pinyin":"Wǒ xǐhuan hěn duō yùndòng, bǐrú yóuyǒng, pǎobù hé dǎ qiú.","vi":"Tôi thích nhiều môn thể thao, ví dụ như bơi, chạy bộ và chơi bóng.","tip_vi":"我喜: hai thanh 3 liền, 我 đọc thành thanh 2. 比如 bǐrú: r uốn lưỡi nhẹ. 游泳 yóuyǒng: -ong kết thúc ở cuống lưỡi, đọc dài. 跑步 pǎobù: p bật hơi mạnh. 打球 dǎ qiú: q bật hơi, -iu như “iêu” nhưng ngắn."}
+    ],
+    "review": {
+      "remember": [
+        "不过 = nhưng, có điều (nhẹ hơn 但是, không chồng với 但是); 确实 = quả thật, đúng là (xác nhận sự thật). 不过 đọc búguò.",
+        "在 + người + 看来，ý kiến = theo (ai) thì…; không thêm 的 hay 觉得: 在我看来，幸福就是健康.",
+        "由于 + nguyên nhân，所以 / 因此 + kết quả (văn viết); không dùng 因为 trong vế kết quả, không đặt 由于 ở cuối.",
+        "比如 / 例如 + ví dụ; 举个例子 = nêu một ví dụ; 不如: A 不如 B (A không bằng B) hoặc 不如 + V (chi bằng).",
+        "看法 = quan điểm, 想法 = ý nghĩ, 意见 = ý kiến (有意见 = bất mãn!); 羡慕 = ao ước, không phải ghen ghét."
+      ],
+      "mistakes": [
+        "✗ 我在看来 / 在我的看来 → ✓ 在我看来: “người” nằm giữa 在 và 看来, không có 的.",
+        "✗ 由于下雨，因为比赛改了 → ✓ 由于下雨，所以比赛改了: vế kết quả dùng 所以 / 因此.",
+        "✗ 这个菜很好吃，确实有点儿贵 → ✓ 这个菜很好吃，不过有点儿贵: 确实 là “quả thật”, 不过 mới là “có điều”."
+      ]
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "level": 4,
+  "number": 14,
+  "summary": "Câu lạc bộ bảo vệ môi trường họp ngày đầu “tuần xanh” để bàn cách giảm rác, tiết kiệm nước điện và dùng ít túi nhựa; học 够 (đủ), 以 (bằng, lấy… làm…), 既然 (đã… thì), 于是 (thế là) và 什么的 (v.v.) cùng từ vựng về môi trường",
+  "readings_ok": [],
+  "content": {
+    "objectives": [
+      "Nói về vấn đề môi trường bằng 污染、垃圾、空气、气候、严重、浪费、节约、减少、保护",
+      "Nói “đủ / không đủ” bằng 够 và đưa ra đề nghị bằng 建议",
+      "Nói “đã… thì…” bằng 既然……就…… và kể việc nối tiếp bằng 于是",
+      "Dùng 以 theo kiểu trang trọng (以……为……, 以行动……) và 什么的 để kết thúc một danh sách"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"够","pinyin":"gòu","pos":"động từ / phó từ","meaning_vi":"đủ; khá","example_zh":"这些菜够我们三个人吃了。","example_pinyin":"Zhèxiē cài gòu wǒmen sān ge rén chī le.","example_vi":"Những món này đủ cho ba chúng ta ăn rồi.","note_vi":"够 + (người) + V: đủ cho… làm gì; phủ định là 不够 (không nói ✗ 没够). Khẩu ngữ: 够 + tính từ + 的 = khá… (今天够冷的). Sau động từ làm bổ ngữ: 吃够了, 玩够了."},
+      {"id":"v2","hanzi":"既然","pinyin":"jìrán","pos":"liên từ","meaning_vi":"đã… thì…, một khi đã","example_zh":"既然你累了，就早点儿休息吧。","example_pinyin":"Jìrán nǐ lèi le, jiù zǎo diǎnr xiūxi ba.","example_vi":"Đã mệt thì nghỉ sớm một chút đi.","hanviet":"KÝ NHIÊN","note_vi":"Dùng sau khi một sự thật đã rõ, để rút ra kết luận hoặc đề nghị. Vế sau thường có 就 / 那. Khác 如果 (giả định, chưa xảy ra)."},
+      {"id":"v3","hanzi":"于是","pinyin":"yúshì","pos":"liên từ","meaning_vi":"thế là, bèn, vậy nên","example_zh":"他发现桌上有很多垃圾，于是把它们扔进了垃圾桶。","example_pinyin":"Tā fāxiàn zhuō shang yǒu hěn duō lājī, yúshì bǎ tāmen rēng jìn le lājītǒng.","example_vi":"Anh ấy thấy trên bàn có nhiều rác, thế là nhặt bỏ vào thùng rác.","hanviet":"VU THỊ","note_vi":"Nối hai sự việc kế tiếp nhau, vế sau là hành động nảy sinh từ vế trước. Khác 所以 (kết luận lý do – hệ quả)."},
+      {"id":"v4","hanzi":"保护","pinyin":"bǎohù","pos":"động từ","meaning_vi":"bảo vệ","example_zh":"我们都应该保护地球。","example_pinyin":"Wǒmen dōu yīnggāi bǎohù dìqiú.","example_vi":"Chúng ta đều nên bảo vệ Trái Đất.","hanviet":"BẢO HỘ","note_vi":"保护 + người / vật / môi trường (保护环境、保护眼睛、保护动物). Gần với 爱护 (yêu quý, giữ gìn)."},
+      {"id":"v5","hanzi":"环保","pinyin":"huánbǎo","pos":"danh từ / tính từ","meaning_vi":"bảo vệ môi trường; thân thiện với môi trường","example_zh":"带自己的杯子很环保。","example_pinyin":"Dài zìjǐ de bēizi hěn huánbǎo.","example_vi":"Mang cốc của mình đi rất thân thiện với môi trường.","hanviet":"HOÀN BẢO","note_vi":"Viết tắt của 环境保护. Có thể làm tính từ (很环保) hoặc danh từ (做环保, 环保袋)."},
+      {"id":"v6","hanzi":"污染","pinyin":"wūrǎn","pos":"động từ / danh từ","meaning_vi":"ô nhiễm; làm ô nhiễm","example_zh":"汽车太多，会污染空气。","example_pinyin":"Qìchē tài duō, huì wūrǎn kōngqì.","example_vi":"Xe ô tô quá nhiều sẽ làm ô nhiễm không khí.","hanviet":"Ô NHIỄM","note_vi":"Danh từ: 空气污染、水污染. Động từ: 污染 + môi trường (污染环境)."},
+      {"id":"v7","hanzi":"地球","pinyin":"dìqiú","pos":"danh từ","meaning_vi":"Trái Đất","example_zh":"地球只有一个，我们要好好保护它。","example_pinyin":"Dìqiú zhǐyǒu yí ge, wǒmen yào hǎohāo bǎohù tā.","example_vi":"Trái Đất chỉ có một, chúng ta phải bảo vệ nó thật tốt.","hanviet":"ĐỊA CẦU"},
+      {"id":"v8","hanzi":"垃圾","pinyin":"lājī","pos":"danh từ","meaning_vi":"rác, rác thải","example_zh":"请把垃圾扔到垃圾桶里。","example_pinyin":"Qǐng bǎ lājī rēng dào lājītǒng li.","example_vi":"Xin hãy vứt rác vào thùng rác.","note_vi":"Danh từ không đếm: 一些垃圾 (một ít rác), 扔垃圾 (vứt rác), 垃圾桶 (thùng rác), 垃圾分类 (phân loại rác)."},
+      {"id":"v9","hanzi":"空气","pinyin":"kōngqì","pos":"danh từ","meaning_vi":"không khí","example_zh":"公园里的空气很新鲜。","example_pinyin":"Gōngyuán li de kōngqì hěn xīnxiān.","example_vi":"Không khí trong công viên rất trong lành.","hanviet":"KHÔNG KHÍ"},
+      {"id":"v10","hanzi":"气候","pinyin":"qìhòu","pos":"danh từ","meaning_vi":"khí hậu","example_zh":"这里的气候很好，冬天不太冷。","example_pinyin":"Zhèli de qìhòu hěn hǎo, dōngtiān bú tài lěng.","example_vi":"Khí hậu ở đây rất tốt, mùa đông không lạnh lắm.","hanviet":"KHÍ HẬU","note_vi":"气候 là khí hậu nhiều năm của một vùng; 天气 là thời tiết của hôm nay, ngày mai. Hỏi: 今天天气怎么样？ (không nói 今天气候)."},
+      {"id":"v11","hanzi":"节约","pinyin":"jiéyuē","pos":"động từ","meaning_vi":"tiết kiệm","example_zh":"我们要节约用水，不要浪费。","example_pinyin":"Wǒmen yào jiéyuē yòng shuǐ, búyào làngfèi.","example_vi":"Chúng ta phải tiết kiệm nước, đừng lãng phí.","hanviet":"TIẾT ƯỚC","note_vi":"节约 + tài nguyên (水、电、时间、粮食). Còn tiết kiệm tiền riêng thường nói 省钱 / 存钱."},
+      {"id":"v12","hanzi":"浪费","pinyin":"làngfèi","pos":"động từ","meaning_vi":"lãng phí","example_zh":"吃不完的饭不要浪费。","example_pinyin":"Chī bu wán de fàn búyào làngfèi.","example_vi":"Cơm ăn không hết thì đừng lãng phí.","hanviet":"LÃNG PHÍ","note_vi":"浪费 + thứ có giá trị (时间、钱、水、粮食). Trái nghĩa: 节约."},
+      {"id":"v13","hanzi":"减少","pinyin":"jiǎnshǎo","pos":"động từ","meaning_vi":"giảm bớt, giảm thiểu","example_zh":"我们应该减少使用塑料袋。","example_pinyin":"Wǒmen yīnggāi jiǎnshǎo shǐyòng sùliàodài.","example_vi":"Chúng ta nên giảm sử dụng túi nhựa.","hanviet":"GIẢM THIỂU","note_vi":"减少 + số lượng hay tần suất: 减少污染、减少时间. Trái nghĩa 增加."},
+      {"id":"v14","hanzi":"严重","pinyin":"yánzhòng","pos":"tính từ","meaning_vi":"nghiêm trọng, trầm trọng","example_zh":"这个城市的空气污染很严重。","example_pinyin":"Zhège chéngshì de kōngqì wūrǎn hěn yánzhòng.","example_vi":"Ô nhiễm không khí ở thành phố này rất nghiêm trọng.","hanviet":"NGHIÊM TRỌNG","note_vi":"Chỉ dùng cho điều xấu (污染、问题、病、错误); không dùng khen ngợi. Tương tự “nghiêm trọng” trong tiếng Việt."},
+      {"id":"v15","hanzi":"建议","pinyin":"jiànyì","pos":"động từ / danh từ","meaning_vi":"đề nghị, khuyên; lời đề nghị","example_zh":"我建议你坐地铁去，比开车快。","example_pinyin":"Wǒ jiànyì nǐ zuò dìtiě qù, bǐ kāichē kuài.","example_vi":"Tôi đề nghị bạn đi tàu điện ngầm, nhanh hơn lái xe.","hanviet":"KIẾN NGHỊ","note_vi":"建议 + ai + làm gì: 我建议你……. Danh từ: 提建议 (đưa ra đề nghị), 一个好建议. Khác 意见 (ý kiến, có thể phê bình)."},
+      {"id":"v16","hanzi":"塑料","pinyin":"sùliào","pos":"danh từ","meaning_vi":"nhựa, chất dẻo","example_zh":"塑料袋对环境不好。","example_pinyin":"Sùliàodài duì huánjìng bù hǎo.","example_vi":"Túi nhựa không tốt cho môi trường.","hanviet":"TỐ LIỆU","note_vi":"Từ ghép: 塑料袋 (túi nhựa), 塑料瓶 (chai nhựa)."},
+      {"id":"v17","hanzi":"扔","pinyin":"rēng","pos":"động từ","meaning_vi":"ném, vứt","example_zh":"不要把垃圾扔在地上。","example_pinyin":"Búyào bǎ lājī rēng zài dì shang.","example_vi":"Đừng vứt rác xuống đất.","note_vi":"扔 vừa là “ném” (扔球) vừa là “vứt bỏ” (扔垃圾). Thường dùng với 把: 把……扔在 / 扔进 / 扔到."},
+      {"id":"v18","hanzi":"禁止","pinyin":"jìnzhǐ","pos":"động từ","meaning_vi":"cấm, nghiêm cấm","example_zh":"这里禁止吸烟。","example_pinyin":"Zhèli jìnzhǐ xī yān.","example_vi":"Ở đây cấm hút thuốc.","hanviet":"CẤM CHỈ","note_vi":"Mang tính quy định, biển báo: 禁止停车 (cấm đỗ xe), 禁止入内 (cấm vào). Câu nói thân mật dùng 不要 / 别."},
+      {"id":"v19","hanzi":"母亲","pinyin":"mǔqīn","pos":"danh từ","meaning_vi":"mẹ (trang trọng)","example_zh":"地球是我们共同的母亲。","example_pinyin":"Dìqiú shì wǒmen gòngtóng de mǔqīn.","example_vi":"Trái Đất là người mẹ chung của chúng ta.","hanviet":"MẪU THÂN","note_vi":"母亲 trang trọng, dùng trong văn viết, diễn thuyết; khẩu ngữ nói 妈妈. Hay dùng ẩn dụ: 地球母亲, 母亲河 (sông mẹ)."},
+      {"id":"v20","hanzi":"全球","pinyin":"quánqiú","pos":"danh từ","meaning_vi":"toàn cầu, toàn thế giới","example_zh":"全球都在关心环境问题。","example_pinyin":"Quánqiú dōu zài guānxīn huánjìng wèntí.","example_vi":"Cả thế giới đều đang quan tâm đến vấn đề môi trường.","hanviet":"TOÀN CẦU","note_vi":"全球 + danh từ: 全球气候 (khí hậu toàn cầu). Gần với 世界, nhưng 全球 nhấn mạnh phạm vi toàn bộ."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"增加","pinyin":"zēngjiā","pos":"động từ","meaning_vi":"tăng thêm, gia tăng","example_zh":"这个城市的车越来越多，数量增加了很多。","example_pinyin":"Zhège chéngshì de chē yuè lái yuè duō, shùliàng zēngjiā le hěn duō.","example_vi":"Xe ở thành phố này ngày càng nhiều, số lượng tăng lên nhiều.","hanviet":"TĂNG GIA"},
+      {"id":"x2","hanzi":"下降","pinyin":"xiàjiàng","pos":"động từ","meaning_vi":"đi xuống, giảm","example_zh":"晚上的温度下降了很多。","example_pinyin":"Wǎnshang de wēndù xiàjiàng le hěn duō.","example_vi":"Nhiệt độ buổi tối đã giảm nhiều.","hanviet":"HẠ GIÁNG"},
+      {"id":"x3","hanzi":"降低","pinyin":"jiàngdī","pos":"động từ","meaning_vi":"hạ thấp, giảm xuống","example_zh":"多种树可以降低温度。","example_pinyin":"Duō zhòng shù kěyǐ jiàngdī wēndù.","example_vi":"Trồng nhiều cây có thể hạ nhiệt độ.","hanviet":"GIÁNG ĐÊ","note_vi":"降低 + tân ngữ (降低价格、降低温度); còn 下降 không có tân ngữ (温度下降)."},
+      {"id":"x4","hanzi":"引起","pinyin":"yǐnqǐ","pos":"động từ","meaning_vi":"gây ra, dẫn đến","example_zh":"塑料垃圾引起了很多问题。","example_pinyin":"Sùliào lājī yǐnqǐ le hěn duō wèntí.","example_vi":"Rác nhựa gây ra rất nhiều vấn đề."},
+      {"id":"x5","hanzi":"提出","pinyin":"tíchū","pos":"động từ","meaning_vi":"đưa ra, nêu ra","example_zh":"他提出了一个好建议。","example_pinyin":"Tā tíchū le yí ge hǎo jiànyì.","example_vi":"Anh ấy đã đưa ra một lời đề nghị hay."},
+      {"id":"x6","hanzi":"主意","pinyin":"zhǔyi","pos":"danh từ","meaning_vi":"ý định, chủ ý; ý tưởng","example_zh":"我有个好主意，我们骑自行车去吧。","example_pinyin":"Wǒ yǒu ge hǎo zhǔyi, wǒmen qí zìxíngchē qù ba.","example_vi":"Tôi có một ý hay, chúng mình đạp xe đi nhé.","note_vi":"出主意 (đưa ý kiến), 拿主意 (quyết định). Chữ 意 đọc nhẹ."},
+      {"id":"x7","hanzi":"目前","pinyin":"mùqián","pos":"danh từ","meaning_vi":"hiện nay, trước mắt","example_zh":"目前，这个问题还没有解决。","example_pinyin":"Mùqián, zhège wèntí hái méiyǒu jiějué.","example_vi":"Hiện nay vấn đề này vẫn chưa được giải quyết.","hanviet":"MỤC TIỀN"},
+      {"id":"x8","hanzi":"将","pinyin":"jiāng","pos":"phó từ","meaning_vi":"sẽ, sắp (văn viết)","example_zh":"明天将有大雨。","example_pinyin":"Míngtiān jiāng yǒu dàyǔ.","example_vi":"Ngày mai sẽ có mưa lớn.","hanviet":"TƯƠNG","note_vi":"将 = 会 / 要 trong văn viết, bản tin: 将举行, 将有."},
+      {"id":"x9","hanzi":"规定","pinyin":"guīdìng","pos":"động từ / danh từ","meaning_vi":"quy định","example_zh":"学校规定不能带手机进教室。","example_pinyin":"Xuéxiào guīdìng bù néng dài shǒujī jìn jiàoshì.","example_vi":"Trường quy định không được mang điện thoại vào lớp.","hanviet":"QUY ĐỊNH"},
+      {"id":"x10","hanzi":"停止","pinyin":"tíngzhǐ","pos":"động từ","meaning_vi":"dừng lại, ngừng","example_zh":"请大家停止说话，演出要开始了。","example_pinyin":"Qǐng dàjiā tíngzhǐ shuō huà, yǎnchū yào kāishǐ le.","example_vi":"Mời mọi người ngừng nói chuyện, buổi diễn sắp bắt đầu.","hanviet":"ĐÌNH CHỈ"},
+      {"id":"x11","hanzi":"公共","pinyin":"gōnggòng","pos":"tính từ","meaning_vi":"công cộng","example_zh":"坐公共汽车去上班很环保。","example_pinyin":"Zuò gōnggòng qìchē qù shàngbān hěn huánbǎo.","example_vi":"Đi xe buýt đi làm rất thân thiện với môi trường.","hanviet":"CÔNG CỘNG"},
+      {"id":"x12","hanzi":"交通","pinyin":"jiāotōng","pos":"danh từ","meaning_vi":"giao thông","example_zh":"这个城市的交通很方便。","example_pinyin":"Zhège chéngshì de jiāotōng hěn fāngbiàn.","example_vi":"Giao thông ở thành phố này rất thuận tiện.","hanviet":"GIAO THÔNG"},
+      {"id":"x13","hanzi":"出行","pinyin":"chūxíng","pos":"động từ","meaning_vi":"đi lại, ra ngoài (di chuyển)","example_zh":"节假日出行的人很多。","example_pinyin":"Jiéjiàrì chūxíng de rén hěn duō.","example_vi":"Ngày lễ, ngày nghỉ có rất nhiều người đi lại."},
+      {"id":"x14","hanzi":"堵车","pinyin":"dǔchē","pos":"động từ","meaning_vi":"tắc đường","example_zh":"上班时间常常堵车。","example_pinyin":"Shàngbān shíjiān chángcháng dǔchē.","example_vi":"Giờ đi làm thường xuyên tắc đường.","note_vi":"Động từ li hợp: 堵车了, 堵了很长时间的车."},
+      {"id":"x15","hanzi":"电动车","pinyin":"diàndòngchē","pos":"danh từ","meaning_vi":"xe điện","example_zh":"电动车比汽车环保。","example_pinyin":"Diàndòngchē bǐ qìchē huánbǎo.","example_vi":"Xe điện thân thiện với môi trường hơn ô tô.","note_vi":"Thường chỉ xe máy điện, xe đạp điện, xe điện nói chung."},
+      {"id":"x16","hanzi":"海洋","pinyin":"hǎiyáng","pos":"danh từ","meaning_vi":"biển cả, đại dương","example_zh":"海洋里的塑料垃圾越来越多。","example_pinyin":"Hǎiyáng li de sùliào lājī yuè lái yuè duō.","example_vi":"Rác nhựa dưới biển cả ngày càng nhiều.","hanviet":"HẢI DƯƠNG"},
+      {"id":"x17","hanzi":"温度","pinyin":"wēndù","pos":"danh từ","meaning_vi":"nhiệt độ","example_zh":"今天的温度是二十度。","example_pinyin":"Jīntiān de wēndù shì èrshí dù.","example_vi":"Nhiệt độ hôm nay là hai mươi độ.","hanviet":"ÔN ĐỘ"},
+      {"id":"x18","hanzi":"高温","pinyin":"gāowēn","pos":"danh từ","meaning_vi":"nhiệt độ cao","example_zh":"夏天高温的时候，要多喝水。","example_pinyin":"Xiàtiān gāowēn de shíhou, yào duō hē shuǐ.","example_vi":"Khi nhiệt độ cao vào mùa hè, phải uống nhiều nước.","hanviet":"CAO ÔN"},
+      {"id":"x19","hanzi":"低温","pinyin":"dīwēn","pos":"danh từ","meaning_vi":"nhiệt độ thấp","example_zh":"低温的时候，要多穿衣服。","example_pinyin":"Dīwēn de shíhou, yào duō chuān yīfu.","example_vi":"Khi nhiệt độ thấp, phải mặc nhiều quần áo.","hanviet":"ĐÊ ÔN"},
+      {"id":"x20","hanzi":"降温","pinyin":"jiàngwēn","pos":"động từ","meaning_vi":"hạ nhiệt, trời trở lạnh","example_zh":"明天要降温，你多穿点儿。","example_pinyin":"Míngtiān yào jiàngwēn, nǐ duō chuān diǎnr.","example_vi":"Ngày mai trời trở lạnh, bạn mặc nhiều thêm chút.","note_vi":"Động từ li hợp (降 + 温): 降了温. Trong dự báo thời tiết, 降温 là “nhiệt độ giảm”."},
+      {"id":"x21","hanzi":"摄氏度","pinyin":"shèshìdù","pos":"lượng từ","meaning_vi":"độ C","example_zh":"今天最高温度三十五摄氏度。","example_pinyin":"Jīntiān zuì gāo wēndù sānshíwǔ shèshìdù.","example_vi":"Hôm nay nhiệt độ cao nhất là ba mươi lăm độ C."},
+      {"id":"x22","hanzi":"零下","pinyin":"língxià","pos":"danh từ","meaning_vi":"dưới không độ","example_zh":"北方冬天常常零下十摄氏度。","example_pinyin":"Běifāng dōngtiān chángcháng língxià shí shèshìdù.","example_vi":"Mùa đông miền bắc thường âm mười độ C."},
+      {"id":"x23","hanzi":"大量","pinyin":"dàliàng","pos":"tính từ","meaning_vi":"số lượng lớn, rất nhiều","example_zh":"每天都有大量的垃圾被扔掉。","example_pinyin":"Měi tiān dōu yǒu dàliàng de lājī bèi rēng diào.","example_vi":"Mỗi ngày đều có lượng lớn rác bị vứt đi.","note_vi":"大量 + 的 + danh từ không đếm: 大量的水、大量的垃圾. Thường dùng cho thứ nhiều, không đếm từng cái."},
+      {"id":"x24","hanzi":"不够","pinyin":"bú gòu","pos":"động từ","meaning_vi":"không đủ","example_zh":"时间不够了，我们快一点儿。","example_pinyin":"Shíjiān bú gòu le, wǒmen kuài yìdiǎnr.","example_vi":"Không đủ thời gian rồi, chúng ta nhanh lên một chút.","note_vi":"不 đứng trước thanh 4 nên đọc bú."},
+      {"id":"x25","hanzi":"袋子","pinyin":"dàizi","pos":"danh từ","meaning_vi":"cái túi","example_zh":"请自己带袋子去买东西。","example_pinyin":"Qǐng zìjǐ dài dàizi qù mǎi dōngxi.","example_vi":"Xin hãy tự mang túi đi mua đồ."},
+      {"id":"x26","hanzi":"纸巾","pinyin":"zhǐjīn","pos":"danh từ","meaning_vi":"khăn giấy","example_zh":"请给我一包纸巾。","example_pinyin":"Qǐng gěi wǒ yì bāo zhǐjīn.","example_vi":"Xin cho tôi một gói khăn giấy."},
+      {"id":"x27","hanzi":"桶","pinyin":"tǒng","pos":"danh từ / lượng từ","meaning_vi":"cái thùng; thùng","example_zh":"垃圾要扔进垃圾桶里。","example_pinyin":"Lājī yào rēng jìn lājītǒng li.","example_vi":"Rác phải vứt vào thùng rác."},
+      {"id":"x28","hanzi":"组","pinyin":"zǔ","pos":"danh từ / lượng từ","meaning_vi":"nhóm; bộ","example_zh":"我们分成三个组，每组五个人。","example_pinyin":"Wǒmen fēn chéng sān ge zǔ, měi zǔ wǔ ge rén.","example_vi":"Chúng ta chia thành ba nhóm, mỗi nhóm năm người.","hanviet":"TỔ"}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“够” (đủ)",
+        "pattern":"S + 够 + (O) + V + 了　·　S + 不够　·　V + 够 + 了　·　够 + Adj + 的",
+        "explanation_vi":"够 có bốn cách dùng chính:\n(1) Làm vị ngữ: đủ. 钱够吗？/ 时间够不够？ Hay đi với động từ phía sau để nói “đủ để làm gì”: 够吃、够用、够三个人吃.\n(2) Phủ định là 不够, không dùng 没够: 时间不够了. 不 đọc bú.\n(3) Làm bổ ngữ kết quả sau động từ: V + 够 = làm đã đã, chán rồi hoặc đủ lượng: 吃够了、玩够了、睡够了.\n(4) Khẩu ngữ: 够 + tính từ + 的 = “khá… đấy, thật là…”: 今天够冷的 (hôm nay lạnh đấy), 他够忙的.\nChú ý: danh từ chỉ thứ cần đủ làm chủ ngữ đứng trước 够 (钱够), không nói 够钱.",
+        "examples":[
+          {"zh":"这些菜够我们三个人吃了。","pinyin":"Zhèxiē cài gòu wǒmen sān ge rén chī le.","vi":"Những món này đủ cho ba chúng ta ăn rồi."},
+          {"zh":"时间不够了，我们快一点儿。","pinyin":"Shíjiān bú gòu le, wǒmen kuài yìdiǎnr.","vi":"Không đủ thời gian rồi, chúng ta nhanh lên một chút."},
+          {"zh":"昨天睡够了，今天一点儿也不困。","pinyin":"Zuótiān shuì gòu le, jīntiān yìdiǎnr yě bú kùn.","vi":"Hôm qua ngủ đủ rồi, hôm nay chẳng buồn ngủ chút nào."},
+          {"zh":"今天够冷的，多穿点儿衣服。","pinyin":"Jīntiān gòu lěng de, duō chuān diǎnr yīfu.","vi":"Hôm nay lạnh thật đấy, mặc thêm quần áo vào."}
+        ],
+        "mistakes_vi":"✗ 我有够钱买这本书。\n✓ 我的钱够买这本书。\n“Tiền” là chủ ngữ của 够: 钱够……, không đặt 够 trước danh từ như tính từ.\n✗ 时间没够了。\n✓ 时间不够了。\nPhủ định của 够 là 不够.\n✗ 我吃够了饭。\n✓ 我吃够了。/ 饭我吃够了。\nV + 够 thường đi với 了 mà không kèm tân ngữ ngay sau.",
+        "compare_vi":"够 ≈ “đủ”. Tiếng Việt “đủ” và “quá đủ” đều có thể là 够; còn 吃够了 mang sắc thái “ăn chán rồi”."
+      },
+      {
+        "id":"g2",
+        "title":"“以” (bằng, lấy… làm…)",
+        "pattern":"以 + N + V　·　以 A 为 B　·　V1，以 V2　·　N + 以上 / 以下 / 以内",
+        "explanation_vi":"以 là giới từ văn viết, hơi trang trọng, thường gặp trong bài phát biểu, thông báo, biểu ngữ:\n(1) 以 + danh từ + động từ = “bằng, dùng (cách) …”: 以行动保护地球 (bảo vệ Trái Đất bằng hành động). Nghĩa gần 用, nhưng trang trọng hơn.\n(2) 以A为B = “lấy A làm B”: 以健康为第一, 以休息为主 (lấy nghỉ ngơi làm chính). Phải dùng 为, không dùng 是.\n(3) V1，以 V2 = “…, để (mà)…”: 多种树，以减少空气污染.\n(4) Đứng sau danh từ chỉ giới hạn: 以上 (trở lên), 以下 (trở xuống), 以内 (trong vòng), 以外 (ngoài): 三公里以内.",
+        "examples":[
+          {"zh":"我们要以自己的行动保护地球。","pinyin":"Wǒmen yào yǐ zìjǐ de xíngdòng bǎohù dìqiú.","vi":"Chúng ta phải bảo vệ Trái Đất bằng hành động của chính mình."},
+          {"zh":"这个周末我们以休息为主，不安排很多活动。","pinyin":"Zhège zhōumò wǒmen yǐ xiūxi wéi zhǔ, bù ānpái hěn duō huódòng.","vi":"Cuối tuần này chúng mình lấy nghỉ ngơi làm chính, không sắp xếp nhiều hoạt động."},
+          {"zh":"公园里多种了很多树，以减少空气污染。","pinyin":"Gōngyuán li duō zhòng le hěn duō shù, yǐ jiǎnshǎo kōngqì wūrǎn.","vi":"Trong công viên trồng thêm nhiều cây để giảm ô nhiễm không khí."},
+          {"zh":"三公里以内的路，我们可以走着去。","pinyin":"Sān gōnglǐ yǐnèi de lù, wǒmen kěyǐ zǒu zhe qù.","vi":"Quãng đường trong vòng ba cây số, chúng ta có thể đi bộ."}
+        ],
+        "mistakes_vi":"✗ 我们以行动用保护地球。\n✓ 我们要以行动保护地球。\n以 đã có nghĩa “dùng/bằng”, không thêm 用.\n✗ 以健康是第一。\n✓ 以健康为第一。\nCấu trúc “lấy A làm B” là 以A为B.\n✗ 我们以保护地球行动。\n✓ 我们以行动保护地球。\nPhần sau 以 là phương tiện, cách thức (行动), rồi mới đến hành động chính.",
+        "compare_vi":"以 ≈ “bằng, lấy, để”. Hơi văn vẻ hơn 用. Trong lời nói hằng ngày thường dùng 用."
+      },
+      {
+        "id":"g3",
+        "title":"“既然……就……” (đã… thì…)",
+        "pattern":"既然 + sự thật đã rõ，S + 就 / 那么 / 还 + đề nghị, kết luận",
+        "explanation_vi":"既然 dùng khi một sự thật đã xảy ra hoặc đã được người nghe nói ra, rồi từ đó rút ra kết luận hoặc đưa ra đề nghị: “đã… thì…”. Vế sau thường có 就 / 那 / 那么 và thường là đề nghị, câu hỏi (既然……为什么还……?), nhận định.\nKhác 如果 / 要是: 如果 nêu giả định chưa xảy ra, còn 既然 là điều đã chắc chắn. Khác 因为: 因为 nêu nguyên nhân khách quan, còn 既然 dẫn vế sau mang ý chủ quan của người nói.\n既然 không đi với 所以 (không nói ✗ 既然……所以……).",
+        "examples":[
+          {"zh":"既然你累了，就早点儿休息吧。","pinyin":"Jìrán nǐ lèi le, jiù zǎo diǎnr xiūxi ba.","vi":"Đã mệt thì nghỉ sớm một chút đi."},
+          {"zh":"既然塑料袋对环境不好，我们就应该减少使用。","pinyin":"Jìrán sùliàodài duì huánjìng bù hǎo, wǒmen jiù yīnggāi jiǎnshǎo shǐyòng.","vi":"Đã biết túi nhựa không tốt cho môi trường thì chúng ta nên giảm sử dụng."},
+          {"zh":"既然下雨了，我们就在家看电影吧。","pinyin":"Jìrán xià yǔ le, wǒmen jiù zài jiā kàn diànyǐng ba.","vi":"Trời đã mưa rồi thì chúng ta ở nhà xem phim nhé."},
+          {"zh":"既然你已经知道了，为什么还问我？","pinyin":"Jìrán nǐ yǐjīng zhīdào le, wèi shénme hái wèn wǒ?","vi":"Đã biết rồi, sao còn hỏi tôi?"}
+        ],
+        "mistakes_vi":"✗ 既然下雨了，所以我们就在家看电影吧。\n✓ 既然下雨了，我们就在家看电影吧。\n既然 không đi với 所以; vế sau dùng 就.\n✗ 既然明天可能下雨，我们就不去了。\n✓ 如果明天下雨，我们就不去了。\n既然 chỉ dùng cho điều đã xảy ra hoặc đã chắc chắn; việc chưa xảy ra phải dùng 如果.\n✗ 既然累了，但是继续工作。\n✓ 既然累了，就休息一下吧。\nVế sau của 既然 không phải ý chuyển hướng 但是.",
+        "compare_vi":"既然 ≈ “đã… thì…”, “một khi đã…”. 如果 = “nếu” (giả định)."
+      },
+      {
+        "id":"g4",
+        "title":"“于是” (thế là) và “什么的” (v.v.)",
+        "pattern":"…，于是 + hành động tiếp theo　·　A、B、C 什么的",
+        "explanation_vi":"(1) 于是 là liên từ nối hai sự việc nối tiếp nhau trong thời gian, vế sau là hành động hay quyết định nảy sinh từ tình huống ở vế trước: “thế là, bèn, vậy nên”. Hay dùng khi kể chuyện, vế trước thường nêu phát hiện, cảm nhận, hoàn cảnh: 他发现桌上有很多垃圾，于是把它们扔进了垃圾桶. Khác 所以 (nêu kết luận từ lý do, có thể ở hiện tại hoặc nhận định chung); 于是 không dùng để đưa ra lời khuyên, nhận xét.\n(2) 什么的 là trợ từ khẩu ngữ đặt cuối một danh sách (hai mục trở lên, đôi khi một mục): “v.v., vân vân, gì đó”. Không dùng cùng 等 hoặc 等等: 苹果、香蕉什么的. Dùng trong lời nói và văn viết thân mật; văn bản trang trọng dùng 等.",
+        "examples":[
+          {"zh":"他发现桌上有很多垃圾，于是把它们扔进了垃圾桶。","pinyin":"Tā fāxiàn zhuō shang yǒu hěn duō lājī, yúshì bǎ tāmen rēng jìn le lājītǒng.","vi":"Anh ấy thấy trên bàn có nhiều rác, thế là nhặt bỏ hết vào thùng rác."},
+          {"zh":"上个月，我们发现学校附近的空气污染很严重，于是请大家少开车、多走路。","pinyin":"Shàng ge yuè, wǒmen fāxiàn xuéxiào fùjìn de kōngqì wūrǎn hěn yánzhòng, yúshì qǐng dàjiā shǎo kāichē, duō zǒulù.","vi":"Tháng trước chúng tôi thấy không khí quanh trường ô nhiễm nặng, thế là kêu gọi mọi người lái xe ít, đi bộ nhiều."},
+          {"zh":"天气越来越热，于是大家都去游泳了。","pinyin":"Tiānqì yuè lái yuè rè, yúshì dàjiā dōu qù yóuyǒng le.","vi":"Trời ngày càng nóng, thế là mọi người đều đi bơi."},
+          {"zh":"我喜欢吃苹果、香蕉什么的。","pinyin":"Wǒ xǐhuan chī píngguǒ, xiāngjiāo shénme de.","vi":"Tôi thích ăn táo, chuối v.v."},
+          {"zh":"周末我常常看看书、听听音乐什么的。","pinyin":"Zhōumò wǒ chángcháng kànkan shū, tīngting yīnyuè shénme de.","vi":"Cuối tuần tôi hay đọc sách, nghe nhạc gì đó."}
+        ],
+        "mistakes_vi":"✗ 我病了，于是我今天不应该上班。\n✓ 我病了，所以今天不应该上班。\n于是 kể việc nối tiếp; nhận định, lời khuyên dùng 所以.\n✗ 我喜欢吃苹果、香蕉什么的等。\n✓ 我喜欢吃苹果、香蕉什么的。\n什么的 đã có nghĩa “v.v.”, không thêm 等.\n✗ 我喜欢吃什么的苹果、香蕉。\n✓ 我喜欢吃苹果、香蕉什么的。\n什么的 đặt ở cuối danh sách, không đặt trước.",
+        "compare_vi":"于是 ≈ “thế là, vậy là, bèn”. 什么的 ≈ “… gì đó, … vân vân”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Họp câu lạc bộ môi trường",
+      "scene_vi": "Sáng thứ Hai, ngày đầu tiên của “tuần môi trường” ở trường. Tiểu Vương và Tiểu Lâm – hai thành viên câu lạc bộ môi trường – họp bàn nên đưa những đề nghị gì cho cả trường.",
+      "lines": [
+        {"speaker":"小王","zh":"大家好！既然今天是环保周的第一天，我们先谈谈学校里有哪些问题吧。","pinyin":"Dàjiā hǎo! Jìrán jīntiān shì huánbǎozhōu de dì yī tiān, wǒmen xiān tántan xuéxiào li yǒu nǎxiē wèntí ba.","vi":"Chào mọi người! Đã là ngày đầu tiên của tuần môi trường, chúng ta bàn trước xem trong trường có những vấn đề gì nhé."},
+        {"speaker":"小林","zh":"我觉得最严重的是浪费。食堂里每天都有很多吃不完的饭，扔掉的垃圾太多了。","pinyin":"Wǒ juéde zuì yánzhòng de shì làngfèi. Shítáng li měi tiān dōu yǒu hěn duō chī bu wán de fàn, rēng diào de lājī tài duō le.","vi":"Tớ thấy nghiêm trọng nhất là lãng phí. Ở nhà ăn mỗi ngày có rất nhiều cơm ăn không hết, rác bị vứt quá nhiều."},
+        {"speaker":"小王","zh":"我建议在食堂门口写一张通知：吃多少，拿多少。","pinyin":"Wǒ jiànyì zài shítáng ménkǒu xiě yì zhāng tōngzhī: chī duōshao, ná duōshao.","vi":"Tớ đề nghị viết một thông báo ở cửa nhà ăn: ăn bao nhiêu thì lấy bấy nhiêu."},
+        {"speaker":"小林","zh":"好主意！还有塑料袋，很多同学买完东西就把塑料袋扔了。","pinyin":"Hǎo zhǔyi! Háiyǒu sùliàodài, hěn duō tóngxué mǎi wán dōngxi jiù bǎ sùliàodài rēng le.","vi":"Ý hay đấy! Còn túi nhựa nữa, nhiều bạn mua đồ xong là vứt túi nhựa đi."},
+        {"speaker":"小王","zh":"既然塑料袋对环境不好，我们就应该减少使用，自己带袋子去买东西。","pinyin":"Jìrán sùliàodài duì huánjìng bù hǎo, wǒmen jiù yīnggāi jiǎnshǎo shǐyòng, zìjǐ dài dàizi qù mǎi dōngxi.","vi":"Đã biết túi nhựa không tốt cho môi trường thì chúng ta nên giảm dùng, tự mang túi đi mua đồ."},
+        {"speaker":"小林","zh":"上个月我们发现学校附近的空气污染很严重，于是请大家少开车、多走路。","pinyin":"Shàng ge yuè wǒmen fāxiàn xuéxiào fùjìn de kōngqì wūrǎn hěn yánzhòng, yúshì qǐng dàjiā shǎo kāichē, duō zǒulù.","vi":"Tháng trước chúng ta thấy không khí quanh trường ô nhiễm nặng, thế là kêu gọi mọi người lái xe ít, đi bộ nhiều."},
+        {"speaker":"小王","zh":"对，公共汽车和地铁又方便又环保。我们还可以写一些建议：节约用水、节约用电、少用塑料什么的。","pinyin":"Duì, gōnggòng qìchē hé dìtiě yòu fāngbiàn yòu huánbǎo. Wǒmen hái kěyǐ xiě yìxiē jiànyì: jiéyuē yòng shuǐ, jiéyuē yòng diàn, shǎo yòng sùliào shénme de.","vi":"Đúng, xe buýt và tàu điện ngầm vừa tiện vừa thân thiện với môi trường. Chúng ta còn có thể viết vài đề nghị: tiết kiệm nước, tiết kiệm điện, dùng ít nhựa v.v."},
+        {"speaker":"小林","zh":"学校也应该有规定，在校园里禁止乱扔垃圾。","pinyin":"Xuéxiào yě yīnggāi yǒu guīdìng, zài xiàoyuán li jìnzhǐ luàn rēng lājī.","vi":"Trường cũng nên có quy định, cấm vứt rác bừa bãi trong khuôn viên."},
+        {"speaker":"小王","zh":"全球都在保护我们的地球母亲，我们也要以自己的行动去帮助她。","pinyin":"Quánqiú dōu zài bǎohù wǒmen de dìqiú mǔqīn, wǒmen yě yào yǐ zìjǐ de xíngdòng qù bāngzhù tā.","vi":"Cả thế giới đang bảo vệ Mẹ Trái Đất của chúng ta, chúng ta cũng phải giúp bà bằng hành động của mình."},
+        {"speaker":"小林","zh":"说得好！那今天先写计划，时间够不够？下午三点我们再开会。","pinyin":"Shuō de hǎo! Nà jīntiān xiān xiě jìhuà, shíjiān gòu bu gòu? Xiàwǔ sān diǎn wǒmen zài kāihuì.","vi":"Nói hay lắm! Vậy hôm nay viết kế hoạch trước, thời gian có đủ không? Ba giờ chiều chúng ta họp lại."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:污染","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"汽车太多，会____空气。","options":["污染","节约","禁止","建议"],"answer":0,"explanation_vi":"Xe quá nhiều làm ô nhiễm không khí: 污染空气."},
+      {"id":"e2","type":"choice","tag":"v:垃圾","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请把____扔到垃圾桶里。","options":["垃圾","地球","空气","气候"],"answer":0,"explanation_vi":"Thứ vứt vào thùng rác là rác: 垃圾."},
+      {"id":"e3","type":"choice","tag":"v:节约","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们要____用水，不要浪费。","options":["节约","污染","扔","建议"],"answer":0,"explanation_vi":"Tiết kiệm nước: 节约用水, trái nghĩa với 浪费."},
+      {"id":"e4","type":"choice","tag":"v:浪费","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"吃不完的饭不要____。","options":["浪费","节约","保护","减少"],"answer":0,"explanation_vi":"Cơm ăn không hết thì đừng lãng phí: 不要浪费."},
+      {"id":"e5","type":"choice","tag":"v:严重","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个城市的空气污染很____。","options":["严重","环保","节约","建议"],"answer":0,"explanation_vi":"Ô nhiễm nặng → 严重 (nghiêm trọng)."},
+      {"id":"e6","type":"choice","tag":"v:建议","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____你坐地铁去，比开车快。","options":["建议","禁止","浪费","污染"],"answer":0,"explanation_vi":"Khuyên, đề nghị ai làm gì: 我建议你……."},
+      {"id":"e7","type":"choice","tag":"v:禁止","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这里____吸烟，请不要在这儿抽烟。","options":["禁止","建议","节约","保护"],"answer":0,"explanation_vi":"Biển báo, quy định “cấm hút thuốc”: 禁止吸烟."},
+      {"id":"e8","type":"choice","tag":"g:够","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"时间不____了，我们快一点儿。","options":["够","只","才","还"],"answer":0,"explanation_vi":"“Không đủ thời gian”: 不够."},
+      {"id":"e9","type":"choice","tag":"g:以","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们要____自己的行动保护地球。","options":["以","被","把","给"],"answer":0,"explanation_vi":"“Bằng hành động của mình”: 以自己的行动 (cách nói trang trọng)."},
+      {"id":"e10","type":"choice","tag":"g:既然","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____你累了，就早点儿休息吧。","options":["既然","虽然","因为","但是"],"answer":0,"explanation_vi":"“Đã mệt thì nghỉ sớm đi”: 既然……就……."},
+      {"id":"e11","type":"choice","tag":"g:于是","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他发现桌上有很多垃圾，____把它们扔进了垃圾桶。","options":["于是","但是","如果","虽然"],"answer":0,"explanation_vi":"Hai sự việc nối tiếp: phát hiện rác → bèn nhặt bỏ: 于是."},
+      {"id":"e12","type":"choice","tag":"g:什么的","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我喜欢吃苹果、香蕉什么的。","我喜欢吃苹果、香蕉什么的等。","我喜欢吃什么的苹果、香蕉。","我什么的喜欢吃苹果、香蕉。"],"answer":0,"explanation_vi":"什么的 đặt cuối danh sách, không thêm 等."},
+      {"id":"e13","type":"order","tag":"g:既然","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["既然","你","累了","就","早点儿","休息吧"],"answers":["既然你累了就早点儿休息吧"],"translation_vi":"Đã mệt thì nghỉ sớm một chút đi.","explanation_vi":"既然 + sự thật (你累了)，就 + đề nghị (早点儿休息吧)."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"海洋","vi":"biển cả"},{"zh":"温度","vi":"nhiệt độ"},{"zh":"高温","vi":"nhiệt độ cao"},{"zh":"低温","vi":"nhiệt độ thấp"},{"zh":"降温","vi":"hạ nhiệt"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:够","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这些菜____我们三个人吃了。","options":["够","多","大","好"],"answer":0,"explanation_vi":"够 + người + V + 了 = đủ cho… làm gì."},
+        {"id":"q2","type":"choice","tag":"g:以","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我们要以自己的行动保护地球。","我们要以保护地球自己的行动。","我们以要自己的行动保护地球。","我们要自己的行动以保护地球。"],"answer":0,"explanation_vi":"以 + phương tiện (自己的行动) + động từ chính (保护地球)."},
+        {"id":"q3","type":"choice","tag":"g:既然","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"既然你想去，____一起去吧。","options":["就","却","但","只"],"answer":0,"explanation_vi":"既然……就……: đã muốn đi thì cùng đi."},
+        {"id":"q4","type":"choice","tag":"g:既然","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["既然下雨了，我们就在家看电影吧。","既然下雨了，所以我们就在家看电影吧。","既然下雨，但是我们在家看电影。","下雨既然，我们就在家看电影吧。"],"answer":0,"explanation_vi":"既然 đứng đầu vế trước, vế sau có 就; không dùng 所以 hay 但是."},
+        {"id":"q5","type":"choice","tag":"g:于是","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"桌上有很多垃圾，他____把它们扔进了垃圾桶。","options":["于是","虽然","如果","但是"],"answer":0,"explanation_vi":"Hành động nảy sinh sau khi thấy rác: 于是 (thế là)."},
+        {"id":"q6","type":"choice","tag":"g:什么的","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["周末我常常看看书、听听音乐什么的。","周末我常常什么的看看书、听听音乐。","周末我常常看看书、听听音乐什么的等等。","周末我什么的常常看看书、听听音乐。"],"answer":0,"explanation_vi":"什么的 đứng ở cuối danh sách và không đi cùng 等 / 等等."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:减少","prompt_vi":"Chọn đáp án đúng.","question_zh":"我们应该____使用塑料袋。","options":["减少","增加","浪费","污染"],"answer":0,"explanation_vi":"Bảo vệ môi trường thì phải giảm dùng túi nhựa: 减少使用."},
+      {"id":"t2","type":"choice","tag":"g:够","prompt_vi":"Chọn đáp án đúng.","question_zh":"一个人吃这么多已经____了。","options":["够","多","大","好"],"answer":0,"explanation_vi":"“Đã đủ rồi”: 够了."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"增加","vi":"tăng thêm"},{"zh":"下降","vi":"đi xuống, giảm"},{"zh":"降低","vi":"hạ thấp"},{"zh":"引起","vi":"gây ra"},{"zh":"停止","vi":"dừng lại"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"袋子","vi":"cái túi"},{"zh":"纸巾","vi":"khăn giấy"},{"zh":"桶","vi":"cái thùng"},{"zh":"组","vi":"nhóm"},{"zh":"电动车","vi":"xe điện"}]},
+      {"id":"t5","type":"order","tag":"g:既然","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["既然","你","想去","就","一起","去吧"],"answers":["既然你想去就一起去吧"],"translation_vi":"Đã muốn đi thì cùng đi nhé.","explanation_vi":"既然 + sự việc (你想去)，就 + đề nghị (一起去吧)."},
+      {"id":"t6","type":"order","tag":"g:什么的","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","喜欢","吃","苹果","香蕉","什么的"],"answers":["我喜欢吃苹果香蕉什么的"],"translation_vi":"Tôi thích ăn táo, chuối v.v.","explanation_vi":"Danh sách (苹果、香蕉) đứng trước, 什么的 đứng cuối."},
+      {"id":"t7","type":"fill","tag":"g:以","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我们要____自己的行动保护地球。","answers":["以"],"hint_vi":"bằng, lấy","explanation_vi":"以自己的行动 = bằng hành động của mình."},
+      {"id":"t8","type":"fill","tag":"g:于是","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"他发现桌上有很多垃圾，____把它们扔进了垃圾桶。","answers":["于是"],"hint_vi":"thế là, bèn","explanation_vi":"Hành động nối tiếp sau khi phát hiện: 于是."},
+      {"id":"t9","type":"listen_choice","tag":"g:既然","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"既然你累了，就早点儿休息吧。","options":["Đã mệt thì nghỉ sớm một chút đi.","Nếu mệt thì nghỉ sớm một chút.","Vì bạn mệt nên không đi được.","Tuy mệt nhưng vẫn phải làm tiếp."],"answer":0,"explanation_vi":"既然……就…… = đã… thì…."},
+      {"id":"t10","type":"listen_choice","tag":"v:禁止","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"这里禁止吸烟。","options":["这里禁止吸烟。","这里可以吸烟。","这里不要喝酒。","这里禁止停车。"],"answer":0,"explanation_vi":"Câu nghe được: 这里禁止吸烟 = Ở đây cấm hút thuốc."},
+      {"id":"t11","type":"dictation","tag":"g:够","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这些菜够我们三个人吃了。","answers":["这些菜够我们三个人吃了"],"explanation_vi":"这些菜够我们三个人吃了 = Những món này đủ cho ba chúng ta ăn rồi."},
+      {"id":"t12","type":"dictation","tag":"v:环保","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"带自己的杯子很环保。","answers":["带自己的杯子很环保"],"explanation_vi":"带自己的杯子很环保 = Mang cốc của mình rất thân thiện với môi trường."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:既然","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Đã mệt rồi thì nghỉ sớm một chút đi.","answers":["既然你累了，就早点儿休息吧","既然累了，就早点儿休息吧","既然你累了就早点休息吧","既然累了就早点休息吧","既然你累了，就早点儿休息","既然累了，就早点休息吧","既然你累了，那就早点儿休息吧","既然你累了，就早点休息吧"],"explanation_vi":"既然你累了 + 就早点儿休息吧."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:够","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Những món này đủ cho ba người ăn.","answers":["这些菜够三个人吃","这些菜够三个人吃了","这些菜够我们三个人吃","这些菜够我们三个人吃了","这些菜够三个人吃的","这几个菜够三个人吃","这几个菜够三个人吃了"],"explanation_vi":"这些菜 + 够 + 三个人 + 吃 (đủ cho ba người ăn)."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:于是","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他发现桌上有很多垃圾，于是把它们扔进了垃圾桶。","answers_vi":["Anh ấy thấy trên bàn có nhiều rác, thế là bỏ chúng vào thùng rác.","Cậu ấy phát hiện trên bàn có rất nhiều rác nên bèn vứt chúng vào thùng rác."],"keywords":[["phát hiện","thấy","nhìn thấy"],["bàn"],["rác"],["thế là","bèn","nên","liền","rồi","vậy là"],["thùng rác","thùng"]],"explanation_vi":"发现 = phát hiện; 于是 = thế là; 把……扔进…… = bỏ… vào…."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:严重","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这个城市的空气污染很严重。","answers_vi":["Ô nhiễm không khí ở thành phố này rất nghiêm trọng.","Không khí ở thành phố này bị ô nhiễm nặng."],"keywords":[["thành phố"],["không khí"],["ô nhiễm"],["nghiêm trọng","trầm trọng","nặng"]],"explanation_vi":"空气污染 = ô nhiễm không khí; 严重 = nghiêm trọng."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"小区里的小行动",
+        "title_vi":"Những hành động nhỏ trong khu phố",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["住","zhù","sống"],["的","de","(trợ từ)"],["城市","chéngshì","thành phố"],["以前","yǐqián","trước đây"],["空气","kōngqì","không khí"],["很","hěn","rất"],["好","hǎo","tốt"],["，"],["可是","kěshì","nhưng"],["这","zhè","mấy"],["几","jǐ","mấy"],["年","nián","năm"],["，"],["汽车","qìchē","ô tô"],["越来越","yuè lái yuè","ngày càng"],["多","duō","nhiều"],["，"],["空气","kōngqì","không khí"],["污染","wūrǎn","ô nhiễm"],["也","yě","cũng"],["越来越","yuè lái yuè","ngày càng"],["严重","yánzhòng","nghiêm trọng"],["。"],["有时候","yǒu shíhou","có lúc"],["天空","tiānkōng","bầu trời"],["不太","bú tài","không mấy"],["蓝","lán","xanh"],["，"],["连","lián","ngay cả"],["星星","xīngxing","sao"],["都","dōu","cũng"],["看不到","kàn bu dào","không nhìn thấy"],["。"]],
+            "vi":"Thành phố nơi tôi sống trước đây không khí rất tốt, nhưng mấy năm nay ô tô ngày càng nhiều, ô nhiễm không khí cũng ngày càng nghiêm trọng. Có lúc bầu trời không mấy xanh, đến sao cũng không nhìn thấy."
+          },
+          {
+            "tokens":[["去年","qùnián","năm ngoái"],["，"],["我们","wǒmen","chúng tôi"],["小区","xiǎoqū","khu dân cư"],["的","de","của"],["人们","rénmen","mọi người"],["开","kāi","tổ chức"],["了","le","(đã)"],["一个","yí ge","một"],["会","huì","cuộc họp"],["。"],["既然","jìrán","đã"],["大家","dàjiā","mọi người"],["都","dōu","đều"],["想要","xiǎng yào","muốn có"],["好","hǎo","tốt"],["的","de","(trợ từ)"],["空气","kōngqì","không khí"],["，"],["就","jiù","thì"],["应该","yīnggāi","nên"],["一起","yìqǐ","cùng nhau"],["做","zuò","làm"],["点","diǎn","chút"],["什么","shénme","gì đó"],["。"],["于是","yúshì","thế là"],["，"],["大家","dàjiā","mọi người"],["提出","tíchū","đưa ra"],["了","le","(đã)"],["很多","hěn duō","nhiều"],["建议","jiànyì","đề nghị"],["："],["少","shǎo","ít"],["开车","kāichē","lái xe"],["，"],["多","duō","nhiều"],["坐","zuò","đi (xe)"],["公共汽车","gōnggòng qìchē","xe buýt"],["；"],["节约","jiéyuē","tiết kiệm"],["用水","yòng shuǐ","dùng nước"],["用电","yòng diàn","dùng điện"],["；"],["垃圾","lājī","rác"],["要","yào","phải"],["分开","fēnkāi","phân loại"],["扔","rēng","vứt"],["；"],["不","bù","không"],["用","yòng","dùng"],["塑料袋","sùliàodài","túi nhựa"],["，"],["自己","zìjǐ","tự"],["带","dài","mang"],["袋子","dàizi","túi"],["什么的","shénme de","v.v."],["。"]],
+            "vi":"Năm ngoái, mọi người trong khu dân cư của chúng tôi tổ chức một cuộc họp. Đã ai cũng muốn có không khí tốt thì nên cùng làm điều gì đó. Thế là mọi người đưa ra nhiều đề nghị: lái xe ít, đi xe buýt nhiều; tiết kiệm nước và điện; rác phải phân loại khi vứt; không dùng túi nhựa, tự mang túi v.v."
+          },
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["，"],["一年","yì nián","một năm"],["过去","guòqu","trôi qua"],["了","le","(rồi)"],["。"],["很多","hěn duō","nhiều"],["人","rén","người"],["开始","kāishǐ","bắt đầu"],["骑","qí","đi (xe đạp)"],["自行车","zìxíngchē","xe đạp"],["去","qù","đi"],["上班","shàngbān","đi làm"],["，"],["小区","xiǎoqū","khu dân cư"],["里","li","trong"],["的","de","(của)"],["垃圾","lājī","rác"],["也","yě","cũng"],["少","shǎo","ít"],["了","le","(đi)"],["很多","hěn duō","nhiều"],["。"],["上个月","shàng ge yuè","tháng trước"],["，"],["我们","wǒmen","chúng tôi"],["又","yòu","lại"],["看到","kàn dào","nhìn thấy"],["了","le","(rồi)"],["蓝天","lán tiān","trời xanh"],["和","hé","và"],["星星","xīngxing","sao"],["。"],["我们","wǒmen","chúng tôi"],["明白","míngbai","hiểu ra"],["了","le","(rồi)"],["，"],["保护","bǎohù","bảo vệ"],["地球","dìqiú","Trái Đất"],["不","bù","không"],["需要","xūyào","cần"],["做","zuò","làm"],["很大","hěn dà","rất lớn"],["的","de","(trợ từ)"],["事","shì","việc"],["，"],["以","yǐ","bằng"],["自己","zìjǐ","của mình"],["的","de","(trợ từ)"],["小","xiǎo","nhỏ"],["行动","xíngdòng","hành động"],["，"],["就","jiù","là"],["能","néng","có thể"],["让","ràng","khiến"],["生活","shēnghuó","cuộc sống"],["更","gèng","hơn"],["好","hǎo","tốt"],["。"]],
+            "vi":"Bây giờ một năm đã trôi qua. Nhiều người bắt đầu đạp xe đi làm, rác trong khu dân cư cũng giảm nhiều. Tháng trước, chúng tôi lại nhìn thấy trời xanh và sao. Chúng tôi hiểu ra rằng bảo vệ Trái Đất không cần làm việc quá lớn, chỉ cần những hành động nhỏ của mình là có thể làm cuộc sống tốt hơn."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"这几年，这个城市有什么变化？","options":["汽车越来越多，空气污染越来越严重","空气越来越好","人越来越少","天空越来越蓝"],"answer":0,"explanation_vi":"Đoạn 1: 汽车越来越多，空气污染也越来越严重."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小区的人们开会以后，提出了什么建议？","options":["少开车，节约用水用电","多开车","多买塑料袋","少种树"],"answer":0,"explanation_vi":"Đoạn 2: 少开车，多坐公共汽车；节约用水用电……."},
+          {"id":"rq3","type":"choice","tag":"g:既然","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"小区的人们开会，是因为大家都想要好的空气。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 既然大家都想要好的空气，就应该一起做点什么 — câu này đúng."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"一年以后，大家还是看不到星星。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 上个月，我们又看到了蓝天和星星 — câu này sai."},
+          {"id":"rq5","type":"choice","tag":"g:以","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我们”明白了什么？","options":["保护地球不需要做很大的事，小行动也有用","保护地球很难","只有大城市才能保护地球","只要开会就能保护地球"],"answer":0,"explanation_vi":"Đoạn 3: 保护地球不需要做很大的事，以自己的小行动，就能让生活更好."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Lời nhắn cuối tuần môi trường",
+        "text_zh":"各位同学，大家好！今天是环保周的最后一天。这一周，我们学校的垃圾减少了三分之一，大家做得非常好。我再给大家几个建议：第一，去食堂吃饭，吃多少拿多少，不要浪费；第二，出门坐公共汽车或者骑自行车，减少汽车带来的污染；第三，买东西的时候自己带袋子，不要用塑料袋。既然我们都只有一个地球，就应该一起保护她。最后提醒大家，学校里禁止乱扔垃圾，请大家记住！",
+        "pinyin":"Gè wèi tóngxué, dàjiā hǎo! Jīntiān shì huánbǎozhōu de zuìhòu yì tiān. Zhè yì zhōu, wǒmen xuéxiào de lājī jiǎnshǎo le sān fēn zhī yī, dàjiā zuò de fēicháng hǎo. Wǒ zài gěi dàjiā jǐ ge jiànyì: dì yī, qù shítáng chī fàn, chī duōshao ná duōshao, búyào làngfèi; dì èr, chūmén zuò gōnggòng qìchē huòzhě qí zìxíngchē, jiǎnshǎo qìchē dàilái de wūrǎn; dì sān, mǎi dōngxi de shíhou zìjǐ dài dàizi, búyào yòng sùliàodài. Jìrán wǒmen dōu zhǐyǒu yí ge dìqiú, jiù yīnggāi yìqǐ bǎohù tā. Zuìhòu tíxǐng dàjiā, xuéxiào li jìnzhǐ luàn rēng lājī, qǐng dàjiā jìzhù!",
+        "vi":"Chào các bạn học sinh! Hôm nay là ngày cuối cùng của tuần môi trường. Tuần này rác của trường giảm một phần ba, mọi người làm rất tốt. Tôi xin đưa thêm vài đề nghị: thứ nhất, đi ăn ở nhà ăn thì ăn bao nhiêu lấy bấy nhiêu, đừng lãng phí; thứ hai, ra ngoài đi xe buýt hoặc đạp xe, giảm ô nhiễm do ô tô gây ra; thứ ba, khi mua đồ hãy tự mang túi, đừng dùng túi nhựa. Đã chỉ có một Trái Đất thì chúng ta nên cùng bảo vệ nó. Cuối cùng nhắc mọi người, trong trường cấm vứt rác bừa bãi, xin mọi người ghi nhớ!",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这一周，学校的垃圾怎么样了？","options":["减少了三分之一","增加了三分之一","没有变化","减少了一半"],"answer":0,"explanation_vi":"Nghe được: 我们学校的垃圾减少了三分之一."},
+          {"id":"lq2","type":"choice","tag":"v:浪费","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"在食堂吃饭，要怎么做？","options":["吃多少拿多少","多拿一点儿","只吃菜","不带袋子"],"answer":0,"explanation_vi":"Nghe được: 去食堂吃饭，吃多少拿多少，不要浪费."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"怎么减少汽车带来的污染？","options":["坐公共汽车或者骑自行车","多开车","少坐地铁","在家不出门"],"answer":0,"explanation_vi":"Nghe được: 出门坐公共汽车或者骑自行车，减少汽车带来的污染."},
+          {"id":"lq4","type":"choice","tag":"v:禁止","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"学校里禁止做什么？","options":["乱扔垃圾","骑自行车","喝茶","说话"],"answer":0,"explanation_vi":"Nghe được: 学校里禁止乱扔垃圾."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"够","pinyin":"gòu","vi":"đủ","tip_vi":"g không bật hơi, vần ou như “âu” rồi tròn môi, thanh 4 xuống mạnh. Đừng đọc thành “câu” (c bật hơi) hay “cậu” tiếng Việt."},
+      {"id":"s2","zh":"环保，垃圾","pinyin":"huánbǎo, lājī","vi":"bảo vệ môi trường, rác","tip_vi":"环 huán: h bật hơi nhẹ, -uan tròn môi; 保 bǎo thanh 3. 垃圾: l đầu lưỡi chạm lợi trên; 垃 lā thanh 1 cao và bằng; 圾 jī thanh 1, j không bật hơi."},
+      {"id":"s3","zh":"既然你累了，就早点儿休息吧。","pinyin":"Jìrán nǐ lèi le, jiù zǎo diǎnr xiūxi ba.","vi":"Đã mệt thì nghỉ sớm một chút đi.","tip_vi":"既然 jìrán: r uốn lưỡi nhẹ, không phát âm như “d” hay “z”. 早点儿 zǎo diǎnr: hai thanh 3 liền nhau, 早 đọc thành thanh 2; -r cuốn lưỡi ở cuối. 休息 xiūxi: 息 đọc nhẹ."},
+      {"id":"s4","zh":"他发现桌上有很多垃圾，于是把它们扔进了垃圾桶。","pinyin":"Tā fāxiàn zhuō shang yǒu hěn duō lājī, yúshì bǎ tāmen rēng jìn le lājītǒng.","vi":"Anh ấy thấy trên bàn có nhiều rác, thế là bỏ chúng vào thùng rác.","tip_vi":"桌 zhuō: zh uốn lưỡi, -uo tròn môi. 于是 yúshì: ü tròn môi, thanh 2 rồi thanh 4. 扔 rēng: r uốn lưỡi, thanh 1 cao và bằng. 桶 tǒng: t bật hơi, -ong ở cuống lưỡi."},
+      {"id":"s5","zh":"我们要以自己的行动保护地球母亲。","pinyin":"Wǒmen yào yǐ zìjǐ de xíngdòng bǎohù dìqiú mǔqīn.","vi":"Chúng ta phải bảo vệ Mẹ Trái Đất bằng hành động của mình.","tip_vi":"以 yǐ và 自己 zìjǐ có nhiều thanh 3; 以自己 đọc thành thanh 2 liên tiếp (yí zí jǐ). 行动 xíngdòng: -ing và -ong đều ở cuống lưỡi. 球 qiú: q bật hơi, -iu như “iêu” ngắn. 母亲 mǔqīn: 亲 -in kết thúc ở đầu lưỡi."},
+      {"id":"s6","zh":"我喜欢吃苹果、香蕉什么的。","pinyin":"Wǒ xǐhuan chī píngguǒ, xiāngjiāo shénme de.","vi":"Tôi thích ăn táo, chuối v.v.","tip_vi":"我喜: hai thanh 3 liền, 我 đọc thành thanh 2. 苹果 píngguǒ: p bật hơi, 果 guǒ thanh 3. 香蕉 xiāngjiāo: x miệng bẹt. 什么的: ba chữ đọc nhẹ, 么 và 的 rất ngắn, gần như “shén-ma-de” liền nhau."},
+      {"id":"s7","zh":"全球都在保护我们的地球母亲。","pinyin":"Quánqiú dōu zài bǎohù wǒmen de dìqiú mǔqīn.","vi":"Cả thế giới đều đang bảo vệ Mẹ Trái Đất của chúng ta.","tip_vi":"全球 quánqiú: q bật hơi, -uan tròn môi (ü + an: quán = “xoan”), đừng đọc “cuán”. 保护 bǎohù: hai thanh 3 liền, 保 đọc thành thanh 2. 地球母亲: nhấn nhẹ vào 地球 và 母亲."}
+    ],
+    "review": {
+      "remember": [
+        "够 = đủ: 钱够吗？ 这些菜够三个人吃. Phủ định là 不够 (không nói 没够). V + 够 = đã chán / đủ lượng (吃够了).",
+        "以 + phương tiện + V (以行动保护地球), 以A为B (lấy A làm B), V1，以V2 (để…), 以上 / 以下 / 以内: cách nói trang trọng.",
+        "既然……就…… = đã… thì…: dùng với sự thật đã rõ; vế sau là đề nghị, kết luận. Không dùng 所以; việc chưa xảy ra dùng 如果.",
+        "于是 = thế là, bèn (kể việc nối tiếp, vế sau là hành động); 所以 = nên (lý do – kết quả). 什么的 = v.v., đặt cuối danh sách, không thêm 等.",
+        "Từ vựng môi trường: 污染 (ô nhiễm) · 垃圾 (rác) · 节约 (tiết kiệm) ≠ 浪费 (lãng phí) · 减少 (giảm) ≠ 增加 (tăng) · 建议 (đề nghị)."
+      ],
+      "mistakes": [
+        "✗ 时间没够了 → ✓ 时间不够了: phủ định của 够 là 不够.",
+        "✗ 既然下雨了，所以我们在家 → ✓ 既然下雨了，我们就在家: 既然 đi với 就, không dùng 所以.",
+        "✗ 苹果、香蕉什么的等 → ✓ 苹果、香蕉什么的: 什么的 đã có nghĩa v.v., không thêm 等."
+      ]
+    }
+  }
+}

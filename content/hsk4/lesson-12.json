@@ -1,0 +1,256 @@
+{
+  "level": 4,
+  "number": 12,
+  "summary": "Hai người bạn chơi trò “tìm điểm khác nhau” và học cách quan sát kỹ để tìm ra đáp án; học 并且 và 相反, 再……也…… (dù… đến đâu cũng…), 对于 (đối với), cách lặp lượng từ / danh từ (个个、天天、人人) cùng từ vựng về nghiên cứu, phán đoán và đúng – sai",
+  "readings_ok": [],
+  "content": {
+    "objectives": [
+      "Quan sát, so sánh và đánh giá bằng 区别、特点、相同、同样、仔细、判断、怀疑",
+      "Nối ý bổ sung bằng 并且 và nêu điều ngược lại bằng 相反",
+      "Nói “dù… đến đâu cũng…” bằng 再……也…… và nêu đối tượng bằng 对于",
+      "Dùng cách lặp lượng từ / danh từ để nói “tất cả, mỗi”: 个个、天天、人人、家家"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"并且","pinyin":"bìngqiě","pos":"liên từ","meaning_vi":"hơn nữa, và còn","example_zh":"这个方法简单，并且很有用。","example_pinyin":"Zhège fāngfǎ jiǎndān, bìngqiě hěn yǒuyòng.","example_vi":"Cách này đơn giản, hơn nữa rất hữu ích.","note_vi":"Nối hai động từ, tính từ hoặc hai vế cùng chiều và tăng tiến (A, 并且 B). Không nối danh từ: ✗ 苹果并且香蕉 → ✓ 苹果和香蕉. Trang trọng hơn 而且 một chút."},
+      {"id":"v2","hanzi":"对于","pinyin":"duìyú","pos":"giới từ","meaning_vi":"đối với, về","example_zh":"对于这个问题，大家有不同的看法。","example_pinyin":"Duìyú zhège wèntí, dàjiā yǒu bù tóng de kànfǎ.","example_vi":"Về vấn đề này, mọi người có cách nhìn khác nhau.","note_vi":"对于 + sự việc / vấn đề / sự vật (không dùng cho hành động hướng tới người): 对于学习 / 对于这件事. Với người dùng 对: 他对我很好, không nói ✗ 他对于我很好."},
+      {"id":"v3","hanzi":"相反","pinyin":"xiāngfǎn","pos":"tính từ / liên từ","meaning_vi":"trái ngược; ngược lại","example_zh":"他没有生气，相反，还笑了。","example_pinyin":"Tā méiyǒu shēngqì, xiāngfǎn, hái xiào le.","example_vi":"Anh ấy không tức giận, ngược lại còn cười.","hanviet":"TƯƠNG PHẢN","note_vi":"Tính từ: 正好相反, 与……相反. Liên từ: đứng đầu vế sau, nêu điều trái với điều đã nói hoặc điều mong đợi. Khác 反而 (ngược lại, trái với dự tính)."},
+      {"id":"v4","hanzi":"量","pinyin":"liáng","pos":"động từ","meaning_vi":"đo","example_zh":"请你量一量这张桌子有多长。","example_pinyin":"Qǐng nǐ liáng yi liáng zhè zhāng zhuōzi yǒu duō cháng.","example_vi":"Xin bạn đo xem cái bàn này dài bao nhiêu.","note_vi":"Khi là động từ “đo” đọc liáng (量体温 đo thân nhiệt, 量身高 đo chiều cao). Khi đứng trong danh từ đọc liàng: 数量, 力量. Lặp: 量一量 / 量量."},
+      {"id":"v5","hanzi":"研究","pinyin":"yánjiū","pos":"động từ / danh từ","meaning_vi":"nghiên cứu","example_zh":"他在研究汉字的历史。","example_pinyin":"Tā zài yánjiū Hànzì de lìshǐ.","example_vi":"Anh ấy đang nghiên cứu lịch sử của chữ Hán.","hanviet":"NGHIÊN CỨU","note_vi":"Cũng dùng khi bàn bạc kỹ một việc (我们研究一下这个计划) – tương đương “bàn xem, xem xét”."},
+      {"id":"v6","hanzi":"原因","pinyin":"yuányīn","pos":"danh từ","meaning_vi":"nguyên nhân, lý do","example_zh":"你知道他没来的原因吗？","example_pinyin":"Nǐ zhīdào tā méi lái de yuányīn ma?","example_vi":"Bạn có biết lý do anh ấy không đến không?","hanviet":"NGUYÊN NHÂN","note_vi":"Hỏi nguyên nhân: 什么原因 / 原因是什么. Hay đi với 找到原因, 出现问题的原因."},
+      {"id":"v7","hanzi":"解释","pinyin":"jiěshì","pos":"động từ","meaning_vi":"giải thích","example_zh":"请你解释一下这个词的意思。","example_pinyin":"Qǐng nǐ jiěshì yíxià zhège cí de yìsi.","example_vi":"Xin bạn giải thích một chút nghĩa của từ này.","hanviet":"GIẢI THÍCH","note_vi":"解释 + điều cần giải thích (解释原因, 解释一下). Có thể là lời biện giải: 你听我解释 (nghe tôi giải thích)."},
+      {"id":"v8","hanzi":"判断","pinyin":"pànduàn","pos":"động từ","meaning_vi":"phán đoán, đánh giá","example_zh":"我们要根据情况做出判断。","example_pinyin":"Wǒmen yào gēnjù qíngkuàng zuòchū pànduàn.","example_vi":"Chúng ta phải dựa vào tình hình để đưa ra phán đoán.","hanviet":"PHÁN ĐOÁN","note_vi":"Vừa là động từ (判断对错) vừa dùng như danh từ (他的判断很正确). Khác 估计 (bài 7): 估计 là đoán ước chừng; 判断 dựa trên suy xét để kết luận."},
+      {"id":"v9","hanzi":"区别","pinyin":"qūbié","pos":"danh từ / động từ","meaning_vi":"sự khác biệt; phân biệt","example_zh":"这两个词有什么区别？","example_pinyin":"Zhè liǎng ge cí yǒu shénme qūbié?","example_vi":"Hai từ này có điểm khác nhau gì?","hanviet":"KHU BIỆT","note_vi":"Danh từ: 有区别 / 没有区别. Động từ: 区别A和B (phân biệt A và B). Hay dùng khi so sánh từ vựng, sự vật."},
+      {"id":"v10","hanzi":"特点","pinyin":"tèdiǎn","pos":"danh từ","meaning_vi":"đặc điểm","example_zh":"这个城市的特点是很安静。","example_pinyin":"Zhège chéngshì de tèdiǎn shì hěn ānjìng.","example_vi":"Đặc điểm của thành phố này là rất yên tĩnh.","hanviet":"ĐẶC ĐIỂM","note_vi":"Nói về nét riêng của sự vật hay người: 有特点 (có nét riêng), 特点是……. Không phải “điểm đặc biệt” theo nghĩa tốt."},
+      {"id":"v11","hanzi":"相同","pinyin":"xiāngtóng","pos":"tính từ","meaning_vi":"giống nhau","example_zh":"我们的看法相同。","example_pinyin":"Wǒmen de kànfǎ xiāngtóng.","example_vi":"Cách nhìn của chúng tôi giống nhau.","hanviet":"TƯƠNG ĐỒNG","note_vi":"相同 thường làm vị ngữ hoặc định ngữ có 的: 相同的地方. Muốn đặt trước danh từ mà không dùng 的 thì dùng 同样 hoặc 一样."},
+      {"id":"v12","hanzi":"同样","pinyin":"tóngyàng","pos":"tính từ","meaning_vi":"giống như vậy, cùng loại","example_zh":"同样的问题，他回答得更好。","example_pinyin":"Tóngyàng de wèntí, tā huídá de gèng hǎo.","example_vi":"Cùng một vấn đề, anh ấy trả lời tốt hơn.","hanviet":"ĐỒNG DẠNG","note_vi":"同样 + 的 + danh từ (同样的衣服), hoặc làm phó từ: 同样很重要. Khác 相同 chỉ làm vị ngữ gọn, 同样 chủ yếu làm định ngữ hay phó từ."},
+      {"id":"v13","hanzi":"正确","pinyin":"zhèngquè","pos":"tính từ","meaning_vi":"đúng, chính xác (không sai)","example_zh":"你的答案是正确的。","example_pinyin":"Nǐ de dá'àn shì zhèngquè de.","example_vi":"Đáp án của bạn là đúng.","hanviet":"CHÍNH XÁC","note_vi":"正确 = không sai, hợp lý (正确的答案, 方法正确). Khác 准确 (chính xác về số liệu, phát âm, mức độ): 时间很准确. Trái nghĩa: 错误."},
+      {"id":"v14","hanzi":"错误","pinyin":"cuòwù","pos":"tính từ / danh từ","meaning_vi":"sai; lỗi, sai lầm","example_zh":"这个句子里有一个错误。","example_pinyin":"Zhège jùzi li yǒu yí ge cuòwù.","example_vi":"Trong câu này có một lỗi.","note_vi":"Danh từ: 犯错误 (phạm lỗi), 一个错误. Tính từ: 错误的方法. Trang trọng hơn 错."},
+      {"id":"v15","hanzi":"准确","pinyin":"zhǔnquè","pos":"tính từ","meaning_vi":"chính xác, chuẩn xác","example_zh":"她的发音很准确。","example_pinyin":"Tā de fāyīn hěn zhǔnquè.","example_vi":"Phát âm của cô ấy rất chuẩn.","hanviet":"CHUẨN XÁC","note_vi":"准确 nói về độ chính xác của con số, thời gian, phát âm, dự đoán. Khác 正确 (đúng/sai về nội dung). Câu: 时间不准确 (giờ không chính xác)."},
+      {"id":"v16","hanzi":"仔细","pinyin":"zǐxì","pos":"tính từ","meaning_vi":"kỹ lưỡng, cẩn thận","example_zh":"请仔细看一下这张图。","example_pinyin":"Qǐng zǐxì kàn yíxià zhè zhāng tú.","example_vi":"Xin hãy nhìn kỹ tấm hình này.","hanviet":"TỬ TẾ","note_vi":"Cạm bẫy: Hán Việt “tử tế” nghĩa là hiền lành, tốt bụng, còn 仔细 nghĩa là KỸ LƯỠNG, tỉ mỉ. Hay dùng: 仔细看 / 仔细听 / 仔细想 / 很仔细."},
+      {"id":"v17","hanzi":"怀疑","pinyin":"huáiyí","pos":"động từ","meaning_vi":"nghi ngờ, ngờ rằng","example_zh":"我怀疑他没有说真话。","example_pinyin":"Wǒ huáiyí tā méiyǒu shuō zhēn huà.","example_vi":"Tôi ngờ rằng anh ấy không nói thật.","hanviet":"HOÀI NGHI","note_vi":"怀疑 + mệnh đề (ngờ rằng…) hoặc + danh từ (怀疑这个结果). Khác 不相信 (không tin) – 怀疑 vẫn còn khả năng đúng."},
+      {"id":"v18","hanzi":"出现","pinyin":"chūxiàn","pos":"động từ","meaning_vi":"xuất hiện, hiện ra","example_zh":"门口出现了一个人。","example_pinyin":"Ménkǒu chūxiàn le yí ge rén.","example_vi":"Ở cửa xuất hiện một người.","hanviet":"XUẤT HIỆN","note_vi":"Chỉ cái mới hiện ra, trước đó chưa có: 出现问题 (nảy sinh vấn đề), 出现在门口. Dùng 了 sau động từ để chỉ sự hiện ra."},
+      {"id":"v19","hanzi":"复杂","pinyin":"fùzá","pos":"tính từ","meaning_vi":"phức tạp","example_zh":"这个问题很复杂，不容易解释。","example_pinyin":"Zhège wèntí hěn fùzá, bù róngyì jiěshì.","example_vi":"Vấn đề này phức tạp, không dễ giải thích.","hanviet":"PHỨC TẠP","note_vi":"Trái nghĩa: 简单. Hay đi với 问题, 关系, 心情."},
+      {"id":"v20","hanzi":"答案","pinyin":"dá'àn","pos":"danh từ","meaning_vi":"đáp án, câu trả lời","example_zh":"这道题的答案是什么？","example_pinyin":"Zhè dào tí de dá'àn shì shénme?","example_vi":"Đáp án của câu này là gì?","hanviet":"ĐÁP ÁN","note_vi":"Có dấu nháy trong pinyin: dá'àn. Hay dùng: 找答案, 标准答案 (đáp án chuẩn), 正确答案."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"猜","pinyin":"cāi","pos":"động từ","meaning_vi":"đoán","example_zh":"你猜他今年多大？","example_pinyin":"Nǐ cāi tā jīnnián duō dà?","example_vi":"Bạn đoán xem năm nay anh ấy bao nhiêu tuổi?"},
+      {"id":"x2","hanzi":"答","pinyin":"dá","pos":"động từ","meaning_vi":"trả lời","example_zh":"他答对了这个问题。","example_pinyin":"Tā dá duì le zhège wèntí.","example_vi":"Anh ấy đã trả lời đúng câu hỏi này.","note_vi":"答 thường đi với bổ ngữ (答对, 答错) hoặc trong từ ghép (回答, 答案)."},
+      {"id":"x3","hanzi":"指出","pinyin":"zhǐchū","pos":"động từ","meaning_vi":"chỉ ra, nêu rõ","example_zh":"老师指出了我的错误。","example_pinyin":"Lǎoshī zhǐchū le wǒ de cuòwù.","example_vi":"Thầy giáo đã chỉ ra lỗi sai của tôi."},
+      {"id":"x4","hanzi":"指","pinyin":"zhǐ","pos":"động từ","meaning_vi":"chỉ, trỏ","example_zh":"他指着地图说：“我们在这儿。”","example_pinyin":"Tā zhǐ zhe dìtú shuō: “Wǒmen zài zhèr.”","example_vi":"Anh ấy chỉ vào bản đồ nói: “Chúng ta ở đây.”"},
+      {"id":"x5","hanzi":"准","pinyin":"zhǔn","pos":"tính từ","meaning_vi":"chuẩn, chính xác","example_zh":"他的手表很准。","example_pinyin":"Tā de shǒubiǎo hěn zhǔn.","example_vi":"Đồng hồ của anh ấy rất chuẩn.","note_vi":"准 là cách nói gọn của 准确 trong khẩu ngữ: 说得很准, 表很准."},
+      {"id":"x6","hanzi":"细","pinyin":"xì","pos":"tính từ","meaning_vi":"mảnh, nhỏ, mịn","example_zh":"这支笔很细。","example_pinyin":"Zhè zhī bǐ hěn xì.","example_vi":"Cây bút này rất mảnh.","note_vi":"Trái nghĩa với 粗. Cũng có nghĩa “tỉ mỉ”: 他想得很细."},
+      {"id":"x7","hanzi":"粗","pinyin":"cū","pos":"tính từ","meaning_vi":"thô, to (bề ngang)","example_zh":"这棵树很粗。","example_pinyin":"Zhè kē shù hěn cū.","example_vi":"Cái cây này rất to (thân to)."},
+      {"id":"x8","hanzi":"基本","pinyin":"jīběn","pos":"tính từ / phó từ","meaning_vi":"cơ bản; về cơ bản","example_zh":"这个问题基本解决了。","example_pinyin":"Zhège wèntí jīběn jiějué le.","example_vi":"Vấn đề này về cơ bản đã giải quyết xong.","hanviet":"CƠ BẢN"},
+      {"id":"x9","hanzi":"基本上","pinyin":"jīběnshàng","pos":"phó từ","meaning_vi":"về cơ bản, nhìn chung","example_zh":"我基本上每天都跑步。","example_pinyin":"Wǒ jīběnshàng měi tiān dōu pǎobù.","example_vi":"Về cơ bản ngày nào tôi cũng chạy bộ."},
+      {"id":"x10","hanzi":"整个","pinyin":"zhěnggè","pos":"tính từ","meaning_vi":"cả, toàn bộ","example_zh":"他看了整个下午的书。","example_pinyin":"Tā kàn le zhěnggè xiàwǔ de shū.","example_vi":"Anh ấy đọc sách suốt cả buổi chiều.","note_vi":"整个 + danh từ (整个城市, 整个下午). Nhấn mạnh toàn bộ, không thiếu phần nào."},
+      {"id":"x11","hanzi":"各","pinyin":"gè","pos":"đại từ","meaning_vi":"mỗi, các","example_zh":"各国的学生都来参加比赛。","example_pinyin":"Gè guó de xuésheng dōu lái cānjiā bǐsài.","example_vi":"Học sinh các nước đều đến tham gia thi đấu.","note_vi":"各 + danh từ/lượng từ: 各位 (các vị), 各国 (các nước), 各种 (các loại)."},
+      {"id":"x12","hanzi":"各个","pinyin":"gègè","pos":"đại từ","meaning_vi":"mỗi, từng, các (lần lượt)","example_zh":"各个国家的菜这里都有。","example_pinyin":"Gègè guójiā de cài zhèli dōu yǒu.","example_vi":"Món ăn của các nước ở đây đều có."},
+      {"id":"x13","hanzi":"全","pinyin":"quán","pos":"tính từ / phó từ","meaning_vi":"toàn, tất cả","example_zh":"全家人都在家。","example_pinyin":"Quán jiā rén dōu zài jiā.","example_vi":"Cả nhà đều ở nhà."},
+      {"id":"x14","hanzi":"数","pinyin":"shù","pos":"danh từ","meaning_vi":"số","example_zh":"这个数太大了，我算不出来。","example_pinyin":"Zhège shù tài dà le, wǒ suàn bu chūlái.","example_vi":"Con số này lớn quá, tôi không tính ra được.","note_vi":"Danh từ đọc shù (số). Động từ “đếm” đọc shǔ (数一数 đếm thử)."},
+      {"id":"x15","hanzi":"数字","pinyin":"shùzì","pos":"danh từ","meaning_vi":"con số, chữ số","example_zh":"请把这些数字写下来。","example_pinyin":"Qǐng bǎ zhèxiē shùzì xiě xiàlai.","example_vi":"Xin hãy ghi những con số này lại."},
+      {"id":"x16","hanzi":"数量","pinyin":"shùliàng","pos":"danh từ","meaning_vi":"số lượng","example_zh":"书的数量很多。","example_pinyin":"Shū de shùliàng hěn duō.","example_vi":"Số lượng sách rất nhiều.","hanviet":"SỐ LƯỢNG"},
+      {"id":"x17","hanzi":"顺序","pinyin":"shùnxù","pos":"danh từ","meaning_vi":"thứ tự","example_zh":"请按顺序排队。","example_pinyin":"Qǐng àn shùnxù páiduì.","example_vi":"Xin hãy xếp hàng theo thứ tự.","hanviet":"THUẬN TỰ"},
+      {"id":"x18","hanzi":"列","pinyin":"liè","pos":"động từ","meaning_vi":"liệt kê, xếp","example_zh":"请把你想学的词列出来。","example_pinyin":"Qǐng bǎ nǐ xiǎng xué de cí liè chūlai.","example_vi":"Hãy liệt kê những từ bạn muốn học.","hanviet":"LIỆT"},
+      {"id":"x19","hanzi":"小组","pinyin":"xiǎozǔ","pos":"danh từ","meaning_vi":"nhóm nhỏ","example_zh":"我们小组一共有五个人。","example_pinyin":"Wǒmen xiǎozǔ yígòng yǒu wǔ ge rén.","example_vi":"Nhóm chúng tôi có tất cả năm người."},
+      {"id":"x20","hanzi":"内","pinyin":"nèi","pos":"danh từ","meaning_vi":"trong, bên trong","example_zh":"请在一个星期内完成。","example_pinyin":"Qǐng zài yí ge xīngqī nèi wánchéng.","example_vi":"Xin hoàn thành trong vòng một tuần.","hanviet":"NỘI"},
+      {"id":"x21","hanzi":"少见","pinyin":"shǎojiàn","pos":"tính từ","meaning_vi":"hiếm thấy, ít gặp","example_zh":"这种花很少见。","example_pinyin":"Zhè zhǒng huā hěn shǎojiàn.","example_vi":"Loại hoa này rất hiếm thấy."},
+      {"id":"x22","hanzi":"性","pinyin":"xìng","pos":"hậu tố","meaning_vi":"tính (hậu tố tạo danh từ)","example_zh":"这件事有很大的可能性。","example_pinyin":"Zhè jiàn shì yǒu hěn dà de kěnéngxìng.","example_vi":"Việc này có khả năng rất lớn.","hanviet":"TÍNH","note_vi":"性 gắn sau danh từ/tính từ: 可能性 (khả năng), 重要性 (tầm quan trọng), 安全性 (tính an toàn)."},
+      {"id":"x23","hanzi":"国际","pinyin":"guójì","pos":"tính từ / danh từ","meaning_vi":"quốc tế","example_zh":"这是一个国际比赛。","example_pinyin":"Zhè shì yí ge guójì bǐsài.","example_vi":"Đây là một cuộc thi quốc tế.","hanviet":"QUỐC TẾ"},
+      {"id":"x24","hanzi":"国籍","pinyin":"guójí","pos":"danh từ","meaning_vi":"quốc tịch","example_zh":"请问你是什么国籍？","example_pinyin":"Qǐngwèn nǐ shì shénme guójí?","example_vi":"Xin hỏi bạn có quốc tịch nước nào?","hanviet":"QUỐC TỊCH"},
+      {"id":"x25","hanzi":"亚洲","pinyin":"Yàzhōu","pos":"danh từ","meaning_vi":"châu Á","example_zh":"中国在亚洲。","example_pinyin":"Zhōngguó zài Yàzhōu.","example_vi":"Trung Quốc ở châu Á.","hanviet":"Á CHÂU"},
+      {"id":"x26","hanzi":"首都","pinyin":"shǒudū","pos":"danh từ","meaning_vi":"thủ đô","example_zh":"北京是中国的首都。","example_pinyin":"Běijīng shì Zhōngguó de shǒudū.","example_vi":"Bắc Kinh là thủ đô của Trung Quốc.","hanviet":"THỦ ĐÔ"},
+      {"id":"x27","hanzi":"东部","pinyin":"dōngbù","pos":"danh từ","meaning_vi":"phía đông, miền đông","example_zh":"这个国家的东部有很多海。","example_pinyin":"Zhège guójiā de dōngbù yǒu hěn duō hǎi.","example_vi":"Phía đông của đất nước này có nhiều biển."},
+      {"id":"x28","hanzi":"西部","pinyin":"xībù","pos":"danh từ","meaning_vi":"phía tây, miền tây","example_zh":"西部有很多高山。","example_pinyin":"Xībù yǒu hěn duō gāoshān.","example_vi":"Miền tây có nhiều núi cao."},
+      {"id":"x29","hanzi":"南部","pinyin":"nánbù","pos":"danh từ","meaning_vi":"phía nam, miền nam","example_zh":"南部的冬天不太冷。","example_pinyin":"Nánbù de dōngtiān bú tài lěng.","example_vi":"Mùa đông ở miền nam không quá lạnh."},
+      {"id":"x30","hanzi":"北部","pinyin":"běibù","pos":"danh từ","meaning_vi":"phía bắc, miền bắc","example_zh":"北部的冬天很冷。","example_pinyin":"Běibù de dōngtiān hěn lěng.","example_vi":"Mùa đông ở miền bắc rất lạnh."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“并且” (hơn nữa, và còn) và “相反” (ngược lại)",
+        "pattern":"A，并且 B　·　S + V1 + 并且 + V2　·　不……，相反，……　·　A 与 B 相反",
+        "explanation_vi":"(1) 并且 nối hai thành phần cùng loại và cùng chiều, ý sau bổ sung / nâng thêm ý trước: “hơn nữa, và còn”. Nối hai động từ có chung chủ ngữ (请仔细看，并且说说你的想法) hoặc hai vế câu (这个方法简单，并且很有用). Không dùng để nối danh từ (đó là 和), không nối hai ý ngược nhau (đó là 但是). Hay dùng trong văn viết; khẩu ngữ dùng 而且.\n(2) 相反 vừa là tính từ “trái ngược” (正好相反, A 与 B 相反) vừa là liên từ “ngược lại” đứng đầu vế sau, nêu điều trái với điều đã nói hoặc điều ta tưởng sẽ xảy ra: 他没有生气，相反，还笑了. Vế trước thường có phủ định (没有……不……).",
+        "examples":[
+          {"zh":"这个方法简单，并且很有用。","pinyin":"Zhège fāngfǎ jiǎndān, bìngqiě hěn yǒuyòng.","vi":"Cách này đơn giản, hơn nữa rất hữu ích."},
+          {"zh":"他是我的老师，并且也是我的朋友。","pinyin":"Tā shì wǒ de lǎoshī, bìngqiě yě shì wǒ de péngyou.","vi":"Ông ấy là thầy của tôi, và còn là bạn của tôi nữa."},
+          {"zh":"请仔细看这张图，并且说说你的想法。","pinyin":"Qǐng zǐxì kàn zhè zhāng tú, bìngqiě shuōshuo nǐ de xiǎngfǎ.","vi":"Xin hãy nhìn kỹ tấm hình này, và nói xem bạn nghĩ gì."},
+          {"zh":"他没有生气，相反，还笑了。","pinyin":"Tā méiyǒu shēngqì, xiāngfǎn, hái xiào le.","vi":"Anh ấy không tức giận, ngược lại còn cười."},
+          {"zh":"我们的看法正好相反。","pinyin":"Wǒmen de kànfǎ zhènghǎo xiāngfǎn.","vi":"Cách nhìn của chúng tôi hoàn toàn trái ngược."}
+        ],
+        "mistakes_vi":"✗ 我喜欢苹果并且香蕉。\n✓ 我喜欢苹果和香蕉。\n并且 nối động từ, tính từ hoặc vế câu, không nối danh từ.\n✗ 他很聪明，并且他不努力。\n✓ 他很聪明，但是不努力。\n并且 chỉ nối hai ý cùng chiều; ý ngược nhau dùng 但是.\n✗ 他很高兴，相反，他笑了。\n✓ 他没有哭，相反，他笑了。\n相反 nêu điều trái với vế trước; “vui” và “cười” cùng chiều nên không dùng 相反.",
+        "compare_vi":"并且 ≈ “hơn nữa, và còn”. 相反 ≈ “ngược lại, trái lại”."
+      },
+      {
+        "id":"g2",
+        "title":"“再……也……” (dù… đến đâu cũng…)",
+        "pattern":"S1 + 再 + tính từ / động từ，S2 + 也 / 都 + (要 / 会 / 能) + V",
+        "explanation_vi":"再……也…… nhấn mạnh dù điều kiện có đến mức nào đi nữa, kết quả vẫn không đổi: “dù… đến đâu cũng…”. 再 đứng trước tính từ hay động từ chỉ mức độ (再难、再忙、再累、再多、再贵), vế sau có 也 và thường kèm 要 / 会 / 能 / 得 để thể hiện quyết tâm.\n也 đứng sau chủ ngữ của vế sau: 再难，我也要学下去 (không nói 再难也我要…). Có thể chủ ngữ ở vế đầu: 工作再忙，他也每天读书.\nLưu ý: 再也 + 不 / 没 là cấu trúc khác, nghĩa “không bao giờ … nữa”: 我再也不去了 (tôi không bao giờ đi nữa).",
+        "examples":[
+          {"zh":"再难，我也要学下去。","pinyin":"Zài nán, wǒ yě yào xué xiàqu.","vi":"Dù khó đến đâu, tôi cũng phải học tiếp."},
+          {"zh":"工作再忙，他也每天读书。","pinyin":"Gōngzuò zài máng, tā yě měi tiān dúshū.","vi":"Công việc dù bận đến đâu, anh ấy cũng đọc sách mỗi ngày."},
+          {"zh":"这件事再小，也要认真做。","pinyin":"Zhè jiàn shì zài xiǎo, yě yào rènzhēn zuò.","vi":"Việc này dù nhỏ đến đâu cũng phải làm nghiêm túc."},
+          {"zh":"路再远，我们也要去。","pinyin":"Lù zài yuǎn, wǒmen yě yào qù.","vi":"Đường dù xa đến đâu, chúng ta cũng phải đi."}
+        ],
+        "mistakes_vi":"✗ 再难也我要学下去。\n✓ 再难，我也要学下去。\n也 đứng sau chủ ngữ của vế sau, trước động từ.\n✗ 再忙，但是我也读书。\n✓ 再忙，我也读书。\n再……也…… đã diễn đạt ý nhượng bộ, không thêm 但是.\n✗ 我再也要去。 (muốn nói “không đi nữa”)\n✓ 我再也不去了。\nMuốn nói “không bao giờ … nữa” phải dùng 再也 + 不 / 没.",
+        "compare_vi":"再……也…… ≈ “dù… đến mấy cũng…”, “cho dù… cũng…”."
+      },
+      {
+        "id":"g3",
+        "title":"“对于” (đối với, về)",
+        "pattern":"对于 + N / V，S + ……　·　S + 对于 + N / V + ……　·　对于……来说，……",
+        "explanation_vi":"对于 là giới từ dùng để nêu đối tượng của một ý kiến, thái độ, đánh giá: “đối với, về”. Phần theo sau 对于 là sự việc, vấn đề, hoạt động (对于这个问题、对于旅行、对于学习), thường đi với các từ 看法、想法、态度、意见、重要、难、容易. Có thể đặt đầu câu hoặc sau chủ ngữ. Cụm 对于……来说 = “đối với… mà nói”.\n对于 khác 对: 对 dùng được cả với người (他对我很好, 对他说) còn 对于 chỉ dùng với sự việc, vấn đề, không dùng để chỉ người nhận hành động.",
+        "examples":[
+          {"zh":"对于这个问题，大家有不同的看法。","pinyin":"Duìyú zhège wèntí, dàjiā yǒu bù tóng de kànfǎ.","vi":"Về vấn đề này, mọi người có những cách nhìn khác nhau."},
+          {"zh":"对于旅行，我们的想法是一样的。","pinyin":"Duìyú lǚxíng, wǒmen de xiǎngfǎ shì yíyàng de.","vi":"Về chuyện du lịch, suy nghĩ của chúng tôi giống nhau."},
+          {"zh":"对于不懂的事情，要多问。","pinyin":"Duìyú bù dǒng de shìqing, yào duō wèn.","vi":"Đối với những việc chưa hiểu, phải hỏi nhiều."},
+          {"zh":"我对于这件事没有意见。","pinyin":"Wǒ duìyú zhè jiàn shì méiyǒu yìjiàn.","vi":"Tôi không có ý kiến gì về việc này."},
+          {"zh":"对于学生来说，仔细比快更重要。","pinyin":"Duìyú xuésheng lái shuō, zǐxì bǐ kuài gèng zhòngyào.","vi":"Đối với học sinh, cẩn thận quan trọng hơn nhanh."}
+        ],
+        "mistakes_vi":"✗ 他对于我很好。\n✓ 他对我很好。\n对于 không dùng để chỉ người nhận hành động; với người hãy dùng 对.\n✗ 我很感兴趣对于汉语。\n✓ 我对汉语很感兴趣。\nCụm 对于 + N phải đứng trước vị ngữ, không đặt ở cuối câu.\n✗ 对于，这个问题大家有不同的看法。\n✓ 对于这个问题，大家有不同的看法。\nKhông đặt dấu phẩy ngay sau 对于; phải có đối tượng đi liền.",
+        "compare_vi":"对于 ≈ “đối với, về”. Tiếng Việt “đối với” dùng được cho cả người, còn tiếng Trung chỉ dùng 对于 cho sự việc."
+      },
+      {
+        "id":"g4",
+        "title":"Lặp lượng từ và danh từ: 个个、天天、人人",
+        "pattern":"AA + 都 + V　·　lượng từ lặp: 个个、件件、篇篇　·　danh từ lặp: 人人、天天、家家、年年",
+        "explanation_vi":"Lặp lại một lượng từ hoặc một số danh từ chỉ đơn vị (人、天、年、家) tạo nghĩa “mỗi, từng, tất cả không trừ ai/cái nào”: 个个 = mỗi người, ai cũng; 天天 = ngày nào cũng; 人人 = người người; 家家 = nhà nhà.\nCách lặp này nhấn mạnh toàn thể và thường đi cùng 都. Hay đứng ở đầu câu (làm chủ ngữ / chủ đề) hoặc trước động từ làm trạng ngữ: 个个都喜欢, 他天天去. Không dùng 每 trước dạng lặp (✗ 每个个), và không dùng khi có số từ lớn hơn một.\nLượng từ thường lặp: 个、件、篇、本、条、次…; danh từ chỉ thời gian: 天天、年年、月月.",
+        "examples":[
+          {"zh":"我们班的同学个个都喜欢这个游戏。","pinyin":"Wǒmen bān de tóngxué gègè dōu xǐhuan zhège yóuxì.","vi":"Bạn học lớp chúng tôi ai cũng thích trò chơi này."},
+          {"zh":"他天天都去公园散步。","pinyin":"Tā tiāntiān dōu qù gōngyuán sànbù.","vi":"Ngày nào anh ấy cũng ra công viên đi dạo."},
+          {"zh":"人人都想过幸福的生活。","pinyin":"Rénrén dōu xiǎng guò xìngfú de shēnghuó.","vi":"Ai cũng muốn sống một cuộc sống hạnh phúc."},
+          {"zh":"这条街上家家都有花。","pinyin":"Zhè tiáo jiē shang jiājiā dōu yǒu huā.","vi":"Trên con phố này nhà nào cũng có hoa."},
+          {"zh":"他的作文，篇篇都写得很好。","pinyin":"Tā de zuòwén, piānpiān dōu xiě de hěn hǎo.","vi":"Bài văn của anh ấy bài nào cũng viết rất hay."}
+        ],
+        "mistakes_vi":"✗ 每个个同学都来了。\n✓ 个个同学都来了。/ 每个同学都来了。\nKhông kết hợp 每 với dạng lặp; chọn một cách.\n✗ 他的作文，我读了篇篇。\n✓ 他的作文，篇篇我都读了。\nDạng lặp là chủ thể/chủ đề, thường đặt ở đầu câu hoặc trước động từ, không đứng sau động từ làm tân ngữ.\n✗ 个个同学来了。\n✓ 个个同学都来了。\nDạng lặp thường đi với 都 để nhấn mạnh “tất cả”.",
+        "compare_vi":"Tiếng Việt cũng lặp từ để nhấn mạnh: “người người”, “nhà nhà”, “ngày ngày”. Tiếng Trung thường thêm 都 sau đó."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Trò chơi tìm điểm khác nhau",
+      "scene_vi": "Giờ ra chơi, Tiểu Văn và Tiểu Hải chơi trò “tìm điểm khác nhau” giữa hai bức hình. Họ phải quan sát thật kỹ để tìm ra tất cả đáp án.",
+      "lines": [
+        {"speaker":"小文","zh":"我们班的同学个个都玩过这个“找不同”的游戏。你看这两张图片，有五个不同的地方，你能全找出来吗？","pinyin":"Wǒmen bān de tóngxué gègè dōu wán guo zhège “zhǎo bù tóng” de yóuxì. Nǐ kàn zhè liǎng zhāng túpiàn, yǒu wǔ ge bù tóng de dìfang, nǐ néng quán zhǎo chūlai ma?","vi":"Bạn học lớp mình ai cũng chơi trò “tìm điểm khác nhau” này rồi. Cậu nhìn hai tấm hình này, có năm chỗ khác nhau, cậu tìm hết được không?"},
+        {"speaker":"小海","zh":"让我仔细看看。左边的树上有三个苹果，右边的只有两个，这是第一个区别。","pinyin":"Ràng wǒ zǐxì kànkan. Zuǒbian de shù shang yǒu sān ge píngguǒ, yòubian de zhǐ yǒu liǎng ge, zhè shì dì yī ge qūbié.","vi":"Để tớ nhìn kỹ xem. Cây bên trái có ba quả táo, cây bên phải chỉ có hai quả, đây là điểm khác nhau thứ nhất."},
+        {"speaker":"小文","zh":"对。再看看别的地方。","pinyin":"Duì. Zài kànkan bié de dìfang.","vi":"Đúng. Cậu xem thêm những chỗ khác đi."},
+        {"speaker":"小海","zh":"左边的门开着，右边的门关着，正好相反。这是第二个。","pinyin":"Zuǒbian de mén kāi zhe, yòubian de mén guān zhe, zhènghǎo xiāngfǎn. Zhè shì dì èr ge.","vi":"Cửa bên trái đang mở, cửa bên phải đang đóng, đúng là ngược nhau. Đây là cái thứ hai."},
+        {"speaker":"小文","zh":"你真细心！不过这两张图片大部分地方都是相同的，所以不容易判断。","pinyin":"Nǐ zhēn xìxīn! Búguò zhè liǎng zhāng túpiàn dà bùfen dìfang dōu shì xiāngtóng de, suǒyǐ bù róngyì pànduàn.","vi":"Cậu chu đáo thật! Có điều phần lớn chỗ trên hai hình đều giống nhau nên không dễ phán đoán."},
+        {"speaker":"小海","zh":"最后一个我还不确定，我怀疑是右边的天上多了一片云。你看，它是不是新出现的？","pinyin":"Zuìhòu yí ge wǒ hái bú quèdìng, wǒ huáiyí shì yòubian de tiān shang duō le yí piàn yún. Nǐ kàn, tā shì bu shì xīn chūxiàn de?","vi":"Cái cuối cùng tớ vẫn chưa chắc, tớ ngờ là trên trời bên phải có thêm một đám mây. Cậu xem, nó có phải mới xuất hiện không?"},
+        {"speaker":"小文","zh":"对于这种游戏，仔细比快更重要。让我看看……对，你的判断很正确！","pinyin":"Duìyú zhè zhǒng yóuxì, zǐxì bǐ kuài gèng zhòngyào. Ràng wǒ kànkan…… Duì, nǐ de pànduàn hěn zhèngquè!","vi":"Với kiểu trò chơi này, cẩn thận quan trọng hơn nhanh. Để tớ xem… Đúng rồi, cậu phán đoán rất chuẩn!"},
+        {"speaker":"小海","zh":"太好了！这个游戏不复杂，并且很有意思。我想再玩一次。","pinyin":"Tài hǎo le! Zhège yóuxì bù fùzá, bìngqiě hěn yǒu yìsi. Wǒ xiǎng zài wán yí cì.","vi":"Hay quá! Trò này không phức tạp mà lại rất thú vị. Tớ muốn chơi thêm lần nữa."},
+        {"speaker":"小文","zh":"那我们来比一比。这次的图片更难，不过再难，我们也要找出来。","pinyin":"Nà wǒmen lái bǐ yi bǐ. Zhè cì de túpiàn gèng nán, búguò zài nán, wǒmen yě yào zhǎo chūlai.","vi":"Vậy chúng mình thi xem nào. Lần này hình khó hơn, nhưng dù khó đến đâu chúng mình cũng phải tìm ra."},
+        {"speaker":"小海","zh":"好！谁先找到答案，谁就是今天的第一名！","pinyin":"Hǎo! Shéi xiān zhǎo dào dá'àn, shéi jiù shì jīntiān de dì yī míng!","vi":"Được! Ai tìm ra đáp án trước thì người đó là hạng nhất hôm nay!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:区别","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这两个词有什么____？","options":["区别","原因","答案","特点"],"answer":0,"explanation_vi":"Hỏi hai từ khác nhau thế nào: 有什么区别?"},
+      {"id":"e2","type":"choice","tag":"v:原因","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你知道他没来的____吗？","options":["原因","特点","答案","区别"],"answer":0,"explanation_vi":"Hỏi lý do vắng mặt: 没来的原因."},
+      {"id":"e3","type":"choice","tag":"v:仔细","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请____看一下这张图，找找不同的地方。","options":["仔细","正确","准确","复杂"],"answer":0,"explanation_vi":"Nhìn kỹ để tìm điểm khác nhau: 仔细看. Các từ còn lại không đi với 看 theo nghĩa này."},
+      {"id":"e4","type":"choice","tag":"v:正确","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"老师说我的答案是____的。","options":["正确","复杂","相同","怀疑"],"answer":0,"explanation_vi":"Đáp án không sai → 正确的 (đúng)."},
+      {"id":"e5","type":"choice","tag":"v:准确","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"她的发音很____，一点儿错误也没有。","options":["准确","怀疑","出现","解释"],"answer":0,"explanation_vi":"Phát âm không sai chút nào → 准确 (chuẩn xác)."},
+      {"id":"e6","type":"choice","tag":"v:怀疑","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____他没有说真话。","options":["怀疑","解释","出现","量"],"answer":0,"explanation_vi":"“Tôi ngờ rằng anh ấy không nói thật”: 怀疑."},
+      {"id":"e7","type":"choice","tag":"v:解释","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请你____一下这个词的意思。","options":["解释","怀疑","出现","量"],"answer":0,"explanation_vi":"“Giải thích nghĩa của từ”: 解释一下."},
+      {"id":"e8","type":"choice","tag":"g:并且","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个方法简单，____很有用。","options":["并且","或者","但是","所以"],"answer":0,"explanation_vi":"Hai ý cùng chiều (đơn giản, hữu ích) → 并且 (hơn nữa)."},
+      {"id":"e9","type":"choice","tag":"g:相反","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他没有生气，____，还笑了。","options":["相反","因此","然而","比如"],"answer":0,"explanation_vi":"Không giận mà còn cười (trái với dự đoán) → 相反 (ngược lại)."},
+      {"id":"e10","type":"choice","tag":"g:再也","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"工作____忙，他也每天读书。","options":["再","更","最","太"],"answer":0,"explanation_vi":"再……也…… = dù… đến đâu cũng…."},
+      {"id":"e11","type":"choice","tag":"g:对于","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["对于这个问题，大家有不同的看法。","他对于我很好。","我很感兴趣对于汉语。","对于，这个问题大家有不同的看法。"],"answer":0,"explanation_vi":"对于 + sự việc, đứng trước vị ngữ. Với người dùng 对 (他对我很好)."},
+      {"id":"e12","type":"choice","tag":"g:量词重叠","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们班的同学____都喜欢这个游戏。","options":["个个","每每","各各","都都"],"answer":0,"explanation_vi":"Lượng từ 个 lặp lại thành 个个 = ai cũng, từng người một, đi với 都."},
+      {"id":"e13","type":"order","tag":"g:再也","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["工作","再","忙","他","也","每天读书"],"answers":["工作再忙他也每天读书"],"translation_vi":"Công việc dù bận đến đâu, anh ấy cũng đọc sách mỗi ngày.","explanation_vi":"再 + tính từ ở vế đầu, 也 đứng sau chủ ngữ 他 ở vế sau."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"东部","vi":"phía đông"},{"zh":"西部","vi":"phía tây"},{"zh":"南部","vi":"phía nam"},{"zh":"北部","vi":"phía bắc"},{"zh":"首都","vi":"thủ đô"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:并且","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["这个方法简单，并且很有用。","我喜欢苹果并且香蕉。","他很聪明，并且他不努力。","并且这个方法简单，很有用。"],"answer":0,"explanation_vi":"并且 nối hai ý cùng chiều ở giữa; không nối danh từ, không nối ý ngược nhau."},
+        {"id":"q2","type":"choice","tag":"g:相反","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我喜欢热闹，他____，喜欢安静。","options":["相反","相同","同样","一样"],"answer":0,"explanation_vi":"Hai người thích điều trái ngược nhau → 相反 (ngược lại)."},
+        {"id":"q3","type":"choice","tag":"g:再也","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"路____远，我们也要去。","options":["再","还","更","越"],"answer":0,"explanation_vi":"再……也…… = dù… đến đâu cũng…."},
+        {"id":"q4","type":"choice","tag":"g:对于","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____这个问题，我没有意见。","options":["对于","由于","比如","连"],"answer":0,"explanation_vi":"Nêu đối tượng của ý kiến: 对于这个问题."},
+        {"id":"q5","type":"choice","tag":"g:量词重叠","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["他天天都去公园散步。","他每天天都去公园散步。","他天天天去公园散步。","他天天去都公园散步。"],"answer":0,"explanation_vi":"天天 = ngày nào cũng, đi với 都 trước động từ."},
+        {"id":"q6","type":"choice","tag":"g:再也","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["再难，我也要学下去。","再难也我要学下去。","再难，但是我也要学下去。","再难，我都也要学下去。"],"answer":0,"explanation_vi":"再难，S + 也 + 要 + V; 也 đứng sau chủ ngữ, không thêm 但是."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:复杂","prompt_vi":"Chọn đáp án đúng.","question_zh":"这个问题很____，一两句话说不清楚。","options":["复杂","准确","相同","出现"],"answer":0,"explanation_vi":"“Một hai câu không nói rõ được” → vấn đề phức tạp: 复杂."},
+      {"id":"t2","type":"choice","tag":"g:对于","prompt_vi":"Chọn đáp án đúng.","question_zh":"____学语言来说，多听多说最重要。","options":["对于","由于","并且","相反"],"answer":0,"explanation_vi":"对于……来说 = đối với… mà nói."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"猜","vi":"đoán"},{"zh":"答","vi":"trả lời"},{"zh":"指出","vi":"chỉ ra"},{"zh":"细","vi":"mảnh, nhỏ"},{"zh":"粗","vi":"thô, to"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"基本","vi":"cơ bản"},{"zh":"整个","vi":"cả, toàn bộ"},{"zh":"各","vi":"mỗi, các"},{"zh":"顺序","vi":"thứ tự"},{"zh":"少见","vi":"hiếm thấy"}]},
+      {"id":"t5","type":"order","tag":"g:并且","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个方法","简单","并且","很有用"],"answers":["这个方法简单并且很有用"],"translation_vi":"Cách này đơn giản, hơn nữa rất hữu ích.","explanation_vi":"Chủ ngữ + tính từ 1，并且 + tính từ 2."},
+      {"id":"t6","type":"order","tag":"g:量词重叠","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们班的","同学","个个","都","喜欢","这个游戏"],"answers":["我们班的同学个个都喜欢这个游戏"],"translation_vi":"Bạn học lớp chúng tôi ai cũng thích trò chơi này.","explanation_vi":"同学 + 个个 + 都 + 喜欢 + tân ngữ."},
+      {"id":"t7","type":"fill","tag":"g:再也","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"工作____忙，他也每天读书。","answers":["再"],"hint_vi":"dù… đến đâu","explanation_vi":"再……也…… = dù… cũng…."},
+      {"id":"t8","type":"fill","tag":"g:相反","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"他没有生气，____，还笑了。","answers":["相反"],"hint_vi":"ngược lại","explanation_vi":"相反 nêu điều trái với dự đoán."},
+      {"id":"t9","type":"listen_choice","tag":"g:再也","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"路再远，我们也要去。","options":["Đường dù xa đến đâu, chúng ta cũng phải đi.","Đường rất xa nên chúng ta không đi nữa.","Đường xa lắm, đi thêm nữa thì mệt.","Chúng ta đi xa thêm một chút nữa."],"answer":0,"explanation_vi":"路再远，我们也要去 = đường xa mấy chúng ta cũng đi."},
+      {"id":"t10","type":"listen_choice","tag":"v:出现","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"门口出现了一个人。","options":["门口出现了一个人。","门口来了两个人。","门口没有人。","门口站着一个孩子。"],"answer":0,"explanation_vi":"Câu nghe được: 门口出现了一个人 = Ở cửa xuất hiện một người."},
+      {"id":"t11","type":"dictation","tag":"g:对于","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"对于这个问题，大家有不同的看法。","answers":["对于这个问题大家有不同的看法"],"explanation_vi":"对于这个问题，大家有不同的看法 = Về vấn đề này, mọi người có cách nhìn khác nhau."},
+      {"id":"t12","type":"dictation","tag":"v:准确","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"她的发音很准确。","answers":["她的发音很准确"],"explanation_vi":"她的发音很准确 = Phát âm của cô ấy rất chuẩn."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:再也","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Dù khó đến đâu, tôi cũng phải học tiếp.","answers":["再难，我也要学下去","再难我也要学下去","再难，我也要继续学","再难我也要继续学","再难，我也要学习下去","再难我也要学习下去","再难，我也要学","学习再难，我也要学下去","汉语再难，我也要学下去","汉语再难我也要学下去","再难，我都要学下去"],"explanation_vi":"再难，我也要学下去: 再 + tính từ，S + 也 + 要 + V."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:对于","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Đối với vấn đề này, mọi người có những cách nhìn khác nhau.","answers":["对于这个问题，大家有不同的看法","对于这个问题，大家的看法不一样","对于这个问题，大家的看法不同","对于这个问题，大家有不一样的看法","对于这个问题，大家有不同的想法","对于这个问题，大家的想法不一样","对于这个问题，大家的想法不同","对于这个问题，大家看法不同","对于这个问题，大家看法不一样"],"explanation_vi":"对于这个问题 + 大家有不同的看法."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:区别","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这两个词有什么区别？","answers_vi":["Hai từ này có điểm khác nhau gì?","Hai từ này khác nhau chỗ nào?"],"keywords":[["hai từ","hai chữ","2 từ"],["khác nhau","khác biệt","phân biệt","khác gì","khác"],["gì","nào","sao"]],"explanation_vi":"区别 = sự khác biệt; 有什么区别 = khác nhau chỗ nào."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:量词重叠","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他天天都去公园散步。","answers_vi":["Ngày nào anh ấy cũng ra công viên đi dạo.","Anh ấy ngày nào cũng đi dạo ở công viên."],"keywords":[["ngày nào","mỗi ngày","hằng ngày","hàng ngày","ngày ngày"],["công viên"],["đi dạo","tản bộ","dạo"]],"explanation_vi":"天天都 = ngày nào cũng; 去公园散步 = ra công viên đi dạo."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"爱问为什么的小明",
+        "title_vi":"Tiểu Minh hay hỏi “tại sao”",
+        "paragraphs":[
+          {
+            "tokens":[["小明","Xiǎo Míng","Tiểu Minh"],["今年","jīnnián","năm nay"],["八","bā","tám"],["岁","suì","tuổi"],["，"],["他","tā","cậu"],["的","de","(của)"],["特点","tèdiǎn","đặc điểm"],["是","shì","là"],["爱","ài","thích"],["问","wèn","hỏi"],["问题","wèntí","câu hỏi"],["。"],["别的","bié de","khác"],["孩子","háizi","trẻ con"],["不太","bú tài","không mấy"],["爱","ài","thích"],["问","wèn","hỏi"],["，"],["小明","Xiǎo Míng","Tiểu Minh"],["相反","xiāngfǎn","ngược lại"],["，"],["天天","tiāntiān","ngày nào"],["都","dōu","đều"],["有","yǒu","có"],["很多","hěn duō","nhiều"],["“"],["为什么","wèi shénme","tại sao"],["”"],["。"],["比如","bǐrú","ví dụ"],["："],["雨","yǔ","mưa"],["为什么","wèi shénme","tại sao"],["会","huì","sẽ"],["从","cóng","từ"],["天上","tiān shang","trên trời"],["掉","diào","rơi"],["下来","xiàlai","xuống"],["？"],["天","tiān","trời"],["为什么","wèi shénme","tại sao"],["是","shì","là"],["蓝","lán","xanh"],["的","de","(trợ từ)"],["？"],["爸爸","bàba","bố"],["有时候","yǒu shíhou","đôi khi"],["也","yě","cũng"],["不","bù","không"],["知道","zhīdào","biết"],["答案","dá'àn","đáp án"],["，"],["就","jiù","thì"],["对","duì","với"],["他","tā","cậu"],["说","shuō","nói"],["："],["“"],["你","nǐ","con"],["自己","zìjǐ","tự"],["去","qù","đi"],["研究","yánjiū","nghiên cứu"],["一下","yíxià","thử"],["吧","ba","đi"],["。"],["”"]],
+            "vi":"Tiểu Minh năm nay tám tuổi, đặc điểm của cậu là thích hỏi. Những đứa trẻ khác không mấy thích hỏi, Tiểu Minh thì ngược lại, ngày nào cũng có rất nhiều “tại sao”. Ví dụ: Tại sao mưa lại từ trên trời rơi xuống? Tại sao trời màu xanh? Có lúc bố cũng không biết đáp án, bèn nói với cậu: “Con tự đi nghiên cứu thử xem.”"
+          },
+          {
+            "tokens":[["有","yǒu","có"],["一","yì","một"],["天","tiān","ngày"],["，"],["小明","Xiǎo Míng","Tiểu Minh"],["发现","fāxiàn","phát hiện"],["家","jiā","nhà"],["里","li","trong"],["的","de","(của)"],["花","huā","hoa"],["总是","zǒngshì","luôn luôn"],["向着","xiàng zhe","hướng về"],["窗户","chuānghu","cửa sổ"],["那边","nà biān","phía đó"],["长","zhǎng","mọc"],["。"],["他","tā","cậu"],["很","hěn","rất"],["想","xiǎng","muốn"],["知道","zhīdào","biết"],["原因","yuányīn","nguyên nhân"],["，"],["就","jiù","bèn"],["每天","měi tiān","mỗi ngày"],["拍","pāi","chụp"],["一","yì","một"],["张","zhāng","(lượng từ: tấm)"],["照片","zhàopiàn","ảnh"],["，"],["并且","bìngqiě","và còn"],["记下","jì xià","ghi lại"],["花","huā","hoa"],["的","de","(của)"],["高度","gāodù","chiều cao"],["。"]],
+            "vi":"Một hôm, Tiểu Minh phát hiện hoa trong nhà luôn mọc nghiêng về phía cửa sổ. Cậu rất muốn biết nguyên nhân, bèn mỗi ngày chụp một tấm ảnh và ghi lại chiều cao của hoa."
+          },
+          {
+            "tokens":[["一个","yí ge","một"],["星期","xīngqī","tuần"],["以后","yǐhòu","sau"],["，"],["他","tā","cậu"],["找到","zhǎo dào","tìm ra"],["了","le","(rồi)"],["答案","dá'àn","đáp án"],["："],["花","huā","hoa"],["需要","xūyào","cần"],["阳光","yángguāng","ánh nắng"],["，"],["窗户","chuānghu","cửa sổ"],["这边","zhè biān","phía này"],["的","de","(của)"],["阳光","yángguāng","ánh nắng"],["最","zuì","nhất"],["多","duō","nhiều"],["，"],["所以","suǒyǐ","nên"],["花","huā","hoa"],["就","jiù","bèn"],["向","xiàng","hướng về"],["这边","zhè biān","phía này"],["长","zhǎng","mọc"],["。"],["小明","Xiǎo Míng","Tiểu Minh"],["很","hěn","rất"],["高兴","gāoxìng","vui"],["地","de","(một cách)"],["对","duì","với"],["妈妈","māma","mẹ"],["说","shuō","nói"],["："],["“"],["对于","duìyú","đối với"],["不","bù","không"],["懂","dǒng","hiểu"],["的","de","(trợ từ)"],["事情","shìqing","chuyện"],["，"],["只要","zhǐyào","chỉ cần"],["仔细","zǐxì","kỹ"],["看","kàn","xem"],["，"],["再","zài","dù"],["难","nán","khó"],["也","yě","cũng"],["能","néng","có thể"],["找到","zhǎo dào","tìm ra"],["答案","dá'àn","đáp án"],["。"],["”"],["妈妈","māma","mẹ"],["笑","xiào","cười"],["着","zhe","(trợ từ)"],["说","shuō","nói"],["："],["“"],["你","nǐ","con"],["说","shuō","nói"],["得","de","(trợ từ)"],["很","hěn","rất"],["正确","zhèngquè","đúng"],["。"],["”"]],
+            "vi":"Một tuần sau, cậu tìm ra đáp án: hoa cần ánh nắng, phía cửa sổ có nhiều nắng nhất, nên hoa mọc nghiêng về phía đó. Tiểu Minh vui vẻ nói với mẹ: “Đối với những chuyện chưa hiểu, chỉ cần quan sát kỹ thì dù khó đến đâu cũng tìm ra được đáp án.” Mẹ cười nói: “Con nói rất đúng.”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小明的特点是什么？","options":["爱问问题","不爱说话","爱运动","不爱学习"],"answer":0,"explanation_vi":"Đoạn 1: 他的特点是爱问问题."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小明发现了什么？","options":["家里的花总是向着窗户那边长","花天天都在变小","花不需要阳光","家里没有花"],"answer":0,"explanation_vi":"Đoạn 2: 小明发现家里的花总是向着窗户那边长."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"小明每天拍一张花的照片。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 就每天拍一张照片 — câu này đúng."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"花为什么向窗户这边长？","options":["因为这边的阳光最多","因为这边比较凉快","因为妈妈把花放在这儿","因为这边的水最多"],"answer":0,"explanation_vi":"Đoạn 3: 窗户这边的阳光最多，所以花就向这边长."},
+          {"id":"rq5","type":"choice","tag":"g:再也","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"小明觉得，再难的问题也不可能找到答案。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 再难也能找到答案 — ngược với câu hỏi, nên câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Hai người bạn trái tính nhau",
+        "text_zh":"我和小云是好朋友，可是我们的特点很不相同。我喜欢安静，她相反，喜欢热闹。她天天都和朋友出去玩，我天天在家看书。不过，对于旅行，我们的想法是一样的：我们都觉得旅行是最好的学习。去年夏天，我们一起去了西部。那里的山又高又大，景色非常美，并且天气很凉快。我们每天都走很远的路，累是累，不过再累也很高兴。回来以后，我们决定明年再去北部看看。",
+        "pinyin":"Wǒ hé Xiǎo Yún shì hǎo péngyou, kěshì wǒmen de tèdiǎn hěn bù xiāngtóng. Wǒ xǐhuan ānjìng, tā xiāngfǎn, xǐhuan rènao. Tā tiāntiān dōu hé péngyou chūqu wán, wǒ tiāntiān zài jiā kàn shū. Búguò, duìyú lǚxíng, wǒmen de xiǎngfǎ shì yíyàng de: wǒmen dōu juéde lǚxíng shì zuì hǎo de xuéxí. Qùnián xiàtiān, wǒmen yìqǐ qù le xībù. Nàli de shān yòu gāo yòu dà, jǐngsè fēicháng měi, bìngqiě tiānqì hěn liángkuai. Wǒmen měi tiān dōu zǒu hěn yuǎn de lù, lèi shì lèi, búguò zài lèi yě hěn gāoxìng. Huílai yǐhòu, wǒmen juédìng míngnián zài qù běibù kànkan.",
+        "vi":"Tôi và Tiểu Vân là bạn thân, nhưng đặc điểm của chúng tôi rất khác nhau. Tôi thích yên tĩnh, cô ấy ngược lại, thích náo nhiệt. Ngày nào cô ấy cũng đi chơi với bạn, còn ngày nào tôi cũng ở nhà đọc sách. Có điều, về chuyện du lịch thì suy nghĩ của chúng tôi giống nhau: cả hai đều thấy du lịch là cách học tốt nhất. Mùa hè năm ngoái, chúng tôi cùng đi miền tây. Núi ở đó vừa cao vừa lớn, phong cảnh rất đẹp, hơn nữa thời tiết rất mát mẻ. Ngày nào chúng tôi cũng đi quãng đường dài, mệt thì có mệt, nhưng dù mệt đến đâu cũng rất vui. Về rồi, chúng tôi quyết định sang năm sẽ đi miền bắc xem sao.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"g:相反","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"“我”和小云的特点怎么样？","options":["正好相反，一个喜欢安静，一个喜欢热闹","一样，都喜欢热闹","一样，都喜欢安静","都不喜欢旅行"],"answer":0,"explanation_vi":"Nghe được: 我喜欢安静，她相反，喜欢热闹."},
+          {"id":"lq2","type":"choice","tag":"g:量词重叠","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"小云天天做什么？","options":["和朋友出去玩","在家看书","去公司工作","去学习汉语"],"answer":0,"explanation_vi":"Nghe được: 她天天都和朋友出去玩. Ngày nào “tôi” cũng ở nhà đọc sách."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"去年夏天，她们去了哪里？","options":["西部","北部","南部","东部"],"answer":0,"explanation_vi":"Nghe được: 去年夏天，我们一起去了西部."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她们决定明年去哪里？","options":["北部","西部","东部","南部"],"answer":0,"explanation_vi":"Nghe được: 我们决定明年再去北部看看."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"仔细","pinyin":"zǐxì","vi":"kỹ lưỡng","tip_vi":"仔 zǐ: z không bật hơi, vần -i đọc như “ư” ngắn (không phải “i”). 细 xì: x miệng bẹt, đầu lưỡi sau răng dưới. 仔细 hai thanh: thanh 3 rồi thanh 4, chữ đầu chỉ đọc nửa thanh 3."},
+      {"id":"s2","zh":"正确，准确","pinyin":"zhèngquè, zhǔnquè","vi":"đúng, chính xác","tip_vi":"确 què: q bật hơi, vần üe tròn môi (ü + e), đừng đọc “cuê” hay “quê”. zh trong 正/准 uốn lưỡi. 正 zhèng thanh 4, 准 zhǔn thanh 3 – nghe rõ khác nhau."},
+      {"id":"s3","zh":"答案","pinyin":"dá'àn","vi":"đáp án","tip_vi":"Dấu nháy cho biết 答 (dá) và 案 (àn) tách ra: dá – àn, không đọc dán. d không bật hơi; 案 àn thanh 4 xuống mạnh, n cuối chạm đầu lưỡi."},
+      {"id":"s4","zh":"这两个词有什么区别？","pinyin":"Zhè liǎng ge cí yǒu shénme qūbié?","vi":"Hai từ này có gì khác nhau?","tip_vi":"两个: 两 liǎng thanh 3 đọc nửa thanh vì đứng trước 个. 区别 qūbié: q bật hơi, ü tròn môi; 别 bié thanh 2 lên rõ. 什么 shénme: 么 đọc nhẹ. Câu hỏi nên lên giọng ở cuối."},
+      {"id":"s5","zh":"他没有生气，相反，还笑了。","pinyin":"Tā méiyǒu shēngqì, xiāngfǎn, hái xiào le.","vi":"Anh ấy không tức giận, ngược lại còn cười.","tip_vi":"没有 méiyǒu: 有 đọc đủ thanh 3 ở đây vì sau là dấu phẩy. 相反 xiāngfǎn: x + ng ở 相, f như “ph”, -an cuối chạm đầu lưỡi. 还 hái: h bật hơi nhẹ; 笑 xiào: x + iao, miệng bẹt."},
+      {"id":"s6","zh":"对于这个问题，大家有不同的看法。","pinyin":"Duìyú zhège wèntí, dàjiā yǒu bù tóng de kànfǎ.","vi":"Về vấn đề này, mọi người có những cách nhìn khác nhau.","tip_vi":"对于 duìyú: yú tròn môi (ü). 这个 zhège (khẩu ngữ đọc zhèige). 问题 wèntí: 题 tí bật hơi. 有不同: 有 thanh 3 đứng trước 不 (thanh 4) nên đọc nửa thanh 3. 看法 kànfǎ: f như “ph”, 法 thanh 3."},
+      {"id":"s7","zh":"对于不懂的事情，只要仔细看，再难也能找到答案。","pinyin":"Duìyú bù dǒng de shìqing, zhǐyào zǐxì kàn, zài nán yě néng zhǎo dào dá'àn.","vi":"Đối với những chuyện chưa hiểu, chỉ cần xem kỹ thì dù khó đến đâu cũng tìm ra đáp án.","tip_vi":"不懂 bù dǒng: 不 thanh 4 đọc rõ rồi thanh 3 của 懂. 只要仔细: ba thanh 3 liền nhau (zhǐ-yào-zǐ-xì), chữ đầu đọc thành thanh 2. 再难也能: ba chữ ngắn, nhấn mạnh 再 và 也. 找到 zhǎodào: zh uốn lưỡi, 找 thanh 3 đọc nửa."}
+    ],
+    "review": {
+      "remember": [
+        "并且 = hơn nữa, và còn (nối động từ / tính từ / vế câu cùng chiều, không nối danh từ). 相反 = ngược lại: 他没有生气，相反，还笑了.",
+        "再 + tính từ，S + 也 + 要 / 会 / 能……= dù… đến đâu cũng…: 再难，我也要学下去. 再也 + 不 / 没 = không bao giờ … nữa.",
+        "对于 + sự việc (不dùng cho người): 对于这个问题，大家有不同的看法. Với người: 对我很好.",
+        "Lặp lượng từ / danh từ: 个个都……, 天天都……, 人人都……, 家家都…… = mỗi, ai cũng, nhà nào cũng.",
+        "正确 = đúng (không sai); 准确 = chính xác (số liệu, phát âm); 仔细 = kỹ lưỡng (không phải “tử tế”); 区别 = điểm khác biệt."
+      ],
+      "mistakes": [
+        "✗ 我喜欢苹果并且香蕉 → ✓ 我喜欢苹果和香蕉: 并且 không nối danh từ.",
+        "✗ 再难也我要学下去 → ✓ 再难，我也要学下去: 也 đứng sau chủ ngữ.",
+        "✗ 他对于我很好 → ✓ 他对我很好: 对于 không dùng với người."
+      ]
+    }
+  }
+}

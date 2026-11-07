@@ -1,0 +1,257 @@
+{
+  "level": 4,
+  "number": 15,
+  "summary": "Hai phụ huynh chờ con ở cổng trường sau kỳ thi giữa kỳ và trao đổi kinh nghiệm dạy con; học 想起来 (nhớ ra), 弄 (làm, khiến cho), 千万 (nhất định đừng / phải), số ước lượng với 来 và 左右 cùng từ vựng về giáo dục và trường học",
+  "readings_ok": [],
+  "content": {
+    "objectives": [
+      "Bàn về việc dạy con bằng 教育、表扬、批评、耐心、严格、允许、骄傲",
+      "Nói “nhớ ra rồi / không nhớ ra” bằng 想起来, và nói “làm hỏng, làm bẩn, làm mất” bằng 弄",
+      "Nhắc nhở mạnh bằng 千万要 / 千万别",
+      "Nói số ước lượng bằng 来 và 左右: 十来个、二十来岁、十点左右"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"弄","pinyin":"nòng","pos":"động từ","meaning_vi":"làm, xoay xở; khiến cho","example_zh":"对不起，我把你的杯子弄坏了。","example_pinyin":"Duìbuqǐ, wǒ bǎ nǐ de bēizi nòng huài le.","example_vi":"Xin lỗi, tôi làm hỏng cốc của bạn rồi.","note_vi":"Động từ khẩu ngữ rất linh hoạt, thay cho nhiều động từ cụ thể. Hay đi với bổ ngữ kết quả: 弄坏、弄脏、弄丢、弄错、弄清楚、弄好."},
+      {"id":"v2","hanzi":"千万","pinyin":"qiānwàn","pos":"phó từ","meaning_vi":"nhất định, tuyệt đối (nhắc nhở)","example_zh":"过马路的时候，千万要小心。","example_pinyin":"Guò mǎlù de shíhou, qiānwàn yào xiǎoxīn.","example_vi":"Lúc qua đường nhất định phải cẩn thận.","hanviet":"THIÊN VẠN","note_vi":"Chỉ dùng khi dặn dò, nhắc nhở người nghe: 千万要…… / 千万别…… / 千万不要……. Không dùng cho việc đã xảy ra hay ý chí của chính mình (✗ 我千万去)."},
+      {"id":"v3","hanzi":"教育","pinyin":"jiàoyù","pos":"danh từ / động từ","meaning_vi":"giáo dục; dạy dỗ","example_zh":"好的教育对孩子很重要。","example_pinyin":"Hǎo de jiàoyù duì háizi hěn zhòngyào.","example_vi":"Giáo dục tốt rất quan trọng với trẻ.","hanviet":"GIÁO DỤC","note_vi":"Danh từ: 家庭教育, 学校教育. Động từ: 教育孩子 (dạy dỗ con, có thể gồm cả nhắc nhở, uốn nắn). Khác 教 (dạy kiến thức, kỹ năng)."},
+      {"id":"v4","hanzi":"艺术","pinyin":"yìshù","pos":"danh từ","meaning_vi":"nghệ thuật","example_zh":"她从小就喜欢艺术。","example_pinyin":"Tā cóng xiǎo jiù xǐhuan yìshù.","example_vi":"Từ nhỏ cô ấy đã yêu thích nghệ thuật.","hanviet":"NGHỆ THUẬT","note_vi":"Nghĩa chuyển: một việc đòi hỏi khéo léo như một nghệ thuật: 说话是一门艺术. Lượng từ: 门."},
+      {"id":"v5","hanzi":"父母","pinyin":"fùmǔ","pos":"danh từ","meaning_vi":"cha mẹ, bố mẹ","example_zh":"父母都希望孩子健康快乐。","example_pinyin":"Fùmǔ dōu xīwàng háizi jiànkāng kuàilè.","example_vi":"Cha mẹ đều mong con cái khỏe mạnh vui vẻ.","hanviet":"PHỤ MẪU","note_vi":"父母 trang trọng, gọi chung cả hai; khi xưng hô gọi 爸爸 / 妈妈. Khác 家长 (người giám hộ của học sinh)."},
+      {"id":"v6","hanzi":"家长","pinyin":"jiāzhǎng","pos":"danh từ","meaning_vi":"phụ huynh, người giám hộ (của học sinh)","example_zh":"学校请家长来开会，谈谈孩子的学习。","example_pinyin":"Xuéxiào qǐng jiāzhǎng lái kāihuì, tántan háizi de xuéxí.","example_vi":"Nhà trường mời phụ huynh đến họp, bàn về việc học của các em.","hanviet":"GIA TRƯỞNG","note_vi":"Cạm bẫy: Hán Việt “gia trưởng” là người đứng đầu gia đình (hoặc tính cách độc đoán), còn 家长 trong tiếng Trung là PHỤ HUYNH của học sinh. 家长会 là họp phụ huynh."},
+      {"id":"v7","hanzi":"儿童","pinyin":"értóng","pos":"danh từ","meaning_vi":"nhi đồng, trẻ em","example_zh":"儿童需要很多睡觉的时间。","example_pinyin":"Értóng xūyào hěn duō shuìjiào de shíjiān.","example_vi":"Trẻ em cần nhiều thời gian ngủ.","hanviet":"NHI ĐỒNG","note_vi":"儿童 thường dùng trong văn viết, biển báo, tên sản phẩm: 儿童节 (Ngày Thiếu nhi), 儿童书. Lời nói hằng ngày dùng 孩子 / 小孩."},
+      {"id":"v8","hanzi":"童年","pinyin":"tóngnián","pos":"danh từ","meaning_vi":"tuổi thơ","example_zh":"我的童年是在爷爷奶奶家过的。","example_pinyin":"Wǒ de tóngnián shì zài yéye nǎinai jiā guò de.","example_vi":"Tuổi thơ của tôi trôi qua ở nhà ông bà.","hanviet":"ĐỒNG NIÊN","note_vi":"Gần với 小时候 nhưng trang trọng và gợi cảm xúc hơn; hay dùng: 美好的童年、难忘的童年."},
+      {"id":"v9","hanzi":"表扬","pinyin":"biǎoyáng","pos":"động từ","meaning_vi":"khen ngợi, tuyên dương","example_zh":"老师表扬了他，他很高兴。","example_pinyin":"Lǎoshī biǎoyáng le tā, tā hěn gāoxìng.","example_vi":"Cô giáo khen cậu ấy, cậu ấy rất vui.","hanviet":"BIỂU DƯƠNG","note_vi":"Bị động: 受到表扬 / 得到表扬. Trái nghĩa 批评. Khác 夸 (khen, khẩu ngữ): 夸 dùng giữa bạn bè, 表扬 thường là cấp trên với cấp dưới hoặc trước tập thể."},
+      {"id":"v10","hanzi":"批评","pinyin":"pīpíng","pos":"động từ","meaning_vi":"phê bình, quở trách","example_zh":"老师批评他不认真做功课。","example_pinyin":"Lǎoshī pīpíng tā bú rènzhēn zuò gōngkè.","example_vi":"Cô giáo phê bình cậu ấy làm bài không nghiêm túc.","hanviet":"PHÊ BÌNH","note_vi":"批评 + người + (vì chuyện gì): nhắc nhở nghiêm khắc, mang tính sửa lỗi; nặng hơn 说 nhưng nhẹ hơn 骂 (mắng). Bị động: 受到批评."},
+      {"id":"v11","hanzi":"耐心","pinyin":"nàixīn","pos":"danh từ / tính từ","meaning_vi":"kiên nhẫn","example_zh":"教孩子要有耐心，不能太着急。","example_pinyin":"Jiāo háizi yào yǒu nàixīn, bù néng tài zháojí.","example_vi":"Dạy trẻ phải kiên nhẫn, không được quá nóng vội.","hanviet":"NẠI TÂM","note_vi":"Danh từ: 有耐心 / 没有耐心. Tính từ: 他很耐心 / 耐心地听. Đừng nhầm với 信心 (bài 9)."},
+      {"id":"v12","hanzi":"严格","pinyin":"yángé","pos":"tính từ / động từ","meaning_vi":"nghiêm khắc; làm cho nghiêm","example_zh":"我们的老师对学生很严格。","example_pinyin":"Wǒmen de lǎoshī duì xuésheng hěn yángé.","example_vi":"Thầy cô của chúng tôi rất nghiêm khắc với học sinh.","hanviet":"NGHIÊM CÁCH","note_vi":"对……很严格 (nghiêm khắc với…). Tính từ này không mang nghĩa xấu, chỉ nói yêu cầu cao. Trái nghĩa: 随便 hoặc 宽松."},
+      {"id":"v13","hanzi":"允许","pinyin":"yǔnxǔ","pos":"động từ","meaning_vi":"cho phép","example_zh":"学校不允许学生带手机进教室。","example_pinyin":"Xuéxiào bù yǔnxǔ xuésheng dài shǒujī jìn jiàoshì.","example_vi":"Nhà trường không cho phép học sinh mang điện thoại vào lớp.","hanviet":"DOÃN HỨA","note_vi":"允许 + người + làm gì: trang trọng hơn 让 / 准. Phủ định 不允许 = cấm; mạnh hơn 不让."},
+      {"id":"v14","hanzi":"骄傲","pinyin":"jiāo'ào","pos":"tính từ / danh từ","meaning_vi":"kiêu ngạo; tự hào","example_zh":"他考了第一名，但是一点儿也不骄傲。","example_pinyin":"Tā kǎo le dì yī míng, dànshì yìdiǎnr yě bù jiāo'ào.","example_vi":"Cậu ấy đứng nhất nhưng chẳng hề kiêu ngạo.","hanviet":"KIÊU NGẠO","note_vi":"Hai nghĩa: (1) kiêu ngạo, tự mãn (nghĩa xấu): 骄傲自满; (2) tự hào (nghĩa tốt): 我为你骄傲 (tôi tự hào về bạn), 家人的骄傲. Có dấu nháy: jiāo'ào."},
+      {"id":"v15","hanzi":"管","pinyin":"guǎn","pos":"động từ","meaning_vi":"quản, trông nom, lo","example_zh":"妈妈管得很严，晚上不让我出去玩。","example_pinyin":"Māma guǎn de hěn yán, wǎnshang bú ràng wǒ chūqu wán.","example_vi":"Mẹ quản rất chặt, buổi tối không cho tôi đi chơi.","hanviet":"QUẢN","note_vi":"管 + người / việc: 管孩子, 管功课. Khẩu ngữ: 不用你管 / 别管我 (đừng lo chuyện của tôi). 管 còn là lượng từ cho ống (一管牙膏)."},
+      {"id":"v16","hanzi":"功课","pinyin":"gōngkè","pos":"danh từ","meaning_vi":"bài vở, bài tập","example_zh":"他每天先做完功课再玩。","example_pinyin":"Tā měi tiān xiān zuò wán gōngkè zài wán.","example_vi":"Mỗi ngày cậu ấy làm xong bài tập rồi mới chơi.","note_vi":"Khẩu ngữ, gần với 作业 (bài tập về nhà). 做功课 = làm bài, học bài."},
+      {"id":"v17","hanzi":"分数","pinyin":"fēnshù","pos":"danh từ","meaning_vi":"điểm số; phân số","example_zh":"他的分数是九十五分。","example_pinyin":"Tā de fēnshù shì jiǔshíwǔ fēn.","example_vi":"Điểm của cậu ấy là chín mươi lăm điểm.","hanviet":"PHÂN SỐ","note_vi":"分数 có hai nghĩa: điểm số (考试分数) và phân số trong toán (三分之一是分数). Nói tắt 分: 考了九十分."},
+      {"id":"v18","hanzi":"懒","pinyin":"lǎn","pos":"tính từ","meaning_vi":"lười","example_zh":"他太懒了，什么都不想做。","example_pinyin":"Tā tài lǎn le, shénme dōu bù xiǎng zuò.","example_vi":"Cậu ấy lười quá, chẳng muốn làm gì cả.","hanviet":"LÃN","note_vi":"Hay gặp: 懒人 (người lười), 偷懒 (lười biếng, trốn việc), 懒得 + V (lười, chẳng buồn làm gì)."},
+      {"id":"v19","hanzi":"乱","pinyin":"luàn","pos":"tính từ / phó từ","meaning_vi":"lộn xộn, bừa bãi","example_zh":"他的房间太乱了，找不到东西。","example_pinyin":"Tā de fángjiān tài luàn le, zhǎo bu dào dōngxi.","example_vi":"Phòng cậu ấy bừa bộn quá, tìm không ra đồ.","hanviet":"LOẠN","note_vi":"Tính từ: 房间很乱. Phó từ: 乱 + động từ = làm bừa, làm tùy tiện (乱扔、乱说、乱花钱)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"父亲","pinyin":"fùqīn","pos":"danh từ","meaning_vi":"cha, bố (trang trọng)","example_zh":"我的父亲是一位医生。","example_pinyin":"Wǒ de fùqīn shì yí wèi yīshēng.","example_vi":"Cha tôi là một bác sĩ.","hanviet":"PHỤ THÂN"},
+      {"id":"x2","hanzi":"父子","pinyin":"fùzǐ","pos":"danh từ","meaning_vi":"cha con (trai)","example_zh":"他们是一对父子，常常一起踢球。","example_pinyin":"Tāmen shì yí duì fùzǐ, chángcháng yìqǐ tī qiú.","example_vi":"Họ là một cặp cha con, thường cùng nhau đá bóng.","hanviet":"PHỤ TỬ"},
+      {"id":"x3","hanzi":"父女","pinyin":"fùnǚ","pos":"danh từ","meaning_vi":"cha con (gái)","example_zh":"这对父女每天一起散步。","example_pinyin":"Zhè duì fùnǚ měi tiān yìqǐ sànbù.","example_vi":"Cặp cha con gái này ngày nào cũng cùng nhau đi dạo.","hanviet":"PHỤ NỮ"},
+      {"id":"x4","hanzi":"母子","pinyin":"mǔzǐ","pos":"danh từ","meaning_vi":"mẹ con (trai)","example_zh":"这对母子正在看书。","example_pinyin":"Zhè duì mǔzǐ zhèngzài kàn shū.","example_vi":"Hai mẹ con này đang đọc sách.","hanviet":"MẪU TỬ"},
+      {"id":"x5","hanzi":"母女","pinyin":"mǔnǚ","pos":"danh từ","meaning_vi":"mẹ con (gái)","example_zh":"她们是一对母女，长得很像。","example_pinyin":"Tāmen shì yí duì mǔnǚ, zhǎng de hěn xiàng.","example_vi":"Họ là hai mẹ con, trông rất giống nhau.","hanviet":"MẪU NỮ"},
+      {"id":"x6","hanzi":"少年","pinyin":"shàonián","pos":"danh từ","meaning_vi":"thiếu niên","example_zh":"这个少年很爱读书。","example_pinyin":"Zhège shàonián hěn ài dúshū.","example_vi":"Thiếu niên này rất thích đọc sách.","hanviet":"THIẾU NIÊN"},
+      {"id":"x7","hanzi":"活泼","pinyin":"huópō","pos":"tính từ","meaning_vi":"hoạt bát, lanh lợi","example_zh":"她是个活泼的孩子，爱笑爱说。","example_pinyin":"Tā shì ge huópō de háizi, ài xiào ài shuō.","example_vi":"Cô bé là đứa trẻ hoạt bát, hay cười hay nói.","hanviet":"HOẠT BÁT"},
+      {"id":"x8","hanzi":"笨","pinyin":"bèn","pos":"tính từ","meaning_vi":"ngốc, vụng","example_zh":"我不笨，只是有点儿懒。","example_pinyin":"Wǒ bú bèn, zhǐshì yǒudiǎnr lǎn.","example_vi":"Tôi không ngốc, chỉ là hơi lười.","note_vi":"Chê người khác “笨” khá nặng lời, nên tránh với trẻ em và người lớn tuổi."},
+      {"id":"x9","hanzi":"粗心","pinyin":"cūxīn","pos":"tính từ","meaning_vi":"cẩu thả, hậu đậu","example_zh":"他太粗心了，把名字写错了。","example_pinyin":"Tā tài cūxīn le, bǎ míngzi xiě cuò le.","example_vi":"Cậu ấy cẩu thả quá, viết sai cả tên.","note_vi":"Trái nghĩa với 细心 (bài 8)."},
+      {"id":"x10","hanzi":"老是","pinyin":"lǎoshì","pos":"phó từ","meaning_vi":"cứ, luôn luôn (thường có ý trách)","example_zh":"你怎么老是迟到？","example_pinyin":"Nǐ zěnme lǎoshì chídào?","example_vi":"Sao bạn cứ hay đến muộn thế?","note_vi":"老是 mang giọng phàn nàn, trách móc nhẹ. Gần với 总是 nhưng 总是 trung tính hơn."},
+      {"id":"x11","hanzi":"喊","pinyin":"hǎn","pos":"động từ","meaning_vi":"gọi to, hét","example_zh":"妈妈在楼下喊我回家吃饭。","example_pinyin":"Māma zài lóu xià hǎn wǒ huí jiā chī fàn.","example_vi":"Mẹ đứng dưới lầu gọi tôi về ăn cơm."},
+      {"id":"x12","hanzi":"零花钱","pinyin":"línghuāqián","pos":"danh từ","meaning_vi":"tiền tiêu vặt","example_zh":"爸爸每个月给我两百块零花钱。","example_pinyin":"Bàba měi ge yuè gěi wǒ liǎng bǎi kuài línghuāqián.","example_vi":"Mỗi tháng bố cho tôi hai trăm tệ tiền tiêu vặt."},
+      {"id":"x13","hanzi":"学费","pinyin":"xuéfèi","pos":"danh từ","meaning_vi":"học phí","example_zh":"这所大学的学费不太贵。","example_pinyin":"Zhè suǒ dàxué de xuéfèi bú tài guì.","example_vi":"Học phí của trường đại học này không đắt lắm.","hanviet":"HỌC PHÍ"},
+      {"id":"x14","hanzi":"奖学金","pinyin":"jiǎngxuéjīn","pos":"danh từ","meaning_vi":"học bổng","example_zh":"他因为成绩好，得到了奖学金。","example_pinyin":"Tā yīnwèi chéngjì hǎo, dédào le jiǎngxuéjīn.","example_vi":"Vì thành tích tốt, anh ấy nhận được học bổng.","hanviet":"TƯỞNG HỌC KIM"},
+      {"id":"x15","hanzi":"课程","pinyin":"kèchéng","pos":"danh từ","meaning_vi":"khóa học, chương trình học","example_zh":"这门课程对我很有帮助。","example_pinyin":"Zhè mén kèchéng duì wǒ hěn yǒu bāngzhù.","example_vi":"Khóa học này giúp ích rất nhiều cho tôi.","hanviet":"KHÓA TRÌNH"},
+      {"id":"x16","hanzi":"课堂","pinyin":"kètáng","pos":"danh từ","meaning_vi":"lớp học, buổi học","example_zh":"在课堂上，同学们都很认真。","example_pinyin":"Zài kètáng shang, tóngxuémen dōu hěn rènzhēn.","example_vi":"Trong giờ học, các bạn đều rất nghiêm túc.","hanviet":"KHÓA ĐƯỜNG"},
+      {"id":"x17","hanzi":"教学","pinyin":"jiàoxué","pos":"danh từ / động từ","meaning_vi":"giảng dạy","example_zh":"他的教学方法很有意思。","example_pinyin":"Tā de jiàoxué fāngfǎ hěn yǒu yìsi.","example_vi":"Phương pháp giảng dạy của ông ấy rất thú vị.","hanviet":"GIÁO HỌC"},
+      {"id":"x18","hanzi":"师生","pinyin":"shīshēng","pos":"danh từ","meaning_vi":"thầy trò","example_zh":"他们师生关系很好。","example_pinyin":"Tāmen shīshēng guānxi hěn hǎo.","example_vi":"Quan hệ thầy trò của họ rất tốt.","hanviet":"SƯ SINH"},
+      {"id":"x19","hanzi":"点名","pinyin":"diǎnmíng","pos":"động từ","meaning_vi":"điểm danh","example_zh":"老师每天上课先点名。","example_pinyin":"Lǎoshī měi tiān shàngkè xiān diǎnmíng.","example_vi":"Mỗi ngày vào lớp, cô giáo điểm danh trước.","note_vi":"Động từ li hợp: 点了名, 点个名."},
+      {"id":"x20","hanzi":"操场","pinyin":"cāochǎng","pos":"danh từ","meaning_vi":"sân thể dục, sân vận động của trường","example_zh":"同学们在操场上跑步。","example_pinyin":"Tóngxuémen zài cāochǎng shang pǎobù.","example_vi":"Các bạn học sinh chạy bộ ở sân trường."},
+      {"id":"x21","hanzi":"预习","pinyin":"yùxí","pos":"động từ","meaning_vi":"xem trước bài, chuẩn bị bài","example_zh":"上课以前要先预习新课。","example_pinyin":"Shàngkè yǐqián yào xiān yùxí xīn kè.","example_vi":"Trước khi lên lớp phải xem trước bài mới.","hanviet":"DỰ TẬP"},
+      {"id":"x22","hanzi":"入学","pinyin":"rùxué","pos":"động từ","meaning_vi":"nhập học","example_zh":"九月是新生入学的时间。","example_pinyin":"Jiǔyuè shì xīnshēng rùxué de shíjiān.","example_vi":"Tháng chín là thời gian tân sinh viên nhập học.","hanviet":"NHẬP HỌC"},
+      {"id":"x23","hanzi":"高考","pinyin":"gāokǎo","pos":"danh từ","meaning_vi":"kỳ thi đại học (ở Trung Quốc)","example_zh":"明年六月他要参加高考。","example_pinyin":"Míngnián liù yuè tā yào cānjiā gāokǎo.","example_vi":"Tháng sáu năm sau anh ấy sẽ dự kỳ thi đại học."},
+      {"id":"x24","hanzi":"报考","pinyin":"bàokǎo","pos":"động từ","meaning_vi":"đăng ký dự thi","example_zh":"她报考了北京的一所大学。","example_pinyin":"Tā bàokǎo le Běijīng de yì suǒ dàxué.","example_vi":"Cô ấy đăng ký thi vào một trường đại học ở Bắc Kinh."},
+      {"id":"x25","hanzi":"考生","pinyin":"kǎoshēng","pos":"danh từ","meaning_vi":"thí sinh","example_zh":"今年有很多考生参加考试。","example_pinyin":"Jīnnián yǒu hěn duō kǎoshēng cānjiā kǎoshì.","example_vi":"Năm nay có rất nhiều thí sinh dự thi.","hanviet":"KHẢO SINH"},
+      {"id":"x26","hanzi":"试题","pinyin":"shìtí","pos":"danh từ","meaning_vi":"đề thi","example_zh":"这次的试题不太难。","example_pinyin":"Zhè cì de shìtí bú tài nán.","example_vi":"Đề thi lần này không quá khó.","hanviet":"THÍ ĐỀ"},
+      {"id":"x27","hanzi":"期末","pinyin":"qīmò","pos":"danh từ","meaning_vi":"cuối kỳ","example_zh":"期末考试以后，就是寒假。","example_pinyin":"Qīmò kǎoshì yǐhòu, jiù shì hánjià.","example_vi":"Sau kỳ thi cuối kỳ là kỳ nghỉ đông."},
+      {"id":"x28","hanzi":"期中","pinyin":"qīzhōng","pos":"danh từ","meaning_vi":"giữa kỳ","example_zh":"期中考试我考得不错。","example_pinyin":"Qīzhōng kǎoshì wǒ kǎo de búcuò.","example_vi":"Kỳ thi giữa kỳ tôi làm bài khá tốt."},
+      {"id":"x29","hanzi":"寒假","pinyin":"hánjià","pos":"danh từ","meaning_vi":"kỳ nghỉ đông","example_zh":"寒假我想回老家。","example_pinyin":"Hánjià wǒ xiǎng huí lǎojiā.","example_vi":"Kỳ nghỉ đông tôi muốn về quê.","hanviet":"HÀN GIẢ"},
+      {"id":"x30","hanzi":"暑假","pinyin":"shǔjià","pos":"danh từ","meaning_vi":"kỳ nghỉ hè","example_zh":"暑假我们全家去旅行。","example_pinyin":"Shǔjià wǒmen quán jiā qù lǚxíng.","example_vi":"Kỳ nghỉ hè cả nhà chúng tôi đi du lịch.","hanviet":"THỬ GIẢ"}
+    ],
+    "glossary": [
+      {"hanzi":"安排","pinyin":"ānpái","meaning_vi":"sắp xếp, bố trí","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“想起来” (nhớ ra) và “V + 起来” (trông có vẻ)",
+        "pattern":"想起来 / 想不起来　·　想起 + O + 来　·　看 / 听 / 吃 + 起来 + Adj",
+        "explanation_vi":"(1) 想起来 nghĩa là “nhớ ra, chợt nhớ”: điều quên bỗng hiện lại trong đầu. Phủ định (không nhớ ra được) là 想不起来, không nói ✗ 不想起来. Khi có tân ngữ, thường chen vào giữa: 想起一件事来, hoặc đặt sau 起: 想起了童年; cách 想起来 + O cũng gặp trong lời nói nhưng kém tự nhiên. 记起来 cũng tương tự.\n(2) V + 起来 còn dùng để đưa ra nhận xét dựa trên cảm nhận: 看起来 (trông có vẻ), 听起来 (nghe có vẻ), 吃起来 (ăn vào thì), 说起来 (nói ra thì). Sau đó thường là tính từ: 这个菜看起来不好看，吃起来很香.",
+        "examples":[
+          {"zh":"我想起来了，他的名字叫王明。","pinyin":"Wǒ xiǎng qǐlai le, tā de míngzi jiào Wáng Míng.","vi":"Tôi nhớ ra rồi, tên anh ấy là Vương Minh."},
+          {"zh":"我怎么也想不起来昨天把手机放在哪儿了。","pinyin":"Wǒ zěnme yě xiǎng bu qǐlai zuótiān bǎ shǒujī fàng zài nǎr le.","vi":"Tôi nghĩ mãi không nhớ ra hôm qua để điện thoại ở đâu."},
+          {"zh":"听到这首歌，我想起了我的童年。","pinyin":"Tīng dào zhè shǒu gē, wǒ xiǎng qǐ le wǒ de tóngnián.","vi":"Nghe bài hát này, tôi nhớ lại tuổi thơ của mình."},
+          {"zh":"他想起一件重要的事来。","pinyin":"Tā xiǎng qǐ yí jiàn zhòngyào de shì lái.","vi":"Anh ấy chợt nhớ ra một việc quan trọng."},
+          {"zh":"这个菜看起来不好看，吃起来很香。","pinyin":"Zhège cài kàn qǐlai bù hǎokàn, chī qǐlai hěn xiāng.","vi":"Món này nhìn không đẹp nhưng ăn lại rất thơm."}
+        ],
+        "mistakes_vi":"✗ 我不想起来他的名字了。\n✓ 我想不起来他的名字了。\nPhủ định “không nhớ ra” là 想不起来, không phải 不想起来.\n✗ 听到歌，我想起来童年。\n✓ 听到歌，我想起了童年。\nKhi có tân ngữ, thường dùng 想起 + 了 + O; 来 không đứng ngay sau 起 trước tân ngữ.\n✗ 这个菜吃看起来很香。\n✓ 这个菜看起来很香。/ 这个菜吃起来很香。\nChọn một động từ (看 / 吃 / 听…) rồi mới thêm 起来.",
+        "compare_vi":"想起来 ≈ “chợt nhớ ra, nhớ lại”. Tiếng Việt “nhớ ra” và “không nhớ ra” ứng với 想起来 / 想不起来."
+      },
+      {
+        "id":"g2",
+        "title":"“弄” (làm, khiến cho)",
+        "pattern":"S + 把 + O + 弄 + 坏 / 脏 / 丢 / 错 / 清楚　·　S + 把 + O + 弄得 + Adj",
+        "explanation_vi":"弄 là động từ khẩu ngữ rất tiện, thay thế nhiều động từ cụ thể khi không cần nói rõ cách làm, chỉ nhấn kết quả. Hay đi với bổ ngữ kết quả: 弄坏 (làm hỏng), 弄脏 (làm bẩn), 弄丢 (làm mất), 弄错 (làm nhầm), 弄清楚 (làm cho rõ), 弄好 (làm cho xong, làm cho tốt), 弄干净 (làm sạch).\nCấu trúc 弄得 + tính từ nhấn mạnh trạng thái do hành động gây ra: 弄得很乱, 弄得很累. Thường dùng 把-câu: 他把房间弄得很乱.\n弄 không thay được mọi động từ: những hành động cụ thể (ăn, đi, nói, đọc…) vẫn dùng động từ đó.",
+        "examples":[
+          {"zh":"对不起，我把你的杯子弄坏了。","pinyin":"Duìbuqǐ, wǒ bǎ nǐ de bēizi nòng huài le.","vi":"Xin lỗi, tôi làm hỏng cốc của bạn rồi."},
+          {"zh":"他把房间弄得很乱。","pinyin":"Tā bǎ fángjiān nòng de hěn luàn.","vi":"Cậu ấy làm phòng bừa bộn hết cả."},
+          {"zh":"你先弄清楚问题，再回答。","pinyin":"Nǐ xiān nòng qīngchu wèntí, zài huídá.","vi":"Bạn hãy làm rõ vấn đề trước rồi hãy trả lời."},
+          {"zh":"我把手机弄丢了，怎么办？","pinyin":"Wǒ bǎ shǒujī nòng diū le, zěnme bàn?","vi":"Tôi làm mất điện thoại rồi, làm sao bây giờ?"},
+          {"zh":"别把衣服弄脏了。","pinyin":"Bié bǎ yīfu nòng zāng le.","vi":"Đừng làm bẩn quần áo."}
+        ],
+        "mistakes_vi":"✗ 我弄丢了把手机。\n✓ 我把手机弄丢了。\nVới 把, tân ngữ đứng trước 弄 + bổ ngữ.\n✗ 他把房间弄很乱。\n✓ 他把房间弄得很乱。\nMiêu tả trạng thái cần có 得.\n✗ 我在弄吃饭。\n✓ 我在吃饭。/ 我在做饭。\n弄 không thay các động từ cụ thể như 吃 (ăn).",
+        "compare_vi":"弄 ≈ “làm cho, làm” (làm hỏng, làm bẩn, làm mất). Tiếng Việt cũng dùng “làm” rất linh hoạt."
+      },
+      {
+        "id":"g3",
+        "title":"“千万” (nhất định, tuyệt đối đừng)",
+        "pattern":"(S +) 千万 + 要 / 别 / 不要 / 不能 + V",
+        "explanation_vi":"千万 là phó từ dùng khi dặn dò, nhắc nhở người nghe một cách khẩn thiết, nhấn rằng việc đó rất quan trọng: “nhất định phải”, “tuyệt đối đừng”. Chỉ dùng ở thể khuyên bảo, mệnh lệnh với ngôi thứ hai (hoặc câu chung): 千万要小心, 千万别忘了, 千万不要骄傲.\nVị trí: 千万 đứng trước 要 / 别 / 不要 / 不能; có thể đứng đầu câu hoặc sau chủ ngữ (你千万别忘了). Không dùng để nói về việc đã xảy ra, ý chí của chính mình hay sự thật.\nSo với 一定: 一定要 nhấn ý chí, quyết tâm; 千万要 nhấn dặn dò, lo lắng cho người khác.",
+        "examples":[
+          {"zh":"过马路的时候，千万要小心。","pinyin":"Guò mǎlù de shíhou, qiānwàn yào xiǎoxīn.","vi":"Lúc qua đường nhất định phải cẩn thận."},
+          {"zh":"这件事千万别告诉别人。","pinyin":"Zhè jiàn shì qiānwàn bié gàosu biéren.","vi":"Chuyện này tuyệt đối đừng nói với người khác."},
+          {"zh":"明天的考试很重要，千万不要迟到。","pinyin":"Míngtiān de kǎoshì hěn zhòngyào, qiānwàn búyào chídào.","vi":"Kỳ thi ngày mai rất quan trọng, tuyệt đối đừng đến muộn."},
+          {"zh":"分数高当然好，不过千万不要骄傲。","pinyin":"Fēnshù gāo dāngrán hǎo, búguò qiānwàn búyào jiāo'ào.","vi":"Điểm cao dĩ nhiên là tốt, nhưng tuyệt đối đừng kiêu ngạo."}
+        ],
+        "mistakes_vi":"✗ 我千万去。\n✓ 我一定去。\n千万 chỉ dùng để dặn người khác; ý chí của mình dùng 一定.\n✗ 他昨天千万没来。\n✓ 他昨天没来。\n千万 không dùng cho việc đã xảy ra.\n✗ 千万你不要迟到。\n✓ 你千万不要迟到。\n千万 đứng sau chủ ngữ, ngay trước 不要 / 别 / 要.",
+        "compare_vi":"千万 ≈ “nhất định, ngàn vạn lần”, trong dặn dò: “nhớ đừng…”, “nhất định nhé”."
+      },
+      {
+        "id":"g4",
+        "title":"Số ước lượng: “来” và “左右”",
+        "pattern":"số tròn + 来 + lượng từ + N　·　số + lượng từ + 左右",
+        "explanation_vi":"Hai cách nói “khoảng, chừng” thường dùng trong lời nói:\n(1) 来: đứng sau số tròn (十, 二十, 一百, 一千…) và trước lượng từ: 十来个人 (khoảng mười người), 二十来岁 (hơn hai mươi tuổi), 三十来分钟. Mức ước lượng có thể hơi hơn hoặc hơi kém số tròn. 来 không đứng sau số lẻ (✗ 三来个).\n(2) 左右: đứng sau cả cụm số + lượng từ (+ danh từ): 三十岁左右, 十点左右, 一百斤左右, 二十分钟左右. Dùng được với nhiều loại số, kể cả giờ giấc.\nKhông dùng đồng thời nhiều từ chỉ ước lượng (✗ 大概十点左右); chọn một trong hai là đủ.",
+        "examples":[
+          {"zh":"教室里有二十来个学生。","pinyin":"Jiàoshì li yǒu èrshí lái ge xuésheng.","vi":"Trong lớp có khoảng hai mươi học sinh."},
+          {"zh":"他三十来岁，是我们的老师。","pinyin":"Tā sānshí lái suì, shì wǒmen de lǎoshī.","vi":"Ông ấy ngoài ba mươi tuổi, là thầy giáo của chúng tôi."},
+          {"zh":"他每天晚上十点左右睡觉。","pinyin":"Tā měi tiān wǎnshang shí diǎn zuǒyòu shuìjiào.","vi":"Mỗi tối khoảng mười giờ anh ấy đi ngủ."},
+          {"zh":"我家孩子十岁左右就开始自己安排时间了。","pinyin":"Wǒ jiā háizi shí suì zuǒyòu jiù kāishǐ zìjǐ ānpái shíjiān le.","vi":"Con tôi khoảng mười tuổi đã bắt đầu tự sắp xếp thời gian."},
+          {"zh":"从我家到学校，走路二十分钟左右。","pinyin":"Cóng wǒ jiā dào xuéxiào, zǒulù èrshí fēnzhōng zuǒyòu.","vi":"Từ nhà tôi đến trường, đi bộ khoảng hai mươi phút."}
+        ],
+        "mistakes_vi":"✗ 我有三来本书。\n✓ 我有三十来本书。\n来 chỉ đứng sau số tròn như 十, 二十, 一百.\n✗ 教室里有二十个来学生。\n✓ 教室里有二十来个学生。\n来 đứng giữa số và lượng từ, không đứng sau lượng từ.\n✗ 他大概十点左右睡觉。\n✓ 他十点左右睡觉。/ 他大概十点睡觉。\nDùng một từ ước lượng là đủ, không chồng 大概 với 左右.",
+        "compare_vi":"左右 ≈ “khoảng, chừng, xấp xỉ”. Tiếng Việt “mười người ngoài ngoài”, “độ chừng” ứng với 来 / 左右."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Chờ con ở cổng trường",
+      "scene_vi": "Chiều thứ Sáu sau kỳ thi giữa kỳ, hai phụ huynh là mẹ Vương và bố Lý đứng chờ con ở cổng trường và trò chuyện về chuyện dạy con.",
+      "lines": [
+        {"speaker":"王妈妈","zh":"李先生，你家孩子这次期中考试考得怎么样？","pinyin":"Lǐ xiānsheng, nǐ jiā háizi zhè cì qīzhōng kǎoshì kǎo de zěnmeyàng?","vi":"Anh Lý, kỳ thi giữa kỳ lần này con anh thi thế nào?"},
+        {"speaker":"李爸爸","zh":"分数还可以，不过他老是粗心，会做的题也写错了。","pinyin":"Fēnshù hái kěyǐ, búguò tā lǎoshì cūxīn, huì zuò de tí yě xiě cuò le.","vi":"Điểm cũng tạm được, có điều nó cứ hay cẩu thả, câu biết làm mà cũng viết sai."},
+        {"speaker":"王妈妈","zh":"我家孩子比较懒，功课总要我管。昨天我批评了他几句，他一晚上都不说话。","pinyin":"Wǒ jiā háizi bǐjiào lǎn, gōngkè zǒng yào wǒ guǎn. Zuótiān wǒ pīpíng le tā jǐ jù, tā yì wǎnshang dōu bù shuō huà.","vi":"Con nhà tôi khá lười, bài vở lúc nào cũng phải để tôi quản. Hôm qua tôi mắng nó vài câu, cả buổi tối nó không nói gì."},
+        {"speaker":"李爸爸","zh":"我觉得批评不如表扬。孩子做对了事，一定要及时表扬他。","pinyin":"Wǒ juéde pīpíng bùrú biǎoyáng. Háizi zuò duì le shì, yídìng yào jíshí biǎoyáng tā.","vi":"Tôi thấy phê bình không bằng khen. Trẻ làm đúng việc thì nhất định phải khen kịp thời."},
+        {"speaker":"王妈妈","zh":"你说得对。我想起来了，上周他自己把房间弄干净了，可是我没有表扬他。","pinyin":"Nǐ shuō de duì. Wǒ xiǎng qǐlai le, shàng zhōu tā zìjǐ bǎ fángjiān nòng gānjìng le, kěshì wǒ méiyǒu biǎoyáng tā.","vi":"Anh nói đúng. Tôi nhớ ra rồi, tuần trước nó tự dọn phòng sạch sẽ mà tôi lại không khen nó."},
+        {"speaker":"李爸爸","zh":"对孩子既要严格，又要有耐心。千万别老是批评他，那样他会越来越没有信心。","pinyin":"Duì háizi jì yào yángé, yòu yào yǒu nàixīn. Qiānwàn bié lǎoshì pīpíng tā, nàyàng tā huì yuè lái yuè méiyǒu xìnxīn.","vi":"Với con vừa phải nghiêm khắc, vừa phải kiên nhẫn. Tuyệt đối đừng cứ phê bình nó mãi, như vậy nó sẽ ngày càng mất tự tin."},
+        {"speaker":"王妈妈","zh":"可是我要是不管他，他会把房间弄得很乱。","pinyin":"Kěshì wǒ yàoshi bù guǎn tā, tā huì bǎ fángjiān nòng de hěn luàn.","vi":"Nhưng nếu tôi không quản nó, nó sẽ làm phòng bừa bộn lắm."},
+        {"speaker":"李爸爸","zh":"你可以让他自己安排。我家孩子十岁左右，我就允许他自己安排时间，只要做完功课就行。","pinyin":"Nǐ kěyǐ ràng tā zìjǐ ānpái. Wǒ jiā háizi shí suì zuǒyòu, wǒ jiù yǔnxǔ tā zìjǐ ānpái shíjiān, zhǐyào zuò wán gōngkè jiù xíng.","vi":"Chị có thể để nó tự sắp xếp. Con nhà tôi khoảng mười tuổi là tôi đã cho nó tự sắp xếp thời gian, chỉ cần làm xong bài vở là được."},
+        {"speaker":"王妈妈","zh":"这个办法不错，我也试试。看，孩子们出来了！十来个孩子一起跑出来，我都看不清楚哪个是我儿子。","pinyin":"Zhège bànfǎ búcuò, wǒ yě shìshi. Kàn, háizimen chūlai le! Shí lái ge háizi yìqǐ pǎo chūlai, wǒ dōu kàn bu qīngchu nǎge shì wǒ érzi.","vi":"Cách này hay đấy, tôi cũng thử xem. Nhìn kìa, bọn trẻ ra rồi! Hơn chục đứa chạy ra cùng lúc, tôi chẳng nhìn rõ đứa nào là con mình."},
+        {"speaker":"李爸爸","zh":"我儿子在最前面。他小时候很骄傲，现在慢慢懂事了。教育孩子真是一门艺术啊！","pinyin":"Wǒ érzi zài zuì qiánmiàn. Tā xiǎo shíhou hěn jiāo'ào, xiànzài mànmàn dǒngshì le. Jiàoyù háizi zhēn shì yì mén yìshù a!","vi":"Con trai tôi ở ngay phía trước. Hồi nhỏ nó rất kiêu ngạo, giờ dần hiểu chuyện rồi. Dạy con thật là một nghệ thuật!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:家长","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"学校请____来开会，谈谈孩子的学习。","options":["家长","儿童","艺术","功课"],"answer":0,"explanation_vi":"Người được trường mời đến họp về việc học của học sinh là 家长 (phụ huynh)."},
+      {"id":"e2","type":"choice","tag":"v:表扬","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"老师____了他，他很高兴。","options":["表扬","批评","允许","管"],"answer":0,"explanation_vi":"Cậu ấy vui nên cô giáo khen: 表扬. Nếu bị 批评 thì sẽ không vui."},
+      {"id":"e3","type":"choice","tag":"v:批评","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他没有做功课，老师____了他。","options":["批评","表扬","允许","骄傲"],"answer":0,"explanation_vi":"Không làm bài thì bị phê bình: 批评."},
+      {"id":"e4","type":"choice","tag":"v:耐心","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"教孩子要有____，不能太着急。","options":["耐心","分数","童年","艺术"],"answer":0,"explanation_vi":"Dạy con không nóng vội → cần có 耐心 (kiên nhẫn)."},
+      {"id":"e5","type":"choice","tag":"v:严格","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们的老师对学生很____。","options":["严格","懒","乱","骄傲"],"answer":0,"explanation_vi":"对学生很严格 = rất nghiêm khắc với học sinh."},
+      {"id":"e6","type":"choice","tag":"v:允许","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"学校不____学生带手机进教室。","options":["允许","表扬","批评","管"],"answer":0,"explanation_vi":"“Không cho phép”: 不允许 + người + làm gì."},
+      {"id":"e7","type":"choice","tag":"v:懒","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他太____了，什么都不想做。","options":["懒","乱","严格","骄傲"],"answer":0,"explanation_vi":"Không muốn làm gì cả → lười: 懒."},
+      {"id":"e8","type":"choice","tag":"g:想起来","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我想起来了，他的名字叫王明。","我想起了来，他的名字叫王明。","我起想来了，他的名字叫王明。","我想来起了，他的名字叫王明。"],"answer":0,"explanation_vi":"“Nhớ ra rồi” là 想起来了; thứ tự 想 + 起来 không đổi."},
+      {"id":"e9","type":"choice","tag":"g:弄","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"对不起，我把你的杯子____坏了。","options":["弄","吃","写","看"],"answer":0,"explanation_vi":"弄坏 = làm hỏng. Các động từ còn lại không đi với 坏 theo nghĩa này."},
+      {"id":"e10","type":"order","tag":"g:弄","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","把","房间","弄","得","很乱"],"answers":["他把房间弄得很乱"],"translation_vi":"Cậu ấy làm phòng bừa bộn hết cả.","explanation_vi":"S + 把 + O + 弄得 + tính từ miêu tả kết quả."},
+      {"id":"e11","type":"choice","tag":"g:千万","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"明天的考试很重要，____不要迟到。","options":["千万","也许","可能","大概"],"answer":0,"explanation_vi":"Dặn dò nghiêm túc “tuyệt đối đừng”: 千万不要. Các từ còn lại chỉ phỏng đoán."},
+      {"id":"e12","type":"choice","tag":"g:来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"教室里有二十____个学生。","options":["来","左右","大概","大约"],"answer":0,"explanation_vi":"Số tròn + 来 + lượng từ: 二十来个. 左右 phải đứng sau lượng từ."},
+      {"id":"e13","type":"choice","tag":"g:左右","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他每天晚上十点____睡觉。","options":["左右","来","几","些"],"answer":0,"explanation_vi":"Giờ giấc + 左右 = khoảng: 十点左右."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"父子","vi":"cha con trai"},{"zh":"父女","vi":"cha con gái"},{"zh":"母子","vi":"mẹ con trai"},{"zh":"母女","vi":"mẹ con gái"},{"zh":"少年","vi":"thiếu niên"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:想起来","prompt_vi":"Chọn cách nói đúng điền vào chỗ trống.","question_zh":"他的名字叫什么，我怎么也____。","options":["想不起来","不想起来","想起不来","想不来起"],"answer":0,"explanation_vi":"“Không nhớ ra” là 想不起来 (dạng khả năng phủ định)."},
+        {"id":"q2","type":"choice","tag":"g:弄","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"别把衣服____脏了。","options":["弄","洗","做","看"],"answer":0,"explanation_vi":"弄脏 = làm bẩn."},
+        {"id":"q3","type":"choice","tag":"g:千万","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["这件事千万别告诉别人。","这件事千万我告诉别人。","千万这件事别告诉别人。","这件事别千万告诉别人。"],"answer":0,"explanation_vi":"千万 đứng ngay trước 别 / 不要."},
+        {"id":"q4","type":"choice","tag":"g:千万","prompt_vi":"Chọn câu dùng 千万 đúng.","question_zh":"Chọn câu dùng 千万 đúng.","options":["你千万不要迟到。","我千万去北京。","他昨天千万没来。","千万我很高兴。"],"answer":0,"explanation_vi":"千万 chỉ dùng khi dặn dò người nghe (千万不要 / 千万别 / 千万要)."},
+        {"id":"q5","type":"choice","tag":"g:来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他三十____岁，是我们的老师。","options":["来","个","左右","大概"],"answer":0,"explanation_vi":"Số tròn + 来 + lượng từ: 三十来岁 (ngoài ba mươi tuổi)."},
+        {"id":"q6","type":"choice","tag":"g:左右","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"从我家到学校，走路二十分钟____。","options":["左右","来","个","些"],"answer":0,"explanation_vi":"左右 đứng sau cụm số + lượng từ: 二十分钟左右."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:骄傲","prompt_vi":"Chọn đáp án đúng.","question_zh":"他考了第一名，但是一点儿也不____。","options":["骄傲","批评","允许","功课"],"answer":0,"explanation_vi":"Đứng nhất mà không kiêu ngạo: 一点儿也不骄傲."},
+      {"id":"t2","type":"choice","tag":"g:千万","prompt_vi":"Chọn đáp án đúng.","question_zh":"路上有很多车，过马路的时候____要小心。","options":["千万","可能","大概","偶尔"],"answer":0,"explanation_vi":"Dặn dò mạnh: 千万要小心."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"学费","vi":"học phí"},{"zh":"奖学金","vi":"học bổng"},{"zh":"课程","vi":"khóa học"},{"zh":"课堂","vi":"lớp học, giờ học"},{"zh":"教学","vi":"giảng dạy"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"操场","vi":"sân trường"},{"zh":"预习","vi":"xem trước bài"},{"zh":"高考","vi":"kỳ thi đại học"},{"zh":"期末","vi":"cuối kỳ"},{"zh":"暑假","vi":"nghỉ hè"}]},
+      {"id":"t5","type":"order","tag":"g:弄","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","把","手机","弄","丢","了"],"answers":["我把手机弄丢了"],"translation_vi":"Tôi làm mất điện thoại rồi.","explanation_vi":"我 + 把 + 手机 + 弄丢了: tân ngữ ở sau 把, bổ ngữ 丢 ngay sau 弄."},
+      {"id":"t6","type":"order","tag":"g:左右","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","每天","晚上","十点","左右","睡觉"],"answers":["他每天晚上十点左右睡觉","每天晚上他十点左右睡觉"],"translation_vi":"Mỗi tối khoảng mười giờ anh ấy đi ngủ.","explanation_vi":"左右 đứng ngay sau 十点, trước động từ 睡觉."},
+      {"id":"t7","type":"fill","tag":"g:想起来","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我____了，他的名字叫王明。","answers":["想起来"],"hint_vi":"nhớ ra","explanation_vi":"想起来了 = nhớ ra rồi."},
+      {"id":"t8","type":"fill","tag":"g:来","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"教室里有二十____个学生。","answers":["来"],"hint_vi":"khoảng (sau số tròn)","explanation_vi":"二十来个 = khoảng hai mươi."},
+      {"id":"t9","type":"listen_choice","tag":"g:千万","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"明天的考试很重要，千万不要迟到。","options":["Kỳ thi ngày mai rất quan trọng, tuyệt đối đừng đến muộn.","Kỳ thi ngày mai không quan trọng, đến muộn cũng được.","Kỳ thi ngày mai đã bị hoãn rồi.","Tôi sợ ngày mai mình sẽ đến muộn."],"answer":0,"explanation_vi":"千万不要迟到 = tuyệt đối đừng đến muộn."},
+      {"id":"t10","type":"listen_choice","tag":"v:耐心","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"教孩子要有耐心。","options":["教孩子要有耐心。","教孩子要有信心。","教孩子要很严格。","教孩子要有时间。"],"answer":0,"explanation_vi":"Câu nghe được: 教孩子要有耐心 = Dạy trẻ phải kiên nhẫn."},
+      {"id":"t11","type":"dictation","tag":"g:弄","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"对不起，我把你的杯子弄坏了。","answers":["对不起我把你的杯子弄坏了"],"explanation_vi":"对不起，我把你的杯子弄坏了 = Xin lỗi, tôi làm hỏng cốc của bạn rồi."},
+      {"id":"t12","type":"dictation","tag":"v:功课","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"他每天先做完功课再玩。","answers":["他每天先做完功课再玩"],"explanation_vi":"他每天先做完功课再玩 = Mỗi ngày cậu ấy làm xong bài vở rồi mới chơi."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:千万","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Lúc qua đường nhất định phải cẩn thận.","answers":["过马路的时候，千万要小心","过马路的时候千万要小心","过马路时千万要小心","过马路时，千万要小心","过马路的时候，千万小心","过马路的时候千万小心","过马路千万要小心","过马路的时候，千万要注意","过马路的时候千万要注意安全"],"explanation_vi":"过马路的时候 + 千万要小心."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:左右","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Mỗi tối khoảng mười giờ anh ấy đi ngủ.","answers":["他每天晚上十点左右睡觉","他每晚十点左右睡觉","他每天晚上十点左右睡","他每天晚上十点左右就睡觉","他每天晚上十点左右睡觉了","每天晚上他十点左右睡觉","他每天晚上差不多十点睡觉","他每天晚上十点钟左右睡觉"],"explanation_vi":"十点左右 = khoảng mười giờ; 每天晚上 + 十点左右 + 睡觉."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:想起来","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"听到这首歌，我想起了我的童年。","answers_vi":["Nghe bài hát này, tôi nhớ lại tuổi thơ của mình.","Nghe bài hát này tôi chợt nhớ đến thời thơ ấu."],"keywords":[["nghe"],["bài hát","ca khúc","bài này"],["nhớ"],["tuổi thơ","thời thơ ấu","ấu thơ","thời nhỏ","hồi nhỏ"]],"explanation_vi":"想起了 + tân ngữ = nhớ lại…; 童年 = tuổi thơ."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:表扬","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"老师表扬了他，没有批评他。","answers_vi":["Cô giáo khen cậu ấy, không phê bình cậu ấy.","Thầy giáo đã khen em ấy chứ không mắng."],"keywords":[["thầy","cô","giáo viên","giáo"],["khen","tuyên dương","biểu dương"],["không","chẳng"],["phê bình","mắng","trách","quở"]],"explanation_vi":"表扬 = khen; 批评 = phê bình, quở trách."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"爸爸的话",
+        "title_vi":"Lời của bố",
+        "paragraphs":[
+          {
+            "tokens":[["小时候","xiǎo shíhou","hồi nhỏ"],["，"],["爸爸","bàba","bố"],["对","duì","với"],["我","wǒ","tôi"],["很","hěn","rất"],["严格","yángé","nghiêm khắc"],["。"],["每天","měi tiān","mỗi ngày"],["放学","fàngxué","tan học"],["回家","huí jiā","về nhà"],["，"],["我","wǒ","tôi"],["必须","bìxū","phải"],["先","xiān","trước"],["做完","zuò wán","làm xong"],["功课","gōngkè","bài vở"],["，"],["才","cái","mới"],["能","néng","được"],["出去","chūqu","ra ngoài"],["玩","wán","chơi"],["。"],["有时候","yǒu shíhou","đôi khi"],["我","wǒ","tôi"],["很","hěn","rất"],["懒","lǎn","lười"],["，"],["不","bù","không"],["想","xiǎng","muốn"],["写","xiě","viết"],["，"],["爸爸","bàba","bố"],["就","jiù","bèn"],["会","huì","sẽ"],["坐","zuò","ngồi"],["在","zài","ở"],["我","wǒ","tôi"],["身边","shēnbiān","bên cạnh"],["，"],["耐心","nàixīn","kiên nhẫn"],["地","de","(một cách)"],["等","děng","đợi"],["我","wǒ","tôi"],["。"]],
+            "vi":"Hồi nhỏ, bố rất nghiêm khắc với tôi. Mỗi ngày tan học về nhà, tôi phải làm xong bài vở trước mới được ra ngoài chơi. Đôi khi tôi lười, không muốn viết, bố sẽ ngồi bên cạnh, kiên nhẫn đợi tôi."
+          },
+          {
+            "tokens":[["有","yǒu","có"],["一次","yí cì","một lần"],["，"],["我","wǒ","tôi"],["考","kǎo","thi"],["了","le","được"],["九十五","jiǔshíwǔ","chín mươi lăm"],["分","fēn","điểm"],["，"],["很","hěn","rất"],["骄傲","jiāo'ào","tự hào"],["，"],["回家","huí jiā","về nhà"],["告诉","gàosu","nói với"],["了","le","(đã)"],["所有","suǒyǒu","tất cả"],["人","rén","người"],["。"],["爸爸","bàba","bố"],["没有","méiyǒu","không"],["马上","mǎshàng","ngay"],["表扬","biǎoyáng","khen"],["我","wǒ","tôi"],["，"],["他","tā","ông"],["说","shuō","nói"],["："],["“"],["分数","fēnshù","điểm số"],["高","gāo","cao"],["当然","dāngrán","dĩ nhiên"],["好","hǎo","tốt"],["，"],["不过","búguò","có điều"],["千万","qiānwàn","tuyệt đối"],["不要","búyào","đừng"],["骄傲","jiāo'ào","kiêu ngạo"],["。"],["”"],["后来","hòulái","về sau"],["我","wǒ","tôi"],["又","yòu","lại"],["考","kǎo","thi"],["了","le","được"],["七十","qīshí","bảy mươi"],["分","fēn","điểm"],["，"],["我","wǒ","tôi"],["很","hěn","rất"],["难过","nánguò","buồn"],["，"],["以为","yǐwéi","tưởng"],["爸爸","bàba","bố"],["会","huì","sẽ"],["批评","pīpíng","phê bình"],["我","wǒ","tôi"],["，"],["可是","kěshì","nhưng"],["他","tā","ông"],["只是","zhǐshì","chỉ"],["说","shuō","nói"],["："],["“"],["弄","nòng","làm cho"],["清楚","qīngchu","rõ"],["哪里","nǎli","chỗ nào"],["错","cuò","sai"],["了","le","(rồi)"],["，"],["下次","xià cì","lần sau"],["就","jiù","sẽ"],["会","huì","sẽ"],["更","gèng","hơn"],["好","hǎo","tốt"],["。"],["”"]],
+            "vi":"Có một lần, tôi thi được chín mươi lăm điểm, rất tự hào, về nhà nói với tất cả mọi người. Bố không khen tôi ngay, ông nói: “Điểm cao dĩ nhiên là tốt, nhưng tuyệt đối đừng kiêu ngạo.” Về sau tôi lại thi được bảy mươi điểm, rất buồn, tưởng bố sẽ phê bình tôi, nhưng ông chỉ nói: “Làm rõ xem sai ở đâu, lần sau sẽ tốt hơn.”"
+          },
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["我","wǒ","tôi"],["也","yě","cũng"],["成","chéng","trở thành"],["了","le","(rồi)"],["父母","fùmǔ","cha mẹ"],["。"],["想起","xiǎng qǐ","nhớ lại"],["爸爸","bàba","bố"],["那时候","nà shíhou","lúc đó"],["说","shuō","nói"],["的","de","(trợ từ)"],["话","huà","lời"],["，"],["我","wǒ","tôi"],["才","cái","mới"],["明白","míngbai","hiểu ra"],["，"],["教育","jiàoyù","dạy dỗ"],["孩子","háizi","con"],["最","zuì","nhất"],["重要","zhòngyào","quan trọng"],["的","de","(trợ từ)"],["是","shì","là"],["耐心","nàixīn","kiên nhẫn"],["。"],["孩子","háizi","con"],["不能","bù néng","không thể"],["只","zhǐ","chỉ"],["看","kàn","nhìn"],["分数","fēnshù","điểm số"],["。"],["我","wǒ","tôi"],["也","yě","cũng"],["常常","chángcháng","thường"],["对","duì","với"],["孩子","háizi","con"],["说","shuō","nói"],["："],["“"],["只要","zhǐyào","chỉ cần"],["你","nǐ","con"],["努力","nǔlì","cố gắng"],["了","le","(rồi)"],["，"],["我","wǒ","mẹ"],["就","jiù","sẽ"],["为","wèi","vì"],["你","nǐ","con"],["骄傲","jiāo'ào","tự hào"],["。"],["”"]],
+            "vi":"Bây giờ tôi cũng đã làm cha mẹ. Nhớ lại những lời bố nói lúc ấy, tôi mới hiểu rằng điều quan trọng nhất khi dạy con là sự kiên nhẫn. Không thể chỉ nhìn vào điểm số. Tôi cũng thường nói với con: “Chỉ cần con đã cố gắng, bố/mẹ sẽ tự hào về con.”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小时候，“我”放学回家后必须先做什么？","options":["做完功课","出去玩","看电视","帮爸爸做饭"],"answer":0,"explanation_vi":"Đoạn 1: 我必须先做完功课，才能出去玩."},
+          {"id":"rq2","type":"choice","tag":"g:千万","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”考了九十五分以后，爸爸说了什么？","options":["分数高当然好，不过千万不要骄傲","你真是太聪明了","你应该再考一百分","你可以出去玩一天"],"answer":0,"explanation_vi":"Đoạn 2: 分数高当然好，不过千万不要骄傲."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”考了七十分的时候，爸爸批评了“我”。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: “我” tưởng bố sẽ phê bình, nhưng bố chỉ bảo 弄清楚哪里错了 — câu này sai."},
+          {"id":"rq4","type":"choice","tag":"g:弄","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"爸爸希望“我”考了七十分以后做什么？","options":["弄清楚哪里错了","不要再考试","马上去玩","哭一会儿"],"answer":0,"explanation_vi":"Đoạn 2: 弄清楚哪里错了，下次就会更好."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"现在“我”认为，教育孩子最重要的是分数。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 教育孩子最重要的是耐心。孩子不能只看分数 — câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Họp phụ huynh",
+        "text_zh":"各位家长，大家好！今天的家长会，主要谈谈怎样教育孩子。第一，要有耐心。孩子做错了事，千万不要马上批评，先听他说一说。第二，多表扬。十岁左右的孩子，最需要大人的表扬。第三，要让孩子自己的事自己做，比如整理房间，不要什么都帮他弄好。第四，孩子的功课你们可以问，但是不要帮他写。我们班有四十来个孩子，每个孩子都不一样，请大家一定要多和老师联系。",
+        "pinyin":"Gè wèi jiāzhǎng, dàjiā hǎo! Jīntiān de jiāzhǎnghuì, zhǔyào tántan zěnyàng jiàoyù háizi. Dì yī, yào yǒu nàixīn. Háizi zuò cuò le shì, qiānwàn búyào mǎshàng pīpíng, xiān tīng tā shuō yi shuō. Dì èr, duō biǎoyáng. Shí suì zuǒyòu de háizi, zuì xūyào dàrén de biǎoyáng. Dì sān, yào ràng háizi zìjǐ de shì zìjǐ zuò, bǐrú zhěnglǐ fángjiān, búyào shénme dōu bāng tā nòng hǎo. Dì sì, háizi de gōngkè nǐmen kěyǐ wèn, dànshì búyào bāng tā xiě. Wǒmen bān yǒu sìshí lái ge háizi, měi ge háizi dōu bù yíyàng, qǐng dàjiā yídìng yào duō hé lǎoshī liánxì.",
+        "vi":"Kính chào các vị phụ huynh! Buổi họp phụ huynh hôm nay chủ yếu nói về cách dạy con. Thứ nhất, phải kiên nhẫn. Con làm sai việc, tuyệt đối đừng phê bình ngay, hãy nghe con nói trước. Thứ hai, khen nhiều. Trẻ khoảng mười tuổi cần nhất là được người lớn khen. Thứ ba, hãy để con tự làm việc của mình, chẳng hạn dọn phòng, đừng làm hộ con mọi thứ. Thứ tư, bài vở của con các vị có thể hỏi, nhưng đừng viết hộ con. Lớp chúng tôi có khoảng bốn mươi em, em nào cũng khác nhau, xin các vị nhất định liên hệ nhiều với thầy cô.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"g:千万","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"孩子做错了事，家长应该怎么做？","options":["先听孩子说一说","马上批评","不管他","马上惩罚他"],"answer":0,"explanation_vi":"Nghe được: 千万不要马上批评，先听他说一说."},
+          {"id":"lq2","type":"choice","tag":"g:左右","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"十岁左右的孩子，最需要什么？","options":["大人的表扬","更多的零花钱","更多的功课","更长的暑假"],"answer":0,"explanation_vi":"Nghe được: 十岁左右的孩子，最需要大人的表扬."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"孩子自己的事应该怎么办？","options":["让孩子自己做","大人帮他做","老师帮他做","不用做"],"answer":0,"explanation_vi":"Nghe được: 要让孩子自己的事自己做."},
+          {"id":"lq4","type":"choice","tag":"g:来","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这个班大概有多少个孩子？","options":["四十个左右","十个左右","二十个左右","一百个左右"],"answer":0,"explanation_vi":"Nghe được: 我们班有四十来个孩子 = khoảng bốn mươi em."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"千万","pinyin":"qiānwàn","vi":"nhất định, tuyệt đối","tip_vi":"千 qiān: q bật hơi mạnh, -ian đọc như “iên”, thanh 1 cao và bằng. 万 wàn: w gần như “u” ngắn rồi chuyển sang -an, thanh 4 xuống mạnh. Không đọc “chiên oan”."},
+      {"id":"s2","zh":"弄坏","pinyin":"nòng huài","vi":"làm hỏng","tip_vi":"弄 nòng: n đầu lưỡi chạm lợi trên, -ong kết thúc ở cuống lưỡi, thanh 4. 坏 huài: h bật hơi nhẹ, -uai như “oai”. Đừng đọc thành “lòng”."},
+      {"id":"s3","zh":"骄傲","pinyin":"jiāo'ào","vi":"kiêu ngạo, tự hào","tip_vi":"Dấu nháy tách hai vần: jiāo – ào. 骄 jiāo thanh 1 cao, j không bật hơi. 傲 ào thanh 4 xuống mạnh, miệng mở rộng. Đừng nối thành “jiao ao” một âm."},
+      {"id":"s4","zh":"我想起来了，他的名字叫王明。","pinyin":"Wǒ xiǎng qǐlai le, tā de míngzi jiào Wáng Míng.","vi":"Tôi nhớ ra rồi, tên anh ấy là Vương Minh.","tip_vi":"我想: hai thanh 3 liền nhau, 我 đọc thành thanh 2. 起来 qǐlai: 起 thanh 3, 来 đọc nhẹ. 名字 míngzi: 字 đọc nhẹ. 王明 Wáng Míng: -ang và -ing đều ở cuống lưỡi."},
+      {"id":"s5","zh":"对不起，我把你的杯子弄坏了。","pinyin":"Duìbuqǐ, wǒ bǎ nǐ de bēizi nòng huài le.","vi":"Xin lỗi, tôi làm hỏng cốc của bạn rồi.","tip_vi":"对不起: 不 đọc nhẹ, 起 thanh 3 nhưng đọc nửa. 我把你: ba thanh 3 liền nhau, đọc 我 và 把 thành thanh 2. 杯子 bēizi: 子 đọc nhẹ. 坏了 huài le: 了 nhẹ và ngắn."},
+      {"id":"s6","zh":"过马路的时候，千万要小心。","pinyin":"Guò mǎlù de shíhou, qiānwàn yào xiǎoxīn.","vi":"Lúc qua đường nhất định phải cẩn thận.","tip_vi":"过 guò: g không bật hơi, -uo tròn môi. 马路 mǎlù: 马 thanh 3 đọc thành thanh 2 vì sau là thanh 4. 时候 shíhou: 候 đọc nhẹ. 小心 xiǎoxīn: 心 xīn nhẹ, hai chữ x miệng bẹt. Nhấn mạnh vào 千万."},
+      {"id":"s7","zh":"教孩子要有耐心，千万别老是批评他。","pinyin":"Jiāo háizi yào yǒu nàixīn, qiānwàn bié lǎoshì pīpíng tā.","vi":"Dạy con phải kiên nhẫn, tuyệt đối đừng cứ phê bình con mãi.","tip_vi":"教 jiāo thanh 1 (dạy) – chú ý khác jiào thanh 4. 耐心 nàixīn: n đầu lưỡi, thanh 4 rồi thanh 1. 老是 lǎoshì: 老 thanh 3 nửa; 是 shì nhẹ. 批评 pīpíng: p bật hơi mạnh, 评 píng thanh 2 lên rõ. Hai vế ngắt hơi ở dấu phẩy."}
+    ],
+    "review": {
+      "remember": [
+        "想起来 = nhớ ra; phủ định là 想不起来 (không nói 不想起来); có tân ngữ: 想起一件事来 / 想起了童年. V + 起来 = trông / nghe / ăn thì: 看起来很好.",
+        "弄 + bổ ngữ kết quả: 弄坏 (hỏng), 弄脏 (bẩn), 弄丢 (mất), 弄错 (nhầm), 弄清楚 (làm rõ); 把 + O + 弄得 + Adj. Không thay các động từ cụ thể như 吃.",
+        "千万 + 要 / 别 / 不要 = nhất định phải / tuyệt đối đừng — chỉ dùng để dặn người khác; ý chí của mình dùng 一定.",
+        "Số ước lượng: số tròn + 来 + lượng từ (二十来个); số + lượng từ + 左右 (十点左右, 三十岁左右). Không dùng 大概 + 左右 cùng lúc.",
+        "家长 là phụ huynh (không phải “gia trưởng”); 骄傲 vừa là kiêu ngạo vừa là tự hào; 表扬 ≠ 批评; 严格 (nghiêm khắc) + 耐心 (kiên nhẫn) khi dạy con."
+      ],
+      "mistakes": [
+        "✗ 我不想起来他的名字了 → ✓ 我想不起来他的名字了: phủ định của 想起来 là 想不起来.",
+        "✗ 我千万去 → ✓ 我一定去: 千万 chỉ dùng khi dặn dò người khác.",
+        "✗ 教室里有二十个来学生 → ✓ 教室里有二十来个学生: 来 đứng giữa số và lượng từ."
+      ]
+    }
+  }
+}

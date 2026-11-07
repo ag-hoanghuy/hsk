@@ -1,0 +1,255 @@
+{
+  "level": 4,
+  "number": 11,
+  "summary": "Hai người bạn trong hiệu sách: một người mê sách khuyên người chưa bao giờ đọc hết một cuốn tiểu thuyết; học 连……都 (ngay cả), 否则 (nếu không thì), 无论……都 (dù… cũng), 然而 và 同时, cùng từ vựng về sách, bài viết và học ngôn ngữ",
+  "readings_ok": ["好 hào"],
+  "content": {
+    "objectives": [
+      "Nói về thói quen đọc sách bằng 阅读、小说、杂志、作者、读者、作品、文章、内容",
+      "Nhấn mạnh “ngay cả… cũng…” bằng 连……都/也…… và nêu hậu quả bằng 否则",
+      "Nói “dù thế nào cũng…” bằng 无论……都……",
+      "Nối ý trang trọng bằng 然而 và nói hai việc cùng lúc bằng 同时"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"连","pinyin":"lián","pos":"giới từ / phó từ","meaning_vi":"ngay cả, đến cả (trong 连……都/也……)","example_zh":"他忙得连饭都忘了吃。","example_pinyin":"Tā máng de lián fàn dōu wàng le chī.","example_vi":"Anh ấy bận đến mức ngay cả cơm cũng quên ăn.","hanviet":"LIÊN","note_vi":"连 + trường hợp cực đoan + 都 / 也 + vị ngữ. Cũng là động từ “nối” (连在一起) và trong 连续 (liên tục). Sau 连 nên có 都 hoặc 也."},
+      {"id":"v2","hanzi":"否则","pinyin":"fǒuzé","pos":"liên từ","meaning_vi":"nếu không thì, bằng không","example_zh":"快走吧，否则要迟到了。","example_pinyin":"Kuài zǒu ba, fǒuzé yào chídào le.","example_vi":"Đi nhanh lên, nếu không sẽ muộn mất.","hanviet":"PHỦ TẮC","note_vi":"Đứng đầu vế sau, nêu hậu quả nếu vế trước không xảy ra. Khẩu ngữ hay nói 不然 hoặc 要不然. Vế sau thường là điều không mong muốn."},
+      {"id":"v3","hanzi":"无论","pinyin":"wúlùn","pos":"liên từ","meaning_vi":"dù, bất kể","example_zh":"无论天气怎么样，他都坚持跑步。","example_pinyin":"Wúlùn tiānqì zěnmeyàng, tā dōu jiānchí pǎobù.","example_vi":"Dù thời tiết thế nào, anh ấy cũng kiên trì chạy bộ.","hanviet":"VÔ LUẬN","note_vi":"无论 + từ nghi vấn / A 还是 B / 正反 + 都…… Trang trọng hơn 不管 (khẩu ngữ). Hán Việt “vô luận” gần nghĩa nhưng ít dùng; trong tiếng Trung 无论 rất thường gặp."},
+      {"id":"v4","hanzi":"然而","pinyin":"rán'ér","pos":"liên từ","meaning_vi":"tuy nhiên, thế nhưng","example_zh":"这本书很有名，然而我从来没有读过。","example_pinyin":"Zhè běn shū hěn yǒumíng, rán'ér wǒ cónglái méiyǒu dú guo.","example_vi":"Cuốn sách này rất nổi tiếng, tuy nhiên tôi chưa bao giờ đọc.","hanviet":"NHIÊN NHI","note_vi":"Chuyển ý trang trọng, hay gặp trong văn viết, mạnh hơn 但是. Đứng đầu vế sau; không dùng cùng 但是. Có dấu nháy trong pinyin: rán'ér."},
+      {"id":"v5","hanzi":"同时","pinyin":"tóngshí","pos":"danh từ / liên từ","meaning_vi":"cùng lúc; đồng thời","example_zh":"他一边工作，同时学习汉语。","example_pinyin":"Tā yìbiān gōngzuò, tóngshí xuéxí Hànyǔ.","example_vi":"Anh ấy vừa làm việc, đồng thời học tiếng Trung.","hanviet":"ĐỒNG THỜI","note_vi":"(1) Danh từ: cùng thời điểm (两个人同时说话). (2) Liên từ: nối hai việc cùng diễn ra hoặc thêm ý (……，同时也……). Thường dùng với 在……的同时."},
+      {"id":"v6","hanzi":"阅读","pinyin":"yuèdú","pos":"động từ","meaning_vi":"đọc (văn bản, sách báo)","example_zh":"我每天花一个小时阅读。","example_pinyin":"Wǒ měi tiān huā yí ge xiǎoshí yuèdú.","example_vi":"Mỗi ngày tôi dành một tiếng để đọc.","hanviet":"DUYỆT ĐỘC","note_vi":"阅读 trang trọng hơn 读 và 看, hay dùng cho đọc sách báo, bài viết: 阅读文章, 阅读理解 (bài đọc hiểu)."},
+      {"id":"v7","hanzi":"知识","pinyin":"zhīshi","pos":"danh từ","meaning_vi":"kiến thức, tri thức","example_zh":"读书可以让我们学到很多知识。","example_pinyin":"Dúshū kěyǐ ràng wǒmen xué dào hěn duō zhīshi.","example_vi":"Đọc sách giúp chúng ta học được nhiều kiến thức.","hanviet":"TRI THỨC","note_vi":"Danh từ không đếm: 很多知识, 一些知识; không dùng 个. Đọc chữ 识 nhẹ: zhīshi. Khác 知道 (biết một việc cụ thể)."},
+      {"id":"v8","hanzi":"小说","pinyin":"xiǎoshuō","pos":"danh từ","meaning_vi":"tiểu thuyết, truyện","example_zh":"这本小说写得很有意思。","example_pinyin":"Zhè běn xiǎoshuō xiě de hěn yǒu yìsi.","example_vi":"Cuốn tiểu thuyết này viết rất thú vị.","hanviet":"TIỂU THUYẾT","note_vi":"小说 chỉ truyện hư cấu nói chung (cả dài lẫn ngắn). Lượng từ: 本. Phân loại: 长篇小说 (truyện dài), 短篇小说 (truyện ngắn)."},
+      {"id":"v9","hanzi":"作者","pinyin":"zuòzhě","pos":"danh từ","meaning_vi":"tác giả","example_zh":"这篇文章的作者是一位老师。","example_pinyin":"Zhè piān wénzhāng de zuòzhě shì yí wèi lǎoshī.","example_vi":"Tác giả của bài viết này là một thầy giáo.","hanviet":"TÁC GIẢ","note_vi":"作者 là người viết một tác phẩm cụ thể; 作家 là nhà văn (nghề nghiệp). 者 chỉ “người làm việc đó”: 读者, 学者, 作者."},
+      {"id":"v10","hanzi":"读者","pinyin":"dúzhě","pos":"danh từ","meaning_vi":"độc giả, người đọc","example_zh":"这本杂志有很多年轻读者。","example_pinyin":"Zhè běn zázhì yǒu hěn duō niánqīng dúzhě.","example_vi":"Tạp chí này có rất nhiều độc giả trẻ.","hanviet":"ĐỘC GIẢ"},
+      {"id":"v11","hanzi":"作品","pinyin":"zuòpǐn","pos":"danh từ","meaning_vi":"tác phẩm","example_zh":"这位作家的作品我都读过。","example_pinyin":"Zhè wèi zuòjiā de zuòpǐn wǒ dōu dú guo.","example_vi":"Tác phẩm của nhà văn này tôi đều đã đọc.","hanviet":"TÁC PHẨM","note_vi":"Dùng cho sản phẩm sáng tạo: sách, tranh, bài hát, phim (他的作品、音乐作品). Không dùng cho sản phẩm hàng hóa (đó là 产品)."},
+      {"id":"v12","hanzi":"文章","pinyin":"wénzhāng","pos":"danh từ","meaning_vi":"bài viết, bài văn","example_zh":"他写的文章很有意思。","example_pinyin":"Tā xiě de wénzhāng hěn yǒu yìsi.","example_vi":"Bài viết anh ấy viết rất thú vị.","hanviet":"VĂN CHƯƠNG","note_vi":"Hán Việt “văn chương” chỉ văn học nói chung, còn 文章 trong tiếng Trung là một bài viết cụ thể (bài báo, bài luận). Lượng từ: 篇. Văn học là 文学."},
+      {"id":"v13","hanzi":"内容","pinyin":"nèiróng","pos":"danh từ","meaning_vi":"nội dung","example_zh":"这本书的内容很丰富。","example_pinyin":"Zhè běn shū de nèiróng hěn fēngfù.","example_vi":"Nội dung cuốn sách này rất phong phú.","hanviet":"NỘI DUNG","note_vi":"Cụm hay gặp: 内容丰富, 内容有趣, 书的内容, 谈话内容."},
+      {"id":"v14","hanzi":"积累","pinyin":"jīlěi","pos":"động từ","meaning_vi":"tích lũy","example_zh":"学语言要一点一点地积累。","example_pinyin":"Xué yǔyán yào yìdiǎn yìdiǎn de jīlěi.","example_vi":"Học ngôn ngữ phải tích lũy từng chút một.","hanviet":"TÍCH LŨY","note_vi":"积累 + 经验 / 知识 / 词语 / 钱. Thường dùng cho thứ cần nhiều thời gian để dồn lại."},
+      {"id":"v15","hanzi":"丰富","pinyin":"fēngfù","pos":"tính từ / động từ","meaning_vi":"phong phú; làm phong phú","example_zh":"读书可以丰富我们的生活。","example_pinyin":"Dúshū kěyǐ fēngfù wǒmen de shēnghuó.","example_vi":"Đọc sách có thể làm phong phú cuộc sống của chúng ta.","hanviet":"PHONG PHÚ","note_vi":"Tính từ: 内容丰富, 经验丰富, 生活很丰富. Động từ: 丰富知识 (làm phong phú tri thức)."},
+      {"id":"v16","hanzi":"杂志","pinyin":"zázhì","pos":"danh từ","meaning_vi":"tạp chí","example_zh":"我喜欢看旅行杂志。","example_pinyin":"Wǒ xǐhuan kàn lǚxíng zázhì.","example_vi":"Tôi thích xem tạp chí du lịch.","hanviet":"TẠP CHÍ","note_vi":"Lượng từ: 本 (một cuốn tạp chí); mỗi kỳ là 期."},
+      {"id":"v17","hanzi":"作家","pinyin":"zuòjiā","pos":"danh từ","meaning_vi":"nhà văn","example_zh":"他是一位有名的作家。","example_pinyin":"Tā shì yí wèi yǒumíng de zuòjiā.","example_vi":"Ông ấy là một nhà văn nổi tiếng.","hanviet":"TÁC GIA","note_vi":"Chỉ người viết văn chuyên nghiệp (nhà văn, nhà thơ…). Lượng từ lịch sự: 位."},
+      {"id":"v18","hanzi":"有趣","pinyin":"yǒuqù","pos":"tính từ","meaning_vi":"thú vị, hay","example_zh":"这个故事非常有趣。","example_pinyin":"Zhège gùshi fēicháng yǒuqù.","example_vi":"Câu chuyện này vô cùng thú vị.","note_vi":"Nghĩa giống 有意思, trang trọng hơn một chút. Trái nghĩa: 无聊. Dùng được cho sách, phim, người, chuyện."},
+      {"id":"v19","hanzi":"无聊","pinyin":"wúliáo","pos":"tính từ","meaning_vi":"chán, tẻ nhạt","example_zh":"一个人在家很无聊。","example_pinyin":"Yí ge rén zài jiā hěn wúliáo.","example_vi":"Một mình ở nhà thấy chán lắm.","note_vi":"Nói về cảm giác chán (我很无聊) hoặc sự vật nhàm chán (这个电影很无聊). 无 là “không”, 聊 là “thú vị, trò chuyện”."},
+      {"id":"v20","hanzi":"翻译","pinyin":"fānyì","pos":"động từ / danh từ","meaning_vi":"dịch; người phiên dịch","example_zh":"请你把这句话翻译成中文。","example_pinyin":"Qǐng nǐ bǎ zhè jù huà fānyì chéng Zhōngwén.","example_vi":"Xin bạn dịch câu này sang tiếng Trung.","hanviet":"PHIÊN DỊCH","note_vi":"Động từ: 把……翻译成…… (dịch… thành…). Danh từ: người phiên dịch (她是翻译) hoặc bản dịch."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"许多","pinyin":"xǔduō","pos":"số từ","meaning_vi":"rất nhiều","example_zh":"书店里有许多好书。","example_pinyin":"Shūdiàn li yǒu xǔduō hǎo shū.","example_vi":"Trong hiệu sách có rất nhiều sách hay."},
+      {"id":"x2","hanzi":"任何","pinyin":"rènhé","pos":"đại từ","meaning_vi":"bất kỳ","example_zh":"任何人都可以来借书。","example_pinyin":"Rènhé rén dōu kěyǐ lái jiè shū.","example_vi":"Bất kỳ ai cũng có thể đến mượn sách.","note_vi":"任何 + danh từ, thường kết hợp với 都 / 也: 任何人都…, 没有任何问题."},
+      {"id":"x3","hanzi":"能够","pinyin":"nénggòu","pos":"động từ năng nguyện","meaning_vi":"có thể (có khả năng, có điều kiện)","example_zh":"读书能够让人变聪明。","example_pinyin":"Dúshū nénggòu ràng rén biàn cōngming.","example_vi":"Đọc sách có thể khiến con người thông minh hơn.","note_vi":"能够 gần như 能 nhưng trang trọng hơn; nhấn mạnh có khả năng hoặc điều kiện cho phép."},
+      {"id":"x4","hanzi":"不论","pinyin":"búlùn","pos":"liên từ","meaning_vi":"bất luận, dù","example_zh":"不论是白天还是晚上，他都在学习。","example_pinyin":"Búlùn shì báitiān háishi wǎnshang, tā dōu zài xuéxí.","example_vi":"Dù là ban ngày hay buổi tối, anh ấy đều đang học.","note_vi":"Giống 无论, dùng trong cả nói và viết; cũng cần 都. 不 đọc bú vì đứng trước thanh 4."},
+      {"id":"x5","hanzi":"部分","pinyin":"bùfen","pos":"danh từ","meaning_vi":"một phần, bộ phận","example_zh":"这本书我只读了一部分。","example_pinyin":"Zhè běn shū wǒ zhǐ dú le yí bùfen.","example_vi":"Cuốn sách này tôi mới đọc một phần."},
+      {"id":"x6","hanzi":"重点","pinyin":"zhòngdiǎn","pos":"danh từ","meaning_vi":"trọng điểm, điểm chính","example_zh":"这篇文章的重点是第二段。","example_pinyin":"Zhè piān wénzhāng de zhòngdiǎn shì dì èr duàn.","example_vi":"Trọng điểm của bài này là đoạn thứ hai."},
+      {"id":"x7","hanzi":"基础","pinyin":"jīchǔ","pos":"danh từ","meaning_vi":"nền tảng, cơ sở","example_zh":"我的汉语基础不太好。","example_pinyin":"Wǒ de Hànyǔ jīchǔ bú tài hǎo.","example_vi":"Nền tảng tiếng Trung của tôi không tốt lắm.","hanviet":"CƠ SỞ"},
+      {"id":"x8","hanzi":"资料","pinyin":"zīliào","pos":"danh từ","meaning_vi":"tài liệu","example_zh":"我在网上查了很多资料。","example_pinyin":"Wǒ zài wǎng shang chá le hěn duō zīliào.","example_vi":"Tôi đã tra rất nhiều tài liệu trên mạng."},
+      {"id":"x9","hanzi":"详细","pinyin":"xiángxì","pos":"tính từ","meaning_vi":"chi tiết","example_zh":"老师详细地说明了这个词的意思。","example_pinyin":"Lǎoshī xiángxì de shuōmíng le zhège cí de yìsi.","example_vi":"Cô giáo giải thích chi tiết nghĩa của từ này.","hanviet":"TƯỜNG TẾ"},
+      {"id":"x10","hanzi":"提到","pinyin":"tídào","pos":"động từ","meaning_vi":"nhắc đến, đề cập","example_zh":"他在文章里提到了自己的家乡。","example_pinyin":"Tā zài wénzhāng li tídào le zìjǐ de jiāxiāng.","example_vi":"Trong bài viết, anh ấy đã nhắc đến quê hương mình."},
+      {"id":"x11","hanzi":"提","pinyin":"tí","pos":"động từ","meaning_vi":"nêu ra, xách","example_zh":"你有什么问题，可以提出来。","example_pinyin":"Nǐ yǒu shénme wèntí, kěyǐ tí chūlai.","example_vi":"Bạn có vấn đề gì thì cứ nêu ra.","note_vi":"提问题 (đặt câu hỏi), 提意见 (góp ý), 提包 (xách túi)."},
+      {"id":"x12","hanzi":"篇","pinyin":"piān","pos":"lượng từ","meaning_vi":"bài, bản (văn bản, bài viết)","example_zh":"我今天写了一篇作文。","example_pinyin":"Wǒ jīntiān xiě le yì piān zuòwén.","example_vi":"Hôm nay tôi đã viết một bài văn.","note_vi":"Lượng từ cho văn bản hoàn chỉnh: 一篇文章, 一篇日记, 一篇小说."},
+      {"id":"x13","hanzi":"文字","pinyin":"wénzì","pos":"danh từ","meaning_vi":"chữ viết, văn tự","example_zh":"汉字是一种很美的文字。","example_pinyin":"Hànzì shì yì zhǒng hěn měi de wénzì.","example_vi":"Chữ Hán là một loại văn tự rất đẹp.","hanviet":"VĂN TỰ"},
+      {"id":"x14","hanzi":"词语","pinyin":"cíyǔ","pos":"danh từ","meaning_vi":"từ ngữ","example_zh":"这篇文章里有很多新词语。","example_pinyin":"Zhè piān wénzhāng li yǒu hěn duō xīn cíyǔ.","example_vi":"Trong bài viết này có rất nhiều từ mới.","hanviet":"TỪ NGỮ"},
+      {"id":"x15","hanzi":"语法","pinyin":"yǔfǎ","pos":"danh từ","meaning_vi":"ngữ pháp","example_zh":"汉语的语法不太难。","example_pinyin":"Hànyǔ de yǔfǎ bú tài nán.","example_vi":"Ngữ pháp tiếng Trung không quá khó.","hanviet":"NGỮ PHÁP"},
+      {"id":"x16","hanzi":"口语","pinyin":"kǒuyǔ","pos":"danh từ","meaning_vi":"khẩu ngữ; kỹ năng nói","example_zh":"她的口语很好，听力也不错。","example_pinyin":"Tā de kǒuyǔ hěn hǎo, tīnglì yě búcuò.","example_vi":"Khả năng nói của cô ấy rất tốt, nghe cũng không tệ.","hanviet":"KHẨU NGỮ"},
+      {"id":"x17","hanzi":"听力","pinyin":"tīnglì","pos":"danh từ","meaning_vi":"khả năng nghe; phần thi nghe","example_zh":"我的听力比口语好。","example_pinyin":"Wǒ de tīnglì bǐ kǒuyǔ hǎo.","example_vi":"Khả năng nghe của tôi tốt hơn khả năng nói."},
+      {"id":"x18","hanzi":"普通话","pinyin":"pǔtōnghuà","pos":"danh từ","meaning_vi":"tiếng phổ thông (Quan thoại chuẩn)","example_zh":"他的普通话说得很标准。","example_pinyin":"Tā de pǔtōnghuà shuō de hěn biāozhǔn.","example_vi":"Tiếng phổ thông của anh ấy rất chuẩn.","hanviet":"PHỔ THÔNG THOẠI"},
+      {"id":"x19","hanzi":"流利","pinyin":"liúlì","pos":"tính từ","meaning_vi":"lưu loát, trôi chảy","example_zh":"她的汉语说得很流利。","example_pinyin":"Tā de Hànyǔ shuō de hěn liúlì.","example_vi":"Cô ấy nói tiếng Trung rất lưu loát.","hanviet":"LƯU LỢI"},
+      {"id":"x20","hanzi":"作文","pinyin":"zuòwén","pos":"danh từ / động từ","meaning_vi":"bài văn; viết văn","example_zh":"老师让我们写一篇作文。","example_pinyin":"Lǎoshī ràng wǒmen xiě yì piān zuòwén.","example_vi":"Cô giáo bảo chúng tôi viết một bài văn.","hanviet":"TÁC VĂN"},
+      {"id":"x21","hanzi":"日记","pinyin":"rìjì","pos":"danh từ","meaning_vi":"nhật ký","example_zh":"我每天晚上写日记。","example_pinyin":"Wǒ měi tiān wǎnshang xiě rìjì.","example_vi":"Mỗi tối tôi viết nhật ký.","hanviet":"NHẬT KÝ"},
+      {"id":"x22","hanzi":"自学","pinyin":"zìxué","pos":"động từ","meaning_vi":"tự học","example_zh":"他是自学汉语的。","example_pinyin":"Tā shì zìxué Hànyǔ de.","example_vi":"Anh ấy tự học tiếng Trung.","hanviet":"TỰ HỌC"},
+      {"id":"x23","hanzi":"自习","pinyin":"zìxí","pos":"động từ","meaning_vi":"tự học (ôn bài ngoài giờ lên lớp)","example_zh":"晚上我们在教室自习。","example_pinyin":"Wǎnshang wǒmen zài jiàoshì zìxí.","example_vi":"Buổi tối chúng tôi tự học trong lớp.","note_vi":"自习 là tự ôn bài tại trường (thường có giờ giấc); 自学 là tự học một môn mà không có thầy dạy."},
+      {"id":"x24","hanzi":"期","pinyin":"qī","pos":"lượng từ","meaning_vi":"kỳ, số (tạp chí); thời kỳ","example_zh":"这本杂志每个月出一期。","example_pinyin":"Zhè běn zázhì měi ge yuè chū yì qī.","example_vi":"Tạp chí này mỗi tháng ra một số.","hanviet":"KỲ"},
+      {"id":"x25","hanzi":"从中","pinyin":"cóngzhōng","pos":"phó từ","meaning_vi":"từ đó, từ trong đó","example_zh":"读书的时候，我们可以从中学到很多东西。","example_pinyin":"Dúshū de shíhou, wǒmen kěyǐ cóngzhōng xué dào hěn duō dōngxi.","example_vi":"Khi đọc sách, chúng ta có thể học được nhiều điều từ đó."},
+      {"id":"x26","hanzi":"之中","pinyin":"zhīzhōng","pos":"danh từ","meaning_vi":"trong số, ở giữa","example_zh":"在这些书之中，我最喜欢这一本。","example_pinyin":"Zài zhèxiē shū zhīzhōng, wǒ zuì xǐhuan zhè yì běn.","example_vi":"Trong số những cuốn sách này, tôi thích cuốn này nhất."},
+      {"id":"x27","hanzi":"之","pinyin":"zhī","pos":"trợ từ","meaning_vi":"của (văn ngôn); trong phân số","example_zh":"三分之一的人喜欢读书。","example_pinyin":"Sān fēn zhī yī de rén xǐhuan dúshū.","example_vi":"Một phần ba số người thích đọc sách.","hanviet":"CHI","note_vi":"之 là tiểu từ văn ngôn, tương đương 的. Hay gặp nhất: phân số 三分之一 (một phần ba), và trong 之前 / 之后 / 之中."},
+      {"id":"x28","hanzi":"者","pinyin":"zhě","pos":"trợ từ","meaning_vi":"người (hậu tố chỉ người)","example_zh":"她是一位音乐爱好者。","example_pinyin":"Tā shì yí wèi yīnyuè àihàozhě.","example_vi":"Cô ấy là một người yêu âm nhạc.","hanviet":"GIẢ","note_vi":"者 đứng sau động từ hay danh từ để chỉ người làm hoặc thích việc đó: 作者, 读者, 爱好者, 学习者."},
+      {"id":"x29","hanzi":"无","pinyin":"wú","pos":"động từ","meaning_vi":"không, không có (văn viết)","example_zh":"这里无人，你可以大声读书。","example_pinyin":"Zhèli wú rén, nǐ kěyǐ dàshēng dúshū.","example_vi":"Ở đây không có ai, bạn có thể đọc sách thật to.","hanviet":"VÔ","note_vi":"无 = 没有, chủ yếu xuất hiện trong từ ghép và văn viết: 无论, 无聊, 无法, 无人."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“连……都 / 也……” (ngay cả… cũng…)",
+        "pattern":"S + 连 + N / số lượng + 都 / 也 + (không) V　·　连 + S + 都 / 也 + V",
+        "explanation_vi":"连……都/也…… dùng một ví dụ cực đoan để nhấn mạnh, nghĩa là “ngay cả… cũng…”. Điều nằm sau 连 là trường hợp mà người nghe không ngờ tới (nhỏ nhất, dễ nhất, hay hiển nhiên nhất), qua đó ngụ ý các trường hợp khác càng đúng.\nPhần sau 连 có thể là:\n(1) Chủ ngữ: 连老师都不知道 (ngay cả thầy cũng không biết).\n(2) Tân ngữ đưa lên trước động từ: 他连饭都忘了吃, 我连一本小说都没读完过. Số từ nhỏ như 一 hay đứng sau 连: 连一句话都不说.\nBắt buộc phải có 都 hoặc 也 sau cụm 连. Vị ngữ thường là phủ định (不, 没) hoặc ý chưa làm nổi điều đơn giản.",
+        "examples":[
+          {"zh":"他忙得连饭都忘了吃。","pinyin":"Tā máng de lián fàn dōu wàng le chī.","vi":"Anh ấy bận đến mức ngay cả cơm cũng quên ăn."},
+          {"zh":"这个字太简单了，连孩子都认识。","pinyin":"Zhège zì tài jiǎndān le, lián háizi dōu rènshi.","vi":"Chữ này đơn giản quá, đến trẻ con cũng biết."},
+          {"zh":"我连一本小说都没读完过。","pinyin":"Wǒ lián yì běn xiǎoshuō dōu méi dú wán guo.","vi":"Ngay cả một cuốn tiểu thuyết tôi cũng chưa đọc hết bao giờ."},
+          {"zh":"她刚学汉语，连一句话也不会说。","pinyin":"Tā gāng xué Hànyǔ, lián yí jù huà yě bú huì shuō.","vi":"Cô ấy mới học tiếng Trung, ngay cả một câu cũng chưa biết nói."},
+          {"zh":"他累得连话都不想说。","pinyin":"Tā lèi de lián huà dōu bù xiǎng shuō.","vi":"Anh ấy mệt đến mức ngay cả nói cũng không muốn."}
+        ],
+        "mistakes_vi":"✗ 连我知道这个字。\n✓ 连我都知道这个字。\n连 luôn đi với 都 hoặc 也.\n✗ 我连一本书读完过。\n✓ 我连一本书都没读完过。\nTân ngữ đứng sau 连, rồi đến 都, rồi mới đến động từ. Không để động từ ngay sau tân ngữ.\n✗ 我连一本书都读完了。\n✓ 我连一本书都没读完。\nNghĩa “ngay cả cũng…” thường đi với phủ định, hoặc trường hợp cực đoan; nếu muốn nói đã đọc hết nhiều sách thì dùng cách khác (我读完了很多书).",
+        "compare_vi":"连……都…… ≈ “đến cả… cũng…”, “ngay cả… cũng…”, “thậm chí… cũng…”."
+      },
+      {
+        "id":"g2",
+        "title":"“否则” (nếu không thì)",
+        "pattern":"Vế 1 (điều cần làm)，否则 + hậu quả",
+        "explanation_vi":"否则 = “nếu không thì, bằng không”. Nó phủ định điều đã nói ở vế trước rồi nêu hậu quả. Vì vậy vế 1 thường là lời khuyên, yêu cầu hoặc sự thật (快走、要按时吃药、他一定有事), vế 2 là hậu quả không mong muốn hay kết luận trái ngược.\nKhông cần thêm 如果 hoặc 不: 否则 đã bao hàm “nếu không”. Trong khẩu ngữ có thể thay bằng 不然 hoặc 要不然. Chỉ đứng ở đầu vế sau, không đứng đầu cả câu.",
+        "examples":[
+          {"zh":"快走吧，否则要迟到了。","pinyin":"Kuài zǒu ba, fǒuzé yào chídào le.","vi":"Đi nhanh đi, nếu không sẽ muộn mất."},
+          {"zh":"你要按时吃药，否则病不会好。","pinyin":"Nǐ yào ànshí chī yào, fǒuzé bìng bú huì hǎo.","vi":"Bạn phải uống thuốc đúng giờ, nếu không bệnh sẽ không khỏi."},
+          {"zh":"我们要早点儿出发，否则赶不上火车。","pinyin":"Wǒmen yào zǎo diǎnr chūfā, fǒuzé gǎn bu shàng huǒchē.","vi":"Chúng ta phải xuất phát sớm, nếu không sẽ không kịp tàu."},
+          {"zh":"他一定是有事，否则不会不来。","pinyin":"Tā yídìng shì yǒu shì, fǒuzé bú huì bù lái.","vi":"Chắc chắn anh ấy có việc, nếu không thì đã không vắng mặt."}
+        ],
+        "mistakes_vi":"✗ 如果你不走，否则会迟到。\n✓ 你得走了，否则会迟到。\n否则 đã có nghĩa “nếu không”, không dùng cùng 如果.\n✗ 否则快走，要迟到了。\n✓ 快走，否则要迟到了。\n否则 đứng đầu vế hậu quả, sau vế điều kiện.\n✗ 他努力学习，否则成绩很好。\n✓ 他努力学习，所以成绩很好。\n否则 chỉ dùng khi vế sau là kết quả của việc KHÔNG làm vế trước; nếu kết quả thuận thì dùng 所以.",
+        "compare_vi":"否则 ≈ “nếu không thì, bằng không”. Khẩu ngữ: 不然, 要不然."
+      },
+      {
+        "id":"g3",
+        "title":"“无论……都……” (dù… cũng…)",
+        "pattern":"无论 + từ nghi vấn / A 还是 B / V 不 V，S + 都 + kết quả",
+        "explanation_vi":"无论 nêu một nhóm điều kiện, và nói rằng bất kể điều kiện nào kết quả cũng không đổi: “dù… cũng…”. Sau 无论 phải là một cụm có nhiều khả năng:\n(1) Từ nghi vấn: 无论什么、谁、怎么样、多么……\n(2) A 还是 B: 无论是大人还是孩子.\n(3) Dạng chính phản: 无论你去不去.\nVế sau gần như luôn có 都 (hoặc 也 / 总是). 无论 hợp với văn viết và lời nói trang trọng; khẩu ngữ hay nói 不管. 不论 cùng nghĩa (đã học ở phần mở rộng).",
+        "examples":[
+          {"zh":"无论天气怎么样，他都坚持跑步。","pinyin":"Wúlùn tiānqì zěnmeyàng, tā dōu jiānchí pǎobù.","vi":"Dù thời tiết thế nào, anh ấy cũng kiên trì chạy bộ."},
+          {"zh":"无论你喜欢什么书，这里都能找到。","pinyin":"Wúlùn nǐ xǐhuan shénme shū, zhèli dōu néng zhǎo dào.","vi":"Dù bạn thích sách gì, ở đây đều có thể tìm thấy."},
+          {"zh":"无论是大人还是孩子，都可以参加。","pinyin":"Wúlùn shì dàrén háishi háizi, dōu kěyǐ cānjiā.","vi":"Dù là người lớn hay trẻ em, đều có thể tham gia."},
+          {"zh":"无论多忙，我每天都读二十分钟。","pinyin":"Wúlùn duō máng, wǒ měi tiān dōu dú èrshí fēnzhōng.","vi":"Dù bận đến đâu, mỗi ngày tôi cũng đọc hai mươi phút."},
+          {"zh":"无论你去不去，都请告诉我一声。","pinyin":"Wúlùn nǐ qù bu qù, dōu qǐng gàosu wǒ yì shēng.","vi":"Dù bạn đi hay không, cũng xin hãy báo tôi một tiếng."}
+        ],
+        "mistakes_vi":"✗ 无论天气怎么样，他去跑步。\n✓ 无论天气怎么样，他都去跑步。\nVế sau cần có 都 để hô ứng với 无论.\n✗ 无论他喜欢，我都不去。\n✓ 无论他喜不喜欢，我都不去。\n无论 cần một cụm có nhiều khả năng (nghi vấn, A 还是 B, chính phản); “他喜欢” chỉ có một khả năng.\n✗ 无论多忙，但是我每天都读书。\n✓ 无论多忙，我每天都读书。\n无论……都…… đã đủ ý, không thêm 但是.",
+        "compare_vi":"无论……都…… ≈ “dù… cũng…”, “bất kể… đều…”. Khẩu ngữ: 不管……都……."
+      },
+      {
+        "id":"g4",
+        "title":"“然而” (tuy nhiên) và “同时” (đồng thời)",
+        "pattern":"…，然而 + vế ngược ý　·　…的同时，…… / ……，同时也 / 还 + ……",
+        "explanation_vi":"(1) 然而 là liên từ chuyển ý trang trọng, nghĩa “tuy nhiên, thế nhưng”. Mạnh hơn 但是, hay gặp trong văn viết; đứng đầu vế sau, vế trước thường vẫn đúng. Không dùng chung với 但是 / 可是.\n(2) 同时 có hai cách dùng: danh từ “cùng một lúc” (两个人同时说话) và liên từ “đồng thời, hơn nữa” nối hai việc cùng diễn ra hoặc thêm một ý nữa: 读书能丰富知识，同时也能让人放松. Cấu trúc 在……的同时 = trong lúc… (đồng thời…). Không dùng 同时 cho hai việc nối tiếp nhau.",
+        "examples":[
+          {"zh":"这本书很有名，然而我从来没有读过。","pinyin":"Zhè běn shū hěn yǒumíng, rán'ér wǒ cónglái méiyǒu dú guo.","vi":"Cuốn sách này rất nổi tiếng, tuy nhiên tôi chưa từng đọc."},
+          {"zh":"他很努力，然而成绩一直不太好。","pinyin":"Tā hěn nǔlì, rán'ér chéngjì yìzhí bú tài hǎo.","vi":"Anh ấy rất cố gắng, nhưng thành tích vẫn chưa tốt lắm."},
+          {"zh":"两个人同时笑了起来。","pinyin":"Liǎng ge rén tóngshí xiào le qǐlai.","vi":"Hai người bật cười cùng một lúc."},
+          {"zh":"读书能丰富知识，同时也能让人放松。","pinyin":"Dúshū néng fēngfù zhīshi, tóngshí yě néng ràng rén fàngsōng.","vi":"Đọc sách có thể làm phong phú tri thức, đồng thời cũng giúp con người thư giãn."},
+          {"zh":"她在工作的同时，还在学习汉语。","pinyin":"Tā zài gōngzuò de tóngshí, hái zài xuéxí Hànyǔ.","vi":"Trong lúc làm việc, cô ấy còn đang học tiếng Trung."}
+        ],
+        "mistakes_vi":"✗ 虽然他很累，然而但是他继续工作。\n✓ 虽然他很累，然而他继续工作。\n然而 đã có nghĩa chuyển ý, không thêm 但是.\n✗ 我吃饭的时候同时看书。\n✓ 我吃饭的同时看书。/ 我一边吃饭，一边看书。\nĐừng chồng 的时候 với 同时; chọn một cách.\n✗ 他先吃饭，同时洗澡。\n✓ 他先吃饭，然后洗澡。\n同时 chỉ dùng cho hai việc diễn ra cùng lúc; việc nối tiếp nhau thì dùng 然后.",
+        "compare_vi":"然而 ≈ “tuy nhiên, thế nhưng” (văn viết). 同时 ≈ “đồng thời, cùng lúc”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Ở hiệu sách",
+      "scene_vi": "Chiều Chủ nhật, Tiểu Lệ – một người mê sách – bất ngờ gặp bạn Ân Minh, người chưa bao giờ đọc hết một cuốn tiểu thuyết, đang đứng trong hiệu sách.",
+      "lines": [
+        {"speaker":"小丽","zh":"阿明，你怎么也来书店了？你不是连一本小说都没读完过吗？","pinyin":"Āmíng, nǐ zěnme yě lái shūdiàn le? Nǐ bú shì lián yì běn xiǎoshuō dōu méi dú wán guo ma?","vi":"A Minh, sao cậu cũng đến hiệu sách vậy? Chẳng phải cậu chưa bao giờ đọc hết một cuốn tiểu thuyết sao?"},
+        {"speaker":"阿明","zh":"以前是这样。可是最近我很无聊，晚上除了看手机，没有别的事做。","pinyin":"Yǐqián shì zhèyàng. Kěshì zuìjìn wǒ hěn wúliáo, wǎnshang chúle kàn shǒujī, méiyǒu bié de shì zuò.","vi":"Trước đây thì vậy. Nhưng dạo này tớ chán lắm, buổi tối ngoài xem điện thoại ra chẳng có việc gì khác để làm."},
+        {"speaker":"小丽","zh":"你看手机的同时，时间也过去了。读书不一样，能丰富你的知识。","pinyin":"Nǐ kàn shǒujī de tóngshí, shíjiān yě guòqu le. Dúshū bù yíyàng, néng fēngfù nǐ de zhīshi.","vi":"Lúc cậu xem điện thoại thì thời gian cũng trôi mất. Đọc sách thì khác, nó làm phong phú kiến thức của cậu."},
+        {"speaker":"阿明","zh":"可是我不知道读什么。小说，还是杂志？","pinyin":"Kěshì wǒ bù zhīdào dú shénme. Xiǎoshuō, háishi zázhì?","vi":"Nhưng tớ không biết đọc gì. Tiểu thuyết hay tạp chí?"},
+        {"speaker":"小丽","zh":"无论你喜欢什么，这里都能找到好书。你喜欢旅行，可以读旅行杂志，也可以读作家写的文章。","pinyin":"Wúlùn nǐ xǐhuan shénme, zhèli dōu néng zhǎo dào hǎo shū. Nǐ xǐhuan lǚxíng, kěyǐ dú lǚxíng zázhì, yě kěyǐ dú zuòjiā xiě de wénzhāng.","vi":"Dù cậu thích gì, ở đây cũng tìm được sách hay. Cậu thích du lịch thì có thể đọc tạp chí du lịch, hoặc đọc bài viết do nhà văn viết."},
+        {"speaker":"阿明","zh":"这本小说的作者是谁？内容有趣吗？","pinyin":"Zhè běn xiǎoshuō de zuòzhě shì shéi? Nèiróng yǒuqù ma?","vi":"Tác giả cuốn tiểu thuyết này là ai? Nội dung có thú vị không?"},
+        {"speaker":"小丽","zh":"作者是一位很有名的作家。读者都说，内容很有趣，一打开就不想放下。","pinyin":"Zuòzhě shì yí wèi hěn yǒumíng de zuòjiā. Dúzhě dōu shuō, nèiróng hěn yǒuqù, yì dǎkāi jiù bù xiǎng fàngxià.","vi":"Tác giả là một nhà văn rất nổi tiếng. Độc giả đều nói nội dung rất thú vị, mở ra là không muốn đặt xuống."},
+        {"speaker":"阿明","zh":"这本书看起来不错，然而我读几页就会困。","pinyin":"Zhè běn shū kàn qǐlai búcuò, rán'ér wǒ dú jǐ yè jiù huì kùn.","vi":"Cuốn này trông không tệ, nhưng tớ đọc vài trang là buồn ngủ."},
+        {"speaker":"小丽","zh":"每天读二十分钟就行，慢慢积累。否则你永远不会有读书的习惯。","pinyin":"Měi tiān dú èrshí fēnzhōng jiù xíng, mànmàn jīlěi. Fǒuzé nǐ yǒngyuǎn bú huì yǒu dúshū de xíguàn.","vi":"Mỗi ngày đọc hai mươi phút là được, cứ từ từ tích lũy. Nếu không, cậu sẽ mãi mãi không có thói quen đọc sách."},
+        {"speaker":"阿明","zh":"好，我买这本。读书好，读好书，好读书，对吧？","pinyin":"Hǎo, wǒ mǎi zhè běn. Dú shū hǎo, dú hǎo shū, hào dú shū, duì ba?","vi":"Được, tớ mua cuốn này. Đọc sách tốt, đọc sách hay, thích đọc sách, đúng không?"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:知识","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"读书可以让我们学到很多____。","options":["知识","内容","杂志","翻译"],"answer":0,"explanation_vi":"Học được nhiều “kiến thức”: 学到知识. 内容 là nội dung của một cuốn sách, không phải thứ ta “học được”."},
+      {"id":"e2","type":"choice","tag":"v:内容","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这本书的____很丰富，我很喜欢。","options":["内容","作者","读者","小说"],"answer":0,"explanation_vi":"“Nội dung sách phong phú”: 内容很丰富. Tác giả hay độc giả không đi với “phong phú”."},
+      {"id":"e3","type":"choice","tag":"v:无聊","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"一个人在家很____，我们出去玩吧。","options":["无聊","有趣","丰富","流利"],"answer":0,"explanation_vi":"Ở nhà một mình nên chán → 无聊, và rủ ra ngoài chơi."},
+      {"id":"e4","type":"choice","tag":"v:有趣","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个故事非常____，孩子们都喜欢。","options":["有趣","无聊","阅读","翻译"],"answer":0,"explanation_vi":"Trẻ em đều thích → câu chuyện rất thú vị: 有趣."},
+      {"id":"e5","type":"choice","tag":"v:积累","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"学语言要一点一点地____。","options":["积累","翻译","放弃","阅读"],"answer":0,"explanation_vi":"“Từng chút một” đi với 积累 (tích lũy)."},
+      {"id":"e6","type":"choice","tag":"v:作者","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这篇文章的____是一位老师。","options":["作者","读者","杂志","内容"],"answer":0,"explanation_vi":"Người viết bài là 作者 (tác giả)."},
+      {"id":"e7","type":"choice","tag":"v:翻译","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请你把这句话____成中文。","options":["翻译","阅读","积累","丰富"],"answer":0,"explanation_vi":"把……翻译成…… = dịch… thành…."},
+      {"id":"e8","type":"choice","tag":"g:连","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他忙得____饭都忘了吃。","options":["连","和","把","被"],"answer":0,"explanation_vi":"连……都…… = ngay cả… cũng…."},
+      {"id":"e9","type":"order","tag":"g:连","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","连","一本","小说","都","没读完过"],"answers":["我连一本小说都没读完过"],"translation_vi":"Ngay cả một cuốn tiểu thuyết tôi cũng chưa đọc hết bao giờ.","explanation_vi":"S + 连 + tân ngữ + 都 + vị ngữ phủ định. Tân ngữ nằm trước 都."},
+      {"id":"e10","type":"choice","tag":"g:否则","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"快走吧，____要迟到了。","options":["否则","如果","虽然","因此"],"answer":0,"explanation_vi":"“Nếu không đi nhanh thì sẽ muộn”: 否则 + hậu quả."},
+      {"id":"e11","type":"choice","tag":"g:无论","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____天气怎么样，他都坚持跑步。","options":["无论","虽然","因为","只要"],"answer":0,"explanation_vi":"Có 怎么样 (nghi vấn) và 都 ở vế sau → 无论……都……."},
+      {"id":"e12","type":"choice","tag":"g:然而","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他很努力，____成绩一直不太好。","options":["然而","所以","因此","而且"],"answer":0,"explanation_vi":"Hai vế ngược ý (cố gắng / thành tích chưa tốt) → 然而 (tuy nhiên)."},
+      {"id":"e13","type":"choice","tag":"g:同时","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"读书能丰富知识，____也能让人放松。","options":["同时","同样","一起","一直"],"answer":0,"explanation_vi":"同时也…… = đồng thời cũng…, nối hai lợi ích cùng lúc."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"作文","vi":"bài văn"},{"zh":"日记","vi":"nhật ký"},{"zh":"听力","vi":"khả năng nghe"},{"zh":"语法","vi":"ngữ pháp"},{"zh":"流利","vi":"lưu loát"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:连","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["这个字太简单了，连孩子都认识。","这个字太简单了，连孩子认识。","这个字太简单了，孩子连都认识。","这个字太简单了，连认识孩子都。"],"answer":0,"explanation_vi":"连 + danh từ + 都 + động từ."},
+        {"id":"q2","type":"choice","tag":"g:否则","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你要按时吃药，____病不会好。","options":["否则","如果","虽然","因为"],"answer":0,"explanation_vi":"Nếu không uống thuốc đúng giờ thì bệnh không khỏi → 否则."},
+        {"id":"q3","type":"choice","tag":"g:无论","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"无论你去____不去，都要告诉我一声。","options":["还是","和","因为","但是"],"answer":0,"explanation_vi":"无论 + A 还是 B / chính phản. Ở đây “去还是不去” (đi hay không đi)."},
+        {"id":"q4","type":"choice","tag":"g:无论","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["无论多忙，我每天都读书。","无论多忙，但是我每天都读书。","无论忙，所以我每天都读书。","无论多忙我，每天都读书。"],"answer":0,"explanation_vi":"无论多忙，……都……: không thêm 但是 hay 所以, và 我 đứng đúng chỗ chủ ngữ."},
+        {"id":"q5","type":"choice","tag":"g:然而","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这本书很有名，____我从来没有读过。","options":["然而","因此","所以","因为"],"answer":0,"explanation_vi":"Ngược ý (nổi tiếng / chưa đọc) → 然而."},
+        {"id":"q6","type":"choice","tag":"g:同时","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["在学汉语的同时，他还在学英语。","在学汉语的时候同时，他还在学英语。","他同时学汉语，学英语了。","同时他学汉语的，还学英语。"],"answer":0,"explanation_vi":"在……的同时，…… = trong lúc… (đồng thời…)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"g:否则","prompt_vi":"Chọn đáp án đúng.","question_zh":"你要早点儿出发，____赶不上火车。","options":["否则","所以","而且","虽然"],"answer":0,"explanation_vi":"Nếu không xuất phát sớm thì không kịp tàu → 否则."},
+      {"id":"t2","type":"choice","tag":"v:阅读","prompt_vi":"Chọn đáp án đúng.","question_zh":"我每天花一个小时____。","options":["阅读","翻译","无聊","丰富"],"answer":0,"explanation_vi":"花一个小时阅读 = dành một tiếng để đọc."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"许多","vi":"rất nhiều"},{"zh":"任何","vi":"bất kỳ"},{"zh":"能够","vi":"có thể (có khả năng)"},{"zh":"部分","vi":"một phần"},{"zh":"重点","vi":"trọng điểm"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"基础","vi":"nền tảng"},{"zh":"资料","vi":"tài liệu"},{"zh":"详细","vi":"chi tiết"},{"zh":"提到","vi":"nhắc đến"},{"zh":"篇","vi":"bài (lượng từ văn bản)"}]},
+      {"id":"t5","type":"order","tag":"g:无论","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["无论","天气","怎么样","他","都","跑步"],"answers":["无论天气怎么样他都跑步","他无论天气怎么样都跑步"],"translation_vi":"Dù thời tiết thế nào, anh ấy cũng chạy bộ.","explanation_vi":"无论 + 天气怎么样，他都 + 跑步. Chủ ngữ 他 có thể đứng trước 无论."},
+      {"id":"t6","type":"order","tag":"g:连","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","连","饭","都","忘了","吃"],"answers":["他连饭都忘了吃"],"translation_vi":"Ngay cả cơm anh ấy cũng quên ăn.","explanation_vi":"他 + 连 + 饭 + 都 + 忘了吃: tân ngữ 饭 đặt giữa 连 và 都."},
+      {"id":"t7","type":"fill","tag":"g:无论","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"____你喜欢什么书，这里都能找到。","answers":["无论","不管","不论"],"hint_vi":"dù, bất kể","explanation_vi":"无论 + từ nghi vấn + 都……; 不管 / 不论 cũng đúng."},
+      {"id":"t8","type":"fill","tag":"g:然而","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"这本书很有名，____我没有读过。","answers":["然而","但是","可是","不过"],"hint_vi":"tuy nhiên","explanation_vi":"Chuyển ý trang trọng: 然而 (但是 / 可是 / 不过 cũng chấp nhận được)."},
+      {"id":"t9","type":"listen_choice","tag":"g:连","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"他累得连话都不想说。","options":["Anh ấy mệt đến mức ngay cả nói cũng không muốn.","Anh ấy mệt nên nói rất ít.","Anh ấy không mệt, chỉ là không muốn nói.","Anh ấy vừa nói chuyện vừa nghỉ."],"answer":0,"explanation_vi":"累得连话都不想说 = mệt đến nỗi ngay cả nói cũng không muốn."},
+      {"id":"t10","type":"listen_choice","tag":"v:小说","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"这本小说的作者很有名。","options":["这本小说的作者很有名。","这本杂志的作者很有名。","这本小说的读者很有名。","这本小说的内容很有名。"],"answer":0,"explanation_vi":"Câu nghe được: 这本小说的作者很有名 = Tác giả của cuốn tiểu thuyết này rất nổi tiếng."},
+      {"id":"t11","type":"dictation","tag":"g:否则","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"快走吧，否则要迟到了。","answers":["快走吧否则要迟到了"],"explanation_vi":"快走吧，否则要迟到了 = Đi nhanh đi, nếu không sẽ muộn mất."},
+      {"id":"t12","type":"dictation","tag":"v:丰富","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"读书可以丰富我们的知识。","answers":["读书可以丰富我们的知识"],"explanation_vi":"读书可以丰富我们的知识 = Đọc sách có thể làm phong phú kiến thức của chúng ta."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:无论","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Dù bận đến đâu, tôi cũng đọc sách mỗi ngày.","answers":["无论多忙，我每天都读书","无论多忙，我每天都看书","无论多忙，我每天都会读书","无论多忙，我每天都阅读","不管多忙，我每天都读书","不管多忙，我每天都看书","不论多忙，我每天都读书","无论多忙我每天都读书","无论多忙，我每天都读一会儿书"],"explanation_vi":"无论多忙 = dù bận đến đâu; 我每天都读书 = mỗi ngày tôi đều đọc sách."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:连","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Anh ấy bận đến mức ngay cả cơm cũng quên ăn.","answers":["他忙得连饭都忘了吃","他忙得连饭也忘了吃","他忙得连饭都忘记吃了","他忙得连饭也忘记吃了","他忙得连饭都忘了吃了","他忙得连饭都忘了"],"explanation_vi":"忙得连饭都忘了吃: 连 + 饭 + 都 + 忘了吃."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:同时","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"读书能丰富知识，同时也能让人放松。","answers_vi":["Đọc sách có thể làm phong phú kiến thức, đồng thời cũng giúp người ta thư giãn.","Đọc sách vừa làm giàu tri thức, vừa giúp con người thư giãn."],"keywords":[["đọc sách"],["kiến thức","tri thức"],["đồng thời","vừa","cũng","còn"],["thư giãn","thả lỏng","nhẹ nhõm"]],"explanation_vi":"同时也能 = đồng thời cũng có thể; 放松 = thư giãn."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:否则","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"你要早点儿睡，否则明天会很累。","answers_vi":["Bạn phải ngủ sớm một chút, nếu không ngày mai sẽ rất mệt.","Cậu nên đi ngủ sớm, không thì mai sẽ mệt lắm."],"keywords":[["ngủ"],["sớm"],["nếu không","không thì","bằng không"],["mai","ngày mai"],["mệt"]],"explanation_vi":"否则 = nếu không thì; 会很累 = sẽ rất mệt."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"我和一本小说",
+        "title_vi":"Tôi và một cuốn tiểu thuyết",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["以前","yǐqián","trước đây"],["不","bú","không"],["爱","ài","thích"],["读书","dúshū","đọc sách"],["，"],["连","lián","ngay cả"],["一","yì","một"],["篇","piān","(lượng từ: bài)"],["短","duǎn","ngắn"],["文章","wénzhāng","bài viết"],["都","dōu","cũng"],["不","bù","không"],["愿意","yuànyì","muốn"],["读","dú","đọc"],["。"],["妈妈","māma","mẹ"],["常常","chángcháng","thường"],["说","shuō","nói"],["："],["“"],["读书","dúshū","đọc sách"],["可以","kěyǐ","có thể"],["丰富","fēngfù","làm phong phú"],["你","nǐ","con"],["的","de","(của)"],["知识","zhīshi","kiến thức"],["。"],["”"],["可是","kěshì","nhưng"],["我","wǒ","tôi"],["觉得","juéde","thấy"],["读书","dúshū","đọc sách"],["太","tài","quá"],["无聊","wúliáo","chán"],["，"],["不如","bùrú","không bằng"],["玩","wán","chơi"],["手机","shǒujī","điện thoại"],["有意思","yǒu yìsi","thú vị"],["。"]],
+            "vi":"Trước đây tôi không thích đọc sách, ngay cả một bài viết ngắn cũng không muốn đọc. Mẹ thường nói: “Đọc sách có thể làm phong phú kiến thức của con.” Nhưng tôi thấy đọc sách chán quá, không thú vị bằng chơi điện thoại."
+          },
+          {
+            "tokens":[["去年","qùnián","năm ngoái"],["，"],["老师","lǎoshī","thầy cô"],["让","ràng","bảo"],["我们","wǒmen","chúng tôi"],["读","dú","đọc"],["一","yì","một"],["本","běn","(lượng từ: cuốn)"],["小说","xiǎoshuō","tiểu thuyết"],["。"],["我","wǒ","tôi"],["本来","běnlái","vốn dĩ"],["不","bù","không"],["想","xiǎng","muốn"],["读","dú","đọc"],["，"],["然而","rán'ér","tuy nhiên"],["读","dú","đọc"],["了","le","(xong)"],["第一页","dì yī yè","trang đầu"],["，"],["就","jiù","đã"],["觉得","juéde","thấy"],["内容","nèiróng","nội dung"],["很","hěn","rất"],["有趣","yǒuqù","thú vị"],["。"],["书","shū","sách"],["里","li","trong"],["的","de","(của)"],["故事","gùshi","câu chuyện"],["非常","fēicháng","rất"],["有趣","yǒuqù","thú vị"],["，"],["作者","zuòzhě","tác giả"],["写","xiě","viết"],["得","de","(trợ từ)"],["也","yě","cũng"],["很","hěn","rất"],["细心","xìxīn","chu đáo"],["。"],["我","wǒ","tôi"],["一","yì","một"],["天","tiān","ngày"],["就","jiù","đã"],["读完","dú wán","đọc xong"],["了","le","(rồi)"],["，"],["同时","tóngshí","đồng thời"],["还","hái","còn"],["记下","jì xià","ghi lại"],["了","le","(đã)"],["许多","xǔduō","nhiều"],["好","hǎo","hay"],["句子","jùzi","câu"],["。"]],
+            "vi":"Năm ngoái, thầy cô bảo chúng tôi đọc một cuốn tiểu thuyết. Vốn dĩ tôi không muốn đọc, nhưng đọc xong trang đầu đã thấy nội dung rất thú vị. Câu chuyện trong sách vô cùng hay, tác giả cũng viết rất chu đáo. Tôi đọc xong chỉ trong một ngày, đồng thời còn ghi lại nhiều câu hay."
+          },
+          {
+            "tokens":[["从","cóng","từ"],["那","nà","đó"],["以后","yǐhòu","về sau"],["，"],["无论","wúlùn","dù"],["多","duō","bao"],["忙","máng","bận"],["，"],["我","wǒ","tôi"],["每天","měi tiān","mỗi ngày"],["都","dōu","đều"],["读","dú","đọc"],["二十","èrshí","hai mươi"],["分钟","fēnzhōng","phút"],["。"],["我","wǒ","tôi"],["还","hái","còn"],["写","xiě","viết"],["读书","dúshū","đọc sách"],["日记","rìjì","nhật ký"],["，"],["把","bǎ","(đưa tân ngữ lên trước)"],["新","xīn","mới"],["词语","cíyǔ","từ ngữ"],["和","hé","và"],["好","hǎo","hay"],["句子","jùzi","câu"],["记","jì","ghi"],["下来","xiàlai","lại"],["。"],["这样","zhèyàng","như vậy"],["一点","yì diǎn","từng chút"],["一点","yì diǎn","từng chút"],["积累","jīlěi","tích lũy"],["，"],["我","wǒ","tôi"],["的","de","(của)"],["汉语","Hànyǔ","tiếng Trung"],["越来越","yuè lái yuè","ngày càng"],["好","hǎo","tốt"],["。"],["我","wǒ","tôi"],["对","duì","với"],["自己","zìjǐ","bản thân"],["说","shuō","nói"],["："],["要","yào","phải"],["坚持","jiānchí","kiên trì"],["读","dú","đọc"],["下去","xiàqu","tiếp"],["，"],["否则","fǒuzé","nếu không"],["很快","hěn kuài","rất nhanh"],["就","jiù","sẽ"],["会","huì","sẽ"],["放弃","fàngqì","bỏ cuộc"],["。"]],
+            "vi":"Từ đó về sau, dù bận đến đâu, mỗi ngày tôi cũng đọc hai mươi phút. Tôi còn viết nhật ký đọc sách, ghi lại từ mới và câu hay. Cứ tích lũy từng chút như vậy, tiếng Trung của tôi ngày càng tốt. Tôi tự nhủ: phải kiên trì đọc tiếp, nếu không sẽ nhanh chóng bỏ cuộc."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”以前为什么不爱读书？","options":["觉得读书太无聊","没有时间","没有书","眼睛不好"],"answer":0,"explanation_vi":"Đoạn 1: 我觉得读书太无聊，不如玩手机有意思."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"去年老师让他们读什么？","options":["一本小说","一本杂志","一篇日记","一本词典"],"answer":0,"explanation_vi":"Đoạn 2: 老师让我们读一本小说."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”读了很多页以后才觉得小说有趣。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 读了第一页，就觉得内容很有趣 — vừa đọc trang đầu đã thấy thú vị, nên câu này sai."},
+          {"id":"rq4","type":"choice","tag":"g:无论","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"现在无论多忙，“我”每天读多长时间？","options":["二十分钟","两个小时","一个小时","五分钟"],"answer":0,"explanation_vi":"Đoạn 3: 无论多忙，我每天都读二十分钟."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”还写读书日记。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 我还写读书日记 — câu này đúng."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Thông báo của hiệu sách",
+        "text_zh":"各位读者，大家好！欢迎来到城南书店。我们书店有小说、杂志和各种学习资料。这个星期六下午两点，有一位作家会来书店和大家见面，聊聊他的新作品。无论你是大人还是孩子，都可以参加。不过参加的人很多，请提前报名，否则可能没有座位。同时，星期六买书的读者，还可以获得一份小礼物。",
+        "pinyin":"Gè wèi dúzhě, dàjiā hǎo! Huānyíng lái dào Chéngnán shūdiàn. Wǒmen shūdiàn yǒu xiǎoshuō, zázhì hé gè zhǒng xuéxí zīliào. Zhège xīngqīliù xiàwǔ liǎng diǎn, yǒu yí wèi zuòjiā huì lái shūdiàn hé dàjiā jiànmiàn, liáoliao tā de xīn zuòpǐn. Wúlùn nǐ shì dàrén háishi háizi, dōu kěyǐ cānjiā. Búguò cānjiā de rén hěn duō, qǐng tíqián bàomíng, fǒuzé kěnéng méiyǒu zuòwèi. Tóngshí, xīngqīliù mǎi shū de dúzhě, hái kěyǐ huòdé yí fèn xiǎo lǐwù.",
+        "vi":"Kính chào quý độc giả! Chào mừng đến với hiệu sách Thành Nam. Hiệu sách chúng tôi có tiểu thuyết, tạp chí và đủ loại tài liệu học tập. Hai giờ chiều thứ Bảy này, có một nhà văn đến hiệu sách gặp mọi người, trò chuyện về tác phẩm mới của ông. Dù là người lớn hay trẻ em đều có thể tham gia. Có điều số người tham gia rất đông, xin đăng ký trước, nếu không có thể không còn chỗ ngồi. Đồng thời, độc giả mua sách vào thứ Bảy còn nhận được một phần quà nhỏ.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这个星期六下午，书店里会有谁？","options":["一位作家","一位老师","一位歌手","一位医生"],"answer":0,"explanation_vi":"Nghe được: 有一位作家会来书店和大家见面."},
+          {"id":"lq2","type":"choice","tag":"g:无论","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"谁可以参加？","options":["大人和孩子都可以","只有大人","只有孩子","只有老师"],"answer":0,"explanation_vi":"Nghe được: 无论你是大人还是孩子，都可以参加."},
+          {"id":"lq3","type":"choice","tag":"g:否则","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"为什么要提前报名？","options":["否则可能没有座位","因为要交钱","因为书店很小","因为作家只见一个人"],"answer":0,"explanation_vi":"Nghe được: 请提前报名，否则可能没有座位."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"星期六买书的读者，还可以得到什么？","options":["一份小礼物","一本杂志","一张票","一杯咖啡"],"answer":0,"explanation_vi":"Nghe được: 星期六买书的读者，还可以获得一份小礼物."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"阅读","pinyin":"yuèdú","vi":"đọc (văn bản)","tip_vi":"阅 yuè: ü tròn môi rồi trượt sang e, ngắn và dứt khoát (thanh 4). 读 dú: d không bật hơi, thanh 2 lên rõ, đừng đọc thành “đọc” tiếng Việt."},
+      {"id":"s2","zh":"然而","pinyin":"rán'ér","vi":"tuy nhiên","tip_vi":"r là âm uốn lưỡi, không phải “d” hay “z”: lưỡi cong lên nhưng không chạm vòm. 而 ér: vần er, cuốn lưỡi, môi không tròn. Hai chữ đều thanh 2, lên rõ."},
+      {"id":"s3","zh":"否则","pinyin":"fǒuzé","vi":"nếu không thì","tip_vi":"否 fǒu: f giống “ph” tiếng Việt, vần -ou như “âu” rồi tròn môi, thanh 3. 则 zé: z không bật hơi, vần e như “ơ” hơi lùi về sau."},
+      {"id":"s4","zh":"他忙得连饭都忘了吃。","pinyin":"Tā máng de lián fàn dōu wàng le chī.","vi":"Anh ấy bận đến mức ngay cả cơm cũng quên ăn.","tip_vi":"忙得 máng de: 得 đọc nhẹ. 连 lián: -ian đọc như “iên”, thanh 2. 饭都: 饭 fàn thanh 4 mạnh rồi 都 dōu thanh 1. 吃 chī: ch uốn lưỡi và bật hơi. Câu cuối nhấn vào 连."},
+      {"id":"s5","zh":"快走吧，否则要迟到了。","pinyin":"Kuài zǒu ba, fǒuzé yào chídào le.","vi":"Đi nhanh đi, nếu không sẽ muộn mất.","tip_vi":"快 kuài: k bật hơi mạnh. 走吧: 走 thanh 3 đọc nửa thanh vì đứng trước 吧 (nhẹ). 迟到 chídào: ch uốn lưỡi, 迟 thanh 2 lên rõ, 到 dào thanh 4. Dấu phẩy ngắt hơi."},
+      {"id":"s6","zh":"无论天气怎么样，他都坚持跑步。","pinyin":"Wúlùn tiānqì zěnmeyàng, tā dōu jiānchí pǎobù.","vi":"Dù thời tiết thế nào, anh ấy cũng kiên trì chạy bộ.","tip_vi":"无论 wúlùn: hai thanh 2, lùn đọc như “luân” nhưng ngắn. 天气 tiānqì: q bật hơi, miệng bẹt. 坚持 jiānchí: j không bật hơi, ch uốn lưỡi. 跑步 pǎobù: p bật hơi mạnh. Nhấn vào 都."},
+      {"id":"s7","zh":"读书好，读好书，好读书。","pinyin":"Dú shū hǎo, dú hǎo shū, hào dú shū.","vi":"Đọc sách tốt, đọc sách hay, thích đọc sách.","tip_vi":"Chữ 好 có hai cách đọc: hǎo (tốt, hay) ở 读书好, 读好书; hào (thích, ham) ở 好读书 — thanh 4, ngắn và mạnh. Chú ý 读书好: 好 cuối câu đọc đủ thanh 3 (xuống rồi lên). 书 shū: sh uốn lưỡi."}
+    ],
+    "review": {
+      "remember": [
+        "连 + N + 都/也 + V = ngay cả… cũng…: 我连一本小说都没读完过 (tân ngữ nằm giữa 连 và 都). Phải có 都 hoặc 也.",
+        "否则 = nếu không thì, đứng đầu vế sau và nêu hậu quả: 快走，否则要迟到了. Không dùng cùng 如果.",
+        "无论 + từ nghi vấn / A 还是 B / chính phản，S + 都……: 无论多忙，我都读书. Khẩu ngữ: 不管; cũng có 不论.",
+        "然而 = tuy nhiên (văn viết, không đi cùng 但是); 同时 = đồng thời, cùng lúc (在……的同时, 同时也……).",
+        "Từ vựng sách: 作者 (người viết), 作家 (nhà văn), 读者 (độc giả), 文章 (bài viết, lượng từ 篇), 小说, 杂志; 好 đọc hào khi nghĩa là “thích”."
+      ],
+      "mistakes": [
+        "✗ 连我知道这个字 → ✓ 连我都知道这个字: sau 连 phải có 都 / 也.",
+        "✗ 无论天气怎么样，他去跑步 → ✓ 无论天气怎么样，他都去跑步: vế sau cần 都.",
+        "✗ 我吃饭的时候同时看书 → ✓ 我吃饭的同时看书 / 我一边吃饭，一边看书: đừng chồng 的时候 với 同时."
+      ]
+    }
+  }
+}

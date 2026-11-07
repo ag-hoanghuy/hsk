@@ -1,0 +1,258 @@
+{
+  "level": 4,
+  "number": 13,
+  "summary": "Tối đi nhà hát lần đầu xem kinh kịch, vừa uống trà vừa nghe bạn kể về nghề diễn viên; học 大概 (có lẽ, khoảng) và 偶尔 (thỉnh thoảng), 由 (do ai làm; từ… đến…), 进行 (tiến hành), 随着 (cùng với, theo đà) và từ vựng về sân khấu, lễ hội, văn hóa truyền thống",
+  "readings_ok": ["待 dāi"],
+  "content": {
+    "objectives": [
+      "Giới thiệu kinh kịch, buổi diễn và không khí lễ hội bằng 京剧、演出、演员、观众、精彩、热闹、庆祝",
+      "Nói về khả năng và tần suất bằng 大概 và 偶尔",
+      "Nói “do ai làm” và “từ… đến…” bằng 由, nói “tiến hành, đang diễn ra” bằng 进行",
+      "Nói “cùng với sự thay đổi…” bằng 随着"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"偶尔","pinyin":"ǒu'ěr","pos":"phó từ","meaning_vi":"thỉnh thoảng, đôi khi","example_zh":"我平常不看京剧，偶尔去一次。","example_pinyin":"Wǒ píngcháng bú kàn jīngjù, ǒu'ěr qù yí cì.","example_vi":"Ngày thường tôi không xem kinh kịch, thỉnh thoảng mới đi một lần.","hanviet":"NGẪU NHĨ","note_vi":"Tần suất thấp hơn 有时候, gần như “hiếm hoi mới có”. Đứng trước động từ. Thang tần suất: 总是 > 经常 > 有时候 > 偶尔 > 从来不. Có dấu nháy trong pinyin: ǒu'ěr."},
+      {"id":"v2","hanzi":"由","pinyin":"yóu","pos":"giới từ","meaning_vi":"do (ai làm), từ","example_zh":"今天的晚饭由我来做。","example_pinyin":"Jīntiān de wǎnfàn yóu wǒ lái zuò.","example_vi":"Bữa tối hôm nay do tôi nấu.","hanviet":"DO","note_vi":"由 + người + (来) + động từ: chỉ ai chịu trách nhiệm làm. Khác 被 (bị, nhấn mạnh chịu tác động xấu): ✗ 这件事被我来做. 由A到B = từ A đến B."},
+      {"id":"v3","hanzi":"进行","pinyin":"jìnxíng","pos":"động từ","meaning_vi":"tiến hành, đang diễn ra","example_zh":"比赛正在进行，请大家安静。","example_pinyin":"Bǐsài zhèngzài jìnxíng, qǐng dàjiā ānjìng.","example_vi":"Trận đấu đang diễn ra, xin mọi người giữ yên lặng.","hanviet":"TIẾN HÀNH","note_vi":"Dùng cho hoạt động có kế hoạch, hơi trang trọng: 比赛进行得很好, 对问题进行讨论. Theo sau 进行 phải là động từ hai âm tiết (讨论、检查、比赛…), không phải danh từ hay động từ một chữ."},
+      {"id":"v4","hanzi":"随着","pinyin":"suízhe","pos":"giới từ","meaning_vi":"cùng với, theo đà (của)","example_zh":"随着天气变冷，穿外套的人越来越多。","example_pinyin":"Suízhe tiānqì biàn lěng, chuān wàitào de rén yuè lái yuè duō.","example_vi":"Cùng với việc trời trở lạnh, người mặc áo khoác ngày càng nhiều.","hanviet":"TÙY TRƯỚC","note_vi":"随着 + một sự thay đổi / quá trình (天气变冷、时间过去、生活变好), vế sau nói kết quả đi cùng. 着 đọc nhẹ: suízhe."},
+      {"id":"v5","hanzi":"京剧","pinyin":"jīngjù","pos":"danh từ","meaning_vi":"kinh kịch (Bắc Kinh)","example_zh":"我爷爷很爱看京剧。","example_pinyin":"Wǒ yéye hěn ài kàn jīngjù.","example_vi":"Ông tôi rất thích xem kinh kịch.","hanviet":"KINH KỊCH","note_vi":"Loại hình sân khấu truyền thống nổi tiếng của Trung Quốc, có hát, múa, võ và hóa trang. “Xem kinh kịch” là 看京剧, “hát” là 唱京剧."},
+      {"id":"v6","hanzi":"茶叶","pinyin":"cháyè","pos":"danh từ","meaning_vi":"lá trà, trà (nguyên liệu)","example_zh":"这种茶叶很香，也不太贵。","example_pinyin":"Zhè zhǒng cháyè hěn xiāng, yě bú tài guì.","example_vi":"Loại trà này rất thơm, cũng không đắt lắm.","note_vi":"茶叶 là lá trà khô để pha, còn 茶 là cả cây trà hoặc nước trà (喝茶). Mua trà nói 买茶叶."},
+      {"id":"v7","hanzi":"演出","pinyin":"yǎnchū","pos":"động từ / danh từ","meaning_vi":"biểu diễn; buổi biểu diễn","example_zh":"今晚剧院有一场演出。","example_pinyin":"Jīnwǎn jùyuàn yǒu yì chǎng yǎnchū.","example_vi":"Tối nay nhà hát có một buổi biểu diễn.","hanviet":"DIỄN XUẤT","note_vi":"Lượng từ cho buổi diễn là 场: 一场演出. Động từ: 他们在剧院演出 (họ biểu diễn ở nhà hát)."},
+      {"id":"v8","hanzi":"演员","pinyin":"yǎnyuán","pos":"danh từ","meaning_vi":"diễn viên","example_zh":"她是一名有名的京剧演员。","example_pinyin":"Tā shì yì míng yǒumíng de jīngjù yǎnyuán.","example_vi":"Cô ấy là một diễn viên kinh kịch nổi tiếng.","hanviet":"DIỄN VIÊN"},
+      {"id":"v9","hanzi":"观众","pinyin":"guānzhòng","pos":"danh từ","meaning_vi":"khán giả","example_zh":"剧院里坐满了观众，大家都在安静地看演出。","example_pinyin":"Jùyuàn li zuò mǎn le guānzhòng, dàjiā dōu zài ānjìng de kàn yǎnchū.","example_vi":"Nhà hát ngồi đầy khán giả, mọi người đều yên lặng xem biểu diễn.","hanviet":"QUAN CHÚNG","note_vi":"观众 là người xem biểu diễn, thể thao, truyền hình. 听众 là người nghe (nhạc, phát thanh); 读者 là người đọc."},
+      {"id":"v10","hanzi":"精彩","pinyin":"jīngcǎi","pos":"tính từ","meaning_vi":"hay, đặc sắc, hấp dẫn","example_zh":"今天的比赛太精彩了，我看得很激动。","example_pinyin":"Jīntiān de bǐsài tài jīngcǎi le, wǒ kàn de hěn jīdòng.","example_vi":"Trận đấu hôm nay hay quá, tôi xem rất hào hứng.","hanviet":"TINH THÁI","note_vi":"Khen màn trình diễn, trận đấu, bài nói… rất hấp dẫn: 精彩的表演, 精彩的比赛. Khác 好看 (dễ nhìn, đẹp mắt)."},
+      {"id":"v11","hanzi":"著名","pinyin":"zhùmíng","pos":"tính từ","meaning_vi":"nổi tiếng, lừng danh","example_zh":"他是一位著名的作家。","example_pinyin":"Tā shì yí wèi zhùmíng de zuòjiā.","example_vi":"Ông ấy là một nhà văn nổi tiếng.","hanviet":"TRỨ DANH","note_vi":"Trang trọng hơn 有名, thường đứng trước danh từ: 著名的演员, 著名的城市. Khẩu ngữ nói 有名."},
+      {"id":"v12","hanzi":"民族","pinyin":"mínzú","pos":"danh từ","meaning_vi":"dân tộc","example_zh":"每个民族都有自己的节日。","example_pinyin":"Měi ge mínzú dōu yǒu zìjǐ de jiérì.","example_vi":"Mỗi dân tộc đều có những ngày lễ riêng của mình.","hanviet":"DÂN TỘC","note_vi":"Giống tiếng Việt “dân tộc”. Trong tiếng Trung chỉ các nhóm người có văn hóa, ngôn ngữ riêng. Nói về “quốc gia” dùng 国家."},
+      {"id":"v13","hanzi":"庆祝","pinyin":"qìngzhù","pos":"động từ","meaning_vi":"chúc mừng, ăn mừng, kỷ niệm","example_zh":"人们用不同的方式庆祝新年。","example_pinyin":"Rénmen yòng bù tóng de fāngshì qìngzhù xīnnián.","example_vi":"Mọi người ăn mừng năm mới theo những cách khác nhau.","hanviet":"KHÁNH CHÚC","note_vi":"庆祝 + sự kiện vui (庆祝生日、庆祝新年、庆祝成功). Còn 祝 là lời chúc gửi tới người khác (祝你生日快乐)."},
+      {"id":"v14","hanzi":"热闹","pinyin":"rènao","pos":"tính từ","meaning_vi":"náo nhiệt, sôi động","example_zh":"过年的时候，街上很热闹。","example_pinyin":"Guònián de shíhou, jiē shang hěn rènao.","example_vi":"Dịp Tết, trên phố rất náo nhiệt.","note_vi":"热闹 là sôi nổi theo nghĩa tích cực, vui. Còn 吵 là ồn ào khó chịu. Chữ 闹 đọc nhẹ: rènao."},
+      {"id":"v15","hanzi":"举行","pinyin":"jǔxíng","pos":"động từ","meaning_vi":"cử hành, tổ chức (nghi lễ, cuộc thi)","example_zh":"比赛明天上午在学校举行。","example_pinyin":"Bǐsài míngtiān shàngwǔ zài xuéxiào jǔxíng.","example_vi":"Cuộc thi sẽ được tổ chức vào sáng mai tại trường.","hanviet":"CỬ HÀNH","note_vi":"举行 nhấn mạnh sự kiện diễn ra ở đâu, lúc nào (在……举行): 会议、婚礼、比赛 + 举行. Còn 举办 nhấn mạnh người tổ chức."},
+      {"id":"v16","hanzi":"举办","pinyin":"jǔbàn","pos":"động từ","meaning_vi":"tổ chức (hoạt động, triển lãm, cuộc thi)","example_zh":"学校每年都举办一次唱歌比赛。","example_pinyin":"Xuéxiào měi nián dōu jǔbàn yí cì chànggē bǐsài.","example_vi":"Mỗi năm trường đều tổ chức một cuộc thi hát.","hanviet":"CỬ BIỆN","note_vi":"主语 là bên tổ chức: 学校举办了一场比赛. 举办 + hoạt động, thường dùng cho sự kiện quy mô lớn, kéo dài hơn."},
+      {"id":"v17","hanzi":"节假日","pinyin":"jiéjiàrì","pos":"danh từ","meaning_vi":"ngày lễ và ngày nghỉ","example_zh":"节假日的时候，公园里人很多。","example_pinyin":"Jiéjiàrì de shíhou, gōngyuán li rén hěn duō.","example_vi":"Vào ngày lễ ngày nghỉ, trong công viên rất đông người.","note_vi":"Gồm 节日 (ngày lễ) và 假日 (ngày nghỉ). Khi nói chung về các dịp được nghỉ."},
+      {"id":"v18","hanzi":"月饼","pinyin":"yuèbing","pos":"danh từ","meaning_vi":"bánh trung thu","example_zh":"中秋节的时候，我们一家人一起吃月饼。","example_pinyin":"Zhōngqiūjié de shíhou, wǒmen yì jiā rén yìqǐ chī yuèbing.","example_vi":"Vào Tết Trung thu, cả nhà chúng tôi cùng ăn bánh trung thu.","note_vi":"Chữ 饼 đọc nhẹ. Lượng từ: 块 hoặc 个. 月饼 là món ăn đặc trưng của Tết Trung thu."},
+      {"id":"v19","hanzi":"重视","pinyin":"zhòngshì","pos":"động từ","meaning_vi":"coi trọng, xem trọng","example_zh":"很多父母都很重视孩子的学习。","example_pinyin":"Hěn duō fùmǔ dōu hěn zhòngshì háizi de xuéxí.","example_vi":"Rất nhiều bậc cha mẹ coi trọng việc học của con.","hanviet":"TRỌNG THỊ","note_vi":"重视 + điều gì/ai: 重视教育、重视健康、受到重视. Gần với 看重, nhưng 重视 trang trọng hơn."},
+      {"id":"v20","hanzi":"话剧","pinyin":"huàjù","pos":"danh từ","meaning_vi":"kịch nói","example_zh":"周末我和朋友去看了一场话剧。","example_pinyin":"Zhōumò wǒ hé péngyou qù kàn le yì chǎng huàjù.","example_vi":"Cuối tuần tôi cùng bạn đi xem một vở kịch nói.","hanviet":"THOẠI KỊCH","note_vi":"话剧 là kịch chủ yếu dùng lời thoại (kịch nói), khác 京剧 (có hát, múa, võ)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"剧院","pinyin":"jùyuàn","pos":"danh từ","meaning_vi":"nhà hát","example_zh":"这家剧院很大，有一千个座位。","example_pinyin":"Zhè jiā jùyuàn hěn dà, yǒu yì qiān ge zuòwèi.","example_vi":"Nhà hát này rất lớn, có một nghìn chỗ ngồi.","hanviet":"KỊCH VIỆN"},
+      {"id":"x2","hanzi":"电视剧","pinyin":"diànshìjù","pos":"danh từ","meaning_vi":"phim truyền hình","example_zh":"我妈妈每天晚上都看电视剧。","example_pinyin":"Wǒ māma měi tiān wǎnshang dōu kàn diànshìjù.","example_vi":"Mẹ tôi tối nào cũng xem phim truyền hình."},
+      {"id":"x3","hanzi":"观看","pinyin":"guānkàn","pos":"động từ","meaning_vi":"xem, theo dõi (trang trọng)","example_zh":"请大家安静地观看演出。","example_pinyin":"Qǐng dàjiā ānjìng de guānkàn yǎnchū.","example_vi":"Xin mọi người yên lặng xem biểu diễn.","hanviet":"QUAN KHÁN"},
+      {"id":"x4","hanzi":"听众","pinyin":"tīngzhòng","pos":"danh từ","meaning_vi":"thính giả, người nghe","example_zh":"听众们都在认真地听。","example_pinyin":"Tīngzhòngmen dōu zài rènzhēn de tīng.","example_vi":"Thính giả đều đang chăm chú nghe.","hanviet":"THÍNH CHÚNG"},
+      {"id":"x5","hanzi":"演","pinyin":"yǎn","pos":"động từ","meaning_vi":"diễn, đóng vai","example_zh":"他在这部电影里演一个医生。","example_pinyin":"Tā zài zhè bù diànyǐng li yǎn yí ge yīshēng.","example_vi":"Trong bộ phim này anh ấy đóng vai một bác sĩ.","hanviet":"DIỄN"},
+      {"id":"x6","hanzi":"动作","pinyin":"dòngzuò","pos":"danh từ","meaning_vi":"động tác","example_zh":"演员的动作很好看。","example_pinyin":"Yǎnyuán de dòngzuò hěn hǎokàn.","example_vi":"Động tác của diễn viên rất đẹp mắt.","hanviet":"ĐỘNG TÁC"},
+      {"id":"x7","hanzi":"功夫","pinyin":"gōngfu","pos":"danh từ","meaning_vi":"công phu, kỹ năng (võ); thời gian, công sức","example_zh":"他从小就练功夫。","example_pinyin":"Tā cóng xiǎo jiù liàn gōngfu.","example_vi":"Từ nhỏ anh ấy đã luyện võ.","note_vi":"功夫 gōngfu: võ công, kỹ năng luyện lâu năm; còn nghĩa “thời gian rảnh” (没功夫 = không có thời gian). Chữ 夫 đọc nhẹ."},
+      {"id":"x8","hanzi":"琴","pinyin":"qín","pos":"danh từ","meaning_vi":"đàn (nhạc cụ có dây)","example_zh":"这把琴是我爷爷的。","example_pinyin":"Zhè bǎ qín shì wǒ yéye de.","example_vi":"Cây đàn này là của ông tôi.","note_vi":"Hay gặp trong từ ghép: 钢琴 (đàn piano), 小提琴 (vĩ cầm). Lượng từ: 把."},
+      {"id":"x9","hanzi":"场","pinyin":"chǎng","pos":"lượng từ","meaning_vi":"trận, buổi, vở","example_zh":"我昨天看了一场很精彩的比赛。","example_pinyin":"Wǒ zuótiān kàn le yì chǎng hěn jīngcǎi de bǐsài.","example_vi":"Hôm qua tôi đã xem một trận đấu rất hay.","note_vi":"Lượng từ cho buổi biểu diễn, trận đấu, cơn mưa (一场电影、一场比赛、一场雨). Lưu ý: 场 ở đây đọc chǎng."},
+      {"id":"x10","hanzi":"座位","pinyin":"zuòwèi","pos":"danh từ","meaning_vi":"chỗ ngồi","example_zh":"请问，这个座位有人吗？","example_pinyin":"Qǐngwèn, zhège zuòwèi yǒu rén ma?","example_vi":"Xin hỏi, chỗ này có người ngồi chưa?"},
+      {"id":"x11","hanzi":"售票员","pinyin":"shòupiàoyuán","pos":"danh từ","meaning_vi":"nhân viên bán vé","example_zh":"售票员告诉我们票已经卖完了。","example_pinyin":"Shòupiàoyuán gàosu wǒmen piào yǐjīng mài wán le.","example_vi":"Nhân viên bán vé nói với chúng tôi vé đã bán hết."},
+      {"id":"x12","hanzi":"大厅","pinyin":"dàtīng","pos":"danh từ","meaning_vi":"đại sảnh","example_zh":"请大家在大厅等一会儿。","example_pinyin":"Qǐng dàjiā zài dàtīng děng yíhuìr.","example_vi":"Xin mọi người đợi một lát ở đại sảnh."},
+      {"id":"x13","hanzi":"参观","pinyin":"cānguān","pos":"động từ","meaning_vi":"tham quan","example_zh":"明天我们去参观一所大学。","example_pinyin":"Míngtiān wǒmen qù cānguān yì suǒ dàxué.","example_vi":"Ngày mai chúng tôi đi tham quan một trường đại học.","hanviet":"THAM QUAN"},
+      {"id":"x14","hanzi":"活动","pinyin":"huódòng","pos":"danh từ / động từ","meaning_vi":"hoạt động; vận động","example_zh":"学校举办了很多有意思的活动。","example_pinyin":"Xuéxiào jǔbàn le hěn duō yǒu yìsi de huódòng.","example_vi":"Trường đã tổ chức nhiều hoạt động thú vị.","hanviet":"HOẠT ĐỘNG"},
+      {"id":"x15","hanzi":"红包","pinyin":"hóngbāo","pos":"danh từ","meaning_vi":"bao lì xì, phong bao đỏ","example_zh":"过年的时候，爷爷给孩子们红包。","example_pinyin":"Guònián de shíhou, yéye gěi háizimen hóngbāo.","example_vi":"Dịp Tết, ông cho các cháu phong bao đỏ."},
+      {"id":"x16","hanzi":"祝","pinyin":"zhù","pos":"động từ","meaning_vi":"chúc","example_zh":"祝你生日快乐！","example_pinyin":"Zhù nǐ shēngrì kuàilè!","example_vi":"Chúc bạn sinh nhật vui vẻ!","hanviet":"CHÚC"},
+      {"id":"x17","hanzi":"祝贺","pinyin":"zhùhè","pos":"động từ","meaning_vi":"chúc mừng","example_zh":"祝贺你考上了大学！","example_pinyin":"Zhùhè nǐ kǎo shàng le dàxué!","example_vi":"Chúc mừng bạn đã đỗ đại học!","hanviet":"CHÚC HẠ","note_vi":"祝贺 dùng khi người ta đã đạt được thành tích, có việc vui. Chúc điều tốt đẹp sắp tới dùng 祝."},
+      {"id":"x18","hanzi":"亲戚","pinyin":"qīnqi","pos":"danh từ","meaning_vi":"họ hàng, bà con","example_zh":"过年的时候，亲戚们都来我家。","example_pinyin":"Guònián de shíhou, qīnqimen dōu lái wǒ jiā.","example_vi":"Dịp Tết, họ hàng đều đến nhà tôi.","note_vi":"Chữ 戚 đọc nhẹ: qīnqi."},
+      {"id":"x19","hanzi":"老家","pinyin":"lǎojiā","pos":"danh từ","meaning_vi":"quê nhà, quê gốc","example_zh":"我老家在南部。","example_pinyin":"Wǒ lǎojiā zài nánbù.","example_vi":"Quê tôi ở miền nam."},
+      {"id":"x20","hanzi":"各地","pinyin":"gèdì","pos":"danh từ","meaning_vi":"các nơi, khắp nơi","example_zh":"各地的人都来看这场演出。","example_pinyin":"Gèdì de rén dōu lái kàn zhè chǎng yǎnchū.","example_vi":"Người từ các nơi đều đến xem buổi diễn này."},
+      {"id":"x21","hanzi":"各位","pinyin":"gèwèi","pos":"đại từ","meaning_vi":"các vị, quý vị","example_zh":"各位观众，晚上好！","example_pinyin":"Gèwèi guānzhòng, wǎnshang hǎo!","example_vi":"Kính chào quý khán giả!"},
+      {"id":"x22","hanzi":"世纪","pinyin":"shìjì","pos":"danh từ","meaning_vi":"thế kỷ","example_zh":"现在是二十一世纪。","example_pinyin":"Xiànzài shì èrshíyī shìjì.","example_vi":"Bây giờ là thế kỷ hai mươi mốt.","hanviet":"THẾ KỶ"},
+      {"id":"x23","hanzi":"前后","pinyin":"qiánhòu","pos":"danh từ","meaning_vi":"trước và sau, khoảng (quanh thời điểm)","example_zh":"春节前后，火车票很难买。","example_pinyin":"Chūnjié qiánhòu, huǒchēpiào hěn nán mǎi.","example_vi":"Quanh dịp Tết, vé tàu rất khó mua."},
+      {"id":"x24","hanzi":"到来","pinyin":"dàolái","pos":"động từ","meaning_vi":"đến, đến nơi (thời điểm)","example_zh":"春天到来了，花都开了。","example_pinyin":"Chūntiān dàolái le, huā dōu kāi le.","example_vi":"Mùa xuân đến rồi, hoa đều nở.","hanviet":"ĐÁO LAI"},
+      {"id":"x25","hanzi":"等到","pinyin":"děngdào","pos":"giới từ","meaning_vi":"đợi đến khi, đến khi","example_zh":"等到你来的时候，电影已经开始了。","example_pinyin":"Děngdào nǐ lái de shíhou, diànyǐng yǐjīng kāishǐ le.","example_vi":"Đến khi bạn tới thì phim đã bắt đầu rồi."},
+      {"id":"x26","hanzi":"待","pinyin":"dāi","pos":"động từ","meaning_vi":"ở lại, nán lại","example_zh":"周末我想在家待着，哪儿也不去。","example_pinyin":"Zhōumò wǒ xiǎng zài jiā dāi zhe, nǎr yě bú qù.","example_vi":"Cuối tuần tôi muốn ở nhà, chẳng đi đâu cả.","note_vi":"待 dāi (ở lại) khẩu ngữ, khác 待 dài trong 对待 (đối đãi)."},
+      {"id":"x27","hanzi":"入","pinyin":"rù","pos":"động từ","meaning_vi":"vào, nhập","example_zh":"入口在大厅的左边。","example_pinyin":"Rùkǒu zài dàtīng de zuǒbian.","example_vi":"Lối vào ở bên trái đại sảnh.","hanviet":"NHẬP","note_vi":"入 là chữ văn viết, thường nằm trong từ ghép: 入口 (lối vào), 加入 (gia nhập), 进入 (tiến vào)."},
+      {"id":"x28","hanzi":"分为","pinyin":"fēnwéi","pos":"động từ","meaning_vi":"chia thành","example_zh":"这本书分为三个部分。","example_pinyin":"Zhè běn shū fēnwéi sān ge bùfen.","example_vi":"Cuốn sách này chia thành ba phần.","note_vi":"分为 + số lượng + loại: 分为两类, 分为三部分. 为 ở đây đọc wéi."},
+      {"id":"x29","hanzi":"有着","pinyin":"yǒuzhe","pos":"động từ","meaning_vi":"có (trang trọng)","example_zh":"京剧有着一百多年的历史。","example_pinyin":"Jīngjù yǒuzhe yì bǎi duō nián de lìshǐ.","example_vi":"Kinh kịch có hơn một trăm năm lịch sử.","note_vi":"有着 trang trọng hơn 有, thường đi với danh từ trừu tượng: 有着长久的历史."},
+      {"id":"x30","hanzi":"大约","pinyin":"dàyuē","pos":"phó từ","meaning_vi":"khoảng, ước chừng","example_zh":"演出大约两个小时。","example_pinyin":"Yǎnchū dàyuē liǎng ge xiǎoshí.","example_vi":"Buổi diễn khoảng hai tiếng.","note_vi":"大约 chủ yếu đứng trước con số (khoảng bao nhiêu). Còn 大概 vừa là “khoảng” vừa là “có lẽ” (suy đoán)."}
+    ],
+    "glossary": [
+      {"hanzi":"中秋节","pinyin":"Zhōngqiūjié","meaning_vi":"Tết Trung thu","kind":"beyond"},
+      {"hanzi":"外地","pinyin":"wàidì","meaning_vi":"nơi khác, tỉnh khác","kind":"beyond"},
+      {"hanzi":"方式","pinyin":"fāngshì","meaning_vi":"cách thức, phương thức","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“大概” (có lẽ, khoảng) và “偶尔” (thỉnh thoảng)",
+        "pattern":"S + 大概 + V　·　大概 + số lượng / thời điểm　·　S + 偶尔 + V",
+        "explanation_vi":"(1) 大概 là phó từ có hai nghĩa: (a) “có lẽ, chắc là” khi suy đoán một việc chưa chắc chắn: 他大概已经回家了; (b) “khoảng, độ chừng” đứng trước số lượng hay thời điểm: 大概三个小时, 大概十点. 大概 không dùng với sự thật chắc chắn. So với 也许 (đã học): 也许 chỉ có khả năng (có thể có thể không), còn 大概 nghiêng về “khả năng cao”. So với 大约: 大约 chỉ dùng cho con số.\n(2) 偶尔 là phó từ chỉ tần suất thấp: “thỉnh thoảng, hiếm hoi mới…”. Đứng trước động từ. Mức tần suất thấp hơn 有时候. Không dùng cùng những từ chỉ thường xuyên như 每天, 经常, 总是.",
+        "examples":[
+          {"zh":"他大概已经回家了。","pinyin":"Tā dàgài yǐjīng huí jiā le.","vi":"Có lẽ anh ấy đã về nhà rồi."},
+          {"zh":"这场京剧大概要演三个小时。","pinyin":"Zhè chǎng jīngjù dàgài yào yǎn sān ge xiǎoshí.","vi":"Vở kinh kịch này có lẽ phải diễn khoảng ba tiếng."},
+          {"zh":"明天大概会下雨，你带着伞吧。","pinyin":"Míngtiān dàgài huì xià yǔ, nǐ dài zhe sǎn ba.","vi":"Ngày mai có lẽ sẽ mưa, bạn mang ô theo nhé."},
+          {"zh":"我偶尔去看京剧，不是经常去。","pinyin":"Wǒ ǒu'ěr qù kàn jīngjù, bú shì jīngcháng qù.","vi":"Tôi thỉnh thoảng mới đi xem kinh kịch, không phải thường xuyên."},
+          {"zh":"爷爷平常喝茶，偶尔也喝一点儿咖啡。","pinyin":"Yéye píngcháng hē chá, ǒu'ěr yě hē yìdiǎnr kāfēi.","vi":"Ông thường uống trà, thỉnh thoảng cũng uống chút cà phê."}
+        ],
+        "mistakes_vi":"✗ 我大概是学生。\n✓ 我是学生。\n大概 chỉ dùng khi chưa chắc chắn; thông tin về chính mình thì nói thẳng.\n✗ 我偶尔每天喝茶。\n✓ 我每天喝茶。/ 我偶尔喝茶。\n偶尔 (hiếm) và 每天 (mỗi ngày) mâu thuẫn nhau.\n✗ 我去偶尔京剧院。\n✓ 我偶尔去京剧院。\n偶尔 đứng trước động từ, không đứng sau động từ.",
+        "compare_vi":"大概 ≈ “chắc là, có lẽ; khoảng”. 偶尔 ≈ “thỉnh thoảng, đôi khi”."
+      },
+      {
+        "id":"g2",
+        "title":"“由” (do ai làm; từ… đến…)",
+        "pattern":"由 + người / bên phụ trách + (来) + V　·　由 A 到 B　·　由 A 变成 / 变为 B",
+        "explanation_vi":"由 là giới từ có ba cách dùng thường gặp:\n(1) Chỉ người chịu trách nhiệm làm một việc: 由 + người + (来) + động từ: 今天的晚饭由我来做 (bữa tối hôm nay do tôi nấu). Nhấn mạnh sự phân công, trách nhiệm, không mang nghĩa bị hại như 被.\n(2) 由 A 到 B = từ A đến B (nơi chốn, thời gian, trình độ): 由北京到上海, 由小到大.\n(3) 由 A 变成 B = từ A trở thành B: 天气由热变冷.\nVăn viết, thông báo, nói trang trọng hay dùng 由; khẩu ngữ thường nói 让 hoặc 我来……",
+        "examples":[
+          {"zh":"今天的晚饭由我来做。","pinyin":"Jīntiān de wǎnfàn yóu wǒ lái zuò.","vi":"Bữa tối hôm nay do tôi nấu."},
+          {"zh":"这次演出的票由小李来买。","pinyin":"Zhè cì yǎnchū de piào yóu Xiǎo Lǐ lái mǎi.","vi":"Vé buổi diễn lần này do Tiểu Lý mua."},
+          {"zh":"由北京到上海，坐火车要五个多小时。","pinyin":"Yóu Běijīng dào Shànghǎi, zuò huǒchē yào wǔ ge duō xiǎoshí.","vi":"Từ Bắc Kinh đến Thượng Hải, đi tàu hỏa mất hơn năm tiếng."},
+          {"zh":"天气由热变冷，大家都穿上了外套。","pinyin":"Tiānqì yóu rè biàn lěng, dàjiā dōu chuān shàng le wàitào.","vi":"Thời tiết từ nóng chuyển sang lạnh, mọi người đều mặc áo khoác vào."}
+        ],
+        "mistakes_vi":"✗ 这件事被我来做。\n✓ 这件事由我来做。\n“Do ai làm” là 由, không dùng 被 (chỉ bị tác động).\n✗ 由北京去上海，坐火车要五个小时。\n✓ 由北京到上海，坐火车要五个小时。\nCấu trúc “từ A đến B” là 由A到B.\n✗ 晚饭我由来做。\n✓ 晚饭由我来做。\n由 phải đứng trước người phụ trách (由 + 我), không đặt sau chủ ngữ rồi mới đến 来做.",
+        "compare_vi":"由 ≈ “do (ai) làm; từ… (đến…)”."
+      },
+      {
+        "id":"g3",
+        "title":"“进行” (tiến hành)",
+        "pattern":"S + 进行 + động từ hai âm tiết　·　对 + N + 进行 + V　·　N + 正在进行",
+        "explanation_vi":"进行 nghĩa là “tiến hành, đang diễn ra”, dùng cho hoạt động có kế hoạch, kéo dài, mang tính trang trọng. Nó có hai cách dùng:\n(1) Không có tân ngữ: 比赛正在进行, 演出进行得很好.\n(2) 进行 + động từ hai âm tiết (讨论、检查、比赛、练习、调查…), động từ này đóng vai trò như danh từ: 进行讨论, 进行检查. Muốn nêu đối tượng thì dùng 对……进行……: 我们对这个问题进行了讨论.\n进行 không đi với động từ một âm tiết (✗ 进行吃), không đi với danh từ hay tính từ (✗ 进行汉语), và không dùng cho việc tức thì, đời thường.",
+        "examples":[
+          {"zh":"比赛正在进行，请大家安静。","pinyin":"Bǐsài zhèngzài jìnxíng, qǐng dàjiā ānjìng.","vi":"Trận đấu đang diễn ra, xin mọi người giữ yên lặng."},
+          {"zh":"我们对这个问题进行了讨论。","pinyin":"Wǒmen duì zhège wèntí jìnxíng le tǎolùn.","vi":"Chúng tôi đã thảo luận về vấn đề này."},
+          {"zh":"学校每年都会进行一次体检。","pinyin":"Xuéxiào měi nián dōu huì jìnxíng yí cì tǐjiǎn.","vi":"Mỗi năm trường đều tiến hành một lần khám sức khỏe."},
+          {"zh":"演出进行得很好，观众都很满意。","pinyin":"Yǎnchū jìnxíng de hěn hǎo, guānzhòng dōu hěn mǎnyì.","vi":"Buổi diễn diễn ra rất tốt, khán giả đều hài lòng."}
+        ],
+        "mistakes_vi":"✗ 我们进行讨论这个问题。\n✓ 我们对这个问题进行讨论。\nSau động từ hóa của 进行 không mang tân ngữ; dùng 对……进行…… để nêu đối tượng.\n✗ 他在进行吃饭。\n✓ 他在吃饭。\nViệc thường ngày, động từ một chữ thì không dùng 进行.\n✗ 他正在进行汉语。\n✓ 他正在学习汉语。\n进行 đi với động từ hai âm tiết, không đi với danh từ.",
+        "compare_vi":"进行 ≈ “tiến hành, thực hiện”. Tiếng Việt “tiến hành thảo luận”, tiếng Trung 进行讨论."
+      },
+      {
+        "id":"g4",
+        "title":"“随着” (cùng với, theo đà)",
+        "pattern":"随着 + sự thay đổi / quá trình，S + (也) + kết quả đi cùng",
+        "explanation_vi":"随着 là giới từ, mang nghĩa “cùng với, theo đà…”: khi một điều thay đổi hay phát triển (phần sau 随着) thì một điều khác cũng thay đổi theo (vế chính). Phần sau 随着 phải là một quá trình thay đổi: 天气变冷, 时间过去, 年纪变大, 城市的发展. Vế chính thường có 越来越, 也, 逐渐…\n随着 thường đứng đầu câu và theo sau là dấu phẩy. Không đặt 随着 sau chủ ngữ, và không để một danh từ thuần túy không có sự thay đổi (✗ 随着时间).",
+        "examples":[
+          {"zh":"随着天气变冷，穿外套的人越来越多。","pinyin":"Suízhe tiānqì biàn lěng, chuān wàitào de rén yuè lái yuè duō.","vi":"Cùng với việc trời trở lạnh, người mặc áo khoác ngày càng nhiều."},
+          {"zh":"随着时间一天天过去，他对京剧越来越感兴趣。","pinyin":"Suízhe shíjiān yì tiāntiān guòqu, tā duì jīngjù yuè lái yuè gǎn xìngqù.","vi":"Thời gian cứ trôi từng ngày, cậu ấy càng ngày càng hứng thú với kinh kịch."},
+          {"zh":"随着城市的发展，人们的生活越来越方便。","pinyin":"Suízhe chéngshì de fāzhǎn, rénmen de shēnghuó yuè lái yuè fāngbiàn.","vi":"Cùng với sự phát triển của thành phố, cuộc sống mọi người ngày càng thuận tiện."},
+          {"zh":"随着年纪越来越大，他爱上了喝茶。","pinyin":"Suízhe niánjì yuè lái yuè dà, tā àishàng le hē chá.","vi":"Tuổi càng cao, ông ấy càng đem lòng yêu việc uống trà."}
+        ],
+        "mistakes_vi":"✗ 随着时间，我们都长大了。\n✓ 随着时间一天天过去，我们都长大了。\n随着 phải đi với một quá trình (过去, 变化), không chỉ có danh từ đơn.\n✗ 他随着天气变冷，穿上了外套。\n✓ 随着天气变冷，他穿上了外套。\n随着 mở đầu câu, rồi mới đến chủ ngữ của vế chính.\n✗ 随着我今天很忙，我没去。\n✓ 因为我今天很忙，所以我没去。\n随着 không phải là liên từ chỉ nguyên nhân, mà chỉ sự thay đổi đi cùng nhau.",
+        "compare_vi":"随着 ≈ “cùng với, theo đà, khi… thì…”. Tiếng Việt “cùng với sự phát triển của…, … cũng thay đổi”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Lần đầu xem kinh kịch",
+      "scene_vi": "Tối thứ Bảy, du học sinh Tiểu Chu lần đầu đến nhà hát xem kinh kịch cùng bạn người Trung Quốc là Lý Minh. Hai người vừa uống trà ở đại sảnh vừa chờ buổi diễn bắt đầu.",
+      "lines": [
+        {"speaker":"小周","zh":"李明，我第一次来剧院看京剧。大厅里怎么这么热闹？","pinyin":"Lǐ Míng, wǒ dì yī cì lái jùyuàn kàn jīngjù. Dàtīng li zěnme zhème rènao?","vi":"Lý Minh, lần đầu tiên tớ đến nhà hát xem kinh kịch. Sao đại sảnh náo nhiệt thế?"},
+        {"speaker":"李明","zh":"今晚有一场著名演员的演出，观众很多，大概有一千人吧。","pinyin":"Jīnwǎn yǒu yì chǎng zhùmíng yǎnyuán de yǎnchū, guānzhòng hěn duō, dàgài yǒu yì qiān rén ba.","vi":"Tối nay có buổi diễn của diễn viên nổi tiếng, khán giả rất đông, chắc khoảng một nghìn người."},
+        {"speaker":"小周","zh":"那么多人！我们的座位在哪儿？","pinyin":"Nàme duō rén! Wǒmen de zuòwèi zài nǎr?","vi":"Nhiều người thế! Chỗ ngồi của chúng ta ở đâu?"},
+        {"speaker":"李明","zh":"在前面，离演员很近。我们先去喝杯茶吧，我爷爷说，喝着茶看京剧最舒服。","pinyin":"Zài qiánmiàn, lí yǎnyuán hěn jìn. Wǒmen xiān qù hē bēi chá ba, wǒ yéye shuō, hē zhe chá kàn jīngjù zuì shūfu.","vi":"Ở phía trước, rất gần diễn viên. Mình đi uống tách trà trước nhé, ông tớ bảo vừa uống trà vừa xem kinh kịch là dễ chịu nhất."},
+        {"speaker":"小周","zh":"这是什么茶叶？真香！","pinyin":"Zhè shì shénme cháyè? Zhēn xiāng!","vi":"Đây là trà gì thế? Thơm quá!"},
+        {"speaker":"李明","zh":"是我老家的茶叶。我平常不太爱喝茶，只有看京剧的时候偶尔喝一点儿。","pinyin":"Shì wǒ lǎojiā de cháyè. Wǒ píngcháng bú tài ài hē chá, zhǐyǒu kàn jīngjù de shíhou ǒu'ěr hē yìdiǎnr.","vi":"Là trà quê tớ. Ngày thường tớ không thích uống trà lắm, chỉ khi xem kinh kịch mới thỉnh thoảng uống một chút."},
+        {"speaker":"小周","zh":"京剧演员是不是要学很多年？","pinyin":"Jīngjù yǎnyuán shì bu shì yào xué hěn duō nián?","vi":"Diễn viên kinh kịch có phải phải học nhiều năm không?"},
+        {"speaker":"李明","zh":"对，他们从小就要练功夫，一个动作要练几千次。随着时间一天天过去，他们才能演得这么精彩。","pinyin":"Duì, tāmen cóng xiǎo jiù yào liàn gōngfu, yí ge dòngzuò yào liàn jǐ qiān cì. Suízhe shíjiān yì tiāntiān guòqu, tāmen cái néng yǎn de zhème jīngcǎi.","vi":"Đúng, họ từ nhỏ đã phải luyện công phu, một động tác phải luyện vài nghìn lần. Thời gian trôi từng ngày, họ mới diễn hay được như vậy."},
+        {"speaker":"小周","zh":"听说今晚的演出会进行三个小时，我能听懂吗？","pinyin":"Tīngshuō jīnwǎn de yǎnchū huì jìnxíng sān ge xiǎoshí, wǒ néng tīng dǒng ma?","vi":"Nghe nói buổi diễn tối nay kéo dài ba tiếng, tớ nghe hiểu được không?"},
+        {"speaker":"李明","zh":"别担心，一会儿的内容由我来给你解释。看完以后，你一定会爱上京剧。","pinyin":"Bié dānxīn, yíhuìr de nèiróng yóu wǒ lái gěi nǐ jiěshì. Kàn wán yǐhòu, nǐ yídìng huì àishàng jīngjù.","vi":"Đừng lo, nội dung lát nữa để tớ giải thích cho cậu. Xem xong, chắc chắn cậu sẽ yêu kinh kịch."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:演员","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他是一位著名的____，演过很多电影。","options":["演员","观众","民族","茶叶"],"answer":0,"explanation_vi":"Người đóng phim, biểu diễn là 演员 (diễn viên)."},
+      {"id":"e2","type":"choice","tag":"v:观众","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"剧院里坐满了____，大家都在安静地看演出。","options":["观众","演员","月饼","话剧"],"answer":0,"explanation_vi":"Người ngồi xem biểu diễn là 观众 (khán giả)."},
+      {"id":"e3","type":"choice","tag":"v:精彩","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天的比赛太____了，我看得很激动。","options":["精彩","著名","重视","举行"],"answer":0,"explanation_vi":"Trận đấu hay, hấp dẫn → 精彩."},
+      {"id":"e4","type":"choice","tag":"v:热闹","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"过年的时候，街上很____，到处都是人。","options":["热闹","精彩","著名","民族"],"answer":0,"explanation_vi":"Phố đông vui, sôi động → 热闹."},
+      {"id":"e5","type":"choice","tag":"v:举办","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"学校每年都____一次唱歌比赛。","options":["举办","演出","重视","庆祝"],"answer":0,"explanation_vi":"Bên tổ chức (trường học) + 举办 + cuộc thi."},
+      {"id":"e6","type":"choice","tag":"v:庆祝","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"人们用不同的方式____新年。","options":["庆祝","观众","精彩","节假日"],"answer":0,"explanation_vi":"Ăn mừng năm mới: 庆祝新年."},
+      {"id":"e7","type":"choice","tag":"v:重视","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"很多父母都很____孩子的学习。","options":["重视","庆祝","举行","演出"],"answer":0,"explanation_vi":"Coi trọng việc học của con: 重视孩子的学习."},
+      {"id":"e8","type":"choice","tag":"g:大概","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这场京剧____要演三个小时。","options":["大概","偶尔","由","随着"],"answer":0,"explanation_vi":"Ước chừng thời lượng → 大概 (khoảng)."},
+      {"id":"e9","type":"choice","tag":"g:偶尔","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我平常不喝咖啡，只是____喝一杯。","options":["偶尔","大概","经常","总是"],"answer":0,"explanation_vi":"“Thường ngày không uống, chỉ …” → thỉnh thoảng mới uống: 偶尔."},
+      {"id":"e10","type":"choice","tag":"g:由","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天的晚饭____我来做。","options":["由","被","把","对"],"answer":0,"explanation_vi":"Chỉ người phụ trách làm việc → 由 + người + 来 + V."},
+      {"id":"e11","type":"choice","tag":"g:进行","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["我们对这个问题进行了讨论。","我们进行讨论这个问题。","他进行吃饭。","我们进行了问题。"],"answer":0,"explanation_vi":"Dùng 对……进行……; 进行 + động từ hai âm tiết, không mang tân ngữ."},
+      {"id":"e12","type":"choice","tag":"g:随着","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____天气变冷，穿外套的人越来越多。","options":["随着","虽然","如果","但是"],"answer":0,"explanation_vi":"Thay đổi (trời lạnh) kéo theo thay đổi khác (người mặc áo khoác nhiều) → 随着."},
+      {"id":"e13","type":"order","tag":"g:由","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["今天的","晚饭","由","我","来做"],"answers":["今天的晚饭由我来做"],"translation_vi":"Bữa tối hôm nay do tôi nấu.","explanation_vi":"Chủ ngữ 今天的晚饭 + 由 + người phụ trách (我) + 来做."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"剧院","vi":"nhà hát"},{"zh":"电视剧","vi":"phim truyền hình"},{"zh":"座位","vi":"chỗ ngồi"},{"zh":"红包","vi":"bao lì xì"},{"zh":"亲戚","vi":"họ hàng"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:大概","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["他大概已经回家了。","我大概是学生。","我大概叫小王，是学生。","今天大概是星期二，我知道。"],"answer":0,"explanation_vi":"大概 dùng cho điều chưa chắc chắn. Thông tin chắc chắn về bản thân thì nói thẳng."},
+        {"id":"q2","type":"choice","tag":"g:偶尔","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我爷爷平常喝茶，____也喝一点儿咖啡。","options":["偶尔","每天","经常","总是"],"answer":0,"explanation_vi":"“Thường uống trà, cũng ... uống chút cà phê” → thỉnh thoảng: 偶尔."},
+        {"id":"q3","type":"choice","tag":"g:由","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____北京到上海，坐火车要五个多小时。","options":["由","被","把","让"],"answer":0,"explanation_vi":"Cấu trúc “từ A đến B”: 由A到B."},
+        {"id":"q4","type":"choice","tag":"g:进行","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"比赛正在____，请大家安静。","options":["进行","参观","演出","重视"],"answer":0,"explanation_vi":"“Trận đấu đang diễn ra” → 正在进行."},
+        {"id":"q5","type":"choice","tag":"g:随着","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["随着时间一天天过去，他对京剧越来越感兴趣。","随着时间，他对京剧越来越感兴趣。","他随着时间一天天过去，对京剧越来越感兴趣。","随着了时间过去，他对京剧越来越感兴趣。"],"answer":0,"explanation_vi":"随着 + quá trình thay đổi (时间一天天过去), đứng đầu câu."},
+        {"id":"q6","type":"choice","tag":"g:进行","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们对这个问题____了讨论。","options":["进行","举行","参加","庆祝"],"answer":0,"explanation_vi":"对……进行了讨论: 进行 + động từ hai âm tiết."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:著名","prompt_vi":"Chọn đáp án đúng.","question_zh":"他是一位____的京剧演员，很多人都认识他。","options":["著名","热闹","精彩","重视"],"answer":0,"explanation_vi":"Nhiều người biết đến → nổi tiếng: 著名."},
+      {"id":"t2","type":"choice","tag":"g:随着","prompt_vi":"Chọn đáp án đúng.","question_zh":"____生活越来越好，过节的方式也在变化。","options":["随着","虽然","但是","如果"],"answer":0,"explanation_vi":"Cùng với đời sống ngày càng tốt, cách đón lễ cũng thay đổi → 随着."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"祝","vi":"chúc"},{"zh":"祝贺","vi":"chúc mừng"},{"zh":"参观","vi":"tham quan"},{"zh":"活动","vi":"hoạt động"},{"zh":"场","vi":"trận, buổi (lượng từ)"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"各地","vi":"các nơi"},{"zh":"各位","vi":"các vị"},{"zh":"世纪","vi":"thế kỷ"},{"zh":"前后","vi":"quanh thời điểm"},{"zh":"到来","vi":"đến"}]},
+      {"id":"t5","type":"order","tag":"g:进行","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","对","这个问题","进行","了","讨论"],"answers":["我们对这个问题进行了讨论"],"translation_vi":"Chúng tôi đã thảo luận về vấn đề này.","explanation_vi":"对 + đối tượng + 进行了 + động từ hai âm tiết."},
+      {"id":"t6","type":"order","tag":"g:偶尔","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","偶尔","去","看","京剧"],"answers":["我偶尔去看京剧"],"translation_vi":"Thỉnh thoảng tôi đi xem kinh kịch.","explanation_vi":"偶尔 đứng trước động từ 去."},
+      {"id":"t7","type":"fill","tag":"g:大概","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"这场京剧____要演三个小时。","answers":["大概","大约"],"hint_vi":"khoảng, ước chừng","explanation_vi":"Ước chừng thời lượng: 大概 (大约 cũng được)."},
+      {"id":"t8","type":"fill","tag":"g:由","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"今天的晚饭____我来做。","answers":["由"],"hint_vi":"do","explanation_vi":"由 + người + 来做 = do ai làm."},
+      {"id":"t9","type":"listen_choice","tag":"g:偶尔","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我偶尔去看京剧，不是经常去。","options":["Thỉnh thoảng tôi mới đi xem kinh kịch, không phải thường xuyên.","Tôi thường xuyên đi xem kinh kịch.","Tôi chưa bao giờ xem kinh kịch.","Tôi sẽ đi xem kinh kịch ngày mai."],"answer":0,"explanation_vi":"偶尔 = thỉnh thoảng; 不是经常 = không phải thường xuyên."},
+      {"id":"t10","type":"listen_choice","tag":"v:演员","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"他是一位著名的京剧演员。","options":["他是一位著名的京剧演员。","他是一位著名的话剧演员。","他是一位著名的京剧老师。","他是一位有名的作家。"],"answer":0,"explanation_vi":"Câu nghe được: 他是一位著名的京剧演员 = Ông ấy là một diễn viên kinh kịch nổi tiếng."},
+      {"id":"t11","type":"dictation","tag":"g:随着","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"随着天气变冷，穿外套的人越来越多。","answers":["随着天气变冷穿外套的人越来越多"],"explanation_vi":"随着天气变冷，穿外套的人越来越多 = Cùng với việc trời lạnh, người mặc áo khoác ngày càng nhiều."},
+      {"id":"t12","type":"dictation","tag":"v:精彩","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"今天的演出太精彩了。","answers":["今天的演出太精彩了"],"explanation_vi":"今天的演出太精彩了 = Buổi diễn hôm nay hay quá."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:由","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bữa tối hôm nay do tôi nấu.","answers":["今天的晚饭由我来做","今天的晚饭由我做","今天晚饭由我来做","今天晚饭由我做","今晚的晚饭由我来做","今天的晚餐由我来做","今天的晚餐由我做","今天的晚饭由我来做吧"],"explanation_vi":"今天的晚饭 + 由我来做 (do tôi nấu)."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:大概","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Buổi diễn này chắc phải diễn khoảng ba tiếng.","answers":["这场演出大概要演三个小时","这场演出大概要三个小时","这场演出大概要演三个钟头","这场演出大概要演三个小时吧","这场演出大约要演三个小时","这场演出大概三个小时","这场演出大约三个小时","这场演出大概要演三个小时左右"],"explanation_vi":"这场演出 + 大概 + 要演三个小时."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:随着","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"随着时间一天天过去，他对京剧越来越感兴趣。","answers_vi":["Thời gian trôi qua từng ngày, anh ấy càng ngày càng hứng thú với kinh kịch.","Cùng với thời gian trôi đi, cậu ấy ngày càng quan tâm đến kinh kịch."],"keywords":[["thời gian"],["từng ngày","mỗi ngày","ngày qua ngày","ngày một ngày","trôi"],["kinh kịch"],["ngày càng","càng ngày càng","càng"],["hứng thú","quan tâm","thích","say mê"]],"explanation_vi":"随着 = cùng với; 越来越 = ngày càng; 感兴趣 = hứng thú."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:举办","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"学校每年都举办一次唱歌比赛。","answers_vi":["Mỗi năm trường đều tổ chức một cuộc thi hát.","Hằng năm nhà trường tổ chức một lần thi hát."],"keywords":[["trường","nhà trường"],["mỗi năm","hằng năm","hàng năm","năm nào"],["tổ chức"],["hát","ca hát"],["cuộc thi","thi","cuộc"]],"explanation_vi":"每年 = mỗi năm; 举办 = tổ chức; 唱歌比赛 = cuộc thi hát."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"中秋节的月亮",
+        "title_vi":"Trăng Trung thu",
+        "paragraphs":[
+          {
+            "tokens":[["中秋节","Zhōngqiūjié","Tết Trung thu"],["是","shì","là"],["中国人","Zhōngguórén","người Trung Quốc"],["很","hěn","rất"],["重视","zhòngshì","coi trọng"],["的","de","(trợ từ)"],["节日","jiérì","ngày lễ"],["。"],["每","měi","mỗi"],["到","dào","đến"],["这","zhè","này"],["一天","yì tiān","ngày"],["，"],["在","zài","ở"],["外地","wàidì","nơi khác"],["工作","gōngzuò","làm việc"],["的","de","(trợ từ)"],["人","rén","người"],["大概","dàgài","có lẽ"],["都","dōu","đều"],["会","huì","sẽ"],["回","huí","về"],["老家","lǎojiā","quê"],["，"],["和","hé","cùng"],["家人","jiārén","người nhà"],["一起","yìqǐ","cùng nhau"],["庆祝","qìngzhù","đón mừng"],["。"]],
+            "vi":"Tết Trung thu là ngày lễ mà người Trung Quốc rất coi trọng. Đến ngày này, những người làm việc ở nơi khác có lẽ đều sẽ về quê, cùng người nhà đón lễ."
+          },
+          {
+            "tokens":[["晚上","wǎnshang","buổi tối"],["，"],["一","yì","cả"],["家人","jiārén","gia đình"],["坐","zuò","ngồi"],["在","zài","ở"],["院子","yuànzi","sân"],["里","li","trong"],["，"],["一边","yìbiān","vừa"],["喝","hē","uống"],["着","zhe","(đang)"],["茶","chá","trà"],["，"],["一边","yìbiān","vừa"],["吃","chī","ăn"],["月饼","yuèbing","bánh trung thu"],["，"],["看","kàn","ngắm"],["天上","tiān shang","trên trời"],["的","de","(của)"],["月亮","yuèliang","trăng"],["。"],["孩子们","háizimen","bọn trẻ"],["最","zuì","nhất"],["高兴","gāoxìng","vui"],["，"],["他们","tāmen","chúng"],["由","yóu","do"],["爷爷","yéye","ông"],["奶奶","nǎinai","bà"],["带","dài","dẫn"],["着","zhe","(đang)"],["，"],["在","zài","ở"],["院子","yuànzi","sân"],["里","li","trong"],["跑来跑去","pǎo lái pǎo qù","chạy tới chạy lui"],["，"],["非常","fēicháng","rất"],["热闹","rènao","náo nhiệt"],["。"]],
+            "vi":"Buổi tối, cả nhà ngồi trong sân, vừa uống trà vừa ăn bánh trung thu, ngắm trăng trên trời. Bọn trẻ vui nhất, chúng được ông bà dẫn đi, chạy tới chạy lui trong sân, rất náo nhiệt."
+          },
+          {
+            "tokens":[["随着","suízhe","cùng với"],["生活","shēnghuó","cuộc sống"],["越来越","yuè lái yuè","ngày càng"],["好","hǎo","tốt"],["，"],["过节","guòjié","đón lễ"],["的","de","(của)"],["方式","fāngshì","cách thức"],["也","yě","cũng"],["在","zài","đang"],["变化","biànhuà","thay đổi"],["。"],["现在","xiànzài","bây giờ"],["，"],["很多","hěn duō","nhiều"],["人","rén","người"],["偶尔","ǒu'ěr","thỉnh thoảng"],["会","huì","sẽ"],["选择","xuǎnzé","chọn"],["去","qù","đi"],["旅行","lǚxíng","du lịch"],["，"],["或者","huòzhě","hoặc"],["去","qù","đi"],["看","kàn","xem"],["一","yì","một"],["场","chǎng","(lượng từ: buổi)"],["演出","yǎnchū","biểu diễn"],["，"],["而","ér","mà"],["不是","bú shì","không phải"],["在","zài","ở"],["家","jiā","nhà"],["里","li","trong"],["坐","zuò","ngồi"],["着","zhe","(đang)"],["。"],["不过","búguò","có điều"],["，"],["不管","bùguǎn","dù"],["方式","fāngshì","cách thức"],["怎么","zěnme","thế nào"],["变","biàn","đổi"],["，"],["一","yì","cả"],["家人","jiārén","gia đình"],["在","zài","ở"],["一起","yìqǐ","cùng nhau"],["，"],["才","cái","mới"],["是","shì","là"],["中秋节","Zhōngqiūjié","Tết Trung thu"],["最","zuì","nhất"],["重要","zhòngyào","quan trọng"],["的","de","(trợ từ)"],["事","shì","việc"],["。"]],
+            "vi":"Cùng với cuộc sống ngày càng tốt, cách đón lễ cũng đang thay đổi. Bây giờ nhiều người thỉnh thoảng chọn đi du lịch hoặc đi xem một buổi biểu diễn chứ không ngồi ở nhà. Có điều, dù cách thức thay đổi thế nào, cả gia đình bên nhau mới là điều quan trọng nhất của Tết Trung thu."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"中秋节的时候，在外地工作的人大概会做什么？","options":["回老家和家人一起庆祝","去旅行","去看京剧","继续工作"],"answer":0,"explanation_vi":"Đoạn 1: 在外地工作的人大概都会回老家，和家人一起庆祝."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"晚上一家人坐在院子里做什么？","options":["喝茶、吃月饼、看月亮","看电视剧","打乒乓球","听京剧"],"answer":0,"explanation_vi":"Đoạn 2: 一边喝着茶，一边吃月饼，看天上的月亮."},
+          {"id":"rq3","type":"choice","tag":"g:由","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"孩子们由爸爸妈妈带着在院子里跑。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 他们由爷爷奶奶带着 — là ông bà, không phải bố mẹ, nên câu này sai."},
+          {"id":"rq4","type":"choice","tag":"g:随着","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"随着生活越来越好，过节的方式怎么样了？","options":["也在变化","完全没变","越来越少","越来越简单"],"answer":0,"explanation_vi":"Đoạn 3: 过节的方式也在变化."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"作者认为，不管怎么过节，一家人在一起最重要。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 一家人在一起，才是中秋节最重要的事 — câu này đúng."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Ông tôi và kinh kịch",
+        "text_zh":"我爷爷很爱看京剧，他偶尔也自己唱几句。以前每个周末，他都会去剧院，一边喝茶一边看演出。他说，京剧有着一百多年的历史，很多动作都不简单。随着年纪越来越大，爷爷去剧院的次数越来越少。上个月，学校举办了一场京剧演出，票由我来买。演出大概进行了两个小时，爷爷看得非常高兴。演出结束以后，观众们都说，今天的演出太精彩了。",
+        "pinyin":"Wǒ yéye hěn ài kàn jīngjù, tā ǒu'ěr yě zìjǐ chàng jǐ jù. Yǐqián měi ge zhōumò, tā dōu huì qù jùyuàn, yìbiān hē chá yìbiān kàn yǎnchū. Tā shuō, jīngjù yǒuzhe yì bǎi duō nián de lìshǐ, hěn duō dòngzuò dōu bù jiǎndān. Suízhe niánjì yuè lái yuè dà, yéye qù jùyuàn de cìshù yuè lái yuè shǎo. Shàng ge yuè, xuéxiào jǔbàn le yì chǎng jīngjù yǎnchū, piào yóu wǒ lái mǎi. Yǎnchū dàgài jìnxíng le liǎng ge xiǎoshí, yéye kàn de fēicháng gāoxìng. Yǎnchū jiéshù yǐhòu, guānzhòngmen dōu shuō, jīntiān de yǎnchū tài jīngcǎi le.",
+        "vi":"Ông tôi rất thích xem kinh kịch, thỉnh thoảng ông cũng tự hát vài câu. Trước đây cuối tuần nào ông cũng đến nhà hát, vừa uống trà vừa xem biểu diễn. Ông nói kinh kịch có hơn một trăm năm lịch sử, rất nhiều động tác không hề đơn giản. Tuổi càng cao, số lần ông đến nhà hát càng ít. Tháng trước, trường tổ chức một buổi biểu diễn kinh kịch, vé do tôi mua. Buổi diễn kéo dài khoảng hai tiếng, ông xem rất vui. Sau buổi diễn, khán giả đều nói buổi diễn hôm nay hay quá.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"以前每个周末，爷爷做什么？","options":["去剧院，一边喝茶一边看演出","去公园散步","在家看电视","去看朋友"],"answer":0,"explanation_vi":"Nghe được: 以前每个周末，他都会去剧院，一边喝茶一边看演出."},
+          {"id":"lq2","type":"choice","tag":"g:随着","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"随着年纪越来越大，爷爷怎么样了？","options":["去剧院的次数越来越少","越来越爱唱歌","不再喝茶了","搬到了别的地方"],"answer":0,"explanation_vi":"Nghe được: 随着年纪越来越大，爷爷去剧院的次数越来越少."},
+          {"id":"lq3","type":"choice","tag":"g:由","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"上个月京剧演出的票是谁买的？","options":["“我”","爷爷","学校","朋友"],"answer":0,"explanation_vi":"Nghe được: 票由我来买."},
+          {"id":"lq4","type":"choice","tag":"g:进行","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"演出进行了多长时间？","options":["大概两个小时","大概一个小时","大概三个小时","大概半个小时"],"answer":0,"explanation_vi":"Nghe được: 演出大概进行了两个小时."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"京剧","pinyin":"jīngjù","vi":"kinh kịch","tip_vi":"京 jīng: j không bật hơi, -ing kết thúc ở cuống lưỡi, thanh 1 cao và bằng. 剧 jù: ü tròn môi, thanh 4 xuống mạnh. Đừng đọc thành “ching chu”."},
+      {"id":"s2","zh":"偶尔","pinyin":"ǒu'ěr","vi":"thỉnh thoảng","tip_vi":"Dấu nháy cho biết ou và er tách ra: ǒu – ěr. 偶 ǒu: vần ou như “âu”, thanh 3. 尔 ěr: cuốn lưỡi, đọc kiểu “ơr”. Hai thanh 3 liền nhau, chữ đầu đọc thành thanh 2 (óu'ěr)."},
+      {"id":"s3","zh":"精彩","pinyin":"jīngcǎi","vi":"đặc sắc","tip_vi":"彩 cǎi: c bật hơi, đầu lưỡi chạm răng trên (khác ch uốn lưỡi), thanh 3. 精 jīng thanh 1 cao; sau thanh 1 thì thanh 3 đọc đủ (xuống rồi lên)."},
+      {"id":"s4","zh":"今天的晚饭由我来做。","pinyin":"Jīntiān de wǎnfàn yóu wǒ lái zuò.","vi":"Bữa tối hôm nay do tôi nấu.","tip_vi":"由 yóu: thanh 2 phải lên rõ, vần iou đọc như “yêu” ngắn. 我来: 我 thanh 3 đứng trước thanh 2 nên đọc nửa thanh 3. 做 zuò: z không bật hơi. 晚饭 wǎnfàn: f như “ph”."},
+      {"id":"s5","zh":"比赛正在进行，请大家安静。","pinyin":"Bǐsài zhèngzài jìnxíng, qǐng dàjiā ānjìng.","vi":"Trận đấu đang diễn ra, xin mọi người giữ yên lặng.","tip_vi":"比赛: 比 thanh 3 đọc nửa thanh vì đứng trước thanh 4. 进行 jìnxíng: -in rồi -ing khác nhau (in kết thúc ở đầu lưỡi, ing ở cuống lưỡi). 请 qǐng: q bật hơi. 安静 ānjìng: j không bật hơi."},
+      {"id":"s6","zh":"随着时间一天天过去，他对京剧越来越感兴趣。","pinyin":"Suízhe shíjiān yì tiāntiān guòqu, tā duì jīngjù yuè lái yuè gǎn xìngqù.","vi":"Thời gian trôi từng ngày, anh ấy càng ngày càng hứng thú với kinh kịch.","tip_vi":"随着 suízhe: s đầu lưỡi sau răng, 着 đọc nhẹ. 一天天: 一 đổi thành yì (thanh 4) trước thanh 1. 感兴趣 gǎn xìngqù: 兴 đọc xìng (thanh 4) trong 兴趣; 趣 qù tròn môi. Nhấn nhẹ vào 越来越."},
+      {"id":"s7","zh":"喝着茶看京剧，真舒服。","pinyin":"Hē zhe chá kàn jīngjù, zhēn shūfu.","vi":"Vừa uống trà vừa xem kinh kịch, thật dễ chịu.","tip_vi":"着 zhe đọc nhẹ, ngắn: biểu thị hành động đang diễn ra. 茶 chá: ch uốn lưỡi và bật hơi. 舒服 shūfu: 服 fu đọc nhẹ. Câu ngắn nhưng nhịp điệu thoải mái: ngắt nhẹ sau 京剧."}
+    ],
+    "review": {
+      "remember": [
+        "大概 = có lẽ / khoảng (chỉ dùng khi chưa chắc); 偶尔 = thỉnh thoảng (hiếm hơn 有时候), đứng trước động từ, không đi với 每天 / 经常.",
+        "由 + người + (来) + V = do ai làm (今天的晚饭由我来做); 由A到B = từ A đến B; không dùng 被 để nói “do ai làm”.",
+        "进行 + động từ hai âm tiết (讨论、检查、比赛…); nêu đối tượng bằng 对……进行……; không dùng với động từ một chữ hay danh từ.",
+        "随着 + sự thay đổi / quá trình, vế sau là điều thay đổi theo (随着天气变冷……); đứng đầu câu.",
+        "举行 (sự kiện diễn ra ở đâu) ≠ 举办 (bên tổ chức); 观众 = người xem, 听众 = người nghe; 热闹 = náo nhiệt, 吵 = ồn ào."
+      ],
+      "mistakes": [
+        "✗ 我偶尔每天喝茶 → ✓ 我偶尔喝茶 / 我每天喝茶: 偶尔 và 每天 mâu thuẫn.",
+        "✗ 我们进行讨论这个问题 → ✓ 我们对这个问题进行讨论: dùng 对……进行……",
+        "✗ 随着时间，我们长大了 → ✓ 随着时间一天天过去，我们长大了: 随着 cần một quá trình thay đổi."
+      ]
+    }
+  }
+}

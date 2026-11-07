@@ -1,0 +1,262 @@
+{
+  "level": 4,
+  "number": 19,
+  "summary": "Hai người bạn ăn món quê hương ở nhà hàng, nếm thử và bàn chuyện nấu ăn; học cách dùng đại từ nghi vấn để chỉ “bất cứ” (什么都、谁都、哪儿都), 上 trong 在……上, V + 出来 (nhận ra, nếm ra), 总的来说 (nhìn chung) và 在于 (nằm ở chỗ), cùng từ vựng về hương vị, bữa ăn, đồ ăn thức uống",
+  "readings_ok": ["得 de"],
+  "content": {
+    "objectives": [
+      "Miêu tả hương vị và món ăn bằng 味道、酸、辣、苦、咸、香、鲜、美食、小吃、做法",
+      "Nói “bất cứ… cũng…” bằng 什么都、谁都、哪儿都、怎么……也……",
+      "Dùng 在……上 để nói “về mặt…” và V + 出来 để nói “nhận ra, nếm ra, nghĩ ra”",
+      "Tổng kết ý bằng 总的来说 và nêu điểm mấu chốt bằng 在于"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"表示","pinyin":"biǎoshì","pos":"động từ","meaning_vi":"biểu thị, bày tỏ","example_zh":"他笑了笑，表示同意。","example_pinyin":"Tā xiào le xiào, biǎoshì tóngyì.","example_vi":"Anh ấy cười cười, tỏ ý đồng ý.","hanviet":"BIỂU THỊ","note_vi":"表示 + thái độ / ý kiến (表示感谢、表示同意、表示欢迎). Cũng là “có nghĩa là”: 红灯表示不能走."},
+      {"id":"v2","hanzi":"总结","pinyin":"zǒngjié","pos":"động từ / danh từ","meaning_vi":"tổng kết; bản tổng kết","example_zh":"请你总结一下今天学的内容。","example_pinyin":"Qǐng nǐ zǒngjié yíxià jīntiān xué de nèiróng.","example_vi":"Xin bạn tổng kết lại nội dung đã học hôm nay.","hanviet":"TỔNG KẾT","note_vi":"Động từ: 总结经验 (tổng kết kinh nghiệm). Danh từ: 写总结 (viết bản tổng kết). Bạn đã gặp 总的来说 cũng ở bài này."},
+      {"id":"v3","hanzi":"味道","pinyin":"wèidào","pos":"danh từ","meaning_vi":"hương vị, mùi vị","example_zh":"这个菜的味道很好。","example_pinyin":"Zhège cài de wèidào hěn hǎo.","example_vi":"Món này hương vị rất ngon.","note_vi":"味道 là cảm nhận bằng miệng hoặc mũi: 味道好 / 味道不错. Nghĩa bóng: 生活的味道 (hương vị cuộc sống). Khẩu ngữ hay nói 味儿."},
+      {"id":"v4","hanzi":"美食","pinyin":"měishí","pos":"danh từ","meaning_vi":"món ngon, ẩm thực","example_zh":"这座城市有很多美食。","example_pinyin":"Zhè zuò chéngshì yǒu hěn duō měishí.","example_vi":"Thành phố này có rất nhiều món ngon.","hanviet":"MỸ THỰC","note_vi":"美食 là các món ăn ngon nói chung: 品尝美食、美食节. Gần với “mỹ thực” trong tiếng Việt."},
+      {"id":"v5","hanzi":"酸","pinyin":"suān","pos":"tính từ","meaning_vi":"chua","example_zh":"这个苹果有点儿酸。","example_pinyin":"Zhège píngguǒ yǒudiǎnr suān.","example_vi":"Quả táo này hơi chua.","hanviet":"TOAN","note_vi":"酸 còn dùng cho cảm giác nhức mỏi: 腿很酸 (chân mỏi), hoặc cảm xúc chua xót: 心里酸酸的."},
+      {"id":"v6","hanzi":"辣","pinyin":"là","pos":"tính từ","meaning_vi":"cay","example_zh":"他不能吃辣的菜。","example_pinyin":"Tā bù néng chī là de cài.","example_vi":"Anh ấy không ăn được món cay.","note_vi":"辣 + 的 + danh từ (辣的菜). Nói “cay” bằng 辣, “không cay” là 不辣. Chú ý l (không phải n)."},
+      {"id":"v7","hanzi":"苦","pinyin":"kǔ","pos":"tính từ","meaning_vi":"đắng; khổ","example_zh":"这种茶有点儿苦。","example_pinyin":"Zhè zhǒng chá yǒudiǎnr kǔ.","example_vi":"Loại trà này hơi đắng.","hanviet":"KHỔ","note_vi":"苦 = đắng (vị) hoặc khổ (cuộc sống khổ: 吃苦). Cặp thường gặp: 酸甜苦辣 (chua ngọt đắng cay) – nghĩa bóng là mọi trải nghiệm trong đời."},
+      {"id":"v8","hanzi":"咸","pinyin":"xián","pos":"tính từ","meaning_vi":"mặn","example_zh":"这个汤太咸了。","example_pinyin":"Zhège tāng tài xián le.","example_vi":"Món canh này mặn quá.","note_vi":"咸 xián (thanh 2) chỉ vị mặn. Hán Việt “hàm” khác, và đừng nhầm với 成 chéng hay 盐 yán (muối)."},
+      {"id":"v9","hanzi":"香","pinyin":"xiāng","pos":"tính từ","meaning_vi":"thơm; ngon (thơm)","example_zh":"这个菜真香！","example_pinyin":"Zhège cài zhēn xiāng!","example_vi":"Món này thơm thật!","hanviet":"HƯƠNG","note_vi":"香 nói về mùi thơm của đồ ăn: 很香, 香味. Cũng có nghĩa “ăn ngon miệng”: 吃得很香 (ăn rất ngon miệng)."},
+      {"id":"v10","hanzi":"食物","pinyin":"shíwù","pos":"danh từ","meaning_vi":"thức ăn, đồ ăn","example_zh":"这些食物都是新鲜的。","example_pinyin":"Zhèxiē shíwù dōu shì xīnxiān de.","example_vi":"Những thức ăn này đều tươi mới.","hanviet":"THỰC VẬT","note_vi":"Hán Việt “thực vật” gây nhầm: 食物 = đồ ăn, còn thực vật (cây cối) là 植物. Hai từ phát âm khác (shíwù / zhíwù)."},
+      {"id":"v11","hanzi":"小吃","pinyin":"xiǎochī","pos":"danh từ","meaning_vi":"món ăn vặt, quà vặt đặc sản","example_zh":"这条街上有很多有名的小吃。","example_pinyin":"Zhè tiáo jiē shang yǒu hěn duō yǒumíng de xiǎochī.","example_vi":"Trên con phố này có nhiều món ăn vặt nổi tiếng.","note_vi":"小吃 là món ăn nhỏ, rẻ, mang đặc sản địa phương (路边小吃). Khác 零食 (đồ ăn vặt đóng gói) ở phần mở rộng."},
+      {"id":"v12","hanzi":"厨房","pinyin":"chúfáng","pos":"danh từ","meaning_vi":"nhà bếp","example_zh":"妈妈正在厨房做饭。","example_pinyin":"Māma zhèngzài chúfáng zuò fàn.","example_vi":"Mẹ đang nấu cơm trong bếp.","hanviet":"TRÙ PHÒNG"},
+      {"id":"v13","hanzi":"厨师","pinyin":"chúshī","pos":"danh từ","meaning_vi":"đầu bếp","example_zh":"这家餐厅的厨师很有名。","example_pinyin":"Zhè jiā cāntīng de chúshī hěn yǒumíng.","example_vi":"Đầu bếp của nhà hàng này rất nổi tiếng.","hanviet":"TRÙ SƯ"},
+      {"id":"v14","hanzi":"做法","pinyin":"zuòfǎ","pos":"danh từ","meaning_vi":"cách làm, cách nấu","example_zh":"请告诉我这道菜的做法。","example_pinyin":"Qǐng gàosu wǒ zhè dào cài de zuòfǎ.","example_vi":"Xin hãy cho tôi biết cách làm món này.","note_vi":"做法 là cách làm một món ăn hay cách xử lý một việc (这种做法不对). Cùng nghĩa với 做的方法, ngắn gọn hơn."},
+      {"id":"v15","hanzi":"家乡","pinyin":"jiāxiāng","pos":"danh từ","meaning_vi":"quê hương, quê nhà","example_zh":"我常常想起家乡的小吃。","example_pinyin":"Wǒ chángcháng xiǎng qǐ jiāxiāng de xiǎochī.","example_vi":"Tôi thường nhớ đến những món ăn vặt quê nhà.","hanviet":"GIA HƯƠNG","note_vi":"家乡 là nơi mình sinh ra, lớn lên. Khác 老家 (quê gốc của gia đình)."},
+      {"id":"v16","hanzi":"餐厅","pinyin":"cāntīng","pos":"danh từ","meaning_vi":"nhà hàng, phòng ăn","example_zh":"我们去那家餐厅吃晚饭吧。","example_pinyin":"Wǒmen qù nà jiā cāntīng chī wǎnfàn ba.","example_vi":"Chúng ta đến nhà hàng đó ăn tối nhé.","note_vi":"餐厅 là nhà hàng khá khang trang, hoặc phòng ăn trong khách sạn / nhà. Quán nhỏ hơn thường gọi 饭馆."},
+      {"id":"v17","hanzi":"中餐","pinyin":"zhōngcān","pos":"danh từ","meaning_vi":"món ăn Trung Hoa; bữa trưa","example_zh":"我喜欢吃中餐。","example_pinyin":"Wǒ xǐhuan chī zhōngcān.","example_vi":"Tôi thích ăn món Trung.","note_vi":"中餐 có hai nghĩa: (1) ẩm thực Trung Hoa (đối với 西餐), (2) bữa trưa (同 午餐). Ngữ cảnh sẽ cho biết."},
+      {"id":"v18","hanzi":"早餐","pinyin":"zǎocān","pos":"danh từ","meaning_vi":"bữa sáng","example_zh":"他每天都吃早餐。","example_pinyin":"Tā měi tiān dōu chī zǎocān.","example_vi":"Ngày nào anh ấy cũng ăn sáng.","note_vi":"早餐 trang trọng hơn 早饭. Cặp: 早餐 – 午餐 – 晚餐."},
+      {"id":"v19","hanzi":"汤","pinyin":"tāng","pos":"danh từ","meaning_vi":"canh, súp, nước dùng","example_zh":"今天的汤很好喝。","example_pinyin":"Jīntiān de tāng hěn hǎohē.","example_vi":"Canh hôm nay rất ngon.","hanviet":"THANG","note_vi":"汤 là canh/súp; uống canh là 喝汤. Lượng từ: 碗 (一碗汤). Hán Việt “thang” gặp trong “thang thuốc”."},
+      {"id":"v20","hanzi":"鲜","pinyin":"xiān","pos":"tính từ","meaning_vi":"tươi; ngọt (vị ngọt tự nhiên của hải sản, canh)","example_zh":"这条鱼很鲜。","example_pinyin":"Zhè tiáo yú hěn xiān.","example_vi":"Con cá này rất tươi (ngọt thịt).","hanviet":"TIÊN","note_vi":"鲜 vừa là “tươi” (新鲜) vừa là vị “ngọt umami” của canh, hải sản: 汤很鲜. Chữ này ít khi đứng một mình, hay đi với 新鲜, 鲜花."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"午餐","pinyin":"wǔcān","pos":"danh từ","meaning_vi":"bữa trưa","example_zh":"午餐时间是十二点到一点。","example_pinyin":"Wǔcān shíjiān shì shí'èr diǎn dào yī diǎn.","example_vi":"Giờ ăn trưa là từ mười hai giờ đến một giờ."},
+      {"id":"x2","hanzi":"晚餐","pinyin":"wǎncān","pos":"danh từ","meaning_vi":"bữa tối","example_zh":"今天的晚餐很丰富。","example_pinyin":"Jīntiān de wǎncān hěn fēngfù.","example_vi":"Bữa tối hôm nay rất thịnh soạn."},
+      {"id":"x3","hanzi":"快餐","pinyin":"kuàicān","pos":"danh từ","meaning_vi":"đồ ăn nhanh","example_zh":"快餐店里的人很多。","example_pinyin":"Kuàicān diàn li de rén hěn duō.","example_vi":"Trong tiệm đồ ăn nhanh rất đông người."},
+      {"id":"x4","hanzi":"食品","pinyin":"shípǐn","pos":"danh từ","meaning_vi":"thực phẩm","example_zh":"这家超市的食品很新鲜。","example_pinyin":"Zhè jiā chāoshì de shípǐn hěn xīnxiān.","example_vi":"Thực phẩm của siêu thị này rất tươi."},
+      {"id":"x5","hanzi":"食堂","pinyin":"shítáng","pos":"danh từ","meaning_vi":"nhà ăn tập thể","example_zh":"学校食堂的饭很便宜。","example_pinyin":"Xuéxiào shítáng de fàn hěn piányi.","example_vi":"Cơm ở nhà ăn trường rất rẻ."},
+      {"id":"x6","hanzi":"味","pinyin":"wèi","pos":"danh từ","meaning_vi":"vị, mùi","example_zh":"这种茶没有苦味。","example_pinyin":"Zhè zhǒng chá méiyǒu kǔ wèi.","example_vi":"Loại trà này không có vị đắng.","note_vi":"味 hay ghép: 香味 (mùi thơm), 苦味 (vị đắng), 味儿 (khẩu ngữ)."},
+      {"id":"x7","hanzi":"闻","pinyin":"wén","pos":"động từ","meaning_vi":"ngửi","example_zh":"我闻到了饭菜的香味。","example_pinyin":"Wǒ wén dào le fàncài de xiāngwèi.","example_vi":"Tôi ngửi thấy mùi thơm của đồ ăn.","note_vi":"闻 trong khẩu ngữ là “ngửi”, không phải “nghe” (nghe là 听)."},
+      {"id":"x8","hanzi":"盐","pinyin":"yán","pos":"danh từ","meaning_vi":"muối","example_zh":"汤里的盐放多了。","example_pinyin":"Tāng li de yán fàng duō le.","example_vi":"Cho muối vào canh hơi nhiều."},
+      {"id":"x9","hanzi":"油","pinyin":"yóu","pos":"danh từ","meaning_vi":"dầu, mỡ","example_zh":"请少放一点儿油。","example_pinyin":"Qǐng shǎo fàng yìdiǎnr yóu.","example_vi":"Xin cho ít dầu thôi."},
+      {"id":"x10","hanzi":"烤","pinyin":"kǎo","pos":"động từ","meaning_vi":"nướng","example_zh":"他在院子里烤肉。","example_pinyin":"Tā zài yuànzi li kǎo ròu.","example_vi":"Anh ấy nướng thịt trong sân."},
+      {"id":"x11","hanzi":"熟","pinyin":"shú","pos":"tính từ","meaning_vi":"chín; quen thuộc","example_zh":"肉还没熟，再等一会儿。","example_pinyin":"Ròu hái méi shú, zài děng yíhuìr.","example_vi":"Thịt chưa chín, đợi thêm một lát.","note_vi":"熟 đọc shú (thanh 2) khi nói thức ăn chín hoặc quen thuộc (很熟)."},
+      {"id":"x12","hanzi":"刀","pinyin":"dāo","pos":"danh từ","meaning_vi":"dao","example_zh":"请把那把刀拿给我。","example_pinyin":"Qǐng bǎ nà bǎ dāo ná gěi wǒ.","example_vi":"Xin đưa giúp tôi con dao đó.","note_vi":"Lượng từ: 把."},
+      {"id":"x13","hanzi":"道","pinyin":"dào","pos":"lượng từ / danh từ","meaning_vi":"món (lượng từ cho món ăn); đường","example_zh":"这道菜很好吃。","example_pinyin":"Zhè dào cài hěn hǎochī.","example_vi":"Món này rất ngon.","note_vi":"道 đếm món ăn (一道菜), đề thi (一道题), đường kẻ (一道线)."},
+      {"id":"x14","hanzi":"顿","pinyin":"dùn","pos":"lượng từ","meaning_vi":"bữa (lượng từ cho bữa ăn)","example_zh":"我们一天吃三顿饭。","example_pinyin":"Wǒmen yì tiān chī sān dùn fàn.","example_vi":"Một ngày chúng ta ăn ba bữa cơm."},
+      {"id":"x15","hanzi":"稍微","pinyin":"shāowēi","pos":"phó từ","meaning_vi":"hơi, một chút","example_zh":"请稍微等一下。","example_pinyin":"Qǐng shāowēi děng yíxià.","example_vi":"Xin chờ một chút.","note_vi":"稍微 + động từ / tính từ + 一点儿 / 一下: 稍微大一点儿, 稍微快一点儿."},
+      {"id":"x16","hanzi":"稍","pinyin":"shāo","pos":"phó từ","meaning_vi":"hơi, chút (văn viết)","example_zh":"请稍等。","example_pinyin":"Qǐng shāo děng.","example_vi":"Xin chờ một chút.","note_vi":"稍 là dạng gọn của 稍微, hay dùng trong lời lịch sự: 请稍等."},
+      {"id":"x17","hanzi":"剩","pinyin":"shèng","pos":"động từ","meaning_vi":"còn thừa, còn lại","example_zh":"饭还剩一点儿。","example_pinyin":"Fàn hái shèng yìdiǎnr.","example_vi":"Cơm còn thừa một chút."},
+      {"id":"x18","hanzi":"克","pinyin":"kè","pos":"lượng từ","meaning_vi":"gam","example_zh":"请给我两百克糖。","example_pinyin":"Qǐng gěi wǒ liǎng bǎi kè táng.","example_vi":"Xin cho tôi hai trăm gam đường.","hanviet":"KHẮC"},
+      {"id":"x19","hanzi":"凉","pinyin":"liáng","pos":"tính từ","meaning_vi":"lạnh, nguội, mát","example_zh":"汤凉了，我去热一下。","example_pinyin":"Tāng liáng le, wǒ qù rè yíxià.","example_vi":"Canh nguội rồi, tôi đi hâm lại.","hanviet":"LƯƠNG"},
+      {"id":"x20","hanzi":"零食","pinyin":"língshí","pos":"danh từ","meaning_vi":"đồ ăn vặt (đóng gói)","example_zh":"孩子们都喜欢吃零食。","example_pinyin":"Háizimen dōu xǐhuan chī língshí.","example_vi":"Bọn trẻ đều thích ăn đồ ăn vặt."},
+      {"id":"x21","hanzi":"饼干","pinyin":"bǐnggān","pos":"danh từ","meaning_vi":"bánh quy","example_zh":"我买了一包饼干。","example_pinyin":"Wǒ mǎi le yì bāo bǐnggān.","example_vi":"Tôi mua một gói bánh quy."},
+      {"id":"x22","hanzi":"馒头","pinyin":"mántou","pos":"danh từ","meaning_vi":"màn thầu, bánh bao không nhân","example_zh":"早上我吃了两个馒头。","example_pinyin":"Zǎoshang wǒ chī le liǎng ge mántou.","example_vi":"Sáng nay tôi ăn hai cái màn thầu."},
+      {"id":"x23","hanzi":"巧克力","pinyin":"qiǎokèlì","pos":"danh từ","meaning_vi":"sô-cô-la","example_zh":"她送了我一块巧克力。","example_pinyin":"Tā sòng le wǒ yí kuài qiǎokèlì.","example_vi":"Cô ấy tặng tôi một miếng sô-cô-la."},
+      {"id":"x24","hanzi":"西红柿","pinyin":"xīhóngshì","pos":"danh từ","meaning_vi":"cà chua","example_zh":"我喜欢吃西红柿炒鸡蛋。","example_pinyin":"Wǒ xǐhuan chī xīhóngshì chǎo jīdàn.","example_vi":"Tôi thích ăn cà chua xào trứng."},
+      {"id":"x25","hanzi":"葡萄","pinyin":"pútao","pos":"danh từ","meaning_vi":"nho","example_zh":"这些葡萄又大又甜。","example_pinyin":"Zhèxiē pútao yòu dà yòu tián.","example_vi":"Những quả nho này vừa to vừa ngọt."},
+      {"id":"x26","hanzi":"葡萄酒","pinyin":"pútaojiǔ","pos":"danh từ","meaning_vi":"rượu vang","example_zh":"他喜欢喝一点儿葡萄酒。","example_pinyin":"Tā xǐhuan hē yìdiǎnr pútaojiǔ.","example_vi":"Anh ấy thích uống một chút rượu vang."},
+      {"id":"x27","hanzi":"白酒","pinyin":"báijiǔ","pos":"danh từ","meaning_vi":"rượu trắng (rượu mạnh Trung Quốc)","example_zh":"白酒很辣，我不太能喝。","example_pinyin":"Báijiǔ hěn là, wǒ bú tài néng hē.","example_vi":"Rượu trắng rất nồng cay, tôi không uống được nhiều."},
+      {"id":"x28","hanzi":"果汁","pinyin":"guǒzhī","pos":"danh từ","meaning_vi":"nước ép trái cây","example_zh":"请给我一杯果汁。","example_pinyin":"Qǐng gěi wǒ yì bēi guǒzhī.","example_vi":"Xin cho tôi một ly nước ép."},
+      {"id":"x29","hanzi":"汽水","pinyin":"qìshuǐ","pos":"danh từ","meaning_vi":"nước ngọt có ga","example_zh":"天气热，他买了一瓶汽水。","example_pinyin":"Tiānqì rè, tā mǎi le yì píng qìshuǐ.","example_vi":"Trời nóng, anh ấy mua một chai nước ngọt có ga."},
+      {"id":"x30","hanzi":"酸奶","pinyin":"suānnǎi","pos":"danh từ","meaning_vi":"sữa chua","example_zh":"我每天早上喝一杯酸奶。","example_pinyin":"Wǒ měi tiān zǎoshang hē yì bēi suānnǎi.","example_vi":"Sáng nào tôi cũng uống một ly sữa chua."},
+      {"id":"x31","hanzi":"干杯","pinyin":"gānbēi","pos":"động từ","meaning_vi":"cạn ly, chúc mừng","example_zh":"来，为我们的健康干杯！","example_pinyin":"Lái, wèi wǒmen de jiànkāng gānbēi!","example_vi":"Nào, cạn ly vì sức khỏe của chúng ta!","note_vi":"Động từ li hợp (干 + 杯). 干 đọc gān (cạn), khác 干 gàn (làm)."}
+    ],
+    "glossary": [
+      {"hanzi":"外地","pinyin":"wàidì","meaning_vi":"nơi khác, tỉnh khác","kind":"beyond"},
+      {"hanzi":"炒","pinyin":"chǎo","meaning_vi":"xào","kind":"beyond"},
+      {"hanzi":"锅","pinyin":"guō","meaning_vi":"nồi, chảo","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Đại từ nghi vấn chỉ “bất cứ” (什么都、谁都、哪儿都)",
+        "pattern":"疑问代词 (什么 / 谁 / 哪儿 / 怎么 / 多少…) + 都 / 也 + V",
+        "explanation_vi":"Trong tiếng Trung, đại từ nghi vấn (什么、谁、哪儿、哪个、怎么、多少、几) không chỉ để hỏi, mà đứng trước 都 / 也 còn có nghĩa “bất cứ… nào cũng…”, “gì cũng…”, “ai cũng…”: 什么都吃 (gì cũng ăn), 谁都知道 (ai cũng biết), 哪儿都去 (đi đâu cũng đi). Nghĩa là: không loại trừ bất kỳ trường hợp nào.\nNếu ở dạng phủ định, nghĩa là “chẳng… nào cả”: 什么都没有 (chẳng có gì), 谁也不知道 (chẳng ai biết), 哪儿也不去 (chẳng đi đâu). Thường dùng 都 ở câu khẳng định, 也 ở câu phủ định, nhưng cả hai đều đúng trong phủ định.\nQuy tắc: đại từ nghi vấn đứng trước 都 / 也 và thường làm chủ ngữ hay trạng ngữ, tân ngữ đưa lên trước động từ: 我什么都想尝尝.",
+        "examples":[
+          {"zh":"我什么都想尝尝。","pinyin":"Wǒ shénme dōu xiǎng chángchang.","vi":"Tôi món gì cũng muốn nếm thử."},
+          {"zh":"这个菜谁都会做。","pinyin":"Zhège cài shéi dōu huì zuò.","vi":"Món này ai cũng biết nấu."},
+          {"zh":"他去哪儿都带着手机。","pinyin":"Tā qù nǎr dōu dài zhe shǒujī.","vi":"Anh ấy đi đâu cũng mang theo điện thoại."},
+          {"zh":"他生病了，什么也不想吃。","pinyin":"Tā shēngbìng le, shénme yě bù xiǎng chī.","vi":"Anh ấy ốm, chẳng muốn ăn gì cả."},
+          {"zh":"这家餐厅的菜，我怎么吃也吃不够。","pinyin":"Zhè jiā cāntīng de cài, wǒ zěnme chī yě chī bu gòu.","vi":"Món ở nhà hàng này, tôi ăn thế nào cũng không chán."}
+        ],
+        "mistakes_vi":"✗ 我什么想吃。\n✓ 我什么都想吃。\nSau đại từ nghi vấn phải có 都 hoặc 也.\n✗ 我谁不认识。\n✓ 我谁都不认识。\nPhủ định đặt sau 都 / 也: 谁都不……\n✗ 他哪儿也去过。\n✓ 他哪儿都去过。\nÝ khẳng định “đi đâu cũng từng đi” dùng 都; 也 chủ yếu đi với phủ định.",
+        "compare_vi":"Trong tiếng Việt cũng có “ai cũng”, “gì cũng”, “đâu cũng”, nhưng trong tiếng Trung phải thêm 都 / 也 sau đại từ."
+      },
+      {
+        "id":"g2",
+        "title":"“……上” và “在……上” (trên; về mặt…)",
+        "pattern":"N + 上 (vị trí)　·　在 + N trừu tượng + 上，……",
+        "explanation_vi":"上 đứng sau danh từ để chỉ vị trí “trên” (桌子上、墙上、书上、网上、路上); lúc này đọc nhẹ (shang). Không dùng 在 nếu đã có 上 làm trạng ngữ chủ đề: 桌子上有一些水果 (không cần 在 ở đầu).\n在……上 còn dùng với danh từ trừu tượng để nói “về mặt, trong lĩnh vực”: 在学习上 (về việc học), 在工作上 (về công việc), 在做菜上 (trong chuyện nấu ăn), 在这个问题上 (về vấn đề này). Cụm này đứng đầu câu hoặc trước vị ngữ.\nKhông thể bỏ 上: ✗ 在学习，他很努力 (vẫn hiểu được nhưng 在学习上 là cách nói đúng khi nói về lĩnh vực).",
+        "examples":[
+          {"zh":"桌子上有一些水果。","pinyin":"Zhuōzi shang yǒu yìxiē shuǐguǒ.","vi":"Trên bàn có một ít trái cây."},
+          {"zh":"书上说，这道菜要用小火做。","pinyin":"Shū shang shuō, zhè dào cài yào yòng xiǎo huǒ zuò.","vi":"Sách viết rằng món này phải nấu bằng lửa nhỏ."},
+          {"zh":"网上有很多美食视频。","pinyin":"Wǎng shang yǒu hěn duō měishí shìpín.","vi":"Trên mạng có rất nhiều video về ẩm thực."},
+          {"zh":"在学习上，他很努力。","pinyin":"Zài xuéxí shang, tā hěn nǔlì.","vi":"Về việc học, cậu ấy rất chăm chỉ."},
+          {"zh":"在做菜上，我觉得最重要的是新鲜。","pinyin":"Zài zuò cài shang, wǒ juéde zuì zhòngyào de shì xīnxiān.","vi":"Trong chuyện nấu ăn, tôi thấy quan trọng nhất là sự tươi."}
+        ],
+        "mistakes_vi":"✗ 桌子有一些水果。\n✓ 桌子上有一些水果。\nNói vị trí “trên bàn” phải có 上 sau danh từ.\n✗ 我在网有一个朋友。\n✓ 我在网上有一个朋友。\nNgữ cảnh trên mạng là 网上, không thiếu 上.\n✗ 在学习，他很努力。\n✓ 在学习上，他很努力。\nNói về lĩnh vực trừu tượng dùng cấu trúc 在……上.",
+        "compare_vi":"Tiếng Việt “về mặt…”, “trong lĩnh vực…” tương đương với 在……上. Còn “trên mạng, trên bàn” là 网上, 桌子上."
+      },
+      {
+        "id":"g3",
+        "title":"“出来” sau động từ (nhận ra, nếm ra, nghĩ ra)",
+        "pattern":"V + 出来　·　V + 得出来 / V + 不出来　·　V + 出 + O + 来",
+        "explanation_vi":"出来 làm bổ ngữ kết quả có hai nhóm nghĩa chính:\n(1) Từ trong ra ngoài: 走出来、拿出来、说出来 (nói ra).\n(2) Một điều từ chưa rõ trở nên rõ, được nhận ra, tìm ra: 看出来 (nhìn ra), 听出来 (nghe ra), 吃出来 (nếm ra), 想出来 (nghĩ ra), 做出来 (làm ra), 写出来 (viết ra).\nDạng khả năng: V得出来 (nhận ra được) – V不出来 (không nhận ra): 你看得出来吗？ 我看不出来. Khi có tân ngữ, có thể đặt giữa 出 và 来: 想出一个办法来; hoặc đặt sau 出来 nếu là đại từ ngắn: 我听出来他的声音了.",
+        "examples":[
+          {"zh":"你吃得出来这个汤里放了什么吗？","pinyin":"Nǐ chī de chūlai zhège tāng li fàng le shénme ma?","vi":"Bạn nếm ra được trong món canh này cho gì không?"},
+          {"zh":"我听出来了，这是你的声音。","pinyin":"Wǒ tīng chūlai le, zhè shì nǐ de shēngyīn.","vi":"Tôi nghe ra rồi, đây là giọng của bạn."},
+          {"zh":"他想出了一个好办法来。","pinyin":"Tā xiǎng chū le yí ge hǎo bànfǎ lái.","vi":"Anh ấy nghĩ ra được một cách hay."},
+          {"zh":"你看不出来他今年六十岁了。","pinyin":"Nǐ kàn bu chūlái tā jīnnián liùshí suì le.","vi":"Bạn nhìn không ra là năm nay ông ấy đã sáu mươi tuổi."},
+          {"zh":"请把你的想法说出来。","pinyin":"Qǐng bǎ nǐ de xiǎngfǎ shuō chūlái.","vi":"Xin hãy nói suy nghĩ của bạn ra."}
+        ],
+        "mistakes_vi":"✗ 我看出来不他累了。\n✓ 我看不出来他累了。\nDạng khả năng là V不出来 / V得出来 (đặt 不 / 得 giữa V và 出来).\n✗ 我想出来了一个办法。\n✓ 我想出了一个办法。/ 我想出一个办法来。\nTân ngữ phải đặt sau 出 (想出了 + O) hoặc giữa 出 và 来, không chen sau 出来了.\n✗ 我吃出来得这个菜的味道。\n✓ 我吃得出来这个菜的味道。\n得 đứng giữa động từ và 出来.",
+        "compare_vi":"V + 出来 ≈ “…ra” (nhìn ra, nghe ra, nếm ra, nghĩ ra, nói ra). Tiếng Việt cũng dùng “ra” theo cách này."
+      },
+      {
+        "id":"g4",
+        "title":"“总的来说” (nhìn chung) và “在于” (nằm ở chỗ)",
+        "pattern":"总的来说，……　·　A 在于 B　·　不在于 A，而在于 B",
+        "explanation_vi":"(1) 总的来说 = “nhìn chung, tóm lại”, đứng đầu câu để đưa ra nhận xét tổng quát sau khi đã kể chi tiết. Sau 总的来说 có dấu phẩy; có thể thay bằng 总之 / 总的来看. Không thêm 所以 / 因为 sau đó.\n(2) 在于 = “nằm ở chỗ, nằm ở”, dùng để chỉ ra mấu chốt, điểm khác biệt hay nguyên nhân: 关键在于……, 问题在于……, 区别在于……. 在于 chỉ dùng cho sự việc trừu tượng, không dùng cho vị trí cụ thể (nhà ở đâu là 在, không phải 在于). Dạng đối lập: 不在于A，而在于B (không nằm ở A mà ở B).",
+        "examples":[
+          {"zh":"总的来说，这家餐厅的菜味道不错。","pinyin":"Zǒng de lái shuō, zhè jiā cāntīng de cài wèidào búcuò.","vi":"Nhìn chung, món ăn ở nhà hàng này hương vị khá ổn."},
+          {"zh":"总的来说，今天的活动很成功。","pinyin":"Zǒng de lái shuō, jīntiān de huódòng hěn chénggōng.","vi":"Nhìn chung, hoạt động hôm nay rất thành công."},
+          {"zh":"这道菜的关键在于火不能太大。","pinyin":"Zhè dào cài de guānjiàn zàiyú huǒ bù néng tài dà.","vi":"Mấu chốt của món này nằm ở chỗ lửa không được quá to."},
+          {"zh":"幸福不在于有多少钱，而在于有没有爱的人。","pinyin":"Xìngfú bú zàiyú yǒu duōshao qián, ér zàiyú yǒu méiyǒu ài de rén.","vi":"Hạnh phúc không nằm ở chỗ có bao nhiêu tiền, mà ở chỗ có người mình yêu hay không."},
+          {"zh":"这两个词的区别在于意思不一样。","pinyin":"Zhè liǎng ge cí de qūbié zàiyú yìsi bù yíyàng.","vi":"Điểm khác nhau của hai từ này nằm ở chỗ nghĩa không giống nhau."}
+        ],
+        "mistakes_vi":"✗ 我家在于北京。\n✓ 我家在北京。\n在于 chỉ dùng cho vấn đề trừu tượng, không dùng để nói vị trí cụ thể.\n✗ 关键在于是火不能太大。\n✓ 关键在于火不能太大。\nSau 在于 không thêm 是.\n✗ 总的来说，所以这家餐厅不错。\n✓ 总的来说，这家餐厅不错。\n总的来说 đã mang nghĩa tổng kết, không dùng thêm 所以.",
+        "compare_vi":"总的来说 ≈ “nhìn chung, nói tóm lại”; 在于 ≈ “nằm ở chỗ, cốt ở”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Món quê của tôi",
+      "scene_vi": "Tối thứ Sáu, A Linh dẫn bạn là Tiểu Vương đến một nhà hàng chuyên món quê hương mình. Hai người vừa gọi món vừa nếm thử và nhận xét.",
+      "lines": [
+        {"speaker":"阿玲","zh":"小王，这家餐厅做的是我家乡的菜，你想吃什么都可以点。","pinyin":"Xiǎo Wáng, zhè jiā cāntīng zuò de shì wǒ jiāxiāng de cài, nǐ xiǎng chī shénme dōu kěyǐ diǎn.","vi":"Tiểu Vương, nhà hàng này làm món quê tớ, cậu muốn ăn gì cũng gọi được."},
+        {"speaker":"小王","zh":"我什么都想尝尝。听说你们家乡的小吃特别有名？","pinyin":"Wǒ shénme dōu xiǎng chángchang. Tīngshuō nǐmen jiāxiāng de xiǎochī tèbié yǒumíng?","vi":"Tớ món gì cũng muốn nếm thử. Nghe nói món ăn vặt quê cậu nổi tiếng lắm?"},
+        {"speaker":"阿玲","zh":"对。不过我们那儿的菜比较辣，你能吃辣吗？","pinyin":"Duì. Búguò wǒmen nàr de cài bǐjiào là, nǐ néng chī là ma?","vi":"Đúng. Có điều món ăn quê tớ khá cay, cậu ăn cay được không?"},
+        {"speaker":"小王","zh":"没问题，我吃多辣的菜都不怕。","pinyin":"Méi wèntí, wǒ chī duō là de cài dōu bú pà.","vi":"Không vấn đề, cay đến đâu tớ cũng không sợ."},
+        {"speaker":"阿玲","zh":"那我们点一个辣的鱼，一个西红柿炒鸡蛋，再来一碗汤吧。","pinyin":"Nà wǒmen diǎn yí ge là de yú, yí ge xīhóngshì chǎo jīdàn, zài lái yì wǎn tāng ba.","vi":"Vậy chúng mình gọi một món cá cay, một món cà chua xào trứng, rồi thêm một bát canh nhé."},
+        {"speaker":"小王","zh":"汤很鲜！我吃得出来，里面放了鱼。","pinyin":"Tāng hěn xiān! Wǒ chī de chūlai, lǐmiàn fàng le yú.","vi":"Canh ngọt quá! Tớ nếm ra được là trong đó có cho cá."},
+        {"speaker":"阿玲","zh":"你真厉害！这位厨师是我老家来的，他做汤的做法很特别。","pinyin":"Nǐ zhēn lìhai! Zhè wèi chúshī shì wǒ lǎojiā lái de, tā zuò tāng de zuòfǎ hěn tèbié.","vi":"Cậu giỏi thật! Vị đầu bếp này đến từ quê tớ, cách nấu canh của ông ấy rất đặc biệt."},
+        {"speaker":"小王","zh":"总的来说，这家餐厅的菜味道不错，就是有点儿咸。","pinyin":"Zǒng de lái shuō, zhè jiā cāntīng de cài wèidào búcuò, jiùshì yǒudiǎnr xián.","vi":"Nhìn chung, món ở nhà hàng này hương vị khá, chỉ hơi mặn."},
+        {"speaker":"阿玲","zh":"好菜的关键在于做法，不在于多放盐。我们让厨师少放一点儿。","pinyin":"Hǎo cài de guānjiàn zàiyú zuòfǎ, bú zàiyú duō fàng yán. Wǒmen ràng chúshī shǎo fàng yìdiǎnr.","vi":"Món ngon mấu chốt ở cách làm, không phải ở việc cho nhiều muối. Chúng mình bảo đầu bếp cho ít đi một chút."},
+        {"speaker":"小王","zh":"好啊。在做菜上，我觉得最重要的是新鲜。","pinyin":"Hǎo a. Zài zuò cài shang, wǒ juéde zuì zhòngyào de shì xīnxiān.","vi":"Được thôi. Trong chuyện nấu ăn, tớ thấy quan trọng nhất là sự tươi."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:味道","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个菜的____很好，我很喜欢。","options":["味道","厨房","家乡","餐厅"],"answer":0,"explanation_vi":"Nói về vị của món ăn: 味道很好."},
+      {"id":"e2","type":"choice","tag":"v:酸","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个苹果太____了，我吃不下。","options":["酸","辣","咸","香"],"answer":0,"explanation_vi":"Quả táo ăn không nổi vì quá chua: 酸."},
+      {"id":"e3","type":"choice","tag":"v:辣","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他不能吃____的菜，一吃就流汗。","options":["辣","汤","鲜","咸"],"answer":0,"explanation_vi":"Ăn cay thì toát mồ hôi: 辣的菜."},
+      {"id":"e4","type":"choice","tag":"v:咸","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"汤里的盐放多了，太____了。","options":["咸","酸","苦","香"],"answer":0,"explanation_vi":"Cho nhiều muối thì canh mặn: 咸."},
+      {"id":"e5","type":"choice","tag":"v:厨房","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"妈妈正在____做饭。","options":["厨房","餐厅","家乡","小吃"],"answer":0,"explanation_vi":"Nấu cơm trong nhà bếp: 厨房. 餐厅 là nơi ăn."},
+      {"id":"e6","type":"choice","tag":"v:做法","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请告诉我这道菜的____。","options":["做法","家乡","餐厅","厨师"],"answer":0,"explanation_vi":"Hỏi cách nấu món này: 这道菜的做法."},
+      {"id":"e7","type":"choice","tag":"v:总结","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"老师让我们____一下今天学的内容。","options":["总结","表示","做法","味道"],"answer":0,"explanation_vi":"Tổng kết lại bài đã học: 总结一下."},
+      {"id":"e8","type":"choice","tag":"g:任指","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____想尝尝。","options":["什么都","什么","都什么","什么是"],"answer":0,"explanation_vi":"Đại từ nghi vấn + 都 = gì cũng: 什么都想尝尝."},
+      {"id":"e9","type":"choice","tag":"g:任指","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["他哪儿都去过。","他哪儿也去过。","他哪儿去过都。","他都哪儿去过。"],"answer":0,"explanation_vi":"Khẳng định “đi đâu cũng từng đi”: 哪儿都去过. 也 chủ yếu đi với phủ định."},
+      {"id":"e10","type":"choice","tag":"g:上","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"在学习____，他很努力。","options":["上","里","外","下"],"answer":0,"explanation_vi":"Về mặt học tập: 在学习上."},
+      {"id":"e11","type":"choice","tag":"g:出来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你吃得____这个汤里放了什么吗？","options":["出来","出去","进来","起来"],"answer":0,"explanation_vi":"吃得出来 = nếm ra được."},
+      {"id":"e12","type":"choice","tag":"g:总的来说","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____，这家餐厅的菜味道不错。","options":["总的来说","但是","然后","因为"],"answer":0,"explanation_vi":"Nhận xét tổng thể: 总的来说 (nhìn chung)."},
+      {"id":"e13","type":"order","tag":"g:在于","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这道菜的","关键","在于","火","不能太大"],"answers":["这道菜的关键在于火不能太大"],"translation_vi":"Mấu chốt của món này nằm ở chỗ lửa không được quá to.","explanation_vi":"关键 + 在于 + nội dung."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"午餐","vi":"bữa trưa"},{"zh":"晚餐","vi":"bữa tối"},{"zh":"快餐","vi":"đồ ăn nhanh"},{"zh":"食堂","vi":"nhà ăn tập thể"},{"zh":"零食","vi":"đồ ăn vặt"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:任指","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["他去哪儿都带着手机。","他去哪儿带着手机都。","他都去哪儿带着手机。","他去哪儿带着都手机。"],"answer":0,"explanation_vi":"Đại từ nghi vấn + 都 + động từ."},
+        {"id":"q2","type":"choice","tag":"g:任指","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个问题谁____会回答。","options":["都","才","就","再"],"answer":0,"explanation_vi":"谁都会回答 = ai cũng biết trả lời."},
+        {"id":"q3","type":"choice","tag":"g:上","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["桌子上有一些水果。","桌子有一些水果上。","桌子有上一些水果。","上桌子有一些水果。"],"answer":0,"explanation_vi":"Vị trí: danh từ + 上 + 有 + vật."},
+        {"id":"q4","type":"choice","tag":"g:出来","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["你看不出来他今年六十岁了。","你看出来不他今年六十岁了。","你不看出来他今年六十岁了。","你看不他出来今年六十岁了。"],"answer":0,"explanation_vi":"Dạng khả năng phủ định: V不出来."},
+        {"id":"q5","type":"choice","tag":"g:总的来说","prompt_vi":"Chọn câu đúng.","question_zh":"Chọn câu đúng.","options":["总的来说，这家餐厅的菜味道不错。","总的来说，所以这家餐厅不错。","这家餐厅总的来说，因为不错。","总的来说但是这家餐厅不错。"],"answer":0,"explanation_vi":"总的来说 + dấu phẩy + nhận xét, không thêm 所以 / 因为 / 但是."},
+        {"id":"q6","type":"choice","tag":"g:在于","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"幸福不在于有多少钱，____在于有没有爱的人。","options":["而","但","和","就"],"answer":0,"explanation_vi":"不在于A，而在于B: không phải A mà là B."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:早餐","prompt_vi":"Chọn đáp án đúng.","question_zh":"他每天早上都吃____。","options":["早餐","汤","厨房","食物"],"answer":0,"explanation_vi":"Ăn vào buổi sáng: 吃早餐."},
+      {"id":"t2","type":"choice","tag":"g:出来","prompt_vi":"Chọn đáp án đúng.","question_zh":"请把你的想法说____。","options":["出来","起来","下去","回来"],"answer":0,"explanation_vi":"说出来 = nói ra (suy nghĩ)."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"稍微","vi":"hơi, một chút"},{"zh":"剩","vi":"còn thừa"},{"zh":"熟","vi":"chín"},{"zh":"凉","vi":"nguội, lạnh"},{"zh":"盐","vi":"muối"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"饼干","vi":"bánh quy"},{"zh":"馒头","vi":"màn thầu"},{"zh":"葡萄","vi":"nho"},{"zh":"酸奶","vi":"sữa chua"},{"zh":"果汁","vi":"nước ép trái cây"}]},
+      {"id":"t5","type":"order","tag":"g:任指","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","去","哪儿","都","带着","手机"],"answers":["他去哪儿都带着手机"],"translation_vi":"Anh ấy đi đâu cũng mang theo điện thoại.","explanation_vi":"Đại từ nghi vấn 哪儿 + 都 + động từ."},
+      {"id":"t6","type":"order","tag":"g:上","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["在","学习","上","他","很","努力"],"answers":["在学习上他很努力","他在学习上很努力"],"translation_vi":"Về việc học, cậu ấy rất chăm chỉ.","explanation_vi":"在学习上 có thể đứng đầu câu hoặc sau chủ ngữ."},
+      {"id":"t7","type":"fill","tag":"g:在于","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"这道菜的关键____火不能太大。","answers":["在于"],"hint_vi":"nằm ở chỗ","explanation_vi":"关键在于…… = mấu chốt nằm ở…."},
+      {"id":"t8","type":"fill","tag":"g:任指","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我____都想尝尝。","answers":["什么"],"hint_vi":"gì (cũng)","explanation_vi":"什么都想尝尝 = món gì cũng muốn nếm thử."},
+      {"id":"t9","type":"listen_choice","tag":"g:总的来说","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"总的来说，这家餐厅的菜味道不错。","options":["Nhìn chung, món ở nhà hàng này hương vị khá.","Tóm lại, nhà hàng này rất đắt.","Món ở đây có vẻ không ngon lắm.","Nhà hàng này vừa mở nên chưa có nhiều khách."],"answer":0,"explanation_vi":"总的来说 = nhìn chung; 味道不错 = hương vị khá."},
+      {"id":"t10","type":"listen_choice","tag":"v:味道","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"这个菜的味道很好。","options":["这个菜的味道很好。","这个菜的做法很好。","这个汤的味道很好。","这个菜的价格很好。"],"answer":0,"explanation_vi":"Câu nghe được: 这个菜的味道很好 = Món này hương vị rất ngon."},
+      {"id":"t11","type":"dictation","tag":"g:出来","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我听出来了，这是你的声音。","answers":["我听出来了这是你的声音"],"explanation_vi":"我听出来了，这是你的声音 = Tôi nghe ra rồi, đây là giọng của bạn."},
+      {"id":"t12","type":"dictation","tag":"v:家乡","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我常常想起家乡的小吃。","answers":["我常常想起家乡的小吃"],"explanation_vi":"我常常想起家乡的小吃 = Tôi thường nhớ đến những món ăn vặt quê nhà."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:任指","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Anh ấy đi đâu cũng mang theo điện thoại.","answers":["他去哪儿都带着手机","他去哪里都带着手机","他去哪儿都带手机","他去哪里都带手机","他到哪儿都带着手机","他到哪里都带着手机","他去哪儿都拿着手机","他不管去哪儿都带着手机"],"explanation_vi":"去哪儿都带着手机: đại từ nghi vấn + 都."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:在于","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Mấu chốt của món này nằm ở chỗ lửa không được quá to.","answers":["这道菜的关键在于火不能太大","这个菜的关键在于火不能太大","这道菜的关键在于火不要太大","这个菜的关键在于火不要太大","这道菜的关键在于火不可以太大","这道菜的关键是火不能太大","这个菜的关键是火不能太大"],"explanation_vi":"关键在于 + 火不能太大."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:出来","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"你吃得出来这个汤里放了什么吗？","answers_vi":["Bạn có nếm ra được trong món canh này cho gì không?","Cậu ăn ra được trong canh này có cho gì không?"],"keywords":[["nếm ra","ăn ra","nhận ra","đoán ra","biết","nếm được","ăn được"],["canh","súp"],["cho","bỏ","có","thêm"],["gì"]],"explanation_vi":"吃得出来 = nếm ra được; 放了什么 = đã cho gì vào."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:总的来说","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"总的来说，今天的活动很成功。","answers_vi":["Nhìn chung, hoạt động hôm nay rất thành công.","Tóm lại, buổi hoạt động hôm nay rất thành công."],"keywords":[["nhìn chung","nói chung","tóm lại","tổng thể","nhìn tổng thể"],["hôm nay"],["hoạt động","buổi","sự kiện","chương trình"],["thành công"]],"explanation_vi":"总的来说 = nhìn chung; 成功 = thành công."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"妈妈的汤",
+        "title_vi":"Món canh của mẹ",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["的","de","(của)"],["家乡","jiāxiāng","quê hương"],["在","zài","ở"],["南方","nánfāng","miền nam"],["，"],["那里","nàli","nơi đó"],["的","de","(của)"],["小吃","xiǎochī","món ăn vặt"],["很","hěn","rất"],["有名","yǒumíng","nổi tiếng"],["。"],["小时候","xiǎo shíhou","hồi nhỏ"],["，"],["妈妈","māma","mẹ"],["每天","měi tiān","mỗi ngày"],["都","dōu","đều"],["在","zài","ở"],["厨房","chúfáng","nhà bếp"],["里","li","trong"],["做饭","zuò fàn","nấu cơm"],["，"],["我","wǒ","tôi"],["一","yì","vừa"],["回家","huí jiā","về nhà"],["，"],["就","jiù","là"],["能","néng","có thể"],["闻到","wén dào","ngửi thấy"],["香味","xiāngwèi","mùi thơm"],["。"],["妈妈","māma","mẹ"],["做","zuò","nấu"],["的","de","(trợ từ)"],["汤","tāng","canh"],["特别","tèbié","đặc biệt"],["鲜","xiān","ngọt"],["，"],["我","wǒ","tôi"],["喝","hē","uống"],["多少","duōshao","bao nhiêu"],["都","dōu","cũng"],["不够","bú gòu","không đủ"],["。"]],
+            "vi":"Quê tôi ở miền nam, món ăn vặt ở đó rất nổi tiếng. Hồi nhỏ mẹ ngày nào cũng nấu cơm trong bếp, tôi vừa về đến nhà là ngửi thấy mùi thơm. Canh mẹ nấu ngọt đặc biệt, tôi uống bao nhiêu cũng không đủ."
+          },
+          {
+            "tokens":[["后来","hòulái","về sau"],["我","wǒ","tôi"],["去","qù","đến"],["外地","wàidì","nơi khác"],["工作","gōngzuò","làm việc"],["，"],["吃","chī","ăn"],["过","guo","từng"],["很多","hěn duō","nhiều"],["餐厅","cāntīng","nhà hàng"],["的","de","(của)"],["美食","měishí","món ngon"],["，"],["有","yǒu","có"],["酸","suān","chua"],["的","de","(cái)"],["，"],["有","yǒu","có"],["辣","là","cay"],["的","de","(cái)"],["，"],["也","yě","cũng"],["有","yǒu","có"],["咸","xián","mặn"],["的","de","(cái)"],["、"],["苦","kǔ","đắng"],["的","de","(cái)"],["，"],["可是","kěshì","nhưng"],["我","wǒ","tôi"],["怎么","zěnme","thế nào"],["吃","chī","ăn"],["也","yě","cũng"],["吃","chī","ăn"],["不出来","bu chūlái","không ra"],["家里","jiā li","ở nhà"],["的","de","(của)"],["味道","wèidào","hương vị"],["。"],["我","wǒ","tôi"],["问","wèn","hỏi"],["妈妈","māma","mẹ"],["这","zhè","này"],["道","dào","(lượng từ: món)"],["汤","tāng","canh"],["的","de","(của)"],["做法","zuòfǎ","cách làm"],["，"],["她","tā","bà"],["笑","xiào","cười"],["着","zhe","(đang)"],["说","shuō","nói"],["："],["“"],["做法","zuòfǎ","cách làm"],["很","hěn","rất"],["简单","jiǎndān","đơn giản"],["，"],["关键","guānjiàn","mấu chốt"],["在于","zàiyú","nằm ở chỗ"],["用心","yòngxīn","dùng tâm"],["。"],["”"]],
+            "vi":"Về sau tôi đến nơi khác làm việc, từng ăn rất nhiều món ngon ở các nhà hàng, có món chua, món cay, cũng có món mặn, món đắng, nhưng tôi ăn thế nào cũng không ăn ra hương vị ở nhà. Tôi hỏi mẹ cách nấu món canh này, bà cười nói: “Cách làm rất đơn giản, mấu chốt nằm ở chỗ dùng cả tấm lòng.”"
+          },
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["我","wǒ","tôi"],["自己","zìjǐ","tự"],["也","yě","cũng"],["会","huì","biết"],["做","zuò","nấu"],["那","nà","đó"],["道","dào","(lượng từ: món)"],["汤","tāng","canh"],["了","le","(rồi)"],["。"],["总的来说","zǒng de lái shuō","nhìn chung"],["，"],["我","wǒ","tôi"],["做","zuò","nấu"],["得","de","(trợ từ)"],["不错","búcuò","khá tốt"],["，"],["只是","zhǐshì","chỉ là"],["还","hái","còn"],["差","chà","thiếu"],["一点儿","yìdiǎnr","một chút"],["。"],["我","wǒ","tôi"],["想","xiǎng","nghĩ"],["，"],["那","nà","đó"],["一点儿","yìdiǎnr","một chút"],["，"],["大概","dàgài","có lẽ"],["是","shì","là"],["妈妈","māma","mẹ"],["的","de","(của)"],["爱","ài","tình yêu"],["吧","ba","nhỉ"],["。"]],
+            "vi":"Bây giờ tôi cũng đã tự nấu được món canh đó. Nhìn chung, tôi nấu cũng khá, chỉ còn thiếu một chút. Tôi nghĩ, chút đó có lẽ là tình yêu của mẹ."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”的家乡有什么特点？","options":["小吃很有名","天气很冷","工作很多","城市很大"],"answer":0,"explanation_vi":"Đoạn 1: 家乡……小吃很有名."},
+          {"id":"rq2","type":"choice","tag":"v:鲜","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"妈妈做的汤怎么样？","options":["特别鲜","特别咸","特别辣","特别苦"],"answer":0,"explanation_vi":"Đoạn 1: 妈妈做的汤特别鲜."},
+          {"id":"rq3","type":"choice","tag":"g:出来","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"在外地，“我”吃出了家里的味道。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 我怎么吃也吃不出来家里的味道 — câu này sai."},
+          {"id":"rq4","type":"choice","tag":"g:在于","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"妈妈说这道汤的做法，关键在于什么？","options":["用心","放很多盐","火要很大","用很贵的东西"],"answer":0,"explanation_vi":"Đoạn 2: 关键在于用心."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"现在“我”自己也会做那道汤了。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 现在我自己也会做那道汤了 — câu này đúng."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Chương trình ẩm thực: cà chua xào trứng",
+        "text_zh":"各位观众，欢迎来到今天的美食节目。今天我们教大家做一道很简单的菜：西红柿炒鸡蛋。先把鸡蛋打好，再把西红柿弄成小块。然后在锅里放一点儿油，油热了以后，先炒鸡蛋，鸡蛋熟了就拿出来。接着炒西红柿，再放一点儿盐。最后把鸡蛋放回去，就可以吃了。这道菜的做法不难，关键在于火不能太大。总的来说，十分钟就可以做好。",
+        "pinyin":"Gè wèi guānzhòng, huānyíng lái dào jīntiān de měishí jiémù. Jīntiān wǒmen jiāo dàjiā zuò yí dào hěn jiǎndān de cài: xīhóngshì chǎo jīdàn. Xiān bǎ jīdàn dǎ hǎo, zài bǎ xīhóngshì nòng chéng xiǎo kuài. Ránhòu zài guō li fàng yìdiǎnr yóu, yóu rè le yǐhòu, xiān chǎo jīdàn, jīdàn shú le jiù ná chūlai. Jiēzhe chǎo xīhóngshì, zài fàng yìdiǎnr yán. Zuìhòu bǎ jīdàn fàng huíqu, jiù kěyǐ chī le. Zhè dào cài de zuòfǎ bù nán, guānjiàn zàiyú huǒ bù néng tài dà. Zǒng de lái shuō, shí fēnzhōng jiù kěyǐ zuò hǎo.",
+        "vi":"Kính chào quý khán giả, chào mừng đến với chương trình ẩm thực hôm nay. Hôm nay chúng tôi dạy mọi người làm một món rất đơn giản: cà chua xào trứng. Trước tiên đánh trứng, sau đó cắt cà chua thành miếng nhỏ. Rồi cho một chút dầu vào chảo, khi dầu nóng, xào trứng trước, trứng chín thì lấy ra. Tiếp theo xào cà chua, cho thêm một chút muối. Cuối cùng cho trứng trở lại, là có thể ăn được. Cách làm món này không khó, mấu chốt nằm ở chỗ lửa không được quá to. Nhìn chung, mười phút là có thể làm xong.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"今天的节目教大家做什么菜？","options":["西红柿炒鸡蛋","辣鱼","鸡汤","烤肉"],"answer":0,"explanation_vi":"Nghe được: 今天我们教大家做……西红柿炒鸡蛋."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"油热了以后，先炒什么？","options":["鸡蛋","西红柿","盐","汤"],"answer":0,"explanation_vi":"Nghe được: 油热了以后，先炒鸡蛋."},
+          {"id":"lq3","type":"choice","tag":"v:盐","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"什么时候放盐？","options":["炒西红柿的时候","打鸡蛋以前","吃饭以后","鸡蛋刚放进锅的时候"],"answer":0,"explanation_vi":"Nghe được: 接着炒西红柿，再放一点儿盐."},
+          {"id":"lq4","type":"choice","tag":"g:在于","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这道菜的关键在于什么？","options":["火不能太大","盐要放多","油要放多","要用很多西红柿"],"answer":0,"explanation_vi":"Nghe được: 关键在于火不能太大."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"味道","pinyin":"wèidào","vi":"hương vị","tip_vi":"味 wèi: w gần như u ngắn, thanh 4 xuống mạnh. 道 dào: d không bật hơi, vần ao đọc rộng miệng, thanh 4; thường đọc 道 hơi nhẹ khi nói nhanh."},
+      {"id":"s2","zh":"酸、辣、苦、咸","pinyin":"suān, là, kǔ, xián","vi":"chua, cay, đắng, mặn","tip_vi":"酸 suān: s đầu lưỡi, -uan tròn môi. 辣 là: l đầu lưỡi chạm lợi trên, thanh 4. 苦 kǔ: k bật hơi mạnh. 咸 xián: x miệng bẹt, thanh 2 lên rõ, -ian như “iên”."},
+      {"id":"s3","zh":"厨师","pinyin":"chúshī","vi":"đầu bếp","tip_vi":"厨 chú: ch uốn lưỡi và bật hơi, thanh 2 lên rõ. 师 shī: sh uốn lưỡi, vần -i như “ư” ngắn, thanh 1 cao và bằng. Hai âm uốn lưỡi liền nhau, đừng đọc thành “xư”."},
+      {"id":"s4","zh":"我什么都想尝尝。","pinyin":"Wǒ shénme dōu xiǎng chángchang.","vi":"Tôi món gì cũng muốn nếm thử.","tip_vi":"什么 shénme: 么 đọc nhẹ me. 都 dōu thanh 1, nhấn mạnh để biểu thị “bất cứ”. 想 xiǎng: x miệng bẹt, thanh 3 đọc nửa. 尝尝 chángchang: chữ 尝 thứ hai đọc nhẹ."},
+      {"id":"s5","zh":"你吃得出来这个汤里放了什么吗？","pinyin":"Nǐ chī de chūlai zhège tāng li fàng le shénme ma?","vi":"Bạn nếm ra được trong món canh này cho gì không?","tip_vi":"吃得出来: 得 đọc nhẹ de, 出来 chūlai: 来 nhẹ. 汤 tāng: t bật hơi mạnh, -ang ở cuống lưỡi. 里 li, 了 le, 么 me đọc nhẹ. Câu hỏi lên giọng ở 吗."},
+      {"id":"s6","zh":"总的来说，这家餐厅的菜味道不错。","pinyin":"Zǒng de lái shuō, zhè jiā cāntīng de cài wèidào búcuò.","vi":"Nhìn chung, món ở nhà hàng này hương vị khá.","tip_vi":"总的来说: 总 zǒng thanh 3 đọc nửa, 的 nhẹ; 来 lái, 说 shuō. 餐厅 cāntīng: c bật hơi, -an rồi -ing. 不错 búcuò: 不 đọc bú (trước thanh 4). 菜 cài: c bật hơi."},
+      {"id":"s7","zh":"这道菜的关键在于火不能太大。","pinyin":"Zhè dào cài de guānjiàn zàiyú huǒ bù néng tài dà.","vi":"Mấu chốt của món này nằm ở chỗ lửa không được quá to.","tip_vi":"关键 guānjiàn: g không bật hơi; 键 jiàn thanh 4. 在于 zàiyú: yú tròn môi (ü). 火 huǒ: -uo tròn môi, thanh 3 nửa. 不能 bù néng: 不 thanh 4 vì 能 thanh 2. 太大 tài dà: hai thanh 4 liền."}
+    ],
+    "review": {
+      "remember": [
+        "Đại từ nghi vấn + 都 / 也 = bất cứ… cũng…: 什么都吃, 谁都知道, 哪儿都去; phủ định: 什么也不想吃. Khẳng định dùng 都, phủ định hay dùng 也.",
+        "N + 上 = trên (桌子上, 网上); 在……上 = về mặt, trong lĩnh vực (在学习上, 在做菜上).",
+        "V + 出来 = nhận ra / nếm ra / nghĩ ra: 吃得出来 / 看不出来 / 想出一个办法来; tân ngữ chen giữa 出 và 来.",
+        "总的来说 = nhìn chung (đứng đầu câu); A 在于 B = A nằm ở B (trừu tượng), 不在于A，而在于B.",
+        "Vị: 酸 chua, 辣 cay, 苦 đắng, 咸 mặn, 香 thơm, 鲜 tươi/ngọt; 食物 (đồ ăn) khác 植物 (thực vật); 做法 = cách làm."
+      ],
+      "mistakes": [
+        "✗ 我什么想吃 → ✓ 我什么都想吃: đại từ nghi vấn cần 都 / 也.",
+        "✗ 我看出来不他累了 → ✓ 我看不出来他累了: dạng khả năng V不出来.",
+        "✗ 我家在于北京 → ✓ 我家在北京: 在于 chỉ dùng cho điều trừu tượng."
+      ]
+    }
+  }
+}
