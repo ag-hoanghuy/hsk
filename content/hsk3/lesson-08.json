@@ -25,7 +25,7 @@
       {"id":"v12","hanzi":"鞋","pinyin":"xié","pos":"danh từ","meaning_vi":"giày, dép","example_zh":"我想买一双黑色的鞋。","example_pinyin":"Wǒ xiǎng mǎi yì shuāng hēisè de xié.","example_vi":"Tôi muốn mua một đôi giày màu đen.","note_vi":"Một đôi giày là 一双鞋 (lượng từ 双 = đôi). x là âm mặt lưỡi, môi dẹt, không đọc như “x” tiếng Việt."},
       {"id":"v13","hanzi":"店","pinyin":"diàn","pos":"danh từ","meaning_vi":"cửa hàng, tiệm","example_zh":"这家店的衣服不太贵。","example_pinyin":"Zhè jiā diàn de yīfu bú tài guì.","example_vi":"Quần áo của tiệm này không đắt lắm.","hanviet":"ĐIẾM","note_vi":"Lượng từ 家: 一家店. Hay đứng cuối từ ghép: 书店 (hiệu sách), 鞋店 (tiệm giày), 商店 (cửa hàng)."},
       {"id":"v14","hanzi":"书店","pinyin":"shūdiàn","pos":"danh từ","meaning_vi":"hiệu sách","example_zh":"学校旁边有一家书店。","example_pinyin":"Xuéxiào pángbiān yǒu yì jiā shūdiàn.","example_vi":"Bên cạnh trường có một hiệu sách.","hanviet":"THƯ ĐIẾM"},
-      {"id":"v15","hanzi":"街","pinyin":"jiē","pos":"danh từ","meaning_vi":"phố, đường phố","example_zh":"这条街上有很多小店。","example_pinyin":"Zhè tiáo jiē shang yǒu hěn duō xiǎo diàn.","example_vi":"Trên con phố này có rất nhiều cửa hàng nhỏ.","note_vi":"Lượng từ 条: 一条街. 街上 = trên phố, ngoài phố. j không bật hơi, đừng đọc thành “chi-ê” bật hơi."}
+      {"id":"v15","hanzi":"街","pinyin":"jiē","pos":"danh từ","meaning_vi":"phố, đường phố","example_zh":"这条街上有很多小店。","example_pinyin":"Zhè tiáo jiē shang yǒu hěn duō xiǎo diàn.","example_vi":"Trên con phố này có rất nhiều cửa hàng nhỏ.","note_vi":"Lượng từ 条: 一条街. 街上 = trên phố, ngoài phố. jiē: j không bật hơi, mặt lưỡi áp lên vòm miệng; đừng đọc thành “chiê” kiểu tiếng Việt."}
     ],
     "extra_vocab": [
       {"id":"x1","hanzi":"附近","pinyin":"fùjìn","pos":"danh từ","meaning_vi":"gần đây, xung quanh, lân cận","example_zh":"我家附近有一个大超市。","example_pinyin":"Wǒ jiā fùjìn yǒu yí ge dà chāoshì.","example_vi":"Gần nhà tôi có một siêu thị lớn.","hanviet":"PHỤ CẬN"},
@@ -174,7 +174,7 @@
         "questions":[
           {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她昨天买了什么？","options":["一条黑色的裤子","一条白色的裙子","一件衬衫","一双鞋"],"answer":0,"explanation_vi":"Nghe được: 昨天我在商场买了一条黑色的裤子."},
           {"id":"lq2","type":"choice","tag":"v:换","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她今天为什么又去了那家店？","options":["想换一条裤子","想买一件衬衫","想买一双鞋","想去书店"],"answer":0,"explanation_vi":"Nghe được: 今天上午我又去了那家店，想换一条小一点儿的."},
-          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她换了一条什么颜色的裤子？","options":["白色的","黑色的","红色的","绿色的"],"answer":0,"explanation_vi":"Nghe được: 黑色的都卖完了……就换了一条白色的."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她换了一条什么颜色的裤子？","options":["白色的","黑色的","红色的","绿色的"],"answer":0,"explanation_vi":"Nghe được: 这种裤子黑色的都卖完了……就换了一条白色的."},
           {"id":"lq4","type":"choice","tag":"g:又再","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"下个星期她想做什么？","options":["再去那家店买衬衫","再去换裤子","去超市买水果","在家休息"],"answer":0,"explanation_vi":"Nghe được: 下个星期我还想再去那家店，买一件衬衫 — việc chưa xảy ra nên dùng 再."}
         ]
       }

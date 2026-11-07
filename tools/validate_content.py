@@ -349,21 +349,37 @@ class Lists:
                 if run[i] in SURNAMES and any(run.startswith(t, i + 1) for t in TITLES):
                     i += 1  # 王老师, 李经理
                     continue
-                for n in range(min(max(self.longest, 4), len(run) - i), 0, -1):
-                    w = run[i : i + n]
-                    if n == 1 or w in self.new or w in extra:
-                        out.append(w)
-                        i += n
-                        break
+                n = self._longest(run, i, extra)
+                # 不安全 = 不 + 安全, not 不安 + 全: after a function character prefer the longer word that follows
+                if n >= 2 and run[i] in FUNCTION_CHARS and 1 + self._longest(run, i + 1, extra) > n:
+                    n = 1
+                out.append(run[i : i + n])
+                i += n
         return out
+
+    def _longest(self, run: str, i: int, extra: set[str]) -> int:
+        for n in range(min(max(self.longest, 4), len(run) - i), 0, -1):
+            if n == 1 or run[i : i + n] in self.new or run[i : i + n] in extra:
+                return n
+        return 0
 
 
 DIGITS = set("零一二三四五六七八九十百千万两")
 NUMERALS = DIGITS | set("几半每这那哪")
 MEASURES = set("个口本张件条只位次场块双杯碗瓶家岁天年些点分号月")
 UNIT_WORDS = {"分钟", "点钟", "个月", "年级"}  # measure + word that do belong together after a number
+FUNCTION_CHARS = set("不没很也都就还又再才更最太")
 SURNAMES = set("王李张刘陈杨赵黄周吴徐孙马朱胡林郭何高罗郑梁谢宋唐许邓冯韩曹曾彭萧蔡潘田董袁于余叶蒋杜苏魏程吕丁沈任姚卢钟姜崔谭廖范汪陆金石戴贾韦夏邱方侯邹熊孟秦白江薛尹段雷黎史龙陶贺顾毛郝龚邵万钱严武莫孔汤常温康施文牛葛邢安齐乔伍庞颜倪庄聂章鲁岳")
 TITLES = ("老师", "先生", "女士", "小姐", "经理", "医生", "阿姨", "叔叔", "大夫", "师傅", "同学", "教授")
+
+
+def splits_into(word: str, known: set[str]) -> bool:
+    """True when `word` can be cut into two or more pieces that are all known words."""
+    def ok(s: str, parts: int) -> bool:
+        if not s:
+            return parts >= 2
+        return any(s[:n] in known and ok(s[n:], parts + 1) for n in range(1, len(s) + 1) if parts > 0 or n < len(word))
+    return ok(word, 0)
 
 
 def assumed_known() -> set[str]:
@@ -403,9 +419,12 @@ def check_levels(lessons: list[tuple[str, dict]], lists: Lists) -> None:
         core = [v["hanzi"] for v in c.get("vocab", [])]
         extra = [v["hanzi"] for v in c.get("extra_vocab", [])]
         words = core + extra
+        own_plan = planned.get((level, data["number"]), set())
         for w in words:
             lv = lists.new.get(w)
-            if lv is None:
+            if w in own_plan:
+                pass  # the allocation decided where this word is taught (e.g. a grammar word taught early)
+            elif lv is None:
                 warn(where, f"taught word {w} is not in the new-HSK list")
             elif lv == level or (lv <= 2 and w not in known):
                 pass  # a word of this level, or a base word the learner does not know yet
@@ -425,13 +444,16 @@ def check_levels(lessons: list[tuple[str, dict]], lists: Lists) -> None:
         glossary = {g["hanzi"] for g in c.get("glossary", [])}
         seen = set(taught_at) | readable | earlier_plan
         missing: dict[str, str] = {}
+        usable = seen | glossary
         for text in lesson_texts(c):
-            for w in lists.segment(text, seen | glossary):
-                if w in seen or w in glossary:
+            for w in lists.segment(text, usable):
+                if w in usable:
                     continue
                 lv = lists.new.get(w)
                 if lv is None:
                     continue  # names and characters outside the lists
+                if splits_into(w, usable):
+                    continue  # 难得多 = 难 + 得 + 多, 说的话 = 说 + 的 + 话: the segmenter cannot tell, so do not complain
                 missing[w] = "base" if lv <= 2 else "beyond"
         if missing:
             listed = ", ".join(f"{w}({k})" for w, k in sorted(missing.items()))

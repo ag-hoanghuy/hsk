@@ -1,0 +1,221 @@
+{
+  "level": 3,
+  "number": 6,
+  "summary": "Tìm đồ bị mất, hỏi đồ vật đang ở đâu; học bổ ngữ khả năng “V得/不 + bổ ngữ” (找得到、找不到), câu hỏi “danh từ + 呢？” và cách phân biệt “刚” với “刚才”.",
+  "readings_ok": ["得 de", "谁 shéi", "啊 à", "里 li"],
+  "content": {
+    "objectives": [
+      "Nói làm được / không làm được bằng bổ ngữ khả năng: 找得到、找不到、听不懂、看不清楚",
+      "Hỏi nhanh một đồ vật đang ở đâu bằng “danh từ + 呢？”: 我的包呢？",
+      "Phân biệt 刚 (vừa mới) và 刚才 (lúc nãy) khi kể lại việc vừa xảy ra",
+      "Kể chuyện tìm đồ bị mất và trấn an người khác: 别着急、别担心、终于找到了"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"突然","pinyin":"tūrán","pos":"tính từ / phó từ","meaning_vi":"đột nhiên, bỗng nhiên; bất ngờ","example_zh":"我正在看书，突然听见有人叫我。","example_pinyin":"Wǒ zhèngzài kàn shū, tūrán tīngjiàn yǒu rén jiào wǒ.","example_vi":"Tôi đang đọc sách thì bỗng nghe thấy có người gọi mình.","hanviet":"ĐỘT NHIÊN","note_vi":"Hay đứng trước động từ: 突然不见了, 突然下雨了. Cũng là tính từ: 这件事很突然 (chuyện này rất bất ngờ). Đứng được ở đầu câu: 突然，电话响了."},
+      {"id":"v2","hanzi":"丢","pinyin":"diū","pos":"động từ","meaning_vi":"mất, đánh mất, làm rơi mất","example_zh":"我在公共汽车上丢了一个包。","example_pinyin":"Wǒ zài gōnggòng qìchē shang diū le yí ge bāo.","example_vi":"Tôi bị mất một cái túi trên xe buýt.","note_vi":"“Bị mất” chỉ cần 丢了, không dịch chữ “bị” thành 被: ✗ 我的手机被丢了 → ✓ 我的手机丢了. d không bật hơi, -iu đọc gần “điêu”."},
+      {"id":"v3","hanzi":"不见","pinyin":"bújiàn","pos":"động từ","meaning_vi":"biến mất, không thấy đâu nữa","example_zh":"我的耳机不见了，你看见了吗？","example_pinyin":"Wǒ de ěrjī bú jiàn le, nǐ kànjiàn le ma?","example_vi":"Tai nghe của tôi không thấy đâu nữa, bạn có thấy không?","note_vi":"Nói đồ vật mất tích thì gần như luôn dùng 不见了 (có 了). 不 đọc thanh 2 (bú) vì đứng trước thanh 4."},
+      {"id":"v4","hanzi":"刚","pinyin":"gāng","pos":"phó từ","meaning_vi":"vừa, vừa mới","example_zh":"他刚出去，马上就回来。","example_pinyin":"Tā gāng chūqu, mǎshàng jiù huílai.","example_vi":"Anh ấy vừa ra ngoài, sẽ về ngay thôi.","hanviet":"CƯƠNG","note_vi":"刚 là phó từ: chỉ đứng sau chủ ngữ, ngay trước động từ. Sau 刚 + V có thể nói thêm khoảng thời gian: 我刚来一个月 (tôi mới đến được một tháng). So sánh với 刚才 ở phần ngữ pháp."},
+      {"id":"v5","hanzi":"刚才","pinyin":"gāngcái","pos":"danh từ","meaning_vi":"lúc nãy, vừa nãy","example_zh":"刚才谁给我打电话了？","example_pinyin":"Gāngcái shéi gěi wǒ dǎ diànhuà le?","example_vi":"Lúc nãy ai gọi điện cho tôi thế?","note_vi":"刚才 là danh từ chỉ thời gian (cách đây ít phút): đứng được trước chủ ngữ, đi được với 没/不 và với 的: 刚才我没听见, 刚才的电话. c trong 才 bật hơi mạnh."},
+      {"id":"v6","hanzi":"着急","pinyin":"zháojí","pos":"tính từ","meaning_vi":"sốt ruột, cuống, lo cuống lên","example_zh":"别着急，慢慢找。","example_pinyin":"Bié zháojí, mànmàn zhǎo.","example_vi":"Đừng cuống, cứ từ từ mà tìm.","note_vi":"着 ở đây đọc zháo, không đọc zhe. 着急 là cuống, sốt ruột vì muốn việc xong ngay; 担心 là lo, sợ có chuyện không hay. Câu hay dùng: 别着急."},
+      {"id":"v7","hanzi":"担心","pinyin":"dānxīn","pos":"động từ","meaning_vi":"lo, lo lắng","example_zh":"这么晚了，他还没回来，妈妈很担心。","example_pinyin":"Zhème wǎn le, tā hái méi huílai, māma hěn dānxīn.","example_vi":"Muộn thế này rồi mà anh ấy vẫn chưa về, mẹ rất lo.","hanviet":"ĐẢM TÂM","note_vi":"Có thể mang tân ngữ: 担心你, 担心考试. An ủi người khác: 别担心 (đừng lo). Khác với 担 trong “đảm nhiệm”: 担心 chỉ là “lo”."},
+      {"id":"v8","hanzi":"怎么办","pinyin":"zěnme bàn","pos":"cụm từ","meaning_vi":"làm sao bây giờ, phải làm thế nào","example_zh":"我的包丢了，怎么办？","example_pinyin":"Wǒ de bāo diū le, zěnme bàn?","example_vi":"Tôi mất túi rồi, làm sao bây giờ?","note_vi":"Thường đứng cuối câu khi gặp chuyện khó: ……，怎么办？ Có thể thêm 呢/啊 cho mềm: 怎么办啊？ 办 = làm, giải quyết (việc)."},
+      {"id":"v9","hanzi":"到处","pinyin":"dàochù","pos":"phó từ","meaning_vi":"khắp nơi, chỗ nào cũng","example_zh":"我到处找，都找不到我的耳机。","example_pinyin":"Wǒ dàochù zhǎo, dōu zhǎo bu dào wǒ de ěrjī.","example_vi":"Tôi tìm khắp nơi mà vẫn không thấy tai nghe đâu.","hanviet":"ĐÁO XỨ","note_vi":"到处 đứng trước động từ (không đứng sau như “tìm khắp nơi” trong tiếng Việt): ✗ 我找到处 → ✓ 我到处找. Hay đi với 都: 到处都是人 (đâu đâu cũng là người)."},
+      {"id":"v10","hanzi":"清楚","pinyin":"qīngchu","pos":"tính từ / động từ","meaning_vi":"rõ, rõ ràng; biết rõ","example_zh":"这个字太小了，我看不清楚。","example_pinyin":"Zhège zì tài xiǎo le, wǒ kàn bu qīngchu.","example_vi":"Chữ này nhỏ quá, tôi nhìn không rõ.","hanviet":"THANH SỞ","note_vi":"Hay làm bổ ngữ: 看清楚, 听清楚, 说清楚. Là động từ: 我不清楚 = tôi không rõ (không biết rõ). 楚 đọc nhẹ: qīngchu."},
+      {"id":"v11","hanzi":"一直","pinyin":"yìzhí","pos":"phó từ","meaning_vi":"suốt, luôn, cứ mãi; thẳng","example_zh":"我一直在等你。","example_pinyin":"Wǒ yìzhí zài děng nǐ.","example_vi":"Tôi đợi bạn suốt nãy giờ.","hanviet":"NHẤT TRỰC","note_vi":"Nghĩa chính: một việc kéo dài liên tục, không dừng: 一直在找 (cứ tìm mãi). Nghĩa khác: 一直走 = đi thẳng. 一 đọc thanh 4 (yì) vì đứng trước thanh 2."},
+      {"id":"v12","hanzi":"终于","pinyin":"zhōngyú","pos":"phó từ","meaning_vi":"cuối cùng (thì), rốt cuộc","example_zh":"我找了一个小时，终于找到了。","example_pinyin":"Wǒ zhǎo le yí ge xiǎoshí, zhōngyú zhǎo dào le.","example_vi":"Tôi tìm mất một tiếng, cuối cùng cũng tìm thấy.","hanviet":"CHUNG VU","note_vi":"Dùng khi đã mong chờ, cố gắng một thời gian và điều mong muốn cuối cùng đã đến (cảm giác nhẹ nhõm). Đứng trước động từ, câu thường có 了. ü trong 于 tròn môi, đừng đọc “duy”."},
+      {"id":"v13","hanzi":"包","pinyin":"bāo","pos":"danh từ / lượng từ","meaning_vi":"túi, cặp; gói (lượng từ)","example_zh":"这个包是妈妈送给我的。","example_pinyin":"Zhège bāo shì māma sòng gěi wǒ de.","example_vi":"Cái túi này là mẹ tặng tôi.","hanviet":"BAO","note_vi":"包 là túi xách, cặp nói chung; 书包 = cặp sách; 包子 = bánh bao (bài 5). Làm lượng từ: 一包糖 = một gói kẹo."},
+      {"id":"v14","hanzi":"里面","pinyin":"lǐmiàn","pos":"danh từ","meaning_vi":"bên trong, ở trong","example_zh":"包里面有一本书和一个笔记本。","example_pinyin":"Bāo lǐmiàn yǒu yì běn shū hé yí ge bǐjìběn.","example_vi":"Trong túi có một quyển sách và một quyển sổ.","note_vi":"Đứng SAU danh từ: 包里面 (trong túi), khác với tiếng Việt “trong túi” đặt trước. Có thể nói gọn 包里. Ngược nghĩa: 外面."},
+      {"id":"v15","hanzi":"笔记本","pinyin":"bǐjìběn","pos":"danh từ","meaning_vi":"sổ ghi chép; máy tính xách tay","example_zh":"我买了一个新笔记本。","example_pinyin":"Wǒ mǎi le yí ge xīn bǐjìběn.","example_vi":"Tôi mua một quyển sổ mới.","hanviet":"BÚT KÝ BẢN","note_vi":"Nghĩa gốc là sổ để ghi chép. 笔记本电脑 (gọi tắt 笔记本) là máy tính xách tay; phải dựa vào ngữ cảnh. Lượng từ: 本 hoặc 个 (với máy tính: 台)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"刚刚","pinyin":"gānggāng","pos":"phó từ","meaning_vi":"vừa mới (nhấn mạnh hơn 刚)","example_zh":"我刚刚吃完饭。","example_pinyin":"Wǒ gānggāng chī wán fàn.","example_vi":"Tôi vừa mới ăn cơm xong."},
+      {"id":"x2","hanzi":"下面","pinyin":"xiàmiàn","pos":"danh từ","meaning_vi":"phía dưới, bên dưới","example_zh":"你的书在桌子下面。","example_pinyin":"Nǐ de shū zài zhuōzi xiàmiàn.","example_vi":"Sách của bạn ở dưới gầm bàn."},
+      {"id":"x3","hanzi":"面","pinyin":"miàn","pos":"danh từ","meaning_vi":"mặt, phía (đứng sau từ chỉ phương hướng)","example_zh":"上面、下面、里面都有一个“面”字。","example_pinyin":"Shàngmiàn, xiàmiàn, lǐmiàn dōu yǒu yí ge “miàn” zì.","example_vi":"上面 (phía trên), 下面 (phía dưới), 里面 (bên trong) đều có chữ 面."},
+      {"id":"x4","hanzi":"没事","pinyin":"méishì","pos":"động từ","meaning_vi":"không sao, không có gì; rảnh","example_zh":"没事，你别担心。","example_pinyin":"Méishì, nǐ bié dānxīn.","example_vi":"Không sao đâu, bạn đừng lo."},
+      {"id":"x5","hanzi":"听见","pinyin":"tīngjiàn","pos":"động từ","meaning_vi":"nghe thấy","example_zh":"你听见了吗？有人叫你。","example_pinyin":"Nǐ tīngjiàn le ma? Yǒu rén jiào nǐ.","example_vi":"Bạn có nghe thấy không? Có người gọi bạn."},
+      {"id":"x6","hanzi":"可是","pinyin":"kěshì","pos":"liên từ","meaning_vi":"nhưng, nhưng mà","example_zh":"我到处找了，可是没找到。","example_pinyin":"Wǒ dàochù zhǎo le, kěshì méi zhǎo dào.","example_vi":"Tôi đã tìm khắp nơi, nhưng không thấy."},
+      {"id":"x7","hanzi":"急","pinyin":"jí","pos":"tính từ","meaning_vi":"gấp, vội; sốt ruột","example_zh":"别急，我帮你找。","example_pinyin":"Bié jí, wǒ bāng nǐ zhǎo.","example_vi":"Đừng vội, tôi tìm giúp bạn."},
+      {"id":"x8","hanzi":"奇怪","pinyin":"qíguài","pos":"tính từ","meaning_vi":"lạ, kỳ lạ","example_zh":"真奇怪，我的手机怎么不见了？","example_pinyin":"Zhēn qíguài, wǒ de shǒujī zěnme bú jiàn le?","example_vi":"Lạ thật, sao điện thoại của tôi lại không thấy đâu nhỉ?","hanviet":"KỲ QUÁI"},
+      {"id":"x9","hanzi":"只能","pinyin":"zhǐ néng","pos":"cụm từ","meaning_vi":"chỉ có thể, đành phải","example_zh":"下雨了，我们只能在家看电视了。","example_pinyin":"Xià yǔ le, wǒmen zhǐ néng zài jiā kàn diànshì le.","example_vi":"Trời mưa rồi, chúng mình đành ở nhà xem tivi thôi."},
+      {"id":"x10","hanzi":"借","pinyin":"jiè","pos":"động từ","meaning_vi":"mượn; cho mượn","example_zh":"我可以借一下你的手机吗？","example_pinyin":"Wǒ kěyǐ jiè yíxià nǐ de shǒujī ma?","example_vi":"Tôi mượn điện thoại của bạn một chút được không?"},
+      {"id":"x11","hanzi":"坏","pinyin":"huài","pos":"tính từ","meaning_vi":"hỏng; xấu","example_zh":"我的耳机坏了，听不见了。","example_pinyin":"Wǒ de ěrjī huài le, tīng bu jiàn le.","example_vi":"Tai nghe của tôi hỏng rồi, không nghe được nữa."},
+      {"id":"x12","hanzi":"动","pinyin":"dòng","pos":"động từ","meaning_vi":"động, động vào; cử động","example_zh":"别动我的东西！","example_pinyin":"Bié dòng wǒ de dōngxi!","example_vi":"Đừng động vào đồ của tôi!"},
+      {"id":"x13","hanzi":"书包","pinyin":"shūbāo","pos":"danh từ","meaning_vi":"cặp sách","example_zh":"弟弟的书包里面有很多书。","example_pinyin":"Dìdi de shūbāo lǐmiàn yǒu hěn duō shū.","example_vi":"Trong cặp của em trai có rất nhiều sách."},
+      {"id":"x14","hanzi":"本子","pinyin":"běnzi","pos":"danh từ","meaning_vi":"quyển vở","example_zh":"这个本子是谁的？","example_pinyin":"Zhège běnzi shì shéi de?","example_vi":"Quyển vở này của ai?"},
+      {"id":"x15","hanzi":"图书馆","pinyin":"túshūguǎn","pos":"danh từ","meaning_vi":"thư viện","example_zh":"我经常去图书馆看书。","example_pinyin":"Wǒ jīngcháng qù túshūguǎn kàn shū.","example_vi":"Tôi thường đến thư viện đọc sách.","hanviet":"ĐỒ THƯ QUÁN"},
+      {"id":"x16","hanzi":"号码","pinyin":"hàomǎ","pos":"danh từ","meaning_vi":"số (điện thoại, phòng…)","example_zh":"你的手机号码是多少？","example_pinyin":"Nǐ de shǒujī hàomǎ shì duōshao?","example_vi":"Số điện thoại của bạn là bao nhiêu?"},
+      {"id":"x17","hanzi":"耳机","pinyin":"ěrjī","pos":"danh từ","meaning_vi":"tai nghe","example_zh":"我的耳机找不到了。","example_pinyin":"Wǒ de ěrjī zhǎo bu dào le.","example_vi":"Tôi không tìm thấy tai nghe nữa."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Bổ ngữ khả năng “V得/不 + bổ ngữ”",
+        "pattern":"V + 得 + bổ ngữ (làm được)　·　V + 不 + bổ ngữ (không làm được)　·　V得C吗？/ V得C V不C？",
+        "explanation_vi":"Đặt 得 hoặc 不 vào giữa động từ và bổ ngữ kết quả / xu hướng để nói có thể đạt được kết quả đó hay không: 找到 (tìm thấy) → 找得到 (tìm thấy được) / 找不到 (không tìm thấy được). Tương tự: 看得见 / 看不见, 听得懂 / 听不懂, 看得清楚 / 看不清楚, 做得完 / 做不完, 回得来 / 回不来. Dạng phủ định V不C dùng nhiều hơn hẳn. Phân biệt: 没找到 = (đã tìm nhưng) chưa thấy, nói về kết quả thực tế; 找不到 = tìm cũng không thể thấy. Tân ngữ đứng sau cả cụm hoặc đưa lên đầu câu: 我找不到我的包 / 我的包找不到了.",
+        "examples":[
+          {"zh":"我到处都找了，可是找不到我的包。","pinyin":"Wǒ dàochù dōu zhǎo le, kěshì zhǎo bu dào wǒ de bāo.","vi":"Tôi đã tìm khắp nơi rồi mà không tìm thấy túi của mình."},
+          {"zh":"老师说得太快了，我听不懂。","pinyin":"Lǎoshī shuō de tài kuài le, wǒ tīng bu dǒng.","vi":"Cô giáo nói nhanh quá, tôi nghe không hiểu."},
+          {"zh":"这个字太小了，我看不清楚。","pinyin":"Zhège zì tài xiǎo le, wǒ kàn bu qīngchu.","vi":"Chữ này nhỏ quá, tôi nhìn không rõ."},
+          {"zh":"A：你听得见吗？B：听得见。","pinyin":"A: Nǐ tīng de jiàn ma? B: Tīng de jiàn.","vi":"A: Bạn có nghe thấy không? B: Nghe thấy."}
+        ],
+        "mistakes_vi":"✗ 他说得太快，我不能听懂。\n✓ 他说得太快，我听不懂。\nTiếng Việt nói “không nghe hiểu được” nên dễ dịch thành 不能 + V. Khi muốn nói làm mà không đạt được kết quả, tiếng Trung dùng bổ ngữ khả năng V不C.\n✗ 我找了，可是没找。\n✓ 我找了，可是没找到。/ 我找不到。\nTiếng Việt tách “tìm” và “thấy”; tiếng Trung phải có bổ ngữ 到 thì mới có nghĩa “thấy”.\n✗ 我不找得到。\n✓ 我找不到。\nPhủ định là đặt 不 vào GIỮA động từ và bổ ngữ, không đặt 不 trước động từ.",
+        "compare_vi":"Giống “… được / không … được” trong tiếng Việt: 找得到 = tìm thấy được, 听不懂 = nghe không hiểu được. Khác ở vị trí: tiếng Việt để “được” ở cuối, tiếng Trung để 得/不 ở giữa động từ và bổ ngữ."
+      },
+      {
+        "id":"g2",
+        "title":"“Danh từ + 呢？” hỏi đồ vật / người ở đâu",
+        "pattern":"N + 呢？ (= N 在哪儿？)",
+        "explanation_vi":"Khi không có câu nói nào trước đó làm ngữ cảnh, “danh từ + 呢？” dùng để hỏi người hoặc vật đó đang ở đâu: 我的手机呢？ = 我的手机在哪儿？ Câu này rất hay dùng khi vừa phát hiện không thấy một thứ gì đó. Nếu đã có câu kể trước (我喝茶，你呢？) thì 呢 lại có nghĩa “còn … thì sao?” như đã học ở HSK 1–2. Đọc 呢 nhẹ, không lên giọng.",
+        "examples":[
+          {"zh":"我的耳机呢？刚才还在这儿。","pinyin":"Wǒ de ěrjī ne? Gāngcái hái zài zhèr.","vi":"Tai nghe của tôi đâu rồi? Lúc nãy còn ở đây mà."},
+          {"zh":"妈妈，我的书包呢？","pinyin":"Māma, wǒ de shūbāo ne?","vi":"Mẹ ơi, cặp sách của con đâu rồi?"},
+          {"zh":"A：小王呢？B：他去图书馆了。","pinyin":"A: Xiǎo Wáng ne? B: Tā qù túshūguǎn le.","vi":"A: Tiểu Vương đâu rồi? B: Cậu ấy đi thư viện rồi."}
+        ],
+        "mistakes_vi":"✗ 我的手机呢在哪儿？\n✓ 我的手机呢？/ 我的手机在哪儿？\nChọn một trong hai cách hỏi, không gộp lại.\n✗ 呢我的包？\n✓ 我的包呢？\n呢 luôn đứng sau danh từ, ở cuối câu (giống “… đâu rồi?” trong tiếng Việt).\nLưu ý: sau một câu kể, 你呢？ nghĩa là “còn bạn?”, không phải “bạn ở đâu?”.",
+        "compare_vi":"Giống hệt “… đâu rồi?” trong tiếng Việt: 我的包呢？ = Túi của tôi đâu rồi?"
+      },
+      {
+        "id":"g3",
+        "title":"Phân biệt “刚” và “刚才”",
+        "pattern":"S + 刚 + V (+ khoảng thời gian)　·　刚才 (+ S) + (没) V (+ 了)　·　刚才 + 的 + N",
+        "explanation_vi":"Cả hai đều dịch là “vừa”, nhưng khác loại từ. 刚 là phó từ “vừa mới”: chỉ đứng sau chủ ngữ, ngay trước động từ (我刚到家); sau 刚 + V có thể thêm khoảng thời gian (我刚来一个月 = mới đến được một tháng); câu có 刚 thường không thêm 了 ở cuối. 刚才 là danh từ chỉ thời gian “lúc nãy” (cách đây ít phút): đứng được trước chủ ngữ (刚才他来了), đi được với 没/不 (刚才我没听见), và làm định ngữ với 的 (刚才的电话).",
+        "examples":[
+          {"zh":"我刚到家，还没吃饭。","pinyin":"Wǒ gāng dào jiā, hái méi chī fàn.","vi":"Tôi vừa mới về đến nhà, chưa ăn cơm."},
+          {"zh":"我刚来北京一个月。","pinyin":"Wǒ gāng lái Běijīng yí ge yuè.","vi":"Tôi mới đến Bắc Kinh được một tháng."},
+          {"zh":"刚才我没听清楚，请你说慢一点儿，好吗？","pinyin":"Gāngcái wǒ méi tīng qīngchu, qǐng nǐ shuō màn yìdiǎnr, hǎo ma?","vi":"Lúc nãy tôi nghe không rõ, bạn nói chậm một chút được không?"},
+          {"zh":"刚才的电话是谁打来的？","pinyin":"Gāngcái de diànhuà shì shéi dǎ lái de?","vi":"Cuộc điện thoại lúc nãy là ai gọi đến thế?"}
+        ],
+        "mistakes_vi":"✗ 我刚没听见。\n✓ 刚才我没听见。\n刚 không đi với 没/不; muốn phủ định thì dùng 刚才.\n✗ 刚我到家。\n✓ 我刚到家。\n刚 là phó từ nên phải đứng sau chủ ngữ; chỉ 刚才 mới đứng được đầu câu.\n✗ 我刚才来北京一个月。\n✓ 我刚来北京一个月。\nSau 刚才 không đặt khoảng thời gian; “mới … được bao lâu” là 刚 + V + thời gian.",
+        "compare_vi":"Tiếng Việt “vừa” dùng cho cả hai. Mẹo: thay được bằng “lúc nãy” → dùng 刚才; nghĩa là “vừa mới, mới … được” → dùng 刚."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Túi của mình đâu rồi?",
+      "scene_vi": "Buổi tối ở thư viện. Tiểu Mã đi vệ sinh một lát, quay lại thì không thấy cái túi đâu. Bạn cùng lớp Tiểu Đinh ngồi bàn bên cạnh.",
+      "lines": [
+        {"speaker":"小马","zh":"奇怪，我的包呢？刚才还在桌子上，怎么突然不见了？","pinyin":"Qíguài, wǒ de bāo ne? Gāngcái hái zài zhuōzi shang, zěnme tūrán bú jiàn le?","vi":"Lạ thật, túi của mình đâu rồi? Lúc nãy còn ở trên bàn, sao tự nhiên không thấy nữa?"},
+        {"speaker":"小丁","zh":"别着急，你再想想。你刚才去哪儿了？","pinyin":"Bié zháojí, nǐ zài xiǎngxiang. Nǐ gāngcái qù nǎr le?","vi":"Đừng cuống, bạn nghĩ lại xem. Lúc nãy bạn đi đâu?"},
+        {"speaker":"小马","zh":"我一直在这儿看书，只去了一下洗手间，刚回来。","pinyin":"Wǒ yìzhí zài zhèr kàn shū, zhǐ qù le yíxià xǐshǒujiān, gāng huílai.","vi":"Mình ngồi đọc sách ở đây suốt, chỉ đi vệ sinh một lát, vừa mới quay lại."},
+        {"speaker":"小丁","zh":"包里面有什么？","pinyin":"Bāo lǐmiàn yǒu shénme?","vi":"Trong túi có những gì?"},
+        {"speaker":"小马","zh":"笔记本、耳机，还有手机，都在里面！下个星期就考试了，笔记本丢了，我怎么办啊？","pinyin":"Bǐjìběn, ěrjī, hái yǒu shǒujī, dōu zài lǐmiàn! Xià ge xīngqī jiù kǎoshì le, bǐjìběn diū le, wǒ zěnme bàn a?","vi":"Sổ ghi chép, tai nghe, cả điện thoại nữa, đều ở trong đó! Tuần sau là thi rồi, mất sổ thì mình biết làm sao đây?"},
+        {"speaker":"小丁","zh":"别担心，我给你的手机打个电话。……你听得见吗？","pinyin":"Bié dānxīn, wǒ gěi nǐ de shǒujī dǎ ge diànhuà. …… Nǐ tīng de jiàn ma?","vi":"Đừng lo, mình gọi vào điện thoại của bạn nhé. … Bạn có nghe thấy không?"},
+        {"speaker":"小马","zh":"听得见，可是听不太清楚……啊，在那边，椅子下面！","pinyin":"Tīng de jiàn, kěshì tīng bu tài qīngchu…… À, zài nàbiān, yǐzi xiàmiàn!","vi":"Nghe thấy, nhưng không rõ lắm… A, ở đằng kia, dưới cái ghế!"},
+        {"speaker":"小丁","zh":"找到了！你的包在旁边的椅子下面。","pinyin":"Zhǎo dào le! Nǐ de bāo zài pángbiān de yǐzi xiàmiàn.","vi":"Thấy rồi! Túi của bạn ở dưới cái ghế bên cạnh."},
+        {"speaker":"小马","zh":"太好了，终于找到了！刚才我到处找，都急坏了。","pinyin":"Tài hǎo le, zhōngyú zhǎo dào le! Gāngcái wǒ dàochù zhǎo, dōu jí huài le.","vi":"Tốt quá, cuối cùng cũng tìm thấy! Lúc nãy mình tìm khắp nơi, cuống hết cả lên."},
+        {"speaker":"小丁","zh":"没事就好！快看看包里面的东西都在不在。","pinyin":"Méishì jiù hǎo! Kuài kànkan bāo lǐmiàn de dōngxi dōu zài bu zài.","vi":"Không sao là tốt rồi! Mau xem đồ trong túi còn đủ không."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:丢","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我的手机____了，你看见了吗？","options":["丢","坏","借","动"],"answer":0,"explanation_vi":"Hỏi người khác có thấy không, nghĩa là điện thoại bị mất: 丢了."},
+      {"id":"e2","type":"choice","tag":"v:着急","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"别____，慢慢找。","options":["着急","清楚","终于","一直"],"answer":0,"explanation_vi":"别着急 = đừng cuống; hợp với vế sau 慢慢找 (cứ từ từ tìm)."},
+      {"id":"e3","type":"choice","tag":"v:到处","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____都找了，可是没找到。","options":["到处","终于","突然","清楚"],"answer":0,"explanation_vi":"到处都找了 = đã tìm khắp nơi. 到处 đứng trước động từ, hay đi với 都."},
+      {"id":"e4","type":"choice","tag":"v:终于","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我找了一个小时，____找到了！","options":["终于","担心","清楚","奇怪"],"answer":0,"explanation_vi":"Tìm lâu rồi mới thấy: 终于找到了 = cuối cùng cũng tìm thấy."},
+      {"id":"e5","type":"choice","tag":"v:清楚","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"字太小了，我看不____。","options":["清楚","着急","担心","突然"],"answer":0,"explanation_vi":"看不清楚 = nhìn không rõ. 清楚 làm bổ ngữ sau 看."},
+      {"id":"e6","type":"choice","tag":"g:可能补语","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"老师说得太快了，我听不____。","options":["懂","饱","胖","早"],"answer":0,"explanation_vi":"听不懂 = nghe không hiểu (được). Bổ ngữ khả năng: V + 不 + 懂."},
+      {"id":"e7","type":"choice","tag":"g:可能补语","prompt_vi":"Chọn câu đúng với nghĩa: “Tôi tìm mà không thấy điện thoại đâu.”","question_zh":"Tôi tìm mà không thấy điện thoại đâu.","options":["我找不到手机。","我不找到手机。","我不能找手机。","我找手机不到。"],"answer":0,"explanation_vi":"Không đạt được kết quả “thấy” → 找不到. 不 đứng giữa 找 và 到. 我不能找手机 lại có nghĩa “tôi không được phép tìm điện thoại”."},
+      {"id":"e8","type":"choice","tag":"g:呢问处所","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"妈妈，我的书包____？我找不到了。","options":["呢","吗","吧","的"],"answer":0,"explanation_vi":"“Danh từ + 呢？” = … đâu rồi? 我的书包呢？ = Cặp sách của con đâu rồi?"},
+      {"id":"e9","type":"choice","tag":"g:刚刚才","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____我没听清楚，请你说慢一点儿。","options":["刚才","刚","一直","终于"],"answer":0,"explanation_vi":"Đứng đầu câu và đi với 没 thì phải dùng 刚才 (lúc nãy). 刚 là phó từ, không đứng đầu câu và không đi với 没."},
+      {"id":"e10","type":"order","tag":"g:可能补语","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","听","不","懂","他说的话"],"answers":["我听不懂他说的话","他说的话我听不懂"],"translation_vi":"Tôi nghe không hiểu điều anh ấy nói.","explanation_vi":"不 đứng giữa 听 và 懂; tân ngữ đứng sau cả cụm hoặc đưa lên đầu câu."},
+      {"id":"e11","type":"order","tag":"g:刚刚才","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","刚","到","家","还没吃饭"],"answers":["我刚到家还没吃饭"],"translation_vi":"Tôi vừa về đến nhà, chưa ăn cơm.","explanation_vi":"刚 đứng sau chủ ngữ 我, ngay trước động từ 到."},
+      {"id":"e12","type":"order","tag":"v:一直","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","一直","在","找","你的笔记本"],"answers":["我一直在找你的笔记本","你的笔记本我一直在找"],"translation_vi":"Tôi tìm sổ của bạn suốt nãy giờ.","explanation_vi":"一直 đứng trước 在 + động từ: 一直在找 = cứ tìm mãi."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"突然","vi":"đột nhiên"},{"zh":"丢","vi":"đánh mất"},{"zh":"着急","vi":"sốt ruột"},{"zh":"担心","vi":"lo lắng"},{"zh":"清楚","vi":"rõ ràng"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"图书馆","vi":"thư viện"},{"zh":"耳机","vi":"tai nghe"},{"zh":"号码","vi":"số (điện thoại)"},{"zh":"本子","vi":"quyển vở"},{"zh":"借","vi":"mượn"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:可能补语","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你说什么？这儿人太多了，我听____见。","options":["不","没","得","很"],"answer":0,"explanation_vi":"Đông người quá nên nghe không thấy: 听不见. Bổ ngữ khả năng phủ định dùng 不, không dùng 没."},
+        {"id":"q2","type":"choice","tag":"g:可能补语","prompt_vi":"Câu nào có nghĩa “Hôm nay tôi không làm xong được bài tập”?","question_zh":"Hôm nay tôi không làm xong được bài tập.","options":["今天的作业我做不完。","今天的作业我不做完。","今天的作业我没做。","今天的作业我不能做。"],"answer":0,"explanation_vi":"“Không làm xong được” = 做不完 (V + 不 + 完). 我没做 = tôi chưa làm; 我不能做 = tôi không được làm."},
+        {"id":"q3","type":"choice","tag":"g:呢问处所","prompt_vi":"Bạn tìm mãi không thấy tai nghe và nói: “我的耳机呢？” Câu này nghĩa là gì?","question_zh":"我的耳机呢？","options":["Tai nghe của tôi đâu rồi?","Tai nghe của tôi có tốt không?","Tai nghe của tôi hỏng rồi à?","Tôi có tai nghe không?"],"answer":0,"explanation_vi":"Không có câu trước làm ngữ cảnh, “N + 呢？” hỏi N ở đâu."},
+        {"id":"q4","type":"choice","tag":"g:呢问处所","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：小王____？B：他刚才出去了。","options":["呢","吗","吧","了"],"answer":0,"explanation_vi":"B trả lời Tiểu Vương đi đâu, nên A hỏi “小王呢？” = Tiểu Vương đâu rồi?"},
+        {"id":"q5","type":"choice","tag":"g:刚刚才","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____来北京一个月，很多地方还没去过。","options":["刚","刚才","终于","到处"],"answer":0,"explanation_vi":"刚 + V + khoảng thời gian = mới … được bao lâu. 刚才 không đi với khoảng thời gian."},
+        {"id":"q6","type":"choice","tag":"g:刚刚才","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____的电话是谁打来的？","options":["刚才","刚","一直","终于"],"answer":0,"explanation_vi":"刚才 là danh từ nên làm định ngữ được: 刚才的电话 = cuộc gọi lúc nãy. 刚 là phó từ, không đi với 的."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:不见","prompt_vi":"Chọn đáp án đúng.","question_zh":"我的耳机怎么____了？刚才还在桌子上。","options":["不见","看见","听见","清楚"],"answer":0,"explanation_vi":"不见了 = không thấy đâu nữa (biến mất)."},
+      {"id":"t2","type":"choice","tag":"g:可能补语","prompt_vi":"Chọn đáp án đúng.","question_zh":"这儿太黑了，我看____你。","options":["不见","没见","不能","很见"],"answer":0,"explanation_vi":"看不见 = nhìn không thấy (được): V + 不 + 见."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"刚","vi":"vừa mới"},{"zh":"刚才","vi":"lúc nãy"},{"zh":"一直","vi":"suốt, liên tục"},{"zh":"终于","vi":"cuối cùng"},{"zh":"到处","vi":"khắp nơi"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"包","vi":"túi, cặp"},{"zh":"里面","vi":"bên trong"},{"zh":"笔记本","vi":"sổ ghi chép"},{"zh":"下面","vi":"bên dưới"},{"zh":"坏","vi":"hỏng"}]},
+      {"id":"t5","type":"order","tag":"g:可能补语","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","的","包","找不到","了"],"answers":["我的包找不到了"],"translation_vi":"Tôi không tìm thấy túi của mình nữa.","explanation_vi":"Tân ngữ 我的包 đưa lên đầu câu, sau đó là 找不到了."},
+      {"id":"t6","type":"order","tag":"v:担心","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","别","担心","我","帮你找"],"answers":["你别担心我帮你找","我帮你找你别担心"],"translation_vi":"Bạn đừng lo, tôi tìm giúp bạn.","explanation_vi":"别 + 担心 = đừng lo; 我帮你找 = tôi tìm giúp bạn."},
+      {"id":"t7","type":"fill","tag":"v:怎么办","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我的手机丢了，____？","answers":["怎么办","怎么办呢","怎么办啊"],"hint_vi":"làm sao bây giờ","explanation_vi":"怎么办 = làm sao bây giờ, phải làm thế nào."},
+      {"id":"t8","type":"fill","tag":"g:刚刚才","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我____到家，还没吃饭呢。","answers":["刚","刚刚"],"hint_vi":"phó từ “vừa mới”, đứng sau chủ ngữ","explanation_vi":"刚 (hoặc 刚刚) + V = vừa mới làm gì. 刚才 là danh từ, không đứng ở vị trí này."},
+      {"id":"t9","type":"listen_choice","tag":"g:呢问处所","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我的笔记本呢？刚才还在这儿。","options":["Sổ của tôi đâu rồi? Lúc nãy còn ở đây mà.","Sổ của tôi hỏng rồi, mới mua thôi mà.","Còn sổ của bạn thì sao? Lúc nãy bạn để đâu?","Tôi vừa mua một quyển sổ ở đây."],"answer":0,"explanation_vi":"我的笔记本呢？ = Sổ của tôi đâu rồi? 刚才还在这儿 = lúc nãy còn ở đây."},
+      {"id":"t10","type":"listen_choice","tag":"v:终于","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我到处找，终于找到了我的耳机。","options":["Tôi tìm khắp nơi, cuối cùng đã thấy tai nghe.","Tôi tìm khắp nơi mà vẫn không thấy tai nghe.","Tôi vừa mua tai nghe ở cửa hàng.","Tai nghe của tôi bị hỏng rồi."],"answer":0,"explanation_vi":"到处找 = tìm khắp nơi; 终于找到了 = cuối cùng đã tìm thấy."},
+      {"id":"t11","type":"dictation","tag":"g:可能补语","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"老师说得太快，我听不懂。","answers":["老师说得太快我听不懂"],"explanation_vi":"老师说得太快，我听不懂 = Thầy nói nhanh quá, tôi nghe không hiểu. Chú ý: 说得 viết 得, không phải 的."},
+      {"id":"t12","type":"dictation","tag":"v:着急","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"别着急，我帮你找。","answers":["别着急我帮你找"],"explanation_vi":"别着急，我帮你找 = Đừng cuống, tôi tìm giúp bạn."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:可能补语","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Chữ nhỏ quá, tôi nhìn không rõ.","answers":["字太小了我看不清楚","字太小我看不清楚","字太小了我看不清","字太小我看不清","这个字太小了我看不清楚","这个字太小了我看不清","字太小了我看不太清楚"],"explanation_vi":"字太小了 + 我看不清楚: bổ ngữ khả năng V + 不 + 清楚."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:刚刚才","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Lúc nãy tôi không nghe thấy.","answers":["刚才我没听见","我刚才没听见","刚才我没听到","我刚才没听到","刚才我没有听见","我刚才没有听见","刚才我没有听到","我刚才没有听到"],"explanation_vi":"“Lúc nãy” + phủ định → 刚才 + 没 + 听见/听到. Không dùng 刚 với 没."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:担心","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"妈妈很担心我。","answers_vi":["Mẹ rất lo cho tôi.","Mẹ rất lo lắng cho tôi."],"keywords":[["mẹ","má"],["lo"],["tôi","con","mình"]],"explanation_vi":"担心 + người = lo cho ai."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:可能补语","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我到处都找了，可是找不到。","answers_vi":["Tôi đã tìm khắp nơi rồi nhưng không tìm thấy.","Tôi tìm khắp mọi nơi mà vẫn không tìm được."],"keywords":[["tìm"],["khắp","mọi nơi","mọi chỗ","chỗ nào"],["nhưng","mà"],["không thấy","không tìm thấy","không tìm được","không tìm ra","chẳng thấy","không thể tìm thấy","vẫn không thấy"]],"explanation_vi":"到处都找了 = đã tìm khắp nơi; 找不到 = tìm không thấy (được)."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"我的笔记本不见了",
+        "title_vi":"Quyển sổ của tôi biến mất",
+        "paragraphs":[
+          {
+            "tokens":[["昨天","zuótiān","hôm qua"],["下午","xiàwǔ","buổi chiều"],["我","wǒ","tôi"],["在","zài","ở"],["图书馆","túshūguǎn","thư viện"],["复习","fùxí","ôn bài"],["，"],["要","yào","sắp"],["回家","huí jiā","về nhà"],["的","de","(…lúc)"],["时候","shíhou","lúc, khi"],["，"],["我","wǒ","tôi"],["的","de","của"],["笔记本","bǐjìběn","sổ ghi chép"],["突然","tūrán","đột nhiên"],["不见","bú jiàn","biến mất, không thấy"],["了","le","rồi"],["！"],["笔记本","bǐjìběn","sổ ghi chép"],["里面","lǐmiàn","bên trong"],["有","yǒu","có"],["我","wǒ","tôi"],["上课","shàngkè","lên lớp, trong giờ học"],["写","xiě","viết"],["的","de","(những thứ) đã…"],["东西","dōngxi","đồ, thứ"],["，"],["下","xià","sau, tới"],["个","ge","(lượng từ)"],["星期","xīngqī","tuần"],["就","jiù","là (sắp)"],["考试","kǎoshì","thi"],["了","le","rồi"],["，"],["我","wǒ","tôi"],["非常","fēicháng","rất"],["着急","zháojí","sốt ruột, cuống"],["。"]],
+            "vi":"Chiều hôm qua tôi ôn bài ở thư viện. Lúc sắp về nhà, quyển sổ của tôi đột nhiên không thấy đâu nữa! Trong sổ có những thứ tôi ghi trong giờ học, tuần sau là thi rồi, tôi cuống lắm."
+          },
+          {
+            "tokens":[["我","wǒ","tôi"],["到处","dàochù","khắp nơi"],["找","zhǎo","tìm"],["，"],["桌子","zhuōzi","cái bàn"],["上面","shàngmiàn","trên"],["、"],["椅子","yǐzi","cái ghế"],["下面","xiàmiàn","dưới"],["、"],["书包","shūbāo","cặp sách"],["里面","lǐmiàn","trong"],["，"],["都","dōu","đều"],["找不到","zhǎo bu dào","không tìm thấy (được)"],["。"],["旁边","pángbiān","bên cạnh"],["的","de","(của)"],["同学","tóngxué","bạn học"],["说","shuō","nói"],["："],["“"],["别","bié","đừng"],["担心","dānxīn","lo lắng"],["，"],["刚才","gāngcái","lúc nãy"],["我","wǒ","tôi"],["在","zài","ở"],["洗手间","xǐshǒujiān","nhà vệ sinh"],["看见","kànjiàn","nhìn thấy"],["了","le","(đã)"],["一个","yí ge","một (cái)"],["笔记本","bǐjìběn","quyển sổ"],["。"],["”"]],
+            "vi":"Tôi tìm khắp nơi: trên bàn, dưới ghế, trong cặp, đều không thấy. Bạn ngồi bên cạnh nói: “Đừng lo, lúc nãy mình thấy một quyển sổ trong nhà vệ sinh.”"
+          },
+          {
+            "tokens":[["我","wǒ","tôi"],["马上","mǎshàng","ngay lập tức"],["去","qù","đi"],["洗手间","xǐshǒujiān","nhà vệ sinh"],["，"],["那个","nàge","cái đó"],["笔记本","bǐjìběn","quyển sổ"],["真的","zhēn de","thật sự"],["是","shì","là"],["我","wǒ","tôi"],["的","de","của"],["！"],["我","wǒ","tôi"],["终于","zhōngyú","cuối cùng"],["找到","zhǎo dào","tìm thấy"],["它","tā","nó"],["了","le","rồi"],["。"],["我","wǒ","tôi"],["对","duì","với"],["那个","nàge","người đó"],["同学","tóngxué","bạn học"],["说","shuō","nói"],["了","le","(đã)"],["好几次","hǎo jǐ cì","mấy lần liền"],["“"],["谢谢","xièxie","cảm ơn"],["”"],["。"]],
+            "vi":"Tôi lập tức đến nhà vệ sinh, quyển sổ đó đúng là của tôi! Cuối cùng tôi cũng tìm thấy nó. Tôi nói “cảm ơn” với bạn ấy mấy lần liền."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”的笔记本里面有什么？","options":["上课写的东西","手机号码","很多钱","一张电影票"],"answer":0,"explanation_vi":"Đoạn 1: 笔记本里面有我上课写的东西."},
+          {"id":"rq2","type":"choice","tag":"v:着急","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”为什么非常着急？","options":["因为下个星期就考试了","因为“我”的手机丢了","因为“我”要去上课","因为图书馆里人太多了"],"answer":0,"explanation_vi":"Đoạn 1: 下个星期就考试了，我非常着急."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"笔记本在哪儿？","options":["洗手间","椅子下面","书包里面","桌子上面"],"answer":0,"explanation_vi":"Đoạn 2–3: bạn bên cạnh thấy một quyển sổ trong nhà vệ sinh, và đó đúng là sổ của “tôi”."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”在书包里面找到了笔记本。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 书包里面……都找不到. Sổ ở nhà vệ sinh, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"g:刚刚才","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"旁边的同学刚才看见了一个笔记本。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 刚才我在洗手间看见了一个笔记本."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Điện thoại ở đâu?",
+        "text_zh":"今天早上八点我要开会，可是我的手机突然不见了。我到处找：桌子上、包里面、房间里……都没有。我越来越着急，只能请妈妈帮忙。妈妈问我：“你刚才在哪儿？”我说：“我刚才在冰箱旁边喝牛奶。”我们去冰箱那儿一看，手机就在冰箱上面！妈妈笑着说：“你啊，每天都这么急。”",
+        "pinyin":"Jīntiān zǎoshang bā diǎn wǒ yào kāihuì, kěshì wǒ de shǒujī tūrán bú jiàn le. Wǒ dàochù zhǎo: zhuōzi shang, bāo lǐmiàn, fángjiān li…… dōu méiyǒu. Wǒ yuè lái yuè zháojí, zhǐ néng qǐng māma bāngmáng. Māma wèn wǒ: “Nǐ gāngcái zài nǎr?” Wǒ shuō: “Wǒ gāngcái zài bīngxiāng pángbiān hē niúnǎi.” Wǒmen qù bīngxiāng nàr yí kàn, shǒujī jiù zài bīngxiāng shàngmiàn! Māma xiàozhe shuō: “Nǐ a, měi tiān dōu zhème jí.”",
+        "vi":"Sáng nay tám giờ tôi phải họp, nhưng điện thoại của tôi bỗng nhiên không thấy đâu. Tôi tìm khắp nơi: trên bàn, trong túi, trong phòng… đều không có. Tôi càng lúc càng cuống, đành nhờ mẹ giúp. Mẹ hỏi: “Lúc nãy con ở đâu?” Tôi nói: “Lúc nãy con đứng cạnh tủ lạnh uống sữa.” Hai mẹ con ra chỗ tủ lạnh nhìn, điện thoại nằm ngay trên nóc tủ lạnh! Mẹ cười bảo: “Con đấy, ngày nào cũng vội vội vàng vàng.”",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"说话人为什么很着急？","options":["八点要开会，可是手机找不到了","起床起晚了","手机坏了","妈妈生病了"],"answer":0,"explanation_vi":"Nghe được: 八点我要开会，可是我的手机突然不见了."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"谁帮忙找手机？","options":["妈妈","爸爸","朋友","哥哥"],"answer":0,"explanation_vi":"Nghe được: 只能请妈妈帮忙."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"手机在哪儿？","options":["冰箱上面","包里面","桌子上","房间里"],"answer":0,"explanation_vi":"Nghe được: 手机就在冰箱上面."},
+          {"id":"lq4","type":"choice","tag":"g:刚刚才","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"说话人刚才在冰箱旁边做什么？","options":["喝牛奶","打电话","吃面包","开会"],"answer":0,"explanation_vi":"Nghe được: 我刚才在冰箱旁边喝牛奶."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"着急","pinyin":"zháojí","vi":"sốt ruột, cuống","tip_vi":"着 ở đây đọc zháo (thanh 2), không đọc zhe như trong 看着. zh uốn lưỡi, không bật hơi. 急 jí: j đọc bằng mặt lưỡi, không phải “gi” tiếng Việt."},
+      {"id":"s2","zh":"找不到","pinyin":"zhǎo bu dào","vi":"tìm không thấy","tip_vi":"Trong bổ ngữ khả năng, 不 đọc nhẹ và ngắn (bu), dồn trọng âm vào 找 và 到. 找 zhǎo uốn lưỡi; 到 dào thanh 4 hạ dứt khoát, d không rung như “đ” tiếng Việt."},
+      {"id":"s3","zh":"我的手机呢？","pinyin":"Wǒ de shǒujī ne?","vi":"Điện thoại của tôi đâu rồi?","tip_vi":"的 và 呢 đều đọc nhẹ. Câu hỏi với 呢 không cần lên giọng ở cuối như tiếng Việt: giọng hạ tự nhiên. 手 shǒu: sh uốn lưỡi, đừng đọc thành “sẩu”."},
+      {"id":"s4","zh":"刚才我没听清楚。","pinyin":"Gāngcái wǒ méi tīng qīngchu.","vi":"Lúc nãy tôi nghe không rõ.","tip_vi":"刚 gāng kết thúc -ng (cuống lưỡi). 才 cái: c bật hơi mạnh, đừng đọc thành “cai” hay “tai”. 听 tīng và 清 qīng: vần -ing, đừng đọc thành “thinh”, “thinh”. 楚 đọc nhẹ."},
+      {"id":"s5","zh":"别着急，我帮你找。","pinyin":"Bié zháojí, wǒ bāng nǐ zhǎo.","vi":"Đừng cuống, tôi tìm giúp bạn.","tip_vi":"你找 nǐ zhǎo là hai thanh 3 liền nhau: 你 đọc lên như thanh 2 (ní zhǎo). 帮 bāng: b không rung, -ang mở miệng rộng."},
+      {"id":"s6","zh":"我到处都找了，可是找不到。","pinyin":"Wǒ dàochù dōu zhǎo le, kěshì zhǎo bu dào.","vi":"Tôi tìm khắp nơi rồi mà không thấy.","tip_vi":"到处 dàochù: ch uốn lưỡi và bật hơi. 可 kě: k bật hơi; đứng trước thanh 4 nên chỉ đọc nửa thanh 3 (thấp). Ngắt hơi ở dấu phẩy; 不 trong 找不到 đọc nhẹ."},
+      {"id":"s7","zh":"我找了一个小时，终于找到了！","pinyin":"Wǒ zhǎo le yí ge xiǎoshí, zhōngyú zhǎo dào le!","vi":"Tôi tìm mất một tiếng, cuối cùng cũng thấy rồi!","tip_vi":"一个 yí ge: 一 thanh 2. 终于 zhōngyú: 于 là ü, môi tròn và giữ nguyên, đừng đọc “duy”. 小时 xiǎoshí: x mặt lưỡi, sh uốn lưỡi, hai âm khác nhau."},
+      {"id":"s8","zh":"我的包突然不见了，笔记本和耳机都在里面！","pinyin":"Wǒ de bāo tūrán bú jiàn le, bǐjìběn hé ěrjī dōu zài lǐmiàn!","vi":"Túi của tôi bỗng nhiên biến mất, sổ và tai nghe đều ở trong đó!","tip_vi":"突然 tūrán: t bật hơi, r uốn lưỡi (không đọc thành “dán”). 不见 bú jiàn: 不 thanh 2 vì đứng trước thanh 4. 耳 ěr: uốn đầu lưỡi, không đọc “ơ”. 在 zài: z không bật hơi, đừng đọc “chai”."}
+    ],
+    "review": {
+      "remember": [
+        "Bổ ngữ khả năng: V + 得 + C = làm được (找得到、听得懂); V + 不 + C = không làm được (找不到、看不清楚、听不见).",
+        "没找到 = (đã tìm mà) chưa thấy; 找不到 = tìm không thể thấy. Không nói 不能听懂, mà nói 听不懂.",
+        "Danh từ + 呢？ (không có câu trước) = … đâu rồi? 我的手机呢？ = 我的手机在哪儿？",
+        "刚 (phó từ) đứng sau chủ ngữ, có thể + thời lượng: 我刚来一个月. 刚才 (danh từ) = lúc nãy, đứng đầu câu được, đi với 没/不 và 的: 刚才我没听见、刚才的电话.",
+        "着急 = cuống, sốt ruột (着 đọc zháo); 担心 = lo; 终于 = cuối cùng (sau khi mong đợi); 到处 = khắp nơi, đứng trước động từ."
+      ],
+      "mistakes": [
+        "✗ 我不能听懂 → ✓ 我听不懂: dùng bổ ngữ khả năng, không dùng 不能.",
+        "✗ 我找了，可是没找 → ✓ 我找了，可是没找到: “thấy” phải có bổ ngữ 到.",
+        "✗ 我刚没听见 → ✓ 刚才我没听见: phủ định đi với 刚才, không đi với 刚."
+      ]
+    }
+  }
+}

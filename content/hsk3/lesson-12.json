@@ -1,0 +1,210 @@
+{
+  "level": 3,
+  "number": 12,
+  "summary": "Chuẩn bị đi du lịch và giữ gìn đồ quan trọng (hộ chiếu, vé máy bay, thẻ ngân hàng); học câu chữ “把” dạng A把B + V + 在/到/给…… và phân biệt “就” (sớm, nhanh) với “才” (muộn, chậm).",
+  "readings_ok": ["里 li"],
+  "content": {
+    "objectives": [
+      "Nói đặt, đưa đồ vật ở đâu, cho ai bằng câu 把: 把护照放在包里、把行李送到酒店、把相机送给妈妈",
+      "Phân biệt 就 (sớm, nhanh) và 才 (muộn, chậm) khi kể giờ giấc: 我六点就到了 / 他十点才来",
+      "Kể tên và dặn nhau giữ các đồ quan trọng khi đi xa: hộ chiếu, vé máy bay, thẻ ngân hàng…",
+      "Nói chuyện về chuyến du lịch: khách sạn, vé vào cửa, chụp ảnh, nơi nổi tiếng"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"重要","pinyin":"zhòngyào","pos":"tính từ","meaning_vi":"quan trọng","example_zh":"护照很重要，你别丢了。","example_pinyin":"Hùzhào hěn zhòngyào, nǐ bié diū le.","example_vi":"Hộ chiếu rất quan trọng, bạn đừng làm mất.","hanviet":"TRỌNG YẾU","note_vi":"重 ở đây đọc zhòng (nặng, quan trọng), khác 重 chóng (lại, lần nữa). Đồ quan trọng: 重要的东西."},
+      {"id":"v2","hanzi":"才","pinyin":"cái","pos":"phó từ","meaning_vi":"mới (muộn, chậm hơn mong đợi); mới chỉ","example_zh":"他十点才起床。","example_pinyin":"Tā shí diǎn cái qǐchuáng.","example_vi":"Mãi mười giờ anh ấy mới dậy.","note_vi":"才 nói việc xảy ra muộn, chậm, khó; ngược với 就 (sớm, nhanh). Đứng trước số, 才 = mới chỉ: 他才二十岁 (anh ấy mới hai mươi tuổi). c bật hơi, đừng đọc thành “chai”."},
+      {"id":"v3","hanzi":"带","pinyin":"dài","pos":"động từ","meaning_vi":"mang theo, đem theo; dẫn (người)","example_zh":"出门的时候别忘了带伞。","example_pinyin":"Chūmén de shíhou bié wàng le dài sǎn.","example_vi":"Lúc ra ngoài đừng quên mang ô.","hanviet":"ĐỚI","note_vi":"带 = mang theo bên người, đem đi cùng mình: 带护照, 带钱. 带 + người = dẫn ai đi: 我带你去. Khác 送 (đưa tặng, tiễn)."},
+      {"id":"v4","hanzi":"放心","pinyin":"fàngxīn","pos":"động từ","meaning_vi":"yên tâm","example_zh":"放心吧，我会早一点儿回来。","example_pinyin":"Fàngxīn ba, wǒ huì zǎo yìdiǎnr huílai.","example_vi":"Yên tâm đi, mình sẽ về sớm một chút.","hanviet":"PHÓNG TÂM","note_vi":"Ngược nghĩa với 担心 (lo lắng). 不放心 = không yên tâm. 放心吧！ là câu trấn an rất hay dùng."},
+      {"id":"v5","hanzi":"护照","pinyin":"hùzhào","pos":"danh từ","meaning_vi":"hộ chiếu","example_zh":"你的护照带了吗？","example_pinyin":"Nǐ de hùzhào dài le ma?","example_vi":"Bạn mang hộ chiếu chưa?","hanviet":"HỘ CHIẾU"},
+      {"id":"v6","hanzi":"行李","pinyin":"xíngli","pos":"danh từ","meaning_vi":"hành lý","example_zh":"你的行李太多了！","example_pinyin":"Nǐ de xíngli tài duō le!","example_vi":"Hành lý của bạn nhiều quá!","hanviet":"HÀNH LÝ","note_vi":"行 đọc xíng (không phải háng như trong 银行), 李 đọc nhẹ. Lượng từ: 一件行李."},
+      {"id":"v7","hanzi":"箱子","pinyin":"xiāngzi","pos":"danh từ","meaning_vi":"va li; hòm, thùng","example_zh":"这个箱子很大，可以放很多衣服。","example_pinyin":"Zhège xiāngzi hěn dà, kěyǐ fàng hěn duō yīfu.","example_vi":"Cái va li này to, có thể để được nhiều quần áo.","note_vi":"子 đọc nhẹ. Va li kéo đi du lịch thường gọi là 箱子 hoặc 行李箱."},
+      {"id":"v8","hanzi":"机票","pinyin":"jīpiào","pos":"danh từ","meaning_vi":"vé máy bay","example_zh":"我已经买好机票了。","example_pinyin":"Wǒ yǐjīng mǎi hǎo jīpiào le.","example_vi":"Tôi đã mua xong vé máy bay rồi.","hanviet":"CƠ PHIẾU","note_vi":"机 là viết tắt của 飞机. Tương tự: 门票 (vé vào cửa), 车票 (vé xe)."},
+      {"id":"v9","hanzi":"需要","pinyin":"xūyào","pos":"động từ / danh từ","meaning_vi":"cần, cần phải; nhu cầu","example_zh":"你需要帮忙吗？","example_pinyin":"Nǐ xūyào bāngmáng ma?","example_vi":"Bạn có cần giúp không?","hanviet":"NHU YẾU","note_vi":"需要 + danh từ / động từ: 需要钱, 需要休息. Phủ định: 不需要 (không cần). Hơi trang trọng hơn 要."},
+      {"id":"v10","hanzi":"出发","pinyin":"chūfā","pos":"động từ","meaning_vi":"xuất phát, khởi hành","example_zh":"我们明天早上七点出发。","example_pinyin":"Wǒmen míngtiān zǎoshang qī diǎn chūfā.","example_vi":"Bảy giờ sáng mai chúng ta xuất phát.","hanviet":"XUẤT PHÁT","note_vi":"出发 không mang trực tiếp nơi đến: ✗ 出发北京. Nói: 从家里出发 (xuất phát từ nhà), 出发去北京 (khởi hành đi Bắc Kinh)."},
+      {"id":"v11","hanzi":"宾馆","pinyin":"bīnguǎn","pos":"danh từ","meaning_vi":"khách sạn, nhà khách","example_zh":"我们住的宾馆离海很近。","example_pinyin":"Wǒmen zhù de bīnguǎn lí hǎi hěn jìn.","example_vi":"Khách sạn chúng tôi ở rất gần biển.","hanviet":"TÂN QUÁN","note_vi":"Nghĩa gần giống 酒店. 宾馆 hay dùng cho khách sạn bình thường, nhà khách."},
+      {"id":"v12","hanzi":"酒店","pinyin":"jiǔdiàn","pos":"danh từ","meaning_vi":"khách sạn","example_zh":"这家酒店很有名。","example_pinyin":"Zhè jiā jiǔdiàn hěn yǒumíng.","example_vi":"Khách sạn này rất nổi tiếng.","hanviet":"TỬU ĐIẾM","note_vi":"Bẫy Hán Việt: “tửu điếm” nghe như quán rượu, nhưng ngày nay 酒店 chủ yếu là khách sạn (thường lớn, sang hơn 宾馆). Lượng từ: 家."},
+      {"id":"v13","hanzi":"收","pinyin":"shōu","pos":"động từ","meaning_vi":"nhận, thu (tiền); cất (đồ)","example_zh":"这家小店不收信用卡。","example_pinyin":"Zhè jiā xiǎo diàn bù shōu xìnyòngkǎ.","example_vi":"Cửa hàng nhỏ này không nhận thẻ tín dụng.","hanviet":"THU","note_vi":"收钱 = thu tiền; 收好 = cất kỹ, giữ cẩn thận (我帮你收好)."},
+      {"id":"v14","hanzi":"信用卡","pinyin":"xìnyòngkǎ","pos":"danh từ","meaning_vi":"thẻ tín dụng","example_zh":"我可以用信用卡吗？","example_pinyin":"Wǒ kěyǐ yòng xìnyòngkǎ ma?","example_vi":"Tôi dùng thẻ tín dụng được không?","hanviet":"TÍN DỤNG (KHẢ)","note_vi":"卡 (thẻ) đọc kǎ. Lượng từ: 张 (一张信用卡)."},
+      {"id":"v15","hanzi":"银行卡","pinyin":"yínhángkǎ","pos":"danh từ","meaning_vi":"thẻ ngân hàng","example_zh":"我的银行卡丢了，怎么办？","example_pinyin":"Wǒ de yínhángkǎ diū le, zěnme bàn?","example_vi":"Thẻ ngân hàng của tôi mất rồi, làm sao bây giờ?","note_vi":"行 trong 银行 đọc háng (hàng, cửa hàng), không đọc xíng."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"飞","pinyin":"fēi","pos":"động từ","meaning_vi":"bay","example_zh":"小鸟飞走了。","example_pinyin":"Xiǎo niǎo fēi zǒu le.","example_vi":"Con chim nhỏ bay đi mất rồi."},
+      {"id":"x2","hanzi":"快要","pinyin":"kuàiyào","pos":"phó từ","meaning_vi":"sắp (… rồi)","example_zh":"飞机快要起飞了。","example_pinyin":"Fēijī kuàiyào qǐfēi le.","example_vi":"Máy bay sắp cất cánh rồi."},
+      {"id":"x3","hanzi":"起飞","pinyin":"qǐfēi","pos":"động từ","meaning_vi":"cất cánh","example_zh":"飞机几点起飞？","example_pinyin":"Fēijī jǐ diǎn qǐfēi?","example_vi":"Máy bay mấy giờ cất cánh?"},
+      {"id":"x4","hanzi":"检票","pinyin":"jiǎnpiào","pos":"động từ","meaning_vi":"soát vé","example_zh":"电影院已经开始检票了。","example_pinyin":"Diànyǐngyuàn yǐjīng kāishǐ jiǎnpiào le.","example_vi":"Rạp chiếu phim đã bắt đầu soát vé rồi."},
+      {"id":"x5","hanzi":"卡","pinyin":"kǎ","pos":"danh từ","meaning_vi":"thẻ","example_zh":"你可以用卡买票。","example_pinyin":"Nǐ kěyǐ yòng kǎ mǎi piào.","example_vi":"Bạn có thể dùng thẻ để mua vé."},
+      {"id":"x6","hanzi":"银行","pinyin":"yínháng","pos":"danh từ","meaning_vi":"ngân hàng","example_zh":"银行几点开门？","example_pinyin":"Yínháng jǐ diǎn kāimén?","example_vi":"Ngân hàng mấy giờ mở cửa?"},
+      {"id":"x7","hanzi":"地点","pinyin":"dìdiǎn","pos":"danh từ","meaning_vi":"địa điểm","example_zh":"见面的时间和地点我已经告诉你了。","example_pinyin":"Jiànmiàn de shíjiān hé dìdiǎn wǒ yǐjīng gàosu nǐ le.","example_vi":"Thời gian và địa điểm gặp mặt tôi đã nói với bạn rồi."},
+      {"id":"x8","hanzi":"有名","pinyin":"yǒumíng","pos":"tính từ","meaning_vi":"nổi tiếng, có tiếng","example_zh":"这个地方很有名。","example_pinyin":"Zhège dìfang hěn yǒumíng.","example_vi":"Nơi này rất nổi tiếng."},
+      {"id":"x9","hanzi":"游客","pinyin":"yóukè","pos":"danh từ","meaning_vi":"du khách, khách du lịch","example_zh":"周末这儿的游客很多。","example_pinyin":"Zhōumò zhèr de yóukè hěn duō.","example_vi":"Cuối tuần ở đây rất đông du khách."},
+      {"id":"x10","hanzi":"门票","pinyin":"ménpiào","pos":"danh từ","meaning_vi":"vé vào cửa","example_zh":"门票多少钱一张？","example_pinyin":"Ménpiào duōshao qián yì zhāng?","example_vi":"Vé vào cửa bao nhiêu tiền một vé?"},
+      {"id":"x11","hanzi":"市","pinyin":"shì","pos":"danh từ","meaning_vi":"thành phố (đơn vị hành chính)","example_zh":"我们市有一个很大的公园。","example_pinyin":"Wǒmen shì yǒu yí ge hěn dà de gōngyuán.","example_vi":"Thành phố chúng tôi có một công viên rất lớn."},
+      {"id":"x12","hanzi":"海","pinyin":"hǎi","pos":"danh từ","meaning_vi":"biển","example_zh":"我很喜欢去海边玩儿。","example_pinyin":"Wǒ hěn xǐhuan qù hǎi biān wánr.","example_vi":"Tôi rất thích đi biển chơi."},
+      {"id":"x13","hanzi":"相机","pinyin":"xiàngjī","pos":"danh từ","meaning_vi":"máy ảnh","example_zh":"这个相机是新买的。","example_pinyin":"Zhège xiàngjī shì xīn mǎi de.","example_vi":"Cái máy ảnh này mới mua."},
+      {"id":"x14","hanzi":"照相","pinyin":"zhàoxiàng","pos":"động từ","meaning_vi":"chụp ảnh","example_zh":"我们在这儿照相吧。","example_pinyin":"Wǒmen zài zhèr zhàoxiàng ba.","example_vi":"Chúng mình chụp ảnh ở đây đi."},
+      {"id":"x15","hanzi":"拍照","pinyin":"pāizhào","pos":"động từ","meaning_vi":"chụp ảnh","example_zh":"这里不能拍照。","example_pinyin":"Zhèlǐ bù néng pāizhào.","example_vi":"Ở đây không được chụp ảnh."},
+      {"id":"x16","hanzi":"牙刷","pinyin":"yáshuā","pos":"danh từ","meaning_vi":"bàn chải đánh răng","example_zh":"别忘了带牙刷。","example_pinyin":"Bié wàng le dài yáshuā.","example_vi":"Đừng quên mang bàn chải đánh răng."},
+      {"id":"x17","hanzi":"东北","pinyin":"dōngběi","pos":"từ chỉ phương hướng","meaning_vi":"đông bắc","example_zh":"机场在我家的东北边。","example_pinyin":"Jīchǎng zài wǒ jiā de dōngběi biān.","example_vi":"Sân bay ở phía đông bắc nhà tôi."},
+      {"id":"x18","hanzi":"东南","pinyin":"dōngnán","pos":"từ chỉ phương hướng","meaning_vi":"đông nam","example_zh":"这个公园在我们学校的东南边。","example_pinyin":"Zhège gōngyuán zài wǒmen xuéxiào de dōngnán biān.","example_vi":"Công viên này ở phía đông nam trường chúng tôi."},
+      {"id":"x19","hanzi":"西北","pinyin":"xīběi","pos":"từ chỉ phương hướng","meaning_vi":"tây bắc","example_zh":"今天刮西北风，有点儿冷。","example_pinyin":"Jīntiān guā xīběi fēng, yǒudiǎnr lěng.","example_vi":"Hôm nay có gió tây bắc, hơi lạnh."},
+      {"id":"x20","hanzi":"西南","pinyin":"xīnán","pos":"từ chỉ phương hướng","meaning_vi":"tây nam","example_zh":"银行在宾馆的西南边。","example_pinyin":"Yínháng zài bīnguǎn de xīnán biān.","example_vi":"Ngân hàng ở phía tây nam khách sạn."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“才” và “就”",
+        "pattern":"Thời gian / số lượng + 就 + V (+ 了): sớm, nhanh　·　Thời gian / số lượng + 才 + V: muộn, chậm",
+        "explanation_vi":"就 và 才 đều đứng sau từ chỉ thời gian (hoặc số lượng), ngay trước động từ, nhưng cho thấy cảm nhận ngược nhau của người nói. 就 = “đã … rồi”: việc xảy ra sớm, nhanh, dễ hơn mình nghĩ, như 他七点就来了 (bảy giờ anh ấy đã đến rồi). 才 = “mới”, “mãi … mới”: việc xảy ra muộn, chậm, khó hơn mình nghĩ, như 他十点才来 (mãi mười giờ anh ấy mới đến). Kể việc đã xảy ra: câu có 就 thường có 了 ở cuối, câu có 才 thì không thêm 了. Đứng trước con số, 才 còn có nghĩa “mới chỉ, chỉ có”: 才一百块 (chỉ có một trăm tệ).",
+        "examples":[
+          {"zh":"我六点半就到机场了。","pinyin":"Wǒ liù diǎn bàn jiù dào jīchǎng le.","vi":"Sáu rưỡi tôi đã đến sân bay rồi."},
+          {"zh":"你怎么现在才来？","pinyin":"Nǐ zěnme xiànzài cái lái?","vi":"Sao bây giờ bạn mới đến?"},
+          {"zh":"飞机十点才起飞，时间还早。","pinyin":"Fēijī shí diǎn cái qǐfēi, shíjiān hái zǎo.","vi":"Mười giờ máy bay mới cất cánh, vẫn còn sớm."},
+          {"zh":"这个箱子才一百块，太便宜了！","pinyin":"Zhège xiāngzi cái yìbǎi kuài, tài piányi le!","vi":"Cái va li này chỉ có một trăm tệ, rẻ quá!"}
+        ],
+        "mistakes_vi":"✗ 他十点才来了。\n✓ 他十点才来。\nKể việc đã xảy ra, câu có 才 không thêm 了 ở cuối (tiếng Việt “mãi 10 giờ mới đến” cũng không có “rồi”).\n✗ 他七点就来。(nói việc hôm qua)\n✓ 他七点就来了。\nViệc đã xảy ra sớm: 就……了, giống “đã … rồi”.\n✗ 他才十点起床。(muốn nói “mãi 10 giờ mới dậy”)\n✓ 他十点才起床。\n才/就 đứng sau từ chỉ thời gian, ngay trước động từ.",
+        "compare_vi":"就 ≈ “đã … rồi” (sớm): 七点就到了 = bảy giờ đã đến rồi. 才 ≈ “mới / mãi … mới” (muộn): 十点才到 = mười giờ mới đến. Cùng một giờ, chọn 就 hay 才 là do người nói thấy sớm hay muộn."
+      },
+      {
+        "id":"g2",
+        "title":"Câu chữ “把” (2): A把B + V + 在/到/给……",
+        "pattern":"S + 把 + vật + V + 在/到 + nơi chốn　·　S + 把 + vật + V + 给 + người",
+        "explanation_vi":"Khi một vật cụ thể được đặt ở đâu, đưa đến đâu, hay đưa cho ai sau một động tác, tiếng Trung dùng câu 把: 把护照放在包里 (để hộ chiếu vào trong túi), 把行李送到酒店 (đưa hành lý đến khách sạn), 把相机送给妈妈 (tặng máy ảnh cho mẹ). 在/到/给 đứng sát sau động từ, rồi mới đến nơi chốn hoặc người. Với kiểu “V + 在/到 + nơi chốn” mà có tân ngữ, gần như bắt buộc phải dùng 把, không đặt tân ngữ sau động từ như tiếng Việt. Phủ định vẫn đặt 没/别 trước 把.",
+        "examples":[
+          {"zh":"把重要的东西放在我这儿吧。","pinyin":"Bǎ zhòngyào de dōngxi fàng zài wǒ zhèr ba.","vi":"Để đồ quan trọng ở chỗ tôi nhé."},
+          {"zh":"你把护照放在包里了吗？","pinyin":"Nǐ bǎ hùzhào fàng zài bāo li le ma?","vi":"Bạn để hộ chiếu vào túi chưa?"},
+          {"zh":"下了飞机，我们就把行李送到酒店。","pinyin":"Xià le fēijī, wǒmen jiù bǎ xíngli sòng dào jiǔdiàn.","vi":"Xuống máy bay, chúng ta mang hành lý đến khách sạn luôn."},
+          {"zh":"我想把这个相机送给妈妈。","pinyin":"Wǒ xiǎng bǎ zhège xiàngjī sòng gěi māma.","vi":"Tôi muốn tặng cái máy ảnh này cho mẹ."}
+        ],
+        "mistakes_vi":"✗ 我放护照在包里。\n✓ 我把护照放在包里。\nTiếng Việt nói “để hộ chiếu ở trong túi”, nhưng tiếng Trung không đặt tân ngữ giữa động từ và 在/到. Phải đưa vật lên trước bằng 把.\n✗ 请你把行李送酒店到。\n✓ 请你把行李送到酒店。\n在/到/给 đứng ngay sau động từ, nơi chốn hoặc người đứng sau cùng.\n✗ 我把银行卡没放在包里。\n✓ 我没把银行卡放在包里。\n没 đứng trước 把.",
+        "compare_vi":"Tiếng Việt: “để hộ chiếu vào túi”, “mang hành lý đến khách sạn”. Tiếng Trung: 把护照放在包里, 把行李送到酒店: vật đứng trước động từ, nơi chốn đứng sau 在/到."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Để đồ quan trọng ở chỗ tôi nhé",
+      "scene_vi": "Sáng sớm ở sân bay, Tiểu Vương và Tiểu Lý chuẩn bị bay đi biển chơi năm ngày. Tiểu Lý đến muộn và hay làm mất đồ.",
+      "lines": [
+        {"speaker":"小王","zh":"小李，你怎么现在才来？我六点半就到机场了。","pinyin":"Xiǎo Lǐ, nǐ zěnme xiànzài cái lái? Wǒ liù diǎn bàn jiù dào jīchǎng le.","vi":"Tiểu Lý, sao giờ bạn mới đến? Mình sáu rưỡi đã đến sân bay rồi."},
+        {"speaker":"小李","zh":"对不起！出发前我一直在找护照，七点半才找到。","pinyin":"Duìbuqǐ! Chūfā qián wǒ yìzhí zài zhǎo hùzhào, qī diǎn bàn cái zhǎo dào.","vi":"Xin lỗi nhé! Trước lúc đi mình cứ tìm hộ chiếu mãi, bảy rưỡi mới tìm thấy."},
+        {"speaker":"小王","zh":"没关系，飞机十点才起飞，时间还早。机票呢？","pinyin":"Méi guānxi, fēijī shí diǎn cái qǐfēi, shíjiān hái zǎo. Jīpiào ne?","vi":"Không sao, mười giờ máy bay mới cất cánh, vẫn còn sớm. Vé máy bay đâu?"},
+        {"speaker":"小李","zh":"机票在手机里。护照、信用卡、银行卡都在我的包里。","pinyin":"Jīpiào zài shǒujī li. Hùzhào, xìnyòngkǎ, yínhángkǎ dōu zài wǒ de bāo li.","vi":"Vé ở trong điện thoại. Hộ chiếu, thẻ tín dụng, thẻ ngân hàng đều ở trong túi mình."},
+        {"speaker":"小王","zh":"你总是丢东西。把重要的东西放在我这儿吧，我帮你收好。","pinyin":"Nǐ zǒngshì diū dōngxi. Bǎ zhòngyào de dōngxi fàng zài wǒ zhèr ba, wǒ bāng nǐ shōu hǎo.","vi":"Bạn lúc nào cũng làm mất đồ. Để đồ quan trọng ở chỗ mình nhé, mình cất giúp cho."},
+        {"speaker":"小李","zh":"好，那我把护照和信用卡给你。银行卡我自己带着，买东西的时候需要。","pinyin":"Hǎo, nà wǒ bǎ hùzhào hé xìnyòngkǎ gěi nǐ. Yínhángkǎ wǒ zìjǐ dàizhe, mǎi dōngxi de shíhou xūyào.","vi":"Được, vậy mình đưa bạn hộ chiếu với thẻ tín dụng. Thẻ ngân hàng mình tự mang theo, lúc mua đồ cần dùng."},
+        {"speaker":"小王","zh":"你的箱子这么大，带了什么东西啊？","pinyin":"Nǐ de xiāngzi zhème dà, dài le shénme dōngxi a?","vi":"Va li của bạn to thế, mang theo những gì vậy?"},
+        {"speaker":"小李","zh":"衣服、相机、牙刷……我们要在海边玩儿五天呢！","pinyin":"Yīfu, xiàngjī, yáshuā…… Wǒmen yào zài hǎi biān wánr wǔ tiān ne!","vi":"Quần áo, máy ảnh, bàn chải đánh răng… Chúng mình sẽ chơi ở biển những năm ngày cơ mà!"},
+        {"speaker":"小王","zh":"酒店里有牙刷，不需要带。下了飞机，我们就把行李送到酒店，再去海边拍照。","pinyin":"Jiǔdiàn li yǒu yáshuā, bù xūyào dài. Xià le fēijī, wǒmen jiù bǎ xíngli sòng dào jiǔdiàn, zài qù hǎi biān pāizhào.","vi":"Khách sạn có bàn chải rồi, không cần mang đâu. Xuống máy bay, chúng mình mang hành lý đến khách sạn luôn, rồi ra biển chụp ảnh."},
+        {"speaker":"小李","zh":"太好了！你放心，这次我一定把东西都收好。","pinyin":"Tài hǎo le! Nǐ fàngxīn, zhè cì wǒ yídìng bǎ dōngxi dōu shōu hǎo.","vi":"Tuyệt quá! Bạn yên tâm, lần này mình nhất định cất kỹ hết đồ đạc."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:护照","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"坐飞机去外国，必须带____。","options":["护照","牙刷","相机","门票"],"answer":0,"explanation_vi":"Đi nước ngoài bằng máy bay thì bắt buộc phải mang 护照 (hộ chiếu)."},
+      {"id":"e2","type":"choice","tag":"v:出发","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"明天早上七点，我们从学校____。","options":["出发","起飞","检票","需要"],"answer":0,"explanation_vi":"从学校出发 = xuất phát từ trường. 起飞 chỉ dùng cho máy bay."},
+      {"id":"e3","type":"choice","tag":"v:放心","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____吧，我会把你的护照收好。","options":["放心","担心","着急","小心"],"answer":0,"explanation_vi":"“放心吧” = yên tâm đi, dùng để trấn an người khác."},
+      {"id":"e4","type":"choice","tag":"v:需要","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"酒店里有牙刷，你不____带。","options":["需要","必须","重要","放心"],"answer":0,"explanation_vi":"不需要 = không cần. Không nói ✗ 不必须; 重要 và 放心 không hợp nghĩa."},
+      {"id":"e5","type":"choice","tag":"v:收","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"对不起，我们店不____信用卡。","options":["收","带","放","送"],"answer":0,"explanation_vi":"收信用卡 = nhận (thanh toán bằng) thẻ tín dụng."},
+      {"id":"e6","type":"choice","tag":"g:才就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我六点半____到机场了，他八点才来。","options":["就","才","再","又"],"answer":0,"explanation_vi":"Sáu rưỡi đã đến (sớm) và cuối câu có 了 nên dùng 就."},
+      {"id":"e7","type":"choice","tag":"g:才就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"电影七点开始，他七点半____来。","options":["才","就","还","也"],"answer":0,"explanation_vi":"Phim bắt đầu lúc bảy giờ mà bảy rưỡi mới đến: muộn, nên dùng 才."},
+      {"id":"e8","type":"choice","tag":"g:才就","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他十点才起床。","他十点才起床了。","他才十点起床了。","他十点起床才。"],"answer":0,"explanation_vi":"才 đứng sau thời gian, trước động từ, và câu có 才 không thêm 了."},
+      {"id":"e9","type":"choice","tag":"g:把字句2","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我把护照放在包里了。","我放护照在包里了。","我把护照放包里在了。","我护照把放在包里了。"],"answer":0,"explanation_vi":"S + 把 + vật + 放在 + nơi chốn. Không đặt tân ngữ giữa 放 và 在."},
+      {"id":"e10","type":"choice","tag":"g:把字句2","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请你把行李送____酒店。","options":["到","在","给","从"],"answer":0,"explanation_vi":"送到 + nơi chốn = đưa đến đâu. 给 đi với người, không đi với nơi chốn."},
+      {"id":"e11","type":"order","tag":"g:把字句2","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["把","重要的东西","放在","我这儿","吧"],"answers":["把重要的东西放在我这儿吧"],"translation_vi":"Để đồ quan trọng ở chỗ tôi nhé.","explanation_vi":"把 + vật + 放在 + nơi chốn (我这儿 = chỗ tôi) + 吧."},
+      {"id":"e12","type":"order","tag":"g:才就","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","怎么","现在","才","来"],"answers":["你怎么现在才来","你现在怎么才来"],"translation_vi":"Sao bây giờ bạn mới đến?","explanation_vi":"才 đứng ngay trước động từ 来; 现在 và 怎么 đứng trước 才."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"重要","vi":"quan trọng"},{"zh":"护照","vi":"hộ chiếu"},{"zh":"行李","vi":"hành lý"},{"zh":"机票","vi":"vé máy bay"},{"zh":"宾馆","vi":"khách sạn"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"起飞","vi":"cất cánh"},{"zh":"门票","vi":"vé vào cửa"},{"zh":"游客","vi":"du khách"},{"zh":"牙刷","vi":"bàn chải đánh răng"},{"zh":"相机","vi":"máy ảnh"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:才就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"昨天的作业很难，我十一点____做完。","options":["才","就","都","也"],"answer":0,"explanation_vi":"Bài khó nên mười một giờ mới làm xong: muộn, dùng 才 (và không có 了)."},
+        {"id":"q2","type":"choice","tag":"g:才就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他家离学校很近，走五分钟____到了。","options":["就","才","再","还"],"answer":0,"explanation_vi":"Nhà gần, đi năm phút đã đến: nhanh, dùng 就……了."},
+        {"id":"q3","type":"choice","tag":"g:才就","prompt_vi":"Chọn nghĩa đúng của câu.","question_zh":"他八点才到。","options":["Mãi tám giờ anh ấy mới đến.","Tám giờ anh ấy đã đến rồi.","Tám giờ anh ấy sẽ không đến.","Anh ấy đến trước tám giờ."],"answer":0,"explanation_vi":"才 = mới, mãi… mới: người nói thấy tám giờ là muộn."},
+        {"id":"q4","type":"choice","tag":"g:把字句2","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你把这个箱子放____门口吧。","options":["在","给","从","往"],"answer":0,"explanation_vi":"放在 + nơi chốn: 放在门口 = để ở trước cửa."},
+        {"id":"q5","type":"choice","tag":"g:把字句2","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我想把这张照片送____妈妈。","options":["给","在","到","从"],"answer":0,"explanation_vi":"送给 + người = tặng cho ai. 在/到 đi với nơi chốn."},
+        {"id":"q6","type":"choice","tag":"g:把字句2","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我没把银行卡放在包里。","我把银行卡没放在包里。","我把银行卡放在包里没。","我没放银行卡在包里。"],"answer":0,"explanation_vi":"没 đứng trước 把; tân ngữ không đứng giữa 放 và 在."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:重要","prompt_vi":"Chọn đáp án đúng.","question_zh":"护照很____，你一定要收好。","options":["重要","有名","放心","需要"],"answer":0,"explanation_vi":"护照很重要 = hộ chiếu rất quan trọng, nên phải cất kỹ."},
+      {"id":"t2","type":"choice","tag":"g:才就","prompt_vi":"Chọn đáp án đúng.","question_zh":"飞机十点起飞，我们七点____到机场了。","options":["就","才","再","又"],"answer":0,"explanation_vi":"Mười giờ máy bay mới bay mà bảy giờ đã đến: sớm, dùng 就……了."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"带","vi":"mang theo"},{"zh":"收","vi":"nhận, thu"},{"zh":"箱子","vi":"va li"},{"zh":"信用卡","vi":"thẻ tín dụng"},{"zh":"银行卡","vi":"thẻ ngân hàng"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"飞","vi":"bay"},{"zh":"快要","vi":"sắp"},{"zh":"银行","vi":"ngân hàng"},{"zh":"海","vi":"biển"},{"zh":"有名","vi":"nổi tiếng"}]},
+      {"id":"t5","type":"order","tag":"g:把字句2","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","把","行李","送到","酒店","吧"],"answers":["我们把行李送到酒店吧"],"translation_vi":"Chúng mình mang hành lý đến khách sạn đi.","explanation_vi":"S + 把 + vật + 送到 + nơi chốn + 吧."},
+      {"id":"t6","type":"order","tag":"g:才就","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","晚上","十点","才","回家"],"answers":["他晚上十点才回家","晚上十点他才回家"],"translation_vi":"Mãi mười giờ tối anh ấy mới về nhà.","explanation_vi":"Thời gian + 才 + động từ; chủ ngữ đứng trước hoặc sau từ chỉ thời gian."},
+      {"id":"t7","type":"fill","tag":"v:带","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"出门的时候，别忘了____伞。","answers":["带","拿"],"hint_vi":"mang theo bên mình","explanation_vi":"带伞 = mang ô theo."},
+      {"id":"t8","type":"fill","tag":"g:才就","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"你怎么现在____来？我们等了你一个小时！","answers":["才"],"hint_vi":"“mới” (muộn hơn mong đợi)","explanation_vi":"Đợi cả tiếng đồng hồ: người nói thấy muộn, nên dùng 才."},
+      {"id":"t9","type":"listen_choice","tag":"v:起飞","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"飞机快要起飞了。","options":["Máy bay sắp cất cánh rồi.","Máy bay đã cất cánh rồi.","Mười giờ máy bay mới cất cánh.","Máy bay sắp hạ cánh rồi."],"answer":0,"explanation_vi":"快要……了 = sắp… rồi; 起飞 = cất cánh."},
+      {"id":"t10","type":"listen_choice","tag":"g:把字句2","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"请把护照放在包里。","options":["Hãy để hộ chiếu vào trong túi.","Hãy đưa hộ chiếu cho tôi.","Hãy để vé máy bay vào trong túi.","Hộ chiếu ở trong túi tôi."],"answer":0,"explanation_vi":"把护照放在包里 = để hộ chiếu vào trong túi."},
+      {"id":"t11","type":"dictation","tag":"g:把字句2","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"把重要的东西放在我这儿吧。","answers":["把重要的东西放在我这儿吧"],"explanation_vi":"把重要的东西放在我这儿吧 = Để đồ quan trọng ở chỗ tôi nhé."},
+      {"id":"t12","type":"dictation","tag":"v:出发","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我们明天早上七点出发。","answers":["我们明天早上七点出发","我们明天早上7点出发"],"explanation_vi":"我们明天早上七点出发 = Bảy giờ sáng mai chúng ta xuất phát."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:把字句2","prompt_vi":"Dịch câu sau sang tiếng Trung (dùng câu chữ 把).","source_vi":"Tôi để hộ chiếu vào trong túi rồi.","answers":["我把护照放在包里了","我已经把护照放在包里了","我把护照放在包里面了","我已经把护照放在包里面了","我把护照放到包里了","我把护照放进包里了","护照我放在包里了"],"explanation_vi":"S + 把 + 护照 + 放在 + 包里 + 了."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:才就","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Sao bây giờ bạn mới đến?","answers":["你怎么现在才来","你现在怎么才来","你怎么才来","怎么现在才来","你为什么现在才来","你怎么现在才到","你怎么才到"],"explanation_vi":"现在 + 才 + 来: muộn hơn mong đợi."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:放心","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"放心吧，我会把你的护照收好。","answers_vi":["Yên tâm đi, tôi sẽ cất kỹ hộ chiếu của bạn.","Bạn yên tâm, tôi sẽ giữ cẩn thận hộ chiếu cho bạn."],"keywords":[["yên tâm"],["hộ chiếu"],["cất","giữ"]],"explanation_vi":"放心吧 = yên tâm đi; 收好 = cất kỹ, giữ cẩn thận."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:才就","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他六点就起床了。","answers_vi":["Sáu giờ anh ấy đã dậy rồi.","Anh ấy sáu giờ đã thức dậy rồi."],"keywords":[["sáu giờ","6 giờ"],["dậy"],["đã","rồi"]],"explanation_vi":"就……了 = đã… rồi (sớm)."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"在海边的五天",
+        "title_vi":"Năm ngày ở biển",
+        "paragraphs":[
+          {
+            "tokens":[["上个星期","shàng ge xīngqī","tuần trước"],["，"],["我","wǒ","tôi"],["和","hé","và"],["小王","Xiǎo Wáng","Tiểu Vương (tên người)"],["去","qù","đi"],["海边","hǎi biān","bờ biển"],["旅游","lǚyóu","du lịch"],["了","le","(đã)"],["。"],["我们","wǒmen","chúng tôi"],["早上","zǎoshang","buổi sáng"],["八点","bā diǎn","tám giờ"],["出发","chūfā","xuất phát"],["，"],["下午","xiàwǔ","buổi chiều"],["三点","sān diǎn","ba giờ"],["才","cái","mới"],["到","dào","đến"],["宾馆","bīnguǎn","khách sạn"],["。"],["宾馆","bīnguǎn","khách sạn"],["离","lí","cách"],["海","hǎi","biển"],["很","hěn","rất"],["近","jìn","gần"],["，"],["从","cóng","từ"],["房间","fángjiān","phòng"],["里","li","trong"],["就","jiù","là đã"],["能","néng","có thể"],["看到","kàn dào","nhìn thấy"],["海","hǎi","biển"],["。"]],
+            "vi":"Tuần trước, tôi và Tiểu Vương đi biển du lịch. Tám giờ sáng chúng tôi xuất phát, ba giờ chiều mới đến khách sạn. Khách sạn rất gần biển, từ trong phòng đã nhìn thấy biển."
+          },
+          {
+            "tokens":[["第二天","dì èr tiān","ngày thứ hai"],["，"],["我们","wǒmen","chúng tôi"],["去","qù","đi"],["了","le","(đã)"],["一个","yí ge","một"],["很","hěn","rất"],["有名","yǒumíng","nổi tiếng"],["的","de","(trợ từ)"],["地方","dìfang","nơi, chỗ"],["，"],["那儿","nàr","ở đó"],["的","de","(của)"],["游客","yóukè","du khách"],["非常","fēicháng","vô cùng"],["多","duō","nhiều"],["。"],["门票","ménpiào","vé vào cửa"],["八十","bāshí","tám mươi"],["块","kuài","tệ"],["一","yì","một"],["张","zhāng","tấm, vé"],["。"],["检票","jiǎnpiào","soát vé"],["的时候","de shíhou","lúc, khi"],["，"],["我","wǒ","tôi"],["找不到","zhǎo bu dào","tìm không thấy"],["门票","ménpiào","vé vào cửa"],["了","le","(rồi)"],["，"],["很","hěn","rất"],["着急","zháojí","sốt ruột, lo"],["。"],["小王","Xiǎo Wáng","Tiểu Vương"],["笑着","xiàozhe","cười"],["说","shuō","nói"],["："],["“"],["别","bié","đừng"],["着急","zháojí","sốt ruột"],["，"],["门票","ménpiào","vé"],["在","zài","ở"],["我这儿","wǒ zhèr","chỗ mình"],["。"],["早上","zǎoshang","buổi sáng"],["你","nǐ","bạn"],["就","jiù","đã (từ lúc)"],["把","bǎ","(đem)"],["它","tā","nó"],["给","gěi","đưa"],["我","wǒ","mình"],["了","le","(rồi)"],["！"],["”"]],
+            "vi":"Ngày thứ hai, chúng tôi đến một nơi rất nổi tiếng, ở đó du khách vô cùng đông. Vé vào cửa tám mươi tệ một vé. Lúc soát vé, tôi tìm không thấy vé, rất sốt ruột. Tiểu Vương cười nói: “Đừng lo, vé ở chỗ mình. Từ sáng bạn đã đưa nó cho mình rồi!”"
+          },
+          {
+            "tokens":[["那天","nà tiān","hôm đó"],["下午","xiàwǔ","buổi chiều"],["，"],["我们","wǒmen","chúng tôi"],["一直","yìzhí","suốt, liên tục"],["在","zài","ở"],["海边","hǎi biān","bờ biển"],["拍照","pāizhào","chụp ảnh"],["。"],["我","wǒ","tôi"],["觉得","juéde","thấy, cho rằng"],["这次","zhè cì","lần này"],["旅游","lǚyóu","du lịch"],["最","zuì","nhất"],["重要","zhòngyào","quan trọng"],["的","de","(cái)"],["不是","bú shì","không phải là"],["相机","xiàngjī","máy ảnh"],["，"],["是","shì","là"],["好","hǎo","tốt"],["朋友","péngyou","bạn bè"],["！"]],
+            "vi":"Chiều hôm đó, chúng tôi chụp ảnh suốt ở bờ biển. Tôi thấy điều quan trọng nhất trong chuyến du lịch này không phải là máy ảnh, mà là một người bạn tốt!"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"g:才就","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"他们几点到宾馆？","options":["下午三点","早上八点","中午十二点","晚上八点"],"answer":0,"explanation_vi":"Đoạn 1: 下午三点才到宾馆 (ba giờ chiều mới đến)."},
+          {"id":"rq2","type":"choice","tag":"v:门票","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"门票多少钱一张？","options":["八十块","十八块","八百块","一百块"],"answer":0,"explanation_vi":"Đoạn 2: 门票八十块一张."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"检票的时候，门票在哪儿？","options":["在小王那儿","在“我”的包里","在宾馆","丢了"],"answer":0,"explanation_vi":"Đoạn 2: 小王说：“门票在我这儿。”"},
+          {"id":"rq4","type":"choice","tag":"g:把字句2","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”早上把门票给了小王。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 早上你就把它给我了 — buổi sáng “tôi” đã đưa vé cho Tiểu Vương, nên câu này đúng."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”觉得这次旅游最重要的是相机。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 最重要的不是相机，是好朋友 — nên câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Lời dặn của trưởng đoàn du lịch",
+        "text_zh":"大家好，我是小刘，明天带大家去海边玩儿。我们七点吃早饭，七点半就出发。那个地方很有名，游客很多，大家一定要注意自己的东西。护照很重要，请大家把护照放在宾馆的房间里，不要带出去。门票我已经买好了，检票的时候我会把门票给大家。我们晚上六点才回来，所以大家需要带一点儿水和吃的。",
+        "pinyin":"Dàjiā hǎo, wǒ shì Xiǎo Liú, míngtiān dài dàjiā qù hǎi biān wánr. Wǒmen qī diǎn chī zǎofàn, qī diǎn bàn jiù chūfā. Nàge dìfang hěn yǒumíng, yóukè hěn duō, dàjiā yídìng yào zhùyì zìjǐ de dōngxi. Hùzhào hěn zhòngyào, qǐng dàjiā bǎ hùzhào fàng zài bīnguǎn de fángjiān li, búyào dài chūqu. Ménpiào wǒ yǐjīng mǎi hǎo le, jiǎnpiào de shíhou wǒ huì bǎ ménpiào gěi dàjiā. Wǒmen wǎnshang liù diǎn cái huílai, suǒyǐ dàjiā xūyào dài yìdiǎnr shuǐ hé chī de.",
+        "vi":"Chào mọi người, tôi là Tiểu Lưu, ngày mai tôi dẫn mọi người đi biển chơi. Bảy giờ chúng ta ăn sáng, bảy rưỡi là xuất phát. Nơi đó rất nổi tiếng, đông du khách, mọi người nhất định phải để ý đồ đạc của mình. Hộ chiếu rất quan trọng, mọi người hãy để hộ chiếu trong phòng khách sạn, đừng mang ra ngoài. Vé vào cửa tôi đã mua xong rồi, lúc soát vé tôi sẽ đưa vé cho mọi người. Sáu giờ tối chúng ta mới về, nên mọi người cần mang theo một ít nước và đồ ăn.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"明天几点出发？","options":["七点半","七点","八点","六点"],"answer":0,"explanation_vi":"Nghe được: 七点吃早饭，七点半就出发."},
+          {"id":"lq2","type":"choice","tag":"g:把字句2","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"小刘让大家把护照放在哪儿？","options":["宾馆的房间里","自己的包里","小刘那儿","海边"],"answer":0,"explanation_vi":"Nghe được: 请大家把护照放在宾馆的房间里."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"门票怎么办？","options":["小刘已经买好了","大家自己买","到了海边再买","不需要门票"],"answer":0,"explanation_vi":"Nghe được: 门票我已经买好了."},
+          {"id":"lq4","type":"choice","tag":"g:才就","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"为什么大家要带水和吃的？","options":["因为晚上六点才回来","因为海边没有饭馆","因为天气很热","因为门票很贵"],"answer":0,"explanation_vi":"Nghe được: 我们晚上六点才回来，所以大家需要带一点儿水和吃的."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"护照","pinyin":"hùzhào","vi":"hộ chiếu","tip_vi":"护 hù: h là âm cuống lưỡi có tiếng xát nhẹ ở họng, không phải “h” nhẹ của tiếng Việt. 照 zhào: zh uốn lưỡi, không bật hơi, đừng đọc thành “chạo”. Hai chữ đều thanh 4: rơi dứt khoát."},
+      {"id":"s2","zh":"信用卡","pinyin":"xìnyòngkǎ","vi":"thẻ tín dụng","tip_vi":"信 xìn kết thúc bằng -n (đầu lưỡi), 用 yòng kết thúc bằng -ng (cuống lưỡi): đừng đọc lẫn. 卡 kǎ: k bật hơi mạnh; là chữ cuối nên thanh 3 được đọc đủ (xuống thấp rồi lên)."},
+      {"id":"s3","zh":"放心吧！","pinyin":"Fàngxīn ba!","vi":"Yên tâm đi!","tip_vi":"放 fàng: -ang mở miệng rộng, kết thúc ở cuống lưỡi; 心 xīn: -in, đầu lưỡi chạm lợi. 吧 ba đọc nhẹ, ngắn."},
+      {"id":"s4","zh":"你怎么现在才来？","pinyin":"Nǐ zěnme xiànzài cái lái?","vi":"Sao bây giờ bạn mới đến?","tip_vi":"你怎 nǐ zěn là hai thanh 3 liền nhau: 你 đọc gần thanh 2. 在 zài (z không bật hơi) và 才 cái (c bật hơi mạnh) đứng gần nhau: phân biệt rõ hai âm này. Câu hỏi có 怎么 không cần lên giọng cuối câu."},
+      {"id":"s5","zh":"我六点半就到机场了。","pinyin":"Wǒ liù diǎn bàn jiù dào jīchǎng le.","vi":"Sáu rưỡi tôi đã đến sân bay rồi.","tip_vi":"就 jiù: j không bật hơi, mặt lưỡi chạm vòm. 机场 jīchǎng: ch uốn lưỡi và bật hơi, -ang mở rộng. 了 cuối câu đọc nhẹ."},
+      {"id":"s6","zh":"把重要的东西放在我这儿吧。","pinyin":"Bǎ zhòngyào de dōngxi fàng zài wǒ zhèr ba.","vi":"Để đồ quan trọng ở chỗ tôi nhé.","tip_vi":"重 zhòng: zh uốn lưỡi, -ong tròn môi. 东西 dōngxi: 西 đọc nhẹ (nếu đọc xī thanh 1 sẽ thành “đông và tây”). 这儿 zhèr: cuốn lưỡi ở cuối, không đọc tách thành “zhè ér”."},
+      {"id":"s7","zh":"下了飞机，我们就把行李送到酒店。","pinyin":"Xià le fēijī, wǒmen jiù bǎ xíngli sòng dào jiǔdiàn.","vi":"Xuống máy bay, chúng ta mang hành lý đến khách sạn luôn.","tip_vi":"行李 xíngli: 行 thanh 2, 李 đọc nhẹ, -ing là âm cuống lưỡi, đừng đọc thành “xinh”. 送 sòng: s đầu lưỡi, không phải sh. 酒 jiǔ trước thanh 4 chỉ đọc nửa thanh 3 (thấp)."}
+    ],
+    "review": {
+      "remember": [
+        "就 = sớm, nhanh, dễ (“đã … rồi”): 我六点半就到了. Kể việc đã xảy ra: 就……了.",
+        "才 = muộn, chậm, khó (“mãi … mới”): 他十点才来, không thêm 了. Trước số, 才 = mới chỉ: 才一百块.",
+        "Câu 把 (2): 把 + vật + V + 在/到 + nơi chốn: 把护照放在包里、把行李送到酒店.",
+        "把 + vật + V + 给 + người: 把相机送给妈妈. Phủ định: 没/别 đứng trước 把.",
+        "Đồ quan trọng khi đi xa: 护照、机票、信用卡、银行卡、行李、箱子; 带 = mang theo, 收好 = cất kỹ, 放心 = yên tâm."
+      ],
+      "mistakes": [
+        "✗ 我放护照在包里 → ✓ 我把护照放在包里: không đặt tân ngữ giữa 放 và 在.",
+        "✗ 他十点才来了 → ✓ 他十点才来: câu có 才 không thêm 了.",
+        "✗ 我把银行卡没放在包里 → ✓ 我没把银行卡放在包里: 没 đứng trước 把."
+      ]
+    }
+  }
+}

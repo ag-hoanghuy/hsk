@@ -1,0 +1,204 @@
+{
+  "level": 3,
+  "number": 10,
+  "readings_ok": ["得 de", "教 jiāo", "里 li"],
+  "summary": "Nói chuyện về trường lớp, môn học và điểm thi; học câu so sánh hơn kém “A 比 B + tính từ + 一点儿/一些/得多/多了” (và 更) cùng cách nói số ước lượng bằng 多, 几, hai số liền nhau và 大概.",
+  "content": {
+    "objectives": [
+      "Nói về môn học, điểm thi, thứ hạng trong lớp: 数学考了九十多分、第五名、初中二年级",
+      "So sánh hơn kém có mức độ: A 比 B + tính từ + 一点儿/一些 (hơn một chút), + 得多/多了 (hơn nhiều), 更 + tính từ (còn… hơn)",
+      "Nói số ước lượng: 四十多个、两个多小时、十几个、两三个、大概三十个",
+      "Dùng đúng 比较 (khá, tương đối) và 差不多 (gần như, xấp xỉ), tránh lỗi thêm 很 trong câu 比"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"数学","pinyin":"shùxué","pos":"danh từ","meaning_vi":"toán, môn toán","example_zh":"我觉得数学很有意思。","example_pinyin":"Wǒ juéde shùxué hěn yǒu yìsi.","example_vi":"Tôi thấy môn toán rất thú vị.","hanviet":"SỐ HỌC","note_vi":"Âm Hán Việt là “số học”, nhưng 数学 là môn Toán nói chung (cả đại số, hình học…), không chỉ “số học”. 数 ở đây đọc shù (thanh 4)."},
+      {"id":"v2","hanzi":"历史","pinyin":"lìshǐ","pos":"danh từ","meaning_vi":"lịch sử, môn sử","example_zh":"我对历史很感兴趣。","example_pinyin":"Wǒ duì lìshǐ hěn gǎn xìngqù.","example_vi":"Tôi rất có hứng thú với lịch sử.","hanviet":"LỊCH SỬ"},
+      {"id":"v3","hanzi":"难","pinyin":"nán","pos":"tính từ","meaning_vi":"khó","example_zh":"这次考试不太难。","example_pinyin":"Zhè cì kǎoshì bú tài nán.","example_vi":"Bài thi lần này không khó lắm.","hanviet":"NAN","note_vi":"难 + động từ = khó làm gì: 难写 (khó viết). Nhiều từ đã học có chữ này: 难看 (xấu, bài 8), 难听 (khó nghe, bài 7). n là âm mũi, đừng đọc thành l."},
+      {"id":"v4","hanzi":"容易","pinyin":"róngyì","pos":"tính từ","meaning_vi":"dễ","example_zh":"这个汉字很容易写。","example_pinyin":"Zhège Hànzì hěn róngyì xiě.","example_vi":"Chữ Hán này rất dễ viết.","hanviet":"DUNG DỊ","note_vi":"Đừng hiểu theo tiếng Việt “dung dị” (giản dị): 容易 chỉ là “dễ”. 容易 + động từ = dễ làm gì: 容易记 (dễ nhớ). Ngược nghĩa: 难."},
+      {"id":"v5","hanzi":"比较","pinyin":"bǐjiào","pos":"phó từ / động từ","meaning_vi":"khá, tương đối; so sánh","example_zh":"今天的作业比较多。","example_pinyin":"Jīntiān de zuòyè bǐjiào duō.","example_vi":"Bài tập hôm nay khá nhiều.","hanviet":"TỶ GIẢO","note_vi":"Phó từ 比较 + tính từ = khá…, tương đối… (không có ý “hơn ai”). Vì vậy không dùng 比较 trong câu có 比: ✗ 数学比历史比较难. Động từ: 比较一下 = so sánh thử."},
+      {"id":"v6","hanzi":"更","pinyin":"gèng","pos":"phó từ","meaning_vi":"càng, hơn nữa, còn… hơn","example_zh":"我觉得历史比数学更难。","example_pinyin":"Wǒ juéde lìshǐ bǐ shùxué gèng nán.","example_vi":"Tôi thấy lịch sử còn khó hơn toán.","note_vi":"更 đứng TRƯỚC tính từ: 更难、更好. Dùng được trong câu 比 (khác với 很). Đọc gèng (thanh 4, cuối -ng), đừng lẫn với 跟 gēn."},
+      {"id":"v7","hanzi":"成绩","pinyin":"chéngjì","pos":"danh từ","meaning_vi":"thành tích, điểm số, kết quả học tập","example_zh":"这个学期我的成绩提高了。","example_pinyin":"Zhège xuéqī wǒ de chéngjì tígāo le.","example_vi":"Học kỳ này điểm của tôi đã tiến bộ.","hanviet":"THÀNH TÍCH","note_vi":"成绩好/不好 = học lực, điểm tốt/không tốt; 考试成绩 = điểm thi. Hay đi với 提高 (bài 9)."},
+      {"id":"v8","hanzi":"考","pinyin":"kǎo","pos":"động từ","meaning_vi":"thi, kiểm tra; thi được (bao nhiêu điểm)","example_zh":"你数学考了多少分？","example_pinyin":"Nǐ shùxué kǎo le duōshao fēn?","example_vi":"Môn toán bạn thi được bao nhiêu điểm?","hanviet":"KHẢO","note_vi":"考 + điểm/hạng: 考了九十分、考第一名. 考得怎么样？ = thi thế nào? 考试 là danh từ “kỳ thi” (hoặc động từ “đi thi”). k bật hơi."},
+      {"id":"v9","hanzi":"年级","pinyin":"niánjí","pos":"danh từ","meaning_vi":"khối lớp, năm (học)","example_zh":"我弟弟上小学三年级。","example_pinyin":"Wǒ dìdi shàng xiǎoxué sān niánjí.","example_vi":"Em trai tôi học lớp ba.","hanviet":"NIÊN CẤP","note_vi":"你上几年级？ = bạn học lớp mấy? 初中二年级 = lớp 8, 高中一年级 = lớp 10, 大学二年级 = sinh viên năm hai."},
+      {"id":"v10","hanzi":"大概","pinyin":"dàgài","pos":"phó từ / tính từ","meaning_vi":"khoảng, chừng; có lẽ","example_zh":"我们班大概有三十个学生。","example_pinyin":"Wǒmen bān dàgài yǒu sānshí ge xuésheng.","example_vi":"Lớp chúng tôi có khoảng ba mươi học sinh.","hanviet":"ĐẠI KHÁI","note_vi":"Đứng trước con số: khoảng (大概三十个). Đứng trước động từ: có lẽ (他大概不来了). Không phải “đại khái, qua loa” như nghĩa thường gặp trong tiếng Việt."},
+      {"id":"v11","hanzi":"差不多","pinyin":"chàbuduō","pos":"tính từ / phó từ","meaning_vi":"gần như, xấp xỉ, sàn sàn nhau","example_zh":"我们两个人的成绩差不多。","example_pinyin":"Wǒmen liǎng ge rén de chéngjì chàbuduō.","example_vi":"Điểm của hai chúng tôi xấp xỉ nhau.","note_vi":"Tính từ: A 跟 B 差不多 (gần như nhau). Đứng trước số: 差不多一百个 (gần một trăm cái). 差 đọc chà, 不 đọc nhẹ: chàbuduō."},
+      {"id":"v12","hanzi":"体育","pinyin":"tǐyù","pos":"danh từ","meaning_vi":"thể dục, thể thao","example_zh":"星期三下午有体育课。","example_pinyin":"Xīngqīsān xiàwǔ yǒu tǐyù kè.","example_vi":"Chiều thứ Tư có giờ thể dục.","hanviet":"THỂ DỤC","note_vi":"体育课 = giờ thể dục; 体育馆 (bài 5) = nhà thi đấu. 育 yù: tròn môi như ü."},
+      {"id":"v13","hanzi":"班","pinyin":"bān","pos":"danh từ","meaning_vi":"lớp (tập thể học sinh)","example_zh":"我们班有四十个学生。","example_pinyin":"Wǒmen bān yǒu sìshí ge xuésheng.","example_vi":"Lớp chúng tôi có bốn mươi học sinh.","hanviet":"BAN","note_vi":"班 là lớp theo nghĩa tập thể (我们班); phòng học là 教室. Chữ này cũng có trong 上班 (đi làm), 下班 (tan làm)."},
+      {"id":"v14","hanzi":"第","pinyin":"dì","pos":"tiền tố (số thứ tự)","meaning_vi":"thứ (đứng trước số để chỉ thứ tự)","example_zh":"这是我第一次参加运动会。","example_pinyin":"Zhè shì wǒ dì yī cì cānjiā yùndònghuì.","example_vi":"Đây là lần đầu tiên tôi tham gia hội thao.","hanviet":"ĐỆ","note_vi":"第 + số = số thứ tự: 第一 (thứ nhất), 第三课 (bài thứ ba), 第五名 (hạng năm). 第一 đọc dì yī, 一 giữ thanh 1 vì là số thứ tự."},
+      {"id":"v15","hanzi":"名","pinyin":"míng","pos":"lượng từ / danh từ","meaning_vi":"hạng (thứ hạng); người (lượng từ trang trọng); tên","example_zh":"这次考试他考了第一名。","example_pinyin":"Zhè cì kǎoshì tā kǎo le dì yī míng.","example_vi":"Kỳ thi này anh ấy đứng hạng nhất.","hanviet":"DANH","note_vi":"第 + số + 名 = hạng mấy: 第一名 (hạng nhất). 名 còn là lượng từ cho người, trang trọng hơn 个: 五十名学生. Trong 名字 nghĩa là tên."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"万","pinyin":"wàn","pos":"số từ","meaning_vi":"vạn, mười nghìn","example_zh":"这个学校有一万多个学生。","example_pinyin":"Zhège xuéxiào yǒu yíwàn duō ge xuésheng.","example_vi":"Trường này có hơn mười nghìn học sinh."},
+      {"id":"x2","hanzi":"学期","pinyin":"xuéqī","pos":"danh từ","meaning_vi":"học kỳ","example_zh":"这个学期我们有很多考试。","example_pinyin":"Zhège xuéqī wǒmen yǒu hěn duō kǎoshì.","example_vi":"Học kỳ này chúng tôi có rất nhiều bài thi."},
+      {"id":"x3","hanzi":"节","pinyin":"jié","pos":"lượng từ","meaning_vi":"tiết (học)","example_zh":"今天上午有四节课。","example_pinyin":"Jīntiān shàngwǔ yǒu sì jié kè.","example_vi":"Sáng nay có bốn tiết học."},
+      {"id":"x4","hanzi":"课本","pinyin":"kèběn","pos":"danh từ","meaning_vi":"sách giáo khoa","example_zh":"我的数学课本在哪儿？","example_pinyin":"Wǒ de shùxué kèběn zài nǎr?","example_vi":"Sách giáo khoa toán của tôi đâu rồi?"},
+      {"id":"x5","hanzi":"黑板","pinyin":"hēibǎn","pos":"danh từ","meaning_vi":"bảng đen","example_zh":"老师在黑板上写了几个汉字。","example_pinyin":"Lǎoshī zài hēibǎn shang xiě le jǐ ge Hànzì.","example_vi":"Thầy viết vài chữ Hán lên bảng."},
+      {"id":"x6","hanzi":"班级","pinyin":"bānjí","pos":"danh từ","meaning_vi":"lớp học (tập thể lớp)","example_zh":"这是一个很好的班级，大家都很努力。","example_pinyin":"Zhè shì yí ge hěn hǎo de bānjí, dàjiā dōu hěn nǔlì.","example_vi":"Đây là một tập thể lớp rất tốt, ai cũng chăm chỉ."},
+      {"id":"x7","hanzi":"小学","pinyin":"xiǎoxué","pos":"danh từ","meaning_vi":"tiểu học, trường tiểu học","example_zh":"我妹妹今年上小学。","example_pinyin":"Wǒ mèimei jīnnián shàng xiǎoxué.","example_vi":"Năm nay em gái tôi vào tiểu học."},
+      {"id":"x8","hanzi":"中学","pinyin":"zhōngxué","pos":"danh từ","meaning_vi":"trung học (gồm cấp 2 và cấp 3)","example_zh":"她是中学老师。","example_pinyin":"Tā shì zhōngxué lǎoshī.","example_vi":"Cô ấy là giáo viên trung học."},
+      {"id":"x9","hanzi":"高中","pinyin":"gāozhōng","pos":"danh từ","meaning_vi":"trung học phổ thông, cấp 3","example_zh":"哥哥上高中二年级。","example_pinyin":"Gēge shàng gāozhōng èr niánjí.","example_vi":"Anh trai tôi học lớp 11."},
+      {"id":"x10","hanzi":"初中","pinyin":"chūzhōng","pos":"danh từ","meaning_vi":"trung học cơ sở, cấp 2","example_zh":"我上初中的时候很喜欢历史。","example_pinyin":"Wǒ shàng chūzhōng de shíhou hěn xǐhuan lìshǐ.","example_vi":"Hồi học cấp 2 tôi rất thích môn sử."},
+      {"id":"x11","hanzi":"运动会","pinyin":"yùndònghuì","pos":"danh từ","meaning_vi":"hội thao, đại hội thể thao","example_zh":"下个月学校要开运动会。","example_pinyin":"Xià ge yuè xuéxiào yào kāi yùndònghuì.","example_vi":"Tháng sau trường sẽ tổ chức hội thao."},
+      {"id":"x12","hanzi":"校园","pinyin":"xiàoyuán","pos":"danh từ","meaning_vi":"khuôn viên trường","example_zh":"我们的校园很大，也很漂亮。","example_pinyin":"Wǒmen de xiàoyuán hěn dà, yě hěn piàoliang.","example_vi":"Khuôn viên trường chúng tôi rất rộng, cũng rất đẹp."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"So sánh hơn kém: A 比 B + tính từ + 一点儿/一些/得多/多了",
+        "pattern":"A + 比 + B + Adj + 一点儿/一些 (hơn một chút)　·　A + 比 + B + Adj + 得多/多了 (hơn nhiều)　·　A + 比 + B + 更/还 + Adj",
+        "explanation_vi":"Câu so sánh hơn: A 比 B + tính từ (A … hơn B). Muốn nói chênh lệch ít, thêm 一点儿 hoặc 一些 SAU tính từ: 难一点儿 (khó hơn một chút). Muốn nói chênh lệch nhiều, thêm 得多 hoặc 多了 sau tính từ: 难得多 / 难多了 (khó hơn nhiều). Muốn nhấn mạnh “còn… hơn”, đặt 更 (hoặc 还) TRƯỚC tính từ: 历史比数学更难. Trong câu 比, trước tính từ KHÔNG dùng 很, 非常, 太, 比较. Muốn nói “không… bằng” thì dùng A 没有 B (那么) + tính từ: 数学没有历史那么难.",
+        "examples":[
+          {"zh":"数学比历史难多了。","pinyin":"Shùxué bǐ lìshǐ nán duō le.","vi":"Toán khó hơn lịch sử nhiều."},
+          {"zh":"这个学期比上个学期忙一点儿。","pinyin":"Zhège xuéqī bǐ shàng ge xuéqī máng yìdiǎnr.","vi":"Học kỳ này bận hơn học kỳ trước một chút."},
+          {"zh":"高中的作业比初中多得多。","pinyin":"Gāozhōng de zuòyè bǐ chūzhōng duō de duō.","vi":"Bài tập cấp 3 nhiều hơn cấp 2 rất nhiều."},
+          {"zh":"我的成绩比他好一些。","pinyin":"Wǒ de chéngjì bǐ tā hǎo yìxiē.","vi":"Điểm của tôi tốt hơn cậu ấy một chút."},
+          {"zh":"他很努力，可是他妹妹比他更努力。","pinyin":"Tā hěn nǔlì, kěshì tā mèimei bǐ tā gèng nǔlì.","vi":"Anh ấy rất chăm, nhưng em gái anh ấy còn chăm hơn."}
+        ],
+        "mistakes_vi":"✗ 数学比历史很难。\n✓ 数学比历史难（多了）。\nTiếng Việt nói “khó hơn rất nhiều” nên hay thêm 很; trong câu 比 không đặt 很/非常/太 trước tính từ. Muốn nói “nhiều” thì thêm 得多/多了 sau tính từ.\n✗ 数学比历史比较难。\n✓ 数学比历史难一点儿。\n比较 (khá) không dùng chung với 比.\n✗ 数学比历史有点儿难。\n✓ 数学比历史难一点儿。\n“Hơn một chút” là tính từ + 一点儿 (đứng SAU). 有点儿 + tính từ là “hơi…” và không dùng trong câu 比.",
+        "compare_vi":"Tiếng Việt: “Toán khó hơn sử (nhiều / một chút)” — tính từ đứng trước “hơn sử”. Tiếng Trung đưa 比 + B lên TRƯỚC tính từ, còn phần mức độ (一点儿, 得多, 多了) đứng sau: 数学比历史难多了."
+      },
+      {
+        "id":"g2",
+        "title":"Số ước lượng (1): 多, 几, hai số liền nhau, 大概",
+        "pattern":"Số tròn + 多 + LT: 四十多个　·　Số 1–9 + LT + 多: 三块多、两个多小时　·　十几 / 几十 + LT　·　两三个、七八百个　·　大概 + số",
+        "explanation_vi":"Khi không nói con số chính xác: (1) 多 = “hơn, mấy”. Với số tròn (十, 二十, 一百, 一千…) đặt 多 TRƯỚC lượng từ: 四十多个学生 (hơn bốn mươi học sinh). Với số 1–9 và những thứ chia nhỏ được (tiền, thời gian, năm, cân…) đặt 多 SAU lượng từ: 三块多 (hơn ba đồng), 两个多小时 (hơn hai tiếng), 两年多 (hơn hai năm). (2) 几 = “mấy”: 十几个 (mười mấy), 几十个 (mấy chục). (3) Hai số liền nhau: 两三个 (hai ba cái), 七八百个 (bảy tám trăm cái). (4) 大概 đứng trước con số: 大概三十个人 (khoảng ba mươi người).",
+        "examples":[
+          {"zh":"我们班有四十多个学生。","pinyin":"Wǒmen bān yǒu sìshí duō ge xuésheng.","vi":"Lớp chúng tôi có hơn bốn mươi học sinh."},
+          {"zh":"我每天做作业要两个多小时。","pinyin":"Wǒ měitiān zuò zuòyè yào liǎng ge duō xiǎoshí.","vi":"Mỗi ngày tôi làm bài tập mất hơn hai tiếng."},
+          {"zh":"他十几岁的时候就很喜欢历史。","pinyin":"Tā shí jǐ suì de shíhou jiù hěn xǐhuan lìshǐ.","vi":"Từ hồi mười mấy tuổi anh ấy đã rất thích lịch sử."},
+          {"zh":"运动会大概有七八百个学生参加。","pinyin":"Yùndònghuì dàgài yǒu qī bā bǎi ge xuésheng cānjiā.","vi":"Hội thao có khoảng bảy tám trăm học sinh tham gia."}
+        ],
+        "mistakes_vi":"✗ 我们班有多四十个学生。\n✓ 我们班有四十多个学生。\nTiếng Việt đặt “hơn” trước số (“hơn bốn mươi”); tiếng Trung đặt 多 SAU số.\n✗ 我们班有四十个多学生。\n✓ 我们班有四十多个学生。\nVới số tròn chục, 多 đứng trước lượng từ.\n✗ 我学了两多年汉语。\n✓ 我学了两年多汉语。\nVới số 1–9 và thời gian, 多 đứng sau lượng từ (年、个小时、块).",
+        "compare_vi":"“Mười mấy”, “mấy chục”, “hai ba người” của tiếng Việt giống hệt 十几、几十、两三个人. Chỉ có “hơn” là khác vị trí: “hơn hai mươi người” = 二十多个人."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Bảng điểm cuối học kỳ",
+      "scene_vi": "Cuối học kỳ, hai bạn cùng lớp cấp 3 là Tiểu Lý và Tiểu Trương nói chuyện về điểm thi.",
+      "lines": [
+        {"speaker":"小李","zh":"小张，这个学期的成绩你看了吗？你考得怎么样？","pinyin":"Xiǎo Zhāng, zhège xuéqī de chéngjì nǐ kàn le ma? Nǐ kǎo de zěnmeyàng?","vi":"Tiểu Trương, cậu xem điểm học kỳ này chưa? Cậu thi thế nào?"},
+        {"speaker":"小张","zh":"数学考得不错，九十多分。可是历史只考了七十几分。","pinyin":"Shùxué kǎo de búcuò, jiǔshí duō fēn. Kěshì lìshǐ zhǐ kǎo le qīshí jǐ fēn.","vi":"Toán thi khá tốt, hơn chín mươi điểm. Nhưng sử chỉ được bảy mươi mấy điểm thôi."},
+        {"speaker":"小李","zh":"你的数学比我好多了！我只考了八十分。","pinyin":"Nǐ de shùxué bǐ wǒ hǎo duō le! Wǒ zhǐ kǎo le bāshí fēn.","vi":"Toán của cậu giỏi hơn mình nhiều! Mình chỉ được tám mươi điểm."},
+        {"speaker":"小张","zh":"我觉得数学比较容易，历史比数学难一点儿，要记的东西太多了。","pinyin":"Wǒ juéde shùxué bǐjiào róngyì, lìshǐ bǐ shùxué nán yìdiǎnr, yào jì de dōngxi tài duō le.","vi":"Mình thấy toán khá dễ, sử khó hơn toán một chút, nhiều thứ phải nhớ quá."},
+        {"speaker":"小李","zh":"我跟你不一样，我觉得数学更难。咱们班有四十多个学生，你考了第几名？","pinyin":"Wǒ gēn nǐ bù yíyàng, wǒ juéde shùxué gèng nán. Zánmen bān yǒu sìshí duō ge xuésheng, nǐ kǎo le dì jǐ míng?","vi":"Mình thì khác cậu, mình thấy toán còn khó hơn. Lớp mình hơn bốn mươi bạn, cậu đứng thứ mấy?"},
+        {"speaker":"小张","zh":"第五名，比上个学期好一点儿。你呢？","pinyin":"Dì wǔ míng, bǐ shàng ge xuéqī hǎo yìdiǎnr. Nǐ ne?","vi":"Thứ năm, khá hơn học kỳ trước một chút. Còn cậu?"},
+        {"speaker":"小李","zh":"大概第十几名吧，跟上个学期差不多。我的体育成绩比较好，可是数学太差了。","pinyin":"Dàgài dì shí jǐ míng ba, gēn shàng ge xuéqī chàbuduō. Wǒ de tǐyù chéngjì bǐjiào hǎo, kěshì shùxué tài chà le.","vi":"Chắc khoảng thứ mười mấy, gần giống học kỳ trước. Điểm thể dục của mình khá tốt, nhưng toán kém quá."},
+        {"speaker":"小张","zh":"数学没有你想的那么难。下个学期咱们一块儿复习吧，我教你。","pinyin":"Shùxué méiyǒu nǐ xiǎng de nàme nán. Xià ge xuéqī zánmen yíkuàir fùxí ba, wǒ jiāo nǐ.","vi":"Toán không khó như cậu nghĩ đâu. Học kỳ sau chúng mình cùng ôn bài nhé, mình dạy cậu."},
+        {"speaker":"小李","zh":"太好了！你教我数学，我帮你复习历史。","pinyin":"Tài hǎo le! Nǐ jiāo wǒ shùxué, wǒ bāng nǐ fùxí lìshǐ.","vi":"Tuyệt quá! Cậu dạy mình toán, mình giúp cậu ôn sử."},
+        {"speaker":"小张","zh":"好！咱们都努力一点儿，下个学期的成绩会比这个学期好得多！","pinyin":"Hǎo! Zánmen dōu nǔlì yìdiǎnr, xià ge xuéqī de chéngjì huì bǐ zhège xuéqī hǎo de duō!","vi":"Được! Cả hai cùng cố gắng thêm chút nữa, điểm học kỳ sau sẽ tốt hơn học kỳ này nhiều!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:容易","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这次考试一点儿也不难，很____。","options":["容易","成绩","大概","年级"],"answer":0,"explanation_vi":"Không khó chút nào tức là dễ: 很容易."},
+      {"id":"e2","type":"choice","tag":"v:成绩","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个学期他很努力，考试____提高了很多。","options":["成绩","年级","第","班"],"answer":0,"explanation_vi":"“考试成绩提高了” = điểm thi tiến bộ. 成绩 = điểm số, kết quả."},
+      {"id":"e3","type":"choice","tag":"v:年级","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我弟弟今年上小学三____。","options":["年级","学期","名","节"],"answer":0,"explanation_vi":"“小学三年级” = lớp ba tiểu học. 年级 = khối lớp."},
+      {"id":"e4","type":"choice","tag":"v:名","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这次考试他考了第一____，大家都很高兴。","options":["名","节","页","双"],"answer":0,"explanation_vi":"第一名 = hạng nhất. 节 là tiết học, 页 là trang, 双 là đôi."},
+      {"id":"e5","type":"choice","tag":"g:比较句2","prompt_vi":"Chọn đáp án đúng điền vào chỗ trống.","question_zh":"数学比历史____。","options":["难多了","很难","非常难","比较难"],"answer":0,"explanation_vi":"Trong câu 比 không dùng 很/非常/比较 trước tính từ. Muốn nói “hơn nhiều” thì dùng tính từ + 多了."},
+      {"id":"e6","type":"choice","tag":"g:比较句2","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我的成绩比他好____。","options":["一点儿","有点儿","很","非常"],"answer":0,"explanation_vi":"“Hơn một chút” = tính từ + 一点儿. 有点儿 đứng trước tính từ và không dùng trong câu 比."},
+      {"id":"e7","type":"choice","tag":"g:比较句2","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他很努力，可是他妹妹比他____努力。","options":["更","很","太","非常"],"answer":0,"explanation_vi":"“Còn chăm hơn” = 比他更努力. 更 là phó từ duy nhất trong bốn từ này dùng được trước tính từ trong câu 比."},
+      {"id":"e8","type":"choice","tag":"g:概数1","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们班有四十____个学生。","options":["多","大概","一点儿","差不多"],"answer":0,"explanation_vi":"Số tròn chục + 多 + lượng từ: 四十多个 = hơn bốn mươi. 大概, 差不多 phải đứng trước con số."},
+      {"id":"e9","type":"choice","tag":"g:概数1","prompt_vi":"Chọn cách nói đúng của “hơn hai tiếng đồng hồ”.","question_zh":"“hơn hai tiếng đồng hồ”","options":["两个多小时","两多个小时","多两个小时","两个小多时"],"answer":0,"explanation_vi":"Với số 1–9 và thời gian, 多 đứng sau lượng từ 个: 两个多小时."},
+      {"id":"e10","type":"order","tag":"g:比较句2","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["数学","比","历史","难","得多"],"answers":["数学比历史难得多"],"translation_vi":"Toán khó hơn lịch sử nhiều.","explanation_vi":"A + 比 + B + tính từ + 得多."},
+      {"id":"e11","type":"order","tag":"g:概数1","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","学校","有","一千多个","学生"],"answers":["我们学校有一千多个学生"],"translation_vi":"Trường chúng tôi có hơn một nghìn học sinh.","explanation_vi":"一千多个 = hơn một nghìn; cụm số lượng đứng trước danh từ 学生."},
+      {"id":"e12","type":"order","tag":"v:差不多","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","两个人的","成绩","差不多"],"answers":["我们两个人的成绩差不多"],"translation_vi":"Điểm của hai chúng tôi xấp xỉ nhau.","explanation_vi":"Chủ ngữ 我们两个人的成绩 đứng trước, 差不多 làm vị ngữ ở cuối."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"数学","vi":"toán"},{"zh":"历史","vi":"lịch sử"},{"zh":"体育","vi":"thể dục"},{"zh":"成绩","vi":"điểm số, thành tích"},{"zh":"年级","vi":"khối lớp"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"小学","vi":"tiểu học"},{"zh":"初中","vi":"cấp 2"},{"zh":"高中","vi":"cấp 3"},{"zh":"黑板","vi":"bảng đen"},{"zh":"课本","vi":"sách giáo khoa"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:比较句2","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"高中的课比初中难____。","options":["得多","很","非常","太"],"answer":0,"explanation_vi":"Tính từ + 得多 = hơn nhiều. 很/非常/太 không dùng trong câu 比."},
+        {"id":"q2","type":"choice","tag":"g:比较句2","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他比我高一点儿。","他比我很高。","他比我一点儿高。","他比我比较高。"],"answer":0,"explanation_vi":"A 比 B + tính từ + 一点儿; không thêm 很/比较, và 一点儿 đứng sau tính từ."},
+        {"id":"q3","type":"choice","tag":"g:比较句2","prompt_vi":"Chọn câu đúng nghĩa: “Hôm nay lạnh hơn hôm qua nhiều.”","question_zh":"Hôm nay lạnh hơn hôm qua nhiều.","options":["今天比昨天冷多了。","今天比昨天冷一点儿。","昨天比今天冷多了。","今天比昨天很冷。"],"answer":0,"explanation_vi":"“Hơn nhiều” = 多了; A là 今天, B là 昨天. 一点儿 là “hơn một chút”; câu 3 đảo ngược nghĩa; câu 4 sai vì có 很."},
+        {"id":"q4","type":"choice","tag":"g:概数1","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这瓶水两块____。","options":["多","大概","一些","很"],"answer":0,"explanation_vi":"Số 1–9 + lượng từ + 多: 两块多 = hơn hai đồng."},
+        {"id":"q5","type":"choice","tag":"g:概数1","prompt_vi":"Chọn cách nói đúng của “mấy chục người”.","question_zh":"“mấy chục người”","options":["几十个人","十几个人","几个十人","十个几人"],"answer":0,"explanation_vi":"几十 = mấy chục; 十几 = mười mấy. Lượng từ 个 đứng sau cả cụm số."},
+        {"id":"q6","type":"choice","tag":"g:概数1","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我学了两年多汉语。","我学了两多年汉语。","我学了多两年汉语。","我学了两年汉语多。"],"answer":0,"explanation_vi":"Với số 1–9 và thời gian, 多 đứng ngay sau lượng từ 年: 两年多."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:难","prompt_vi":"Chọn đáp án đúng.","question_zh":"这个汉字太____写了，我写了很多遍还是写不好。","options":["难","容易","比较","大概"],"answer":0,"explanation_vi":"Viết nhiều lần vẫn không đẹp nên chữ này “太难写了” = khó viết quá."},
+      {"id":"t2","type":"choice","tag":"g:比较句2","prompt_vi":"Chọn đáp án đúng.","question_zh":"这个学期比上个学期忙____。","options":["一些","有点儿","很","非常"],"answer":0,"explanation_vi":"“Bận hơn một chút” = 忙一些 / 忙一点儿, đặt sau tính từ."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"万","vi":"mười nghìn"},{"zh":"学期","vi":"học kỳ"},{"zh":"节","vi":"tiết (học)"},{"zh":"班级","vi":"tập thể lớp"},{"zh":"校园","vi":"khuôn viên trường"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"运动会","vi":"hội thao"},{"zh":"中学","vi":"trung học"},{"zh":"比较","vi":"khá, tương đối"},{"zh":"更","vi":"còn… hơn"},{"zh":"大概","vi":"khoảng, có lẽ"}]},
+      {"id":"t5","type":"order","tag":"g:比较句2","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["今天","比","昨天","冷","一点儿"],"answers":["今天比昨天冷一点儿"],"translation_vi":"Hôm nay lạnh hơn hôm qua một chút.","explanation_vi":"A (今天) + 比 + B (昨天) + tính từ + 一点儿."},
+      {"id":"t6","type":"order","tag":"v:万","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个","学校","有","一万多个","学生"],"answers":["这个学校有一万多个学生"],"translation_vi":"Trường này có hơn mười nghìn học sinh.","explanation_vi":"一万多个 = hơn một vạn (hơn mười nghìn); số tròn + 多 + lượng từ."},
+      {"id":"t7","type":"fill","tag":"v:考","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"你数学____了多少分？","answers":["考"],"hint_vi":"thi (được bao nhiêu điểm)","explanation_vi":"考了多少分 = thi được bao nhiêu điểm."},
+      {"id":"t8","type":"fill","tag":"g:比较句2","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"他很努力，可是他妹妹比他____努力。","answers":["更","还"],"hint_vi":"“còn… hơn”, đặt trước tính từ","explanation_vi":"A 比 B 更/还 + tính từ = A còn … hơn B."},
+      {"id":"t9","type":"listen_choice","tag":"v:年级","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我妹妹上初中二年级。","options":["Em gái tôi học lớp 8 (năm thứ hai cấp 2).","Em gái tôi học lớp 2 tiểu học.","Em gái tôi là sinh viên năm hai.","Em gái tôi học lớp 11 (năm thứ hai cấp 3)."],"answer":0,"explanation_vi":"初中 = cấp 2; 二年级 = năm thứ hai, tức lớp 8."},
+      {"id":"t10","type":"listen_choice","tag":"g:比较句2","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"数学比历史难多了。","options":["数学比历史难多了。","历史比数学难多了。","数学比历史容易多了。","数学跟历史一样难。"],"answer":0,"explanation_vi":"Câu nghe được: 数学比历史难多了 = Toán khó hơn lịch sử nhiều."},
+      {"id":"t11","type":"dictation","tag":"v:成绩","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这个学期我的成绩提高了。","answers":["这个学期我的成绩提高了"],"explanation_vi":"这个学期我的成绩提高了 = Học kỳ này điểm của tôi đã tiến bộ."},
+      {"id":"t12","type":"dictation","tag":"g:概数1","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我们班有四十多个学生。","answers":["我们班有四十多个学生","我们班有40多个学生"],"explanation_vi":"我们班有四十多个学生 = Lớp chúng tôi có hơn bốn mươi học sinh."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:大概","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Lớp chúng tôi có khoảng ba mươi học sinh.","answers":["我们班大概有三十个学生","我们班有大概三十个学生","我们班大概有三十名学生","我们班大概有30个学生","我们班差不多有三十个学生"],"explanation_vi":"大概 + (有) + số lượng: 我们班大概有三十个学生."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:比较句2","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Toán khó hơn lịch sử nhiều.","answers":["数学比历史难多了","数学比历史难得多","数学比历史难很多"],"explanation_vi":"A 比 B + 难 + 多了/得多: 数学比历史难多了."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:差不多","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我们两个人的成绩差不多。","answers_vi":["Điểm của hai chúng tôi xấp xỉ nhau.","Thành tích của hai chúng tôi gần như nhau."],"keywords":[["điểm","thành tích","kết quả","học lực"],["hai"],["xấp xỉ","gần như","ngang","sàn sàn","gần bằng","tương đương","như nhau","bằng nhau","suýt soát"]],"explanation_vi":"差不多 = xấp xỉ, gần như nhau; 成绩 = điểm số, thành tích."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:概数1","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我每天做作业要两个多小时。","answers_vi":["Mỗi ngày tôi làm bài tập mất hơn hai tiếng.","Ngày nào tôi cũng phải làm bài tập hơn hai tiếng đồng hồ."],"keywords":[["mỗi ngày","ngày nào","hằng ngày","hàng ngày"],["bài tập"],["hơn hai","hơn 2","hai tiếng hơn","hai giờ hơn"]],"explanation_vi":"两个多小时 = hơn hai tiếng (多 đứng sau lượng từ 个)."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"我的学校",
+        "title_vi":"Trường của tôi",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["叫","jiào","tên là"],["李明","Lǐ Míng","Lý Minh (tên người)"],["，"],["今年","jīnnián","năm nay"],["上","shàng","học"],["初中","chūzhōng","cấp 2"],["二","èr","hai"],["年级","niánjí","năm (lớp)"],["。"],["我们","wǒmen","chúng tôi"],["学校","xuéxiào","trường"],["不太","bú tài","không… lắm"],["大","dà","lớn"],["，"],["有","yǒu","có"],["一千","yìqiān","một nghìn"],["多","duō","hơn"],["个","ge","(lượng từ)"],["学生","xuésheng","học sinh"],["。"],["我们","wǒmen","chúng tôi"],["班","bān","lớp"],["有","yǒu","có"],["四十","sìshí","bốn mươi"],["几","jǐ","mấy"],["个","ge","(lượng từ)"],["同学","tóngxué","bạn học"],["，"],["大家","dàjiā","mọi người"],["都","dōu","đều"],["很","hěn","rất"],["好","hǎo","tốt"],["。"]],
+            "vi":"Tôi tên là Lý Minh, năm nay học lớp 8. Trường tôi không lớn lắm, có hơn một nghìn học sinh. Lớp tôi có bốn mươi mấy bạn, ai cũng rất tốt."
+          },
+          {
+            "tokens":[["我们","wǒmen","chúng tôi"],["一","yí","một"],["个","ge","(lượng từ)"],["星期","xīngqī","tuần"],["有","yǒu","có"],["三十","sānshí","ba mươi"],["多","duō","hơn"],["节","jié","tiết"],["课","kè","học"],["，"],["我","wǒ","tôi"],["最","zuì","nhất"],["喜欢","xǐhuan","thích"],["体育","tǐyù","thể dục"],["课","kè","giờ học"],["。"],["我","wǒ","tôi"],["觉得","juéde","thấy"],["数学","shùxué","toán"],["比","bǐ","so với"],["历史","lìshǐ","lịch sử"],["难","nán","khó"],["多","duō","hơn nhiều"],["了","le","(trợ từ)"],["，"],["可是","kěshì","nhưng"],["我","wǒ","tôi"],["的","de","của"],["数学","shùxué","toán"],["成绩","chéngjì","điểm"],["比","bǐ","so với"],["历史","lìshǐ","lịch sử"],["好","hǎo","tốt"],["一点儿","yìdiǎnr","hơn một chút"],["。"],["上个","shàng ge","(học kỳ) trước"],["学期","xuéqī","học kỳ"],["数学","shùxué","toán"],["考试","kǎoshì","kỳ thi"],["，"],["我","wǒ","tôi"],["考","kǎo","thi"],["了","le","(đã)"],["我们","wǒmen","chúng tôi"],["班","bān","lớp"],["第三","dì sān","thứ ba"],["名","míng","hạng"],["。"]],
+            "vi":"Mỗi tuần chúng tôi có hơn ba mươi tiết học, tôi thích nhất giờ thể dục. Tôi thấy toán khó hơn lịch sử nhiều, nhưng điểm toán của tôi lại tốt hơn điểm sử một chút. Kỳ thi toán học kỳ trước, tôi đứng thứ ba lớp."
+          },
+          {
+            "tokens":[["下个","xià ge","(tháng) sau"],["月","yuè","tháng"],["学校","xuéxiào","trường"],["要","yào","sẽ"],["开","kāi","tổ chức"],["运动会","yùndònghuì","hội thao"],["，"],["大概","dàgài","khoảng"],["有","yǒu","có"],["七八百","qī bā bǎi","bảy tám trăm"],["个","ge","(lượng từ)"],["学生","xuésheng","học sinh"],["参加","cānjiā","tham gia"],["。"],["这","zhè","này"],["几","jǐ","mấy"],["天","tiān","ngày"],["，"],["下课","xiàkè","tan học"],["以后","yǐhòu","sau khi"],["校园","xiàoyuán","khuôn viên trường"],["里","li","trong"],["到处","dàochù","khắp nơi"],["都是","dōu shì","đều là"],["跑步","pǎobù","chạy bộ"],["的","de","(trợ từ)"],["同学","tóngxué","bạn học"],["。"],["我","wǒ","tôi"],["也","yě","cũng"],["要","yào","sẽ, muốn"],["参加","cānjiā","tham gia"],["！"]],
+            "vi":"Tháng sau trường sẽ tổ chức hội thao, khoảng bảy tám trăm học sinh tham gia. Mấy hôm nay, tan học là khắp sân trường đâu đâu cũng thấy các bạn chạy bộ. Tôi cũng sẽ tham gia!"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"v:年级","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"李明上几年级？","options":["初中二年级","高中二年级","小学二年级","初中三年级"],"answer":0,"explanation_vi":"Đoạn 1: 今年上初中二年级."},
+          {"id":"rq2","type":"choice","tag":"v:节","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"他们一个星期大概有多少节课？","options":["三十多节","二十多节","四十几节","十几节"],"answer":0,"explanation_vi":"Đoạn 2: 我们一个星期有三十多节课."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"李明觉得数学怎么样？","options":["比历史难多了","比历史容易","跟历史一样难","没有意思"],"answer":0,"explanation_vi":"Đoạn 2: 我觉得数学比历史难多了."},
+          {"id":"rq4","type":"choice","tag":"g:比较句2","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"李明的历史成绩比数学好。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 我的数学成绩比历史好一点儿 — điểm toán tốt hơn, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"v:运动会","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"运动会大概有七八百个学生参加。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 大概有七八百个学生参加."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Lên cấp 3",
+        "text_zh":"我今年上高中一年级。高中比初中忙多了，课也比初中难一些。我们班有五十名学生，每天有八节课。晚上的作业很多，大概要做两三个小时。上个星期考试，我历史考了九十五分，是我们班第一名。可是数学只考了六十多分，比上次少了十几分。妈妈说：“别着急，下次努力一点儿，会考得更好的。”",
+        "pinyin":"Wǒ jīnnián shàng gāozhōng yī niánjí. Gāozhōng bǐ chūzhōng máng duō le, kè yě bǐ chūzhōng nán yìxiē. Wǒmen bān yǒu wǔshí míng xuésheng, měitiān yǒu bā jié kè. Wǎnshang de zuòyè hěn duō, dàgài yào zuò liǎng sān ge xiǎoshí. Shàng ge xīngqī kǎoshì, wǒ lìshǐ kǎo le jiǔshíwǔ fēn, shì wǒmen bān dì yī míng. Kěshì shùxué zhǐ kǎo le liùshí duō fēn, bǐ shàng cì shǎo le shí jǐ fēn. Māma shuō: “Bié zháojí, xià cì nǔlì yìdiǎnr, huì kǎo de gèng hǎo de.”",
+        "vi":"Năm nay tôi học lớp 10. Cấp 3 bận hơn cấp 2 nhiều, bài vở cũng khó hơn cấp 2 một chút. Lớp tôi có năm mươi học sinh, mỗi ngày có tám tiết học. Bài tập buổi tối rất nhiều, phải làm khoảng hai ba tiếng. Kỳ thi tuần trước, môn sử tôi được 95 điểm, đứng đầu lớp. Nhưng toán chỉ được sáu mươi mấy điểm, ít hơn lần trước mười mấy điểm. Mẹ nói: “Đừng sốt ruột, lần sau cố gắng thêm một chút, con sẽ thi tốt hơn.”",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"v:高中","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他现在上几年级？","options":["高中一年级","初中一年级","高中二年级","小学五年级"],"answer":0,"explanation_vi":"Nghe được: 我今年上高中一年级."},
+          {"id":"lq2","type":"choice","tag":"g:概数1","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"晚上的作业大概要做多长时间？","options":["两三个小时","一个小时","八个小时","半个小时"],"answer":0,"explanation_vi":"Nghe được: 大概要做两三个小时."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他历史考了多少分？","options":["九十五分","六十多分","八十分","一百分"],"answer":0,"explanation_vi":"Nghe được: 我历史考了九十五分，是我们班第一名."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他这次的数学成绩怎么样？","options":["比上次少了十几分","比上次多了十几分","是第一名","跟历史一样好"],"answer":0,"explanation_vi":"Nghe được: 数学只考了六十多分，比上次少了十几分."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"数学","pinyin":"shùxué","vi":"môn toán","tip_vi":"数 shù: sh uốn lưỡi, thanh 4 hạ dứt khoát. 学 xué: x là âm mặt lưỡi (môi dẹt), vần üe tròn môi; đừng đọc thành “xu xuê” kiểu tiếng Việt."},
+      {"id":"s2","zh":"历史","pinyin":"lìshǐ","vi":"lịch sử","tip_vi":"历 lì: l là âm bên (khác n), thanh 4. 史 shǐ: sh uốn lưỡi, “-i” sau sh không đọc như i tiếng Việt; thanh 3 cuối từ đọc đủ: xuống thấp rồi lên."},
+      {"id":"s3","zh":"差不多","pinyin":"chàbuduō","vi":"xấp xỉ, gần như","tip_vi":"差 chà: ch uốn lưỡi và bật hơi. 不 ở giữa đọc nhẹ, ngắn. 多 duō: vần uo (môi tròn rồi mở), đừng đọc thành dōu."},
+      {"id":"s4","zh":"四十多个学生","pinyin":"sìshí duō ge xuésheng","vi":"hơn bốn mươi học sinh","tip_vi":"四 sì (đầu lưỡi thẳng, s) và 十 shí (uốn lưỡi, sh) đứng liền nhau: phải phân biệt rõ, nếu đọc giống nhau người nghe khó biết đâu là 四 (4), đâu là 十 (10). 生 trong 学生 đọc nhẹ."},
+      {"id":"s5","zh":"数学比历史难多了。","pinyin":"Shùxué bǐ lìshǐ nán duō le.","vi":"Toán khó hơn lịch sử nhiều.","tip_vi":"比 bǐ đứng trước thanh 4 nên chỉ đọc nửa thanh 3 (thấp). 难 nán (âm mũi n) và 历 lì (âm bên l): đừng đọc lẫn n/l. Nhấn giọng vào 难 và 多."},
+      {"id":"s6","zh":"我的成绩比他好一点儿。","pinyin":"Wǒ de chéngjì bǐ tā hǎo yìdiǎnr.","vi":"Điểm của tôi tốt hơn cậu ấy một chút.","tip_vi":"成 chéng: ch bật hơi, cuối -ng. 绩 jì: j không bật hơi. 一点儿: 一 đọc yì vì đứng trước 点 thanh 3; 点儿 cuốn lưỡi: diǎnr. 好 trước 一 (thanh 4 đã biến điệu) đọc nửa thanh 3."},
+      {"id":"s7","zh":"我们班大概有三十个学生。","pinyin":"Wǒmen bān dàgài yǒu sānshí ge xuésheng.","vi":"Lớp chúng tôi có khoảng ba mươi học sinh.","tip_vi":"班 bān: b không bật hơi, không hữu thanh như “b” tiếng Việt; cuối -n. 大概 dàgài: hai thanh 4 liền nhau, chữ đầu hạ nhẹ hơn chữ sau. 三十 sānshí: s rồi sh, phân biệt rõ."},
+      {"id":"s8","zh":"高中比初中忙多了，作业每天要两三个小时。","pinyin":"Gāozhōng bǐ chūzhōng máng duō le, zuòyè měitiān yào liǎng sān ge xiǎoshí.","vi":"Cấp 3 bận hơn cấp 2 nhiều, mỗi ngày bài tập mất hai ba tiếng.","tip_vi":"Câu dài: ngắt hơi ở dấu phẩy. 中 zhōng và 初 chū đều uốn lưỡi; 忙 máng cuối -ng. 两三个 liǎng sān ge: đọc liền như một cụm “hai ba cái”. 小时 xiǎoshí: x (mặt lưỡi) rồi sh (uốn lưỡi)."}
+    ],
+    "review": {
+      "remember": [
+        "A 比 B + tính từ = A … hơn B: 数学比历史难. Trong câu 比 không dùng 很/非常/太/比较 trước tính từ.",
+        "Hơn một chút: tính từ + 一点儿/一些 (难一点儿); hơn nhiều: tính từ + 得多/多了 (难得多、难多了); còn… hơn: 更/还 + tính từ (更难).",
+        "Số tròn + 多 + lượng từ: 四十多个学生、一千多个; số 1–9 + lượng từ + 多: 两个多小时、三块多、两年多.",
+        "十几 = mười mấy; 几十 = mấy chục; hai số liền nhau = khoảng: 两三个、七八百个; 大概 + số = khoảng.",
+        "第 + số = thứ tự: 第一名 (hạng nhất), 第三课; 年级 = khối lớp (初中二年级 = lớp 8); 节 = tiết học (四节课)."
+      ],
+      "mistakes": [
+        "✗ 数学比历史很难 → ✓ 数学比历史难多了 / 难一点儿: câu 比 không có 很.",
+        "✗ 数学比历史有点儿难 → ✓ 数学比历史难一点儿: “hơn một chút” là tính từ + 一点儿.",
+        "✗ 多四十个学生 / 四十个多学生 → ✓ 四十多个学生: 多 đứng sau số tròn, trước lượng từ."
+      ]
+    }
+  }
+}

@@ -48,10 +48,10 @@
       {"id":"x16","hanzi":"凉快","pinyin":"liángkuai","pos":"tính từ","meaning_vi":"mát mẻ","example_zh":"晚上外面很凉快。","example_pinyin":"Wǎnshang wàimiàn hěn liángkuai.","example_vi":"Buổi tối bên ngoài rất mát."},
       {"id":"x17","hanzi":"笔","pinyin":"bǐ","pos":"danh từ","meaning_vi":"bút","example_zh":"你有笔吗？我用一下。","example_pinyin":"Nǐ yǒu bǐ ma? Wǒ yòng yíxià.","example_vi":"Bạn có bút không? Cho mình dùng một chút."},
       {"id":"x18","hanzi":"铅笔","pinyin":"qiānbǐ","pos":"danh từ","meaning_vi":"bút chì","example_zh":"考试的时候要用铅笔。","example_pinyin":"Kǎoshì de shíhou yào yòng qiānbǐ.","example_vi":"Khi thi phải dùng bút chì."},
+      {"id":"x20","hanzi":"左右","pinyin":"zuǒyòu","pos":"danh từ","meaning_vi":"khoảng, chừng (đứng sau con số); trái và phải","example_zh":"我每天八点左右出门。","example_pinyin":"Wǒ měi tiān bā diǎn zuǒyòu chūmén.","example_vi":"Mỗi ngày tôi ra khỏi nhà khoảng tám giờ."},
       {"id":"x19","hanzi":"纸","pinyin":"zhǐ","pos":"danh từ","meaning_vi":"giấy","example_zh":"请给我一张纸。","example_pinyin":"Qǐng gěi wǒ yì zhāng zhǐ.","example_vi":"Làm ơn cho tôi một tờ giấy."}
     ],
     "glossary": [
-      {"hanzi":"左右","pinyin":"zuǒyòu","meaning_vi":"khoảng, chừng (đứng sau con số)","kind":"beyond"},
       {"hanzi":"拿","pinyin":"ná","meaning_vi":"cầm, lấy, mang","kind":"base"}
     ],
     "grammar": [

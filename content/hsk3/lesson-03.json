@@ -1,0 +1,223 @@
+{
+  "level": 3,
+  "number": 3,
+  "readings_ok": ["里 li"],
+  "summary": "Chuẩn bị tiệc mừng năm mới: miêu tả đồ vật đặt ở đâu và đưa ra lựa chọn; học “还是” và “或者”, câu tồn tại “Nơi chốn + V着 + số lượng + danh từ” và “会” chỉ khả năng.",
+  "content": {
+    "objectives": [
+      "Hỏi lựa chọn bằng 还是 và trả lời “cái nào cũng được” bằng 或者: 你喝红茶还是绿茶？红茶或者绿茶都可以。",
+      "Miêu tả chỗ nào có gì bằng câu tồn tại: 桌子上放着很多饮料。",
+      "Dự đoán việc sẽ xảy ra bằng 会: 明天会下雨吗？他可能不会来了。",
+      "Nhờ giúp và nhận lời giúp bằng 帮 / 帮忙: 你能帮我一下吗？我来帮忙。"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"饮料","pinyin":"yǐnliào","pos":"danh từ","meaning_vi":"đồ uống, nước uống","example_zh":"冰箱里有很多饮料。","example_pinyin":"Bīngxiāng li yǒu hěn duō yǐnliào.","example_vi":"Trong tủ lạnh có rất nhiều đồ uống.","hanviet":"ẨM LIỆU","note_vi":"饮料 thường chỉ đồ uống pha sẵn, đóng chai, đóng lon (nước ngọt, trà chai…). Hỏi “uống gì?” thì nói 喝什么？, không cần dùng 饮料."},
+      {"id":"v2","hanzi":"放","pinyin":"fàng","pos":"động từ","meaning_vi":"đặt, để; cho (vào)","example_zh":"蛋糕放在桌子上吧。","example_pinyin":"Dàngāo fàng zài zhuōzi shang ba.","example_vi":"Bánh kem để trên bàn nhé.","hanviet":"PHÓNG","note_vi":"放在 + nơi chốn = đặt ở…; 放 còn có nghĩa “cho thêm”: 咖啡里放一点儿牛奶. Bạn đã gặp 放 trong 放假, 放学 với nghĩa “cho nghỉ, cho về”."},
+      {"id":"v3","hanzi":"还是","pinyin":"háishi","pos":"liên từ","meaning_vi":"hay (là) – dùng trong câu hỏi lựa chọn","example_zh":"你喝咖啡还是喝茶？","example_pinyin":"Nǐ hē kāfēi háishi hē chá?","example_vi":"Bạn uống cà phê hay uống trà?","note_vi":"还是 dùng khi HỎI để người nghe chọn một. Câu kể “A hoặc B” thì dùng 或者. 还是 còn là phó từ “vẫn” (他还是很忙) — đừng lẫn."},
+      {"id":"v4","hanzi":"或者","pinyin":"huòzhě","pos":"liên từ","meaning_vi":"hoặc, hoặc là","example_zh":"星期六或者星期天都可以。","example_pinyin":"Xīngqīliù huòzhě xīngqītiān dōu kěyǐ.","example_vi":"Thứ Bảy hoặc chủ nhật đều được.","hanviet":"HOẶC GIẢ","note_vi":"或者 dùng trong câu kể, hay đi với 都可以 / 都行 (cái nào cũng được). Không dùng 或者 để hỏi lựa chọn."},
+      {"id":"v5","hanzi":"上面","pinyin":"shàngmiàn","pos":"từ chỉ phương hướng","meaning_vi":"trên, phía trên","example_zh":"桌子上面放着一个蛋糕。","example_pinyin":"Zhuōzi shàngmiàn fàngzhe yí ge dàngāo.","example_vi":"Trên bàn đặt một cái bánh kem.","note_vi":"桌子上面 = 桌子上 (chữ 上 đọc nhẹ shang). 上面 cũng dùng cho chữ viết: 名单上面有你的名字 (trên danh sách có tên bạn)."},
+      {"id":"v6","hanzi":"帮","pinyin":"bāng","pos":"động từ","meaning_vi":"giúp","example_zh":"你能帮我一下吗？","example_pinyin":"Nǐ néng bāng wǒ yíxià ma?","example_vi":"Bạn giúp tôi một chút được không?","hanviet":"BANG","note_vi":"帮 + người + việc: 帮我搬桌子 (giúp tôi khiêng bàn). 帮 đi thẳng với người được giúp; 帮忙 thì không."},
+      {"id":"v7","hanzi":"晚会","pinyin":"wǎnhuì","pos":"danh từ","meaning_vi":"buổi liên hoan, dạ hội (buổi tối)","example_zh":"今天晚上公司有一个新年晚会。","example_pinyin":"Jīntiān wǎnshang gōngsī yǒu yí ge xīnnián wǎnhuì.","example_vi":"Tối nay công ty có một buổi liên hoan mừng năm mới.","hanviet":"VÃN HỘI","note_vi":"晚会 thường là buổi liên hoan buổi tối có văn nghệ, đông người (của lớp, công ty…). 开晚会 = tổ chức liên hoan."},
+      {"id":"v8","hanzi":"参加","pinyin":"cānjiā","pos":"động từ","meaning_vi":"tham gia, dự","example_zh":"你参加明天的晚会吗？","example_pinyin":"Nǐ cānjiā míngtiān de wǎnhuì ma?","example_vi":"Bạn có dự buổi liên hoan ngày mai không?","hanviet":"THAM GIA","note_vi":"参加 + hoạt động, tổ chức: 参加晚会, 参加考试. Không nói 参加 + người."},
+      {"id":"v9","hanzi":"冰箱","pinyin":"bīngxiāng","pos":"danh từ","meaning_vi":"tủ lạnh","example_zh":"牛奶在冰箱里。","example_pinyin":"Niúnǎi zài bīngxiāng li.","example_vi":"Sữa ở trong tủ lạnh.","hanviet":"BĂNG TƯƠNG"},
+      {"id":"v10","hanzi":"啤酒","pinyin":"píjiǔ","pos":"danh từ","meaning_vi":"bia","example_zh":"晚上咱们喝几瓶啤酒，怎么样？","example_pinyin":"Wǎnshang zánmen hē jǐ píng píjiǔ, zěnmeyàng?","example_vi":"Tối nay chúng mình uống mấy chai bia, được không?","note_vi":"啤 là phiên âm từ tiếng nước ngoài (beer), 酒 = rượu. Lượng từ: 一瓶啤酒 (một chai bia), 一杯啤酒 (một cốc bia)."},
+      {"id":"v11","hanzi":"蛋糕","pinyin":"dàngāo","pos":"danh từ","meaning_vi":"bánh ngọt, bánh kem","example_zh":"这个蛋糕真好吃！","example_pinyin":"Zhège dàngāo zhēn hǎochī!","example_vi":"Cái bánh kem này ngon thật!","note_vi":"蛋 = trứng, 糕 = bánh. 生日蛋糕 = bánh sinh nhật."},
+      {"id":"v12","hanzi":"礼物","pinyin":"lǐwù","pos":"danh từ","meaning_vi":"quà, món quà","example_zh":"这是我送你的生日礼物。","example_pinyin":"Zhè shì wǒ sòng nǐ de shēngrì lǐwù.","example_vi":"Đây là quà sinh nhật tôi tặng bạn.","hanviet":"LỄ VẬT","note_vi":"Động từ hay đi kèm là 送 (tặng): 送礼物, 送他一个礼物. Âm Hán Việt là “lễ vật” nhưng nghĩa là quà nói chung, rất thân mật."},
+      {"id":"v13","hanzi":"渴","pinyin":"kě","pos":"tính từ","meaning_vi":"khát","example_zh":"我渴了，想喝点儿水。","example_pinyin":"Wǒ kě le, xiǎng hē diǎnr shuǐ.","example_vi":"Tôi khát rồi, muốn uống chút nước.","hanviet":"KHÁT","note_vi":"渴 là tính từ: 很渴, 渴了 (khát rồi). Đừng nhầm với 喝 hē (uống): hai chữ trông giống nhau, 渴 có bộ thủy 氵."},
+      {"id":"v14","hanzi":"或","pinyin":"huò","pos":"liên từ","meaning_vi":"hoặc (dạng ngắn, hay dùng khi viết)","example_zh":"周末我在家看书或去公园走走。","example_pinyin":"Zhōumò wǒ zài jiā kàn shū huò qù gōngyuán zǒuzou.","example_vi":"Cuối tuần tôi ở nhà đọc sách hoặc ra công viên đi dạo.","note_vi":"或 = 或者, ngắn gọn hơn, hay gặp trong văn viết. Giống 或者, chỉ dùng trong câu kể, không dùng để hỏi."},
+      {"id":"v15","hanzi":"帮忙","pinyin":"bāngmáng","pos":"động từ","meaning_vi":"giúp đỡ, giúp một tay","example_zh":"东西太多了，我来帮忙吧！","example_pinyin":"Dōngxi tài duō le, wǒ lái bāngmáng ba!","example_vi":"Đồ nhiều quá, để tôi giúp một tay!","note_vi":"帮忙 là động từ li hợp (帮 + 忙), KHÔNG mang tân ngữ: ✗ 帮忙我. Nói 帮我, hoặc tách ra: 帮我的忙, 帮个忙."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"开心","pinyin":"kāixīn","pos":"tính từ","meaning_vi":"vui, vui vẻ","example_zh":"今天的晚会大家都很开心。","example_pinyin":"Jīntiān de wǎnhuì dàjiā dōu hěn kāixīn.","example_vi":"Buổi liên hoan hôm nay mọi người đều rất vui."},
+      {"id":"x2","hanzi":"边","pinyin":"biān","pos":"danh từ","meaning_vi":"bên, phía","example_zh":"桌子两边放着很多椅子。","example_pinyin":"Zhuōzi liǎng biān fàngzhe hěn duō yǐzi.","example_vi":"Hai bên bàn đặt rất nhiều ghế."},
+      {"id":"x3","hanzi":"中间","pinyin":"zhōngjiān","pos":"từ chỉ phương hướng","meaning_vi":"ở giữa","example_zh":"蛋糕放在桌子中间。","example_pinyin":"Dàngāo fàng zài zhuōzi zhōngjiān.","example_vi":"Bánh kem đặt ở giữa bàn."},
+      {"id":"x4","hanzi":"张","pinyin":"zhāng","pos":"lượng từ","meaning_vi":"cái, tờ (cho vật phẳng: bàn, giấy, giường…)","example_zh":"办公室里有三张桌子。","example_pinyin":"Bàngōngshì li yǒu sān zhāng zhuōzi.","example_vi":"Trong văn phòng có ba cái bàn."},
+      {"id":"x5","hanzi":"好多","pinyin":"hǎoduō","pos":"số từ","meaning_vi":"rất nhiều","example_zh":"冰箱里有好多水果。","example_pinyin":"Bīngxiāng li yǒu hǎoduō shuǐguǒ.","example_vi":"Trong tủ lạnh có rất nhiều hoa quả."},
+      {"id":"x6","hanzi":"瓶子","pinyin":"píngzi","pos":"danh từ","meaning_vi":"cái chai, cái lọ","example_zh":"这个瓶子里是矿泉水。","example_pinyin":"Zhège píngzi li shì kuàngquánshuǐ.","example_vi":"Trong cái chai này là nước khoáng."},
+      {"id":"x7","hanzi":"矿泉水","pinyin":"kuàngquánshuǐ","pos":"danh từ","meaning_vi":"nước khoáng","example_zh":"我要一瓶矿泉水。","example_pinyin":"Wǒ yào yì píng kuàngquánshuǐ.","example_vi":"Tôi lấy một chai nước khoáng."},
+      {"id":"x8","hanzi":"冰","pinyin":"bīng","pos":"danh từ / tính từ","meaning_vi":"đá (nước đá); lạnh, ướp lạnh","example_zh":"天太热了，我想喝点儿冰的。","example_pinyin":"Tiān tài rè le, wǒ xiǎng hē diǎnr bīng de.","example_vi":"Trời nóng quá, tôi muốn uống chút gì lạnh."},
+      {"id":"x9","hanzi":"加","pinyin":"jiā","pos":"động từ","meaning_vi":"thêm, cho thêm","example_zh":"我喜欢在红茶里加一点儿牛奶。","example_pinyin":"Wǒ xǐhuan zài hóngchá li jiā yìdiǎnr niúnǎi.","example_vi":"Tôi thích cho thêm một chút sữa vào hồng trà."},
+      {"id":"x10","hanzi":"红茶","pinyin":"hóngchá","pos":"danh từ","meaning_vi":"hồng trà (trà đen)","example_zh":"我每天早上喝一杯红茶。","example_pinyin":"Wǒ měi tiān zǎoshang hē yì bēi hóngchá.","example_vi":"Sáng nào tôi cũng uống một cốc hồng trà."},
+      {"id":"x11","hanzi":"绿茶","pinyin":"lǜchá","pos":"danh từ","meaning_vi":"trà xanh","example_zh":"我喜欢喝绿茶。","example_pinyin":"Wǒ xǐhuan hē lǜchá.","example_vi":"Tôi thích uống trà xanh."},
+      {"id":"x12","hanzi":"奶茶","pinyin":"nǎichá","pos":"danh từ","meaning_vi":"trà sữa","example_zh":"妹妹最喜欢喝奶茶。","example_pinyin":"Mèimei zuì xǐhuan hē nǎichá.","example_vi":"Em gái tôi thích uống trà sữa nhất."},
+      {"id":"x13","hanzi":"名单","pinyin":"míngdān","pos":"danh từ","meaning_vi":"danh sách (tên người)","example_zh":"晚会的名单上有你的名字。","example_pinyin":"Wǎnhuì de míngdān shang yǒu nǐ de míngzi.","example_vi":"Trong danh sách dự tiệc có tên bạn."},
+      {"id":"x14","hanzi":"表演","pinyin":"biǎoyǎn","pos":"động từ / danh từ","meaning_vi":"biểu diễn; tiết mục","example_zh":"晚会上有很多表演。","example_pinyin":"Wǎnhuì shang yǒu hěn duō biǎoyǎn.","example_vi":"Ở buổi liên hoan có nhiều tiết mục biểu diễn."},
+      {"id":"x15","hanzi":"节日","pinyin":"jiérì","pos":"danh từ","meaning_vi":"ngày lễ, dịp lễ","example_zh":"新年是一个快乐的节日。","example_pinyin":"Xīnnián shì yí ge kuàilè de jiérì.","example_vi":"Năm mới là một dịp lễ vui vẻ."},
+      {"id":"x16","hanzi":"新年","pinyin":"xīnnián","pos":"danh từ","meaning_vi":"năm mới","example_zh":"新年快乐！","example_pinyin":"Xīnnián kuàilè!","example_vi":"Chúc mừng năm mới!"},
+      {"id":"x17","hanzi":"过年","pinyin":"guònián","pos":"động từ","meaning_vi":"ăn Tết, đón Tết (Nguyên đán)","example_zh":"我们回奶奶家过年。","example_pinyin":"Wǒmen huí nǎinai jiā guònián.","example_vi":"Chúng tôi về nhà bà ăn Tết."},
+      {"id":"x18","hanzi":"过节","pinyin":"guòjié","pos":"động từ","meaning_vi":"đón lễ, ăn lễ","example_zh":"过节的时候，商店里人很多。","example_pinyin":"Guòjié de shíhou, shāngdiàn li rén hěn duō.","example_vi":"Vào dịp lễ, trong cửa hàng rất đông người."}
+    ],
+    "glossary": [
+      {"hanzi":"自己","pinyin":"zìjǐ","meaning_vi":"mình, bản thân","kind":"base"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“还是” và “或者”",
+        "pattern":"A 还是 B？(câu hỏi)　·　A 或者 / 或 B (câu kể)",
+        "explanation_vi":"Cả hai đều dịch là “hay / hoặc”, nhưng dùng ở hai loại câu khác nhau. 还是 dùng trong câu HỎI lựa chọn: người nghe phải chọn A hoặc B (你喝红茶还是绿茶？). Câu hỏi gián tiếp sau 不知道, 问问, 想想 cũng dùng 还是 (我不知道他今天来还是明天来). 或者 (hay dạng ngắn 或) dùng trong câu KỂ: A hay B đều được, hoặc làm A hoặc làm B (红茶或者绿茶都可以).",
+        "examples":[
+          {"zh":"你喝红茶还是绿茶？","pinyin":"Nǐ hē hóngchá háishi lǜchá?","vi":"Bạn uống hồng trà hay trà xanh?"},
+          {"zh":"红茶或者绿茶都可以，我不渴。","pinyin":"Hóngchá huòzhě lǜchá dōu kěyǐ, wǒ bù kě.","vi":"Hồng trà hay trà xanh đều được, tôi không khát lắm."},
+          {"zh":"我不知道他今天来还是明天来。","pinyin":"Wǒ bù zhīdao tā jīntiān lái háishi míngtiān lái.","vi":"Tôi không biết anh ấy đến hôm nay hay ngày mai."},
+          {"zh":"晚上我们去看电影或去公园走走吧。","pinyin":"Wǎnshang wǒmen qù kàn diànyǐng huò qù gōngyuán zǒuzou ba.","vi":"Tối nay chúng mình đi xem phim hoặc ra công viên đi dạo nhé."}
+        ],
+        "mistakes_vi":"✗ 你喝红茶或者绿茶？\n✓ 你喝红茶还是绿茶？\nTiếng Việt dùng “hay” cho cả câu hỏi lẫn câu kể, nên người Việt hay dùng 或者 để hỏi. Hỏi để người kia chọn thì phải dùng 还是.\n✗ 星期六还是星期天都可以。\n✓ 星期六或者星期天都可以。\nCâu kể “cái nào cũng được” dùng 或者.\n✗ 我不知道他去或者不去。\n✓ 我不知道他去还是不去。\nSau 不知道 là một câu hỏi gián tiếp, nên vẫn dùng 还是.",
+        "compare_vi":"Mẹo nhớ: có dấu “?” để người nghe chọn → 还是; nói “A hoặc B, cái nào cũng được” → 或者."
+      },
+      {
+        "id":"g2",
+        "title":"Câu tồn tại: Nơi chốn + V着 + số lượng + danh từ",
+        "pattern":"Nơi chốn + V着 + số lượng (+ lượng từ) + N",
+        "explanation_vi":"Dùng để miêu tả một nơi có cái gì, ai, đang ở trạng thái nào. Nơi chốn đứng đầu câu (桌子上, 冰箱里, 名单上), sau đó là động từ + 着 (放着, 写着, 坐着, 住着), cuối cùng là người/vật, thường có số lượng (两张桌子, 很多饮料). Người/vật ở đây là thông tin mới, chưa xác định. Nếu là vật đã biết (那个蛋糕) thì nói: N + 放在 + nơi chốn.",
+        "examples":[
+          {"zh":"桌子上放着很多饮料。","pinyin":"Zhuōzi shang fàngzhe hěn duō yǐnliào.","vi":"Trên bàn đặt rất nhiều đồ uống."},
+          {"zh":"冰箱里放着二十瓶啤酒。","pinyin":"Bīngxiāng li fàngzhe èrshí píng píjiǔ.","vi":"Trong tủ lạnh để hai mươi chai bia."},
+          {"zh":"名单上写着三十个人的名字。","pinyin":"Míngdān shang xiězhe sānshí ge rén de míngzi.","vi":"Trên danh sách ghi tên ba mươi người."},
+          {"zh":"办公室里坐着两个人。","pinyin":"Bàngōngshì li zuòzhe liǎng ge rén.","vi":"Trong văn phòng có hai người đang ngồi."}
+        ],
+        "mistakes_vi":"✗ 桌子上有放一个蛋糕。\n✓ 桌子上放着一个蛋糕。\nĐừng dịch từng chữ “trên bàn có đặt…”: tiếng Trung phổ thông không nói 有 + V; dùng V + 着.\n✗ 在桌子上放着一个蛋糕。\n✓ 桌子上放着一个蛋糕。\nNơi chốn làm chủ ngữ, đứng đầu câu, nên bỏ 在.\n✗ 桌子上放着那个蛋糕。\n✓ 那个蛋糕放在桌子上。\nVật đã xác định (那个, 我的…) không đặt cuối câu tồn tại; dùng N + 放在 + nơi chốn.",
+        "compare_vi":"Tiếng Việt cũng đưa nơi chốn lên đầu: “Trên bàn đặt một cái bánh”. Khác ở chỗ tiếng Trung cần 着 sau động từ và không cần “có”."
+      },
+      {
+        "id":"g3",
+        "title":"“会” chỉ khả năng (sẽ, có thể sẽ)",
+        "pattern":"S + 会 + V (+ 的)　·　S + 不会 + V (+ 的)　·　会……吗？",
+        "explanation_vi":"Ngoài nghĩa “biết (làm)” như 我会说汉语, 会 còn dùng để dự đoán một việc có thể xảy ra: “sẽ, chắc sẽ”. 不会 = sẽ không. Thêm 的 ở cuối câu thì giọng chắc chắn hơn (他会来的 = anh ấy sẽ đến mà). Hỏi: 会……吗？ hoặc 会不会……？ Trả lời ngắn: 会 / 不会.",
+        "examples":[
+          {"zh":"明天会下雨吗？","pinyin":"Míngtiān huì xià yǔ ma?","vi":"Ngày mai trời có mưa không?"},
+          {"zh":"小李晚上有事，可能不会来了。","pinyin":"Xiǎo Lǐ wǎnshang yǒu shì, kěnéng bú huì lái le.","vi":"Tối nay Tiểu Lý có việc, có lẽ sẽ không đến nữa."},
+          {"zh":"你送他这个礼物，他会很开心的。","pinyin":"Nǐ sòng tā zhège lǐwù, tā huì hěn kāixīn de.","vi":"Bạn tặng anh ấy món quà này, anh ấy sẽ rất vui đấy."}
+        ],
+        "mistakes_vi":"✗ 明天能下雨吗？\n✓ 明天会下雨吗？\nTiếng Việt “có thể” ứng với cả 能 lẫn 会. Dự đoán (trời, việc sắp xảy ra) dùng 会; 能 là có khả năng, có điều kiện để làm.\n✗ 他明天会不来。\n✓ 他明天不会来。\n不 đứng trước 会, không chen giữa 会 và động từ.",
+        "compare_vi":"Giống “sẽ” trong tiếng Việt khi đoán trước: 他会来的 = “anh ấy sẽ đến thôi”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Chuẩn bị tiệc mừng năm mới",
+      "scene_vi": "Chiều 31 tháng 12, Tiểu Lâm đang bày đồ trong phòng họp cho buổi liên hoan năm mới của công ty. Giám đốc Vương đến xem, Tiểu Trương đi mua bánh về.",
+      "lines": [
+        {"speaker":"王经理","zh":"小林，今天晚上的新年晚会都准备好了吗？","pinyin":"Xiǎo Lín, jīntiān wǎnshang de xīnnián wǎnhuì dōu zhǔnbèi hǎo le ma?","vi":"Tiểu Lâm, buổi liên hoan năm mới tối nay chuẩn bị xong hết chưa?"},
+        {"speaker":"小林","zh":"快好了。您看，桌子上放着很多饮料：矿泉水、红茶、绿茶，还有奶茶。","pinyin":"Kuài hǎo le. Nín kàn, zhuōzi shang fàngzhe hěn duō yǐnliào: kuàngquánshuǐ, hóngchá, lǜchá, hái yǒu nǎichá.","vi":"Sắp xong rồi ạ. Anh xem, trên bàn bày rất nhiều đồ uống: nước khoáng, hồng trà, trà xanh, còn có cả trà sữa."},
+        {"speaker":"王经理","zh":"啤酒呢？小张最喜欢喝啤酒了。","pinyin":"Píjiǔ ne? Xiǎo Zhāng zuì xǐhuan hē píjiǔ le.","vi":"Còn bia đâu? Tiểu Trương thích uống bia nhất mà."},
+        {"speaker":"小林","zh":"冰箱里放着二十瓶啤酒，晚上咱们喝冰的。","pinyin":"Bīngxiāng li fàngzhe èrshí píng píjiǔ, wǎnshang zánmen hē bīng de.","vi":"Trong tủ lạnh có hai mươi chai bia, tối nay mình uống bia lạnh."},
+        {"speaker":"小张","zh":"我回来了！蛋糕买好了。小林，你能帮我一下吗？这个蛋糕太大了！","pinyin":"Wǒ huílái le! Dàngāo mǎi hǎo le. Xiǎo Lín, nǐ néng bāng wǒ yíxià ma? Zhège dàngāo tài dà le!","vi":"Mình về rồi! Bánh kem mua xong rồi. Tiểu Lâm, giúp mình một chút được không? Cái bánh này to quá!"},
+        {"speaker":"小林","zh":"好，我来帮忙。放在桌子中间吧。你渴不渴？喝红茶还是绿茶？","pinyin":"Hǎo, wǒ lái bāngmáng. Fàng zài zhuōzi zhōngjiān ba. Nǐ kě bu kě? Hē hóngchá háishi lǜchá?","vi":"Được, để mình giúp. Đặt ở giữa bàn nhé. Cậu có khát không? Uống hồng trà hay trà xanh?"},
+        {"speaker":"小张","zh":"我太渴了！红茶或者绿茶都可以，加点儿冰吧。","pinyin":"Wǒ tài kě le! Hóngchá huòzhě lǜchá dōu kěyǐ, jiā diǎnr bīng ba.","vi":"Mình khát quá! Hồng trà hay trà xanh đều được, cho thêm chút đá nhé."},
+        {"speaker":"王经理","zh":"今天晚上会有多少人来参加？","pinyin":"Jīntiān wǎnshang huì yǒu duōshao rén lái cānjiā?","vi":"Tối nay sẽ có bao nhiêu người đến dự?"},
+        {"speaker":"小林","zh":"名单上写着三十个人的名字。小李说他晚上有事，可能不会来了。","pinyin":"Míngdān shang xiězhe sānshí ge rén de míngzi. Xiǎo Lǐ shuō tā wǎnshang yǒu shì, kěnéng bú huì lái le.","vi":"Trong danh sách có tên ba mươi người. Tiểu Lý nói tối nay cậu ấy có việc, có lẽ sẽ không đến."},
+        {"speaker":"王经理","zh":"没关系。我给每个人都准备了一个礼物，今天晚上大家会很开心的！","pinyin":"Méi guānxi. Wǒ gěi měi ge rén dōu zhǔnbèi le yí ge lǐwù, jīntiān wǎnshang dàjiā huì hěn kāixīn de!","vi":"Không sao. Tôi đã chuẩn bị cho mỗi người một món quà, tối nay mọi người sẽ vui lắm đấy!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:饮料","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"桌子上放着很多____，有红茶、绿茶和矿泉水。","options":["饮料","礼物","蛋糕","冰箱"],"answer":0,"explanation_vi":"Hồng trà, trà xanh, nước khoáng đều là 饮料 (đồ uống)."},
+      {"id":"e2","type":"choice","tag":"v:冰箱","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"啤酒在____里，是冰的。","options":["冰箱","名单","晚会","礼物"],"answer":0,"explanation_vi":"Bia để trong 冰箱 (tủ lạnh) nên lạnh. 在……里 cần một nơi chứa đồ."},
+      {"id":"e3","type":"choice","tag":"v:帮","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个蛋糕太大了，你能____我一下吗？","options":["帮","帮忙","参加","加"],"answer":0,"explanation_vi":"Sau chỗ trống có tân ngữ 我, nên dùng 帮 (帮我一下). 帮忙 là động từ li hợp, không nói 帮忙我."},
+      {"id":"e4","type":"choice","tag":"g:还是或者","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你喝红茶____绿茶？","options":["还是","或者","都","就"],"answer":0,"explanation_vi":"Câu hỏi lựa chọn (người nghe chọn một) dùng 还是."},
+      {"id":"e5","type":"choice","tag":"g:还是或者","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"星期六____星期天都可以。","options":["或者","还是","也","就"],"answer":0,"explanation_vi":"Câu kể “cái nào cũng được” dùng 或者."},
+      {"id":"e6","type":"choice","tag":"g:存在句","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"冰箱里____很多啤酒。","options":["放着","放在","在放","有放"],"answer":0,"explanation_vi":"Câu tồn tại: nơi chốn + V着 + vật: 冰箱里放着很多啤酒."},
+      {"id":"e7","type":"choice","tag":"g:存在句","prompt_vi":"Chọn câu đúng với nghĩa: “Trên bàn đặt một cái bánh kem.”","question_zh":"Trên bàn đặt một cái bánh kem.","options":["桌子上放着一个蛋糕。","桌子上有放一个蛋糕。","一个蛋糕放着桌子上。","桌子上放一个着蛋糕。"],"answer":0,"explanation_vi":"Nơi chốn (桌子上) đứng đầu, 着 đứng ngay sau động từ 放, vật (一个蛋糕) ở cuối."},
+      {"id":"e8","type":"choice","tag":"g:会可能","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"明天____下雨吗？","options":["会","能","可以","想"],"answer":0,"explanation_vi":"Đoán thời tiết là dự đoán khả năng, dùng 会."},
+      {"id":"e9","type":"choice","tag":"g:会可能","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你送他这个礼物，他会很开心____。","options":["的","了","着","过"],"answer":0,"explanation_vi":"会……的: 的 cuối câu làm lời dự đoán chắc chắn hơn."},
+      {"id":"e10","type":"order","tag":"g:存在句","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["桌子","上","放着","很多","饮料"],"answers":["桌子上放着很多饮料"],"translation_vi":"Trên bàn đặt rất nhiều đồ uống.","explanation_vi":"Nơi chốn 桌子上 + 放着 + 很多饮料."},
+      {"id":"e11","type":"order","tag":"g:还是或者","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","喝","红茶","还是","绿茶"],"answers":["你喝红茶还是绿茶","你喝绿茶还是红茶"],"translation_vi":"Bạn uống hồng trà hay trà xanh?","explanation_vi":"A 还是 B: 还是 đứng giữa hai thứ để chọn."},
+      {"id":"e12","type":"order","tag":"g:会可能","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","明天","不会","来","的"],"answers":["他明天不会来的","明天他不会来的"],"translation_vi":"Ngày mai anh ấy sẽ không đến đâu.","explanation_vi":"不会 đứng trước động từ 来; 的 ở cuối câu nhấn mạnh sự chắc chắn."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"饮料","vi":"đồ uống"},{"zh":"冰箱","vi":"tủ lạnh"},{"zh":"啤酒","vi":"bia"},{"zh":"蛋糕","vi":"bánh kem"},{"zh":"礼物","vi":"món quà"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"晚会","vi":"buổi liên hoan"},{"zh":"参加","vi":"tham gia"},{"zh":"渴","vi":"khát"},{"zh":"名单","vi":"danh sách"},{"zh":"表演","vi":"biểu diễn"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:还是或者","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我不知道他今天来____明天来。","options":["还是","或者","和","也"],"answer":0,"explanation_vi":"Sau 不知道 là câu hỏi gián tiếp, vẫn dùng 还是."},
+        {"id":"q2","type":"choice","tag":"g:还是或者","prompt_vi":"Chọn câu đúng với nghĩa: “Bạn muốn uống trà hay cà phê?”","question_zh":"Bạn muốn uống trà hay cà phê?","options":["你想喝茶还是咖啡？","你想喝茶或者咖啡？","你想喝茶也咖啡？","你想还是喝茶咖啡？"],"answer":0,"explanation_vi":"Câu hỏi lựa chọn dùng 还是, đặt giữa hai thứ cần chọn."},
+        {"id":"q3","type":"choice","tag":"g:存在句","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"办公室里____两个人。","options":["坐着","坐在","在坐","有坐"],"answer":0,"explanation_vi":"Câu tồn tại: 办公室里 + 坐着 + 两个人."},
+        {"id":"q4","type":"choice","tag":"g:存在句","prompt_vi":"Chọn câu đúng với nghĩa: “Trên danh sách ghi tên ba mươi người.”","question_zh":"Trên danh sách ghi tên ba mươi người.","options":["名单上写着三十个人的名字。","名单上有写三十个人的名字。","三十个人的名字写着名单上。","名单上写三十个着人的名字。"],"answer":0,"explanation_vi":"Nơi chốn 名单上 + 写着 + số lượng + danh từ."},
+        {"id":"q5","type":"choice","tag":"g:会可能","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：明天会下雨吗？B：天气很好，不____下雨。","options":["会","能","想","可以"],"answer":0,"explanation_vi":"Trả lời câu hỏi dự đoán 会……吗？ bằng 不会 (sẽ không)."},
+        {"id":"q6","type":"choice","tag":"g:会可能","prompt_vi":"Câu nào dùng 会 với nghĩa “sẽ, có khả năng”?","question_zh":"哪个“会”是“sẽ”的意思？","options":["他明天会来的。","他会说汉语。","我会做饭。","她会游泳。"],"answer":0,"explanation_vi":"他明天会来的 là dự đoán việc sẽ xảy ra. Ba câu kia là 会 = biết (làm), kỹ năng học được."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:渴","prompt_vi":"Chọn đáp án đúng.","question_zh":"我太____了，有水吗？","options":["渴","中间","冰箱","名单"],"answer":0,"explanation_vi":"太渴了 = khát quá, nên hỏi có nước không."},
+      {"id":"t2","type":"choice","tag":"g:还是或者","prompt_vi":"Chọn đáp án đúng.","question_zh":"你想今天去____明天去？","options":["还是","或者","和","都"],"answer":0,"explanation_vi":"Câu hỏi để người nghe chọn hôm nay hay ngày mai: dùng 还是."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"红茶","vi":"hồng trà"},{"zh":"绿茶","vi":"trà xanh"},{"zh":"奶茶","vi":"trà sữa"},{"zh":"矿泉水","vi":"nước khoáng"},{"zh":"冰","vi":"đá lạnh"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"新年","vi":"năm mới"},{"zh":"过年","vi":"ăn Tết"},{"zh":"节日","vi":"ngày lễ"},{"zh":"中间","vi":"ở giữa"},{"zh":"开心","vi":"vui vẻ"}]},
+      {"id":"t5","type":"order","tag":"v:参加","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","参加","今天晚上的","晚会","吗"],"answers":["你参加今天晚上的晚会吗","今天晚上的晚会你参加吗"],"translation_vi":"Bạn có dự buổi liên hoan tối nay không?","explanation_vi":"参加 + 晚会; 今天晚上的 bổ nghĩa cho 晚会 và đứng ngay trước nó."},
+      {"id":"t6","type":"order","tag":"g:存在句","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["冰箱","里","放着","二十瓶","啤酒"],"answers":["冰箱里放着二十瓶啤酒"],"translation_vi":"Trong tủ lạnh để hai mươi chai bia.","explanation_vi":"Nơi chốn 冰箱里 + 放着 + số lượng 二十瓶 + 啤酒."},
+      {"id":"t7","type":"fill","tag":"v:礼物","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"明天是妈妈的生日，我给她买了一个____。","answers":["礼物"],"hint_vi":"món quà","explanation_vi":"礼物 = quà; 生日礼物 = quà sinh nhật."},
+      {"id":"t8","type":"fill","tag":"g:还是或者","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"红茶____绿茶都可以。","answers":["或者","或"],"hint_vi":"“hoặc” trong câu kể","explanation_vi":"Câu kể “A hoặc B đều được” dùng 或者 (hoặc 或)."},
+      {"id":"t9","type":"listen_choice","tag":"v:帮","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"你能帮我一下吗？这个蛋糕太大了。","options":["Bạn giúp tôi một chút được không? Cái bánh này to quá.","Bạn ăn bánh với tôi nhé.","Cái bánh này nhỏ quá.","Tôi giúp bạn mua bánh nhé."],"answer":0,"explanation_vi":"帮我一下 = giúp tôi một chút; 太大了 = to quá."},
+      {"id":"t10","type":"listen_choice","tag":"g:会可能","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"小李晚上有事，可能不会来了。","options":["小李晚上有事，可能不会来了。","小李晚上没事，一会儿就来。","小李晚上会来参加晚会。","小李不知道晚上有没有事。"],"answer":0,"explanation_vi":"Câu nghe được: Tiểu Lý tối nay có việc, có lẽ sẽ không đến."},
+      {"id":"t11","type":"dictation","tag":"g:存在句","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"桌子上放着很多饮料。","answers":["桌子上放着很多饮料"],"explanation_vi":"桌子上放着很多饮料 = Trên bàn đặt rất nhiều đồ uống."},
+      {"id":"t12","type":"dictation","tag":"v:啤酒","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"冰箱里有啤酒和矿泉水。","answers":["冰箱里有啤酒和矿泉水"],"explanation_vi":"冰箱里有啤酒和矿泉水 = Trong tủ lạnh có bia và nước khoáng."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:还是或者","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bạn uống trà xanh hay trà sữa?","answers":["你喝绿茶还是奶茶","你喝绿茶还是喝奶茶","你喝绿茶还是奶茶呢","你喝绿茶还是喝奶茶呢","你要喝绿茶还是奶茶","你要喝绿茶还是喝奶茶","你想喝绿茶还是奶茶","你想喝绿茶还是喝奶茶","你要绿茶还是奶茶"],"explanation_vi":"Câu hỏi lựa chọn: 你喝 + A + 还是 + B？"},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:会可能","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Ngày mai trời có mưa không?","answers":["明天会下雨吗","明天会不会下雨","明天会不会下雨呢"],"explanation_vi":"Dự đoán thời tiết dùng 会: 明天会下雨吗？/ 明天会不会下雨？"},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:存在句","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"冰箱里放着很多饮料。","answers_vi":["Trong tủ lạnh có rất nhiều đồ uống.","Trong tủ lạnh để rất nhiều đồ uống."],"keywords":[["tủ lạnh"],["nhiều"],["đồ uống","nước uống","thức uống","nước"]],"explanation_vi":"冰箱里 = trong tủ lạnh; 放着很多饮料 = để (sẵn) nhiều đồ uống."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:会可能","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"明天的晚会，经理会来参加的。","answers_vi":["Giám đốc sẽ đến dự buổi liên hoan ngày mai.","Buổi liên hoan ngày mai, giám đốc sẽ đến tham gia."],"keywords":[["mai","ngày mai"],["liên hoan","tiệc","dạ hội"],["giám đốc","quản lý","sếp"],["sẽ","chắc"],["tham gia","dự","đến","tới"]],"explanation_vi":"会……的 = sẽ … (chắc chắn); 参加晚会 = dự liên hoan."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"公司的新年晚会",
+        "title_vi":"Buổi liên hoan năm mới của công ty",
+        "paragraphs":[
+          {
+            "tokens":[["昨天","zuótiān","hôm qua"],["晚上","wǎnshang","buổi tối"],["，"],["我们","wǒmen","chúng tôi"],["公司","gōngsī","công ty"],["开","kāi","tổ chức"],["了","le","(đã)"],["一个","yí ge","một"],["新年","xīnnián","năm mới"],["晚会","wǎnhuì","buổi liên hoan"],["。"],["办公室","bàngōngshì","văn phòng"],["中间","zhōngjiān","ở giữa"],["放着","fàngzhe","đặt"],["两","liǎng","hai"],["张","zhāng","cái (lượng từ)"],["大","dà","to"],["桌子","zhuōzi","bàn"],["，"],["桌子","zhuōzi","bàn"],["上面","shàngmiàn","trên"],["放着","fàngzhe","đặt"],["好多","hǎoduō","rất nhiều"],["饮料","yǐnliào","đồ uống"],["、"],["水果","shuǐguǒ","hoa quả"],["和","hé","và"],["一个","yí ge","một"],["大","dà","to"],["蛋糕","dàngāo","bánh kem"],["。"],["冰箱","bīngxiāng","tủ lạnh"],["里","li","trong"],["还","hái","còn"],["放着","fàngzhe","để"],["二十","èrshí","hai mươi"],["瓶","píng","chai"],["啤酒","píjiǔ","bia"],["。"]],
+            "vi":"Tối hôm qua công ty chúng tôi tổ chức một buổi liên hoan năm mới. Giữa văn phòng đặt hai cái bàn lớn, trên bàn bày rất nhiều đồ uống, hoa quả và một cái bánh kem to. Trong tủ lạnh còn để hai mươi chai bia."
+          },
+          {
+            "tokens":[["晚会","wǎnhuì","buổi liên hoan"],["上","shang","ở, tại"],["有","yǒu","có"],["很多","hěn duō","nhiều"],["表演","biǎoyǎn","tiết mục"],["。"],["王经理","Wáng jīnglǐ","giám đốc Vương"],["给","gěi","cho"],["大家","dàjiā","mọi người"],["唱歌","chàng gē","hát"],["，"],["小张","Xiǎo Zhāng","Tiểu Trương"],["和","hé","và"],["小林","Xiǎo Lín","Tiểu Lâm"],["一块儿","yíkuàir","cùng nhau"],["跳舞","tiàowǔ","nhảy múa"],["。"],["大家","dàjiā","mọi người"],["渴","kě","khát"],["了","le","rồi"],["就","jiù","thì"],["喝","hē","uống"],["点儿","diǎnr","một chút"],["红茶","hóngchá","hồng trà"],["、"],["绿茶","lǜchá","trà xanh"],["或","huò","hoặc"],["啤酒","píjiǔ","bia"],["，"],["都","dōu","đều"],["非常","fēicháng","rất"],["开心","kāixīn","vui"],["。"]],
+            "vi":"Ở buổi liên hoan có rất nhiều tiết mục. Giám đốc Vương hát cho mọi người nghe, Tiểu Trương và Tiểu Lâm cùng nhảy. Ai khát thì uống chút hồng trà, trà xanh hoặc bia, mọi người đều rất vui."
+          },
+          {
+            "tokens":[["每","měi","mỗi"],["个","ge","(lượng từ)"],["人","rén","người"],["都","dōu","đều"],["有","yǒu","có"],["一个","yí ge","một"],["礼物","lǐwù","món quà"],["，"],["礼物","lǐwù","món quà"],["上面","shàngmiàn","trên"],["写着","xiězhe","ghi"],["自己","zìjǐ","mình"],["的","de","(của)"],["名字","míngzi","tên"],["。"],["小李","Xiǎo Lǐ","Tiểu Lý"],["昨天","zuótiān","hôm qua"],["有事","yǒu shì","có việc"],["，"],["没","méi","không"],["来","lái","đến"],["参加","cānjiā","tham gia"],["。"],["他","tā","anh ấy"],["说","shuō","nói"],["："],["“"],["明年","míngnián","năm sau"],["的","de","(của)"],["晚会","wǎnhuì","buổi liên hoan"],["我","wǒ","tôi"],["会","huì","sẽ"],["来","lái","đến"],["的","de","(nhấn mạnh)"],["！"],["”"]],
+            "vi":"Mỗi người đều có một món quà, trên quà ghi tên của chính mình. Hôm qua Tiểu Lý có việc nên không đến dự. Anh ấy nói: “Liên hoan năm sau tôi sẽ đến!”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"办公室中间放着什么？","options":["两张大桌子","一个冰箱","很多礼物","两个蛋糕"],"answer":0,"explanation_vi":"Đoạn 1: 办公室中间放着两张大桌子."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"晚会上谁给大家唱歌了？","options":["王经理","小张","小林","小李"],"answer":0,"explanation_vi":"Đoạn 2: 王经理给大家唱歌."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"礼物上面写着什么？","options":["每个人的名字","新年快乐","晚会的时间","经理的电话"],"answer":0,"explanation_vi":"Đoạn 3: 礼物上面写着自己的名字 — tên của từng người."},
+          {"id":"rq4","type":"choice","tag":"v:参加","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"小李参加了昨天的晚会。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 小李昨天有事，没来参加 — nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"v:冰箱","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"冰箱里放着啤酒。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 1: 冰箱里还放着二十瓶啤酒."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Sinh nhật mẹ",
+        "text_zh":"下个星期六是妈妈的生日，我和哥哥想在家给妈妈开一个小晚会。哥哥说：“咱们买一个大蛋糕，再买一些啤酒和饮料吧。”我说：“妈妈不喝啤酒，她喜欢喝红茶或者绿茶。”送什么礼物呢？我们还不知道送衣服还是送手机。哥哥说，妈妈会喜欢手机的，但是手机有点儿贵。我们打算明天去商店看看。爷爷奶奶也会来参加，妈妈会非常开心的。",
+        "pinyin":"Xià ge xīngqīliù shì māma de shēngrì, wǒ hé gēge xiǎng zài jiā gěi māma kāi yí ge xiǎo wǎnhuì. Gēge shuō: “Zánmen mǎi yí ge dà dàngāo, zài mǎi yìxiē píjiǔ hé yǐnliào ba.” Wǒ shuō: “Māma bù hē píjiǔ, tā xǐhuan hē hóngchá huòzhě lǜchá.” Sòng shénme lǐwù ne? Wǒmen hái bù zhīdao sòng yīfu háishi sòng shǒujī. Gēge shuō, māma huì xǐhuan shǒujī de, dànshì shǒujī yǒudiǎnr guì. Wǒmen dǎsuàn míngtiān qù shāngdiàn kànkan. Yéye nǎinai yě huì lái cānjiā, māma huì fēicháng kāixīn de.",
+        "vi":"Thứ Bảy tuần sau là sinh nhật mẹ, tôi và anh trai muốn tổ chức một bữa tiệc nhỏ ở nhà cho mẹ. Anh nói: “Mình mua một cái bánh kem to, mua thêm ít bia và đồ uống nhé.” Tôi nói: “Mẹ không uống bia, mẹ thích uống hồng trà hoặc trà xanh.” Tặng quà gì đây? Chúng tôi vẫn chưa biết nên tặng quần áo hay điện thoại. Anh nói mẹ sẽ thích điện thoại, nhưng điện thoại hơi đắt. Chúng tôi định mai ra cửa hàng xem thử. Ông bà nội cũng sẽ đến dự, mẹ sẽ vui lắm.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"下个星期六是谁的生日？","options":["妈妈","哥哥","奶奶","爷爷"],"answer":0,"explanation_vi":"Nghe được: 下个星期六是妈妈的生日."},
+          {"id":"lq2","type":"choice","tag":"g:还是或者","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"妈妈喜欢喝什么？","options":["红茶或者绿茶","啤酒","咖啡","矿泉水"],"answer":0,"explanation_vi":"Nghe được: 她喜欢喝红茶或者绿茶."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他们还不知道什么？","options":["送衣服还是送手机","买不买蛋糕","在哪儿开晚会","爷爷奶奶来不来"],"answer":0,"explanation_vi":"Nghe được: 我们还不知道送衣服还是送手机."},
+          {"id":"lq4","type":"choice","tag":"g:会可能","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"哥哥觉得妈妈会喜欢什么？","options":["手机","衣服","蛋糕","红茶"],"answer":0,"explanation_vi":"Nghe được: 哥哥说，妈妈会喜欢新手机的."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"饮料","pinyin":"yǐnliào","vi":"đồ uống","tip_vi":"饮 yǐn: vần -in kết thúc bằng đầu lưỡi chạm lợi trên (giống “in” tiếng Việt), đừng đọc thành -ing. 料 liào: l rõ ràng, đừng lẫn thành n; thanh 4 rơi dứt khoát."},
+      {"id":"s2","zh":"冰箱","pinyin":"bīngxiāng","vi":"tủ lạnh","tip_vi":"冰 bīng: vần -ing kết thúc ở cuống lưỡi, không phải “binh”. 箱 xiāng: x là âm mặt lưỡi (môi dẹt, mặt lưỡi nâng), khác “x” tiếng Việt; cả hai chữ đều thanh 1, giữ cao và bằng."},
+      {"id":"s3","zh":"你喝红茶还是绿茶？","pinyin":"Nǐ hē hóngchá háishi lǜchá?","vi":"Bạn uống hồng trà hay trà xanh?","tip_vi":"绿 lǜ: giữ lưỡi như đọc “i” rồi tròn môi lại (ü), đừng đọc thành “luy”. 还是 háishi: 是 đọc nhẹ. 喝 hē: h xát ở cuống lưỡi. 茶 chá: ch uốn lưỡi và bật hơi."},
+      {"id":"s4","zh":"桌子上放着很多饮料。","pinyin":"Zhuōzi shang fàngzhe hěn duō yǐnliào.","vi":"Trên bàn đặt rất nhiều đồ uống.","tip_vi":"子、上、着 đều đọc nhẹ, ngắn. 放 fàng: f là âm môi răng (răng trên chạm môi dưới). 很 hěn đứng trước thanh 1 nên chỉ đọc nửa thanh 3 (thấp)."},
+      {"id":"s5","zh":"我太渴了，有矿泉水吗？","pinyin":"Wǒ tài kě le, yǒu kuàngquánshuǐ ma?","vi":"Tôi khát quá, có nước khoáng không?","tip_vi":"渴 kě: k bật hơi mạnh, đừng đọc thành 喝 hē. 泉 quán: q bật hơi, vần üan (môi tròn ở đầu), đừng đọc thành “quan” kiểu Việt. 水 shuǐ: sh uốn lưỡi."},
+      {"id":"s6","zh":"红茶或者绿茶都可以。","pinyin":"Hóngchá huòzhě lǜchá dōu kěyǐ.","vi":"Hồng trà hay trà xanh đều được.","tip_vi":"或者 huòzhě: zh uốn lưỡi, không bật hơi; 者 thanh 3. 可以 kěyǐ là hai thanh 3 liền nhau: 可 đọc lên như thanh 2 (ké yǐ)."},
+      {"id":"s7","zh":"小李晚上有事，可能不会来了。","pinyin":"Xiǎo Lǐ wǎnshang yǒu shì, kěnéng bú huì lái le.","vi":"Tối nay Tiểu Lý có việc, có lẽ sẽ không đến.","tip_vi":"小李 xiǎo lǐ: hai thanh 3 liền nhau, 小 đọc lên như thanh 2. 不会 bú huì: 不 đổi sang thanh 2 vì đứng trước thanh 4. 事 shì: nguyên âm -i uốn lưỡi, không đọc “si”."}
+    ],
+    "review": {
+      "remember": [
+        "Hỏi để người kia chọn dùng 还是 (你喝红茶还是绿茶？); câu kể “A hoặc B đều được” dùng 或者 / 或 (红茶或者绿茶都可以).",
+        "Câu tồn tại: Nơi chốn + V着 + số lượng + danh từ: 桌子上放着很多饮料, 名单上写着三十个人的名字.",
+        "Vật đã biết thì nói N + 放在 + nơi chốn: 蛋糕放在桌子中间.",
+        "会 + V = sẽ, chắc sẽ (dự đoán): 明天会下雨吗？他不会来的. 的 ở cuối câu làm giọng chắc chắn hơn.",
+        "帮 + người + việc (帮我搬桌子); 帮忙 không mang tân ngữ: 我来帮忙, 帮我一个忙."
+      ],
+      "mistakes": [
+        "✗ 你喝红茶或者绿茶？ → ✓ 你喝红茶还是绿茶？: câu hỏi lựa chọn dùng 还是.",
+        "✗ 桌子上有放一个蛋糕 → ✓ 桌子上放着一个蛋糕: không dịch “có đặt”, dùng V + 着.",
+        "✗ 你能帮忙我吗？ → ✓ 你能帮我吗？/ 你能帮我一个忙吗？: 帮忙 không đi thẳng với tân ngữ."
+      ]
+    }
+  }
+}

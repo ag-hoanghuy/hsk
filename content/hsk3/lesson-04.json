@@ -1,0 +1,213 @@
+{
+  "level": 3,
+  "number": 4,
+  "readings_ok": ["里 li", "得 de", "地 de", "边 bian"],
+  "summary": "Miêu tả tính cách con người và công việc phục vụ ở quán ăn; học cấu trúc “又……又……” (vừa… vừa…) và “V1着(O1) + V2(O2)” để nói hai việc làm cùng lúc.",
+  "content": {
+    "objectives": [
+      "Khen và miêu tả tính cách: 热情、聪明、可爱、认真、年轻、关心别人",
+      "Nói một người, một nơi có hai đặc điểm bằng 又……又……: 又便宜又好吃",
+      "Nói làm việc gì trong tư thế, trạng thái nào bằng V1着 + V2: 笑着说话、坐着看电视",
+      "Gọi món, hỏi đường đến nhà vệ sinh và nói mức độ hài lòng ở quán ăn"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"客人","pinyin":"kèrén","pos":"danh từ","meaning_vi":"khách","example_zh":"今天饭馆里客人很多。","example_pinyin":"Jīntiān fànguǎn li kèrén hěn duō.","example_vi":"Hôm nay trong quán rất đông khách.","hanviet":"KHÁCH NHÂN","note_vi":"客人 = khách đến nhà, đến quán ăn, cửa hàng. Đừng nhầm với 客气 (khách sáo): 不客气 = đừng khách sáo."},
+      {"id":"v2","hanzi":"总是","pinyin":"zǒngshì","pos":"phó từ","meaning_vi":"luôn, lúc nào cũng","example_zh":"我们的经理总是很早来公司。","example_pinyin":"Wǒmen de jīnglǐ zǒngshì hěn zǎo lái gōngsī.","example_vi":"Giám đốc của chúng tôi lúc nào cũng đến công ty rất sớm.","note_vi":"总是 (hay nói ngắn là 总) đứng trước động từ hoặc tính từ: 总是笑着, 总是很忙. Nói về thói quen nên không thêm 了."},
+      {"id":"v3","hanzi":"热情","pinyin":"rèqíng","pos":"tính từ","meaning_vi":"nhiệt tình, niềm nở","example_zh":"这儿的服务员都很热情。","example_pinyin":"Zhèr de fúwùyuán dōu hěn rèqíng.","example_vi":"Nhân viên phục vụ ở đây đều rất niềm nở.","hanviet":"NHIỆT TÌNH","note_vi":"热情 chủ yếu nói thái độ niềm nở, nồng hậu với người khác: 对客人很热情. Muốn khen ai làm việc cẩn thận, chu đáo thì dùng 认真."},
+      {"id":"v4","hanzi":"服务","pinyin":"fúwù","pos":"động từ / danh từ","meaning_vi":"phục vụ; sự phục vụ","example_zh":"这个饭馆的服务很好。","example_pinyin":"Zhège fànguǎn de fúwù hěn hǎo.","example_vi":"Quán ăn này phục vụ rất tốt.","hanviet":"PHỤC VỤ","note_vi":"服务员 (người phục vụ) bạn đã biết: 服务 + 员 (người làm việc đó)."},
+      {"id":"v5","hanzi":"帮助","pinyin":"bāngzhù","pos":"động từ / danh từ","meaning_vi":"giúp đỡ; sự giúp đỡ","example_zh":"谢谢你的帮助！","example_pinyin":"Xièxie nǐ de bāngzhù!","example_vi":"Cảm ơn sự giúp đỡ của bạn!","hanviet":"BANG TRỢ","note_vi":"帮助 + người: 帮助别人. Khi nói chuyện hằng ngày hay dùng 帮 (帮我一下); 帮助 trang trọng hơn và còn làm danh từ (你的帮助). 帮忙 thì không mang tân ngữ."},
+      {"id":"v6","hanzi":"聪明","pinyin":"cōngming","pos":"tính từ","meaning_vi":"thông minh","example_zh":"这个孩子很聪明。","example_pinyin":"Zhège háizi hěn cōngming.","example_vi":"Đứa trẻ này rất thông minh.","hanviet":"THÔNG MINH","note_vi":"Âm Hán Việt trùng nghĩa, dễ nhớ. 明 thường đọc nhẹ: cōngming."},
+      {"id":"v7","hanzi":"可爱","pinyin":"kě'ài","pos":"tính từ","meaning_vi":"đáng yêu, dễ thương","example_zh":"你妹妹真可爱！","example_pinyin":"Nǐ mèimei zhēn kě'ài!","example_vi":"Em gái bạn dễ thương thật!","hanviet":"KHẢ ÁI","note_vi":"Dùng cho trẻ con, con vật, người trẻ, đồ vật nhỏ xinh. Khen người lớn đẹp thì dùng 漂亮."},
+      {"id":"v8","hanzi":"认真","pinyin":"rènzhēn","pos":"tính từ","meaning_vi":"chăm chỉ, nghiêm túc, cẩn thận","example_zh":"他工作很认真。","example_pinyin":"Tā gōngzuò hěn rènzhēn.","example_vi":"Anh ấy làm việc rất nghiêm túc, cẩn thận.","hanviet":"NHẬN CHÂN","note_vi":"Đứng trước động từ thì thêm 地: 认真地学习 (chăm chỉ học). Đừng hiểu theo âm Hán Việt “nhận chân”."},
+      {"id":"v9","hanzi":"安静","pinyin":"ānjìng","pos":"tính từ","meaning_vi":"yên tĩnh; trật tự","example_zh":"这个饭馆很安静，我很喜欢。","example_pinyin":"Zhège fànguǎn hěn ānjìng, wǒ hěn xǐhuan.","example_vi":"Quán ăn này rất yên tĩnh, tôi rất thích.","hanviet":"AN TĨNH","note_vi":"Nói về nơi chốn (这儿很安静) hoặc người (请安静一点儿 = xin giữ trật tự một chút)."},
+      {"id":"v10","hanzi":"年轻","pinyin":"niánqīng","pos":"tính từ","meaning_vi":"trẻ","example_zh":"我们的经理很年轻。","example_pinyin":"Wǒmen de jīnglǐ hěn niánqīng.","example_vi":"Giám đốc của chúng tôi rất trẻ.","hanviet":"NIÊN KHINH","note_vi":"Khen ai trẻ thì nói 很年轻, không nói 很小 (nghe như “còn bé”). 年 -n, 轻 -ng: hai vần cuối khác nhau."},
+      {"id":"v11","hanzi":"关心","pinyin":"guānxīn","pos":"động từ","meaning_vi":"quan tâm","example_zh":"妈妈总是很关心我。","example_pinyin":"Māma zǒngshì hěn guānxīn wǒ.","example_vi":"Mẹ lúc nào cũng rất quan tâm đến tôi.","hanviet":"QUAN TÂM","note_vi":"关心 + người/việc, không cần thêm từ “đến”: 关心别人, 关心孩子. Cũng nói được 对……很关心."},
+      {"id":"v12","hanzi":"别人","pinyin":"biérén","pos":"đại từ","meaning_vi":"người khác","example_zh":"她很喜欢帮助别人。","example_pinyin":"Tā hěn xǐhuan bāngzhù biérén.","example_vi":"Cô ấy rất thích giúp đỡ người khác.","note_vi":"别人 = người khác (không phải mình). Đừng nhầm với 别 (đừng): 别去 = đừng đi."},
+      {"id":"v13","hanzi":"满意","pinyin":"mǎnyì","pos":"động từ / tính từ","meaning_vi":"hài lòng","example_zh":"客人对这儿的菜很满意。","example_pinyin":"Kèrén duì zhèr de cài hěn mǎnyì.","example_vi":"Khách rất hài lòng với món ăn ở đây.","hanviet":"MÃN Ý","note_vi":"Mẫu hay dùng: A 对 B 很满意 (A hài lòng với B). Phủ định: 不满意."},
+      {"id":"v14","hanzi":"不错","pinyin":"búcuò","pos":"tính từ","meaning_vi":"khá tốt, không tệ","example_zh":"这个饭馆不错，菜很好吃。","example_pinyin":"Zhège fànguǎn búcuò, cài hěn hǎochī.","example_vi":"Quán ăn này được đấy, món ăn rất ngon.","note_vi":"Lời khen nhẹ: “được đấy, khá tốt”. 不 đọc bú vì đứng trước 错 thanh 4."},
+      {"id":"v15","hanzi":"饭馆","pinyin":"fànguǎn","pos":"danh từ","meaning_vi":"quán ăn, nhà hàng nhỏ","example_zh":"学校旁边有一家小饭馆。","example_pinyin":"Xuéxiào pángbiān yǒu yì jiā xiǎo fànguǎn.","example_vi":"Bên cạnh trường có một quán ăn nhỏ.","hanviet":"PHẠN QUÁN","note_vi":"Lượng từ cho quán, cửa hàng là 家: 一家饭馆. 饭店 (đã học) ngày nay thường chỉ khách sạn hoặc nhà hàng lớn."},
+      {"id":"v16","hanzi":"位","pinyin":"wèi","pos":"lượng từ","meaning_vi":"vị (lượng từ lịch sự cho người)","example_zh":"这位女士是我们的经理。","example_pinyin":"Zhè wèi nǚshì shì wǒmen de jīnglǐ.","example_vi":"Vị này là giám đốc của chúng tôi.","hanviet":"VỊ","note_vi":"位 lịch sự hơn 个: 一位客人, 两位老师. Phục vụ hỏi khách: 请问几位？ — trả lời 两位 hay 两个人 đều được. Nhưng khi tự giới thiệu thì không dùng 位 cho mình: ✗ 我是一位老师 → ✓ 我是老师."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"但","pinyin":"dàn","pos":"liên từ","meaning_vi":"nhưng","example_zh":"这个菜很好吃，但有点儿贵。","example_pinyin":"Zhège cài hěn hǎochī, dàn yǒudiǎnr guì.","example_vi":"Món này rất ngon nhưng hơi đắt."},
+      {"id":"x2","hanzi":"而且","pinyin":"érqiě","pos":"liên từ","meaning_vi":"hơn nữa, mà còn","example_zh":"她很聪明，而且很认真。","example_pinyin":"Tā hěn cōngming, érqiě hěn rènzhēn.","example_vi":"Cô ấy rất thông minh, hơn nữa còn rất chăm chỉ."},
+      {"id":"x3","hanzi":"不但","pinyin":"búdàn","pos":"liên từ","meaning_vi":"không những","example_zh":"他不但会说汉语，而且说得很好。","example_pinyin":"Tā búdàn huì shuō Hànyǔ, érqiě shuō de hěn hǎo.","example_vi":"Anh ấy không những biết nói tiếng Trung mà còn nói rất giỏi."},
+      {"id":"x4","hanzi":"特别","pinyin":"tèbié","pos":"phó từ / tính từ","meaning_vi":"đặc biệt; rất, cực kỳ","example_zh":"今天的鱼特别好吃。","example_pinyin":"Jīntiān de yú tèbié hǎochī.","example_vi":"Món cá hôm nay ngon đặc biệt."},
+      {"id":"x5","hanzi":"挺","pinyin":"tǐng","pos":"phó từ","meaning_vi":"khá, rất (khẩu ngữ)","example_zh":"她的汉语挺好的。","example_pinyin":"Tā de Hànyǔ tǐng hǎo de.","example_vi":"Tiếng Trung của cô ấy khá tốt."},
+      {"id":"x6","hanzi":"几乎","pinyin":"jīhū","pos":"phó từ","meaning_vi":"hầu như, gần như","example_zh":"我几乎每天都来这个饭馆。","example_pinyin":"Wǒ jīhū měi tiān dōu lái zhège fànguǎn.","example_vi":"Hầu như ngày nào tôi cũng đến quán này."},
+      {"id":"x7","hanzi":"总","pinyin":"zǒng","pos":"phó từ","meaning_vi":"luôn, lúc nào cũng","example_zh":"她总笑着说：“没关系。”","example_pinyin":"Tā zǒng xiàozhe shuō: “Méi guānxi.”","example_vi":"Cô ấy lúc nào cũng cười nói: “Không sao đâu.”"},
+      {"id":"x8","hanzi":"地","pinyin":"de","pos":"trợ từ","meaning_vi":"(trợ từ nối từ chỉ cách thức với động từ phía sau)","example_zh":"她认真地听客人说话。","example_pinyin":"Tā rènzhēn de tīng kèrén shuōhuà.","example_vi":"Cô ấy chăm chú lắng nghe khách nói."},
+      {"id":"x9","hanzi":"有的","pinyin":"yǒude","pos":"đại từ","meaning_vi":"có (người, cái)…, một số","example_zh":"有的客人喜欢喝茶，有的喜欢喝啤酒。","example_pinyin":"Yǒude kèrén xǐhuan hē chá, yǒude xǐhuan hē píjiǔ.","example_vi":"Có khách thích uống trà, có khách thích uống bia."},
+      {"id":"x10","hanzi":"个子","pinyin":"gèzi","pos":"danh từ","meaning_vi":"vóc người, chiều cao","example_zh":"他个子很高。","example_pinyin":"Tā gèzi hěn gāo.","example_vi":"Anh ấy người cao."},
+      {"id":"x11","hanzi":"女孩儿","pinyin":"nǚháir","pos":"danh từ","meaning_vi":"cô bé, cô gái","example_zh":"那个女孩儿是新来的服务员。","example_pinyin":"Nàge nǚháir shì xīn lái de fúwùyuán.","example_vi":"Cô gái đó là nhân viên phục vụ mới đến."},
+      {"id":"x12","hanzi":"男孩儿","pinyin":"nánháir","pos":"danh từ","meaning_vi":"cậu bé, chàng trai","example_zh":"那个男孩儿个子不高，但很聪明。","example_pinyin":"Nàge nánháir gèzi bù gāo, dàn hěn cōngming.","example_vi":"Cậu bé đó không cao nhưng rất thông minh."},
+      {"id":"x13","hanzi":"女士","pinyin":"nǚshì","pos":"danh từ","meaning_vi":"bà, cô, quý bà (cách gọi lịch sự)","example_zh":"这位女士，您想喝点儿什么？","example_pinyin":"Zhè wèi nǚshì, nín xiǎng hē diǎnr shénme?","example_vi":"Thưa cô, cô muốn uống gì ạ?"},
+      {"id":"x14","hanzi":"不好意思","pinyin":"bù hǎoyìsi","pos":"cụm từ","meaning_vi":"xin lỗi (nhẹ); ngại quá","example_zh":"不好意思，让您等了。","example_pinyin":"Bù hǎoyìsi, ràng nín děng le.","example_vi":"Xin lỗi, để anh phải đợi."},
+      {"id":"x15","hanzi":"洗手间","pinyin":"xǐshǒujiān","pos":"danh từ","meaning_vi":"nhà vệ sinh","example_zh":"请问，洗手间在哪儿？","example_pinyin":"Qǐngwèn, xǐshǒujiān zài nǎr?","example_vi":"Xin hỏi, nhà vệ sinh ở đâu?"},
+      {"id":"x16","hanzi":"菜单","pinyin":"càidān","pos":"danh từ","meaning_vi":"thực đơn","example_zh":"服务员，请给我们菜单。","example_pinyin":"Fúwùyuán, qǐng gěi wǒmen càidān.","example_vi":"Anh phục vụ ơi, cho chúng tôi xem thực đơn."},
+      {"id":"x17","hanzi":"员","pinyin":"yuán","pos":"danh từ","meaning_vi":"người làm (một công việc), “viên” – thường đứng cuối từ","example_zh":"服务员的“员”，意思是做这个工作的人。","example_pinyin":"Fúwùyuán de “yuán”, yìsi shì zuò zhège gōngzuò de rén.","example_vi":"Chữ “员” trong 服务员 nghĩa là người làm công việc đó."}
+    ],
+    "glossary": [
+      {"hanzi":"跟","pinyin":"gēn","meaning_vi":"với, cùng (跟……说话 = nói chuyện với…)","kind":"base"},
+      {"hanzi":"又","pinyin":"yòu","meaning_vi":"vừa… vừa… (trong 又……又……); lại","kind":"beyond"},
+      {"hanzi":"站","pinyin":"zhàn","meaning_vi":"đứng","kind":"base"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“又……又……” (vừa… vừa…)",
+        "pattern":"S + 又 + Adj1/V1 + 又 + Adj2/V2",
+        "explanation_vi":"Dùng để nói hai đặc điểm hoặc hai hành động cùng có, cùng xảy ra: 又便宜又好吃 (vừa rẻ vừa ngon), 又说又笑 (vừa nói vừa cười). Hai ý thường cùng chiều: cùng tốt (又聪明又可爱) hoặc cùng không tốt (又贵又不好吃, 又冷又下雨). Tính từ sau 又 thường không thêm 很. 又 đứng sau chủ ngữ.",
+        "examples":[
+          {"zh":"这个饭馆的菜又便宜又好吃。","pinyin":"Zhège fànguǎn de cài yòu piányi yòu hǎochī.","vi":"Món ăn ở quán này vừa rẻ vừa ngon."},
+          {"zh":"她又年轻又热情，客人都很喜欢她。","pinyin":"Tā yòu niánqīng yòu rèqíng, kèrén dōu hěn xǐhuan tā.","vi":"Cô ấy vừa trẻ vừa nhiệt tình, khách ai cũng thích cô ấy."},
+          {"zh":"孩子们又说又笑，非常开心。","pinyin":"Háizimen yòu shuō yòu xiào, fēicháng kāixīn.","vi":"Bọn trẻ vừa nói vừa cười, vui lắm."},
+          {"zh":"今天又冷又下雨，咱们别出去了。","pinyin":"Jīntiān yòu lěng yòu xià yǔ, zánmen bié chūqù le.","vi":"Hôm nay vừa lạnh vừa mưa, chúng mình đừng ra ngoài nữa."}
+        ],
+        "mistakes_vi":"✗ 她很又年轻又可爱。\n✓ 她又年轻又可爱。\n很 không đứng trước 又; 又……又…… đã đủ ý nhấn mạnh.\n✗ 这个菜又便宜又不好吃。\n✓ 这个菜很便宜，但是不好吃。\nHai ý ngược chiều (một tốt, một không tốt) thì dùng 但是 / 但, không dùng 又……又…….\n✗ 又她聪明又她可爱。\n✓ 她又聪明又可爱。\nChủ ngữ chỉ nói một lần, đứng trước 又 đầu tiên.",
+        "compare_vi":"Dùng y như “vừa… vừa…” trong tiếng Việt: 又便宜又好吃 = vừa rẻ vừa ngon."
+      },
+      {
+        "id":"g2",
+        "title":"Hai động tác đi kèm nhau “V1着(O1) + V2(O2)”",
+        "pattern":"S + V1 + 着 (+ O1) + V2 (+ O2)",
+        "explanation_vi":"V1 + 着 cho biết người ta làm việc chính (V2) trong tư thế, trạng thái hay cách thức nào: 笑着说 (cười nói), 坐着看电视 (ngồi xem tivi), 站着工作 (đứng làm việc), 走着去 (đi bộ đến). V2 mới là việc chính, đứng sau. 着 phải đứng ngay sau động từ thứ nhất.",
+        "examples":[
+          {"zh":"她总是笑着跟客人说话。","pinyin":"Tā zǒngshì xiàozhe gēn kèrén shuōhuà.","vi":"Cô ấy luôn cười khi nói chuyện với khách."},
+          {"zh":"爷爷喜欢坐着看电视。","pinyin":"Yéye xǐhuan zuòzhe kàn diànshì.","vi":"Ông nội thích ngồi xem tivi."},
+          {"zh":"饭馆不远，我们走着去吧。","pinyin":"Fànguǎn bù yuǎn, wǒmen zǒuzhe qù ba.","vi":"Quán ăn không xa, chúng mình đi bộ đến nhé."},
+          {"zh":"服务员站着给我们介绍菜。","pinyin":"Fúwùyuán zhànzhe gěi wǒmen jièshào cài.","vi":"Cô phục vụ đứng giới thiệu món ăn cho chúng tôi."}
+        ],
+        "mistakes_vi":"✗ 爷爷坐看电视。\n✓ 爷爷坐着看电视。\nTiếng Việt nói “ngồi xem tivi”, hai động từ đứng liền nhau, nên người Việt hay quên 着.\n✗ 她笑跟客人说话着。\n✓ 她笑着跟客人说话。\n着 đứng ngay sau động từ thứ nhất, không đặt ở cuối câu.\n✗ 爷爷看着电视坐。\n✓ 爷爷坐着看电视。\nV1着 là tư thế, cách làm; việc chính (看电视) đứng sau.",
+        "compare_vi":"Tiếng Việt: “cười nói”, “ngồi xem”, “đứng làm việc” — chỉ cần đặt hai động từ cạnh nhau. Tiếng Trung phải có 着 sau động từ thứ nhất."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Cô phục vụ lúc nào cũng tươi cười",
+      "scene_vi": "Tối thứ Sáu, Tiểu Vương đưa Tiểu Lý đến một quán ăn nhỏ gần trường. Một cô phục vụ ra đón. Cuối bữa, Tiểu Lý nói cảm nghĩ của mình.",
+      "lines": [
+        {"speaker":"服务员","zh":"您好！请问几位？","pinyin":"Nín hǎo! Qǐngwèn jǐ wèi?","vi":"Xin chào! Xin hỏi mấy người ạ?"},
+        {"speaker":"小王","zh":"两位。那边很安静，我们坐那儿，可以吗？","pinyin":"Liǎng wèi. Nàbiān hěn ānjìng, wǒmen zuò nàr, kěyǐ ma?","vi":"Hai người. Bên kia yên tĩnh, chúng tôi ngồi đó được không?"},
+        {"speaker":"服务员","zh":"可以，请坐。这是菜单，你们慢慢看。","pinyin":"Kěyǐ, qǐng zuò. Zhè shì càidān, nǐmen mànmàn kàn.","vi":"Được ạ, mời ngồi. Đây là thực đơn, anh chị cứ xem thong thả."},
+        {"speaker":"小李","zh":"这个饭馆挺不错的。你来过吗？","pinyin":"Zhège fànguǎn tǐng búcuò de. Nǐ lái guo ma?","vi":"Quán này được đấy. Cậu đến đây bao giờ chưa?"},
+        {"speaker":"小王","zh":"来过很多次了。这儿的菜又便宜又好吃。你看那个女孩儿，她总是笑着跟客人说话，对客人特别热情。","pinyin":"Lái guo hěn duō cì le. Zhèr de cài yòu piányi yòu hǎochī. Nǐ kàn nàge nǚháir, tā zǒngshì xiàozhe gēn kèrén shuōhuà, duì kèrén tèbié rèqíng.","vi":"Đến nhiều lần rồi. Món ở đây vừa rẻ vừa ngon. Cậu xem cô gái kia, lúc nào cũng cười khi nói chuyện với khách, niềm nở với khách lắm."},
+        {"speaker":"小李","zh":"是啊，她又年轻又可爱，而且很认真。你看，她正站着给那位女士介绍菜呢。","pinyin":"Shì a, tā yòu niánqīng yòu kě'ài, érqiě hěn rènzhēn. Nǐ kàn, tā zhèng zhànzhe gěi nà wèi nǚshì jièshào cài ne.","vi":"Ừ, cô ấy vừa trẻ vừa dễ thương, lại còn rất chu đáo. Cậu xem, cô ấy đang đứng giới thiệu món cho vị khách nữ kia kìa."},
+        {"speaker":"服务员","zh":"不好意思，让你们等了。想吃点儿什么？","pinyin":"Bù hǎoyìsi, ràng nǐmen děng le. Xiǎng chī diǎnr shénme?","vi":"Xin lỗi đã để anh chị phải đợi. Anh chị muốn ăn gì ạ?"},
+        {"speaker":"小王","zh":"我们要这个鱼和这个羊肉，再来两杯奶茶。请问，洗手间在哪儿？","pinyin":"Wǒmen yào zhège yú hé zhège yángròu, zài lái liǎng bēi nǎichá. Qǐngwèn, xǐshǒujiān zài nǎr?","vi":"Cho chúng tôi món cá này và món thịt dê này, thêm hai cốc trà sữa. Cho hỏi nhà vệ sinh ở đâu?"},
+        {"speaker":"服务员","zh":"洗手间在那边，往前走，在左边。你们的菜马上就好！","pinyin":"Xǐshǒujiān zài nàbiān, wǎng qián zǒu, zài zuǒbian. Nǐmen de cài mǎshàng jiù hǎo!","vi":"Nhà vệ sinh ở bên kia, đi thẳng về phía trước, ở bên trái. Món của anh chị có ngay ạ!"},
+        {"speaker":"小李","zh":"菜好吃，服务也很好，我非常满意！下次咱们还来这儿吧。","pinyin":"Cài hǎochī, fúwù yě hěn hǎo, wǒ fēicháng mǎnyì! Xià cì zánmen hái lái zhèr ba.","vi":"Món ngon, phục vụ cũng tốt, mình rất hài lòng! Lần sau chúng mình lại đến đây nhé."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:客人","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"饭馆里有很多____，服务员都很忙。","options":["客人","菜单","位","洗手间"],"answer":0,"explanation_vi":"Quán đông 客人 (khách) nên nhân viên phục vụ đều bận."},
+      {"id":"e2","type":"choice","tag":"v:热情","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这儿的服务员对客人很____。","options":["热情","安静","年轻","聪明"],"answer":0,"explanation_vi":"对客人很热情 = niềm nở với khách. Các tính từ khác không đi với 对客人."},
+      {"id":"e3","type":"choice","tag":"v:满意","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"客人对这儿的菜很____。","options":["满意","年轻","可爱","安静"],"answer":0,"explanation_vi":"Mẫu A 对 B 很满意 = A hài lòng với B."},
+      {"id":"e4","type":"choice","tag":"v:总是","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"她____笑着跟客人说话。","options":["总是","几乎","但","而且"],"answer":0,"explanation_vi":"总是 = lúc nào cũng, đứng trước động từ. 几乎 cần đi với 都/每天…; 但 và 而且 là liên từ nối hai vế."},
+      {"id":"e5","type":"choice","tag":"v:位","prompt_vi":"Chọn lượng từ thích hợp.","question_zh":"请问，您几____？","options":["位","张","只","层"],"answer":0,"explanation_vi":"位 là lượng từ lịch sự cho người: 几位？ = mấy vị (mấy người) ạ?"},
+      {"id":"e6","type":"choice","tag":"g:又又","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个饭馆的菜又便宜____好吃。","options":["又","也","还","都"],"answer":0,"explanation_vi":"Cấu trúc 又……又……: 又便宜又好吃 = vừa rẻ vừa ngon."},
+      {"id":"e7","type":"choice","tag":"g:又又","prompt_vi":"Chọn câu đúng với nghĩa: “Cô ấy vừa trẻ vừa nhiệt tình.”","question_zh":"Cô ấy vừa trẻ vừa nhiệt tình.","options":["她又年轻又热情。","她很又年轻又热情。","她又年轻，热情。","又她年轻又她热情。"],"answer":0,"explanation_vi":"Chủ ngữ + 又 + tính từ 1 + 又 + tính từ 2; không thêm 很 trước 又."},
+      {"id":"e8","type":"choice","tag":"g:伴随","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"爷爷喜欢坐____看电视。","options":["着","了","过","的"],"answer":0,"explanation_vi":"坐着看电视 = ngồi xem tivi: V1着 chỉ tư thế khi làm việc chính."},
+      {"id":"e9","type":"choice","tag":"g:伴随","prompt_vi":"Chọn câu đúng với nghĩa: “Cô ấy luôn cười khi nói chuyện với khách.”","question_zh":"Cô ấy luôn cười khi nói chuyện với khách.","options":["她总是笑着跟客人说话。","她总是笑跟客人说话着。","她总是跟客人说话笑着。","她总是笑了跟客人说话。"],"answer":0,"explanation_vi":"着 đứng ngay sau động từ thứ nhất 笑; việc chính 跟客人说话 đứng sau."},
+      {"id":"e10","type":"order","tag":"g:伴随","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["她","笑着","跟","客人","说话"],"answers":["她笑着跟客人说话","她跟客人笑着说话"],"translation_vi":"Cô ấy cười nói chuyện với khách.","explanation_vi":"笑着 (cách thức) đứng trước việc chính 说话; 跟客人 có thể đứng trước hoặc sau 笑着."},
+      {"id":"e11","type":"order","tag":"g:又又","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个","饭馆","又","便宜","又","好吃"],"answers":["这个饭馆又便宜又好吃","这个饭馆又好吃又便宜"],"translation_vi":"Quán ăn này vừa rẻ vừa ngon.","explanation_vi":"Chủ ngữ 这个饭馆 + 又 A 又 B."},
+      {"id":"e12","type":"order","tag":"v:不但","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["她","不但","很聪明","而且","很认真"],"answers":["她不但很聪明而且很认真","她不但很认真而且很聪明"],"translation_vi":"Cô ấy không những thông minh mà còn chăm chỉ.","explanation_vi":"不但……而且…… = không những… mà còn…; chủ ngữ đứng trước 不但."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"客人","vi":"khách"},{"zh":"热情","vi":"nhiệt tình"},{"zh":"聪明","vi":"thông minh"},{"zh":"可爱","vi":"đáng yêu"},{"zh":"认真","vi":"chăm chỉ, nghiêm túc"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"安静","vi":"yên tĩnh"},{"zh":"年轻","vi":"trẻ"},{"zh":"关心","vi":"quan tâm"},{"zh":"满意","vi":"hài lòng"},{"zh":"饭馆","vi":"quán ăn"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:又又","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天____冷又下雨，咱们别出去了。","options":["又","很","也","都"],"answer":0,"explanation_vi":"又冷又下雨 = vừa lạnh vừa mưa: hai ý cùng không tốt."},
+        {"id":"q2","type":"choice","tag":"g:又又","prompt_vi":"Chọn câu đúng.","question_zh":"Món này vừa rẻ vừa ngon.","options":["这个菜又便宜又好吃。","这个菜很又便宜又好吃。","这个菜又便宜好吃又。","这个菜便宜又又好吃。"],"answer":0,"explanation_vi":"又 + 便宜 + 又 + 好吃; không thêm 很 trước 又."},
+        {"id":"q3","type":"choice","tag":"g:又又","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"孩子们又说____笑，非常开心。","options":["又","也","就","还"],"answer":0,"explanation_vi":"又说又笑 = vừa nói vừa cười: 又……又…… cũng nối được hai động từ."},
+        {"id":"q4","type":"choice","tag":"g:伴随","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"饭馆不远，我们走____去吧。","options":["着","了","过","得"],"answer":0,"explanation_vi":"走着去 = đi bộ đến: 走着 là cách thức, 去 là việc chính."},
+        {"id":"q5","type":"choice","tag":"g:伴随","prompt_vi":"Chọn câu đúng với nghĩa: “Ông nội thích ngồi xem tivi.”","question_zh":"Ông nội thích ngồi xem tivi.","options":["爷爷喜欢坐着看电视。","爷爷喜欢坐看电视。","爷爷喜欢看着电视坐。","爷爷喜欢坐看着电视。"],"answer":0,"explanation_vi":"V1着 (坐着) + V2 (看电视). Không được bỏ 着, cũng không đặt 着 sau động từ thứ hai."},
+        {"id":"q6","type":"choice","tag":"g:伴随","prompt_vi":"Trong câu dưới đây, việc chính cô phục vụ làm là gì?","question_zh":"服务员站着给我们介绍菜。","options":["Giới thiệu món ăn","Đứng","Ngồi","Ăn cơm"],"answer":0,"explanation_vi":"V1着 (站着) chỉ tư thế; việc chính là V2: 给我们介绍菜 (giới thiệu món ăn cho chúng tôi)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:安静","prompt_vi":"Chọn đáp án đúng.","question_zh":"这儿人很少，很____。","options":["安静","热情","聪明","可爱"],"answer":0,"explanation_vi":"Ít người thì yên tĩnh: 很安静."},
+      {"id":"t2","type":"choice","tag":"g:伴随","prompt_vi":"Chọn đáp án đúng.","question_zh":"她总是____跟客人说话。","options":["笑着","笑了","笑过","笑得"],"answer":0,"explanation_vi":"笑着 + 跟客人说话: V1着 chỉ cách thức khi làm việc chính."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"但","vi":"nhưng"},{"zh":"而且","vi":"hơn nữa"},{"zh":"几乎","vi":"hầu như"},{"zh":"挺","vi":"khá"},{"zh":"有的","vi":"một số"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"菜单","vi":"thực đơn"},{"zh":"洗手间","vi":"nhà vệ sinh"},{"zh":"女士","vi":"quý bà"},{"zh":"个子","vi":"vóc người"},{"zh":"不好意思","vi":"ngại quá, xin lỗi"}]},
+      {"id":"t5","type":"order","tag":"v:关心","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["妈妈","总是","很","关心","我"],"answers":["妈妈总是很关心我"],"translation_vi":"Mẹ lúc nào cũng rất quan tâm đến tôi.","explanation_vi":"总是 + 很 + 关心 + người được quan tâm."},
+      {"id":"t6","type":"order","tag":"g:又又","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["她","又","年轻","又","热情"],"answers":["她又年轻又热情","她又热情又年轻"],"translation_vi":"Cô ấy vừa trẻ vừa nhiệt tình.","explanation_vi":"Chủ ngữ + 又 A + 又 B."},
+      {"id":"t7","type":"fill","tag":"v:满意","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"客人对这儿的服务很____。","answers":["满意"],"hint_vi":"hài lòng","explanation_vi":"A 对 B 很满意 = A hài lòng với B."},
+      {"id":"t8","type":"fill","tag":"g:伴随","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"饭馆很近，我们走____去吧。","answers":["着"],"hint_vi":"trợ từ đứng sau động từ thứ nhất","explanation_vi":"走着去 = đi bộ đến."},
+      {"id":"t9","type":"listen_choice","tag":"v:年轻","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我们的经理又年轻又热情。","options":["Giám đốc của chúng tôi vừa trẻ vừa nhiệt tình.","Giám đốc của chúng tôi không còn trẻ nữa.","Giám đốc của chúng tôi rất nghiêm khắc.","Chúng tôi không có giám đốc."],"answer":0,"explanation_vi":"又年轻又热情 = vừa trẻ vừa nhiệt tình."},
+      {"id":"t10","type":"listen_choice","tag":"g:伴随","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"服务员站着给我们介绍菜。","options":["服务员站着给我们介绍菜。","服务员坐着跟我们说话。","服务员给我们介绍了很多菜。","服务员笑着说：“不好意思。”"],"answer":0,"explanation_vi":"Câu nghe được: Cô phục vụ đứng giới thiệu món ăn cho chúng tôi."},
+      {"id":"t11","type":"dictation","tag":"g:伴随","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"她总是笑着跟客人说话。","answers":["她总是笑着跟客人说话"],"explanation_vi":"她总是笑着跟客人说话 = Cô ấy luôn cười khi nói chuyện với khách."},
+      {"id":"t12","type":"dictation","tag":"v:不错","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这个饭馆的菜很不错。","answers":["这个饭馆的菜很不错"],"explanation_vi":"这个饭馆的菜很不错 = Món ăn của quán này rất được."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:又又","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Món ăn ở quán này vừa rẻ vừa ngon.","answers":["这个饭馆的菜又便宜又好吃","这个饭馆的菜又好吃又便宜","这家饭馆的菜又便宜又好吃","这家饭馆的菜又好吃又便宜","这儿的菜又便宜又好吃","这儿的菜又好吃又便宜"],"explanation_vi":"Chủ ngữ (这个饭馆的菜) + 又便宜又好吃."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:伴随","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Ông nội thích ngồi xem tivi.","answers":["爷爷喜欢坐着看电视","爷爷很喜欢坐着看电视","爷爷最喜欢坐着看电视"],"explanation_vi":"坐着 (tư thế) + 看电视 (việc chính); không bỏ 着."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:关心","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"她很关心别人。","answers_vi":["Cô ấy rất quan tâm đến người khác.","Cô ấy rất quan tâm người khác."],"keywords":[["cô ấy","chị ấy","bà ấy","em ấy","cô ta","bạn ấy","nó"],["quan tâm","lo cho","để ý"],["người khác","mọi người","người ta"]],"explanation_vi":"关心 = quan tâm; 别人 = người khác."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:又又","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这个女孩儿又聪明又可爱。","answers_vi":["Cô bé này vừa thông minh vừa đáng yêu.","Cô gái này vừa thông minh vừa dễ thương."],"keywords":[["cô bé","cô gái","bé gái","con bé","em gái","cô"],["vừa","và","lại"],["thông minh","sáng dạ"],["đáng yêu","dễ thương","dễ mến","xinh"]],"explanation_vi":"又聪明又可爱 = vừa thông minh vừa đáng yêu; 女孩儿 = cô bé, cô gái."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"饭馆里的小红",
+        "title_vi":"Tiểu Hồng ở quán ăn",
+        "paragraphs":[
+          {
+            "tokens":[["小红","Xiǎo Hóng","Tiểu Hồng (tên người)"],["是","shì","là"],["一","yì","một"],["家","jiā","(lượng từ cho quán, cửa hàng)"],["饭馆","fànguǎn","quán ăn"],["的","de","của"],["服务员","fúwùyuán","nhân viên phục vụ"],["。"],["她","tā","cô ấy"],["今年","jīnnián","năm nay"],["二十","èrshí","hai mươi"],["岁","suì","tuổi"],["，"],["个子","gèzi","vóc người"],["不","bù","không"],["高","gāo","cao"],["，"],["又","yòu","vừa"],["聪明","cōngming","thông minh"],["又","yòu","vừa"],["可爱","kě'ài","đáng yêu"],["。"],["她","tā","cô ấy"],["每天","měi tiān","mỗi ngày"],["要","yào","phải"],["站着","zhànzhe","đứng"],["工作","gōngzuò","làm việc"],["八","bā","tám"],["个","ge","(lượng từ)"],["小时","xiǎoshí","tiếng đồng hồ"],["。"]],
+            "vi":"Tiểu Hồng là nhân viên phục vụ của một quán ăn. Năm nay cô hai mươi tuổi, người không cao, vừa thông minh vừa dễ thương. Mỗi ngày cô phải đứng làm việc tám tiếng."
+          },
+          {
+            "tokens":[["小红","Xiǎo Hóng","Tiểu Hồng"],["工作","gōngzuò","làm việc"],["很","hěn","rất"],["认真","rènzhēn","chăm chỉ, cẩn thận"],["，"],["总是","zǒngshì","luôn"],["笑着","xiàozhe","cười"],["跟","gēn","với"],["客人","kèrén","khách"],["说话","shuōhuà","nói chuyện"],["。"],["有的","yǒude","có (người)"],["客人","kèrén","khách"],["不","bù","không"],["知道","zhīdao","biết"],["吃","chī","ăn"],["什么","shénme","gì"],["，"],["她","tā","cô ấy"],["就","jiù","liền"],["站着","zhànzhe","đứng"],["给","gěi","cho"],["他们","tāmen","họ"],["介绍","jièshào","giới thiệu"],["菜","cài","món ăn"],["。"],["客人","kèrén","khách"],["有","yǒu","có"],["问题","wèntí","vấn đề, câu hỏi"],["，"],["她","tā","cô ấy"],["都","dōu","đều"],["热情","rèqíng","nhiệt tình"],["地","de","(trợ từ)"],["帮助","bāngzhù","giúp đỡ"],["他们","tāmen","họ"],["。"]],
+            "vi":"Tiểu Hồng làm việc rất chăm chỉ, lúc nào cũng cười khi nói chuyện với khách. Có khách không biết ăn gì, cô liền đứng giới thiệu món cho họ. Khách có thắc mắc gì, cô đều nhiệt tình giúp đỡ."
+          },
+          {
+            "tokens":[["小红","Xiǎo Hóng","Tiểu Hồng"],["也","yě","cũng"],["很","hěn","rất"],["关心","guānxīn","quan tâm"],["别人","biérén","người khác"],["。"],["饭馆","fànguǎn","quán ăn"],["里","li","trong"],["的","de","(trợ từ)"],["服务员","fúwùyuán","nhân viên phục vụ"],["几乎","jīhū","hầu như"],["都","dōu","đều"],["比","bǐ","so với, hơn"],["她","tā","cô ấy"],["大","dà","lớn (tuổi)"],["，"],["但","dàn","nhưng"],["大家","dàjiā","mọi người"],["都","dōu","đều"],["喜欢","xǐhuan","thích"],["她","tā","cô ấy"],["。"],["经理","jīnglǐ","quản lý"],["说","shuō","nói"],["："],["“"],["小红","Xiǎo Hóng","Tiểu Hồng"],["不但","búdàn","không những"],["工作","gōngzuò","làm việc"],["认真","rènzhēn","chăm chỉ"],["，"],["而且","érqiě","mà còn"],["总是","zǒngshì","luôn"],["关心","guānxīn","quan tâm"],["别人","biérén","người khác"],["。"],["客人们","kèrénmen","các vị khách"],["都","dōu","đều"],["对","duì","đối với"],["她","tā","cô ấy"],["很","hěn","rất"],["满意","mǎnyì","hài lòng"],["。"],["”"]],
+            "vi":"Tiểu Hồng cũng rất quan tâm đến người khác. Nhân viên trong quán hầu như ai cũng lớn tuổi hơn cô, nhưng mọi người đều quý cô. Quản lý nói: “Tiểu Hồng không những làm việc chăm chỉ mà còn luôn quan tâm người khác. Khách ai cũng hài lòng về cô ấy.”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小红今年多大？","options":["二十岁","十八岁","二十五岁","十二岁"],"answer":0,"explanation_vi":"Đoạn 1: 她今年二十岁."},
+          {"id":"rq2","type":"choice","tag":"g:伴随","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"有的客人不知道吃什么，小红怎么做？","options":["站着给他们介绍菜","让他们看菜单","去叫经理","坐着跟他们说话"],"answer":0,"explanation_vi":"Đoạn 2: 她就站着给他们介绍菜."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"经理觉得小红怎么样？","options":["工作认真，也关心别人","个子很高","不太热情","比别的服务员大"],"answer":0,"explanation_vi":"Đoạn 3: 小红不但工作认真，而且总是关心别人."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"饭馆里的服务员都比小红年轻。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 服务员几乎都比她大 — họ lớn tuổi hơn cô, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"v:满意","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"客人们对小红很满意。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 客人们都对她很满意."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Em gái tôi",
+        "text_zh":"我妹妹今年十八岁，又聪明又可爱。她个子挺高的，很喜欢运动。周末她在一家饭馆工作。她总是笑着跟客人说话，客人们都很喜欢她。有一次，一位女士不知道洗手间在哪儿，妹妹就笑着告诉她：“洗手间在楼上，您坐电梯上去吧。”那位女士很满意。经理说，我妹妹工作又快又认真。",
+        "pinyin":"Wǒ mèimei jīnnián shíbā suì, yòu cōngming yòu kě'ài. Tā gèzi tǐng gāo de, hěn xǐhuan yùndòng. Zhōumò tā zài yì jiā fànguǎn gōngzuò. Tā zǒngshì xiàozhe gēn kèrén shuōhuà, kèrénmen dōu hěn xǐhuan tā. Yǒu yí cì, yí wèi nǚshì bù zhīdao xǐshǒujiān zài nǎr, mèimei jiù xiàozhe gàosu tā: “Xǐshǒujiān zài lóushàng, nín zuò diàntī shàngqù ba.” Nà wèi nǚshì hěn mǎnyì. Jīnglǐ shuō, wǒ mèimei gōngzuò yòu kuài yòu rènzhēn.",
+        "vi":"Em gái tôi năm nay mười tám tuổi, vừa thông minh vừa dễ thương. Em ấy khá cao, rất thích thể thao. Cuối tuần em làm ở một quán ăn. Em lúc nào cũng cười khi nói chuyện với khách, khách ai cũng quý em. Có lần, một vị khách nữ không biết nhà vệ sinh ở đâu, em tôi liền cười chỉ cho cô ấy: “Nhà vệ sinh ở trên lầu, cô đi thang máy lên nhé.” Vị khách ấy rất hài lòng. Quản lý nói em tôi làm việc vừa nhanh vừa cẩn thận.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"妹妹今年多大？","options":["十八岁","二十岁","十六岁","十九岁"],"answer":0,"explanation_vi":"Nghe được: 我妹妹今年十八岁."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"妹妹周末在哪儿工作？","options":["饭馆","学校","公司","超市"],"answer":0,"explanation_vi":"Nghe được: 周末她在一家饭馆工作."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"洗手间在哪儿？","options":["楼上","楼下","左边","前面"],"answer":0,"explanation_vi":"Nghe được: 洗手间在楼上，您坐电梯上去吧."},
+          {"id":"lq4","type":"choice","tag":"g:又又","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"经理觉得妹妹工作怎么样？","options":["又快又认真","又慢又不认真","很热情，但是很慢","不太认真"],"answer":0,"explanation_vi":"Nghe được: 我妹妹工作又快又认真."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"客人","pinyin":"kèrén","vi":"khách","tip_vi":"客 kè: k bật hơi mạnh, nguyên âm e đọc gần “ơ” lùi về sau, đừng đọc “khách”. 人 rén: r uốn đầu lưỡi lên (gần “r” nhẹ), không đọc thành “dân” hay “nhân”."},
+      {"id":"s2","zh":"热情","pinyin":"rèqíng","vi":"nhiệt tình","tip_vi":"热 rè: r uốn lưỡi, đừng đọc thành “dê/giê”. 情 qíng: q bật hơi (như “ch” có hơi, môi dẹt), vần -ing kết thúc ở cuống lưỡi, đừng đọc “tình”."},
+      {"id":"s3","zh":"聪明","pinyin":"cōngming","vi":"thông minh","tip_vi":"聪 cōng: c là âm “ts” bật hơi, đầu lưỡi sau răng dưới — không phải “công” hay “chung”. 明 ming đọc nhẹ, ngắn."},
+      {"id":"s4","zh":"又便宜又好吃","pinyin":"yòu piányi yòu hǎochī","vi":"vừa rẻ vừa ngon","tip_vi":"便宜 piányi: p bật hơi, 宜 đọc nhẹ (đừng nhầm với 方便 fāngbiàn, chữ 便 ở đây đọc pián). 又 yòu thanh 4 rơi dứt khoát. 吃 chī: ch uốn lưỡi, bật hơi."},
+      {"id":"s5","zh":"她又年轻又热情。","pinyin":"Tā yòu niánqīng yòu rèqíng.","vi":"Cô ấy vừa trẻ vừa nhiệt tình.","tip_vi":"Luyện -n và -ng: 年 nián kết thúc ở đầu lưỡi, 轻 qīng và 情 qíng kết thúc ở cuống lưỡi. 轻 thanh 1 cao và bằng, 情 thanh 2 đi lên."},
+      {"id":"s6","zh":"爷爷喜欢坐着看电视。","pinyin":"Yéye xǐhuan zuòzhe kàn diànshì.","vi":"Ông nội thích ngồi xem tivi.","tip_vi":"爷爷 yéye, 喜欢 xǐhuan, 坐着 zuòzhe: chữ sau đều đọc nhẹ. 坐 zuò (z, không uốn lưỡi) khác 着 zhe (zh, uốn lưỡi). 视 shì: -i uốn lưỡi."},
+      {"id":"s7","zh":"她总是笑着跟客人说话。","pinyin":"Tā zǒngshì xiàozhe gēn kèrén shuōhuà.","vi":"Cô ấy luôn cười khi nói chuyện với khách.","tip_vi":"总 zǒng (z) và 是 shì (sh): một âm đầu lưỡi phẳng, một âm uốn lưỡi. 跟 gēn: -n đầu lưỡi, đừng đọc “canh”. 说话 shuōhuà: hai vần uo và ua tròn môi."},
+      {"id":"s8","zh":"这儿的服务员不但很热情，而且很认真。","pinyin":"Zhèr de fúwùyuán búdàn hěn rèqíng, érqiě hěn rènzhēn.","vi":"Nhân viên phục vụ ở đây không những rất niềm nở mà còn rất chu đáo.","tip_vi":"不但 búdàn: 不 đọc thanh 2 vì đứng trước thanh 4. 而 ér: cuốn lưỡi, đừng đọc “ơ”. 服务 fúwù: f môi răng. Ngắt hơi ở dấu phẩy, nhấn vào 不但 và 而且."}
+    ],
+    "review": {
+      "remember": [
+        "又 + A + 又 + B = vừa A vừa B; hai ý cùng chiều: 又便宜又好吃, 又冷又下雨. Không thêm 很 trước 又.",
+        "V1着 + V2: V1着 là tư thế, cách làm; V2 là việc chính: 笑着说话, 坐着看电视, 走着去.",
+        "Khen người: 热情 (niềm nở), 聪明 (thông minh), 可爱 (dễ thương), 认真 (chăm chỉ, cẩn thận), 年轻 (trẻ), 关心别人 (quan tâm người khác).",
+        "A 对 B 很满意 = A hài lòng với B; 不但……而且…… = không những… mà còn….",
+        "Ở quán ăn: 请问几位？(位 = lượng từ lịch sự cho người), 菜单, 洗手间在哪儿？, 不好意思，让您等了."
+      ],
+      "mistakes": [
+        "✗ 爷爷坐看电视 → ✓ 爷爷坐着看电视: phải có 着 ngay sau động từ thứ nhất.",
+        "✗ 她很又年轻又可爱 → ✓ 她又年轻又可爱: không đặt 很 trước 又.",
+        "✗ 这个菜又便宜又不好吃 → ✓ 这个菜很便宜，但是不好吃: 又……又…… chỉ nối hai ý cùng chiều."
+      ]
+    }
+  }
+}

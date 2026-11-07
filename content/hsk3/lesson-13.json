@@ -1,0 +1,211 @@
+{
+  "level": 3,
+  "number": 13,
+  "summary": "Nói về phương tiện đi lại và hỏi, chỉ đường; học bổ ngữ xu hướng kép (走回来、跑上楼去、开过去) và cấu trúc “一边……一边……” để nói làm hai việc cùng lúc.",
+  "readings_ok": ["里 li", "边 bian"],
+  "content": {
+    "objectives": [
+      "Nói mình đi lại bằng phương tiện gì: 坐地铁、坐公交车、骑自行车、开车、打车、走路",
+      "Kể đã đi về, đi lên, đi qua… bằng bổ ngữ xu hướng kép: 我是走回来的、他跑上楼去了",
+      "Nói một người làm hai việc cùng lúc bằng 一边……一边……",
+      "Hỏi và chỉ đường đơn giản: 路口、红绿灯、向东/南/西/北走、向右走"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"一边","pinyin":"yìbiān","pos":"phó từ","meaning_vi":"vừa … (vừa …); một bên","example_zh":"他一边吃饭一边看电视。","example_pinyin":"Tā yìbiān chī fàn yìbiān kàn diànshì.","example_vi":"Anh ấy vừa ăn cơm vừa xem ti vi.","note_vi":"Luôn đi thành cặp: 一边 V1 一边 V2 (xem ngữ pháp 2). 一 đọc yì vì đứng trước thanh 1."},
+      {"id":"v2","hanzi":"走路","pinyin":"zǒulù","pos":"động từ","meaning_vi":"đi bộ","example_zh":"我家离公司很近，我每天走路上班。","example_pinyin":"Wǒ jiā lí gōngsī hěn jìn, wǒ měi tiān zǒulù shàngbān.","example_vi":"Nhà tôi gần công ty, ngày nào tôi cũng đi bộ đi làm.","note_vi":"走 một mình đã có nghĩa “đi (bộ)”, “rời đi”; 走路 nhấn mạnh “đi bộ” (không dùng xe)."},
+      {"id":"v3","hanzi":"车","pinyin":"chē","pos":"danh từ","meaning_vi":"xe","example_zh":"今天路上的车很多。","example_pinyin":"Jīntiān lù shang de chē hěn duō.","example_vi":"Hôm nay trên đường nhiều xe.","hanviet":"XA","note_vi":"Nhiều từ ghép có 车: 汽车 (ô tô), 火车 (tàu hỏa), 自行车 (xe đạp), 公交车 (xe buýt), 出租车 (taxi), 车站 (bến xe). Lượng từ: 辆."},
+      {"id":"v4","hanzi":"开车","pinyin":"kāichē","pos":"động từ","meaning_vi":"lái xe","example_zh":"我爸爸开车送我去学校。","example_pinyin":"Wǒ bàba kāichē sòng wǒ qù xuéxiào.","example_vi":"Bố tôi lái xe đưa tôi đến trường.","note_vi":"开 ở đây là “lái”, không phải “mở”. 开车 là động từ li hợp: 开了两个小时的车 (lái xe hai tiếng)."},
+      {"id":"v5","hanzi":"打车","pinyin":"dǎchē","pos":"động từ","meaning_vi":"bắt taxi, gọi taxi","example_zh":"太晚了，我们打车回去吧。","example_pinyin":"Tài wǎn le, wǒmen dǎchē huíqu ba.","example_vi":"Muộn quá rồi, chúng mình bắt taxi về đi.","note_vi":"打车 = 坐出租车 (đi taxi), cách nói khẩu ngữ rất phổ biến. 打 ở đây không phải “đánh”."},
+      {"id":"v6","hanzi":"地铁","pinyin":"dìtiě","pos":"danh từ","meaning_vi":"tàu điện ngầm","example_zh":"坐地铁去机场很方便。","example_pinyin":"Zuò dìtiě qù jīchǎng hěn fāngbiàn.","example_vi":"Đi tàu điện ngầm ra sân bay rất tiện.","hanviet":"ĐỊA THIẾT","note_vi":"Ga tàu điện ngầm: 地铁站. Đi tàu: 坐地铁 (không nói 骑地铁)."},
+      {"id":"v7","hanzi":"公交车","pinyin":"gōngjiāochē","pos":"danh từ","meaning_vi":"xe buýt","example_zh":"我每天坐公交车上班。","example_pinyin":"Wǒ měi tiān zuò gōngjiāochē shàngbān.","example_vi":"Hằng ngày tôi đi xe buýt đi làm.","note_vi":"Nghĩa giống 公共汽车 (từ cũ hơn, trang trọng hơn). Bến xe buýt: 公交车站."},
+      {"id":"v8","hanzi":"车站","pinyin":"chēzhàn","pos":"danh từ","meaning_vi":"bến xe, nhà ga, trạm xe","example_zh":"车站在学校门口。","example_pinyin":"Chēzhàn zài xuéxiào ménkǒu.","example_vi":"Bến xe ở cổng trường.","hanviet":"XA TRẠM"},
+      {"id":"v9","hanzi":"火车","pinyin":"huǒchē","pos":"danh từ","meaning_vi":"tàu hỏa","example_zh":"我们坐火车去北京吧。","example_pinyin":"Wǒmen zuò huǒchē qù Běijīng ba.","example_vi":"Chúng mình đi tàu hỏa đến Bắc Kinh nhé.","hanviet":"HỎA XA"},
+      {"id":"v10","hanzi":"自行车","pinyin":"zìxíngchē","pos":"danh từ","meaning_vi":"xe đạp","example_zh":"我的自行车是新买的。","example_pinyin":"Wǒ de zìxíngchē shì xīn mǎi de.","example_vi":"Xe đạp của tôi mới mua.","hanviet":"TỰ HÀNH XA","note_vi":"“Đi xe đạp” là 骑自行车, không nói ✗ 坐自行车. Lượng từ: 辆."},
+      {"id":"v11","hanzi":"骑","pinyin":"qí","pos":"động từ","meaning_vi":"cưỡi; đi, đạp (xe hai bánh)","example_zh":"他每天骑自行车上班。","example_pinyin":"Tā měi tiān qí zìxíngchē shàngbān.","example_vi":"Ngày nào anh ấy cũng đạp xe đi làm.","hanviet":"KỴ","note_vi":"骑 dùng khi ngồi giạng chân: 骑自行车, 骑马 (cưỡi ngựa). Ngồi bên trong xe (ô tô, xe buýt, tàu) thì dùng 坐. q bật hơi mạnh."},
+      {"id":"v12","hanzi":"汽车","pinyin":"qìchē","pos":"danh từ","meaning_vi":"ô tô, xe hơi","example_zh":"马路上的汽车太多了。","example_pinyin":"Mǎlù shang de qìchē tài duō le.","example_vi":"Ô tô trên đường cái nhiều quá.","hanviet":"KHÍ XA","note_vi":"Giống “xe hơi” tiếng Việt (汽 = hơi). Ô tô riêng thường gọi là 车 hoặc 汽车; xe buýt là 公交车."},
+      {"id":"v13","hanzi":"过去","pinyin":"guòqu","pos":"động từ","meaning_vi":"đi qua, sang (phía bên kia, rời xa người nói)","example_zh":"你在那儿等我，我马上过去。","example_pinyin":"Nǐ zài nàr děng wǒ, wǒ mǎshàng guòqu.","example_vi":"Bạn đợi tôi ở đó, tôi sang ngay.","note_vi":"过去 = đi sang chỗ kia (xa người nói); “sang đây” là 过来 (bài 14). Đứng sau động từ: 走过去, 开过去 (đi qua, lái qua). Khi là danh từ “quá khứ, trước đây” thường đọc guòqù."},
+      {"id":"v14","hanzi":"方便","pinyin":"fāngbiàn","pos":"tính từ","meaning_vi":"tiện, thuận tiện","example_zh":"我家离地铁站很近，很方便。","example_pinyin":"Wǒ jiā lí dìtiě zhàn hěn jìn, hěn fāngbiàn.","example_vi":"Nhà tôi gần ga tàu điện ngầm, rất tiện.","hanviet":"PHƯƠNG TIỆN","note_vi":"Bẫy Hán Việt: 方便 là tính từ “tiện lợi”, KHÔNG phải “phương tiện” (xe cộ) của tiếng Việt. Ví dụ: 坐地铁很方便 = đi tàu điện ngầm rất tiện."},
+      {"id":"v15","hanzi":"安全","pinyin":"ānquán","pos":"tính từ","meaning_vi":"an toàn","example_zh":"晚上一个人走路不太安全。","example_pinyin":"Wǎnshang yí ge rén zǒulù bú tài ānquán.","example_vi":"Buổi tối đi bộ một mình không an toàn lắm.","hanviet":"AN TOÀN"},
+      {"id":"v16","hanzi":"路口","pinyin":"lùkǒu","pos":"danh từ","meaning_vi":"ngã tư, giao lộ, đầu đường","example_zh":"到前面的路口向左走。","example_pinyin":"Dào qiánmiàn de lùkǒu xiàng zuǒ zǒu.","example_vi":"Đến ngã tư phía trước thì rẽ trái.","note_vi":"路口 là chỗ các con đường gặp nhau (ngã ba, ngã tư); 门口 là trước cửa."},
+      {"id":"v17","hanzi":"地图","pinyin":"dìtú","pos":"danh từ","meaning_vi":"bản đồ","example_zh":"我不认识路，看看手机上的地图吧。","example_pinyin":"Wǒ bú rènshi lù, kànkan shǒujī shang de dìtú ba.","example_vi":"Tôi không biết đường, xem bản đồ trên điện thoại đi.","hanviet":"ĐỊA ĐỒ"}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"站","pinyin":"zhàn","pos":"danh từ / động từ","meaning_vi":"trạm, ga; đứng","example_zh":"坐地铁三站就到了。","example_pinyin":"Zuò dìtiě sān zhàn jiù dào le.","example_vi":"Đi tàu điện ngầm ba trạm là đến."},
+      {"id":"x2","hanzi":"路上","pinyin":"lùshang","pos":"danh từ","meaning_vi":"trên đường (đi)","example_zh":"路上小心！","example_pinyin":"Lùshang xiǎoxīn!","example_vi":"Đi đường cẩn thận nhé!"},
+      {"id":"x3","hanzi":"马路","pinyin":"mǎlù","pos":"danh từ","meaning_vi":"đường cái, đường phố","example_zh":"过马路的时候要看红绿灯。","example_pinyin":"Guò mǎlù de shíhou yào kàn hónglǜdēng.","example_vi":"Khi sang đường phải nhìn đèn giao thông."},
+      {"id":"x4","hanzi":"路边","pinyin":"lùbiān","pos":"danh từ","meaning_vi":"lề đường, bên đường","example_zh":"他在路边等出租车。","example_pinyin":"Tā zài lùbiān děng chūzūchē.","example_vi":"Anh ấy đứng bên đường đợi taxi."},
+      {"id":"x5","hanzi":"红绿灯","pinyin":"hónglǜdēng","pos":"danh từ","meaning_vi":"đèn giao thông, đèn xanh đèn đỏ","example_zh":"前面有一个红绿灯。","example_pinyin":"Qiánmiàn yǒu yí ge hónglǜdēng.","example_vi":"Phía trước có một cột đèn giao thông."},
+      {"id":"x6","hanzi":"经过","pinyin":"jīngguò","pos":"động từ","meaning_vi":"đi qua, ngang qua","example_zh":"去公司的路上，我会经过一个公园。","example_pinyin":"Qù gōngsī de lùshang, wǒ huì jīngguò yí ge gōngyuán.","example_vi":"Trên đường đến công ty, tôi đi ngang qua một công viên."},
+      {"id":"x7","hanzi":"向","pinyin":"xiàng","pos":"giới từ","meaning_vi":"về phía, hướng về","example_zh":"到了路口向右走。","example_pinyin":"Dào le lùkǒu xiàng yòu zǒu.","example_vi":"Đến ngã tư thì rẽ phải."},
+      {"id":"x8","hanzi":"方向","pinyin":"fāngxiàng","pos":"danh từ","meaning_vi":"phương hướng, hướng","example_zh":"我们走错方向了！","example_pinyin":"Wǒmen zǒu cuò fāngxiàng le!","example_vi":"Chúng ta đi nhầm hướng rồi!"},
+      {"id":"x9","hanzi":"东","pinyin":"dōng","pos":"từ chỉ phương hướng","meaning_vi":"đông, phía đông","example_zh":"我家在河的东边。","example_pinyin":"Wǒ jiā zài hé de dōngbian.","example_vi":"Nhà tôi ở phía đông con sông."},
+      {"id":"x10","hanzi":"南","pinyin":"nán","pos":"từ chỉ phương hướng","meaning_vi":"nam, phía nam","example_zh":"学校在我家南边。","example_pinyin":"Xuéxiào zài wǒ jiā nánbian.","example_vi":"Trường học ở phía nam nhà tôi."},
+      {"id":"x11","hanzi":"西","pinyin":"xī","pos":"từ chỉ phương hướng","meaning_vi":"tây, phía tây","example_zh":"火车站在我们学校的西边。","example_pinyin":"Huǒchē zhàn zài wǒmen xuéxiào de xībian.","example_vi":"Ga tàu hỏa ở phía tây trường chúng tôi."},
+      {"id":"x12","hanzi":"北","pinyin":"běi","pos":"từ chỉ phương hướng","meaning_vi":"bắc, phía bắc","example_zh":"一直向北走就到了。","example_pinyin":"Yìzhí xiàng běi zǒu jiù dào le.","example_vi":"Cứ đi thẳng về phía bắc là đến."},
+      {"id":"x13","hanzi":"司机","pinyin":"sījī","pos":"danh từ","meaning_vi":"tài xế, lái xe","example_zh":"出租车司机对这儿的路很清楚。","example_pinyin":"Chūzūchē sījī duì zhèr de lù hěn qīngchu.","example_vi":"Tài xế taxi rất rành đường ở đây."},
+      {"id":"x14","hanzi":"辆","pinyin":"liàng","pos":"lượng từ","meaning_vi":"chiếc (lượng từ cho xe)","example_zh":"门口有一辆汽车。","example_pinyin":"Ménkǒu yǒu yí liàng qìchē.","example_vi":"Trước cửa có một chiếc ô tô."},
+      {"id":"x15","hanzi":"高铁","pinyin":"gāotiě","pos":"danh từ","meaning_vi":"tàu cao tốc","example_zh":"坐高铁去北京，四个多小时就到了。","example_pinyin":"Zuò gāotiě qù Běijīng, sì ge duō xiǎoshí jiù dào le.","example_vi":"Đi tàu cao tốc đến Bắc Kinh, hơn bốn tiếng là tới."},
+      {"id":"x16","hanzi":"晚点","pinyin":"wǎndiǎn","pos":"động từ","meaning_vi":"(tàu, xe, máy bay) trễ giờ","example_zh":"火车晚点了一个小时。","example_pinyin":"Huǒchē wǎndiǎn le yí ge xiǎoshí.","example_vi":"Tàu hỏa trễ một tiếng."},
+      {"id":"x17","hanzi":"船","pinyin":"chuán","pos":"danh từ","meaning_vi":"thuyền, tàu thủy","example_zh":"河上有很多小船。","example_pinyin":"Hé shang yǒu hěn duō xiǎo chuán.","example_vi":"Trên sông có nhiều thuyền nhỏ."},
+      {"id":"x18","hanzi":"河","pinyin":"hé","pos":"danh từ","meaning_vi":"sông","example_zh":"我家旁边有一条河。","example_pinyin":"Wǒ jiā pángbiān yǒu yì tiáo hé.","example_vi":"Bên cạnh nhà tôi có một con sông."},
+      {"id":"x19","hanzi":"马","pinyin":"mǎ","pos":"danh từ","meaning_vi":"ngựa","example_zh":"你会骑马吗？","example_pinyin":"Nǐ huì qí mǎ ma?","example_vi":"Bạn biết cưỡi ngựa không?"}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Bổ ngữ xu hướng kép",
+        "pattern":"V + 上/下/进/出/回/过 + 来/去　·　V + 回/进/上/下 + nơi chốn + 来/去",
+        "explanation_vi":"Sau động từ chỉ cách di chuyển (走, 跑, 开, 骑…) có thể thêm hai phần. Phần thứ nhất cho biết hướng: 上 (lên), 下 (xuống), 进 (vào), 出 (ra), 回 (về), 过 (qua). Phần thứ hai cho biết hướng đó đi về phía người nói (来) hay rời xa người nói (去). Ví dụ: 走回来 (đi bộ về đây), 跑上去 (chạy lên đó), 开过去 (lái xe qua). Nếu có từ chỉ nơi chốn, nó đứng GIỮA hai phần: 走回家来, 跑上楼去, 走进教室来. Kể lại mình đã đi bằng cách nào thì dùng 是……的: 我是走回来的 (tôi đi bộ về), 我是骑自行车回来的.",
+        "examples":[
+          {"zh":"我是走回来的。","pinyin":"Wǒ shì zǒu huílai de.","vi":"Tôi đi bộ về."},
+          {"zh":"你看，公交车开过去了。","pinyin":"Nǐ kàn, gōngjiāochē kāi guòqu le.","vi":"Bạn xem, xe buýt chạy qua mất rồi."},
+          {"zh":"他跑上楼去了。","pinyin":"Tā pǎo shàng lóu qu le.","vi":"Anh ấy chạy lên lầu rồi."},
+          {"zh":"老师走进教室来了。","pinyin":"Lǎoshī zǒu jìn jiàoshì lai le.","vi":"Thầy giáo đi vào lớp rồi (người nói đang ở trong lớp)."}
+        ],
+        "mistakes_vi":"✗ 他走回来家了。\n✓ 他走回家来了。\nNơi chốn (家, 楼, 教室…) đứng giữa 回/上/进 và 来/去, không đứng cuối như tiếng Việt “đi bộ về nhà”.\n✗ 他进去了教室。\n✓ 他进教室去了。\nVới bổ ngữ xu hướng đơn cũng vậy: nơi chốn đứng trước 来/去.\n✗ (Mẹ ở trên lầu gọi con ở dưới) 你快上去吧！\n✓ 你快上来吧！\n来 là hướng về phía người nói, 去 là rời xa người nói. Tiếng Việt chỉ nói “lên”, nên hay quên chọn đúng 来/去.",
+        "compare_vi":"Tiếng Việt: “đi bộ về”, “chạy lên lầu”, “xe chạy qua”. Tiếng Trung thêm 来/去 để cho biết hướng so với chỗ người nói: 走回来, 跑上楼去, 开过去."
+      },
+      {
+        "id":"g2",
+        "title":"“一边……一边……”",
+        "pattern":"S + 一边 + V1 (+ O) + 一边 + V2 (+ O)",
+        "explanation_vi":"Dùng để nói một người làm hai việc cùng một lúc, giống “vừa … vừa …” trong tiếng Việt: 他一边开车一边听音乐 (anh ấy vừa lái xe vừa nghe nhạc). Chủ ngữ đứng trước 一边 thứ nhất; mỗi 一边 đứng trước một động từ. Sau 一边 là hành động kéo dài được (走路, 听, 看, 聊天儿…), không dùng với tính từ hay với 是, 有. Muốn nói “vừa nhanh vừa tiện” (hai tính chất) thì dùng 又……又……: 又快又方便.",
+        "examples":[
+          {"zh":"他一边开车一边听音乐。","pinyin":"Tā yìbiān kāichē yìbiān tīng yīnyuè.","vi":"Anh ấy vừa lái xe vừa nghe nhạc."},
+          {"zh":"我们一边走路一边聊天儿。","pinyin":"Wǒmen yìbiān zǒulù yìbiān liáotiānr.","vi":"Chúng tôi vừa đi bộ vừa trò chuyện."},
+          {"zh":"骑自行车的时候要注意安全，不要一边骑车一边看手机。","pinyin":"Qí zìxíngchē de shíhou yào zhùyì ānquán, búyào yìbiān qí chē yìbiān kàn shǒujī.","vi":"Khi đạp xe phải chú ý an toàn, đừng vừa đạp xe vừa xem điện thoại."},
+          {"zh":"我一边走一边看手机上的地图。","pinyin":"Wǒ yìbiān zǒu yìbiān kàn shǒujī shang de dìtú.","vi":"Tôi vừa đi vừa xem bản đồ trên điện thoại."}
+        ],
+        "mistakes_vi":"✗ 一边他开车，一边他听音乐。\n✓ 他一边开车一边听音乐。\nChủ ngữ đứng trước 一边 thứ nhất, không lặp lại.\n✗ 我一边吃饭，听音乐。\n✓ 我一边吃饭一边听音乐。\nPhải có đủ hai 一边, giống tiếng Việt phải có đủ hai chữ “vừa”.\n✗ 地铁一边快一边方便。\n✓ 地铁又快又方便。\nTiếng Việt nói “vừa nhanh vừa tiện”, nhưng với tính từ, tiếng Trung dùng 又……又……, không dùng 一边.",
+        "compare_vi":"一边……一边…… = “vừa … vừa …” cho hai hành động cùng lúc. 又……又…… = “vừa … vừa …” cho hai tính chất (又便宜又漂亮)."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Tôi đi bộ về đấy",
+      "scene_vi": "Mười giờ tối trời mưa to, Tiểu Lâm đi ăn ở một nhà hàng xa về. Bạn cùng phòng là Tiểu Cao lo lắng hỏi chuyện.",
+      "lines": [
+        {"speaker":"小高","zh":"你回来了！外面下那么大的雨，你是怎么回来的？","pinyin":"Nǐ huílai le! Wàimiàn xià nàme dà de yǔ, nǐ shì zěnme huílai de?","vi":"Bạn về rồi! Bên ngoài mưa to thế, bạn về bằng gì vậy?"},
+        {"speaker":"小林","zh":"我是走回来的。我想打车，可是路边一辆出租车也没有。","pinyin":"Wǒ shì zǒu huílai de. Wǒ xiǎng dǎchē, kěshì lùbiān yí liàng chūzūchē yě méiyǒu.","vi":"Mình đi bộ về. Mình định bắt taxi, nhưng bên đường chẳng có lấy một chiếc taxi nào."},
+        {"speaker":"小高","zh":"那你怎么不坐地铁？地铁又快又方便。","pinyin":"Nà nǐ zěnme bú zuò dìtiě? Dìtiě yòu kuài yòu fāngbiàn.","vi":"Thế sao bạn không đi tàu điện ngầm? Tàu điện ngầm vừa nhanh vừa tiện."},
+        {"speaker":"小林","zh":"饭馆附近没有地铁站。我在公交车站等了半个小时，车一直没来。","pinyin":"Fànguǎn fùjìn méiyǒu dìtiě zhàn. Wǒ zài gōngjiāochē zhàn děng le bàn ge xiǎoshí, chē yìzhí méi lái.","vi":"Gần nhà hàng không có ga tàu điện ngầm. Mình đợi ở bến xe buýt nửa tiếng mà xe mãi không đến."},
+        {"speaker":"小高","zh":"下雨天走路要注意安全！你给我打个电话，我可以开车过去接你啊。","pinyin":"Xià yǔ tiān zǒulù yào zhùyì ānquán! Nǐ gěi wǒ dǎ ge diànhuà, wǒ kěyǐ kāichē guòqu jiē nǐ a.","vi":"Trời mưa đi bộ phải chú ý an toàn chứ! Bạn gọi cho mình một cuộc, mình có thể lái xe qua đón bạn mà."},
+        {"speaker":"小林","zh":"没事，我一边走路一边听音乐，觉得挺好的。路上还经过一条小河，很漂亮。","pinyin":"Méi shì, wǒ yìbiān zǒulù yìbiān tīng yīnyuè, juéde tǐng hǎo de. Lùshang hái jīngguò yì tiáo xiǎo hé, hěn piàoliang.","vi":"Không sao, mình vừa đi bộ vừa nghe nhạc, thấy cũng hay. Trên đường còn đi ngang qua một con sông nhỏ, đẹp lắm."},
+        {"speaker":"小高","zh":"可是那条路有很多路口，你没走错吗？","pinyin":"Kěshì nà tiáo lù yǒu hěn duō lùkǒu, nǐ méi zǒu cuò ma?","vi":"Nhưng con đường đó có nhiều ngã tư lắm, bạn không đi nhầm à?"},
+        {"speaker":"小林","zh":"没有，我一边走一边看手机上的地图，走了四十多分钟就到家了。","pinyin":"Méiyǒu, wǒ yìbiān zǒu yìbiān kàn shǒujī shang de dìtú, zǒu le sìshí duō fēnzhōng jiù dào jiā le.","vi":"Không, mình vừa đi vừa xem bản đồ trên điện thoại, đi hơn bốn mươi phút là về đến nhà."},
+        {"speaker":"小高","zh":"你一个人走回来，我真不放心。下次一定给我打电话！","pinyin":"Nǐ yí ge rén zǒu huílai, wǒ zhēn bú fàngxīn. Xià cì yídìng gěi wǒ dǎ diànhuà!","vi":"Bạn đi bộ về một mình, mình thật không yên tâm. Lần sau nhất định phải gọi cho mình đấy!"},
+        {"speaker":"小林","zh":"好，谢谢你！我进房间去换一下衣服。","pinyin":"Hǎo, xièxie nǐ! Wǒ jìn fángjiān qu huàn yíxià yīfu.","vi":"Được, cảm ơn bạn! Mình vào phòng thay quần áo đã."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:骑","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我每天____自行车上班。","options":["骑","坐","开","打"],"answer":0,"explanation_vi":"Xe đạp dùng động từ 骑: 骑自行车. Không nói 坐自行车."},
+      {"id":"e2","type":"choice","tag":"v:开车","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他是出租车司机，每天____十个小时。","options":["开车","骑","打车","安全"],"answer":0,"explanation_vi":"Tài xế taxi thì 开车 (lái xe). 打车 là người khách bắt taxi."},
+      {"id":"e3","type":"choice","tag":"v:方便","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我家离地铁站很近，坐地铁很____。","options":["方便","着急","有名","重要"],"answer":0,"explanation_vi":"Nhà gần ga nên đi tàu điện ngầm rất 方便 (tiện)."},
+      {"id":"e4","type":"choice","tag":"v:安全","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"下雨天开车不____，你慢一点儿。","options":["安全","有名","重要","聪明"],"answer":0,"explanation_vi":"Trời mưa lái xe 不安全 (không an toàn), nên phải đi chậm."},
+      {"id":"e5","type":"choice","tag":"v:地图","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我不认识路，看看手机上的____吧。","options":["地图","车站","路口","司机"],"answer":0,"explanation_vi":"Không biết đường thì xem 地图 (bản đồ)."},
+      {"id":"e6","type":"choice","tag":"g:复合趋向补语","prompt_vi":"Mẹ ở trên lầu gọi con ở dưới. Chọn từ thích hợp.","question_zh":"妈妈：你快上____吧，饭做好了！","options":["来","去","过","回"],"answer":0,"explanation_vi":"Mẹ (người nói) ở trên lầu, con đi lên về phía mẹ: 上来."},
+      {"id":"e7","type":"choice","tag":"g:复合趋向补语","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他走回家去了。","他走回去家了。","他走家回去了。","他回走家去了。"],"answer":0,"explanation_vi":"Nơi chốn 家 đứng giữa 回 và 去: 走回家去."},
+      {"id":"e8","type":"choice","tag":"g:复合趋向补语","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你看，那辆公交车开____了，我们等下一辆吧。","options":["过去","回来","进来","下来"],"answer":0,"explanation_vi":"Xe buýt chạy qua mất (rời xa người nói) nên phải đợi chuyến sau: 开过去."},
+      {"id":"e9","type":"choice","tag":"g:一边","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他一边吃饭，____看电视。","options":["一边","也","还","又"],"answer":0,"explanation_vi":"一边……一边…… luôn đi thành cặp."},
+      {"id":"e10","type":"choice","tag":"g:一边","prompt_vi":"Chọn câu đúng với nghĩa: “Bộ quần áo này vừa rẻ vừa đẹp.”","question_zh":"Bộ quần áo này vừa rẻ vừa đẹp.","options":["这件衣服又便宜又漂亮。","这件衣服一边便宜一边漂亮。","这件衣服一边便宜，漂亮。","这件衣服便宜一边漂亮一边。"],"answer":0,"explanation_vi":"便宜, 漂亮 là tính từ nên dùng 又……又……; 一边……一边…… chỉ dùng cho hành động."},
+      {"id":"e11","type":"order","tag":"g:复合趋向补语","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","是","走","回来","的"],"answers":["我是走回来的","是我走回来的"],"translation_vi":"Tôi đi bộ về.","explanation_vi":"是 + cách đi (走) + 回来 + 的: nhấn mạnh cách đi lại. (是我走回来的 = Chính tôi đi bộ về, cũng đúng.)"},
+      {"id":"e12","type":"order","tag":"g:一边","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","一边","走路","一边","聊天儿"],"answers":["我们一边走路一边聊天儿","我们一边聊天儿一边走路"],"translation_vi":"Chúng tôi vừa đi bộ vừa trò chuyện.","explanation_vi":"S + 一边 V1 + 一边 V2; hai hành động có thể đổi chỗ cho nhau."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"地铁","vi":"tàu điện ngầm"},{"zh":"公交车","vi":"xe buýt"},{"zh":"自行车","vi":"xe đạp"},{"zh":"火车","vi":"tàu hỏa"},{"zh":"汽车","vi":"ô tô"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"路口","vi":"ngã tư, giao lộ"},{"zh":"红绿灯","vi":"đèn giao thông"},{"zh":"司机","vi":"tài xế"},{"zh":"马路","vi":"đường cái"},{"zh":"方向","vi":"phương hướng"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:复合趋向补语","prompt_vi":"Chúng ta đang ngồi trong lớp. Chọn từ thích hợp.","question_zh":"老师走进教室____了。","options":["来","去","回","过"],"answer":0,"explanation_vi":"Người nói ở trong lớp, thầy đi vào về phía người nói: 走进教室来."},
+        {"id":"q2","type":"choice","tag":"g:复合趋向补语","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他跑上楼去了。","他跑上去楼了。","他楼跑上去了。","他上跑楼去了。"],"answer":0,"explanation_vi":"Nơi chốn 楼 đứng giữa 上 và 去: 跑上楼去."},
+        {"id":"q3","type":"choice","tag":"g:复合趋向补语","prompt_vi":"Chọn từ đúng để câu có nghĩa “Tôi đi bộ về”.","question_zh":"我是____回来的。","options":["走","骑","开","坐"],"answer":0,"explanation_vi":"走回来 = đi bộ về. 是……的 nhấn mạnh cách đi."},
+        {"id":"q4","type":"choice","tag":"g:一边","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我常常一边做饭一边____音乐。","options":["听","看","说","写"],"answer":0,"explanation_vi":"听音乐 = nghe nhạc: vừa nấu cơm vừa nghe nhạc."},
+        {"id":"q5","type":"choice","tag":"g:一边","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他一边开车一边打电话。","一边他开车，一边他打电话。","他一边开车，打电话。","他开车一边打电话一边。"],"answer":0,"explanation_vi":"Chủ ngữ đứng trước; mỗi 一边 đứng trước một động từ."},
+        {"id":"q6","type":"choice","tag":"g:一边","prompt_vi":"Chọn cặp từ thích hợp điền vào chỗ trống.","question_zh":"坐地铁____快____方便。","options":["又……又……","一边……一边……","也……也……","还……还……"],"answer":0,"explanation_vi":"快, 方便 là tính từ nên dùng 又……又…… (vừa… vừa…)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:打车","prompt_vi":"Chọn đáp án đúng.","question_zh":"太晚了，没有公交车了，我们____回家吧。","options":["打车","地图","车站","方便"],"answer":0,"explanation_vi":"Hết xe buýt thì 打车 (bắt taxi) về nhà."},
+      {"id":"t2","type":"choice","tag":"g:一边","prompt_vi":"Chọn đáp án đúng.","question_zh":"他____开车一边听音乐。","options":["一边","又","也","还"],"answer":0,"explanation_vi":"一边……一边…… đi thành cặp."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"走路","vi":"đi bộ"},{"zh":"开车","vi":"lái xe"},{"zh":"打车","vi":"bắt taxi"},{"zh":"骑","vi":"đạp (xe), cưỡi"},{"zh":"车站","vi":"bến xe"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"东","vi":"phía đông"},{"zh":"南","vi":"phía nam"},{"zh":"西","vi":"phía tây"},{"zh":"北","vi":"phía bắc"},{"zh":"河","vi":"sông"}]},
+      {"id":"t5","type":"order","tag":"g:复合趋向补语","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","跑","上","楼","去","了"],"answers":["他跑上楼去了"],"translation_vi":"Anh ấy chạy lên lầu rồi.","explanation_vi":"V + 上 + nơi chốn + 去 + 了."},
+      {"id":"t6","type":"order","tag":"v:经过","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","路上","经过","一条","小河"],"answers":["我们路上经过一条小河","路上我们经过一条小河"],"translation_vi":"Trên đường chúng tôi đi ngang qua một con sông nhỏ.","explanation_vi":"路上 (trên đường) đứng trước động từ 经过, trước hoặc sau chủ ngữ."},
+      {"id":"t7","type":"fill","tag":"v:地铁","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"从这儿到机场，坐____最方便。","answers":["地铁"],"hint_vi":"tàu điện ngầm","explanation_vi":"坐地铁 = đi tàu điện ngầm."},
+      {"id":"t8","type":"fill","tag":"g:一边","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"她一边走路，____听音乐。","answers":["一边"],"hint_vi":"“vừa …” (vế thứ hai)","explanation_vi":"一边……一边…… luôn đi thành cặp."},
+      {"id":"t9","type":"listen_choice","tag":"v:公交车","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我每天坐公交车上班。","options":["Hằng ngày tôi đi xe buýt đi làm.","Hằng ngày tôi đi tàu điện ngầm đi làm.","Hằng ngày tôi lái xe đi làm.","Hằng ngày tôi đi bộ đi làm."],"answer":0,"explanation_vi":"坐公交车 = đi xe buýt; 上班 = đi làm."},
+      {"id":"t10","type":"listen_choice","tag":"g:复合趋向补语","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我是走回来的。","options":["Tôi đi bộ về.","Tôi đạp xe về.","Tôi bắt taxi về.","Tôi chưa về."],"answer":0,"explanation_vi":"走回来 = đi bộ về; 是……的 nhấn mạnh cách đi."},
+      {"id":"t11","type":"dictation","tag":"g:一边","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"他一边开车一边听音乐。","answers":["他一边开车一边听音乐"],"explanation_vi":"他一边开车一边听音乐 = Anh ấy vừa lái xe vừa nghe nhạc."},
+      {"id":"t12","type":"dictation","tag":"v:方便","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"坐地铁又快又方便。","answers":["坐地铁又快又方便"],"explanation_vi":"坐地铁又快又方便 = Đi tàu điện ngầm vừa nhanh vừa tiện."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:复合趋向补语","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Anh ấy chạy lên lầu rồi.","answers":["他跑上楼去了","他跑上楼了","他跑到楼上去了","他跑到楼上了","他跑上去了","他跑上楼来了"],"explanation_vi":"跑 + 上 + 楼 + 去 + 了: nơi chốn đứng giữa 上 và 去."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:一边","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Đừng vừa đạp xe vừa xem điện thoại.","answers":["不要一边骑自行车一边看手机","别一边骑自行车一边看手机","不要一边骑车一边看手机","别一边骑车一边看手机","你不要一边骑自行车一边看手机","你别一边骑自行车一边看手机","你不要一边骑车一边看手机","你别一边骑车一边看手机"],"explanation_vi":"不要/别 + 一边 V1 + 一边 V2."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:安全","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"下雨天开车不安全。","answers_vi":["Lái xe ngày mưa không an toàn.","Trời mưa lái xe không an toàn."],"keywords":[["mưa"],["lái xe","lái ô tô","chạy xe","lái"],["không an toàn","nguy hiểm"]],"explanation_vi":"下雨天 = ngày mưa; 开车 = lái xe; 不安全 = không an toàn."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:复合趋向补语","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"公交车开过去了。","answers_vi":["Xe buýt chạy qua mất rồi.","Xe buýt đã chạy qua rồi."],"keywords":[["xe buýt","buýt"],["qua"]],"explanation_vi":"开过去 = (xe) chạy qua, rời xa người nói."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"我的上班路",
+        "title_vi":"Con đường đi làm của tôi",
+        "paragraphs":[
+          {
+            "tokens":[["我家","wǒ jiā","nhà tôi"],["在","zài","ở"],["河","hé","sông"],["的","de","(của)"],["南边","nánbian","phía nam"],["，"],["公司","gōngsī","công ty"],["在","zài","ở"],["河","hé","sông"],["的","de","(của)"],["北边","běibian","phía bắc"],["。"],["我","wǒ","tôi"],["每天","měi tiān","mỗi ngày"],["骑","qí","đạp, đi (xe)"],["自行车","zìxíngchē","xe đạp"],["上班","shàngbān","đi làm"],["，"],["二十","èrshí","hai mươi"],["分钟","fēnzhōng","phút"],["就","jiù","là (đã)"],["到","dào","đến"],["了","le","(rồi)"],["。"]],
+            "vi":"Nhà tôi ở phía nam con sông, công ty ở phía bắc con sông. Ngày nào tôi cũng đạp xe đi làm, hai mươi phút là đến."
+          },
+          {
+            "tokens":[["骑","qí","đạp, đi (xe)"],["自行车","zìxíngchē","xe đạp"],["很","hěn","rất"],["方便","fāngbiàn","tiện"],["，"],["还","hái","còn"],["可以","kěyǐ","có thể"],["锻炼","duànliàn","rèn luyện"],["身体","shēntǐ","cơ thể, sức khỏe"],["。"],["我","wǒ","tôi"],["常常","chángcháng","thường"],["一边","yìbiān","vừa"],["骑","qí","đạp"],["车","chē","xe"],["一边","yìbiān","vừa"],["看","kàn","nhìn, ngắm"],["河","hé","sông"],["上","shang","trên"],["的","de","(trợ từ)"],["船","chuán","thuyền"],["。"],["过","guò","qua, sang"],["马路","mǎlù","đường cái"],["的时候","de shíhou","lúc, khi"],["，"],["我","wǒ","tôi"],["一定","yídìng","nhất định"],["会","huì","sẽ"],["注意","zhùyì","chú ý"],["红绿灯","hónglǜdēng","đèn giao thông"],["。"]],
+            "vi":"Đi xe đạp rất tiện, lại còn rèn luyện được sức khỏe. Tôi thường vừa đạp xe vừa ngắm thuyền trên sông. Lúc sang đường, tôi luôn chú ý đèn giao thông."
+          },
+          {
+            "tokens":[["我","wǒ","tôi"],["爸爸","bàba","bố"],["是","shì","là"],["司机","sījī","tài xế"],["，"],["他","tā","ông ấy"],["说","shuō","nói"],["开车","kāichē","lái xe"],["不一定","bù yídìng","chưa chắc"],["比","bǐ","so với"],["骑","qí","đạp"],["车","chē","xe"],["快","kuài","nhanh"],["，"],["因为","yīnwèi","vì"],["早上","zǎoshang","buổi sáng"],["马路","mǎlù","đường cái"],["上","shang","trên"],["的","de","(của)"],["汽车","qìchē","ô tô"],["太","tài","quá"],["多","duō","nhiều"],["了","le","(rồi)"],["。"],["有","yǒu","có"],["一天","yì tiān","một hôm"],["，"],["我","wǒ","tôi"],["的","de","(của)"],["自行车","zìxíngchē","xe đạp"],["坏","huài","hỏng"],["了","le","(rồi)"],["，"],["只能","zhǐ néng","chỉ có thể"],["坐","zuò","đi (xe)"],["公交车","gōngjiāochē","xe buýt"],["。"],["车","chē","xe"],["上","shang","trên"],["人","rén","người"],["很","hěn","rất"],["多","duō","nhiều"],["，"],["我","wǒ","tôi"],["站","zhàn","đứng"],["了","le","(đã)"],["半个小时","bàn ge xiǎoshí","nửa tiếng"],["才","cái","mới"],["到","dào","đến"],["公司","gōngsī","công ty"],["。"],["那天","nà tiān","hôm đó"],["我","wǒ","tôi"],["想","xiǎng","nghĩ"],["："],["还是","háishi","vẫn là… thì hơn"],["骑","qí","đạp"],["自行车","zìxíngchē","xe đạp"],["好","hǎo","tốt"],["！"]],
+            "vi":"Bố tôi là tài xế, bố nói lái xe chưa chắc đã nhanh hơn đạp xe, vì buổi sáng ô tô trên đường cái nhiều quá. Có một hôm, xe đạp của tôi bị hỏng, tôi chỉ có thể đi xe buýt. Trên xe rất đông người, tôi đứng nửa tiếng mới đến công ty. Hôm đó tôi nghĩ: vẫn là đạp xe thì hơn!"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"公司在河的哪边？","options":["北边","南边","东边","西边"],"answer":0,"explanation_vi":"Đoạn 1: 公司在河的北边."},
+          {"id":"rq2","type":"choice","tag":"v:自行车","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”每天怎么上班？","options":["骑自行车","开车","坐公交车","走路"],"answer":0,"explanation_vi":"Đoạn 1: 我每天骑自行车上班."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"爸爸为什么说开车不一定比骑车快？","options":["因为早上马路上的汽车太多了","因为他的汽车坏了","因为公司离家很近","因为他不会开车"],"answer":0,"explanation_vi":"Đoạn 3: 因为早上马路上的汽车太多了."},
+          {"id":"rq4","type":"choice","tag":"g:一边","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”常常一边骑车一边看河上的船。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 我常常一边骑车一边看河上的船 — câu này đúng."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"自行车坏了的那天，“我”二十分钟就到公司了。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 我站了半个小时才到公司 — hôm đó mất nửa tiếng mới đến, nên câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Tin nhắn thoại chỉ đường đến nhà bạn",
+        "text_zh":"小王，你坐高铁到了以后，可以坐地铁，也可以打车。我觉得坐地铁比较方便。地铁站在高铁站的东边，走过去五分钟就到了。你坐三站，下车以后向北走，到第一个路口向右走，再走五分钟就到我家了。我家楼下有一个很大的超市，很好找。高铁晚点了你就给我打电话，我开车过去接你。",
+        "pinyin":"Xiǎo Wáng, nǐ zuò gāotiě dào le yǐhòu, kěyǐ zuò dìtiě, yě kěyǐ dǎchē. Wǒ juéde zuò dìtiě bǐjiào fāngbiàn. Dìtiě zhàn zài gāotiě zhàn de dōngbian, zǒu guòqu wǔ fēnzhōng jiù dào le. Nǐ zuò sān zhàn, xià chē yǐhòu xiàng běi zǒu, dào dì yī ge lùkǒu xiàng yòu zǒu, zài zǒu wǔ fēnzhōng jiù dào wǒ jiā le. Wǒ jiā lóu xià yǒu yí ge hěn dà de chāoshì, hěn hǎo zhǎo. Gāotiě wǎndiǎn le nǐ jiù gěi wǒ dǎ diànhuà, wǒ kāichē guòqu jiē nǐ.",
+        "vi":"Tiểu Vương, sau khi bạn đi tàu cao tốc đến nơi, bạn có thể đi tàu điện ngầm, cũng có thể bắt taxi. Mình thấy đi tàu điện ngầm tiện hơn. Ga tàu điện ngầm ở phía đông ga tàu cao tốc, đi bộ sang năm phút là tới. Bạn đi ba trạm, xuống tàu thì đi về phía bắc, đến ngã tư thứ nhất rẽ phải, đi thêm năm phút nữa là đến nhà mình. Dưới nhà mình có một siêu thị rất lớn, rất dễ tìm. Nếu tàu cao tốc trễ giờ thì bạn gọi điện cho mình, mình lái xe qua đón bạn.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"说话人觉得怎么去她家比较方便？","options":["坐地铁","打车","走路","骑自行车"],"answer":0,"explanation_vi":"Nghe được: 我觉得坐地铁比较方便."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"地铁站在高铁站的哪边？","options":["东边","西边","南边","北边"],"answer":0,"explanation_vi":"Nghe được: 地铁站在高铁站的东边."},
+          {"id":"lq3","type":"choice","tag":"v:向","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"下了地铁以后，向哪个方向走？","options":["向北走","向南走","向东走","向西走"],"answer":0,"explanation_vi":"Nghe được: 下车以后向北走."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"高铁晚点了，小王要做什么？","options":["给她打电话","自己打车","在高铁站等","坐公交车"],"answer":0,"explanation_vi":"Nghe được: 高铁晚点了你就给我打电话，我开车过去接你."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"自行车","pinyin":"zìxíngchē","vi":"xe đạp","tip_vi":"Ba âm đầu khác nhau: z (đầu lưỡi sau răng dưới, không bật hơi), x (mặt lưỡi, môi dẹt), ch (uốn lưỡi, bật hơi). 字 zì đọc nguyên âm “-i” đầu lưỡi, không đọc “chi”. 行 xíng: -ing ở cuống lưỡi, đừng đọc thành “xinh”."},
+      {"id":"s2","zh":"地铁","pinyin":"dìtiě","vi":"tàu điện ngầm","tip_vi":"d không bật hơi và không rung như “đ” tiếng Việt; t trong 铁 phải bật hơi rõ. 铁 tiě đứng cuối nên thanh 3 được đọc đủ (xuống thấp rồi lên)."},
+      {"id":"s3","zh":"我是走回来的。","pinyin":"Wǒ shì zǒu huílai de.","vi":"Tôi đi bộ về.","tip_vi":"走 zǒu: z không bật hơi, -ou tròn môi dần, đừng đọc thành “chẩu”. 来 trong 回来 và 的 cuối câu đều đọc nhẹ. 是 shì: sh uốn lưỡi, -i không đọc như “i”."},
+      {"id":"s4","zh":"公交车很方便。","pinyin":"Gōngjiāochē hěn fāngbiàn.","vi":"Xe buýt rất tiện.","tip_vi":"公交车 gōngjiāochē: ba thanh 1 liền nhau, giữ giọng cao và bằng. 方便 fāngbiàn: f là môi dưới chạm răng trên; 便 đọc biàn (không đọc pián như trong 便宜)."},
+      {"id":"s5","zh":"他一边开车一边听音乐。","pinyin":"Tā yìbiān kāichē yìbiān tīng yīnyuè.","vi":"Anh ấy vừa lái xe vừa nghe nhạc.","tip_vi":"一边 yìbiān: 一 đứng trước thanh 1 nên đọc thanh 4 (yì). 音乐 yīnyuè: 乐 có ü (yuè), tròn môi, đừng đọc thành “duê”. 听 tīng: -ing cuống lưỡi."},
+      {"id":"s6","zh":"不要一边骑车一边看手机，要注意安全。","pinyin":"Búyào yìbiān qí chē yìbiān kàn shǒujī, yào zhùyì ānquán.","vi":"Đừng vừa đạp xe vừa xem điện thoại, phải chú ý an toàn.","tip_vi":"不要 búyào: 不 đứng trước thanh 4 nên đọc thanh 2; còn 一边 yìbiān: 一 đứng trước thanh 1 nên đọc thanh 4. 骑 qí: q bật hơi mạnh. 注意 zhùyì: zh uốn lưỡi. 全 quán có ü (viết u sau q), tròn môi."},
+      {"id":"s7","zh":"到第一个路口向右走，再走五分钟就到了。","pinyin":"Dào dì yī ge lùkǒu xiàng yòu zǒu, zài zǒu wǔ fēnzhōng jiù dào le.","vi":"Đến ngã tư thứ nhất thì rẽ phải, đi thêm năm phút nữa là đến.","tip_vi":"第一 dì yī là số thứ tự nên 一 giữ thanh 1, không biến điệu. 再走五 zài zǒu wǔ: 走五 là hai thanh 3 liền nhau, 走 đọc gần thanh 2. 向 xiàng: x mặt lưỡi, -iang mở rộng."}
+    ],
+    "review": {
+      "remember": [
+        "Bổ ngữ xu hướng kép: V + 上/下/进/出/回/过 + 来/去: 走回来、跑上去、开过去.",
+        "Nơi chốn đứng giữa hai phần: 走回家来、跑上楼去、走进教室来; 来 = về phía người nói, 去 = rời xa người nói.",
+        "Kể cách đi lại đã xảy ra bằng 是……的: 我是走回来的、我是坐地铁去的.",
+        "S + 一边 V1 + 一边 V2 = vừa… vừa… (hai hành động); hai tính chất dùng 又……又……: 又快又方便.",
+        "Phương tiện: 坐 + 地铁/公交车/火车/高铁/船; 骑 + 自行车/马; 开车 (lái xe); 打车 (bắt taxi); 走路 (đi bộ). 方便 = tiện, không phải “phương tiện”."
+      ],
+      "mistakes": [
+        "✗ 他走回来家了 → ✓ 他走回家来了: nơi chốn đứng trước 来/去.",
+        "✗ 我坐自行车上班 → ✓ 我骑自行车上班: xe đạp, ngựa dùng 骑.",
+        "✗ 地铁一边快一边方便 → ✓ 地铁又快又方便: tính từ dùng 又……又……."
+      ]
+    }
+  }
+}

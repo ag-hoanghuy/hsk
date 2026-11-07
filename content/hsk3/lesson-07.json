@@ -1,0 +1,226 @@
+{
+  "level": 3,
+  "number": 7,
+  "summary": "Gặp lại bạn cũ, kể đã quen nhau bao lâu, nói về sở thích và hẹn giờ gặp; học cách nói khoảng thời gian (认识五年了、三年没见面了), cách bày tỏ hứng thú (对……感兴趣) và nói giờ với “半”, “刻”, “差”.",
+  "readings_ok": ["得 de", "里 li", "片 piàn"],
+  "content": {
+    "objectives": [
+      "Nói đã quen ai, đã làm gì được bao lâu: 我们认识五年了、我学了两年汉语",
+      "Nói đã lâu không làm gì: 咱们三年没见面了、好久不见",
+      "Hỏi và kể sở thích, hứng thú: 你有什么爱好？我对音乐很感兴趣",
+      "Nói và hẹn giờ với 半、刻、差: 三点半、八点一刻、差一刻三点"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"好久","pinyin":"hǎojiǔ","pos":"tính từ","meaning_vi":"lâu lắm, rất lâu","example_zh":"好久不见！你最近怎么样？","example_pinyin":"Hǎojiǔ bú jiàn! Nǐ zuìjìn zěnmeyàng?","example_vi":"Lâu lắm không gặp! Dạo này bạn thế nào?","note_vi":"好 ở đây = 很 (rất). 好久不见 = lâu rồi không gặp (câu chào cố định). Nói lâu không làm gì: 好久没 + V + 了: 我好久没打羽毛球了."},
+      {"id":"v2","hanzi":"见面","pinyin":"jiànmiàn","pos":"động từ","meaning_vi":"gặp mặt, gặp nhau","example_zh":"我们明天下午见面吧。","example_pinyin":"Wǒmen míngtiān xiàwǔ jiànmiàn ba.","example_vi":"Chiều mai chúng mình gặp nhau nhé.","hanviet":"KIẾN DIỆN","note_vi":"Động từ li hợp, không mang tân ngữ: ✗ 我见面他 → ✓ 我和他见面. Có thể chen vào giữa: 见过一次面 (đã gặp một lần)."},
+      {"id":"v3","hanzi":"兴趣","pinyin":"xìngqù","pos":"danh từ","meaning_vi":"hứng thú, sự thích thú","example_zh":"我对中国音乐很有兴趣。","example_pinyin":"Wǒ duì Zhōngguó yīnyuè hěn yǒu xìngqù.","example_vi":"Tôi rất có hứng thú với âm nhạc Trung Quốc.","hanviet":"HỨNG THÚ","note_vi":"兴 ở đây đọc xìng (thanh 4), khác với xīng trong 高兴. 兴趣 là danh từ nên cần 有 hoặc 感 đi kèm: 有兴趣, 感兴趣; không nói ✗ 很兴趣."},
+      {"id":"v4","hanzi":"感兴趣","pinyin":"gǎn xìngqù","pos":"cụm từ","meaning_vi":"có hứng thú, thích, quan tâm (đến)","example_zh":"你对什么感兴趣？","example_pinyin":"Nǐ duì shénme gǎn xìngqù?","example_vi":"Bạn có hứng thú với cái gì?","hanviet":"CẢM HỨNG THÚ","note_vi":"Không mang tân ngữ phía sau; điều mình thích đặt sau 对 và đứng trước: 对 + N + 感兴趣. ✗ 我感兴趣音乐 → ✓ 我对音乐感兴趣. Phủ định: 对……不感兴趣."},
+      {"id":"v5","hanzi":"爱好","pinyin":"àihào","pos":"danh từ / động từ","meaning_vi":"sở thích; yêu thích","example_zh":"你有什么爱好？","example_pinyin":"Nǐ yǒu shénme àihào?","example_vi":"Bạn có sở thích gì?","hanviet":"ÁI HIẾU (好 như trong “hiếu học”)","note_vi":"好 trong 爱好 đọc hào (thanh 4), không đọc hǎo. Hay dùng làm danh từ: 我的爱好是唱歌. Làm động từ (爱好音乐) thì trang trọng; nói hằng ngày dùng 喜欢."},
+      {"id":"v6","hanzi":"半","pinyin":"bàn","pos":"số từ","meaning_vi":"nửa, rưỡi","example_zh":"现在三点半。","example_pinyin":"Xiànzài sān diǎn bàn.","example_vi":"Bây giờ là ba giờ rưỡi.","hanviet":"BÁN","note_vi":"三点半 = 3 giờ rưỡi (thời điểm). 半个小时 = nửa tiếng (thời lượng). Có số nguyên thì 半 đứng sau lượng từ: 一个半小时 (một tiếng rưỡi), 两年半."},
+      {"id":"v7","hanzi":"刻","pinyin":"kè","pos":"lượng từ","meaning_vi":"khắc (15 phút)","example_zh":"现在八点一刻。","example_pinyin":"Xiànzài bā diǎn yí kè.","example_vi":"Bây giờ là tám giờ mười lăm.","hanviet":"KHẮC","note_vi":"一刻 = 15 phút, 三刻 = 45 phút (tiếng Việt cũng nói “kém một khắc” = kém 15 phút). Không nói 两刻, mà nói 半. 一刻钟 = mười lăm phút (thời lượng). k bật hơi mạnh."},
+      {"id":"v8","hanzi":"差","pinyin":"chà","pos":"động từ / tính từ","meaning_vi":"thiếu, kém; kém, tồi","example_zh":"现在差五分八点。","example_pinyin":"Xiànzài chà wǔ fēn bā diǎn.","example_vi":"Bây giờ là tám giờ kém năm.","note_vi":"Nói giờ: 差 + số phút + giờ = giờ kém (差五分八点 = 7:55); cũng nói 八点差五分. Làm tính từ: 他的汉语很差 (tiếng Trung của anh ấy kém). Ở hai nghĩa này đọc chà (thanh 4)."},
+      {"id":"v9","hanzi":"分","pinyin":"fēn","pos":"lượng từ","meaning_vi":"phút; điểm","example_zh":"现在九点十分。","example_pinyin":"Xiànzài jiǔ diǎn shí fēn.","example_vi":"Bây giờ là chín giờ mười phút.","note_vi":"Khi nói giờ dùng 分: 八点十分. Nói thời lượng dùng 分钟: 等了十分钟. 分 còn là “điểm”: 考了九十分 (thi được 90 điểm)."},
+      {"id":"v10","hanzi":"聊天儿","pinyin":"liáotiānr","pos":"động từ","meaning_vi":"nói chuyện, tán gẫu, chat","example_zh":"周末我常常和朋友一块儿喝茶、聊天儿。","example_pinyin":"Zhōumò wǒ chángcháng hé péngyou yíkuàir hē chá, liáotiānr.","example_vi":"Cuối tuần tôi hay cùng bạn bè uống trà, trò chuyện.","note_vi":"Động từ li hợp, không mang tân ngữ: “nói chuyện với ai” = 和……聊天儿. Nói thời lượng: 聊了一个小时 hoặc 聊了一个小时的天儿."},
+      {"id":"v11","hanzi":"照片","pinyin":"zhàopiàn","pos":"danh từ","meaning_vi":"ảnh, tấm ảnh","example_zh":"我手机里有很多照片。","example_pinyin":"Wǒ shǒujī li yǒu hěn duō zhàopiàn.","example_vi":"Trong điện thoại tôi có rất nhiều ảnh.","hanviet":"CHIẾU PHIẾN","note_vi":"Lượng từ là 张: 一张照片. zh uốn lưỡi, không đọc thành “chao”."},
+      {"id":"v12","hanzi":"音乐","pinyin":"yīnyuè","pos":"danh từ","meaning_vi":"âm nhạc, nhạc","example_zh":"晚上我喜欢在家听音乐。","example_pinyin":"Wǎnshang wǒ xǐhuan zài jiā tīng yīnyuè.","example_vi":"Buổi tối tôi thích ở nhà nghe nhạc.","hanviet":"ÂM NHẠC","note_vi":"乐 ở đây đọc yuè (nhạc), không đọc lè như trong 快乐. “Nghe nhạc” là 听音乐."},
+      {"id":"v13","hanzi":"唱","pinyin":"chàng","pos":"động từ","meaning_vi":"hát","example_zh":"你唱得真好听！","example_pinyin":"Nǐ chàng de zhēn hǎotīng!","example_vi":"Bạn hát hay thật!","hanviet":"XƯỚNG","note_vi":"唱歌 = hát (động từ + tân ngữ 歌). Khen ai hát hay: 你唱得真好听 / 你唱歌唱得很好. ch uốn lưỡi, bật hơi."},
+      {"id":"v14","hanzi":"歌","pinyin":"gē","pos":"danh từ","meaning_vi":"bài hát","example_zh":"这首歌很好听。","example_pinyin":"Zhè shǒu gē hěn hǎotīng.","example_vi":"Bài hát này rất hay.","hanviet":"CA","note_vi":"Lượng từ cho bài hát là 首: 一首歌 (một bài hát). 唱歌 = hát; 听歌 = nghe nhạc, nghe bài hát."},
+      {"id":"v15","hanzi":"比赛","pinyin":"bǐsài","pos":"danh từ / động từ","meaning_vi":"trận đấu, cuộc thi; thi đấu","example_zh":"明天晚上有足球比赛。","example_pinyin":"Míngtiān wǎnshang yǒu zúqiú bǐsài.","example_vi":"Tối mai có trận bóng đá.","hanviet":"TỶ TÁI","note_vi":"比赛 là cuộc thi đấu (thể thao, ca hát…): 唱歌比赛, 足球比赛. “Kỳ thi” ở trường là 考试, không phải 比赛."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"天","pinyin":"tiān","pos":"danh từ / lượng từ","meaning_vi":"ngày; trời","example_zh":"我三天没锻炼了。","example_pinyin":"Wǒ sān tiān méi duànliàn le.","example_vi":"Ba ngày rồi tôi không tập thể dục."},
+      {"id":"x2","hanzi":"时","pinyin":"shí","pos":"danh từ","meaning_vi":"lúc, khi (= 的时候)","example_zh":"上课时不要说话。","example_pinyin":"Shàngkè shí bú yào shuōhuà.","example_vi":"Trong giờ học đừng nói chuyện."},
+      {"id":"x3","hanzi":"见","pinyin":"jiàn","pos":"động từ","meaning_vi":"gặp; thấy","example_zh":"我们明天下午见！","example_pinyin":"Wǒmen míngtiān xiàwǔ jiàn!","example_vi":"Hẹn gặp chiều mai nhé!"},
+      {"id":"x4","hanzi":"久","pinyin":"jiǔ","pos":"tính từ","meaning_vi":"lâu","example_zh":"你等了多久？","example_pinyin":"Nǐ děng le duō jiǔ?","example_vi":"Bạn đợi bao lâu rồi?"},
+      {"id":"x5","hanzi":"段","pinyin":"duàn","pos":"lượng từ","meaning_vi":"đoạn, khoảng (thời gian)","example_zh":"这段时间我很忙。","example_pinyin":"Zhè duàn shíjiān wǒ hěn máng.","example_vi":"Khoảng thời gian này tôi rất bận."},
+      {"id":"x6","hanzi":"常常","pinyin":"chángcháng","pos":"phó từ","meaning_vi":"thường, thường thường","example_zh":"我们常常一块儿打羽毛球。","example_pinyin":"Wǒmen chángcháng yíkuàir dǎ yǔmáoqiú.","example_vi":"Chúng tôi thường cùng nhau chơi cầu lông."},
+      {"id":"x7","hanzi":"男朋友","pinyin":"nánpéngyou","pos":"danh từ","meaning_vi":"bạn trai (người yêu)","example_zh":"她和男朋友认识三年了。","example_pinyin":"Tā hé nánpéngyou rènshi sān nián le.","example_vi":"Cô ấy và bạn trai quen nhau ba năm rồi."},
+      {"id":"x8","hanzi":"女朋友","pinyin":"nǚpéngyou","pos":"danh từ","meaning_vi":"bạn gái (người yêu)","example_zh":"他女朋友很喜欢唱歌。","example_pinyin":"Tā nǚpéngyou hěn xǐhuan chàng gē.","example_vi":"Bạn gái anh ấy rất thích hát."},
+      {"id":"x9","hanzi":"难听","pinyin":"nántīng","pos":"tính từ","meaning_vi":"khó nghe, dở (khi nghe)","example_zh":"我唱歌很难听，你别笑我。","example_pinyin":"Wǒ chàng gē hěn nántīng, nǐ bié xiào wǒ.","example_vi":"Tôi hát dở lắm, bạn đừng cười tôi nhé."},
+      {"id":"x10","hanzi":"画","pinyin":"huà","pos":"động từ / danh từ","meaning_vi":"vẽ; bức tranh","example_zh":"我妹妹很喜欢画画儿。","example_pinyin":"Wǒ mèimei hěn xǐhuan huà huàr.","example_vi":"Em gái tôi rất thích vẽ tranh."},
+      {"id":"x11","hanzi":"跳","pinyin":"tiào","pos":"động từ","meaning_vi":"nhảy","example_zh":"她很喜欢跳舞。","example_pinyin":"Tā hěn xǐhuan tiàowǔ.","example_vi":"Cô ấy rất thích nhảy múa."},
+      {"id":"x12","hanzi":"喜爱","pinyin":"xǐ'ài","pos":"động từ","meaning_vi":"yêu thích (trang trọng hơn 喜欢)","example_zh":"这是一首大家都喜爱的歌。","example_pinyin":"Zhè shì yì shǒu dàjiā dōu xǐ'ài de gē.","example_vi":"Đây là một bài hát ai cũng yêu thích."},
+      {"id":"x13","hanzi":"遇见","pinyin":"yùjiàn","pos":"động từ","meaning_vi":"tình cờ gặp","example_zh":"昨天我在超市遇见了大学同学。","example_pinyin":"Zuótiān wǒ zài chāoshì yùjiàn le dàxué tóngxué.","example_vi":"Hôm qua tôi tình cờ gặp bạn đại học ở siêu thị."},
+      {"id":"x14","hanzi":"分开","pinyin":"fēnkāi","pos":"động từ","meaning_vi":"chia tay, tách ra, xa nhau","example_zh":"我们分开五年了，可是常常聊天儿。","example_pinyin":"Wǒmen fēnkāi wǔ nián le, kěshì chángcháng liáotiānr.","example_vi":"Chúng tôi xa nhau năm năm rồi, nhưng vẫn hay trò chuyện."},
+      {"id":"x15","hanzi":"羽毛球","pinyin":"yǔmáoqiú","pos":"danh từ","meaning_vi":"cầu lông","example_zh":"周末我常常去打羽毛球。","example_pinyin":"Zhōumò wǒ chángcháng qù dǎ yǔmáoqiú.","example_vi":"Cuối tuần tôi hay đi đánh cầu lông."},
+      {"id":"x16","hanzi":"球场","pinyin":"qiúchǎng","pos":"danh từ","meaning_vi":"sân bóng, sân (thể thao)","example_zh":"下午我们去球场打篮球吧。","example_pinyin":"Xiàwǔ wǒmen qù qiúchǎng dǎ lánqiú ba.","example_vi":"Chiều nay chúng mình ra sân chơi bóng rổ nhé."},
+      {"id":"x17","hanzi":"得分","pinyin":"défēn","pos":"động từ / danh từ","meaning_vi":"ghi điểm; điểm số","example_zh":"比赛快完了，我们还没得分。","example_pinyin":"Bǐsài kuài wán le, wǒmen hái méi défēn.","example_vi":"Trận đấu sắp hết rồi mà chúng tôi vẫn chưa ghi được điểm nào."}
+    ],
+    "glossary": [
+      {"hanzi":"首","pinyin":"shǒu","meaning_vi":"bài (lượng từ cho bài hát)","kind":"beyond"},
+      {"hanzi":"聊","pinyin":"liáo","meaning_vi":"trò chuyện (động từ trong 聊天儿)","kind":"beyond"},
+      {"hanzi":"上海","pinyin":"Shànghǎi","meaning_vi":"Thượng Hải (tên thành phố)","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Cách nói khoảng thời gian (bao lâu)",
+        "pattern":"S + V + 了 + thời lượng + O (+ 了)　·　S + V + O + thời lượng + 了 (认识、来、分开…)　·　S + thời lượng + 没 + V (+ O) + 了",
+        "explanation_vi":"1) Việc kéo dài bao lâu: thời lượng đứng SAU động từ, trước tân ngữ: 我等了半个小时, 我学了两年汉语 (hoặc lặp động từ: 我学汉语学了两年). Thêm 了 ở cuối câu nghĩa là đến bây giờ vẫn còn tiếp tục: 我学了两年汉语了. 2) Với động từ không kéo dài được (认识、来、分开…), thời lượng tính từ lúc việc xảy ra đến nay và đứng sau tân ngữ: 我们认识五年了, 他来北京三个月了. Thêm 都 để nhấn mạnh “đã … rồi đấy”: 我和她都认识五年了. 3) Đã bao lâu không làm gì: thời lượng + 没 + V + 了: 我们三年没见面了, 好久没见面了. Hỏi: ……多长时间了？/ ……多久了？",
+        "examples":[
+          {"zh":"我们认识五年了。","pinyin":"Wǒmen rènshi wǔ nián le.","vi":"Chúng tôi quen nhau năm năm rồi."},
+          {"zh":"我学了两年汉语了。","pinyin":"Wǒ xué le liǎng nián Hànyǔ le.","vi":"Tôi học tiếng Trung được hai năm rồi (và vẫn đang học)."},
+          {"zh":"昨天我打了一个半小时羽毛球。","pinyin":"Zuótiān wǒ dǎ le yí ge bàn xiǎoshí yǔmáoqiú.","vi":"Hôm qua tôi chơi cầu lông một tiếng rưỡi."},
+          {"zh":"咱们好久没见面了！","pinyin":"Zánmen hǎojiǔ méi jiànmiàn le!","vi":"Lâu lắm rồi chúng mình không gặp nhau!"}
+        ],
+        "mistakes_vi":"✗ 我两年学了汉语。\n✓ 我学了两年汉语。\nTiếng Việt có thể nói “tôi hai năm học tiếng Trung”, nhưng tiếng Trung đặt thời lượng SAU động từ (và trước tân ngữ).\n✗ 我们没见面三年了。\n✓ 我们三年没见面了。\nKhi nói “đã bao lâu không…”, thời lượng đứng TRƯỚC 没.\n✗ 我知道她五年了。\n✓ 我认识她五年了。\nTiếng Việt “biết cô ấy” dùng chung một chữ “biết”, nhưng quen biết một người phải dùng 认识; 知道 là biết một thông tin.",
+        "compare_vi":"Tiếng Việt: “Chúng tôi quen nhau năm năm rồi” — chữ “rồi” ở cuối giống 了 cuối câu: 我们认识五年了. Nhưng “ba năm rồi không gặp” → 三年没见面了: thời lượng đứng trước 没."
+      },
+      {
+        "id":"g2",
+        "title":"Nói về hứng thú, sở thích: 对……感兴趣、爱好",
+        "pattern":"S + 对 + N/V + (很) 感兴趣 / 有兴趣　·　S + 对 + N + 不感兴趣 / 没有兴趣　·　S + 的爱好是 + V/N",
+        "explanation_vi":"感兴趣 (có hứng thú) không mang tân ngữ phía sau; điều mình thích đặt sau 对 và đứng trước 感兴趣: 我对音乐很感兴趣. Mức độ (很、非常、特别) đặt ngay trước 感兴趣 hoặc 有兴趣. Phủ định: 对……不感兴趣 / 对……没有兴趣. Hỏi: 你对什么感兴趣？ Nói sở thích: 你有什么爱好？— 我的爱好是唱歌.",
+        "examples":[
+          {"zh":"我对中国音乐很感兴趣。","pinyin":"Wǒ duì Zhōngguó yīnyuè hěn gǎn xìngqù.","vi":"Tôi rất hứng thú với âm nhạc Trung Quốc."},
+          {"zh":"A：你有什么爱好？B：我的爱好是打羽毛球。","pinyin":"A: Nǐ yǒu shénme àihào? B: Wǒ de àihào shì dǎ yǔmáoqiú.","vi":"A: Bạn có sở thích gì? B: Sở thích của tôi là chơi cầu lông."},
+          {"zh":"我妹妹对画画儿特别有兴趣。","pinyin":"Wǒ mèimei duì huà huàr tèbié yǒu xìngqù.","vi":"Em gái tôi đặc biệt thích vẽ tranh."},
+          {"zh":"他对足球比赛一点儿也不感兴趣。","pinyin":"Tā duì zúqiú bǐsài yìdiǎnr yě bù gǎn xìngqù.","vi":"Anh ấy chẳng hứng thú chút nào với các trận bóng đá."}
+        ],
+        "mistakes_vi":"✗ 我感兴趣音乐。\n✓ 我对音乐感兴趣。\nTiếng Việt nói “tôi hứng thú với âm nhạc”, đặt “âm nhạc” phía sau; tiếng Trung đưa 对 + 音乐 lên trước 感兴趣.\n✗ 我对音乐很兴趣。\n✓ 我对音乐很感兴趣。/ 我对音乐很有兴趣。\n兴趣 là danh từ, phải có 感 hoặc 有 đi kèm.\n✗ 我不对足球感兴趣。\n✓ 我对足球不感兴趣。\n不 đặt ngay trước 感兴趣, không đặt trước 对.",
+        "compare_vi":"“Tôi có hứng thú với âm nhạc” → 我对音乐有兴趣: phần “với âm nhạc” (对音乐) phải đứng TRƯỚC “có hứng thú”."
+      },
+      {
+        "id":"g3",
+        "title":"Nói giờ với “半”, “刻”, “差”",
+        "pattern":"… 点半 (… giờ rưỡi)　·　… 点一刻 / 三刻 (… giờ 15 / 45)　·　差 + số phút + … 点 = … 点差 + số phút (… giờ kém …)",
+        "explanation_vi":"半 = 30 phút: 三点半 (3:30). 刻 = 15 phút: 八点一刻 (8:15), 八点三刻 (8:45); không nói 两刻 mà nói 半. 差 = thiếu, kém: 差五分八点 hoặc 八点差五分 (8 giờ kém 5 = 7:55), 差一刻三点 (3 giờ kém 15 = 2:45). Hai giờ nói là 两点, không nói 二点. Giờ (thời điểm) đứng TRƯỚC động từ: 我们七点半见面. Đừng lẫn thời điểm 三点半 với thời lượng 半个小时 (nửa tiếng), 一刻钟 (15 phút).",
+        "examples":[
+          {"zh":"现在两点半。","pinyin":"Xiànzài liǎng diǎn bàn.","vi":"Bây giờ là hai giờ rưỡi."},
+          {"zh":"电影七点一刻开始。","pinyin":"Diànyǐng qī diǎn yí kè kāishǐ.","vi":"Phim bắt đầu lúc bảy giờ mười lăm."},
+          {"zh":"现在差五分八点，快走吧！","pinyin":"Xiànzài chà wǔ fēn bā diǎn, kuài zǒu ba!","vi":"Bây giờ là tám giờ kém năm rồi, đi nhanh lên!"},
+          {"zh":"我们下午差一刻三点在球场见面。","pinyin":"Wǒmen xiàwǔ chà yí kè sān diǎn zài qiúchǎng jiànmiàn.","vi":"Chiều nay chúng ta gặp nhau ở sân lúc ba giờ kém mười lăm."}
+        ],
+        "mistakes_vi":"✗ 现在二点半。\n✓ 现在两点半。\nNói giờ, số 2 đứng trước 点 phải dùng 两.\n✗ 我们见面七点半。\n✓ 我们七点半见面。\nTiếng Việt nói “gặp nhau lúc bảy rưỡi”, nhưng tiếng Trung đặt giờ trước động từ.\n✗ 现在五分差八点。\n✓ 现在差五分八点。/ 现在八点差五分。\n差 phải đứng ngay trước số phút.",
+        "compare_vi":"“Tám giờ kém năm” = 八点差五分 (đúng thứ tự tiếng Việt) hoặc 差五分八点; “ba giờ rưỡi” = 三点半, cũng đúng thứ tự như tiếng Việt."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Lâu lắm rồi không gặp!",
+      "scene_vi": "Sáng thứ Bảy ở sân cầu lông, Tiểu Trần tình cờ gặp lại bạn đại học Tiểu Chu. Đi cùng Tiểu Chu là bạn gái của anh, Tiểu Diệp.",
+      "lines": [
+        {"speaker":"小陈","zh":"小周？真的是你吗？好久不见！","pinyin":"Xiǎo Zhōu? Zhēn de shì nǐ ma? Hǎojiǔ bú jiàn!","vi":"Tiểu Chu? Đúng là cậu thật à? Lâu lắm không gặp!"},
+        {"speaker":"小周","zh":"小陈！好久不见！咱们三年没见面了吧？","pinyin":"Xiǎo Chén! Hǎojiǔ bú jiàn! Zánmen sān nián méi jiànmiàn le ba?","vi":"Tiểu Trần! Lâu quá không gặp! Chúng mình ba năm rồi không gặp nhau nhỉ?"},
+        {"speaker":"小陈","zh":"是啊，三年多了！这位是……？","pinyin":"Shì a, sān nián duō le! Zhè wèi shì……?","vi":"Đúng thế, hơn ba năm rồi! Còn đây là…?"},
+        {"speaker":"小周","zh":"这是我女朋友小叶。我们认识五年了，上大学的时候就认识了。","pinyin":"Zhè shì wǒ nǚpéngyou Xiǎo Yè. Wǒmen rènshi wǔ nián le, shàng dàxué de shíhou jiù rènshi le.","vi":"Đây là bạn gái mình, Tiểu Diệp. Bọn mình quen nhau năm năm rồi, quen từ hồi học đại học."},
+        {"speaker":"小叶","zh":"你好！我常常听小周说，你唱歌特别好听！","pinyin":"Nǐ hǎo! Wǒ chángcháng tīng Xiǎo Zhōu shuō, nǐ chàng gē tèbié hǎotīng!","vi":"Chào bạn! Mình hay nghe Tiểu Chu kể là bạn hát rất hay!"},
+        {"speaker":"小陈","zh":"哪里哪里！我对音乐很感兴趣，所以经常唱歌。你们也来打羽毛球吗？","pinyin":"Nǎli nǎli! Wǒ duì yīnyuè hěn gǎn xìngqù, suǒyǐ jīngcháng chàng gē. Nǐmen yě lái dǎ yǔmáoqiú ma?","vi":"Đâu có đâu! Mình thích âm nhạc nên hay hát thôi. Hai bạn cũng đến chơi cầu lông à?"},
+        {"speaker":"小周","zh":"对，打羽毛球是我们的爱好。我们每个星期六都来这个球场，每次打一个半小时。","pinyin":"Duì, dǎ yǔmáoqiú shì wǒmen de àihào. Wǒmen měi ge xīngqīliù dōu lái zhège qiúchǎng, měi cì dǎ yí ge bàn xiǎoshí.","vi":"Ừ, chơi cầu lông là sở thích của bọn mình. Thứ Bảy nào bọn mình cũng đến sân này, mỗi lần chơi một tiếng rưỡi."},
+        {"speaker":"小叶","zh":"你对羽毛球感兴趣吗？下个星期六咱们一块儿打吧！","pinyin":"Nǐ duì yǔmáoqiú gǎn xìngqù ma? Xià ge xīngqīliù zánmen yíkuàir dǎ ba!","vi":"Bạn có thích cầu lông không? Thứ Bảy tuần sau chúng mình cùng chơi nhé!"},
+        {"speaker":"小陈","zh":"好啊！可是我两年没打了，打得不好。几点见面？","pinyin":"Hǎo a! Kěshì wǒ liǎng nián méi dǎ le, dǎ de bù hǎo. Jǐ diǎn jiànmiàn?","vi":"Được thôi! Nhưng hai năm rồi mình không chơi, chơi kém lắm. Mấy giờ gặp nhau?"},
+        {"speaker":"小周","zh":"下午差一刻三点，我们在这儿等你。别来晚了！","pinyin":"Xiàwǔ chà yí kè sān diǎn, wǒmen zài zhèr děng nǐ. Bié lái wǎn le!","vi":"Chiều, ba giờ kém mười lăm, bọn mình đợi cậu ở đây. Đừng đến muộn đấy!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:感兴趣","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我对音乐很____。","options":["感兴趣","爱好","兴趣","见面"],"answer":0,"explanation_vi":"对 + N + 很感兴趣 = rất hứng thú với… 兴趣 là danh từ nên không đứng sau 很 một mình."},
+      {"id":"e2","type":"choice","tag":"v:爱好","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：你有什么____？B：我喜欢唱歌和画画儿。","options":["爱好","音乐","比赛","照片"],"answer":0,"explanation_vi":"B trả lời mình thích làm gì, nên A hỏi 你有什么爱好？ (bạn có sở thích gì?)."},
+      {"id":"e3","type":"choice","tag":"v:好久","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____不见！你最近怎么样？","options":["好久","终于","一直","刚才"],"answer":0,"explanation_vi":"好久不见 = lâu lắm không gặp, câu chào khi gặp lại người quen."},
+      {"id":"e4","type":"choice","tag":"v:见面","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们好久没____了，明天出来喝杯咖啡吧。","options":["见面","认识","照片","音乐"],"answer":0,"explanation_vi":"好久没见面了 = lâu rồi không gặp nhau. 认识 là quen biết, đã quen rồi thì không nói “lâu rồi không quen”."},
+      {"id":"e5","type":"choice","tag":"v:聊天儿","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"周末我常常和朋友一块儿喝茶、____。","options":["聊天儿","兴趣","爱好","照片"],"answer":0,"explanation_vi":"Cần một động từ đi cùng 喝茶: 聊天儿 = trò chuyện. Ba từ còn lại là danh từ."},
+      {"id":"e6","type":"choice","tag":"g:时段","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我和她认识十年____。","options":["了","过","着","的"],"answer":0,"explanation_vi":"认识 + thời lượng + 了 = đã quen được bao lâu tính đến nay."},
+      {"id":"e7","type":"choice","tag":"g:时段","prompt_vi":"Chọn câu đúng với nghĩa: “Chúng tôi đã ba năm không gặp nhau.”","question_zh":"Chúng tôi đã ba năm không gặp nhau.","options":["我们三年没见面了。","我们没见面三年了。","我们三年见面没了。","我们没三年见面了。"],"answer":0,"explanation_vi":"Thời lượng + 没 + V + 了: thời lượng 三年 đứng trước 没."},
+      {"id":"e8","type":"choice","tag":"g:兴趣","prompt_vi":"Chọn câu đúng với nghĩa: “Tôi rất hứng thú với bóng đá.”","question_zh":"Tôi rất hứng thú với bóng đá.","options":["我对足球很感兴趣。","我很感兴趣足球。","我对足球很兴趣。","我感兴趣对足球。"],"answer":0,"explanation_vi":"对 + 足球 đứng trước 很感兴趣; 兴趣 cần có 感 hoặc 有."},
+      {"id":"e9","type":"choice","tag":"g:半刻差","prompt_vi":"8:45 nói bằng tiếng Trung thế nào?","question_zh":"8:45","options":["差一刻九点","差一刻八点","八点一刻","九点三刻"],"answer":0,"explanation_vi":"8:45 = 9 giờ kém 15 = 差一刻九点 (cũng nói 八点三刻). 差一刻八点 là 7:45; 八点一刻 là 8:15."},
+      {"id":"e10","type":"order","tag":"g:时段","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","学","了","两年","汉语"],"answers":["我学了两年汉语","汉语我学了两年"],"translation_vi":"Tôi đã học tiếng Trung hai năm.","explanation_vi":"Thời lượng 两年 đứng sau 学了 và trước tân ngữ 汉语 (hoặc đưa 汉语 lên đầu câu)."},
+      {"id":"e11","type":"order","tag":"g:兴趣","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","对","音乐","很","感兴趣"],"answers":["他对音乐很感兴趣"],"translation_vi":"Anh ấy rất hứng thú với âm nhạc.","explanation_vi":"S + 对 + N + 很 + 感兴趣."},
+      {"id":"e12","type":"order","tag":"g:半刻差","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","七点半","在","电影院","见面"],"answers":["我们七点半在电影院见面","七点半我们在电影院见面"],"translation_vi":"Bảy giờ rưỡi chúng ta gặp nhau ở rạp chiếu phim.","explanation_vi":"Giờ (七点半) đứng trước 在 + nơi chốn + động từ, trước hoặc sau chủ ngữ."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"兴趣","vi":"hứng thú"},{"zh":"爱好","vi":"sở thích"},{"zh":"聊天儿","vi":"trò chuyện"},{"zh":"照片","vi":"tấm ảnh"},{"zh":"比赛","vi":"trận đấu, cuộc thi"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"羽毛球","vi":"cầu lông"},{"zh":"球场","vi":"sân bóng"},{"zh":"男朋友","vi":"bạn trai"},{"zh":"遇见","vi":"tình cờ gặp"},{"zh":"分开","vi":"chia tay, xa nhau"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:时段","prompt_vi":"Chọn đáp án đúng để nói “Anh ấy đến Bắc Kinh được ba tháng rồi”.","question_zh":"他来北京____。","options":["三个月了","了三个月","三个月","过三个月"],"answer":0,"explanation_vi":"来 không kéo dài được, nên nói: 来 + nơi chốn + thời lượng + 了. Thiếu 了 thì mất nghĩa “đến nay đã…”."},
+        {"id":"q2","type":"choice","tag":"g:时段","prompt_vi":"Chọn câu đúng.","question_zh":"Lâu lắm rồi tôi không chơi cầu lông.","options":["我好久没打羽毛球了。","我没打羽毛球好久了。","我打羽毛球好久没了。","好久我打羽毛球没了。"],"answer":0,"explanation_vi":"好久 (thời lượng) + 没 + V + O + 了."},
+        {"id":"q3","type":"choice","tag":"g:兴趣","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我对唱歌一点儿也不____。","options":["感兴趣","爱好","兴趣","见面"],"answer":0,"explanation_vi":"对……不感兴趣 = không hứng thú với… 兴趣 là danh từ, không đứng ngay sau 不."},
+        {"id":"q4","type":"choice","tag":"g:兴趣","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：你的____是什么？B：打羽毛球。","options":["爱好","感兴趣","比赛","见面"],"answer":0,"explanation_vi":"你的爱好是什么？ = Sở thích của bạn là gì? Sau 你的 cần một danh từ."},
+        {"id":"q5","type":"choice","tag":"g:半刻差","prompt_vi":"“9:15” còn có thể nói là:","question_zh":"九点十五分 = ？","options":["九点一刻","九点半","差一刻九点","九点三刻"],"answer":0,"explanation_vi":"一刻 = 15 phút, nên 九点十五分 = 九点一刻. 差一刻九点 là 8:45."},
+        {"id":"q6","type":"choice","tag":"g:半刻差","prompt_vi":"“差五分八点” là mấy giờ?","question_zh":"差五分八点","options":["7:55","8:05","8:55","7:05"],"answer":0,"explanation_vi":"差五分八点 = còn thiếu 5 phút nữa là 8 giờ = 7:55 (tám giờ kém năm)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:比赛","prompt_vi":"Chọn đáp án đúng.","question_zh":"今天晚上有足球____，咱们一块儿看吧。","options":["比赛","爱好","照片","音乐"],"answer":0,"explanation_vi":"足球比赛 = trận bóng đá."},
+      {"id":"t2","type":"choice","tag":"g:半刻差","prompt_vi":"Chọn đáp án đúng.","question_zh":"现在两点____，我们三点见面，还有半个小时。","options":["半","刻","差","分"],"answer":0,"explanation_vi":"Còn nửa tiếng nữa là 3 giờ, vậy bây giờ là 两点半 (2:30)."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"好久","vi":"rất lâu"},{"zh":"见面","vi":"gặp mặt"},{"zh":"刻","vi":"15 phút"},{"zh":"差","vi":"thiếu, kém"},{"zh":"分","vi":"phút"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"音乐","vi":"âm nhạc"},{"zh":"唱","vi":"hát"},{"zh":"歌","vi":"bài hát"},{"zh":"画","vi":"vẽ"},{"zh":"跳","vi":"nhảy"}]},
+      {"id":"t5","type":"order","tag":"g:时段","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我和她","都","认识","五年","了"],"answers":["我和她都认识五年了"],"translation_vi":"Tôi và cô ấy quen nhau đã năm năm rồi.","explanation_vi":"认识 + thời lượng + 了; 都 trước động từ nhấn mạnh “đã … rồi đấy”."},
+      {"id":"t6","type":"order","tag":"v:感兴趣","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我妹妹","对","画画儿","特别","感兴趣"],"answers":["我妹妹对画画儿特别感兴趣"],"translation_vi":"Em gái tôi đặc biệt thích vẽ tranh.","explanation_vi":"S + 对 + việc mình thích + 特别 + 感兴趣."},
+      {"id":"t7","type":"fill","tag":"v:好久","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"____不见，你最近好吗？","answers":["好久","很久"],"hint_vi":"rất lâu","explanation_vi":"好久不见 = lâu lắm không gặp."},
+      {"id":"t8","type":"fill","tag":"g:半刻差","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"七点五十五分也可以说：____五分八点。","answers":["差"],"hint_vi":"thiếu, kém","explanation_vi":"差五分八点 = tám giờ kém năm = 7:55."},
+      {"id":"t9","type":"listen_choice","tag":"g:时段","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我和她认识八年了。","options":["Tôi và cô ấy quen nhau đã tám năm.","Tôi và cô ấy tám năm rồi không gặp.","Tôi quen cô ấy năm tám tuổi.","Tám giờ tôi gặp cô ấy."],"answer":0,"explanation_vi":"认识八年了 = quen nhau đã tám năm (đến nay)."},
+      {"id":"t10","type":"listen_choice","tag":"g:半刻差","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"电影差一刻八点开始。","options":["Phim bắt đầu lúc 7 giờ 45.","Phim bắt đầu lúc 8 giờ 15.","Phim bắt đầu lúc 8 giờ rưỡi.","Phim đã chiếu được 15 phút."],"answer":0,"explanation_vi":"差一刻八点 = 8 giờ kém 15 = 7:45."},
+      {"id":"t11","type":"dictation","tag":"v:聊天儿","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我们常常在一起聊天儿。","answers":["我们常常在一起聊天儿","我们常常在一起聊天"],"explanation_vi":"我们常常在一起聊天儿 = Chúng tôi thường trò chuyện với nhau."},
+      {"id":"t12","type":"dictation","tag":"v:照片","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你看，这是我和女朋友的照片。","answers":["你看这是我和女朋友的照片"],"explanation_vi":"你看，这是我和女朋友的照片 = Xem này, đây là ảnh của tôi và bạn gái."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:兴趣","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tôi rất hứng thú với âm nhạc.","answers":["我对音乐很感兴趣","我对音乐很有兴趣","我对音乐非常感兴趣","我对音乐非常有兴趣","我对音乐特别感兴趣","我对音乐特别有兴趣"],"explanation_vi":"我 + 对音乐 + 很感兴趣 / 很有兴趣."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:时段","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Chúng ta lâu lắm rồi không gặp nhau.","answers":["我们好久没见面了","咱们好久没见面了","我们很久没见面了","咱们很久没见面了","我们好久没见了","咱们好久没见了","我们很久没见了","咱们很久没见了","好久不见"],"explanation_vi":"好久 (thời lượng) + 没 + 见面 + 了. Cũng có thể dùng câu chào 好久不见."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:爱好","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我的爱好是打羽毛球。","answers_vi":["Sở thích của tôi là chơi cầu lông.","Sở thích của tôi là đánh cầu lông."],"keywords":[["sở thích","thích"],["cầu lông"]],"explanation_vi":"爱好 = sở thích; 打羽毛球 = chơi / đánh cầu lông."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:半刻差","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我们明天下午差一刻三点见面。","answers_vi":["Chiều mai chúng ta gặp nhau lúc ba giờ kém mười lăm.","Chúng tôi gặp nhau lúc 2 giờ 45 chiều mai."],"keywords":[["mai"],["chiều"],["gặp"],["ba giờ kém mười lăm","3 giờ kém 15","ba giờ kém 15","3 giờ kém mười lăm","2 giờ 45","hai giờ bốn mươi lăm","2 giờ 45 phút","14 giờ 45","ba giờ kém một khắc","2h45","14h45"]],"explanation_vi":"差一刻三点 = ba giờ kém mười lăm (2:45); 明天下午 = chiều mai."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"我们认识八年了",
+        "title_vi":"Chúng tôi quen nhau tám năm rồi",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["和","hé","và"],["小方","Xiǎo Fāng","Tiểu Phương (tên người)"],["是","shì","là"],["大学","dàxué","đại học"],["同学","tóngxué","bạn học"],["，"],["我们","wǒmen","chúng tôi"],["认识","rènshi","quen biết"],["八年","bā nián","tám năm"],["了","le","rồi"],["。"],["小方","Xiǎo Fāng","Tiểu Phương"],["对","duì","với, đối với"],["音乐","yīnyuè","âm nhạc"],["很","hěn","rất"],["感兴趣","gǎn xìngqù","có hứng thú"],["，"],["她","tā","cô ấy"],["唱歌","chàng gē","hát"],["非常","fēicháng","vô cùng"],["好听","hǎotīng","hay (nghe hay)"],["。"],["她","tā","cô ấy"],["参加","cānjiā","tham gia"],["过","guo","đã từng"],["学校","xuéxiào","trường"],["的","de","của"],["唱歌","chàng gē","ca hát"],["比赛","bǐsài","cuộc thi"],["，"],["大家","dàjiā","mọi người"],["都","dōu","đều"],["很","hěn","rất"],["喜欢","xǐhuan","thích"],["她","tā","cô ấy"],["唱","chàng","hát"],["的","de","(cái) mà"],["歌","gē","bài hát"],["。"]],
+            "vi":"Tôi và Tiểu Phương là bạn đại học, chúng tôi quen nhau tám năm rồi. Tiểu Phương rất thích âm nhạc, cô ấy hát rất hay. Cô ấy đã từng tham gia cuộc thi hát của trường, ai cũng thích những bài cô ấy hát."
+          },
+          {
+            "tokens":[["我","wǒ","tôi"],["对","duì","với"],["唱歌","chàng gē","ca hát"],["没有","méiyǒu","không có"],["兴趣","xìngqù","hứng thú"],["，"],["我","wǒ","tôi"],["的","de","của"],["爱好","àihào","sở thích"],["是","shì","là"],["画","huà","vẽ"],["画儿","huàr","tranh"],["。"],["离开","líkāi","rời khỏi"],["大学","dàxué","đại học"],["以后","yǐhòu","sau khi"],["，"],["我们","wǒmen","chúng tôi"],["分开","fēnkāi","xa nhau"],["了","le","rồi"],["："],["她","tā","cô ấy"],["去","qù","đi"],["了","le","(đã)"],["北京","Běijīng","Bắc Kinh"],["，"],["我","wǒ","tôi"],["去","qù","đi"],["了","le","(đã)"],["上海","Shànghǎi","Thượng Hải"],["。"]],
+            "vi":"Tôi không có hứng thú với ca hát, sở thích của tôi là vẽ tranh. Sau khi ra trường, chúng tôi xa nhau: cô ấy đi Bắc Kinh, còn tôi đi Thượng Hải."
+          },
+          {
+            "tokens":[["我们","wǒmen","chúng tôi"],["不能","bù néng","không thể"],["经常","jīngcháng","thường xuyên"],["见面","jiànmiàn","gặp mặt"],["，"],["可是","kěshì","nhưng"],["每天","měi tiān","mỗi ngày"],["都","dōu","đều"],["在","zài","ở, trên"],["手机","shǒujī","điện thoại"],["上","shang","trên"],["聊天儿","liáotiānr","trò chuyện"],["。"],["她","tā","cô ấy"],["给","gěi","cho"],["我","wǒ","tôi"],["看","kàn","xem"],["她","tā","cô ấy"],["的","de","của"],["照片","zhàopiàn","ảnh"],["，"],["我","wǒ","tôi"],["给","gěi","cho"],["她","tā","cô ấy"],["看","kàn","xem"],["我","wǒ","tôi"],["的","de","của"],["画儿","huàr","tranh"],["。"],["上个月","shàng ge yuè","tháng trước"],["她","tā","cô ấy"],["来","lái","đến"],["上海","Shànghǎi","Thượng Hải"],["看","kàn","thăm"],["我","wǒ","tôi"],["，"],["我们","wǒmen","chúng tôi"],["聊","liáo","trò chuyện"],["了","le","(đã)"],["五个","wǔ ge","năm"],["小时","xiǎoshí","tiếng đồng hồ"],["！"]],
+            "vi":"Chúng tôi không thể thường xuyên gặp nhau, nhưng ngày nào cũng trò chuyện qua điện thoại. Cô ấy cho tôi xem ảnh của cô ấy, tôi cho cô ấy xem tranh của tôi. Tháng trước cô ấy đến Thượng Hải thăm tôi, chúng tôi nói chuyện suốt năm tiếng đồng hồ!"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"g:时段","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”和小方认识多长时间了？","options":["八年","五年","半年","三年"],"answer":0,"explanation_vi":"Đoạn 1: 我们认识八年了."},
+          {"id":"rq2","type":"choice","tag":"g:兴趣","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小方对什么感兴趣？","options":["音乐","画画儿","羽毛球","足球"],"answer":0,"explanation_vi":"Đoạn 1: 小方对音乐很感兴趣. Vẽ tranh là sở thích của “tôi”."},
+          {"id":"rq3","type":"choice","tag":"v:爱好","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”的爱好是什么？","options":["画画儿","唱歌","踢足球","跳舞"],"answer":0,"explanation_vi":"Đoạn 2: 我的爱好是画画儿."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"离开大学以后，“我”和小方都去了北京。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 她去了北京，我去了上海 — hai người ở hai nơi khác nhau, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"上个月她们聊了五个小时。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 上个月她来上海看我，我们聊了五个小时."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Thứ Bảy bận rộn của Tiểu Điền",
+        "text_zh":"我叫小田，我的爱好很多：听音乐、唱歌，还有打羽毛球。每个星期六我都很忙。早上七点半起床，八点一刻到球场和朋友打羽毛球，一直打到十点。下午两点半，我去看足球比赛。晚上差一刻八点，我给女朋友打电话，我们常常聊一个多小时。女朋友说我的爱好太多了，可是她也很喜欢和我一起去看比赛。",
+        "pinyin":"Wǒ jiào Xiǎo Tián, wǒ de àihào hěn duō: tīng yīnyuè, chàng gē, hái yǒu dǎ yǔmáoqiú. Měi ge xīngqīliù wǒ dōu hěn máng. Zǎoshang qī diǎn bàn qǐchuáng, bā diǎn yí kè dào qiúchǎng hé péngyou dǎ yǔmáoqiú, yìzhí dǎ dào shí diǎn. Xiàwǔ liǎng diǎn bàn, wǒ qù kàn zúqiú bǐsài. Wǎnshang chà yí kè bā diǎn, wǒ gěi nǚpéngyou dǎ diànhuà, wǒmen chángcháng liáo yí ge duō xiǎoshí. Nǚpéngyou shuō wǒ de àihào tài duō le, kěshì tā yě hěn xǐhuan hé wǒ yìqǐ qù kàn bǐsài.",
+        "vi":"Tôi tên là Tiểu Điền, tôi có rất nhiều sở thích: nghe nhạc, ca hát, và cả chơi cầu lông nữa. Thứ Bảy nào tôi cũng rất bận. Sáng bảy giờ rưỡi dậy, tám giờ mười lăm đến sân chơi cầu lông với bạn, chơi một mạch đến mười giờ. Chiều hai giờ rưỡi, tôi đi xem bóng đá. Tối tám giờ kém mười lăm, tôi gọi điện cho bạn gái, chúng tôi thường nói chuyện hơn một tiếng. Bạn gái bảo tôi có quá nhiều sở thích, nhưng cô ấy cũng rất thích cùng tôi đi xem thi đấu.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"g:半刻差","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"小田几点到球场？","options":["八点一刻","七点半","十点","两点半"],"answer":0,"explanation_vi":"Nghe được: 八点一刻到球场和朋友打羽毛球."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"下午两点半小田做什么？","options":["去看足球比赛","打羽毛球","起床","给女朋友打电话"],"answer":0,"explanation_vi":"Nghe được: 下午两点半，我去看足球比赛."},
+          {"id":"lq3","type":"choice","tag":"g:半刻差","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"小田晚上几点给女朋友打电话？","options":["七点四十五","八点十五","八点四十五","八点"],"answer":0,"explanation_vi":"Nghe được: 晚上差一刻八点 = 8 giờ kém 15 = 七点四十五 (7:45)."},
+          {"id":"lq4","type":"choice","tag":"v:爱好","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"下面哪个不是小田的爱好？","options":["画画儿","听音乐","唱歌","打羽毛球"],"answer":0,"explanation_vi":"Sở thích của Tiểu Điền: 听音乐、唱歌，还有打羽毛球. Không nhắc đến vẽ tranh."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"兴趣","pinyin":"xìngqù","vi":"hứng thú","tip_vi":"兴 ở đây đọc xìng (thanh 4), không phải xīng như trong 高兴; vần -ing kết thúc ở cuống lưỡi, đừng đọc “xinh”. 趣 qù: q bật hơi, ü tròn môi, đừng đọc “khuy”."},
+      {"id":"s2","zh":"好久不见！","pinyin":"Hǎojiǔ bú jiàn!","vi":"Lâu lắm không gặp!","tip_vi":"好久 là hai thanh 3 liền nhau: 好 đọc lên như thanh 2 (háo jiǔ). 不 đứng trước 见 thanh 4 nên đọc bú. Câu chào này nói vui vẻ, nhấn vào 好久."},
+      {"id":"s3","zh":"你有什么爱好？","pinyin":"Nǐ yǒu shénme àihào?","vi":"Bạn có sở thích gì?","tip_vi":"你有 nǐ yǒu: hai thanh 3, 你 đọc như thanh 2 (ní yǒu). 爱好 àihào: CẢ HAI đều thanh 4, 好 đọc hào chứ không phải hǎo. 什么 shénme: me đọc nhẹ."},
+      {"id":"s4","zh":"现在差一刻八点。","pinyin":"Xiànzài chà yí kè bā diǎn.","vi":"Bây giờ là tám giờ kém mười lăm.","tip_vi":"差 chà: ch uốn lưỡi và bật hơi, thanh 4. 一刻 yí kè: 一 đọc thanh 2 vì đứng trước thanh 4; k bật hơi mạnh, đừng đọc thành “cơ”. 点 diǎn: -ian đọc gần “iên”."},
+      {"id":"s5","zh":"我对音乐很感兴趣。","pinyin":"Wǒ duì yīnyuè hěn gǎn xìngqù.","vi":"Tôi rất hứng thú với âm nhạc.","tip_vi":"很感 hěn gǎn: hai thanh 3, 很 đọc như thanh 2. 音乐 yīnyuè: 乐 đọc yuè (nhạc), không đọc lè. 感 gǎn kết thúc -n, 兴 xìng kết thúc -ng: đọc rõ khác nhau."},
+      {"id":"s6","zh":"我们认识五年了。","pinyin":"Wǒmen rènshi wǔ nián le.","vi":"Chúng tôi quen nhau năm năm rồi.","tip_vi":"认识 rènshi: r uốn lưỡi (không đọc “dân”), 识 đọc nhẹ. 五年 wǔ nián: 五 trước thanh 2 chỉ đọc nửa thanh 3. 年 nián: n rõ, đừng lẫn với l."},
+      {"id":"s7","zh":"咱们三年没见面了吧？","pinyin":"Zánmen sān nián méi jiànmiàn le ba?","vi":"Chúng mình ba năm rồi không gặp nhau nhỉ?","tip_vi":"三 sān: s đầu lưỡi, không phải “x” tiếng Việt. 见面 jiànmiàn: hai thanh 4 liền nhau, hạ giọng dứt khoát cả hai. 了吧 đọc nhẹ, giọng hơi kéo như đang hỏi lại cho chắc."},
+      {"id":"s8","zh":"我和她都认识五年了，我们常常一块儿唱歌、聊天儿。","pinyin":"Wǒ hé tā dōu rènshi wǔ nián le, wǒmen chángcháng yíkuàir chàng gē, liáotiānr.","vi":"Tôi và cô ấy quen nhau đã năm năm rồi, chúng tôi thường cùng nhau hát, trò chuyện.","tip_vi":"常常 chángcháng và 唱 chàng: ch uốn lưỡi, bật hơi, vần -ang. 一块儿 yíkuàir và 聊天儿 liáotiānr: cuốn lưỡi ở cuối, bỏ âm -n của 天 khi thêm 儿. Ngắt hơi ở dấu phẩy."}
+    ],
+    "review": {
+      "remember": [
+        "Thời lượng đứng SAU động từ: 我学了两年汉语 / 我学汉语学了两年; thêm 了 cuối câu = đến nay vẫn tiếp tục.",
+        "Động từ không kéo dài (认识、来、分开): + thời lượng + 了: 我们认识五年了. Bao lâu không làm: thời lượng + 没 + V + 了: 三年没见面了, 好久没见面了.",
+        "对 + N + 感兴趣 / 有兴趣: 我对音乐很感兴趣; phủ định 对……不感兴趣. Hỏi sở thích: 你有什么爱好？ (好 đọc hào).",
+        "Giờ: 三点半 (3:30), 八点一刻 (8:15), 差五分八点 = 八点差五分 (7:55); 2 giờ là 两点.",
+        "Giờ (thời điểm) đứng TRƯỚC động từ: 我们七点半见面; thời lượng đứng SAU: 我们聊了一个半小时."
+      ],
+      "mistakes": [
+        "✗ 我感兴趣音乐 → ✓ 我对音乐感兴趣: điều mình thích đứng sau 对, trước 感兴趣.",
+        "✗ 我们没见面三年了 → ✓ 我们三年没见面了: thời lượng đứng trước 没.",
+        "✗ 我知道她五年了 → ✓ 我认识她五年了: quen biết một người là 认识, không phải 知道."
+      ]
+    }
+  }
+}
