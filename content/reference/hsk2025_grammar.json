@@ -1,0 +1,3231 @@
+[
+ {
+  "level": 1,
+  "code": "G25-1-01",
+  "category": "语素 > 前缀",
+  "name_zh": "小—、第—",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-02",
+  "category": "语素 > 后缀",
+  "name_zh": "—们、—边",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-03",
+  "category": "词类 > 名词 > 方位名词",
+  "name_zh": "上、下、里、外、前、后",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-04",
+  "category": "词类 > 动词 > 能愿动词",
+  "name_zh": "会、能",
+  "examples": [],
+  "gf2021_codes": [
+   "一02"
+  ],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-05",
+  "category": "词类 > 动词 > 能愿动词",
+  "name_zh": "想、要",
+  "examples": [],
+  "gf2021_codes": [
+   "一03"
+  ],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-06",
+  "category": "词类 > 动词 > 能愿动词",
+  "name_zh": "可以",
+  "examples": [],
+  "gf2021_codes": [
+   "二01"
+  ],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-07",
+  "category": "词类 > 动词 > 离合词",
+  "name_zh": "看病、睡觉、说话、上课、下课、上班、下班、生病",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-08",
+  "category": "词类 > 代词 > 疑问代词",
+  "name_zh": "多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么、怎么样",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-09",
+  "category": "词类 > 代词 > 人称代词",
+  "name_zh": "我、你、您、他、她、我们、你们、他们、她们、它、它们、大家",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-10",
+  "category": "词类 > 代词 > 指示代词",
+  "name_zh": "这、那、这儿、那儿、这里、那里、这些、那些、有的、这个、那个、有些",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-11",
+  "category": "词类 > 数词",
+  "name_zh": "一、二/两、三、四、五、六、七、八、九、零、十、百、半、千",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-12",
+  "category": "词类 > 量词 > 名量词",
+  "name_zh": "（1）专用名量词：本、个、家、口、块、件、只、元",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-13",
+  "category": "词类 > 量词 > 名量词",
+  "name_zh": "（2）借用名量词：杯",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-14",
+  "category": "词类 > 量词 > 时量词",
+  "name_zh": "日、号、岁、点、分、年、天",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-15",
+  "category": "词类 > 副词 > 程度副词",
+  "name_zh": "非常、很、太、真、有（一）点儿",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-16",
+  "category": "词类 > 副词 > 范围副词",
+  "name_zh": "都¹",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-17",
+  "category": "词类 > 副词 > 时间副词",
+  "name_zh": "在、正在",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-18",
+  "category": "词类 > 副词 > 频率副词",
+  "name_zh": "再¹",
+  "examples": [],
+  "gf2021_codes": [
+   "三16"
+  ],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-19",
+  "category": "词类 > 副词 > 关联副词",
+  "name_zh": "还¹、也",
+  "examples": [],
+  "gf2021_codes": [
+   "一13"
+  ],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-20",
+  "category": "词类 > 副词 > 否定副词",
+  "name_zh": "不、没（有）、不要",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-21",
+  "category": "词类 > 介词 > 引出时间、处所",
+  "name_zh": "在",
+  "examples": [],
+  "gf2021_codes": [
+   "一16"
+  ],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-22",
+  "category": "词类 > 介词 > 引出对象",
+  "name_zh": "和¹、对",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-23",
+  "category": "词类 > 连词 > 连接词语或短语",
+  "name_zh": "和²",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-24",
+  "category": "词类 > 助词 > 结构助词",
+  "name_zh": "的¹",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-25",
+  "category": "词类 > 助词 > 动态助词",
+  "name_zh": "了¹",
+  "examples": [],
+  "gf2021_codes": [
+   "一21"
+  ],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-26",
+  "category": "词类 > 助词 > 语气助词",
+  "name_zh": "吧¹、了²、吗、呢¹、呢²、呢³",
+  "examples": [],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-27",
+  "category": "词类 > 叹词",
+  "name_zh": "喂",
+  "examples": [],
+  "gf2021_codes": [
+   "二36"
+  ],
+  "page": 383
+ },
+ {
+  "level": 1,
+  "code": "G25-1-28",
+  "category": "短语 > 结构类型 > 基本结构类型",
+  "name_zh": "（1）联合短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二37"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-29",
+  "category": "短语 > 结构类型 > 基本结构类型",
+  "name_zh": "（2）偏正短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二37"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-30",
+  "category": "短语 > 结构类型 > 基本结构类型",
+  "name_zh": "（3）动宾短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二37"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-31",
+  "category": "短语 > 结构类型 > 基本结构类型",
+  "name_zh": "（4）主谓短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二37"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-32",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "（1）数量短语",
+  "examples": [],
+  "gf2021_codes": [
+   "一23"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-33",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "（2）介宾短语",
+  "examples": [],
+  "gf2021_codes": [
+   "三32"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-34",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "（3）方位短语",
+  "examples": [],
+  "gf2021_codes": [
+   "三32"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-35",
+  "category": "句子成分 > 主语",
+  "name_zh": "名词、代词或名词性短语作主语",
+  "examples": [],
+  "gf2021_codes": [
+   "一24"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-36",
+  "category": "句子成分 > 谓语",
+  "name_zh": "名词、代词、数词或数量短语作谓语",
+  "examples": [],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-37",
+  "category": "句子成分 > 谓语",
+  "name_zh": "动词或动词性短语、形容词或形容词性短语作谓语",
+  "examples": [],
+  "gf2021_codes": [
+   "一25"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-38",
+  "category": "句子成分 > 宾语",
+  "name_zh": "名词、代词或名词性短语作宾语",
+  "examples": [],
+  "gf2021_codes": [
+   "一26"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-39",
+  "category": "句子成分 > 定语",
+  "name_zh": "名词性词语、形容词性短语、数量短语作定语",
+  "examples": [],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-40",
+  "category": "句子成分 > 状语",
+  "name_zh": "副词、形容词作状语表示时间、处所的词语作状语",
+  "examples": [],
+  "gf2021_codes": [
+   "一28"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-41",
+  "category": "句子成分 > 补语 > 数量补语1",
+  "name_zh": "动词+动量补语",
+  "examples": [],
+  "gf2021_codes": [
+   "二52"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-42",
+  "category": "句子的类型 > 句型 > 单句",
+  "name_zh": "主谓句1：动词谓语句",
+  "examples": [],
+  "gf2021_codes": [
+   "一29"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-43",
+  "category": "句子的类型 > 句型 > 单句",
+  "name_zh": "主谓句2：形容词谓语句",
+  "examples": [],
+  "gf2021_codes": [
+   "一30"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-44",
+  "category": "句子的类型 > 句型 > 单句",
+  "name_zh": "主谓句3：名词谓语句",
+  "examples": [],
+  "gf2021_codes": [
+   "二54"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-45",
+  "category": "句子的类型 > 句型 > 单句",
+  "name_zh": "非主谓句",
+  "examples": [],
+  "gf2021_codes": [
+   "一31"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-46",
+  "category": "句子的类型 > 句类 > 陈述句",
+  "name_zh": "陈述句",
+  "examples": [],
+  "gf2021_codes": [
+   "一32"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-47",
+  "category": "句子的类型 > 句类 > 疑问句",
+  "name_zh": "（1）是非问句",
+  "examples": [],
+  "gf2021_codes": [
+   "一33"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-48",
+  "category": "句子的类型 > 句类 > 疑问句",
+  "name_zh": "（2）特指问句",
+  "examples": [],
+  "gf2021_codes": [
+   "一33"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-49",
+  "category": "句子的类型 > 句类 > 疑问句",
+  "name_zh": "（3）正反问句",
+  "examples": [],
+  "gf2021_codes": [
+   "一33"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-50",
+  "category": "句子的类型 > 句类 > 祈使句",
+  "name_zh": "祈使句",
+  "examples": [],
+  "gf2021_codes": [
+   "一34"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-51",
+  "category": "句子的类型 > 句类 > 感叹句",
+  "name_zh": "感叹句",
+  "examples": [],
+  "gf2021_codes": [
+   "一35"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-52",
+  "category": "句子的类型 > 特殊句型 > “是”字句1",
+  "name_zh": "表示等同或类属",
+  "examples": [],
+  "gf2021_codes": [
+   "一36"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-53",
+  "category": "句子的类型 > 特殊句型 > “有”字句1",
+  "name_zh": "表示领有",
+  "examples": [],
+  "gf2021_codes": [
+   "一37"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-54",
+  "category": "句子的类型 > 特殊句型 > 存现句1",
+  "name_zh": "（1）所处+是+名词",
+  "examples": [],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-55",
+  "category": "句子的类型 > 特殊句型 > 存现句1",
+  "name_zh": "（2）处所+有+数量短语+名词",
+  "examples": [],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-56",
+  "category": "句子的类型 > 特殊句型 > 连动句1",
+  "name_zh": "（1）前后动作先后发生，后一动作是前一动作的目的",
+  "examples": [],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-57",
+  "category": "句子的类型 > 特殊句型 > 连动句1",
+  "name_zh": "（2）前一动作是后一动作的方式",
+  "examples": [],
+  "gf2021_codes": [
+   "三56"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-58",
+  "category": "句子的类型 > 特殊句型 > 双宾语句1",
+  "name_zh": "主语+动词+宾语1+宾语2",
+  "examples": [],
+  "gf2021_codes": [
+   "二61"
+  ],
+  "page": 384
+ },
+ {
+  "level": 1,
+  "code": "G25-1-59",
+  "category": "句子的类型 > 复句 > 不用关联词语的复句",
+  "name_zh": "不用关联词语的复句",
+  "examples": [],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-60",
+  "category": "句子的类型 > 复句 > 并列复句",
+  "name_zh": "……，也……",
+  "examples": [],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-61",
+  "category": "句子的类型 > 复句 > 并列复句",
+  "name_zh": "……，还……",
+  "examples": [],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-62",
+  "category": "动作的态 > 完成态",
+  "name_zh": "用动态助词“了¹”表示",
+  "examples": [],
+  "gf2021_codes": [
+   "一40",
+   "一41"
+  ],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-63",
+  "category": "动作的态 > 变化态",
+  "name_zh": "用动态助词“了²”表示",
+  "examples": [],
+  "gf2021_codes": [
+   "一40",
+   "一41"
+  ],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-64",
+  "category": "动作的态 > 进行态",
+  "name_zh": "（1）……在/正在+动词",
+  "examples": [],
+  "gf2021_codes": [
+   "一42"
+  ],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-65",
+  "category": "动作的态 > 进行态",
+  "name_zh": "（2）……在/正在+动词……+呢",
+  "examples": [],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-66",
+  "category": "动作的态 > 进行态",
+  "name_zh": "（3）……呢",
+  "examples": [],
+  "gf2021_codes": [
+   "一42"
+  ],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-67",
+  "category": "特殊表达法 > 数的表达法",
+  "name_zh": "钱数表示法",
+  "examples": [],
+  "gf2021_codes": [
+   "一43"
+  ],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-68",
+  "category": "特殊表达法 > 数的表达法",
+  "name_zh": "序数表达法1：第+数词",
+  "examples": [],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-69",
+  "category": "特殊表达法 > 时间表示法",
+  "name_zh": "（1）年、月、日、星期表示法",
+  "examples": [],
+  "gf2021_codes": [
+   "一44"
+  ],
+  "page": 385
+ },
+ {
+  "level": 1,
+  "code": "G25-1-70",
+  "category": "特殊表达法 > 时间表示法",
+  "name_zh": "（2）钟点表示法",
+  "examples": [],
+  "gf2021_codes": [
+   "一44"
+  ],
+  "page": 385
+ },
+ {
+  "level": 2,
+  "code": "G25-2-01",
+  "category": "语素 > 后缀",
+  "name_zh": "面",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-02",
+  "category": "词类 > 名词 > 方位名词",
+  "name_zh": "左、右",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-03",
+  "category": "词类 > 动词 > 动词重叠",
+  "name_zh": "AA、A一A、A了A、ABAB",
+  "examples": [],
+  "gf2021_codes": [
+   "二04"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-04",
+  "category": "词类 > 动词 > 能愿动词",
+  "name_zh": "可能",
+  "examples": [],
+  "gf2021_codes": [
+   "二01"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-05",
+  "category": "词类 > 动词 > 离合词",
+  "name_zh": "帮忙、游泳、跳舞、跑步",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-06",
+  "category": "词类 > 代词 > 疑问代词",
+  "name_zh": "为什么",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-07",
+  "category": "词类 > 代词 > 人称代词",
+  "name_zh": "自己",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-08",
+  "category": "词类 > 代词 > 指示代词",
+  "name_zh": "那么、那样、这么、这样、每",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-09",
+  "category": "词类 > 形容词 > 形容词重叠",
+  "name_zh": "AA、AABB",
+  "examples": [],
+  "gf2021_codes": [
+   "二08"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-10",
+  "category": "词类 > 数词",
+  "name_zh": "万、好多、多",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-11",
+  "category": "词类 > 量词 > 名量词",
+  "name_zh": "（1）专用名量词：条、位、间、名",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-12",
+  "category": "词类 > 量词 > 名量词",
+  "name_zh": "（2）借用名量词：包",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-13",
+  "category": "词类 > 量词 > 动量词",
+  "name_zh": "次",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-14",
+  "category": "词类 > 副词 > 程度副词",
+  "name_zh": "多、好、最",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-15",
+  "category": "词类 > 副词 > 范围副词",
+  "name_zh": "一起",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-16",
+  "category": "词类 > 副词 > 时间副词",
+  "name_zh": "还²、已经、有时（候）、快、快要、正",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-17",
+  "category": "词类 > 副词 > 频率副词",
+  "name_zh": "常、经常",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-18",
+  "category": "词类 > 副词 > 否定副词",
+  "name_zh": "别",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-19",
+  "category": "词类 > 副词 > 关联副词",
+  "name_zh": "再²、就¹",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-20",
+  "category": "词类 > 副词 > 语气副词",
+  "name_zh": "都²、就²、还是¹",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-21",
+  "category": "词类 > 介词 > 引出时间、处所",
+  "name_zh": "从¹",
+  "examples": [],
+  "gf2021_codes": [
+   "一15",
+   "二24"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-22",
+  "category": "词类 > 介词 > 引出方向、路径",
+  "name_zh": "往",
+  "examples": [],
+  "gf2021_codes": [
+   "二22"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-23",
+  "category": "词类 > 介词 > 引出方向、路径",
+  "name_zh": "从²",
+  "examples": [],
+  "gf2021_codes": [
+   "一15",
+   "二24"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-24",
+  "category": "词类 > 介词 > 引出对象",
+  "name_zh": "给",
+  "examples": [],
+  "gf2021_codes": [
+   "二26"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-25",
+  "category": "词类 > 介词 > 引出对象",
+  "name_zh": "比",
+  "examples": [],
+  "gf2021_codes": [
+   "一18"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-26",
+  "category": "词类 > 介词 > 引出对象",
+  "name_zh": "跟¹",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-27",
+  "category": "词类 > 介词 > 引出原因",
+  "name_zh": "因为¹",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-28",
+  "category": "词类 > 连词 > 连接词或短语",
+  "name_zh": "跟²",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-29",
+  "category": "词类 > 连词 > 连接分句或者句子",
+  "name_zh": "但、但是、那、虽然、还是²、因为²、所以",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-30",
+  "category": "词类 > 助词 > 结构助词",
+  "name_zh": "得、地",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-31",
+  "category": "词类 > 助词 > 动态助词",
+  "name_zh": "过",
+  "examples": [],
+  "gf2021_codes": [
+   "二32"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-32",
+  "category": "词类 > 助词 > 动态助词",
+  "name_zh": "着",
+  "examples": [],
+  "gf2021_codes": [
+   "二33"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-33",
+  "category": "词类 > 助词 > 语气助词",
+  "name_zh": "呢⁴、吧²、的²、啊¹",
+  "examples": [],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-34",
+  "category": "短语 > 结构类型 > 基本结构类型",
+  "name_zh": "动补短语1",
+  "examples": [],
+  "gf2021_codes": [
+   "二37"
+  ],
+  "page": 386
+ },
+ {
+  "level": 2,
+  "code": "G25-2-35",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "（1）“的”字短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二38"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-36",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "（2）连谓短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二38"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-37",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "（3）兼语短语",
+  "examples": [],
+  "gf2021_codes": [
+   "三32"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-38",
+  "category": "短语 > 功能类型 > 名词性短语",
+  "name_zh": "名词性短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二39"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-39",
+  "category": "短语 > 功能类型 > 动词性短语",
+  "name_zh": "动词性短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二40"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-40",
+  "category": "短语 > 功能类型 > 形容词性短语",
+  "name_zh": "形容词性短语",
+  "examples": [],
+  "gf2021_codes": [
+   "二41"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-41",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "什么的",
+  "examples": [],
+  "gf2021_codes": [
+   "二43"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-42",
+  "category": "固定格式",
+  "name_zh": "还是……吧",
+  "examples": [],
+  "gf2021_codes": [
+   "二45"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-43",
+  "category": "固定格式",
+  "name_zh": "要/快要/就要……了",
+  "examples": [],
+  "gf2021_codes": [
+   "二81"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-44",
+  "category": "固定格式",
+  "name_zh": "都……了",
+  "examples": [],
+  "gf2021_codes": [
+   "三79"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-45",
+  "category": "句子成分 > 主语",
+  "name_zh": "受事主语",
+  "examples": [],
+  "gf2021_codes": [
+   "四35"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-46",
+  "category": "句子成分 > 谓语",
+  "name_zh": "名词性短语作谓语",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-47",
+  "category": "句子成分 > 定语",
+  "name_zh": "动词或动词性短语、主谓短语作定语",
+  "examples": [],
+  "gf2021_codes": [
+   "三45"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-48",
+  "category": "句子成分 > 补语 > 结果补语1",
+  "name_zh": "动词+错/懂/好/会/完",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-49",
+  "category": "句子成分 > 补语 > 趋向补语1",
+  "name_zh": "简单趋向补语的趋向意义用法：（1）动词+来/去",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-50",
+  "category": "句子成分 > 补语 > 趋向补语1",
+  "name_zh": "（2）动词+上/下/进/出/过/回",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-51",
+  "category": "句子成分 > 补语 > 趋向补语1",
+  "name_zh": "复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去",
+  "examples": [],
+  "gf2021_codes": [
+   "三47"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-52",
+  "category": "句子成分 > 补语 > 状态补语1",
+  "name_zh": "动词+得+形容词性短语",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-53",
+  "category": "句子成分 > 补语 > 数量补语2",
+  "name_zh": "（1）表示动作持续的时间",
+  "examples": [],
+  "gf2021_codes": [
+   "三51"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-54",
+  "category": "句子成分 > 补语 > 数量补语2",
+  "name_zh": "（2）形容词+数量补语",
+  "examples": [],
+  "gf2021_codes": [
+   "二53"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-55",
+  "category": "句子的类型 > 句型 > 单句",
+  "name_zh": "主谓句4：主谓谓语句",
+  "examples": [],
+  "gf2021_codes": [
+   "三53"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-56",
+  "category": "句子的类型 > 句类 > 疑问句",
+  "name_zh": "用“还是”连接的选择问句",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-57",
+  "category": "句子的类型 > 句类 > 祈使句",
+  "name_zh": "用“别”的祈使句",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-58",
+  "category": "句子的类型 > 特殊句式 > “是”字句2",
+  "name_zh": "表示说明或特征",
+  "examples": [],
+  "gf2021_codes": [
+   "一36"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-59",
+  "category": "句子的类型 > 特殊句式 > “有”字句2",
+  "name_zh": "表示达到",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-60",
+  "category": "句子的类型 > 特殊句式 > 存现句2",
+  "name_zh": "处所+动词+着（+数量短语）+名词",
+  "examples": [],
+  "gf2021_codes": [
+   "二56"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-61",
+  "category": "句子的类型 > 特殊句式 > 比较句1",
+  "name_zh": "（1）A比B+形容词",
+  "examples": [],
+  "gf2021_codes": [
+   "一38"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-62",
+  "category": "句子的类型 > 特殊句式 > 比较句1",
+  "name_zh": "（2）A比B+形容词+数量补语/程度补语",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-63",
+  "category": "句子的类型 > 特殊句式 > 比较句1",
+  "name_zh": "（3）A有/没有B（+这么/那么）+形容词",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-64",
+  "category": "句子的类型 > 特殊句式 > 比较句1",
+  "name_zh": "（4）A比B+动词+得+形容词/A+动词+得+比+B+形容词",
+  "examples": [],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-65",
+  "category": "句子的类型 > 特殊句式 > “是……的”句1",
+  "name_zh": "强调时间、地点、方式、动作者",
+  "examples": [],
+  "gf2021_codes": [
+   "二60"
+  ],
+  "page": 387
+ },
+ {
+  "level": 2,
+  "code": "G25-2-66",
+  "category": "句子的类型 > 特殊句式 > 兼语句1",
+  "name_zh": "表使令：主语+请/叫/让……+宾语1+动词+宾语2",
+  "examples": [],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-67",
+  "category": "句子的类型 > 特殊句式 > 双宾语句2",
+  "name_zh": "主语+动词+给+宾语1+宾语2",
+  "examples": [],
+  "gf2021_codes": [
+   "二61"
+  ],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-68",
+  "category": "句子的类型 > 复句 > 选择复句",
+  "name_zh": "（是）……，还是……",
+  "examples": [],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-69",
+  "category": "句子的类型 > 复句 > 转折复句",
+  "name_zh": "虽然……，但是……",
+  "examples": [],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-70",
+  "category": "句子的类型 > 复句 > 因果复句",
+  "name_zh": "因为……，所以……",
+  "examples": [],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-71",
+  "category": "句子的类型 > 复句 > 紧缩复句",
+  "name_zh": "一……就……",
+  "examples": [],
+  "gf2021_codes": [
+   "二69"
+  ],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-72",
+  "category": "动作的态 > 持续态",
+  "name_zh": "动词+着：（1）表示状态的持续",
+  "examples": [],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-73",
+  "category": "动作的态 > 持续态",
+  "name_zh": "（2）表示动作的持续",
+  "examples": [],
+  "gf2021_codes": [
+   "二70"
+  ],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-74",
+  "category": "动作的态 > 经历态",
+  "name_zh": "用动态助词“过”表示",
+  "examples": [],
+  "gf2021_codes": [
+   "二71"
+  ],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-75",
+  "category": "特殊表达法 > 数的表达法",
+  "name_zh": "序数表示法2：数词+量词",
+  "examples": [],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-76",
+  "category": "特殊表达法 > 数的表达法",
+  "name_zh": "概数表达法1：（1）用“几”表示概数",
+  "examples": [],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-77",
+  "category": "特殊表达法 > 数的表达法",
+  "name_zh": "（2）数词+多+量词",
+  "examples": [],
+  "gf2021_codes": [
+   "二73"
+  ],
+  "page": 388
+ },
+ {
+  "level": 2,
+  "code": "G25-2-78",
+  "category": "特殊表达法 > 数的表达法",
+  "name_zh": "（3）数词+量词+多",
+  "examples": [],
+  "gf2021_codes": [
+   "二73"
+  ],
+  "page": 388
+ },
+ {
+  "level": 3,
+  "code": "G25-3-01",
+  "category": "语素 > 前缀",
+  "name_zh": "老—",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-02",
+  "category": "语素 > 后缀",
+  "name_zh": "—家、—子、—员",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-03",
+  "category": "词类 > 名词 > 方位名词",
+  "name_zh": "东、南、西、北、北方、东方、南方、西方、中间",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-04",
+  "category": "词类 > 动词 > 能愿动词",
+  "name_zh": "需要、该、应该、愿意、得",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-05",
+  "category": "词类 > 动词 > 离合词",
+  "name_zh": "动宾式离合词：放假、见面、结婚、洗澡",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-06",
+  "category": "词类 > 动词 > 离合词",
+  "name_zh": "动补式离合词：离开、完成、分开",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-07",
+  "category": "词类 > 代词 > 疑问代词",
+  "name_zh": "怎样",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-08",
+  "category": "词类 > 代词 > 疑问代词",
+  "name_zh": "疑问代词的非疑问用法：（1）任指用法：①疑问代词+都……②疑问代词+疑问代词",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-09",
+  "category": "词类 > 代词 > 疑问代词",
+  "name_zh": "（2）不定指用法",
+  "examples": [],
+  "gf2021_codes": [
+   "三07"
+  ],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-10",
+  "category": "词类 > 代词 > 人称代词",
+  "name_zh": "别人、咱们",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-11",
+  "category": "词类 > 代词 > 指示代词",
+  "name_zh": "别的、其他",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-12",
+  "category": "词类 > 量词 > 名量词",
+  "name_zh": "（1）专用名量词：把、双、张、种、层、封、页、辆、节、所、班、段、头、句、公斤、斤、角、毛、刻、米",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-13",
+  "category": "词类 > 量词 > 名量词",
+  "name_zh": "（2）借用名量词：碗、盘",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-14",
+  "category": "词类 > 量词 > 动量词",
+  "name_zh": "口、回、遍、声",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-15",
+  "category": "词类 > 量词 > 量词重叠",
+  "name_zh": "个个、张张",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-16",
+  "category": "词类 > 副词 > 程度副词",
+  "name_zh": "比较、还³、更、特别、挺、有些、越、极",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-17",
+  "category": "词类 > 副词 > 范围副词",
+  "name_zh": "就³、一块儿、一共、只、到处、只是",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-18",
+  "category": "词类 > 副词 > 时间副词",
+  "name_zh": "才¹、马上、先、一会儿、刚、刚刚、一直",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-19",
+  "category": "词类 > 副词 > 频率副词",
+  "name_zh": "总、总是、又、常常",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-20",
+  "category": "词类 > 副词 > 关联副词",
+  "name_zh": "一边",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-21",
+  "category": "词类 > 副词 > 情态副词",
+  "name_zh": "大概、必须、差不多、一定、好像、几乎",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-22",
+  "category": "词类 > 副词 > 语气副词",
+  "name_zh": "当然、其实、终于、才²、才³、就⁴",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-23",
+  "category": "词类 > 副词 > 否定副词",
+  "name_zh": "不必、不用",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-24",
+  "category": "词类 > 介词 > 引出对象",
+  "name_zh": "为¹、向¹、关于",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-25",
+  "category": "词类 > 介词 > 引出方向、路径",
+  "name_zh": "向²",
+  "examples": [],
+  "gf2021_codes": [
+   "二23",
+   "三24"
+  ],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-26",
+  "category": "词类 > 介词 > 引出目的、原因",
+  "name_zh": "为了、为²",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-27",
+  "category": "词类 > 介词 > 引出施事、受事",
+  "name_zh": "把、被",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-28",
+  "category": "词类 > 介词 > 引出凭借、依据",
+  "name_zh": "根据",
+  "examples": [],
+  "gf2021_codes": [
+   "四17"
+  ],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-29",
+  "category": "词类 > 连词 > 连接词或者短语",
+  "name_zh": "或、或者",
+  "examples": [],
+  "gf2021_codes": [
+   "二29"
+  ],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-30",
+  "category": "词类 > 连词 > 连接分句或句子",
+  "name_zh": "只有、只要、不但、而且、如果、可¹、可是、然后",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-31",
+  "category": "词类 > 助词 > 其他助词",
+  "name_zh": "的话",
+  "examples": [],
+  "page": 389
+ },
+ {
+  "level": 3,
+  "code": "G25-3-32",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "同位短语",
+  "examples": [],
+  "gf2021_codes": [
+   "三32"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-33",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "动补短语2",
+  "examples": [],
+  "gf2021_codes": [
+   "二37"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-34",
+  "category": "短语 > 结构类型 > 其他结构类型",
+  "name_zh": "数量重叠：数词+量词+数词+量词",
+  "examples": [],
+  "gf2021_codes": [
+   "三33"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-35",
+  "category": "短语 > 固定短语 > 四字格",
+  "name_zh": "不A不B",
+  "examples": [],
+  "gf2021_codes": [
+   "三34"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-36",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "不一会儿",
+  "examples": [],
+  "gf2021_codes": [
+   "二42"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-37",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "看来",
+  "examples": [],
+  "gf2021_codes": [
+   "四25"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-38",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "在……看来",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-39",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "越来越",
+  "examples": [],
+  "gf2021_codes": [
+   "二44"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-40",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "看起来",
+  "examples": [],
+  "gf2021_codes": [
+   "三35"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-41",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "看上去",
+  "examples": [],
+  "gf2021_codes": [
+   "三36"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-42",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "一般来说",
+  "examples": [],
+  "gf2021_codes": [
+   "四28"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-43",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "不怎么样",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-44",
+  "category": "固定格式",
+  "name_zh": "除了……（以外），……还/也/都……",
+  "examples": [],
+  "gf2021_codes": [
+   "三38"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-45",
+  "category": "固定格式",
+  "name_zh": "从……起",
+  "examples": [],
+  "gf2021_codes": [
+   "三39"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-46",
+  "category": "固定格式",
+  "name_zh": "对……来说",
+  "examples": [],
+  "gf2021_codes": [
+   "三40"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-47",
+  "category": "固定格式",
+  "name_zh": "一……也/都+不/没……",
+  "examples": [],
+  "gf2021_codes": [
+   "三41"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-48",
+  "category": "固定格式",
+  "name_zh": "一点儿也不",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-49",
+  "category": "固定格式",
+  "name_zh": "越……越……",
+  "examples": [],
+  "gf2021_codes": [
+   "三42"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-50",
+  "category": "固定格式",
+  "name_zh": "（在）……以前/以后/前/后",
+  "examples": [],
+  "gf2021_codes": [
+   "二47"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-51",
+  "category": "固定格式",
+  "name_zh": "X什么（啊）",
+  "examples": [],
+  "gf2021_codes": [
+   "三81"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-52",
+  "category": "固定格式",
+  "name_zh": "该……了",
+  "examples": [],
+  "gf2021_codes": [
+   "二80"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-53",
+  "category": "固定格式",
+  "name_zh": "在……上/下/中",
+  "examples": [],
+  "gf2021_codes": [
+   "四33"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-54",
+  "category": "句子成分 > 主语",
+  "name_zh": "动词或动词性短语、形容词或形容词性短语作主语",
+  "examples": [],
+  "gf2021_codes": [
+   "三43"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-55",
+  "category": "句子成分 > 主语",
+  "name_zh": "主谓短语作主语",
+  "examples": [],
+  "gf2021_codes": [
+   "四34"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-56",
+  "category": "句子成分 > 定语",
+  "name_zh": "多项定语",
+  "examples": [],
+  "gf2021_codes": [
+   "四36"
+  ],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-57",
+  "category": "句子成分 > 补语 > 结果补语2",
+  "name_zh": "动词+到/住/走/上",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-58",
+  "category": "句子成分 > 补语 > 趋向补语2",
+  "name_zh": "趋向补语的引申用法：（1）表示结果意义：动词+出/起/下",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-59",
+  "category": "句子成分 > 补语 > 趋向补语2",
+  "name_zh": "（2）表示动作行为的开始：动词+上/起来",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-60",
+  "category": "句子成分 > 补语 > 趋向补语2",
+  "name_zh": "（3）表示动作行为的持续：动词+下去/下来",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-61",
+  "category": "句子成分 > 补语 > 可能补语1",
+  "name_zh": "动词+得/不+动词/形容词",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-62",
+  "category": "句子成分 > 补语 > 程度补语1",
+  "name_zh": "（1）形容词+得很",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-63",
+  "category": "句子成分 > 补语 > 程度补语1",
+  "name_zh": "（2）形容词/动词+极了/坏了",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-64",
+  "category": "句子成分 > 补语 > 数量补语3",
+  "name_zh": "表示动作结束到某个时间点的间隔时间",
+  "examples": [],
+  "page": 390
+ },
+ {
+  "level": 3,
+  "code": "G25-3-65",
+  "category": "句子的类型 > 句类 > 疑问句",
+  "name_zh": "“怎样+动词”的特指问句",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-66",
+  "category": "句子的类型 > 句类 > 反问句1",
+  "name_zh": "用反问句表示强调：不是……吗？",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-67",
+  "category": "句子的类型 > 特殊句型 > “把”字句1",
+  "name_zh": "（1）主语+把+宾语+动词+在/到+处所",
+  "examples": [],
+  "gf2021_codes": [
+   "三54"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-68",
+  "category": "句子的类型 > 特殊句型 > “把”字句1",
+  "name_zh": "（2）主语+把+宾语1+动词（+给）+宾语2",
+  "examples": [],
+  "gf2021_codes": [
+   "三54"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-69",
+  "category": "句子的类型 > 特殊句型 > “把”字句1",
+  "name_zh": "（3）主语+把+宾语+动词+结果补语/趋向补语/状态补语",
+  "examples": [],
+  "gf2021_codes": [
+   "三54"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-70",
+  "category": "句子的类型 > 特殊句型 > 被动句1",
+  "name_zh": "（1）主语+被+宾语+动词+其他成分",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-71",
+  "category": "句子的类型 > 特殊句型 > 被动句1",
+  "name_zh": "（2）主语+被+动词+其他成分",
+  "examples": [],
+  "gf2021_codes": [
+   "四39"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-72",
+  "category": "句子的类型 > 特殊句型 > 连动句2",
+  "name_zh": "“着”表示动作的伴随：动词1+着+动词2",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-73",
+  "category": "句子的类型 > 特殊句型 > 比较句2",
+  "name_zh": "（1）A比B+更/还+形容词",
+  "examples": [],
+  "gf2021_codes": [
+   "二58"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-74",
+  "category": "句子的类型 > 特殊句型 > 比较句2",
+  "name_zh": "（2）A跟B一样",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-75",
+  "category": "句子的类型 > 特殊句型 > 比较句2",
+  "name_zh": "（3）A跟B一样+形容词",
+  "examples": [],
+  "gf2021_codes": [
+   "二59"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-76",
+  "category": "句子的类型 > 特殊句型 > 比较句2",
+  "name_zh": "（4）A不比B+形容词",
+  "examples": [],
+  "gf2021_codes": [
+   "三58"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-77",
+  "category": "句子的类型 > 特殊句型 > 比较句2",
+  "name_zh": "（5）A比B+多/少/早/晚+动词+数量短语",
+  "examples": [],
+  "gf2021_codes": [
+   "三58"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-78",
+  "category": "句子的类型 > 特殊句型 > 存现句3",
+  "name_zh": "（1）表示出现：处所词+动词+趋向补语/结果补语+动态助词（了）+数量短语+人/物",
+  "examples": [],
+  "gf2021_codes": [
+   "四40"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-79",
+  "category": "句子的类型 > 特殊句型 > 存现句3",
+  "name_zh": "（2）表示消失：处所词+动词+结果补语+动态助词（了）+数量短语+人/物",
+  "examples": [],
+  "gf2021_codes": [
+   "四40"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-80",
+  "category": "句子的类型 > 特殊句型 > “是……的”句2",
+  "name_zh": "强调说话人的看法或态度",
+  "examples": [],
+  "gf2021_codes": [
+   "四42"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-81",
+  "category": "句子的类型 > 特殊句型 > 重动句",
+  "name_zh": "主语+动词+宾语+动词+补语",
+  "examples": [],
+  "gf2021_codes": [
+   "三59"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-82",
+  "category": "句子的类型 > 复句 > 承接复句",
+  "name_zh": "先……，再/然后……",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-83",
+  "category": "句子的类型 > 复句 > 选择复句",
+  "name_zh": "或者……，或者……",
+  "examples": [],
+  "gf2021_codes": [
+   "四48"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-84",
+  "category": "句子的类型 > 复句 > 并列复句",
+  "name_zh": "一会儿……，一会儿……",
+  "examples": [],
+  "gf2021_codes": [
+   "三61"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-85",
+  "category": "句子的类型 > 复句 > 并列复句",
+  "name_zh": "又……，又……",
+  "examples": [],
+  "gf2021_codes": [
+   "二46",
+   "三63"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-86",
+  "category": "句子的类型 > 复句 > 并列复句",
+  "name_zh": "一边……，一边……",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-87",
+  "category": "句子的类型 > 复句 > 递进复句",
+  "name_zh": "不但……，而且……",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-88",
+  "category": "句子的类型 > 复句 > 转折复句",
+  "name_zh": "虽然……，可是……",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-89",
+  "category": "句子的类型 > 复句 > 假设复句",
+  "name_zh": "如果……，就……",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-90",
+  "category": "句子的类型 > 复句 > 假设复句",
+  "name_zh": "……的话，就……",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-91",
+  "category": "句子的类型 > 复句 > 条件复句",
+  "name_zh": "只有……，才……",
+  "examples": [],
+  "gf2021_codes": [
+   "三70"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-92",
+  "category": "句子的类型 > 复句 > 条件复句",
+  "name_zh": "只要……，就……",
+  "examples": [],
+  "gf2021_codes": [
+   "二67"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-93",
+  "category": "句子的类型 > 复句 > 目的复句",
+  "name_zh": "为了……，……",
+  "examples": [],
+  "gf2021_codes": [
+   "三26",
+   "三72"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-94",
+  "category": "句子的类型 > 复句 > 紧缩复句",
+  "name_zh": "……了……（就）……",
+  "examples": [],
+  "gf2021_codes": [
+   "三73"
+  ],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-95",
+  "category": "特殊表达法 > 数的表达法",
+  "name_zh": "概数表达法2：（1）用“大概”表示概数",
+  "examples": [],
+  "page": 391
+ },
+ {
+  "level": 3,
+  "code": "G25-3-96",
+  "category": "特殊表达法 > 数的表达法",
+  "name_zh": "（2）相邻数词连用表示概数",
+  "examples": [],
+  "gf2021_codes": [
+   "三74"
+  ],
+  "page": 391
+ },
+ {
+  "level": 4,
+  "code": "G25-4-01",
+  "category": "词类 > 动词 > 能愿动词",
+  "name_zh": "敢",
+  "examples": [],
+  "gf2021_codes": [
+   "三03"
+  ],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-02",
+  "category": "词类 > 代词 > 指示代词",
+  "name_zh": "各、各位、各种、任何、此",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-03",
+  "category": "词类 > 量词 > 名量词",
+  "name_zh": "（1）专用名量词：打、袋、棵、台、幅",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-04",
+  "category": "词类 > 量词 > 名量词",
+  "name_zh": "（2）借用名量词：脸、手、盒、屋子、桌子",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-05",
+  "category": "词类 > 量词 > 动量词",
+  "name_zh": "场、顿、趟",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-06",
+  "category": "词类 > 副词 > 程度副词",
+  "name_zh": "十分、更加、稍、稍微、尤其、多么",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-07",
+  "category": "词类 > 副词 > 范围副词",
+  "name_zh": "共、全、光、仅、仅仅、至少",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-08",
+  "category": "词类 > 副词 > 时间副词",
+  "name_zh": "按时、从来、赶紧、赶快、已、忽然、将、将要、从、本来",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-09",
+  "category": "词类 > 副词 > 频率副词",
+  "name_zh": "重新、往往、偶尔、再次、老",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-10",
+  "category": "词类 > 副词 > 方式副词",
+  "name_zh": "故意、互相、相互",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-11",
+  "category": "词类 > 副词 > 关联副词",
+  "name_zh": "却",
+  "examples": [],
+  "gf2021_codes": [
+   "四09"
+  ],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-12",
+  "category": "词类 > 副词 > 情态副词",
+  "name_zh": "也许、恐怕",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-13",
+  "category": "词类 > 副词 > 语气副词",
+  "name_zh": "才⁴、就⁵、并¹、还⁴、竟然、究竟、正好、到底、难道、千万、确实、只好、差（一）点儿",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-14",
+  "category": "词类 > 介词 > 引出时间、处所",
+  "name_zh": "自、当、由¹、随着、等¹",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-15",
+  "category": "词类 > 介词 > 引出施事、受事",
+  "name_zh": "将、由²、叫、让",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-16",
+  "category": "词类 > 介词 > 引出原因",
+  "name_zh": "由于¹",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-17",
+  "category": "词类 > 介词 > 引出对象",
+  "name_zh": "对于、与¹",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-18",
+  "category": "词类 > 介词 > 引出凭借、依据",
+  "name_zh": "作为、按、按照",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-19",
+  "category": "词类 > 连词 > 连接词或词组",
+  "name_zh": "并²、而¹、与²",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-20",
+  "category": "词类 > 连词 > 连接分句或句子",
+  "name_zh": "此外、而²、既然、甚至、不过、并且",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-21",
+  "category": "词类 > 连词 > 连接分句或句子",
+  "name_zh": "不光、不仅、另外、要是、因此、由于²、加上",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-22",
+  "category": "词类 > 助词 > 其他助词",
+  "name_zh": "等²、者、之、就是",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-23",
+  "category": "词类 > 叹词",
+  "name_zh": "啊、嗯",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-24",
+  "category": "短语 > 结构类型",
+  "name_zh": "数词+形容词+量词",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-25",
+  "category": "短语 > 固定短语 > 四字格",
+  "name_zh": "一A一B",
+  "examples": [],
+  "gf2021_codes": [
+   "四24"
+  ],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-26",
+  "category": "短语 > 固定短语 > 四字格",
+  "name_zh": "无A无B",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-27",
+  "category": "短语 > 固定短语 > 四字格",
+  "name_zh": "有A有B",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-28",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "来得及/来不及",
+  "examples": [],
+  "gf2021_codes": [
+   "四26"
+  ],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-29",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "有的是",
+  "examples": [],
+  "gf2021_codes": [
+   "三37"
+  ],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-30",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "说不定",
+  "examples": [],
+  "gf2021_codes": [
+   "四27"
+  ],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-31",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "不怎么",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-32",
+  "category": "短语 > 固定短语 > 其他",
+  "name_zh": "就是说/这就是说",
+  "examples": [],
+  "page": 392
+ },
+ {
+  "level": 4,
+  "code": "G25-4-33",
+  "category": "固定格式",
+  "name_zh": "一+量词+比+一+量词",
+  "examples": [],
+  "gf2021_codes": [
+   "四29"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-34",
+  "category": "固定格式",
+  "name_zh": "在……方面",
+  "examples": [],
+  "gf2021_codes": [
+   "四32"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-35",
+  "category": "固定格式",
+  "name_zh": "够……的",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-36",
+  "category": "固定格式",
+  "name_zh": "拿……来说",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-37",
+  "category": "固定格式",
+  "name_zh": "再也不/没……",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-38",
+  "category": "固定格式",
+  "name_zh": "怎么都/也+不/没……",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-39",
+  "category": "固定格式",
+  "name_zh": "为了……而……",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-40",
+  "category": "固定格式",
+  "name_zh": "动词+一X是一X",
+  "examples": [],
+  "gf2021_codes": [
+   "四68"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-41",
+  "category": "固定格式",
+  "name_zh": "（没）有什么（好）X的",
+  "examples": [],
+  "gf2021_codes": [
+   "四69"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-42",
+  "category": "固定格式",
+  "name_zh": "X是X，Y是Y",
+  "examples": [],
+  "gf2021_codes": [
+   "四70"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-43",
+  "category": "固定格式",
+  "name_zh": "X也得X，不X也得X",
+  "examples": [],
+  "gf2021_codes": [
+   "四71"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-44",
+  "category": "固定格式",
+  "name_zh": "X就是了",
+  "examples": [],
+  "gf2021_codes": [
+   "四72"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-45",
+  "category": "固定格式",
+  "name_zh": "还X呢",
+  "examples": [],
+  "gf2021_codes": [
+   "四73"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-46",
+  "category": "固定格式",
+  "name_zh": "你X你的吧",
+  "examples": [],
+  "gf2021_codes": [
+   "四74"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-47",
+  "category": "固定格式",
+  "name_zh": "让/叫你X你就X",
+  "examples": [],
+  "gf2021_codes": [
+   "四75"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-48",
+  "category": "固定格式",
+  "name_zh": "说什么/怎么（着）也得X",
+  "examples": [],
+  "gf2021_codes": [
+   "四76"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-49",
+  "category": "固定格式",
+  "name_zh": "X就X（点儿）吧",
+  "examples": [],
+  "gf2021_codes": [
+   "三80"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-50",
+  "category": "固定格式",
+  "name_zh": "X是X",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-51",
+  "category": "句子成分 > 程度补语2",
+  "name_zh": "形容词/心理动词+死了/厉害",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-52",
+  "category": "句子成分 > 可能补语2",
+  "name_zh": "动词+得/不+了",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-53",
+  "category": "句子的类型 > 句类 > 反问句2",
+  "name_zh": "难道……吗？",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-54",
+  "category": "句子的类型 > 句类 > 反问句2",
+  "name_zh": "由疑问代词构成的反问句",
+  "examples": [],
+  "gf2021_codes": [
+   "四63"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-55",
+  "category": "句子的类型 > 特殊句型 > “把”字句2",
+  "name_zh": "（1）主语+把+宾语+动词（+一/了）+动词",
+  "examples": [],
+  "gf2021_codes": [
+   "四38"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-56",
+  "category": "句子的类型 > 特殊句型 > “把”字句2",
+  "name_zh": "（2）主语+把+宾语+动词+了",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-57",
+  "category": "句子的类型 > 特殊句型 > “把”字句2",
+  "name_zh": "（3）主语+把+宾语+动词+动量补语/时量补语",
+  "examples": [],
+  "gf2021_codes": [
+   "四38"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-58",
+  "category": "句子的类型 > 特殊句型 > “把”字句2",
+  "name_zh": "（4）主语+把+宾语+状语+动词",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-59",
+  "category": "句子的类型 > 特殊句型 > 被动句2",
+  "name_zh": "主语+叫/让+宾语+动词+其他成分",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-60",
+  "category": "句子的类型 > 特殊句型 > 兼语句2",
+  "name_zh": "（1）表爱憎义：主语+表扬/批评+宾语1+动词+宾语2",
+  "examples": [],
+  "gf2021_codes": [
+   "四41"
+  ],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-61",
+  "category": "句子的类型 > 特殊句型 > 兼语句2",
+  "name_zh": "（2）表称谓或认定义：主语+收/选+宾语1+做/当/为+宾语2",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-62",
+  "category": "句子的类型 > 特殊句型 > 兼语句2",
+  "name_zh": "（3）表致使：主语+使/让+人称代词+动词短语",
+  "examples": [],
+  "page": 393
+ },
+ {
+  "level": 4,
+  "code": "G25-4-63",
+  "category": "句子的类型 > 特殊句型 > 比较句3",
+  "name_zh": "（1）A不如B（+形容词）",
+  "examples": [],
+  "gf2021_codes": [
+   "二58"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-64",
+  "category": "句子的类型 > 特殊句型 > 比较句3",
+  "name_zh": "（2）跟……相比",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-65",
+  "category": "句子的类型 > 特殊句型 > 双重否定句",
+  "name_zh": "用双重否定表示强调",
+  "examples": [],
+  "gf2021_codes": [
+   "四64"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-66",
+  "category": "句子的类型 > 复句 > 并列复句",
+  "name_zh": "不是……，而是……",
+  "examples": [],
+  "gf2021_codes": [
+   "四43"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-67",
+  "category": "句子的类型 > 复句 > 并列复句",
+  "name_zh": "既……，又/也……",
+  "examples": [],
+  "gf2021_codes": [
+   "四44"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-68",
+  "category": "句子的类型 > 复句 > 并列复句",
+  "name_zh": "一方面……，另一方面……",
+  "examples": [],
+  "gf2021_codes": [
+   "三62"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-69",
+  "category": "句子的类型 > 复句 > 承接复句",
+  "name_zh": "首先……，其次……",
+  "examples": [],
+  "gf2021_codes": [
+   "四45"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-70",
+  "category": "句子的类型 > 复句 > 承接复句",
+  "name_zh": "首先……，然后……",
+  "examples": [],
+  "gf2021_codes": [
+   "三64"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-71",
+  "category": "句子的类型 > 复句 > 承接复句",
+  "name_zh": "……，于是……",
+  "examples": [],
+  "gf2021_codes": [
+   "四46"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-72",
+  "category": "句子的类型 > 复句 > 递进复句",
+  "name_zh": "……，甚至……",
+  "examples": [],
+  "gf2021_codes": [
+   "四47"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-73",
+  "category": "句子的类型 > 复句 > 递进复句",
+  "name_zh": "不仅/不光……，还/而且……",
+  "examples": [],
+  "gf2021_codes": [
+   "三66"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-74",
+  "category": "句子的类型 > 复句 > 递进复句",
+  "name_zh": "……，并且……",
+  "examples": [],
+  "gf2021_codes": [
+   "三65"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-75",
+  "category": "句子的类型 > 复句 > 递进复句",
+  "name_zh": "连……也/都……，……更……",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-76",
+  "category": "句子的类型 > 复句 > 选择复句",
+  "name_zh": "不是……，就是……",
+  "examples": [],
+  "gf2021_codes": [
+   "三67"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-77",
+  "category": "句子的类型 > 复句 > 转折复句",
+  "name_zh": "尽管……，但是/可是……",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-78",
+  "category": "句子的类型 > 复句 > 转折复句",
+  "name_zh": "……，然而……",
+  "examples": [],
+  "gf2021_codes": [
+   "四49"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-79",
+  "category": "句子的类型 > 复句 > 转折复句",
+  "name_zh": "……，不过……",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-80",
+  "category": "句子的类型 > 复句 > 转折复句",
+  "name_zh": "……X是X，就是/不过……",
+  "examples": [],
+  "gf2021_codes": [
+   "三68"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-81",
+  "category": "句子的类型 > 复句 > 假设复句",
+  "name_zh": "……，否则……",
+  "examples": [],
+  "gf2021_codes": [
+   "四50"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-82",
+  "category": "句子的类型 > 复句 > 假设复句",
+  "name_zh": "要是……，就……",
+  "examples": [],
+  "gf2021_codes": [
+   "三69"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-83",
+  "category": "句子的类型 > 复句 > 假设复句",
+  "name_zh": "要是……，（就）……，否则……",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-84",
+  "category": "句子的类型 > 复句 > 条件复句",
+  "name_zh": "不管……，都/也……",
+  "examples": [],
+  "gf2021_codes": [
+   "四53"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-85",
+  "category": "句子的类型 > 复句 > 条件复句",
+  "name_zh": "无论……，都/也……",
+  "examples": [],
+  "gf2021_codes": [
+   "四54"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-86",
+  "category": "句子的类型 > 复句 > 因果复句",
+  "name_zh": "既然……，就……",
+  "examples": [],
+  "gf2021_codes": [
+   "四55"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-87",
+  "category": "句子的类型 > 复句 > 因果复句",
+  "name_zh": "（由于）……，因此……",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-88",
+  "category": "句子的类型 > 复句 > 目的复句",
+  "name_zh": "……，好……",
+  "examples": [],
+  "gf2021_codes": [
+   "四58"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-89",
+  "category": "句子的类型 > 复句 > 让步复句",
+  "name_zh": "即使……，也……",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-90",
+  "category": "句子的类型 > 复句 > 让步复句",
+  "name_zh": "就是……，也……",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-91",
+  "category": "句子的类型 > 复句 > 紧缩复句",
+  "name_zh": "无标记",
+  "examples": [],
+  "gf2021_codes": [
+   "四59"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-92",
+  "category": "句子的类型 > 复句 > 紧缩复句",
+  "name_zh": "不……也……",
+  "examples": [],
+  "gf2021_codes": [
+   "四60"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-93",
+  "category": "特殊表达法 > 数的表示法",
+  "name_zh": "概数表示法3：数词+来+量词",
+  "examples": [],
+  "gf2021_codes": [
+   "四61"
+  ],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-94",
+  "category": "特殊表达法 > 数的表示法",
+  "name_zh": "用“大约、左右、前后”表示概数",
+  "examples": [],
+  "page": 394
+ },
+ {
+  "level": 4,
+  "code": "G25-4-95",
+  "category": "特殊表达法 > 数的表示法",
+  "name_zh": "小数、分数、百分数、倍数的表示法",
+  "examples": [],
+  "gf2021_codes": [
+   "四62"
+  ],
+  "page": 394
+ }
+]

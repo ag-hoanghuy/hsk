@@ -97,7 +97,7 @@ export default function VocabTab({
         <section>
           <h2 className="text-sm font-semibold uppercase tracking-wide text-rose-400">Từ mở rộng ({extra.length})</h2>
           <p className="mb-3 mt-1 text-sm text-stone-500">
-            Từ cùng chủ đề trong danh sách HSK 3.0. Không bắt buộc nhớ ngay, nhưng có trong quiz khi bật “gồm từ mở rộng”. Bấm vào từ để xem ví dụ.
+            Các từ còn lại của bài theo đề cương thi HSK mới. Học sau từ chính; có trong quiz khi bật “gồm từ mở rộng”. Bấm vào từ để xem ví dụ.
           </p>
           <ul className="grid gap-2 lg:grid-cols-2">
             {extra.map((v) => (
@@ -111,7 +111,7 @@ export default function VocabTab({
         <section>
           <h2 className="text-sm font-semibold uppercase tracking-wide text-rose-400">Từ cần biết thêm khi đọc bài</h2>
           <p className="mb-3 mt-1 text-sm text-stone-500">
-            Các từ xuất hiện trong bài nhưng không phải từ mới của bài: từ nền tảng HSK 3.0 cấp 1–2, hoặc từ vượt cấp (đánh dấu “ngoài phạm vi”).
+            Các từ xuất hiện trong bài nhưng không phải từ mới của bài: từ nền tảng cấp 2, hoặc từ chưa học tới (đánh dấu “ngoài phạm vi”).
           </p>
           <div className="overflow-hidden rounded-2xl bg-white shadow-card">
             <table className="w-full text-left text-sm">

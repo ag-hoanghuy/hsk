@@ -8,6 +8,7 @@ import GrammarTab from "./lesson/GrammarTab";
 import PracticeTab from "./lesson/PracticeTab";
 import QuizTab from "./lesson/QuizTab";
 import ReviewTab from "./lesson/ReviewTab";
+import WritingTab from "./lesson/WritingTab";
 import TestTab from "./lesson/TestTab";
 import VocabTab from "./lesson/VocabTab";
 
@@ -17,6 +18,7 @@ const TABS: { key: TabKey; label: string }[] = [
   { key: "vocab", label: "Từ vựng" },
   { key: "grammar", label: "Ngữ pháp" },
   { key: "dialogue", label: "Hội thoại" },
+  { key: "writing", label: "Viết chữ" },
   { key: "practice", label: "Bài tập" },
   { key: "quiz", label: "Quiz" },
   { key: "test", label: "Kiểm tra" },
@@ -109,6 +111,7 @@ export default function Lesson() {
         {tab === "grammar" && <GrammarTab grammar={c.grammar} />}
         {tab === "dialogue" && <DialogueTab title={c.dialogue.title_vi} scene={c.dialogue.scene_vi} lines={c.dialogue.lines} />}
         {tab === "review" && <ReviewTab lesson={lesson} />}
+        {tab === "writing" && <WritingTab key={lessonId} vocab={c.vocab} onFinish={(score) => markDone("writing", score)} />}
         {tab === "practice" && (
           <PracticeTab key={lessonId} exercises={c.exercises} onFinish={(score) => markDone("practice", score)} />
         )}

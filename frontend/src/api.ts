@@ -189,7 +189,17 @@ export interface LessonDetail extends LessonSummary {
   content: LessonContent;
 }
 
-export type Section = "vocab" | "grammar" | "dialogue" | "practice" | "quiz" | "test" | "listening" | "reading" | "speaking";
+export type Section =
+  | "vocab"
+  | "grammar"
+  | "dialogue"
+  | "writing"
+  | "practice"
+  | "quiz"
+  | "test"
+  | "listening"
+  | "reading"
+  | "speaking";
 /** The sections of the lesson page itself, shown as progress dots (listening and reading have their own pages). */
 export const SECTIONS: Section[] = ["vocab", "grammar", "dialogue", "practice", "quiz", "test"];
 

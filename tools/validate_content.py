@@ -251,7 +251,7 @@ def check_structure(c: dict, level: int, where: str) -> None:
             err(where, f"missing section {key!r}")
     count_range(len(c.get("objectives", [])), 3, 4, where, "objectives")
     count_range(len(c.get("vocab", [])), 15, 20, where, "core vocab")
-    count_range(len(c.get("extra_vocab", [])), 25, 35, where, "extra vocab")
+    count_range(len(c.get("extra_vocab", [])), 5, 40, where, "extra vocab")
     count_range(len(c.get("grammar", [])), 2, 4, where, "grammar points")
     for g in c.get("grammar", []):
         gw = f"{where}/grammar/{g.get('id')}"
@@ -294,33 +294,52 @@ def check_structure(c: dict, level: int, where: str) -> None:
 
 
 class Lists:
-    """HSK 3.0 levels (word -> lowest level) and old HSK 2.0 levels, when the reference files exist."""
+    """New-HSK levels (word -> lowest level) from the 2025 exam syllabus (falling back to GF 0025-2021) and old HSK 2.0
+    levels, when the reference files exist."""
 
     def __init__(self) -> None:
         self.new: dict[str, int] = {}
         self.old: dict[str, int] = {}
+        self.targets: dict[int, set[str]] = {}  # level -> main spellings whose lowest level is that level
         ref = CONTENT / "reference"
-        for name, table in (("hsk30_words.json", self.new), ("hsk20_words.json", self.old)):
+        self.source = "hsk2025_words.json" if (ref / "hsk2025_words.json").exists() else "hsk30_words.json"
+        for name, table in ((self.source, self.new), ("hsk20_words.json", self.old)):
             path = ref / name
             if not path.exists():
                 continue
             for item in json.loads(path.read_text(encoding="utf-8")):
                 for form in [item["hanzi"], *item.get("variants", [])]:
-                    form = form.strip()
+                    form = (form["hanzi"] if isinstance(form, dict) else form).strip()
                     if form and (form not in table or item["level"] < table[form]):
                         table[form] = int(item["level"])
         self.longest = max((len(w) for w in self.new), default=1)
+        if (ref / self.source).exists():
+            for item in json.loads((ref / self.source).read_text(encoding="utf-8")):
+                if self.new.get(item["hanzi"]) == item["level"]:
+                    self.targets.setdefault(int(item["level"]), set()).add(item["hanzi"])
 
     @property
     def available(self) -> bool:
         return bool(self.new)
 
     def segment(self, text: str, extra: set[str]) -> list[str]:
-        """Forward maximum matching over the HSK 3.0 list plus the given words; unknown characters come out one by one."""
+        """Forward maximum matching over the HSK 3.0 list plus the given words; unknown characters come out one by
+        one. A measure word right after a numeral is split off (一个人 = 一 + 个 + 人, not 一 + 个人), and names such
+        as 小王 / 老李 / 王老师 are dropped."""
         out: list[str] = []
         for run in HAN.findall(text):
             i = 0
             while i < len(run):
+                if i > 0 and run[i - 1] in NUMERALS and run[i] in MEASURES:
+                    out.append(run[i])
+                    i += 1
+                    continue
+                if run[i] in "小老" and i + 1 < len(run) and run[i + 1] in SURNAMES and run[i : i + 2] not in self.new:
+                    i += 2  # 小王, 老李
+                    continue
+                if run[i] in SURNAMES and any(run.startswith(t, i + 1) for t in TITLES):
+                    i += 1  # 王老师, 李经理
+                    continue
                 for n in range(min(max(self.longest, 4), len(run) - i), 0, -1):
                     w = run[i : i + n]
                     if n == 1 or w in self.new or w in extra:
@@ -328,6 +347,12 @@ class Lists:
                         i += n
                         break
         return out
+
+
+NUMERALS = set("一二三四五六七八九十百千万两几半每这那哪")
+MEASURES = set("个口本张件条只位次场块双杯碗瓶家岁天年些点")
+SURNAMES = set("王李张刘陈杨赵黄周吴徐孙马朱胡林郭何高罗郑梁谢宋唐许邓冯韩曹曾彭萧蔡潘田董袁于余叶蒋杜苏魏程吕丁沈任姚卢钟姜崔谭廖范汪陆金石戴贾韦夏邱方侯邹熊孟秦白江薛尹段雷黎史龙陶贺顾毛郝龚邵万钱严武莫孔汤常温康施文牛葛邢安齐乔伍庞颜倪庄聂章鲁岳")
+TITLES = ("老师", "先生", "女士", "小姐", "经理", "医生", "阿姨", "叔叔", "大夫", "师傅", "同学", "教授")
 
 
 def lesson_texts(c: dict) -> list[str]:
@@ -345,21 +370,43 @@ def check_levels(lessons: list[tuple[str, dict]], lists: Lists) -> None:
     learner cannot be expected to know (HSK 3.0 level 1-2 beyond old HSK 1-2, or not taught yet) is in the glossary."""
     taught_at: dict[str, str] = {}
     known: set[str] = {w for w, lv in lists.old.items() if lv <= 2}
+    # Texts may use HSK 3.0 level-1 words freely: every sentence is shown with full pinyin and translation anyway;
+    # the glossary is for level-2 words and anything beyond.
+    readable = known | {w for w, lv in lists.new.items() if lv == 1}
+    # Lessons are written in parallel, so words planned for earlier lessons count as taught even if the file is not there yet.
+    plan_path = CONTENT / "plan" / "allocation.json"
+    planned: dict[tuple[int, int], set[str]] = {}
+    if plan_path.exists():
+        for lv, by_num in json.loads(plan_path.read_text(encoding="utf-8")).items():
+            for num, words in by_num.items():
+                planned[(int(lv), int(num))] = set(words.get("core", [])) | set(words.get("extra", []))
     for where, data in lessons:  # sorted by level, number
         c, level = data["content"], data["level"]
-        words = [v["hanzi"] for v in c.get("vocab", []) + c.get("extra_vocab", [])]
+        earlier_plan = set().union(*(w for k, w in planned.items() if k < (level, data["number"]))) if planned else set()
+        core = [v["hanzi"] for v in c.get("vocab", [])]
+        extra = [v["hanzi"] for v in c.get("extra_vocab", [])]
+        words = core + extra
         for w in words:
             lv = lists.new.get(w)
             if lv is None:
-                warn(where, f"taught word {w} is not in the HSK 3.0 list")
-            elif lv != level:
-                warn(where, f"taught word {w} is HSK 3.0 level {lv}, lesson is level {level}")
+                warn(where, f"taught word {w} is not in the new-HSK list")
+            elif lv == level or (lv <= 2 and w not in known):
+                pass  # a word of this level, or a base word the learner does not know yet
+            else:
+                warn(where, f"taught word {w} is new-HSK level {lv}{' and already known (old HSK 1-2)' if w in known else ''}, lesson is level {level}")
+        for w in words:
             if w in taught_at:
                 warn(where, f"word {w} is already taught in {taught_at[w]}")
+        if planned.get((level, data["number"])) and set(words) != planned[(level, data["number"])]:
+            p = planned[(level, data["number"])]
+            if set(words) - p:
+                warn(where, f"words not in this lesson's allocation: {', '.join(sorted(set(words) - p))}")
+            if p - set(words):
+                warn(where, f"allocated words not taught: {', '.join(sorted(p - set(words)))}")
         for w in words:
             taught_at.setdefault(w, where)
         glossary = {g["hanzi"] for g in c.get("glossary", [])}
-        seen = set(taught_at) | known
+        seen = set(taught_at) | readable | earlier_plan
         missing: dict[str, str] = {}
         for text in lesson_texts(c):
             for w in lists.segment(text, seen | glossary):
@@ -375,12 +422,15 @@ def check_levels(lessons: list[tuple[str, dict]], lists: Lists) -> None:
 
 
 def coverage(lessons: list[tuple[str, dict]], lists: Lists) -> list[str]:
-    lines = []
-    for level in (3, 4):
-        target = {w for w, lv in lists.new.items() if lv == level}
-        taught = {v["hanzi"] for _, d in lessons if d["level"] == level for v in d["content"].get("vocab", []) + d["content"].get("extra_vocab", [])}
+    lines = [f"word list: content/reference/{lists.source}"]
+    taught_all = {v["hanzi"] for _, d in lessons for v in d["content"].get("vocab", []) + d["content"].get("extra_vocab", [])}
+    known = {w for w, lv in lists.old.items() if lv <= 2}
+    groups = [("level 1-2 words not in old HSK 1-2", (lists.targets.get(1, set()) | lists.targets.get(2, set())) - known)]
+    groups += [(f"level {lv}", lists.targets.get(lv, set())) for lv in (3, 4)]
+    for name, target in groups:
         if target:
-            lines.append(f"HSK 3.0 level {level}: {len(taught & target)}/{len(target)} words taught ({100 * len(taught & target) // len(target)}%)")
+            n = len(taught_all & target)
+            lines.append(f"new HSK {name}: {n}/{len(target)} words taught ({100 * n // len(target)}%)")
     return lines
 
 

@@ -5,7 +5,9 @@ lesson are in `content/curriculum.json`; the words each lesson teaches are in `c
 `content/hsk3/lesson-01.json` is the reference lesson: copy its style and level of detail.
 
 The learner is one Vietnamese adult studying alone on a PC. She knows roughly old-HSK 1–2 (~300 words) and is
-working through HSK 3.0 levels 3 and 4. All explanations are in natural, warm, simple Vietnamese (not translated
+preparing for the new HSK levels 3 and 4. Word levels follow the **2025 HSK exam syllabus** (新版HSK考试大纲,
+`content/reference/hsk2025_words.json`): level 3 adds ~500 words, level 4 ~1000. HSK3 lessons also teach the level 1–2
+words she does not know yet ("base" words). All explanations are in natural, warm, simple Vietnamese (not translated
 English, no jargon without explanation). Chinese is simplified; pinyin uses tone marks.
 
 ## Top level
@@ -20,7 +22,7 @@ English, no jargon without explanation). Chinese is simplified; pinyin uses tone
 |---|---|---|
 | `objectives` | strings, each completes "Học xong bài này, bạn có thể …" (write without that prefix) | 3–4 |
 | `vocab` | core words, taught in depth | 15–20 |
-| `extra_vocab` | extension words of the same theme (same fields) | 25–35 |
+| `extra_vocab` | the rest of the lesson's allocated words (same fields, shorter examples) | HSK3 ~10–20, HSK4 ~30 |
 | `glossary` | words the texts use that the learner is not expected to know (see below) | as needed |
 | `grammar` | the lesson's grammar points from curriculum.json | 2–4 |
 | `dialogue` | `{title_vi, scene_vi, lines[]}`, everyday situation, 2–3 speakers | 8–10 lines |
@@ -46,13 +48,15 @@ English, no jargon without explanation). Chinese is simplified; pinyin uses tone
 - `note_vi` (optional, core words): confusable words (e.g. 刚/刚才), false friends with Hán-Việt, usage limits.
 - Examples are short, natural, and use only taught/known words (or glossary words).
 - Core and extra words must come from the lesson's allocation; do not teach a word another lesson owns.
+- Taught words (core and extra) are words of the lesson's level, or level 1–2 words the learner does not know yet
+  (not in old HSK 1–2). Core = the 15–20 most important ones; every allocated word must be taught (core or extra).
 
 ### Glossary
 
-Any word in the lesson texts (dialogue, examples, reading, listening, speaking) that is neither taught in this or an
-earlier lesson nor in old HSK 1–2 must be listed: `{"hanzi","pinyin","meaning_vi","kind"}` with
-`kind: "base"` for HSK 3.0 level 1–2 words, `"beyond"` for words not taught yet (later lesson, higher level or outside
-the lists). Prefer rewriting sentences over piling up "beyond" words; base words are fine. The validator prints the
+Any word in the lesson texts (dialogue, examples, reading, listening, speaking) that is not taught in this or an
+earlier lesson, not in old HSK 1–2 and not a level-1 word must be listed: `{"hanzi","pinyin","meaning_vi","kind"}`
+with `kind: "base"` for level-2 words, `"beyond"` for words not taught yet (later lesson, higher level or outside
+the lists). (Level-1 words need no entry: every sentence already shows full pinyin and a translation.) Prefer rewriting sentences over piling up "beyond" words; base words are fine. The validator prints the
 missing ones. Names (小王, 李明…) need no entry.
 
 ### Grammar point

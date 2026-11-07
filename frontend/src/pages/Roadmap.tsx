@@ -39,7 +39,8 @@ export default function Roadmap() {
       <div>
         <h1 className="text-2xl font-bold text-stone-800">Lộ trình 40 bài</h1>
         <p className="mt-1 text-stone-500">
-          HSK 3 và HSK 4 theo chủ đề của giáo trình Standard Course, từ vựng theo chuẩn HSK 3.0 (mỗi bài có từ chính và từ mở rộng).
+          HSK 3 và HSK 4 theo chủ đề và ngữ pháp của giáo trình Standard Course, từ vựng theo đề cương thi HSK mới 2025 (kỳ thi từ
+          12/2026). Mỗi bài có từ chính và từ mở rộng.
         </p>
       </div>
 

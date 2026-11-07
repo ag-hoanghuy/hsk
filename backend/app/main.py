@@ -13,7 +13,7 @@ from pydantic import BaseModel
 from sqlalchemy import select
 from sqlalchemy.orm import Session, selectinload
 
-from . import mock, overview, speaking, tts
+from . import mock, overview, speaking, strokes, tts
 from .db import SessionLocal, get_db
 from .models import Attempt, AttemptAnswer, Lesson, SectionProgress
 from .seed import seed_lessons
@@ -21,7 +21,7 @@ from .speech.asr import engine as speech_engine
 
 BACKEND_DIR = Path(__file__).resolve().parent.parent
 AUDIO_DIR = Path(os.environ.get("AUDIO_DIR", "/audio"))
-SECTIONS = {"vocab", "grammar", "dialogue", "practice", "quiz", "test", "listening", "reading", "speaking"}
+SECTIONS = {"vocab", "grammar", "dialogue", "practice", "quiz", "test", "listening", "reading", "speaking", "writing"}
 AttemptKind = Literal["quiz_vocab", "quiz_grammar", "test", "listening", "reading"]
 
 
@@ -47,6 +47,7 @@ app.mount("/audio", StaticFiles(directory=AUDIO_DIR), name="audio")
 app.include_router(speaking.router)
 app.include_router(overview.router)
 app.include_router(mock.router)
+app.include_router(strokes.router)
 
 
 def lesson_summary(lesson: Lesson) -> dict:

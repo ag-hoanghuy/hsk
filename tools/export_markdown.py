@@ -144,19 +144,76 @@ def lesson_md(data: dict, meta: dict) -> str:
     return "\n".join(L)
 
 
+ROADMAP_INTRO = """# Lộ trình học HSK 3 – HSK 4 (40 bài)
+
+Khung bài theo chủ đề và ngữ pháp của giáo trình *Standard Course HSK 3* và *HSK 4* (mỗi cấp 20 bài). Từ vựng theo
+**đề cương thi HSK mới 2025** (kỳ thi từ 13/12/2026): mỗi bài có **từ chính** (học kỹ, có ví dụ, bài tập, hội thoại)
+và **từ mở rộng** (học sau). Các bài HSK 3 dạy thêm những từ cấp 1–2 mà người đã học HSK 1–2 cũ còn thiếu.
+
+## Nhịp học gợi ý
+
+- 1 bài trong 3–5 ngày, mỗi ngày 30–45 phút:
+  1. Ngày 1: từ vựng chính + nghe từ vựng.
+  2. Ngày 2: ngữ pháp + hội thoại (đọc to theo audio).
+  3. Ngày 3: bài tập + quiz từ vựng / ngữ pháp, xem lại câu sai.
+  4. Ngày 4: luyện đọc + luyện nghe + luyện nói.
+  5. Ngày 5: bài kiểm tra cuối bài, phần ôn nhanh, từ mở rộng.
+- Sau mỗi 4 bài: 1–2 ngày ôn tập (quiz và bài kiểm tra của 4 bài đó).
+- Cuối mỗi cấp (sau bài 20): **thi thử** (trang Lộ trình › Thi thử cuối cấp), xem bài nào sai nhiều để ôn lại.
+
+## Lịch ôn theo giãn cách (tính từ ngày làm xong bài kiểm tra của bài)
+
+| Lần ôn | Sau | Nên làm |
+|---|---|---|
+| 1 | 1 ngày | Quiz từ vựng (bật “gồm từ mở rộng”) |
+| 2 | 3 ngày | Quiz ngữ pháp + nghe chọn đáp án |
+| 3 | 7 ngày | Làm lại bài kiểm tra, xem các câu từng sai |
+| 4 | 14 ngày | Luyện đọc + luyện nói lại bài đó |
+| 5 | 30 ngày | Quiz từ vựng + bài kiểm tra một lần nữa |
+
+Trang **Tiến độ** của web tự nhắc bài nào đến hạn ôn.
+"""
+
+
+def write_roadmap(curriculum: list[dict], lessons: dict[tuple[int, int], dict]) -> None:
+    plan_path = CONTENT / "plan" / "allocation.json"
+    plan = json.loads(plan_path.read_text(encoding="utf-8")) if plan_path.exists() else {}
+    L = [ROADMAP_INTRO]
+    for level in (3, 4):
+        L += [f"## HSK {level}", "", "| Bài | Tên bài | Chủ đề | Mục tiêu giao tiếp | Ngữ pháp chính | Từ mới (chính + mở rộng) |", "|---|---|---|---|---|---|"]
+        for item in (i for i in curriculum if i["level"] == level):
+            words = plan.get(str(level), {}).get(str(item["number"]), {})
+            data = lessons.get((level, item["number"]))
+            if data:
+                n_core, n_extra = len(data["content"].get("vocab", [])), len(data["content"].get("extra_vocab", []))
+            else:
+                n_core, n_extra = len(words.get("core", [])), len(words.get("extra", []))
+            count = f"{n_core} + {n_extra}" if n_core else "—"
+            L.append(f"| {item['number']} | {item['title_zh']}<br>{item['title_vi']} | {item['theme_vi']} | {item['goal_vi']} | {'；'.join(item['grammar_points'])} | {count} |")
+            if item["number"] % 4 == 0:
+                L.append(f"| | **{'Thi thử cuối cấp HSK ' + str(level) if item['number'] == 20 else 'Ôn tập bài ' + str(item['number'] - 3) + '–' + str(item['number'])}** | | | | |")
+        L.append("")
+    (OUT.parent / "lo-trinh.md").write_text("\n".join(L), encoding="utf-8")
+
+
 def main() -> int:
-    curriculum = {(i["level"], i["number"]): i for i in json.loads((CONTENT / "curriculum.json").read_text(encoding="utf-8"))}
+    curriculum_list = json.loads((CONTENT / "curriculum.json").read_text(encoding="utf-8"))
+    curriculum = {(i["level"], i["number"]): i for i in curriculum_list}
     OUT.mkdir(parents=True, exist_ok=True)
     index = ["# Tài liệu học HSK 3–4 (bản đọc)", "", "Sinh tự động từ `content/hsk*/lesson-NN.json` bằng `tools/export_markdown.py`; đừng sửa tay.", ""]
     files = sorted(CONTENT.glob("hsk*/lesson-*.json"))
+    lessons: dict[tuple[int, int], dict] = {}
     for f in files:
         data = json.loads(f.read_text(encoding="utf-8"))
-        meta = curriculum[(data["level"], data["number"])]
+        lessons[(data["level"], data["number"])] = data
+    for key in sorted(lessons):
+        data, meta = lessons[key], curriculum[key]
         name = f"hsk{data['level']}-{data['number']:02d}.md"
         (OUT / name).write_text(lesson_md(data, meta), encoding="utf-8")
         index.append(f"- [HSK {data['level']} · Bài {data['number']}: {meta['title_zh']} – {meta['title_vi']}]({name})")
     (OUT / "README.md").write_text("\n".join(index) + "\n", encoding="utf-8")
-    print(f"wrote {len(files)} lesson(s) to {OUT}")
+    write_roadmap(curriculum_list, lessons)
+    print(f"wrote {len(files)} lesson(s) to {OUT} and the roadmap to {OUT.parent / 'lo-trinh.md'}")
     return 0
 
 

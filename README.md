@@ -1,18 +1,40 @@
 # Học tiếng Trung HSK3–HSK4
 
-Web học tiếng Trung chạy local. Xem `PLAN.md` để biết kế hoạch.
+Web tự học tiếng Trung chạy trên máy tính cá nhân: 40 bài (HSK 3 và HSK 4 theo chủ đề giáo trình Standard Course,
+từ vựng theo đề cương thi HSK mới 2025), luyện nghe, đọc, nói (chấm phát âm offline), quiz, bài kiểm tra, thi thử, theo dõi tiến
+độ và nhắc ôn theo giãn cách. Kế hoạch và trạng thái: `PLAN.md`.
 
-## Chạy
+## Dùng hằng ngày
+
+1. Mở **Docker Desktop** (chờ biểu tượng cá voi đứng yên).
+2. Bấm đúp **`start-web.bat`**: web tự khởi động, sao lưu dữ liệu mỗi ngày một lần rồi mở trình duyệt ở http://localhost:5173.
+3. Học xong có thể bấm **`stop-web.bat`** (dữ liệu vẫn giữ nguyên).
+
+Tạo lối tắt ngoài màn hình: `powershell -ExecutionPolicy Bypass -File scripts\create-shortcut.ps1`.
+
+Trang chính:
+- **Bài học**: từ vựng (từ chính, từ mở rộng, từ cần biết thêm), ngữ pháp (kèm lỗi người Việt hay gặp), hội thoại,
+  bài tập, quiz kiểu Quizizz, bài kiểm tra 8 dạng, ôn nhanh.
+- **Luyện nói / Luyện đọc / Luyện nghe**: theo từng bài.
+- **Tiến độ**: chuỗi ngày học, bài cần ôn hôm nay (1–3–7–14–30 ngày sau bài kiểm tra), điểm từng bài, lỗi hay sai.
+- **Lộ trình**: bảng 40 bài, nhịp học gợi ý, thi thử cuối mỗi cấp.
+
+## Chạy cho người phát triển
 
 ```
 docker compose up --build
 ```
 
-- Web: http://localhost:5173
-- API docs: http://localhost:8000/docs
+- Web: http://localhost:5173 · API docs: http://localhost:8000/docs
 - Postgres: `localhost:5441` (user `hsk`, password `hsk_dev`, db `hsk`)
 
 Dừng: `docker compose down` (giữ dữ liệu). Xoá luôn dữ liệu: `docker compose down -v`.
+
+## Sao lưu và khôi phục
+
+- `start-web.bat` tự sao lưu mỗi ngày vào `backups\hsk-<ngày-giờ>.dump` (giữ 30 bản).
+- Sao lưu ngay: `powershell -ExecutionPolicy Bypass -File scripts\backup.ps1`
+- Khôi phục: `powershell -ExecutionPolicy Bypass -File scripts\restore.ps1 backups\hsk-....dump` (tự sao lưu bản hiện tại trước).
 
 ## Cơ sở dữ liệu
 
@@ -28,22 +50,33 @@ Trang **Luyện nói** ghi âm bằng micro rồi chấm ngay trong backend, kh�
 - Mỗi lần chấm mất khoảng 4–8 giây. Muốn nhanh hơn, đặt `WHISPER_MODEL=base` trong `.env` (kém chính xác hơn) rồi `docker compose up -d backend`.
 - Trình duyệt phải mở bằng `http://localhost:5173` (không phải địa chỉ IP) thì mới cho dùng micro; lần đầu bấm "Cho phép".
 - Bản ghi âm lưu ở `audio/recordings/`; có thể dùng để chỉnh bộ chấm (ngưỡng ở đầu file `backend/app/speech/assess.py`).
-- Chạy kiểm tra logic: `docker compose exec backend python -m unittest discover -s tests -v`.
 
 Điểm chỉ mang tính tham khảo: bộ chấm mới được kiểm tra trên giọng máy, chưa có giọng người thật.
 
-## Kiểm tra nội dung bài học
+## Nội dung bài học
 
-Công cụ `tools/validate_content.py` kiểm tra cấu trúc, đáp án và đối chiếu pinyin với chữ Hán (bằng `pypinyin`).
-Không cần cài Python trên máy, chạy qua Docker (PowerShell, trong thư mục dự án):
+- Mỗi bài là một file `content/hsk3|hsk4/lesson-NN.json`. Đặc tả cấu trúc và quy tắc soạn: `content/_example/README.md`.
+- Mục lục, chủ đề, ngữ pháp từng bài: `content/curriculum.json`. Phân bổ từ vựng cho từng bài: `content/plan/allocation.json`.
+- Danh sách từ/ngữ pháp tham khảo (đề cương thi 2025 đang dùng; GF 0025-2021 và HSK 2.0 để đối chiếu) và nguồn: `content/reference/`.
+- Backend tự nạp nội dung vào DB mỗi lần khởi động (`docker compose restart backend`).
+
+Kiểm tra nội dung (cấu trúc, đáp án, pinyin khớp chữ Hán, cấp độ HSK, từ cần chú thích):
 
 ```
-docker run --rm -v "${PWD}:/work" -w /work python:3.12-slim sh -c "pip install -q pypinyin && python tools/validate_content.py"
+docker compose exec -T backend python /tools/validate_content.py              # tất cả
+docker compose exec -T backend python /tools/validate_content.py hsk3/lesson-05.json   # chỉ báo lỗi một bài
 ```
 
-`ERROR` phải sửa. `WARN` cần người xem lại (thường là chữ đa âm như 得 děi / 场 chǎng, hoặc tone không khớp từ điển).
+`ERROR` phải sửa. `WARN` cần người xem lại. Bản đọc Markdown của tài liệu học (sinh từ JSON, đừng sửa tay):
 
-## Thêm nội dung bài học
+```
+docker compose exec -T backend python /tools/export_markdown.py   # → docs/bai-hoc/
+```
 
-Đặt file `content/hsk3/lesson-01.json` (hoặc `hsk4/`) theo mẫu `content/_example/lesson.example.json`.
-Backend tự nạp vào DB mỗi lần khởi động (`docker compose restart backend`).
+Tài liệu khác trong `docs/`: lộ trình (`lo-trinh.md`), báo cáo tham khảo (`tham-khao.md`), những chỗ cần người biết tiếng Trung xem lại (`can-xem-lai.md`).
+
+## Kiểm thử
+
+- Logic backend: `docker compose exec backend python -m unittest discover -s tests -v`
+- Kiểu dữ liệu frontend: `docker compose exec frontend npx tsc --noEmit`
+- Trình duyệt (Edge, tự động): xem `e2e/README.md`.
