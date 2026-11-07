@@ -330,9 +330,18 @@ class Lists:
         for run in HAN.findall(text):
             i = 0
             while i < len(run):
+                if run[i] in DIGITS:  # 二十, 一百五十: a number is one token (and not 十分 "very")
+                    j = i
+                    while j < len(run) and run[j] in DIGITS:
+                        j += 1
+                    if j - i > 1 or (j < len(run) and run[j] in MEASURES):
+                        out.append(run[i:j])
+                        i = j
+                        continue
                 if i > 0 and run[i - 1] in NUMERALS and run[i] in MEASURES:
-                    out.append(run[i])
-                    i += 1
+                    w = run[i : i + 2] if run[i : i + 2] in UNIT_WORDS else run[i]
+                    out.append(w)
+                    i += len(w)
                     continue
                 if run[i] in "小老" and i + 1 < len(run) and run[i + 1] in SURNAMES and run[i : i + 2] not in self.new:
                     i += 2  # 小王, 老李
@@ -349,10 +358,18 @@ class Lists:
         return out
 
 
-NUMERALS = set("一二三四五六七八九十百千万两几半每这那哪")
-MEASURES = set("个口本张件条只位次场块双杯碗瓶家岁天年些点")
+DIGITS = set("零一二三四五六七八九十百千万两")
+NUMERALS = DIGITS | set("几半每这那哪")
+MEASURES = set("个口本张件条只位次场块双杯碗瓶家岁天年些点分号月")
+UNIT_WORDS = {"分钟", "点钟", "个月", "年级"}  # measure + word that do belong together after a number
 SURNAMES = set("王李张刘陈杨赵黄周吴徐孙马朱胡林郭何高罗郑梁谢宋唐许邓冯韩曹曾彭萧蔡潘田董袁于余叶蒋杜苏魏程吕丁沈任姚卢钟姜崔谭廖范汪陆金石戴贾韦夏邱方侯邹熊孟秦白江薛尹段雷黎史龙陶贺顾毛郝龚邵万钱严武莫孔汤常温康施文牛葛邢安齐乔伍庞颜倪庄聂章鲁岳")
 TITLES = ("老师", "先生", "女士", "小姐", "经理", "医生", "阿姨", "叔叔", "大夫", "师傅", "同学", "教授")
+
+
+def assumed_known() -> set[str]:
+    """Obvious compounds of old HSK 1-2 words (这个, 你们, 早饭 …) that are treated as known instead of taught."""
+    path = CONTENT / "plan" / "assumed-known.json"
+    return set(json.loads(path.read_text(encoding="utf-8"))["words"]) if path.exists() else set()
 
 
 def lesson_texts(c: dict) -> list[str]:
@@ -369,7 +386,7 @@ def check_levels(lessons: list[tuple[str, dict]], lists: Lists) -> None:
     """Taught words belong to the lesson's HSK 3.0 level, are taught once, and every word the texts use that the
     learner cannot be expected to know (HSK 3.0 level 1-2 beyond old HSK 1-2, or not taught yet) is in the glossary."""
     taught_at: dict[str, str] = {}
-    known: set[str] = {w for w, lv in lists.old.items() if lv <= 2}
+    known: set[str] = {w for w, lv in lists.old.items() if lv <= 2} | assumed_known()
     # Texts may use HSK 3.0 level-1 words freely: every sentence is shown with full pinyin and translation anyway;
     # the glossary is for level-2 words and anything beyond.
     readable = known | {w for w, lv in lists.new.items() if lv == 1}
@@ -424,7 +441,7 @@ def check_levels(lessons: list[tuple[str, dict]], lists: Lists) -> None:
 def coverage(lessons: list[tuple[str, dict]], lists: Lists) -> list[str]:
     lines = [f"word list: content/reference/{lists.source}"]
     taught_all = {v["hanzi"] for _, d in lessons for v in d["content"].get("vocab", []) + d["content"].get("extra_vocab", [])}
-    known = {w for w, lv in lists.old.items() if lv <= 2}
+    known = {w for w, lv in lists.old.items() if lv <= 2} | assumed_known()
     groups = [("level 1-2 words not in old HSK 1-2", (lists.targets.get(1, set()) | lists.targets.get(2, set())) - known)]
     groups += [(f"level {lv}", lists.targets.get(lv, set())) for lv in (3, 4)]
     for name, target in groups:
@@ -483,7 +500,18 @@ def main() -> int:
     if lists.available:
         check_levels(lessons, lists)
     else:
-        warnings.append("content/reference/hsk30_words.json not found: HSK level and glossary checks skipped")
+        warnings.append("content/reference word lists not found: HSK level and glossary checks skipped")
+
+    # A lesson may confirm readings it uses on purpose, e.g. "readings_ok": ["只 zhī", "里 li"].
+    confirmed = {where: set(d.get("readings_ok", [])) for where, d in lessons}
+    reading_warning = re.compile(r"'(.)' written as (\S+),")
+
+    def intended(w: str) -> bool:
+        where = next((k for k in confirmed if w.startswith(k)), None)
+        m = reading_warning.search(w)
+        return bool(where and m and f"{m.group(1)} {m.group(2)}" in confirmed[where])
+
+    warnings[:] = [w for w in warnings if not intended(w)]
 
     def shown(line: str) -> bool:
         return not only or any(line.startswith(o) for o in only)

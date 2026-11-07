@@ -1,4 +1,5 @@
 import type { LessonContent } from "../api";
+import { speakable } from "./audio";
 
 export interface SpeakItem {
   id: string;
@@ -17,8 +18,8 @@ export interface SpeakGroup {
 
 const MAX_CHARS = 60;
 
-/** Speaker tags such as "A：" in two-person examples are not part of what is said. */
-const stripSpeakers = (s: string) => s.replace(/(^|[\s。！？.!?])[AB][：:]\s*/g, "$1").trim();
+// Speaker tags such as "A：" in two-person examples are not part of what is said.
+const stripSpeakers = speakable;
 
 /** Sentences to practise, built from what the lesson already has: example sentences, grammar examples and the dialogue. */
 export function buildSpeakingGroups(content: LessonContent): SpeakGroup[] {

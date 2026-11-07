@@ -1,0 +1,209 @@
+{
+  "level": 3,
+  "number": 5,
+  "summary": "Nói về chuyện béo lên, gầy đi, thói quen ăn uống và tập luyện; học “了” cuối câu chỉ sự thay đổi và “越来越” (càng ngày càng).",
+  "readings_ok": ["得 de"],
+  "content": {
+    "objectives": [
+      "Nói về sự thay đổi của bản thân bằng “了” cuối câu: 我胖了、我饿了、我不喝啤酒了",
+      "Nói một điều càng ngày càng tăng bằng 越来越 + tính từ / động từ tâm lý: 越来越胖了、越来越喜欢运动了",
+      "Hỏi và nói cân nặng bằng 公斤 và 斤, kể về bữa ăn: 饿、饱、吃饭",
+      "Kể thói quen tập luyện bằng 经常、有时、为了……: 为了健康，我经常锻炼"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"最近","pinyin":"zuìjìn","pos":"danh từ","meaning_vi":"dạo này, gần đây","example_zh":"你最近怎么样？","example_pinyin":"Nǐ zuìjìn zěnmeyàng?","example_vi":"Dạo này bạn thế nào?","hanviet":"TỐI CẬN","note_vi":"最近 đứng trước động từ (trước hoặc sau chủ ngữ), không đặt cuối câu như “dạo này” trong tiếng Việt: ✗ 你怎么样最近？ Ngoài nghĩa “gần đây”, 最近 còn có thể chỉ “sắp tới”: 我最近要搬家 (sắp tới tôi chuyển nhà)."},
+      {"id":"v2","hanzi":"胖","pinyin":"pàng","pos":"tính từ","meaning_vi":"béo, mập","example_zh":"我最近胖了，衣服都小了。","example_pinyin":"Wǒ zuìjìn pàng le, yīfu dōu xiǎo le.","example_vi":"Dạo này tôi béo lên, quần áo chật hết rồi.","note_vi":"Dùng cho người và con vật. Nói thẳng “你很胖” dễ làm người khác buồn; người ta hay nói nhẹ đi: 有点儿胖. 胖了 = béo lên (so với trước). Ngược nghĩa: 瘦."},
+      {"id":"v3","hanzi":"瘦","pinyin":"shòu","pos":"tính từ","meaning_vi":"gầy, ốm; (quần áo) chật","example_zh":"你瘦了！最近很忙吗？","example_pinyin":"Nǐ shòu le! Zuìjìn hěn máng ma?","example_vi":"Bạn gầy đi rồi! Dạo này bận lắm à?","hanviet":"SẤU","note_vi":"瘦了 = gầy đi. Với quần áo, 瘦 nghĩa là “chật, bó”: 这件衣服有点儿瘦. sh là âm uốn lưỡi, đừng đọc thành “sâu”."},
+      {"id":"v4","hanzi":"越","pinyin":"yuè","pos":"phó từ","meaning_vi":"càng","example_zh":"天气越来越热了。","example_pinyin":"Tiānqì yuè lái yuè rè le.","example_vi":"Trời càng ngày càng nóng.","hanviet":"VIỆT","note_vi":"Ở bài này 越 dùng trong khối 越来越 (càng ngày càng). Mẫu 越A越B (càng A càng B) sẽ học ở bài 9. Chữ 越 cũng chính là chữ “Việt” trong 越南 (Yuènán, Việt Nam)."},
+      {"id":"v5","hanzi":"有点儿","pinyin":"yǒudiǎnr","pos":"phó từ","meaning_vi":"hơi, có hơi (thường là điều không vừa ý)","example_zh":"今天有点儿冷，你多穿一件衣服吧。","example_pinyin":"Jīntiān yǒudiǎnr lěng, nǐ duō chuān yí jiàn yīfu ba.","example_vi":"Hôm nay hơi lạnh, bạn mặc thêm một cái áo đi.","note_vi":"有点儿 đứng TRƯỚC tính từ, thường mang ý không vừa ý: 有点儿胖, 有点儿累. 一点儿 đứng SAU tính từ, nghĩa là “hơn một chút”: 瘦一点儿. ✗ 我一点儿累 → ✓ 我有点儿累."},
+      {"id":"v6","hanzi":"饭","pinyin":"fàn","pos":"danh từ","meaning_vi":"cơm; bữa ăn","example_zh":"我饿了，咱们去吃饭吧。","example_pinyin":"Wǒ è le, zánmen qù chī fàn ba.","example_vi":"Tôi đói rồi, chúng mình đi ăn cơm thôi.","hanviet":"PHẠN","note_vi":"吃饭 = ăn cơm, ăn bữa nói chung (ăn mì, ăn bánh cũng gọi là 吃饭). 米饭 = cơm gạo; 早饭、午饭、晚饭 = bữa sáng, trưa, tối."},
+      {"id":"v7","hanzi":"饿","pinyin":"è","pos":"tính từ","meaning_vi":"đói","example_zh":"中午我只吃了一个包子，现在饿了。","example_pinyin":"Zhōngwǔ wǒ zhǐ chī le yí ge bāozi, xiànzài è le.","example_vi":"Trưa tôi chỉ ăn một cái bánh bao, giờ đói rồi.","note_vi":"“Đói rồi” = 饿了 (trạng thái mới, dùng 了 chỉ sự thay đổi). Nguyên âm e đọc sâu trong họng, gần “ơ”, không phải “e” tiếng Việt."},
+      {"id":"v8","hanzi":"饱","pinyin":"bǎo","pos":"tính từ","meaning_vi":"no","example_zh":"我吃饱了，不想吃了。","example_pinyin":"Wǒ chī bǎo le, bù xiǎng chī le.","example_vi":"Tôi ăn no rồi, không muốn ăn nữa.","hanviet":"BÃO (như “bão hòa”)","note_vi":"Hay đứng sau 吃 làm bổ ngữ kết quả: 吃饱了 (ăn no rồi), 没吃饱 (ăn chưa no). Ngược nghĩa: 饿."},
+      {"id":"v9","hanzi":"公斤","pinyin":"gōngjīn","pos":"lượng từ","meaning_vi":"ki-lô-gam (kg)","example_zh":"这个西瓜有五公斤。","example_pinyin":"Zhège xīguā yǒu wǔ gōngjīn.","example_vi":"Quả dưa hấu này nặng 5 kg.","hanviet":"CÔNG CÂN","note_vi":"Hỏi cân nặng: 你多少公斤？ Số đứng ngay trước 公斤, không thêm 个. 1 公斤 = 2 斤."},
+      {"id":"v10","hanzi":"斤","pinyin":"jīn","pos":"lượng từ","meaning_vi":"cân Trung Quốc (= 0,5 kg)","example_zh":"我买了两斤苹果。","example_pinyin":"Wǒ mǎi le liǎng jīn píngguǒ.","example_vi":"Tôi mua 1 kg táo (hai 斤).","hanviet":"CÂN","note_vi":"Bẫy Hán Việt: 斤 đọc là “cân” nhưng chỉ bằng 0,5 kg, không phải 1 kg như “cân” trong tiếng Việt. 我胖了十斤 = tôi béo lên 5 kg. Người Trung Quốc rất hay dùng 斤 khi đi chợ và khi nói cân nặng."},
+      {"id":"v11","hanzi":"健康","pinyin":"jiànkāng","pos":"tính từ / danh từ","meaning_vi":"khỏe mạnh; sức khỏe","example_zh":"我爷爷八十岁了，身体还很健康。","example_pinyin":"Wǒ yéye bāshí suì le, shēntǐ hái hěn jiànkāng.","example_vi":"Ông tôi tám mươi tuổi rồi mà vẫn rất khỏe mạnh.","hanviet":"KIỆN KHANG","note_vi":"Vừa là tính từ (身体很健康) vừa là danh từ (为了健康). Khi hỏi thăm sức khỏe hằng ngày, người ta hay dùng 身体: 你身体好吗？"},
+      {"id":"v12","hanzi":"为了","pinyin":"wèile","pos":"giới từ","meaning_vi":"để, vì (chỉ mục đích)","example_zh":"为了健康，我每天都跑步。","example_pinyin":"Wèile jiànkāng, wǒ měi tiān dōu pǎobù.","example_vi":"Để khỏe mạnh, ngày nào tôi cũng chạy bộ.","hanviet":"VỊ","note_vi":"为了 + mục đích, thường đứng đầu câu. 因为 + nguyên nhân. ✗ 为了下雨，我没去 → ✓ 因为下雨，我没去. 为 ở đây đọc wèi (thanh 4)."},
+      {"id":"v13","hanzi":"锻炼","pinyin":"duànliàn","pos":"động từ","meaning_vi":"rèn luyện, tập thể dục","example_zh":"我每天早上都在公园锻炼。","example_pinyin":"Wǒ měi tiān zǎoshang dōu zài gōngyuán duànliàn.","example_vi":"Sáng nào tôi cũng tập thể dục ở công viên.","hanviet":"ĐOÁN LUYỆN","note_vi":"锻炼身体 = tập thể dục cho khỏe. 锻炼 nhấn vào việc tập cho khỏe hơn; 运动 là “vận động, chơi thể thao” và còn là danh từ. Hai chữ đều thanh 4: hạ giọng dứt khoát cả hai."},
+      {"id":"v14","hanzi":"经常","pinyin":"jīngcháng","pos":"phó từ","meaning_vi":"thường, thường xuyên","example_zh":"他经常去体育馆打篮球。","example_pinyin":"Tā jīngcháng qù tǐyùguǎn dǎ lánqiú.","example_vi":"Anh ấy thường đến nhà thi đấu chơi bóng rổ.","hanviet":"KINH THƯỜNG","note_vi":"Đứng trước động từ. Phủ định hay nói 不经常 hoặc 不常: 我不经常喝咖啡. Nghĩa gần với 常常 (học ở bài 7)."},
+      {"id":"v15","hanzi":"跑","pinyin":"pǎo","pos":"động từ","meaning_vi":"chạy","example_zh":"他跑得很快。","example_pinyin":"Tā pǎo de hěn kuài.","example_vi":"Anh ấy chạy rất nhanh.","note_vi":"跑步 = chạy bộ (môn tập luyện), sau 跑步 không có tân ngữ. 跑 dùng rộng hơn: 跑得很快, 跑到公园. p bật hơi mạnh, khác “b” tiếng Việt."},
+      {"id":"v16","hanzi":"打","pinyin":"dǎ","pos":"động từ","meaning_vi":"đánh; chơi (bóng bằng tay, bằng vợt)","example_zh":"周末咱们去打篮球吧。","example_pinyin":"Zhōumò zánmen qù dǎ lánqiú ba.","example_vi":"Cuối tuần chúng mình đi chơi bóng rổ nhé.","hanviet":"ĐẢ","note_vi":"打 đi với môn bóng chơi bằng tay hoặc vợt: 打篮球, 打球. Bóng đá chơi bằng chân nên nói 踢足球, không nói 打足球. Ngoài ra còn có 打电话 (gọi điện)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"自己","pinyin":"zìjǐ","pos":"đại từ","meaning_vi":"tự mình, bản thân","example_zh":"晚饭我自己做。","example_pinyin":"Wǎnfàn wǒ zìjǐ zuò.","example_vi":"Bữa tối tôi tự nấu."},
+      {"id":"x2","hanzi":"早","pinyin":"zǎo","pos":"tính từ","meaning_vi":"sớm","example_zh":"你今天来得真早！","example_pinyin":"Nǐ jīntiān lái de zhēn zǎo!","example_vi":"Hôm nay bạn đến sớm thật!"},
+      {"id":"x3","hanzi":"这么","pinyin":"zhème","pos":"đại từ","meaning_vi":"thế này, như vậy, đến thế","example_zh":"你怎么吃这么多糖？","example_pinyin":"Nǐ zěnme chī zhème duō táng?","example_vi":"Sao bạn ăn nhiều kẹo thế?"},
+      {"id":"x4","hanzi":"有时","pinyin":"yǒushí","pos":"phó từ","meaning_vi":"có lúc, đôi khi","example_zh":"我有时跑步，有时游泳。","example_pinyin":"Wǒ yǒushí pǎobù, yǒushí yóuyǒng.","example_vi":"Có lúc tôi chạy bộ, có lúc tôi đi bơi."},
+      {"id":"x5","hanzi":"肉","pinyin":"ròu","pos":"danh từ","meaning_vi":"thịt","example_zh":"为了健康，我少吃肉，多吃水果。","example_pinyin":"Wèile jiànkāng, wǒ shǎo chī ròu, duō chī shuǐguǒ.","example_vi":"Vì sức khỏe, tôi ăn ít thịt, ăn nhiều hoa quả."},
+      {"id":"x6","hanzi":"面包","pinyin":"miànbāo","pos":"danh từ","meaning_vi":"bánh mì","example_zh":"早上我喝牛奶，吃面包。","example_pinyin":"Zǎoshang wǒ hē niúnǎi, chī miànbāo.","example_vi":"Buổi sáng tôi uống sữa, ăn bánh mì."},
+      {"id":"x7","hanzi":"面条儿","pinyin":"miàntiáor","pos":"danh từ","meaning_vi":"mì sợi","example_zh":"晚上咱们吃面条儿吧。","example_pinyin":"Wǎnshang zánmen chī miàntiáor ba.","example_vi":"Tối nay chúng mình ăn mì nhé."},
+      {"id":"x8","hanzi":"包子","pinyin":"bāozi","pos":"danh từ","meaning_vi":"bánh bao","example_zh":"我买了两个肉包子。","example_pinyin":"Wǒ mǎi le liǎng ge ròu bāozi.","example_vi":"Tôi mua hai cái bánh bao nhân thịt."},
+      {"id":"x9","hanzi":"甜","pinyin":"tián","pos":"tính từ","meaning_vi":"ngọt","example_zh":"这个蛋糕太甜了。","example_pinyin":"Zhège dàngāo tài tián le.","example_vi":"Cái bánh kem này ngọt quá."},
+      {"id":"x10","hanzi":"糖","pinyin":"táng","pos":"danh từ","meaning_vi":"đường; kẹo","example_zh":"我喝咖啡不加糖。","example_pinyin":"Wǒ hē kāfēi bù jiā táng.","example_vi":"Tôi uống cà phê không cho đường."},
+      {"id":"x11","hanzi":"冰激凌","pinyin":"bīngjīlíng","pos":"danh từ","meaning_vi":"kem (ăn)","example_zh":"天气太热了，我想吃冰激凌。","example_pinyin":"Tiānqì tài rè le, wǒ xiǎng chī bīngjīlíng.","example_vi":"Trời nóng quá, tôi muốn ăn kem."},
+      {"id":"x12","hanzi":"球","pinyin":"qiú","pos":"danh từ","meaning_vi":"quả bóng; bóng","example_zh":"孩子们在草地上踢球。","example_pinyin":"Háizimen zài cǎodì shang tī qiú.","example_vi":"Bọn trẻ đá bóng trên bãi cỏ."},
+      {"id":"x13","hanzi":"篮球","pinyin":"lánqiú","pos":"danh từ","meaning_vi":"bóng rổ","example_zh":"他篮球打得很好。","example_pinyin":"Tā lánqiú dǎ de hěn hǎo.","example_vi":"Anh ấy chơi bóng rổ rất giỏi."},
+      {"id":"x14","hanzi":"足球","pinyin":"zúqiú","pos":"danh từ","meaning_vi":"bóng đá","example_zh":"我弟弟很喜欢踢足球。","example_pinyin":"Wǒ dìdi hěn xǐhuan tī zúqiú.","example_vi":"Em trai tôi rất thích đá bóng."},
+      {"id":"x15","hanzi":"踢","pinyin":"tī","pos":"động từ","meaning_vi":"đá","example_zh":"周末我们去踢足球吧。","example_pinyin":"Zhōumò wǒmen qù tī zúqiú ba.","example_vi":"Cuối tuần chúng mình đi đá bóng nhé."},
+      {"id":"x16","hanzi":"游","pinyin":"yóu","pos":"động từ","meaning_vi":"bơi","example_zh":"我今天游了一个小时，有点儿累了。","example_pinyin":"Wǒ jīntiān yóu le yí ge xiǎoshí, yǒudiǎnr lèi le.","example_vi":"Hôm nay tôi bơi một tiếng, hơi mệt rồi."},
+      {"id":"x17","hanzi":"体育馆","pinyin":"tǐyùguǎn","pos":"danh từ","meaning_vi":"nhà thi đấu, nhà tập thể thao","example_zh":"学校的体育馆很大。","example_pinyin":"Xuéxiào de tǐyùguǎn hěn dà.","example_vi":"Nhà thi đấu của trường rất rộng."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“了” cuối câu chỉ sự thay đổi",
+        "pattern":"S + Adj/V + 了　·　不 + V + 了 (không … nữa)　·　số tuổi / cân nặng + 了",
+        "explanation_vi":"了 đặt ở cuối câu để báo rằng đã có một tình huống mới, khác với trước: 我胖了 (trước không béo, giờ béo lên), 天冷了 (trời trở lạnh), 我饿了 (giờ thấy đói). 不 + V + 了 nghĩa là “không … nữa”: 我不喝啤酒了 (trước có uống, giờ thôi). Sau số tuổi, cân nặng, nghề nghiệp…, 了 nhấn mạnh đã đạt tới mức mới: 他十八岁了. Nếu không có gì thay đổi thì không thêm 了, dù việc đó ở quá khứ.",
+        "examples":[
+          {"zh":"我最近胖了，衣服都小了。","pinyin":"Wǒ zuìjìn pàng le, yīfu dōu xiǎo le.","vi":"Dạo này tôi béo lên, quần áo chật hết rồi."},
+          {"zh":"为了健康，爸爸不喝啤酒了。","pinyin":"Wèile jiànkāng, bàba bù hē píjiǔ le.","vi":"Vì sức khỏe, bố không uống bia nữa."},
+          {"zh":"我弟弟十八岁了，是大学生了。","pinyin":"Wǒ dìdi shíbā suì le, shì dàxuéshēng le.","vi":"Em trai tôi mười tám tuổi rồi, đã là sinh viên rồi."},
+          {"zh":"下雨了，咱们别去跑步了。","pinyin":"Xià yǔ le, zánmen bié qù pǎobù le.","vi":"Trời mưa rồi, chúng mình đừng đi chạy nữa."}
+        ],
+        "mistakes_vi":"✗ 昨天我很忙了。\n✓ 昨天我很忙。\n了 không phải dấu hiệu “đã” của quá khứ. Hôm qua bận là một trạng thái, không có gì thay đổi nên không thêm 了.\n✗ 我没喝啤酒了。(muốn nói “tôi không uống bia nữa”)\n✓ 我不喝啤酒了。\n“Không … nữa” là 不 + V + 了; 没 chỉ phủ định một việc đã xảy ra.\n✗ 我已经六十公斤。\n✓ 我已经六十公斤了。\nTiếng Việt nói “tôi đã 60 kg” không cần “rồi”, nhưng tiếng Trung có 已经 thì cuối câu thường phải có 了.",
+        "compare_vi":"Rất giống chữ “rồi” và “nữa” trong tiếng Việt: “Tôi béo rồi” = 我胖了; “Trời mưa rồi” = 下雨了; “Tôi không uống nữa” = 我不喝了."
+      },
+      {
+        "id":"g2",
+        "title":"越来越 + tính từ / động từ tâm lý (càng ngày càng)",
+        "pattern":"S + 越来越 + Adj / động từ tâm lý (+ 了)　·　S + V + 得 + 越来越 + Adj",
+        "explanation_vi":"越来越 = “càng ngày càng”, “ngày càng”: mức độ tăng dần theo thời gian. Đặt sau chủ ngữ, ngay trước tính từ (胖、热、健康) hoặc động từ chỉ tâm lý, cảm xúc (喜欢、想、爱). Vì 越来越 đã nói mức độ nên phía sau không thêm 很、非常、太. Cuối câu hay có 了 để nhấn mạnh sự thay đổi. Với động từ chỉ hành động (跑、说、吃…), dùng bổ ngữ trạng thái: 他跑得越来越快了.",
+        "examples":[
+          {"zh":"我最近越来越胖了。","pinyin":"Wǒ zuìjìn yuè lái yuè pàng le.","vi":"Dạo này tôi càng ngày càng béo."},
+          {"zh":"天气越来越热了，咱们去游泳吧。","pinyin":"Tiānqì yuè lái yuè rè le, zánmen qù yóuyǒng ba.","vi":"Trời ngày càng nóng, chúng mình đi bơi đi."},
+          {"zh":"我越来越喜欢锻炼了。","pinyin":"Wǒ yuè lái yuè xǐhuan duànliàn le.","vi":"Tôi ngày càng thích tập thể dục."},
+          {"zh":"他跑得越来越快了。","pinyin":"Tā pǎo de yuè lái yuè kuài le.","vi":"Anh ấy chạy ngày càng nhanh."}
+        ],
+        "mistakes_vi":"✗ 我越来越很胖。\n✓ 我越来越胖了。\nSau 越来越 không thêm 很/非常/太, vì 越来越 đã chỉ mức độ.\n✗ 越来越我喜欢游泳。\n✓ 我越来越喜欢游泳了。\nTiếng Việt nói “càng ngày tôi càng thích…”, nhưng 越来越 là một khối liền, đứng sau chủ ngữ và ngay trước động từ/tính từ.\n✗ 他越来越跑快了。\n✓ 他跑得越来越快了。\nĐộng từ hành động không đứng ngay sau 越来越; dùng V + 得 + 越来越 + Adj.",
+        "compare_vi":"Tiếng Việt “càng ngày càng” có thể tách ra hai chỗ (“càng ngày tôi càng béo”); tiếng Trung 越来越 luôn đi liền một khối: 我越来越胖了."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Dạo này mình béo lên rồi",
+      "scene_vi": "Giờ nghỉ trưa ở công ty, Tiểu Cao thấy cô đồng nghiệp Tiểu Lâm chỉ ăn một cái bánh mì.",
+      "lines": [
+        {"speaker":"小高","zh":"小林，中午你怎么只吃一个面包？你不饿吗？","pinyin":"Xiǎo Lín, zhōngwǔ nǐ zěnme zhǐ chī yí ge miànbāo? Nǐ bú è ma?","vi":"Tiểu Lâm, trưa nay sao bạn chỉ ăn mỗi một cái bánh mì? Bạn không đói à?"},
+        {"speaker":"小林","zh":"有点儿饿。但是我最近越来越胖了，衣服都小了。","pinyin":"Yǒudiǎnr è. Dànshì wǒ zuìjìn yuè lái yuè pàng le, yīfu dōu xiǎo le.","vi":"Hơi đói. Nhưng dạo này mình càng ngày càng béo, quần áo chật hết cả rồi."},
+        {"speaker":"小高","zh":"是吗？我看你一点儿也不胖啊。你现在多少公斤？","pinyin":"Shì ma? Wǒ kàn nǐ yìdiǎnr yě bú pàng a. Nǐ xiànzài duōshao gōngjīn?","vi":"Thế à? Mình thấy bạn chẳng béo chút nào. Bây giờ bạn nặng bao nhiêu cân?"},
+        {"speaker":"小林","zh":"五十八公斤了！去年我五十公斤，一年就胖了八公斤。","pinyin":"Wǔshíbā gōngjīn le! Qùnián wǒ wǔshí gōngjīn, yì nián jiù pàng le bā gōngjīn.","vi":"58 kg rồi! Năm ngoái mình 50 kg, mới một năm mà đã béo lên 8 kg."},
+        {"speaker":"小高","zh":"不吃饭对身体不好。为了健康，饭要吃饱，还要经常锻炼。","pinyin":"Bù chī fàn duì shēntǐ bù hǎo. Wèile jiànkāng, fàn yào chī bǎo, hái yào jīngcháng duànliàn.","vi":"Không ăn cơm thì không tốt cho sức khỏe đâu. Muốn khỏe thì phải ăn no, còn phải tập thể dục thường xuyên nữa."},
+        {"speaker":"小林","zh":"我知道啊。但是每天下班以后我都很累，只想在家看电视、吃东西。","pinyin":"Wǒ zhīdao a. Dànshì měi tiān xiàbān yǐhòu wǒ dōu hěn lèi, zhǐ xiǎng zài jiā kàn diànshì, chī dōngxi.","vi":"Mình biết mà. Nhưng ngày nào tan làm mình cũng mệt, chỉ muốn ở nhà xem tivi, ăn vặt."},
+        {"speaker":"小高","zh":"去年我也这么胖！现在我每天早上都去公园跑步，周末还去体育馆打篮球。","pinyin":"Qùnián wǒ yě zhème pàng! Xiànzài wǒ měi tiān zǎoshang dōu qù gōngyuán pǎobù, zhōumò hái qù tǐyùguǎn dǎ lánqiú.","vi":"Năm ngoái mình cũng béo thế này đấy! Bây giờ sáng nào mình cũng ra công viên chạy bộ, cuối tuần còn đến nhà thi đấu chơi bóng rổ."},
+        {"speaker":"小林","zh":"对，你真的瘦了！瘦了多少？","pinyin":"Duì, nǐ zhēn de shòu le! Shòu le duōshao?","vi":"Đúng rồi, bạn gầy đi thật! Gầy đi bao nhiêu thế?"},
+        {"speaker":"小高","zh":"瘦了十斤！而且我现在睡得很好，身体越来越健康了。","pinyin":"Shòu le shí jīn! Érqiě wǒ xiànzài shuì de hěn hǎo, shēntǐ yuè lái yuè jiànkāng le.","vi":"Gầy đi mười cân Trung Quốc, tức là 5 kg! Mà giờ mình ngủ rất ngon, người ngày càng khỏe."},
+        {"speaker":"小林","zh":"太好了！明天早上咱们一块儿去跑步吧。现在我真的饿了，我去买两个包子！","pinyin":"Tài hǎo le! Míngtiān zǎoshang zánmen yíkuàir qù pǎobù ba. Xiànzài wǒ zhēn de è le, wǒ qù mǎi liǎng ge bāozi!","vi":"Tuyệt quá! Sáng mai chúng mình cùng đi chạy nhé. Còn bây giờ mình đói thật rồi, mình đi mua hai cái bánh bao đây!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:胖","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我最近吃得太多了，越来越____了。","options":["胖","瘦","饿","早"],"answer":0,"explanation_vi":"Ăn nhiều quá thì béo lên: 越来越胖了 = càng ngày càng béo."},
+      {"id":"e2","type":"choice","tag":"v:饱","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我吃____了，不想再吃了。","options":["饱","饿","甜","冷"],"answer":0,"explanation_vi":"吃饱了 = ăn no rồi, nên không muốn ăn thêm nữa."},
+      {"id":"e3","type":"choice","tag":"v:有点儿","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天____冷，你多穿一件衣服吧。","options":["有点儿","一点儿","为了","经常"],"answer":0,"explanation_vi":"有点儿 đứng trước tính từ: 有点儿冷 = hơi lạnh. 一点儿 phải đứng sau tính từ (冷一点儿)."},
+      {"id":"e4","type":"choice","tag":"v:斤","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"一公斤是两____。","options":["斤","个","次","岁"],"answer":0,"explanation_vi":"1 公斤 = 2 斤, vì 1 斤 chỉ bằng 0,5 kg."},
+      {"id":"e5","type":"choice","tag":"v:为了","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____健康，我每天都锻炼。","options":["为了","因为","所以","但是"],"answer":0,"explanation_vi":"Vế đầu nói mục đích (để khỏe) nên dùng 为了. 因为 dùng để nói nguyên nhân và cần cả một vế câu phía sau."},
+      {"id":"e6","type":"choice","tag":"v:打","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"周末我们去体育馆____篮球吧。","options":["打","踢","游","跑"],"answer":0,"explanation_vi":"Bóng rổ chơi bằng tay nên nói 打篮球. 踢 dùng cho bóng đá (踢足球)."},
+      {"id":"e7","type":"choice","tag":"g:了变化","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我弟弟十八岁____，是大学生了。","options":["了","过","着","的"],"answer":0,"explanation_vi":"十八岁了 = đã mười tám tuổi rồi: 了 cuối câu báo một tình huống mới."},
+      {"id":"e8","type":"choice","tag":"g:了变化","prompt_vi":"Chọn câu đúng với nghĩa: “Tôi không ăn kem nữa.”","question_zh":"Tôi không ăn kem nữa.","options":["我不吃冰激凌了。","我没吃冰激凌了。","我不吃了冰激凌。","我吃冰激凌了。"],"answer":0,"explanation_vi":"“Không … nữa” = 不 + V + (O) + 了, 了 đứng cuối câu. 没 dùng cho việc chưa xảy ra, không mang nghĩa “nữa”."},
+      {"id":"e9","type":"choice","tag":"g:越来越","prompt_vi":"Chọn câu đúng với nghĩa: “Trời càng ngày càng nóng.”","question_zh":"Trời càng ngày càng nóng.","options":["天气越来越热了。","天气越来越很热了。","越来越天气热了。","天气热越来越了。"],"answer":0,"explanation_vi":"越来越 đứng sau chủ ngữ, ngay trước tính từ, không thêm 很: 天气越来越热了."},
+      {"id":"e10","type":"order","tag":"g:越来越","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","越来越","喜欢","锻炼","了"],"answers":["我越来越喜欢锻炼了"],"translation_vi":"Tôi càng ngày càng thích tập thể dục.","explanation_vi":"越来越 đứng trước động từ tâm lý 喜欢; 了 ở cuối câu nhấn mạnh sự thay đổi."},
+      {"id":"e11","type":"order","tag":"g:了变化","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["为了","健康","我","不喝","啤酒","了"],"answers":["为了健康我不喝啤酒了","我为了健康不喝啤酒了"],"translation_vi":"Vì sức khỏe, tôi không uống bia nữa.","explanation_vi":"为了 + mục đích đứng đầu câu (hoặc sau chủ ngữ); 不 + V + O + 了 = không … nữa."},
+      {"id":"e12","type":"order","tag":"v:最近","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","最近","瘦","了","五公斤"],"answers":["他最近瘦了五公斤","最近他瘦了五公斤"],"translation_vi":"Dạo này anh ấy gầy đi 5 kg.","explanation_vi":"最近 đứng trước hoặc sau chủ ngữ; số cân giảm đứng sau 瘦了."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"胖","vi":"béo"},{"zh":"瘦","vi":"gầy"},{"zh":"饿","vi":"đói"},{"zh":"饱","vi":"no"},{"zh":"健康","vi":"khỏe mạnh"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"面包","vi":"bánh mì"},{"zh":"面条儿","vi":"mì sợi"},{"zh":"包子","vi":"bánh bao"},{"zh":"冰激凌","vi":"kem"},{"zh":"足球","vi":"bóng đá"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:了变化","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"下雨____，咱们别去跑步了。","options":["了","过","着","得"],"answer":0,"explanation_vi":"下雨了 = trời mưa rồi (tình huống mới), nên mới đổi kế hoạch."},
+        {"id":"q2","type":"choice","tag":"g:了变化","prompt_vi":"Câu nào có nghĩa “Anh ấy không uống bia nữa”?","question_zh":"Anh ấy không uống bia nữa.","options":["他不喝啤酒了。","他没喝啤酒。","他不喝啤酒。","他喝了啤酒。"],"answer":0,"explanation_vi":"不 + V + O + 了 = không … nữa. 他不喝啤酒 chỉ là “anh ấy không uống bia” (thói quen), không có ý thay đổi."},
+        {"id":"q3","type":"choice","tag":"g:了变化","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我已经六十公斤____！","options":["了","的","过","着"],"answer":0,"explanation_vi":"Có 已经 và nói đã đạt tới mức mới (60 kg) nên cuối câu dùng 了."},
+        {"id":"q4","type":"choice","tag":"g:越来越","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"天气越来越____了。","options":["热","很热","非常热","太热"],"answer":0,"explanation_vi":"Sau 越来越 chỉ dùng tính từ trơn, không thêm 很/非常/太."},
+        {"id":"q5","type":"choice","tag":"g:越来越","prompt_vi":"Chọn câu đúng.","question_zh":"Anh ấy chạy ngày càng nhanh.","options":["他跑得越来越快了。","他越来越跑快了。","他跑越来越快了。","他跑得快越来越了。"],"answer":0,"explanation_vi":"Động từ hành động 跑 cần bổ ngữ trạng thái: V + 得 + 越来越 + Adj."},
+        {"id":"q6","type":"choice","tag":"g:越来越","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____喜欢吃甜的东西了。","options":["越来越","越","一点儿","很多"],"answer":0,"explanation_vi":"越来越 + động từ tâm lý (喜欢) + 了 = ngày càng thích. 越 không đứng một mình ở đây."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:健康","prompt_vi":"Chọn đáp án đúng.","question_zh":"他每天锻炼，身体很____。","options":["健康","饱","甜","早"],"answer":0,"explanation_vi":"身体很健康 = cơ thể rất khỏe mạnh, kết quả của việc tập luyện mỗi ngày."},
+      {"id":"t2","type":"choice","tag":"g:越来越","prompt_vi":"Chọn đáp án đúng.","question_zh":"我的汉语____好了。","options":["越来越","越","为了","经常"],"answer":0,"explanation_vi":"越来越好了 = ngày càng tốt lên."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"锻炼","vi":"rèn luyện"},{"zh":"经常","vi":"thường xuyên"},{"zh":"最近","vi":"dạo này"},{"zh":"为了","vi":"để (mục đích)"},{"zh":"有点儿","vi":"hơi"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"甜","vi":"ngọt"},{"zh":"糖","vi":"đường, kẹo"},{"zh":"肉","vi":"thịt"},{"zh":"踢","vi":"đá"},{"zh":"体育馆","vi":"nhà thi đấu"}]},
+      {"id":"t5","type":"order","tag":"g:越来越","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["最近","天气","越来越","热","了"],"answers":["最近天气越来越热了","天气最近越来越热了"],"translation_vi":"Dạo này trời càng ngày càng nóng.","explanation_vi":"最近 đứng trước hoặc sau chủ ngữ 天气; 越来越 đứng ngay trước 热."},
+      {"id":"t6","type":"order","tag":"v:饿","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","现在","有点儿","饿","了"],"answers":["我现在有点儿饿了","现在我有点儿饿了"],"translation_vi":"Bây giờ tôi hơi đói rồi.","explanation_vi":"有点儿 đứng trước tính từ 饿; 了 cuối câu báo trạng thái mới."},
+      {"id":"t7","type":"fill","tag":"v:公斤","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我现在六十____了，去年是五十五公斤。","answers":["公斤"],"hint_vi":"đơn vị ki-lô-gam","explanation_vi":"六十公斤 = 60 kg; năm ngoái 55 kg nên giờ đã nặng hơn."},
+      {"id":"t8","type":"fill","tag":"g:了变化","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"为了健康，我不喝啤酒____。","answers":["了"],"hint_vi":"trợ từ cuối câu, cùng 不 tạo nghĩa “không … nữa”","explanation_vi":"不 + V + O + 了 = không … nữa."},
+      {"id":"t9","type":"listen_choice","tag":"g:越来越","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我最近越来越胖了。","options":["Dạo này tôi càng ngày càng béo.","Dạo này tôi càng ngày càng gầy.","Dạo này tôi hơi đói.","Dạo này tôi không béo nữa."],"answer":0,"explanation_vi":"最近 = dạo này; 越来越胖了 = càng ngày càng béo."},
+      {"id":"t10","type":"listen_choice","tag":"v:锻炼","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"为了健康，他每天早上都去公园锻炼。","options":["Để khỏe mạnh, sáng nào anh ấy cũng ra công viên tập thể dục.","Vì bị ốm, sáng nào anh ấy cũng ra công viên đi dạo.","Để giảm cân, tối nào anh ấy cũng đi bơi.","Sáng nay anh ấy ra công viên chơi bóng rổ."],"answer":0,"explanation_vi":"为了健康 = để khỏe mạnh; 每天早上都 = sáng nào cũng; 锻炼 = tập thể dục."},
+      {"id":"t11","type":"dictation","tag":"v:饱","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我已经吃饱了。","answers":["我已经吃饱了"],"explanation_vi":"我已经吃饱了 = Tôi ăn no rồi."},
+      {"id":"t12","type":"dictation","tag":"v:经常","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"他经常去体育馆打篮球。","answers":["他经常去体育馆打篮球"],"explanation_vi":"他经常去体育馆打篮球 = Anh ấy thường đến nhà thi đấu chơi bóng rổ."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:越来越","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tôi càng ngày càng thích tập thể dục.","answers":["我越来越喜欢锻炼了","我越来越喜欢锻炼","我越来越喜欢锻炼身体了","我越来越喜欢锻炼身体","我越来越喜欢运动了","我越来越喜欢运动"],"explanation_vi":"我 + 越来越 + 喜欢 + 锻炼/运动 (+ 了)."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:了变化","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Dạo này tôi béo lên rồi.","answers":["我最近胖了","最近我胖了","我最近变胖了","最近我变胖了"],"explanation_vi":"“Béo lên rồi” = 胖了: 了 cuối câu chỉ sự thay đổi. 最近 đứng trước hoặc sau 我."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:为了","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"为了健康，我每天都跑步。","answers_vi":["Để khỏe mạnh, ngày nào tôi cũng chạy bộ.","Vì sức khỏe, hằng ngày tôi đều chạy bộ."],"keywords":[["để","vì"],["khỏe","sức khỏe","khoẻ"],["chạy"],["ngày nào","hằng ngày","hàng ngày","mỗi ngày","mọi ngày"]],"explanation_vi":"为了健康 = để khỏe mạnh / vì sức khỏe; 每天都 = ngày nào cũng; 跑步 = chạy bộ."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:越来越","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"天气越来越冷了。","answers_vi":["Trời càng ngày càng lạnh.","Thời tiết ngày càng lạnh rồi."],"keywords":[["trời","thời tiết"],["càng ngày càng","ngày càng","càng lúc càng"],["lạnh"]],"explanation_vi":"越来越冷了 = càng ngày càng lạnh."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"爸爸越来越健康了",
+        "title_vi":"Bố tôi ngày càng khỏe",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["爸爸","bàba","bố"],["今年","jīnnián","năm nay"],["五十","wǔshí","năm mươi"],["岁","suì","tuổi"],["了","le","rồi"],["。"],["去年","qùnián","năm ngoái"],["他","tā","ông ấy"],["越来越","yuè lái yuè","càng ngày càng"],["胖","pàng","béo"],["，"],["经常","jīngcháng","thường xuyên"],["觉得","juéde","cảm thấy"],["很","hěn","rất"],["累","lèi","mệt"],["。"],["医生","yīshēng","bác sĩ"],["告诉","gàosu","bảo, nói với"],["他","tā","ông ấy"],["："],["“"],["为了","wèile","để, vì"],["健康","jiànkāng","sức khỏe"],["，"],["你","nǐ","anh, ông (người nghe)"],["要","yào","phải, cần"],["多","duō","nhiều (hơn)"],["锻炼","duànliàn","tập thể dục"],["，"],["少","shǎo","ít (hơn)"],["吃","chī","ăn"],["肉","ròu","thịt"],["和","hé","và"],["甜","tián","ngọt"],["的","de","(đồ) …"],["东西","dōngxi","đồ, thứ"],["。"],["”"]],
+            "vi":"Bố tôi năm nay năm mươi tuổi rồi. Năm ngoái bố càng ngày càng béo, thường xuyên thấy rất mệt. Bác sĩ bảo bố: “Vì sức khỏe, anh phải tập thể dục nhiều hơn, ăn ít thịt và đồ ngọt thôi.”"
+          },
+          {
+            "tokens":[["从","cóng","từ"],["那天","nà tiān","hôm đó"],["开始","kāishǐ","bắt đầu"],["，"],["爸爸","bàba","bố"],["每天","měi tiān","mỗi ngày"],["早上","zǎoshang","buổi sáng"],["六点","liù diǎn","sáu giờ"],["起床","qǐchuáng","thức dậy"],["，"],["去","qù","đi"],["公园","gōngyuán","công viên"],["跑步","pǎobù","chạy bộ"],["。"],["他","tā","ông ấy"],["不","bù","không"],["喝","hē","uống"],["啤酒","píjiǔ","bia"],["了","le","nữa"],["，"],["也","yě","cũng"],["不","bù","không"],["吃","chī","ăn"],["糖","táng","kẹo, đường"],["了","le","nữa"],["。"],["周末","zhōumò","cuối tuần"],["他","tā","ông ấy"],["还","hái","còn"],["和","hé","với"],["我","wǒ","tôi"],["一块儿","yíkuàir","cùng nhau"],["去","qù","đi"],["体育馆","tǐyùguǎn","nhà thi đấu"],["打","dǎ","chơi"],["篮球","lánqiú","bóng rổ"],["。"]],
+            "vi":"Từ hôm đó, sáng nào bố cũng dậy lúc sáu giờ, ra công viên chạy bộ. Bố không uống bia nữa, cũng không ăn kẹo nữa. Cuối tuần bố còn cùng tôi đến nhà thi đấu chơi bóng rổ."
+          },
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["爸爸","bàba","bố"],["瘦","shòu","gầy"],["了","le","đi"],["十","shí","mười"],["斤","jīn","cân (0,5 kg)"],["，"],["身体","shēntǐ","sức khỏe, cơ thể"],["越来越","yuè lái yuè","càng ngày càng"],["好","hǎo","tốt"],["了","le","(thay đổi)"],["。"],["他","tā","ông ấy"],["笑着","xiàozhe","cười"],["说","shuō","nói"],["："],["“"],["我","wǒ","tôi"],["现在","xiànzài","bây giờ"],["越来越","yuè lái yuè","càng ngày càng"],["喜欢","xǐhuan","thích"],["运动","yùndòng","vận động, thể thao"],["了","le","(thay đổi)"],["！"],["”"]],
+            "vi":"Bây giờ bố đã gầy đi mười cân Trung Quốc (5 kg), sức khỏe ngày càng tốt. Bố cười nói: “Bây giờ bố càng ngày càng thích vận động rồi!”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"去年爸爸怎么了？","options":["越来越胖","越来越瘦","不想吃饭","每天去跑步"],"answer":0,"explanation_vi":"Đoạn 1: 去年他越来越胖，经常觉得很累."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"医生告诉爸爸要做什么？","options":["多锻炼，少吃肉和甜的东西","多吃肉，少运动","每天多睡觉","不吃早饭"],"answer":0,"explanation_vi":"Đoạn 1: 你要多锻炼，少吃肉和甜的东西."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"爸爸每天早上去哪儿跑步？","options":["公园","体育馆","学校","医院"],"answer":0,"explanation_vi":"Đoạn 2: 每天早上六点起床，去公园跑步. Nhà thi đấu (体育馆) là nơi bố chơi bóng rổ vào cuối tuần."},
+          {"id":"rq4","type":"choice","tag":"g:了变化","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"爸爸现在还喝啤酒。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 他不喝啤酒了 = bố không uống bia nữa, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"v:斤","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"爸爸瘦了五公斤。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 瘦了十斤. 10 斤 = 5 公斤, nên câu này đúng."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Tôi mê đồ ngọt",
+        "text_zh":"我特别喜欢吃甜的东西，蛋糕、冰激凌、糖，我都爱吃。最近我胖了三公斤，衣服都有点儿小了。妈妈说：“你吃的糖太多了，也不运动。”为了健康，我打算少吃甜的东西，每天晚上去体育馆游泳。游泳以后我总是很饿，但是我只吃一点儿水果，不吃冰激凌了。现在我越来越喜欢游泳了。",
+        "pinyin":"Wǒ tèbié xǐhuan chī tián de dōngxi, dàngāo, bīngjīlíng, táng, wǒ dōu ài chī. Zuìjìn wǒ pàng le sān gōngjīn, yīfu dōu yǒudiǎnr xiǎo le. Māma shuō: “Nǐ chī de táng tài duō le, yě bú yùndòng.” Wèile jiànkāng, wǒ dǎsuàn shǎo chī tián de dōngxi, měi tiān wǎnshang qù tǐyùguǎn yóuyǒng. Yóuyǒng yǐhòu wǒ zǒngshì hěn è, dànshì wǒ zhǐ chī yìdiǎnr shuǐguǒ, bù chī bīngjīlíng le. Xiànzài wǒ yuè lái yuè xǐhuan yóuyǒng le.",
+        "vi":"Tôi rất thích ăn đồ ngọt: bánh kem, kem, kẹo, món nào tôi cũng thích. Dạo này tôi béo lên 3 kg, quần áo đều hơi chật rồi. Mẹ nói: “Con ăn nhiều kẹo quá, lại còn không vận động.” Vì sức khỏe, tôi định ăn ít đồ ngọt, tối nào cũng đến nhà thi đấu bơi. Bơi xong tôi luôn thấy rất đói, nhưng tôi chỉ ăn một chút hoa quả, không ăn kem nữa. Bây giờ tôi càng ngày càng thích bơi.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她最近怎么了？","options":["胖了三公斤","瘦了三公斤","生病了","不喜欢吃甜的了"],"answer":0,"explanation_vi":"Nghe được: 最近我胖了三公斤."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"妈妈说了什么？","options":["她吃的糖太多了","她吃的饭太少了","她每天都运动","她太瘦了"],"answer":0,"explanation_vi":"Nghe được: 妈妈说：“你吃的糖太多了，也不运动。”"},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她打算每天晚上做什么？","options":["去体育馆游泳","去公园跑步","去打篮球","在家吃蛋糕"],"answer":0,"explanation_vi":"Nghe được: 每天晚上去体育馆游泳."},
+          {"id":"lq4","type":"choice","tag":"g:了变化","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"游泳以后她吃什么？","options":["一点儿水果","冰激凌","蛋糕","两个包子"],"answer":0,"explanation_vi":"Nghe được: 我只吃一点儿水果，不吃冰激凌了 (không ăn kem nữa)."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"胖了，瘦了","pinyin":"pàng le, shòu le","vi":"béo lên, gầy đi","tip_vi":"胖 pàng: p bật hơi mạnh (đặt tay trước miệng sẽ thấy hơi ra), -ang mở miệng rộng, kết thúc ở cuống lưỡi. 瘦 shòu: sh uốn lưỡi, đừng đọc thành “sâu”. 了 đọc nhẹ và ngắn."},
+      {"id":"s2","zh":"越来越","pinyin":"yuè lái yuè","vi":"càng ngày càng","tip_vi":"yue: môi tròn như khi đọc ü rồi mở ra thành “ê”, đừng đọc thành “duê” hay “dê”. Hai chữ 越 thanh 4 hạ giọng dứt khoát, 来 thanh 2 lên giọng ở giữa: yuè – lái – yuè."},
+      {"id":"s3","zh":"我饿了。我吃饱了。","pinyin":"Wǒ è le. Wǒ chī bǎo le.","vi":"Tôi đói rồi. Tôi ăn no rồi.","tip_vi":"饿 è: nguyên âm e đọc sâu trong họng, gần “ơ”, không phải “e” tiếng Việt; thanh 4 hạ hết. 吃 chī: ch uốn lưỡi, bật hơi; -i đọc như “ư” uốn lưỡi, không phải “i”. 饱 bǎo: b không rung như “b” tiếng Việt."},
+      {"id":"s4","zh":"一公斤是两斤。","pinyin":"Yì gōngjīn shì liǎng jīn.","vi":"Một ki-lô-gam là hai cân Trung Quốc.","tip_vi":"一 đọc yì (thanh 4) vì đứng trước 公 thanh 1. 公 gōng kết thúc bằng -ng (cuống lưỡi), 斤 jīn kết thúc bằng -n (đầu lưỡi chạm lợi trên): đọc rõ sự khác nhau. j đọc bằng mặt lưỡi, không phải “gi”."},
+      {"id":"s5","zh":"为了健康，我经常锻炼。","pinyin":"Wèile jiànkāng, wǒ jīngcháng duànliàn.","vi":"Vì sức khỏe, tôi thường xuyên tập thể dục.","tip_vi":"经常 jīngcháng: cả hai âm tiết kết thúc bằng -ng, đừng đọc “kinh tràng”. 常 ch bật hơi. 锻炼 duànliàn: hai thanh 4 liền nhau, hạ giọng mạnh cả hai. 了 trong 为了 đọc nhẹ."},
+      {"id":"s6","zh":"我最近越来越胖了。","pinyin":"Wǒ zuìjìn yuè lái yuè pàng le.","vi":"Dạo này tôi càng ngày càng béo.","tip_vi":"最 zuì: z đặt đầu lưỡi sau răng dưới, không bật hơi, đừng đọc thành “chuây”. 近 jìn kết thúc -n. 我 đứng trước thanh 4 nên chỉ đọc nửa đầu thanh 3 (thấp xuống, không cần lên lại)."},
+      {"id":"s7","zh":"天气越来越热了，咱们去游泳吧！","pinyin":"Tiānqì yuè lái yuè rè le, zánmen qù yóuyǒng ba!","vi":"Trời ngày càng nóng, chúng mình đi bơi đi!","tip_vi":"热 rè: r uốn lưỡi, gần âm “r” nhẹ, không đọc thành “dơ” hay “zơ”. 去 qù: q bật hơi, ü tròn môi, đừng đọc “khuy”. 游泳 yóuyǒng: thanh 2 rồi thanh 3. Ngắt hơi ở dấu phẩy."},
+      {"id":"s8","zh":"为了健康，我不喝啤酒了，也不吃糖了。","pinyin":"Wèile jiànkāng, wǒ bù hē píjiǔ le, yě bù chī táng le.","vi":"Vì sức khỏe, tôi không uống bia nữa, cũng không ăn kẹo nữa.","tip_vi":"不 đứng trước 喝, 吃 (thanh 1) nên giữ thanh 4: bù hē, bù chī. 喝 hē: h xát ở cuống lưỡi, không phải “h” nhẹ tiếng Việt. 啤 pí bật hơi. Hai chữ 了 cuối vế đọc nhẹ."}
+    ],
+    "review": {
+      "remember": [
+        "了 cuối câu báo có thay đổi, tình huống mới: 我胖了 (béo lên), 天冷了 (trời trở lạnh), 我饿了 (đói rồi).",
+        "不 + V + 了 = không … nữa: 我不喝啤酒了. Không có gì thay đổi thì không thêm 了.",
+        "越来越 + tính từ / động từ tâm lý (+ 了) = càng ngày càng: 越来越胖了, 越来越喜欢运动了. Động từ hành động: V + 得 + 越来越 + Adj.",
+        "有点儿 + tính từ = hơi … (thường không vừa ý): 有点儿饿; 为了 + mục đích: 为了健康，我经常锻炼.",
+        "1 公斤 = 2 斤: 斤 đọc là “cân” nhưng chỉ bằng nửa ký! 打篮球 nhưng 踢足球."
+      ],
+      "mistakes": [
+        "✗ 我越来越很胖 → ✓ 我越来越胖了: sau 越来越 không thêm 很.",
+        "✗ 昨天我很忙了 → ✓ 昨天我很忙: không có thay đổi thì không dùng 了 (了 không phải “đã”).",
+        "✗ 我一点儿胖 → ✓ 我有点儿胖: “hơi” + tính từ là 有点儿, đứng trước tính từ."
+      ]
+    }
+  }
+}

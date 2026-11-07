@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 from pathlib import Path
 
@@ -8,6 +9,7 @@ from sqlalchemy.orm import Session
 from .models import Lesson
 
 CONTENT_DIR = Path(os.environ.get("CONTENT_DIR", "/content"))
+log = logging.getLogger("seed")
 
 
 def _get_or_create(db: Session, level: int, number: int) -> Lesson:
@@ -30,7 +32,11 @@ def seed_lessons(db: Session) -> tuple[int, int]:
 
     with_content = 0
     for path in sorted(CONTENT_DIR.glob("hsk*/lesson-*.json")):
-        data = json.loads(path.read_text(encoding="utf-8"))
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as exc:  # a file being edited must not stop the app from starting
+            log.warning("skipping %s: %s", path, exc)
+            continue
         lesson = _get_or_create(db, data["level"], data["number"])
         lesson.summary = data.get("summary", "")
         lesson.content = data.get("content", {})

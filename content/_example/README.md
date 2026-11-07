@@ -131,7 +131,12 @@ tone sandhi, 一/不 changes, neutral tones, zh/ch/sh vs z/c/s, -n/-ng, ü, aspi
 
 ```
 docker compose exec -T backend python /tools/validate_content.py hsk3/lesson-05.json
+node --experimental-strip-types --no-warnings e2e/grading_check.mts hsk3/lesson-05.json
 ```
 
-Fix every ERROR. Fix warnings too unless the reading/choice is intended (e.g. 得 děi "phải"); list the ones you keep
+The first checks structure, pinyin, levels and glossary; the second runs every question through the app's own grading
+code (all accepted answers must be graded correct). Intended heteronym readings that the first one warns about can be
+confirmed in a top-level `"readings_ok": ["只 zhī", "里 li"]` list.
+
+Fix every ERROR and FAIL. Fix warnings too unless the reading/choice is intended (e.g. 得 děi "phải"); list the ones you keep
 and anything you are unsure about in `docs/review-notes/hsk<level>-NN.md` (Vietnamese).

@@ -8,8 +8,11 @@ export class AudioInterrupted extends Error {
   }
 }
 
+/** Speaker labels such as "A：" in two-person examples are not read aloud. */
+export const speakable = (text: string) => text.replace(/(^|[\s。！？.!?])[A-Z][：:]\s*/g, "$1").trim();
+
 export const ttsUrl = (text: string, slow = false) =>
-  `/api/tts?text=${encodeURIComponent(text)}${slow ? "&slow=1" : ""}`;
+  `/api/tts?text=${encodeURIComponent(speakable(text))}${slow ? "&slow=1" : ""}`;
 
 export function stopAudio() {
   const cut = interrupt;

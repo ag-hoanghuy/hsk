@@ -1,0 +1,207 @@
+{
+  "level": 3,
+  "number": 8,
+  "readings_ok": ["长 cháng", "了 le", "谁 shéi"],
+  "summary": "Cùng bạn đi trung tâm thương mại: thử quần áo, đổi cỡ, hỏi giá và tính tiền; phân biệt 又 (việc đã lặp lại) với 再 (việc sẽ lặp lại), và nói ý “đâu… đó, gì… nấy” bằng hai đại từ nghi vấn hô ứng.",
+  "content": {
+    "objectives": [
+      "Đi mua sắm: thử đồ, đổi cỡ, hỏi giá và tính tiền (试试、换、一共多少钱？……元)",
+      "Dùng đúng lượng từ cho quần áo, giày dép: 一件衬衫、一条裙子、一双鞋、一家店",
+      "Phân biệt 又 (lại – việc lặp lại đã xảy ra) và 再 (lại, nữa – việc lặp lại chưa xảy ra)",
+      "Nói ý “đâu… đó”, “gì… nấy” bằng hai đại từ nghi vấn hô ứng: 你去哪儿，我就去哪儿"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"又","pinyin":"yòu","pos":"phó từ","meaning_vi":"lại (việc lặp lại đã xảy ra)","example_zh":"他上个星期来过，今天又来了。","example_pinyin":"Tā shàng ge xīngqī lái guo, jīntiān yòu lái le.","example_vi":"Tuần trước anh ấy đã đến, hôm nay lại đến nữa.","note_vi":"又 dùng cho việc lặp lại ĐÃ xảy ra (thường có 了 ở sau). Việc sẽ lặp lại thì dùng 再. Đừng nhầm với 又……又…… (vừa… vừa…) đã học ở bài 4."},
+      {"id":"v2","hanzi":"商场","pinyin":"shāngchǎng","pos":"danh từ","meaning_vi":"trung tâm thương mại, trung tâm mua sắm","example_zh":"这个商场有五层，东西很多。","example_pinyin":"Zhège shāngchǎng yǒu wǔ céng, dōngxi hěn duō.","example_vi":"Trung tâm thương mại này có năm tầng, nhiều đồ lắm.","hanviet":"THƯƠNG TRƯỜNG","note_vi":"Âm Hán Việt là “thương trường”, nhưng nghĩa thường dùng là tòa nhà bán hàng lớn (trung tâm mua sắm), không phải “thương trường” theo nghĩa giới kinh doanh trong tiếng Việt."},
+      {"id":"v3","hanzi":"超市","pinyin":"chāoshì","pos":"danh từ","meaning_vi":"siêu thị","example_zh":"我去超市买点儿水果。","example_pinyin":"Wǒ qù chāoshì mǎi diǎnr shuǐguǒ.","example_vi":"Tôi đi siêu thị mua ít hoa quả.","hanviet":"SIÊU THỊ","note_vi":"Hai âm tiết đều uốn lưỡi: ch (bật hơi) và sh. Đừng đọc thành “chao xư”."},
+      {"id":"v4","hanzi":"试","pinyin":"shì","pos":"động từ","meaning_vi":"thử","example_zh":"这件衬衫我可以试试吗？","example_pinyin":"Zhè jiàn chènshān wǒ kěyǐ shìshi ma?","example_vi":"Tôi mặc thử chiếc áo sơ mi này được không?","hanviet":"THÍ","note_vi":"试试 hoặc 试一下 = thử xem. Chữ 试 cũng có trong 考试 (thi). Tiếng Trung chỉ nói 试, không cần thêm “mặc”: 试衣服 = thử quần áo."},
+      {"id":"v5","hanzi":"合适","pinyin":"héshì","pos":"tính từ","meaning_vi":"vừa, hợp, phù hợp","example_zh":"这双鞋大小很合适。","example_pinyin":"Zhè shuāng xié dàxiǎo hěn héshì.","example_vi":"Đôi giày này cỡ rất vừa.","note_vi":"合适 là tính từ, không mang tân ngữ: ✗ 这件衣服合适我. Muốn nói “hợp với tôi” thì nói 这件衣服我穿很合适."},
+      {"id":"v6","hanzi":"换","pinyin":"huàn","pos":"động từ","meaning_vi":"đổi, thay","example_zh":"这件有点儿小，能换一件大一点儿的吗？","example_pinyin":"Zhè jiàn yǒudiǎnr xiǎo, néng huàn yí jiàn dà yìdiǎnr de ma?","example_vi":"Cái này hơi chật, có thể đổi cái rộng hơn một chút không?","hanviet":"HOÁN","note_vi":"换 + vật: 换衣服 (thay quần áo), 换一件 (đổi cái khác), 换钱 (đổi tiền). Giống “hoán đổi” trong tiếng Việt."},
+      {"id":"v7","hanzi":"一共","pinyin":"yígòng","pos":"phó từ","meaning_vi":"tổng cộng, tất cả","example_zh":"这些东西一共多少钱？","example_pinyin":"Zhèxiē dōngxi yígòng duōshao qián?","example_vi":"Những thứ này tổng cộng bao nhiêu tiền?","note_vi":"Đứng trước số lượng hoặc động từ: 一共三本、一共花了五十元. 一 đọc yí vì đứng trước 共 thanh 4."},
+      {"id":"v8","hanzi":"元","pinyin":"yuán","pos":"lượng từ","meaning_vi":"đồng (đơn vị tiền Trung Quốc)","example_zh":"这本书三十五元。","example_pinyin":"Zhè běn shū sānshíwǔ yuán.","example_vi":"Cuốn sách này 35 đồng.","note_vi":"元 hay dùng khi viết (bảng giá, hóa đơn); khi nói thường dùng 块: 三十五块. 1 元 = 10 角 (viết) = 10 毛 (nói)."},
+      {"id":"v9","hanzi":"衬衫","pinyin":"chènshān","pos":"danh từ","meaning_vi":"áo sơ mi","example_zh":"他今天穿了一件白色的衬衫。","example_pinyin":"Tā jīntiān chuān le yí jiàn báisè de chènshān.","example_vi":"Hôm nay anh ấy mặc một chiếc áo sơ mi trắng.","note_vi":"Lượng từ 件: 一件衬衫. Cả hai âm tiết đều uốn lưỡi (ch, sh) và kết thúc bằng -n."},
+      {"id":"v10","hanzi":"裙子","pinyin":"qúnzi","pos":"danh từ","meaning_vi":"váy","example_zh":"这条裙子真漂亮，多少钱？","example_pinyin":"Zhè tiáo qúnzi zhēn piàoliang, duōshao qián?","example_vi":"Chiếc váy này đẹp quá, bao nhiêu tiền?","note_vi":"Lượng từ 条: 一条裙子. 子 đọc nhẹ. qún: q bật hơi, tròn môi như ü."},
+      {"id":"v11","hanzi":"裤子","pinyin":"kùzi","pos":"danh từ","meaning_vi":"quần (dài)","example_zh":"这条裤子有点儿长。","example_pinyin":"Zhè tiáo kùzi yǒudiǎnr cháng.","example_vi":"Chiếc quần này hơi dài.","note_vi":"Lượng từ 条: 一条裤子. Đừng lẫn 裤子 kùzi (quần) với 裙子 qúnzi (váy): hai chữ giống nhau ở bộ 衤 (áo)."},
+      {"id":"v12","hanzi":"鞋","pinyin":"xié","pos":"danh từ","meaning_vi":"giày, dép","example_zh":"我想买一双黑色的鞋。","example_pinyin":"Wǒ xiǎng mǎi yì shuāng hēisè de xié.","example_vi":"Tôi muốn mua một đôi giày màu đen.","note_vi":"Một đôi giày là 一双鞋 (lượng từ 双 = đôi). x là âm mặt lưỡi, môi dẹt, không đọc như “x” tiếng Việt."},
+      {"id":"v13","hanzi":"店","pinyin":"diàn","pos":"danh từ","meaning_vi":"cửa hàng, tiệm","example_zh":"这家店的衣服不太贵。","example_pinyin":"Zhè jiā diàn de yīfu bú tài guì.","example_vi":"Quần áo của tiệm này không đắt lắm.","hanviet":"ĐIẾM","note_vi":"Lượng từ 家: 一家店. Hay đứng cuối từ ghép: 书店 (hiệu sách), 鞋店 (tiệm giày), 商店 (cửa hàng)."},
+      {"id":"v14","hanzi":"书店","pinyin":"shūdiàn","pos":"danh từ","meaning_vi":"hiệu sách","example_zh":"学校旁边有一家书店。","example_pinyin":"Xuéxiào pángbiān yǒu yì jiā shūdiàn.","example_vi":"Bên cạnh trường có một hiệu sách.","hanviet":"THƯ ĐIẾM"},
+      {"id":"v15","hanzi":"街","pinyin":"jiē","pos":"danh từ","meaning_vi":"phố, đường phố","example_zh":"这条街上有很多小店。","example_pinyin":"Zhè tiáo jiē shang yǒu hěn duō xiǎo diàn.","example_vi":"Trên con phố này có rất nhiều cửa hàng nhỏ.","note_vi":"Lượng từ 条: 一条街. 街上 = trên phố, ngoài phố. j không bật hơi, đừng đọc thành “chi-ê” bật hơi."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"附近","pinyin":"fùjìn","pos":"danh từ","meaning_vi":"gần đây, xung quanh, lân cận","example_zh":"我家附近有一个大超市。","example_pinyin":"Wǒ jiā fùjìn yǒu yí ge dà chāoshì.","example_vi":"Gần nhà tôi có một siêu thị lớn.","hanviet":"PHỤ CẬN"},
+      {"id":"x2","hanzi":"种","pinyin":"zhǒng","pos":"lượng từ","meaning_vi":"loại, kiểu","example_zh":"这种鞋有黑色的，也有白色的。","example_pinyin":"Zhè zhǒng xié yǒu hēisè de, yě yǒu báisè de.","example_vi":"Loại giày này có màu đen, cũng có màu trắng."},
+      {"id":"x3","hanzi":"条","pinyin":"tiáo","pos":"lượng từ","meaning_vi":"chiếc, con (vật dài: quần, váy, phố…)","example_zh":"我买了两条裤子。","example_pinyin":"Wǒ mǎi le liǎng tiáo kùzi.","example_vi":"Tôi đã mua hai chiếc quần."},
+      {"id":"x4","hanzi":"双","pinyin":"shuāng","pos":"lượng từ","meaning_vi":"đôi","example_zh":"这双鞋多少钱？","example_pinyin":"Zhè shuāng xié duōshao qián?","example_vi":"Đôi giày này bao nhiêu tiền?","hanviet":"SONG"},
+      {"id":"x5","hanzi":"大小","pinyin":"dàxiǎo","pos":"danh từ","meaning_vi":"kích cỡ, cỡ","example_zh":"这条裙子大小不太合适。","example_pinyin":"Zhè tiáo qúnzi dàxiǎo bú tài héshì.","example_vi":"Chiếc váy này cỡ không vừa lắm."},
+      {"id":"x6","hanzi":"上衣","pinyin":"shàngyī","pos":"danh từ","meaning_vi":"áo (mặc phía trên)","example_zh":"这件黑色的上衣很好看。","example_pinyin":"Zhè jiàn hēisè de shàngyī hěn hǎokàn.","example_vi":"Chiếc áo màu đen này rất đẹp."},
+      {"id":"x7","hanzi":"难看","pinyin":"nánkàn","pos":"tính từ","meaning_vi":"xấu, khó coi","example_zh":"这个颜色有点儿难看。","example_pinyin":"Zhège yánsè yǒudiǎnr nánkàn.","example_vi":"Màu này hơi xấu."},
+      {"id":"x8","hanzi":"花","pinyin":"huā","pos":"động từ","meaning_vi":"tiêu (tiền, thời gian)","example_zh":"今天我花了三百元。","example_pinyin":"Jīntiān wǒ huā le sānbǎi yuán.","example_vi":"Hôm nay tôi đã tiêu ba trăm đồng."},
+      {"id":"x9","hanzi":"白色","pinyin":"báisè","pos":"danh từ","meaning_vi":"màu trắng","example_zh":"我喜欢白色的衬衫。","example_pinyin":"Wǒ xǐhuan báisè de chènshān.","example_vi":"Tôi thích áo sơ mi màu trắng."},
+      {"id":"x10","hanzi":"黑色","pinyin":"hēisè","pos":"danh từ","meaning_vi":"màu đen","example_zh":"他的鞋都是黑色的。","example_pinyin":"Tā de xié dōu shì hēisè de.","example_vi":"Giày của anh ấy đều màu đen."},
+      {"id":"x11","hanzi":"红色","pinyin":"hóngsè","pos":"danh từ","meaning_vi":"màu đỏ","example_zh":"她今天穿了一条红色的裙子。","example_pinyin":"Tā jīntiān chuān le yì tiáo hóngsè de qúnzi.","example_vi":"Hôm nay cô ấy mặc một chiếc váy màu đỏ."},
+      {"id":"x12","hanzi":"绿色","pinyin":"lǜsè","pos":"danh từ","meaning_vi":"màu xanh lá","example_zh":"我想买一件绿色的上衣。","example_pinyin":"Wǒ xiǎng mǎi yí jiàn lǜsè de shàngyī.","example_vi":"Tôi muốn mua một chiếc áo màu xanh lá."},
+      {"id":"x13","hanzi":"角","pinyin":"jiǎo","pos":"lượng từ","meaning_vi":"hào (1/10 đồng, dùng khi viết)","example_zh":"一瓶水两元五角。","example_pinyin":"Yì píng shuǐ liǎng yuán wǔ jiǎo.","example_vi":"Một chai nước hai đồng năm hào."},
+      {"id":"x14","hanzi":"毛","pinyin":"máo","pos":"lượng từ","meaning_vi":"hào (1/10 đồng, dùng khi nói)","example_zh":"这个面包三块五毛。","example_pinyin":"Zhège miànbāo sān kuài wǔ máo.","example_vi":"Cái bánh mì này ba đồng năm hào."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Phân biệt “又” và “再”",
+        "pattern":"Đã xảy ra: S + 又 + V + 了　·　Chưa xảy ra: S + 再 + V",
+        "explanation_vi":"又 và 再 đều dịch là “lại, nữa”, đều là phó từ đứng trước động từ. Khác nhau ở thời điểm: 又 nói một việc ĐÃ lặp lại (thường có 了): 他又来了 = anh ấy lại đến rồi. 再 nói một việc CHƯA xảy ra mà sẽ lặp lại: lời đề nghị, dự định, nhờ vả: 明天再来吧 = mai lại đến nhé. Ngoại lệ hay gặp: việc chắc chắn sẽ lặp lại theo lịch (ngày, tuần, mùa…) vẫn dùng 又, thường đi với 是/要……了: 明天又是星期一了.",
+        "examples":[
+          {"zh":"他昨天来了，今天又来了。","pinyin":"Tā zuótiān lái le, jīntiān yòu lái le.","vi":"Hôm qua anh ấy đến, hôm nay lại đến nữa."},
+          {"zh":"上个星期我买了一双鞋，昨天又买了一双。","pinyin":"Shàng ge xīngqī wǒ mǎi le yì shuāng xié, zuótiān yòu mǎi le yì shuāng.","vi":"Tuần trước tôi mua một đôi giày, hôm qua lại mua thêm một đôi."},
+          {"zh":"这件有点儿小，您再试试那件吧。","pinyin":"Zhè jiàn yǒudiǎnr xiǎo, nín zài shìshi nà jiàn ba.","vi":"Cái này hơi chật, chị thử lại cái kia xem."},
+          {"zh":"今天书店人太多了，我们明天再来吧。","pinyin":"Jīntiān shūdiàn rén tài duō le, wǒmen míngtiān zài lái ba.","vi":"Hôm nay hiệu sách đông người quá, mai chúng ta lại đến nhé."},
+          {"zh":"明天又是星期一了。","pinyin":"Míngtiān yòu shì xīngqīyī le.","vi":"Mai lại là thứ Hai rồi."}
+        ],
+        "mistakes_vi":"✗ 昨天他再来了。\n✓ 昨天他又来了。\nViệc đã xảy ra (hôm qua) phải dùng 又.\n✗ 明天你又来吧。\n✓ 明天你再来吧。\nLời đề nghị cho ngày mai là việc chưa xảy ra, dùng 再.\n✗ 请你说再一次。\n✓ 请你再说一次。\nTiếng Việt nói “nói lại”, “mua nữa” (đặt sau động từ), nhưng 又/再 luôn đứng TRƯỚC động từ.",
+        "compare_vi":"Tiếng Việt dùng chung “lại, nữa” cho cả hai: “hôm qua nó lại đến” (又) và “mai lại đến nhé” (再). Mẹo nhớ: đã xảy ra → 又; chưa xảy ra → 再."
+      },
+      {
+        "id":"g2",
+        "title":"Đại từ nghi vấn dùng hô ứng (1): 哪儿……哪儿……, 什么……什么……",
+        "pattern":"(S1) + V + 哪儿/什么/谁/哪 + LT/怎么…，(S2) + 就 + V + (cùng đại từ đó)",
+        "explanation_vi":"Hai vế dùng CÙNG MỘT đại từ nghi vấn (哪儿, 什么, 谁, 哪 + lượng từ, 怎么…) nhưng câu không hỏi gì cả. Đại từ ở vế sau chỉ đúng người, vật, nơi chốn hay cách làm mà vế trước nói đến: 你去哪儿，我就去哪儿 = bạn đi đâu, tôi đi đó. Vế sau thường có 就; nếu vế sau có chủ ngữ thì 就 đứng sau chủ ngữ, trước động từ. Cuối câu dùng dấu chấm, không dùng dấu hỏi.",
+        "examples":[
+          {"zh":"你去哪儿，我就去哪儿。","pinyin":"Nǐ qù nǎr, wǒ jiù qù nǎr.","vi":"Bạn đi đâu, tôi đi đó."},
+          {"zh":"你想吃什么，我们就吃什么。","pinyin":"Nǐ xiǎng chī shénme, wǒmen jiù chī shénme.","vi":"Bạn muốn ăn gì, chúng ta ăn nấy."},
+          {"zh":"你喜欢哪件，就买哪件吧。","pinyin":"Nǐ xǐhuan nǎ jiàn, jiù mǎi nǎ jiàn ba.","vi":"Bạn thích chiếc nào thì mua chiếc đó đi."},
+          {"zh":"谁做好了，谁就可以回家。","pinyin":"Shéi zuò hǎo le, shéi jiù kěyǐ huí jiā.","vi":"Ai làm xong thì người đó được về nhà."},
+          {"zh":"你怎么说，我就怎么做。","pinyin":"Nǐ zěnme shuō, wǒ jiù zěnme zuò.","vi":"Bạn nói thế nào, tôi làm thế ấy."}
+        ],
+        "mistakes_vi":"✗ 你去哪儿，我就去那儿。\n✓ 你去哪儿，我就去哪儿。\nTiếng Việt nói “đâu… đó” nên dễ đổi vế sau thành 那儿 (đó). Trong cấu trúc này hai vế lặp lại cùng một đại từ 哪儿.\n✗ 你去哪儿，就我去哪儿。\n✓ 你去哪儿，我就去哪儿。\n就 là phó từ, đứng sau chủ ngữ 我, trước động từ.\n✗ 你喜欢哪件，就买哪件？\n✓ 你喜欢哪件，就买哪件。\nĐây là câu kể (hoặc lời khuyên), không phải câu hỏi: không dùng dấu hỏi, không lên giọng cuối câu.",
+        "compare_vi":"Tiếng Việt dùng cặp từ khác nhau: “đâu… đó”, “gì… nấy”, “ai… người đó”, “thế nào… thế ấy”. Tiếng Trung chỉ cần lặp lại đúng một đại từ nghi vấn ở cả hai vế."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Đi trung tâm thương mại cùng bạn",
+      "scene_vi": "Chiều thứ Bảy, Tiểu Lâm rủ Tiểu Trần đến trung tâm thương mại mới mở gần nhà. Hai bạn vào một cửa hàng quần áo.",
+      "lines": [
+        {"speaker":"小林","zh":"小陈，附近新开了一个商场，听说衣服不太贵。咱们一块儿去看看吧！","pinyin":"Xiǎo Chén, fùjìn xīn kāi le yí ge shāngchǎng, tīngshuō yīfu bú tài guì. Zánmen yíkuàir qù kànkan ba!","vi":"Tiểu Trần, gần đây mới mở một trung tâm thương mại, nghe nói quần áo không đắt lắm. Chúng mình cùng đi xem nhé!"},
+        {"speaker":"小陈","zh":"好啊！今天我没事，你去哪儿，我就去哪儿。","pinyin":"Hǎo a! Jīntiān wǒ méi shì, nǐ qù nǎr, wǒ jiù qù nǎr.","vi":"Được thôi! Hôm nay mình rảnh, cậu đi đâu, mình đi đó."},
+        {"speaker":"小林","zh":"你看，这家店的衬衫真漂亮！这件白色的，我想试试。","pinyin":"Nǐ kàn, zhè jiā diàn de chènshān zhēn piàoliang! Zhè jiàn báisè de, wǒ xiǎng shìshi.","vi":"Cậu xem, áo sơ mi của tiệm này đẹp thật! Chiếc màu trắng này, mình muốn mặc thử."},
+        {"speaker":"小陈","zh":"试吧！你喜欢哪件，就试哪件。","pinyin":"Shì ba! Nǐ xǐhuan nǎ jiàn, jiù shì nǎ jiàn.","vi":"Thử đi! Cậu thích chiếc nào thì thử chiếc đó."},
+        {"speaker":"小林","zh":"这件有点儿大，我换一件小一点儿的。","pinyin":"Zhè jiàn yǒudiǎnr dà, wǒ huàn yí jiàn xiǎo yìdiǎnr de.","vi":"Chiếc này hơi rộng, mình đổi chiếc nhỏ hơn một chút."},
+        {"speaker":"小陈","zh":"这件大小正合适！那条红色的裙子也很好看，你再试试吧。","pinyin":"Zhè jiàn dàxiǎo zhèng héshì! Nà tiáo hóngsè de qúnzi yě hěn hǎokàn, nǐ zài shìshi ba.","vi":"Chiếc này vừa khít luôn! Chiếc váy đỏ kia cũng đẹp lắm, cậu thử thêm đi."},
+        {"speaker":"小林","zh":"裙子我不买了。上个月我买了一条，上个星期又买了一条。","pinyin":"Qúnzi wǒ bù mǎi le. Shàng ge yuè wǒ mǎi le yì tiáo, shàng ge xīngqī yòu mǎi le yì tiáo.","vi":"Váy thì mình không mua nữa. Tháng trước mình mua một chiếc, tuần trước lại mua thêm một chiếc rồi."},
+        {"speaker":"服务员","zh":"这件衬衫一百二十九元。二楼还有鞋店，你们可以去看看。","pinyin":"Zhè jiàn chènshān yìbǎi èrshíjiǔ yuán. Èr lóu hái yǒu xiédiàn, nǐmen kěyǐ qù kànkan.","vi":"Chiếc áo sơ mi này 129 đồng. Tầng hai còn có tiệm giày, hai bạn có thể lên xem."},
+        {"speaker":"小陈","zh":"太好了，我正想买一双黑色的鞋呢！","pinyin":"Tài hǎo le, wǒ zhèng xiǎng mǎi yì shuāng hēisè de xié ne!","vi":"Tuyệt quá, mình đang định mua một đôi giày đen đây!"},
+        {"speaker":"小林","zh":"好！今天我又花了不少钱，下个星期咱们再来吧！","pinyin":"Hǎo! Jīntiān wǒ yòu huā le bù shǎo qián, xià ge xīngqī zánmen zài lái ba!","vi":"Được! Hôm nay mình lại tiêu khá nhiều tiền rồi, tuần sau chúng mình lại đến nhé!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:试","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这件衬衫很漂亮，我可以____一下吗？","options":["试","花","卖","开"],"answer":0,"explanation_vi":"“试一下” = thử một chút. Thấy áo đẹp thì muốn mặc thử."},
+      {"id":"e2","type":"choice","tag":"v:合适","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这双鞋有点儿小，不太____。","options":["合适","附近","一共","白色"],"answer":0,"explanation_vi":"Giày hơi chật nên “不太合适” = không vừa lắm."},
+      {"id":"e3","type":"choice","tag":"v:换","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这件衬衫有点儿大，能给我____一件小一点儿的吗？","options":["换","花","开","坐"],"answer":0,"explanation_vi":"Áo rộng thì xin “换一件” = đổi một chiếc khác."},
+      {"id":"e4","type":"choice","tag":"v:一共","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"衬衫一百元，裤子八十元，____一百八十元。","options":["一共","一块儿","附近","一点儿"],"answer":0,"explanation_vi":"Cộng hai món lại: 一共 = tổng cộng 180 đồng."},
+      {"id":"e5","type":"choice","tag":"v:双","prompt_vi":"Chọn lượng từ đúng.","question_zh":"我想买一____黑色的鞋。","options":["双","条","件","本"],"answer":0,"explanation_vi":"Giày đi theo đôi nên dùng 双: 一双鞋. 条 dùng cho quần, váy; 件 cho áo; 本 cho sách."},
+      {"id":"e6","type":"choice","tag":"v:条","prompt_vi":"Chọn lượng từ đúng.","question_zh":"这____裙子是红色的。","options":["条","双","件","家"],"answer":0,"explanation_vi":"Váy, quần, phố là vật dài, dùng lượng từ 条: 这条裙子."},
+      {"id":"e7","type":"choice","tag":"g:又再","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他昨天来过，今天____来了。","options":["又","再","都","很"],"answer":0,"explanation_vi":"Việc “hôm nay lại đến” đã xảy ra rồi (có 了), nên dùng 又."},
+      {"id":"e8","type":"choice","tag":"g:又再","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天书店人太多了，我们明天____来吧。","options":["再","又","很","太"],"answer":0,"explanation_vi":"“Mai lại đến” là việc chưa xảy ra, lại là lời đề nghị (吧), nên dùng 再."},
+      {"id":"e9","type":"choice","tag":"g:疑问代词活用1","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你去哪儿，我就去____。","options":["哪儿","什么","谁","多少"],"answer":0,"explanation_vi":"Hai vế lặp lại cùng một đại từ: 你去哪儿，我就去哪儿 = bạn đi đâu, tôi đi đó."},
+      {"id":"e10","type":"order","tag":"g:又再","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["上个星期","我","又","买了","一双鞋"],"answers":["我上个星期又买了一双鞋","上个星期我又买了一双鞋"],"translation_vi":"Tuần trước tôi lại mua một đôi giày.","explanation_vi":"Thời gian 上个星期 đứng trước hoặc sau chủ ngữ; 又 đứng ngay trước động từ 买."},
+      {"id":"e11","type":"order","tag":"g:疑问代词活用1","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","喜欢","哪件","就","买","哪件"],"answers":["你喜欢哪件就买哪件","喜欢哪件你就买哪件"],"translation_vi":"Bạn thích chiếc nào thì mua chiếc đó.","explanation_vi":"Vế trước nêu “chiếc nào”, vế sau có 就 + động từ + cùng đại từ 哪件."},
+      {"id":"e12","type":"order","tag":"v:试","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","可以","试试","这条","裙子","吗"],"answers":["我可以试试这条裙子吗","这条裙子我可以试试吗"],"translation_vi":"Tôi có thể thử chiếc váy này không?","explanation_vi":"可以 đứng trước động từ 试试; tân ngữ 这条裙子 đứng sau động từ hoặc đưa lên đầu câu; 吗 ở cuối."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"商场","vi":"trung tâm thương mại"},{"zh":"超市","vi":"siêu thị"},{"zh":"书店","vi":"hiệu sách"},{"zh":"街","vi":"phố"},{"zh":"店","vi":"cửa hàng, tiệm"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"衬衫","vi":"áo sơ mi"},{"zh":"裙子","vi":"váy"},{"zh":"裤子","vi":"quần"},{"zh":"鞋","vi":"giày"},{"zh":"合适","vi":"vừa, hợp"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:又再","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个电影真好看，昨天我____看了一次。","options":["又","再","太","很"],"answer":0,"explanation_vi":"“Hôm qua lại xem một lần” là việc đã xảy ra, dùng 又."},
+        {"id":"q2","type":"choice","tag":"g:又再","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：这件衬衫有点儿大。B：那您____试试这件吧。","options":["再","又","太","很"],"answer":0,"explanation_vi":"B đề nghị khách thử thêm một chiếc nữa (chưa xảy ra), dùng 再."},
+        {"id":"q3","type":"choice","tag":"g:又再","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["上个星期他又去超市了。","上个星期他再去超市了。","明天你又来吧。","他去又超市了。"],"answer":0,"explanation_vi":"Việc tuần trước đã xảy ra nên dùng 又; lời đề nghị cho ngày mai phải dùng 再; 又 đứng trước động từ, không đứng sau."},
+        {"id":"q4","type":"choice","tag":"g:疑问代词活用1","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你想买什么，我们就买____。","options":["什么","哪儿","谁","几"],"answer":0,"explanation_vi":"Vế trước dùng 什么 thì vế sau cũng dùng 什么: muốn mua gì thì mua nấy."},
+        {"id":"q5","type":"choice","tag":"g:疑问代词活用1","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"谁做好了，____就可以回家。","options":["谁","什么","哪儿","怎么"],"answer":0,"explanation_vi":"谁……谁就…… = ai… thì người đó…: ai làm xong thì người đó được về."},
+        {"id":"q6","type":"choice","tag":"g:疑问代词活用1","prompt_vi":"Chọn nghĩa đúng của câu.","question_zh":"你怎么说，我就怎么做。","options":["Bạn nói thế nào, tôi làm thế ấy.","Bạn nói gì vậy? Tôi làm sao được?","Bạn nói xong thì tôi mới làm.","Bạn nói tôi phải làm thế nào?"],"answer":0,"explanation_vi":"Hai chữ 怎么 hô ứng: câu kể, nghĩa là “bạn nói thế nào, tôi làm thế ấy”, không phải câu hỏi."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:合适","prompt_vi":"Chọn đáp án đúng.","question_zh":"这条裤子太长了，不____。","options":["合适","附近","一共","好多"],"answer":0,"explanation_vi":"Quần dài quá thì “不合适” = không vừa."},
+      {"id":"t2","type":"choice","tag":"g:又再","prompt_vi":"Chọn đáp án đúng.","question_zh":"你上个星期来过，怎么今天____来了？","options":["又","再","很","太"],"answer":0,"explanation_vi":"“Hôm nay lại đến” đã xảy ra (có 了), dùng 又."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"附近","vi":"gần đây, xung quanh"},{"zh":"大小","vi":"kích cỡ"},{"zh":"难看","vi":"xấu, khó coi"},{"zh":"花","vi":"tiêu (tiền)"},{"zh":"换","vi":"đổi"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"白色","vi":"màu trắng"},{"zh":"黑色","vi":"màu đen"},{"zh":"红色","vi":"màu đỏ"},{"zh":"绿色","vi":"màu xanh lá"},{"zh":"上衣","vi":"áo"}]},
+      {"id":"t5","type":"order","tag":"v:一共","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这些","东西","一共","多少钱"],"answers":["这些东西一共多少钱"],"translation_vi":"Những thứ này tổng cộng bao nhiêu tiền?","explanation_vi":"Chủ ngữ 这些东西 đứng đầu, 一共 đứng trước 多少钱."},
+      {"id":"t6","type":"order","tag":"g:又再","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["明天","我们","再","来","吧"],"answers":["明天我们再来吧","我们明天再来吧"],"translation_vi":"Mai chúng ta lại đến nhé.","explanation_vi":"Việc chưa xảy ra dùng 再, đứng ngay trước động từ 来; 明天 đứng trước hoặc sau chủ ngữ."},
+      {"id":"t7","type":"fill","tag":"v:换","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"这件衬衫有点儿小，我想____一件大一点儿的。","answers":["换"],"hint_vi":"đổi (lấy cái khác)","explanation_vi":"换一件 = đổi một chiếc khác."},
+      {"id":"t8","type":"fill","tag":"g:疑问代词活用1","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"你想吃什么，我们就吃____。","answers":["什么"],"hint_vi":"lặp lại đại từ nghi vấn ở vế trước","explanation_vi":"什么……就……什么 = gì… nấy: bạn muốn ăn gì, chúng ta ăn nấy."},
+      {"id":"t9","type":"listen_choice","tag":"v:衬衫","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"这件白色的衬衫一百二十元。","options":["Chiếc áo sơ mi trắng này 120 đồng.","Chiếc áo sơ mi trắng này 112 đồng.","Chiếc váy trắng này 120 đồng.","Chiếc áo sơ mi đen này 120 đồng."],"answer":0,"explanation_vi":"白色 = màu trắng; 衬衫 = áo sơ mi; 一百二十元 = 120 đồng."},
+      {"id":"t10","type":"listen_choice","tag":"g:又再","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"他上个星期又去超市了。","options":["他上个星期又去超市了。","他下个星期再去超市。","他上个星期去书店了。","他今天又去商场了。"],"answer":0,"explanation_vi":"Câu nghe được: 他上个星期又去超市了 = Tuần trước anh ấy lại đi siêu thị."},
+      {"id":"t11","type":"dictation","tag":"v:鞋","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我想买一双黑色的鞋。","answers":["我想买一双黑色的鞋"],"explanation_vi":"我想买一双黑色的鞋 = Tôi muốn mua một đôi giày màu đen."},
+      {"id":"t12","type":"dictation","tag":"g:疑问代词活用1","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你去哪儿，我就去哪儿。","answers":["你去哪儿我就去哪儿"],"explanation_vi":"你去哪儿，我就去哪儿 = Bạn đi đâu, tôi đi đó."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:一共","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tổng cộng bao nhiêu tiền?","answers":["一共多少钱","一共是多少钱","一共多少钱呢","一共要多少钱"],"explanation_vi":"一共 đứng trước 多少钱: 一共多少钱？"},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:又再","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Hôm qua anh ấy lại đến.","answers":["昨天他又来了","他昨天又来了"],"explanation_vi":"Việc đã xảy ra dùng 又 + V + 了; 昨天 đứng trước hoặc sau chủ ngữ."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:试","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这条裙子我可以试试吗？","answers_vi":["Tôi có thể thử chiếc váy này không?","Tôi mặc thử cái váy này được không?"],"keywords":[["thử"],["váy"],["không","chứ"]],"explanation_vi":"试试 = thử xem; 这条裙子 = chiếc váy này; 可以……吗 = có thể… không."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:疑问代词活用1","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"你想吃什么，我们就吃什么。","answers_vi":["Bạn muốn ăn gì thì chúng ta ăn nấy.","Bạn muốn ăn gì, chúng mình ăn món đó."],"keywords":[["muốn ăn"],["gì"],["nấy","đó","ấy"]],"explanation_vi":"什么……就……什么 = gì… nấy (câu kể, không phải câu hỏi)."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"我家附近的那条街",
+        "title_vi":"Con phố gần nhà tôi",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["家","jiā","nhà"],["附近","fùjìn","gần"],["有","yǒu","có"],["一","yì","một"],["条","tiáo","(lượng từ cho phố)"],["街","jiē","con phố"],["，"],["街","jiē","phố"],["上","shang","trên"],["有","yǒu","có"],["很多","hěn duō","nhiều"],["店","diàn","cửa hàng"],["："],["有","yǒu","có"],["书店","shūdiàn","hiệu sách"],["、"],["鞋店","xiédiàn","tiệm giày"],["，"],["还有","hái yǒu","còn có"],["一个","yí ge","một"],["大","dà","lớn"],["超市","chāoshì","siêu thị"],["。"],["周末","zhōumò","cuối tuần"],["我","wǒ","tôi"],["常常","chángcháng","thường"],["和","hé","cùng, với"],["妹妹","mèimei","em gái"],["去","qù","đến"],["那儿","nàr","đó"],["。"],["妹妹","mèimei","em gái"],["总是","zǒngshì","lúc nào cũng"],["说","shuō","nói"],["："],["“"],["姐姐","jiějie","chị"],["去","qù","đi"],["哪儿","nǎr","đâu"],["，"],["我","wǒ","em"],["就","jiù","thì"],["去","qù","đi"],["哪儿","nǎr","(chỗ) đó"],["。"],["”"]],
+            "vi":"Gần nhà tôi có một con phố, trên phố có rất nhiều cửa hàng: có hiệu sách, tiệm giày, còn có một siêu thị lớn. Cuối tuần tôi thường cùng em gái ra đó. Em gái lúc nào cũng nói: “Chị đi đâu, em đi đó.”"
+          },
+          {
+            "tokens":[["上个","shàng ge","(tuần) trước"],["周末","zhōumò","cuối tuần"],["，"],["我们","wǒmen","chúng tôi"],["在","zài","ở"],["书店","shūdiàn","hiệu sách"],["买","mǎi","mua"],["了","le","(đã)"],["两","liǎng","hai"],["本","běn","cuốn"],["书","shū","sách"],["，"],["一共","yígòng","tổng cộng"],["六十八","liùshíbā","sáu mươi tám"],["元","yuán","đồng"],["。"],["在","zài","ở"],["超市","chāoshì","siêu thị"],["，"],["我们","wǒmen","chúng tôi"],["买","mǎi","mua"],["了","le","(đã)"],["一些","yìxiē","một ít"],["水果","shuǐguǒ","hoa quả"],["，"],["花","huā","tiêu"],["了","le","(hết)"],["三十二","sānshí'èr","ba mươi hai"],["元","yuán","đồng"],["五","wǔ","năm"],["角","jiǎo","hào"],["。"]],
+            "vi":"Cuối tuần trước, chúng tôi mua hai cuốn sách ở hiệu sách, tổng cộng 68 đồng. Ở siêu thị, chúng tôi mua một ít hoa quả, hết 32 đồng 5 hào."
+          },
+          {
+            "tokens":[["妹妹","mèimei","em gái"],["在","zài","ở"],["鞋店","xiédiàn","tiệm giày"],["看见","kànjiàn","nhìn thấy"],["一","yì","một"],["双","shuāng","đôi"],["红色","hóngsè","màu đỏ"],["的","de","(trợ từ)"],["鞋","xié","giày"],["，"],["非常","fēicháng","rất"],["喜欢","xǐhuan","thích"],["。"],["她","tā","em ấy"],["试了试","shì le shi","thử một chút"],["，"],["有点儿","yǒudiǎnr","hơi"],["小","xiǎo","nhỏ, chật"],["。"],["服务员","fúwùyuán","nhân viên bán hàng"],["说","shuō","nói"],["："],["“"],["大","dà","lớn"],["一点儿","yìdiǎnr","hơn một chút"],["的","de","(cái)"],["卖完","mài wán","bán hết"],["了","le","rồi"],["，"],["下个","xià ge","(tuần) sau"],["星期","xīngqī","tuần"],["您","nín","chị (cách gọi lịch sự)"],["再","zài","lại"],["来","lái","đến"],["吧","ba","nhé"],["。"],["”"],["昨天","zuótiān","hôm qua"],["，"],["妹妹","mèimei","em gái"],["又","yòu","lại"],["去","qù","đến"],["了","le","(đã)"],["那","nà","đó"],["家","jiā","(lượng từ cho cửa hàng)"],["鞋店","xiédiàn","tiệm giày"],["。"]],
+            "vi":"Ở tiệm giày, em gái thấy một đôi giày màu đỏ, rất thích. Em thử một chút thì hơi chật. Nhân viên bán hàng nói: “Cỡ lớn hơn bán hết rồi, tuần sau chị lại đến nhé.” Hôm qua, em gái lại đến tiệm giày đó."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"她们在书店花了多少钱？","options":["六十八元","三十二元五角","八十六元","一百元"],"answer":0,"explanation_vi":"Đoạn 2: 在书店买了两本书，一共六十八元."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"妹妹在鞋店看见了什么？","options":["一双红色的鞋","一双黑色的鞋","一条红色的裙子","两本书"],"answer":0,"explanation_vi":"Đoạn 3: 妹妹在鞋店看见一双红色的鞋."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"妹妹为什么没买那双鞋？","options":["因为鞋有点儿小","因为鞋太贵了","因为她不喜欢红色","因为她没有钱"],"answer":0,"explanation_vi":"Đoạn 3: 她试了试，有点儿小 — cỡ lớn hơn lại bán hết."},
+          {"id":"rq4","type":"choice","tag":"v:街","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"那条街上有书店，也有超市。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 1: 街上有很多店：有书店、鞋店，还有一个大超市."},
+          {"id":"rq5","type":"choice","tag":"g:又再","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"昨天妹妹没去鞋店。","options":["对","错"],"answer":1,"explanation_vi":"Câu cuối: 昨天，妹妹又去了那家鞋店 — hôm qua em gái lại đến tiệm giày, nên câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Đổi quần ở trung tâm thương mại",
+        "text_zh":"昨天我在商场买了一条黑色的裤子，一百九十九元。回家以后我又试了一下，觉得有点儿长。今天上午我又去了那家店，想换一条小一点儿的。服务员说，这种裤子黑色的都卖完了，白色的还有。我试了试白色的，大小很合适，就换了一条白色的。我觉得白色的也很好看。下个星期我还想再去那家店，买一件衬衫。",
+        "pinyin":"Zuótiān wǒ zài shāngchǎng mǎi le yì tiáo hēisè de kùzi, yìbǎi jiǔshíjiǔ yuán. Huí jiā yǐhòu wǒ yòu shì le yíxià, juéde yǒudiǎnr cháng. Jīntiān shàngwǔ wǒ yòu qù le nà jiā diàn, xiǎng huàn yì tiáo xiǎo yìdiǎnr de. Fúwùyuán shuō, zhè zhǒng kùzi hēisè de dōu mài wán le, báisè de hái yǒu. Wǒ shì le shi báisè de, dàxiǎo hěn héshì, jiù huàn le yì tiáo báisè de. Wǒ juéde báisè de yě hěn hǎokàn. Xià ge xīngqī wǒ hái xiǎng zài qù nà jiā diàn, mǎi yí jiàn chènshān.",
+        "vi":"Hôm qua tôi mua một chiếc quần đen ở trung tâm thương mại, 199 đồng. Về nhà tôi mặc thử lại, thấy hơi dài. Sáng nay tôi lại đến cửa hàng đó, muốn đổi một chiếc nhỏ hơn một chút. Nhân viên nói loại quần này màu đen bán hết rồi, màu trắng thì vẫn còn. Tôi thử chiếc màu trắng, cỡ rất vừa, thế là đổi lấy một chiếc màu trắng. Tôi thấy màu trắng cũng rất đẹp. Tuần sau tôi còn muốn lại đến cửa hàng đó để mua một chiếc áo sơ mi.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她昨天买了什么？","options":["一条黑色的裤子","一条白色的裙子","一件衬衫","一双鞋"],"answer":0,"explanation_vi":"Nghe được: 昨天我在商场买了一条黑色的裤子."},
+          {"id":"lq2","type":"choice","tag":"v:换","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她今天为什么又去了那家店？","options":["想换一条裤子","想买一件衬衫","想买一双鞋","想去书店"],"answer":0,"explanation_vi":"Nghe được: 今天上午我又去了那家店，想换一条小一点儿的."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"她换了一条什么颜色的裤子？","options":["白色的","黑色的","红色的","绿色的"],"answer":0,"explanation_vi":"Nghe được: 黑色的都卖完了……就换了一条白色的."},
+          {"id":"lq4","type":"choice","tag":"g:又再","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"下个星期她想做什么？","options":["再去那家店买衬衫","再去换裤子","去超市买水果","在家休息"],"answer":0,"explanation_vi":"Nghe được: 下个星期我还想再去那家店，买一件衬衫 — việc chưa xảy ra nên dùng 再."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"衬衫","pinyin":"chènshān","vi":"áo sơ mi","tip_vi":"ch và sh đều uốn lưỡi (đầu lưỡi cong lên chạm vòm cứng); ch phải bật hơi mạnh. Cả hai âm tiết kết thúc bằng -n (đầu lưỡi chạm lợi), đừng đọc thành -ng."},
+      {"id":"s2","zh":"一双鞋","pinyin":"yì shuāng xié","vi":"một đôi giày","tip_vi":"一 đọc yì (thanh 4) vì đứng trước 双 thanh 1. 双 shuāng: sh uốn lưỡi, cuối -ng. 鞋 xié: x là âm mặt lưỡi, môi dẹt; ie đọc gần “i-ê”, lên giọng thanh 2."},
+      {"id":"s3","zh":"一共多少钱？","pinyin":"Yígòng duōshao qián?","vi":"Tổng cộng bao nhiêu tiền?","tip_vi":"一 đọc yí (thanh 2) vì đứng trước 共 thanh 4. 少 trong 多少 đọc nhẹ. 钱 qián: q bật hơi mạnh, đừng đọc thành “chiến” hay “tiền”."},
+      {"id":"s4","zh":"他昨天又来了。","pinyin":"Tā zuótiān yòu lái le.","vi":"Hôm qua anh ấy lại đến.","tip_vi":"又 yòu là thanh 4: hạ dứt khoát từ cao xuống thấp, đừng kéo ngang. 昨 zuó: z không bật hơi, đầu lưỡi đặt sau răng dưới, đừng đọc thành “chuá”. 了 đọc nhẹ."},
+      {"id":"s5","zh":"明天我们再来吧。","pinyin":"Míngtiān wǒmen zài lái ba.","vi":"Mai chúng ta lại đến nhé.","tip_vi":"再 zài: z không bật hơi, đừng đọc thành “chai”. 明 míng: cuối -ng (cuống lưỡi nâng lên), không đọc thành “minh”. 们 và 吧 đọc nhẹ."},
+      {"id":"s6","zh":"这条裙子我可以试试吗？","pinyin":"Zhè tiáo qúnzi wǒ kěyǐ shìshi ma?","vi":"Tôi thử chiếc váy này được không?","tip_vi":"我可以 wǒ kěyǐ có ba thanh 3 liền nhau: thường đọc wǒ kéyǐ hoặc wó kéyǐ, chỉ chữ cuối giữ thanh 3. 裙 qún: q bật hơi, tròn môi như ü, đừng đọc thành “quần”. 试试: chữ thứ hai đọc nhẹ."},
+      {"id":"s7","zh":"你去哪儿，我就去哪儿。","pinyin":"Nǐ qù nǎr, wǒ jiù qù nǎr.","vi":"Bạn đi đâu, tôi đi đó.","tip_vi":"哪儿 nǎr: cuốn lưỡi ở cuối, không đọc tách thành “nả ơ”. 去 qù: ü tròn môi, đừng đọc thành “khuy”. Đây là câu kể: hạ giọng ở cuối, không lên giọng như câu hỏi."},
+      {"id":"s8","zh":"这件有点儿大，能给我换一件小一点儿的吗？","pinyin":"Zhè jiàn yǒudiǎnr dà, néng gěi wǒ huàn yí jiàn xiǎo yìdiǎnr de ma?","vi":"Cái này hơi rộng, có thể đổi cho tôi một cái nhỏ hơn không?","tip_vi":"有点儿 yǒudiǎnr và 给我 gěi wǒ đều là hai thanh 3 liền nhau: đọc yóudiǎnr, géi wǒ. 一件 đọc yí jiàn, 一点儿 đọc yìdiǎnr. 换 huàn: h tiếng Trung xát ở cuống lưỡi, mạnh hơn h tiếng Việt."}
+    ],
+    "review": {
+      "remember": [
+        "Mua sắm: 多少钱？/ 一共多少钱？ Trả lời: số + 元 (khi viết) hoặc 块 (khi nói); 1 元 = 10 角 = 10 毛.",
+        "Lượng từ: 一件衬衫/上衣, 一条裙子/裤子/街, 一双鞋, 一家店.",
+        "又 + V + 了: việc lặp lại đã xảy ra (他又来了). 再 + V: việc lặp lại chưa xảy ra, lời đề nghị (明天再来吧).",
+        "Hai đại từ nghi vấn giống nhau hô ứng = “đâu… đó / gì… nấy / ai… người đó”: 你去哪儿，我就去哪儿. Đây là câu kể, không phải câu hỏi.",
+        "试试 = thử xem; 换 = đổi; 合适 = vừa, hợp (tính từ: 很合适, không nói 合适我)."
+      ],
+      "mistakes": [
+        "✗ 昨天他再来了 → ✓ 昨天他又来了: việc đã xảy ra dùng 又.",
+        "✗ 请你说再一次 → ✓ 请你再说一次: 又/再 đứng trước động từ, không đặt sau như “nói lại” trong tiếng Việt.",
+        "✗ 一个裙子、一个鞋 → ✓ 一条裙子、一双鞋: quần, váy dùng 条; giày đi theo đôi dùng 双."
+      ]
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "level": 3,
+  "number": 11,
+  "readings_ok": ["里 li", "边 bian"],
+  "summary": "Dặn dò nhau trước khi ra khỏi nhà: tắt điều hòa, tắt đèn, mang ô, mặc ấm; học câu chữ “把” (A把B + V + ……) và cách nói số ước chừng với “左右”.",
+  "content": {
+    "objectives": [
+      "Dặn dò, nhắc nhở người khác trước khi ra ngoài: 别忘了……、记得……、一定要……、必须……",
+      "Bảo hoặc nhờ ai xử lý một đồ vật cụ thể bằng câu chữ 把: 把空调关了、把灯关一下",
+      "Nói con số, giờ giấc ước chừng bằng 左右: 八点左右、十分钟左右",
+      "Nói về thời tiết (mưa, gió, nắng) và cách ăn mặc, chuẩn bị đồ khi ra ngoài"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"把","pinyin":"bǎ","pos":"giới từ / lượng từ","meaning_vi":"(giới từ) đem, lấy: đưa vật lên trước động từ; (lượng từ) cái (đồ có tay cầm)","example_zh":"你把空调关了吧。","example_pinyin":"Nǐ bǎ kōngtiáo guān le ba.","example_vi":"Bạn tắt điều hòa đi.","hanviet":"BẢ","note_vi":"Giới từ: 把 + vật cụ thể + động từ + thành phần khác (xem ngữ pháp). Lượng từ cho đồ có tay cầm: 一把伞 (một cái ô), 一把椅子 (một cái ghế)."},
+      {"id":"v2","hanzi":"关","pinyin":"guān","pos":"động từ","meaning_vi":"đóng (cửa); tắt (đèn, máy)","example_zh":"睡觉前，请把灯关了。","example_pinyin":"Shuìjiào qián, qǐng bǎ dēng guān le.","example_vi":"Trước khi ngủ, nhớ tắt đèn nhé.","hanviet":"QUAN","note_vi":"Tiếng Việt phân biệt “đóng” và “tắt”, tiếng Trung đều dùng 关: 关门 (đóng cửa), 关灯 (tắt đèn), 关空调 (tắt điều hòa). Ngược lại là 开 / 打开 (mở, bật)."},
+      {"id":"v3","hanzi":"空调","pinyin":"kōngtiáo","pos":"danh từ","meaning_vi":"điều hòa, máy lạnh","example_zh":"房间里太热了，开空调吧。","example_pinyin":"Fángjiān li tài rè le, kāi kōngtiáo ba.","example_vi":"Trong phòng nóng quá, bật điều hòa đi.","hanviet":"KHÔNG ĐIỀU","note_vi":"调 ở đây đọc tiáo (thanh 2), không đọc diào. Bật/tắt điều hòa: 开空调 / 关空调."},
+      {"id":"v4","hanzi":"忘","pinyin":"wàng","pos":"động từ","meaning_vi":"quên","example_zh":"我忘了他的电话号码。","example_pinyin":"Wǒ wàng le tā de diànhuà hàomǎ.","example_vi":"Tôi quên mất số điện thoại của anh ấy.","hanviet":"VONG","note_vi":"Khi nói thường dùng 忘了 (quên mất). Dặn dò: 别忘了 + việc cần làm = đừng quên…"},
+      {"id":"v5","hanzi":"忘记","pinyin":"wàngjì","pos":"động từ","meaning_vi":"quên","example_zh":"我又忘记关灯了。","example_pinyin":"Wǒ yòu wàngjì guān dēng le.","example_vi":"Tôi lại quên tắt đèn rồi.","hanviet":"VONG KÝ","note_vi":"Nghĩa giống 忘, dùng được cả khi nói lẫn khi viết. Đừng hiểu theo Hán Việt “vong ký” là “quên ghi”: 忘记 chỉ là “quên”."},
+      {"id":"v6","hanzi":"记得","pinyin":"jìde","pos":"động từ","meaning_vi":"nhớ, còn nhớ; nhớ (làm việc gì)","example_zh":"你还记得我吗？","example_pinyin":"Nǐ hái jìde wǒ ma?","example_vi":"Bạn còn nhớ tôi không?","note_vi":"记得 = còn nhớ, không quên. Khi dặn dò, 记得 + việc = “nhớ làm…”, nghĩa như 别忘了: 记得把门关好. 得 đọc nhẹ (de). Khác 记 (bài 9) là “ghi nhớ, ghi chép”."},
+      {"id":"v7","hanzi":"一定","pinyin":"yídìng","pos":"phó từ","meaning_vi":"nhất định, chắc chắn","example_zh":"明天你一定要来！","example_pinyin":"Míngtiān nǐ yídìng yào lái!","example_vi":"Ngày mai bạn nhất định phải đến nhé!","hanviet":"NHẤT ĐỊNH","note_vi":"一定要 + V = nhất định phải; 不一定 = chưa chắc. 一 đọc yí vì đứng trước thanh 4."},
+      {"id":"v8","hanzi":"不要","pinyin":"búyào","pos":"phó từ","meaning_vi":"đừng, không được","example_zh":"上课的时候不要玩儿手机。","example_pinyin":"Shàngkè de shíhou búyào wánr shǒujī.","example_vi":"Trong giờ học đừng chơi điện thoại.","note_vi":"不要 + động từ = 别 + động từ: đừng làm gì. 不 đọc bú vì đứng trước thanh 4. 不要 cũng có nghĩa “không muốn (lấy)”: 我不要这个."},
+      {"id":"v9","hanzi":"灯","pinyin":"dēng","pos":"danh từ","meaning_vi":"đèn","example_zh":"房间里的灯还开着。","example_pinyin":"Fángjiān li de dēng hái kāizhe.","example_vi":"Đèn trong phòng vẫn đang bật.","hanviet":"ĐĂNG","note_vi":"开灯 = bật đèn, 关灯 = tắt đèn. 灯开着 = đèn đang bật."},
+      {"id":"v10","hanzi":"出门","pinyin":"chūmén","pos":"động từ","meaning_vi":"ra ngoài, ra khỏi nhà; đi xa","example_zh":"出门前，你看看外面的天气。","example_pinyin":"Chūmén qián, nǐ kànkan wàimiàn de tiānqì.","example_vi":"Trước khi ra ngoài, bạn xem thời tiết bên ngoài đã.","note_vi":"出门 đã có “门” (cửa) bên trong nên không thêm tân ngữ: ✗ 出门家. “Trước khi ra ngoài” = 出门前."},
+      {"id":"v11","hanzi":"必须","pinyin":"bìxū","pos":"phó từ","meaning_vi":"phải, bắt buộc phải","example_zh":"明天八点开会，你必须早一点儿来。","example_pinyin":"Míngtiān bā diǎn kāihuì, nǐ bìxū zǎo yìdiǎnr lái.","example_vi":"Mai tám giờ họp, bạn phải đến sớm một chút.","hanviet":"TẤT TU","note_vi":"必须 mạnh hơn 要: bắt buộc, không làm không được. Phủ định không nói ✗ 不必须, mà nói 不用 (không cần)."},
+      {"id":"v12","hanzi":"小心","pinyin":"xiǎoxīn","pos":"động từ / tính từ","meaning_vi":"cẩn thận","example_zh":"下雨了，你小心一点儿。","example_pinyin":"Xià yǔ le, nǐ xiǎoxīn yìdiǎnr.","example_vi":"Trời mưa rồi, bạn cẩn thận một chút.","hanviet":"TIỂU TÂM","note_vi":"Hán Việt là “tiểu tâm” nhưng nghĩa là “cẩn thận”, không phải “nhỏ nhen”. 小心 + điều nguy hiểm: 小心车! (Coi chừng xe!)"},
+      {"id":"v13","hanzi":"注意","pinyin":"zhùyì","pos":"động từ","meaning_vi":"chú ý, để ý","example_zh":"天气冷了，你要注意身体。","example_pinyin":"Tiānqì lěng le, nǐ yào zhùyì shēntǐ.","example_vi":"Trời lạnh rồi, bạn phải giữ gìn sức khỏe.","hanviet":"CHÚ Ý","note_vi":"注意身体 = giữ gìn sức khỏe (câu dặn dò rất hay dùng). 注意 + việc = để ý, lưu ý: 注意时间 (để ý giờ giấc)."},
+      {"id":"v14","hanzi":"雨","pinyin":"yǔ","pos":"danh từ","meaning_vi":"mưa","example_zh":"外面的雨越来越大了。","example_pinyin":"Wàimiàn de yǔ yuè lái yuè dà le.","example_vi":"Mưa bên ngoài càng lúc càng to.","hanviet":"VŨ","note_vi":"“Trời mưa” là 下雨 (下 đứng trước 雨). Mưa to / mưa nhỏ: 雨很大 / 雨很小, hoặc 大雨 / 小雨."},
+      {"id":"v15","hanzi":"伞","pinyin":"sǎn","pos":"danh từ","meaning_vi":"ô, dù","example_zh":"外面下雨了，你有伞吗？","example_pinyin":"Wàimiàn xià yǔ le, nǐ yǒu sǎn ma?","example_vi":"Bên ngoài mưa rồi, bạn có ô không?","hanviet":"TẢN","note_vi":"Lượng từ của 伞 là 把: 一把伞 (một cái ô)."},
+      {"id":"v16","hanzi":"左","pinyin":"zuǒ","pos":"từ chỉ phương hướng","meaning_vi":"trái, bên trái","example_zh":"你往左走，就能看见电梯。","example_pinyin":"Nǐ wǎng zuǒ zǒu, jiù néng kànjiàn diàntī.","example_vi":"Bạn đi về bên trái là thấy thang máy.","hanviet":"TẢ","note_vi":"左边 = bên trái; 往左走 = đi sang trái, rẽ trái."},
+      {"id":"v17","hanzi":"右","pinyin":"yòu","pos":"từ chỉ phương hướng","meaning_vi":"phải, bên phải","example_zh":"洗手间在电梯的右边。","example_pinyin":"Xǐshǒujiān zài diàntī de yòubian.","example_vi":"Nhà vệ sinh ở bên phải thang máy.","hanviet":"HỮU","note_vi":"右边 = bên phải. Khi đứng sau con số, 左右 lại có nghĩa “khoảng, chừng” (xem ngữ pháp 2)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"打开","pinyin":"dǎkāi","pos":"động từ","meaning_vi":"mở; bật","example_zh":"请把门打开。","example_pinyin":"Qǐng bǎ mén dǎkāi.","example_vi":"Làm ơn mở cửa ra."},
+      {"id":"x2","hanzi":"外面","pinyin":"wàimiàn","pos":"từ chỉ phương hướng","meaning_vi":"bên ngoài","example_zh":"外面很冷，多穿一点儿衣服。","example_pinyin":"Wàimiàn hěn lěng, duō chuān yìdiǎnr yīfu.","example_vi":"Bên ngoài lạnh lắm, mặc thêm áo vào."},
+      {"id":"x3","hanzi":"外边","pinyin":"wàibian","pos":"từ chỉ phương hướng","meaning_vi":"bên ngoài (giống 外面)","example_zh":"孩子们在外边玩儿。","example_pinyin":"Háizimen zài wàibian wánr.","example_vi":"Bọn trẻ đang chơi ở bên ngoài."},
+      {"id":"x4","hanzi":"门口","pinyin":"ménkǒu","pos":"danh từ","meaning_vi":"cửa, trước cửa","example_zh":"我在学校门口等你。","example_pinyin":"Wǒ zài xuéxiào ménkǒu děng nǐ.","example_vi":"Tôi đợi bạn ở cổng trường."},
+      {"id":"x5","hanzi":"电","pinyin":"diàn","pos":"danh từ","meaning_vi":"điện","example_zh":"我的手机没电了。","example_pinyin":"Wǒ de shǒujī méi diàn le.","example_vi":"Điện thoại của tôi hết pin rồi."},
+      {"id":"x6","hanzi":"开机","pinyin":"kāijī","pos":"động từ","meaning_vi":"mở máy, bật máy","example_zh":"我的电脑开机要一分钟左右。","example_pinyin":"Wǒ de diànnǎo kāijī yào yì fēnzhōng zuǒyòu.","example_vi":"Máy tính của tôi bật lên mất khoảng một phút."},
+      {"id":"x7","hanzi":"关机","pinyin":"guānjī","pos":"động từ","meaning_vi":"tắt máy","example_zh":"上课的时候，请大家关机。","example_pinyin":"Shàngkè de shíhou, qǐng dàjiā guānjī.","example_vi":"Trong giờ học, mọi người hãy tắt máy."},
+      {"id":"x8","hanzi":"洗衣机","pinyin":"xǐyījī","pos":"danh từ","meaning_vi":"máy giặt","example_zh":"我家的洗衣机坏了。","example_pinyin":"Wǒ jiā de xǐyījī huài le.","example_vi":"Máy giặt nhà tôi hỏng rồi."},
+      {"id":"x9","hanzi":"风","pinyin":"fēng","pos":"danh từ","meaning_vi":"gió","example_zh":"今天风很大。","example_pinyin":"Jīntiān fēng hěn dà.","example_vi":"Hôm nay gió to."},
+      {"id":"x10","hanzi":"刮","pinyin":"guā","pos":"động từ","meaning_vi":"thổi (gió); cạo","example_zh":"外面刮风了。","example_pinyin":"Wàimiàn guā fēng le.","example_vi":"Bên ngoài nổi gió rồi."},
+      {"id":"x11","hanzi":"雨衣","pinyin":"yǔyī","pos":"danh từ","meaning_vi":"áo mưa","example_zh":"下雨的时候，他喜欢穿雨衣。","example_pinyin":"Xià yǔ de shíhou, tā xǐhuan chuān yǔyī.","example_vi":"Khi trời mưa, anh ấy thích mặc áo mưa."},
+      {"id":"x12","hanzi":"大衣","pinyin":"dàyī","pos":"danh từ","meaning_vi":"áo khoác dài, áo măng tô","example_zh":"天冷了，你穿大衣吧。","example_pinyin":"Tiān lěng le, nǐ chuān dàyī ba.","example_vi":"Trời lạnh rồi, bạn mặc áo khoác vào đi."},
+      {"id":"x13","hanzi":"短裤","pinyin":"duǎnkù","pos":"danh từ","meaning_vi":"quần soóc, quần đùi","example_zh":"天气很热，他穿了一条短裤。","example_pinyin":"Tiānqì hěn rè, tā chuān le yì tiáo duǎnkù.","example_vi":"Trời nóng, anh ấy mặc một chiếc quần soóc."},
+      {"id":"x14","hanzi":"太阳","pinyin":"tàiyáng","pos":"danh từ","meaning_vi":"mặt trời; nắng","example_zh":"今天太阳很大，很热。","example_pinyin":"Jīntiān tàiyáng hěn dà, hěn rè.","example_vi":"Hôm nay nắng to, nóng lắm."},
+      {"id":"x15","hanzi":"月亮","pinyin":"yuèliang","pos":"danh từ","meaning_vi":"mặt trăng","example_zh":"今天晚上的月亮真漂亮。","example_pinyin":"Jīntiān wǎnshang de yuèliang zhēn piàoliang.","example_vi":"Trăng tối nay đẹp thật."},
+      {"id":"x16","hanzi":"凉快","pinyin":"liángkuai","pos":"tính từ","meaning_vi":"mát mẻ","example_zh":"晚上外面很凉快。","example_pinyin":"Wǎnshang wàimiàn hěn liángkuai.","example_vi":"Buổi tối bên ngoài rất mát."},
+      {"id":"x17","hanzi":"笔","pinyin":"bǐ","pos":"danh từ","meaning_vi":"bút","example_zh":"你有笔吗？我用一下。","example_pinyin":"Nǐ yǒu bǐ ma? Wǒ yòng yíxià.","example_vi":"Bạn có bút không? Cho mình dùng một chút."},
+      {"id":"x18","hanzi":"铅笔","pinyin":"qiānbǐ","pos":"danh từ","meaning_vi":"bút chì","example_zh":"考试的时候要用铅笔。","example_pinyin":"Kǎoshì de shíhou yào yòng qiānbǐ.","example_vi":"Khi thi phải dùng bút chì."},
+      {"id":"x19","hanzi":"纸","pinyin":"zhǐ","pos":"danh từ","meaning_vi":"giấy","example_zh":"请给我一张纸。","example_pinyin":"Qǐng gěi wǒ yì zhāng zhǐ.","example_vi":"Làm ơn cho tôi một tờ giấy."}
+    ],
+    "glossary": [
+      {"hanzi":"左右","pinyin":"zuǒyòu","meaning_vi":"khoảng, chừng (đứng sau con số)","kind":"beyond"},
+      {"hanzi":"拿","pinyin":"ná","meaning_vi":"cầm, lấy, mang","kind":"base"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Câu chữ “把” (1): A把B + V + ……",
+        "pattern":"S + 把 + vật (cụ thể) + V + 了/一下/好/完……　·　S + 没/别/不要 + 把 + vật + V + ……",
+        "explanation_vi":"Khi muốn nói ai đó làm gì với một vật cụ thể và vật đó thay đổi ra sao (tắt đi, mở ra, giặt xong…), tiếng Trung rất hay dùng 把: 把 + vật + động từ + phần phía sau. Ví dụ 把空调关了 = tắt cái điều hòa đi. Ba điều cần nhớ: (1) vật sau 把 là vật cụ thể, người nghe biết đó là cái nào; (2) động từ không đứng một mình, phía sau phải có thêm 了, 一下, 好, 完…; (3) từ phủ định (没, 别, 不要) và động từ năng nguyện (要, 能, 想) đứng trước 把. Câu 把 đặc biệt hay gặp khi dặn dò, nhờ vả.",
+        "examples":[
+          {"zh":"别忘了把空调关了。","pinyin":"Bié wàng le bǎ kōngtiáo guān le.","vi":"Đừng quên tắt điều hòa nhé."},
+          {"zh":"你把灯关一下，好吗？","pinyin":"Nǐ bǎ dēng guān yíxià, hǎo ma?","vi":"Bạn tắt đèn giúp mình được không?"},
+          {"zh":"我已经把衣服洗好了。","pinyin":"Wǒ yǐjīng bǎ yīfu xǐ hǎo le.","vi":"Tôi đã giặt xong quần áo rồi."},
+          {"zh":"昨天我没把门关好。","pinyin":"Zuótiān wǒ méi bǎ mén guān hǎo.","vi":"Hôm qua tôi đóng cửa không cẩn thận."}
+        ],
+        "mistakes_vi":"✗ 我把空调关。\n✓ 我把空调关了。\nĐộng từ trong câu 把 không được đứng trơ: phía sau phải có 了, 一下, 好, 完….\n✗ 我把门没关好。\n✓ 我没把门关好。\n没, 别, 不要 (và 要, 能, 想…) đặt trước 把, không đặt ngay trước động từ như thói quen tiếng Việt “cửa không đóng kỹ”.\n✗ 我把一本书看完了。\n✓ 我把那本书看完了。\nVật sau 把 phải là vật cụ thể, đã biết. Động từ chỉ trạng thái như 认识, 喜欢, 有, 是 không dùng với 把: ✗ 我把他认识了.",
+        "compare_vi":"Tiếng Việt nói “tắt điều hòa đi”, tân ngữ đứng sau động từ. Câu 把 giống kiểu nói “đem cái điều hòa tắt đi”: đưa vật lên trước, rồi mới nói làm gì với nó và kết quả ra sao."
+      },
+      {
+        "id":"g2",
+        "title":"Cách nói số ước chừng (2): “左右”",
+        "pattern":"Số + lượng từ (+ danh từ) + 左右　·　Giờ / tuổi / giá tiền + 左右",
+        "explanation_vi":"左右 đứng SAU con số để nói con số đó không chính xác, chỉ “khoảng, chừng”: 十分钟左右 (khoảng mười phút), 八点左右 (khoảng tám giờ), 三十岁左右 (khoảng ba mươi tuổi). Nếu có lượng từ hoặc đơn vị thì 左右 đứng sau cả lượng từ: 一个小时左右. Muốn nói “khoảng” ở trước con số thì dùng 大概 (bài 10): 大概十分钟.",
+        "examples":[
+          {"zh":"我晚上八点左右回来。","pinyin":"Wǒ wǎnshang bā diǎn zuǒyòu huílai.","vi":"Khoảng tám giờ tối tôi về."},
+          {"zh":"坐车二十分钟左右就到了。","pinyin":"Zuò chē èrshí fēnzhōng zuǒyòu jiù dào le.","vi":"Đi xe khoảng hai mươi phút là đến."},
+          {"zh":"那个人三十岁左右。","pinyin":"Nàge rén sānshí suì zuǒyòu.","vi":"Người đó khoảng ba mươi tuổi."},
+          {"zh":"这件大衣八百块左右。","pinyin":"Zhè jiàn dàyī bābǎi kuài zuǒyòu.","vi":"Chiếc áo khoác này khoảng tám trăm tệ."}
+        ],
+        "mistakes_vi":"✗ 我等了左右十分钟。\n✓ 我等了十分钟左右。\nTiếng Việt nói “khoảng mười phút”, nhưng 左右 luôn đứng sau con số (và sau lượng từ).\n✗ 左右八点我回来。\n✓ 八点左右我回来。\nGiờ giấc cũng vậy: 八点左右.\n✗ 那儿有二十多个人左右。\n✓ 那儿有二十多个人。/ 那儿有二十个人左右。\n多 đã là cách nói ước chừng, đừng dùng chồng với 左右.",
+        "compare_vi":"Tiếng Việt: “khoảng” đứng trước số. Tiếng Trung: 大概 đứng trước số (大概十分钟), 左右 đứng sau số (十分钟左右); chọn một cách là đủ."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Đừng quên tắt điều hòa nhé!",
+      "scene_vi": "Sáng thứ Bảy, Tiểu Lâm chuẩn bị ra ngoài cả ngày. Bạn cùng phòng là Tiểu Trương lát nữa cũng đi siêu thị. Hai người dặn dò nhau.",
+      "lines": [
+        {"speaker":"小林","zh":"小张，我要出门了，晚上八点左右回来。","pinyin":"Xiǎo Zhāng, wǒ yào chūmén le, wǎnshang bā diǎn zuǒyòu huílai.","vi":"Tiểu Trương, mình đi đây, khoảng tám giờ tối mình về."},
+        {"speaker":"小张","zh":"外面下雨了，风也很大，你一定要小心！","pinyin":"Wàimiàn xià yǔ le, fēng yě hěn dà, nǐ yídìng yào xiǎoxīn!","vi":"Bên ngoài mưa rồi, gió cũng to, bạn nhất định phải cẩn thận đấy!"},
+        {"speaker":"小林","zh":"我知道，伞和雨衣我都准备好了。","pinyin":"Wǒ zhīdao, sǎn hé yǔyī wǒ dōu zhǔnbèi hǎo le.","vi":"Mình biết, ô với áo mưa mình chuẩn bị xong cả rồi."},
+        {"speaker":"小张","zh":"今天有点儿冷，你别穿短裤了，穿大衣吧。","pinyin":"Jīntiān yǒudiǎnr lěng, nǐ bié chuān duǎnkù le, chuān dàyī ba.","vi":"Hôm nay hơi lạnh, bạn đừng mặc quần soóc nữa, mặc áo khoác đi."},
+        {"speaker":"小林","zh":"好，我去换一下。对了，你出门的时候，别忘了把空调关了。","pinyin":"Hǎo, wǒ qù huàn yíxià. Duì le, nǐ chūmén de shíhou, bié wàng le bǎ kōngtiáo guān le.","vi":"Ừ, mình đi thay đã. À phải rồi, lúc bạn ra ngoài, đừng quên tắt điều hòa nhé."},
+        {"speaker":"小张","zh":"知道了。灯也要关吗？","pinyin":"Zhīdao le. Dēng yě yào guān ma?","vi":"Biết rồi. Đèn cũng phải tắt à?"},
+        {"speaker":"小林","zh":"要关。昨天晚上我忘记关灯了，灯一直开到今天早上。","pinyin":"Yào guān. Zuótiān wǎnshang wǒ wàngjì guān dēng le, dēng yìzhí kāi dào jīntiān zǎoshang.","vi":"Phải tắt chứ. Tối qua mình quên tắt đèn, đèn sáng suốt tới sáng nay luôn."},
+        {"speaker":"小张","zh":"洗衣机里还有你的衣服，我帮你把衣服洗了吧。","pinyin":"Xǐyījī li hái yǒu nǐ de yīfu, wǒ bāng nǐ bǎ yīfu xǐ le ba.","vi":"Trong máy giặt vẫn còn quần áo của bạn, để mình giặt giúp nhé."},
+        {"speaker":"小林","zh":"太谢谢你了！还有，最近楼里有人丢了东西，出门前必须把门关好。","pinyin":"Tài xièxie nǐ le! Hái yǒu, zuìjìn lóu li yǒu rén diū le dōngxi, chūmén qián bìxū bǎ mén guān hǎo.","vi":"Cảm ơn bạn nhiều! Còn nữa, dạo này trong tòa nhà có người bị mất đồ, trước khi ra ngoài nhất định phải đóng cửa cẩn thận."},
+        {"speaker":"小张","zh":"好，我记得。你快走吧，晚上见！","pinyin":"Hǎo, wǒ jìde. Nǐ kuài zǒu ba, wǎnshang jiàn!","vi":"Được, mình nhớ rồi. Bạn đi nhanh đi, tối gặp nhé!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:伞","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"外面下雨了，你有____吗？","options":["伞","灯","空调","纸"],"answer":0,"explanation_vi":"Trời mưa thì cần 伞 (ô, dù)."},
+      {"id":"e2","type":"choice","tag":"v:关","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"太晚了，快把电视____了，睡觉吧。","options":["关","忘","注意","小心"],"answer":0,"explanation_vi":"“把电视关了” = tắt ti vi đi. Muộn rồi, đi ngủ thì phải tắt ti vi."},
+      {"id":"e3","type":"choice","tag":"v:记得","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你还____我吗？我是小王啊！","options":["记得","忘记","注意","小心"],"answer":0,"explanation_vi":"“你还记得我吗？” = Bạn còn nhớ tôi không? 记得 = còn nhớ."},
+      {"id":"e4","type":"choice","tag":"v:必须","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"明天八点考试，你____早一点儿来。","options":["必须","不要","小心","忘记"],"answer":0,"explanation_vi":"必须 = bắt buộc phải. Thi lúc tám giờ nên phải đến sớm. 不要 (đừng) làm câu sai nghĩa."},
+      {"id":"e5","type":"choice","tag":"v:小心","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"下雨了，你走的时候____一点儿。","options":["小心","必须","记得","一定"],"answer":0,"explanation_vi":"“小心一点儿” = cẩn thận một chút. Các từ còn lại không đi trực tiếp với 一点儿 như vậy."},
+      {"id":"e6","type":"choice","tag":"g:把字句1","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你____门关好，外面风很大。","options":["把","在","从","跟"],"answer":0,"explanation_vi":"把 + 门 + 关好: đưa vật (cái cửa) lên trước động từ 关."},
+      {"id":"e7","type":"choice","tag":"g:把字句1","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我把空调关了。","我把空调关。","我关空调把了。","我把了空调关。"],"answer":0,"explanation_vi":"Câu 把: S + 把 + vật + V + 了. Động từ 关 không được đứng trơ ở cuối câu."},
+      {"id":"e8","type":"choice","tag":"g:把字句1","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"昨天我____把作业做好，老师不太满意。","options":["没","不","别","不要"],"answer":0,"explanation_vi":"Việc đã xảy ra (hôm qua chưa làm xong) nên phủ định bằng 没, và 没 đứng trước 把."},
+      {"id":"e9","type":"choice","tag":"g:左右","prompt_vi":"Chọn câu đúng với nghĩa: “Tôi đã đợi khoảng mười phút.”","question_zh":"Tôi đã đợi khoảng mười phút.","options":["我等了十分钟左右。","我等了左右十分钟。","我左右等了十分钟。","我等了十左右分钟。"],"answer":0,"explanation_vi":"左右 đứng sau con số và sau cả đơn vị: 十分钟左右."},
+      {"id":"e10","type":"order","tag":"g:把字句1","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","把","灯","关","了","吗"],"answers":["你把灯关了吗"],"translation_vi":"Bạn tắt đèn chưa?","explanation_vi":"S + 把 + vật + V + 了 + 吗: 你把灯关了吗？"},
+      {"id":"e11","type":"order","tag":"g:左右","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","晚上","八点","左右","回来"],"answers":["我晚上八点左右回来","晚上八点左右我回来"],"translation_vi":"Khoảng tám giờ tối tôi về.","explanation_vi":"左右 đứng ngay sau giờ 八点; thời gian đứng trước động từ 回来."},
+      {"id":"e12","type":"order","tag":"v:忘","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["别","忘了","把","空调","关了"],"answers":["别忘了把空调关了"],"translation_vi":"Đừng quên tắt điều hòa nhé.","explanation_vi":"别忘了 + việc cần làm; việc đó là câu 把: 把空调关了."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"空调","vi":"điều hòa"},{"zh":"灯","vi":"đèn"},{"zh":"伞","vi":"ô, dù"},{"zh":"出门","vi":"ra ngoài"},{"zh":"必须","vi":"bắt buộc phải"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"洗衣机","vi":"máy giặt"},{"zh":"雨衣","vi":"áo mưa"},{"zh":"短裤","vi":"quần soóc"},{"zh":"月亮","vi":"mặt trăng"},{"zh":"铅笔","vi":"bút chì"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:把字句1","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请你____电脑关了。","options":["把","被","和","在"],"answer":0,"explanation_vi":"请你把电脑关了 = Bạn tắt máy tính đi. 把 đưa 电脑 lên trước động từ 关."},
+        {"id":"q2","type":"choice","tag":"g:把字句1","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他没把作业做完。","他把作业没做完。","他把作业不做完。","他没把作业做。"],"answer":0,"explanation_vi":"没 đứng trước 把; sau động từ vẫn cần thành phần khác (完)."},
+        {"id":"q3","type":"choice","tag":"g:把字句1","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我认识他。","我把他认识了。","我把那个人认识。","我认识把他。"],"answer":0,"explanation_vi":"认识 (quen biết) là động từ chỉ trạng thái, không làm vật thay đổi, nên không dùng câu 把."},
+        {"id":"q4","type":"choice","tag":"g:把字句1","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我把那本书看完了。","我把一本书看完了。","我把书看。","我看完了把那本书。"],"answer":0,"explanation_vi":"Vật sau 把 phải cụ thể, đã biết (那本书), và động từ có thêm 完了 phía sau."},
+        {"id":"q5","type":"choice","tag":"g:左右","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个西瓜八块钱____。","options":["左右","以后","前","多"],"answer":0,"explanation_vi":"“八块钱左右” = khoảng tám tệ. Muốn dùng 多 thì phải nói 八块多钱, không đặt 多 sau 钱."},
+        {"id":"q6","type":"choice","tag":"g:左右","prompt_vi":"Chọn nghĩa đúng của câu.","question_zh":"他三十岁左右。","options":["Anh ấy khoảng ba mươi tuổi.","Anh ấy hơn ba mươi tuổi.","Anh ấy chưa đến ba mươi tuổi.","Anh ấy đúng ba mươi tuổi."],"answer":0,"explanation_vi":"左右 sau con số = khoảng, chừng (có thể hơn hoặc kém một chút)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:注意","prompt_vi":"Chọn đáp án đúng.","question_zh":"天气冷了，你要____身体。","options":["注意","小心","忘记","记得"],"answer":0,"explanation_vi":"“注意身体” = giữ gìn sức khỏe, là cách nói cố định."},
+      {"id":"t2","type":"choice","tag":"g:把字句1","prompt_vi":"Chọn đáp án đúng.","question_zh":"你____洗衣机打开一下。","options":["把","被","往","从"],"answer":0,"explanation_vi":"把 + 洗衣机 + 打开一下: bật máy giặt lên một chút."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"关","vi":"tắt, đóng"},{"zh":"打开","vi":"mở, bật"},{"zh":"外面","vi":"bên ngoài"},{"zh":"门口","vi":"trước cửa"},{"zh":"电","vi":"điện"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"风","vi":"gió"},{"zh":"太阳","vi":"mặt trời"},{"zh":"凉快","vi":"mát mẻ"},{"zh":"大衣","vi":"áo khoác dài"},{"zh":"纸","vi":"giấy"}]},
+      {"id":"t5","type":"order","tag":"g:把字句1","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","快","把","电视","关","了"],"answers":["你快把电视关了"],"translation_vi":"Bạn mau tắt ti vi đi.","explanation_vi":"Phó từ 快 đứng trước 把; sau động từ 关 có 了."},
+      {"id":"t6","type":"order","tag":"v:一定","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","一定","要","小心","一点儿"],"answers":["你一定要小心一点儿"],"translation_vi":"Bạn nhất định phải cẩn thận một chút.","explanation_vi":"一定要 + V: nhất định phải; 一点儿 đứng sau 小心."},
+      {"id":"t7","type":"fill","tag":"v:伞","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我有一把____，咱们一起用吧。","answers":["伞","雨伞"],"hint_vi":"đồ dùng để che mưa, lượng từ là 把","explanation_vi":"一把伞 = một cái ô. 把 là lượng từ của 伞."},
+      {"id":"t8","type":"fill","tag":"g:左右","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"从我家到学校，坐车要二十分钟____。","answers":["左右"],"hint_vi":"“khoảng, chừng”, đứng sau con số","explanation_vi":"二十分钟左右 = khoảng hai mươi phút."},
+      {"id":"t9","type":"listen_choice","tag":"v:出门","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"出门前别忘了把灯关了。","options":["Trước khi ra ngoài đừng quên tắt đèn.","Trước khi ra ngoài đừng quên bật đèn.","Về nhà nhớ bật điều hòa.","Trước khi đi ngủ đừng quên tắt đèn."],"answer":0,"explanation_vi":"出门前 = trước khi ra ngoài; 把灯关了 = tắt đèn."},
+      {"id":"t10","type":"listen_choice","tag":"g:左右","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我晚上十点左右回来。","options":["Khoảng mười giờ tối tôi về.","Đúng mười giờ tối tôi về.","Sau mười giờ tối tôi mới về.","Khoảng mười giờ sáng tôi về."],"answer":0,"explanation_vi":"晚上十点左右 = khoảng mười giờ tối."},
+      {"id":"t11","type":"dictation","tag":"g:把字句1","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"别忘了把空调关了。","answers":["别忘了把空调关了"],"explanation_vi":"别忘了把空调关了 = Đừng quên tắt điều hòa nhé."},
+      {"id":"t12","type":"dictation","tag":"v:刮","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"外面刮风了，很凉快。","answers":["外面刮风了很凉快"],"explanation_vi":"外面刮风了，很凉快 = Bên ngoài nổi gió rồi, mát lắm."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:把字句1","prompt_vi":"Dịch câu sau sang tiếng Trung (dùng câu chữ 把).","source_vi":"Bạn tắt điều hòa đi.","answers":["你把空调关了吧","你把空调关了","把空调关了吧","把空调关了","你把空调关一下吧","你把空调关一下","你把空调关上吧","你把空调关掉吧","请你把空调关了","请把空调关了","你关空调吧"],"explanation_vi":"Câu 把: 你 + 把 + 空调 + 关了 + 吧."},
+      {"id":"t14","type":"translate_vi_zh","tag":"v:记得","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bạn còn nhớ tôi không?","answers":["你还记得我吗","你记得我吗","你还记不记得我","你记不记得我"],"explanation_vi":"还记得 = còn nhớ: 你还记得我吗？"},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:小心","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"下雨了，你小心一点儿。","answers_vi":["Trời mưa rồi, bạn cẩn thận một chút.","Mưa rồi, bạn cẩn thận nhé."],"keywords":[["mưa"],["cẩn thận","coi chừng","chú ý"]],"explanation_vi":"下雨了 = trời mưa rồi; 小心一点儿 = cẩn thận một chút."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:把字句1","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我已经把衣服洗了。","answers_vi":["Tôi đã giặt quần áo rồi.","Tôi giặt quần áo rồi."],"keywords":[["giặt"],["quần áo","áo quần","đồ"],["đã","rồi","xong"]],"explanation_vi":"已经 = đã; 把衣服洗了 = giặt quần áo (xong) rồi."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"门口的一张纸",
+        "title_vi":"Tờ giấy ở cửa ra vào",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["很","hěn","rất"],["容易","róngyì","dễ"],["忘记","wàngjì","quên"],["事情","shìqing","việc, chuyện"],["。"],["上个月","shàng ge yuè","tháng trước"],["，"],["我","wǒ","tôi"],["出门","chūmén","ra ngoài"],["的时候","de shíhou","lúc, khi"],["忘了","wàng le","quên mất"],["关","guān","tắt"],["空调","kōngtiáo","điều hòa"],["，"],["空调","kōngtiáo","điều hòa"],["开","kāi","bật"],["了","le","(đã)"],["一天","yì tiān","cả một ngày"],["。"],["还有","hái yǒu","còn có"],["一次","yí cì","một lần"],["，"],["外面","wàimiàn","bên ngoài"],["下","xià","rơi, đổ (mưa)"],["大雨","dà yǔ","mưa to"],["，"],["可是","kěshì","nhưng"],["我","wǒ","tôi"],["没有","méiyǒu","không có"],["伞","sǎn","ô, dù"],["，"],["在","zài","ở"],["公司","gōngsī","công ty"],["门口","ménkǒu","cửa, trước cửa"],["等","děng","đợi"],["了","le","(đã)"],["一个小时","yí ge xiǎoshí","một tiếng đồng hồ"],["左右","zuǒyòu","khoảng"],["。"]],
+            "vi":"Tôi rất hay quên. Tháng trước, lúc ra ngoài tôi quên tắt điều hòa, điều hòa chạy cả một ngày. Còn có một lần, bên ngoài mưa to mà tôi không có ô, phải đợi ở cửa công ty khoảng một tiếng."
+          },
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["，"],["我家","wǒ jiā","nhà tôi"],["门口","ménkǒu","chỗ cửa ra vào"],["有","yǒu","có"],["一张","yì zhāng","một tờ"],["纸","zhǐ","giấy"],["，"],["是","shì","là"],["妈妈","māma","mẹ"],["给","gěi","cho"],["我","wǒ","tôi"],["写","xiě","viết"],["的","de","(trợ từ)"],["。"],["纸上","zhǐ shang","trên giấy"],["写着","xiězhe","có viết"],["："],["“"],["出门","chūmén","ra ngoài"],["前","qián","trước"],["，"],["你","nǐ","con"],["必须","bìxū","phải"],["做","zuò","làm"],["三件事","sān jiàn shì","ba việc"],["："],["把","bǎ","(đem)"],["空调","kōngtiáo","điều hòa"],["关","guān","tắt"],["了","le","(đi)"],["，"],["把","bǎ","(đem)"],["灯","dēng","đèn"],["关","guān","tắt"],["了","le","(đi)"],["，"],["看看","kànkan","xem qua"],["外面","wàimiàn","bên ngoài"],["的","de","(của)"],["天气","tiānqì","thời tiết"],["。"],["”"]],
+            "vi":"Bây giờ, ở cửa nhà tôi có một tờ giấy, là mẹ viết cho tôi. Trên giấy viết: “Trước khi ra ngoài, con phải làm ba việc: tắt điều hòa, tắt đèn, xem thời tiết bên ngoài.”"
+          },
+          {
+            "tokens":[["每天","měi tiān","mỗi ngày"],["出门","chūmén","ra ngoài"],["前","qián","trước"],["，"],["我","wǒ","tôi"],["都","dōu","đều"],["看","kàn","xem"],["一下","yíxià","một chút"],["这","zhè","này"],["张","zhāng","tờ"],["纸","zhǐ","giấy"],["。"],["下雨","xià yǔ","mưa"],["天","tiān","ngày"],["，"],["我","wǒ","tôi"],["会","huì","sẽ"],["记得","jìde","nhớ"],["拿","ná","cầm, mang"],["伞","sǎn","ô, dù"],["；"],["刮风","guā fēng","gió thổi"],["的时候","de shíhou","lúc, khi"],["，"],["我","wǒ","tôi"],["也","yě","cũng"],["会","huì","sẽ"],["穿上","chuānshang","mặc vào"],["大衣","dàyī","áo khoác dài"],["。"],["这","zhè","này"],["张","zhāng","tờ"],["纸","zhǐ","giấy"],["帮","bāng","giúp"],["了","le","(đã)"],["我","wǒ","tôi"],["很大","hěn dà","rất lớn"],["的","de","(trợ từ)"],["忙","máng","việc giúp (帮……忙: giúp đỡ)"],["！"]],
+            "vi":"Mỗi ngày trước khi ra ngoài, tôi đều xem tờ giấy này một chút. Ngày mưa, tôi nhớ mang ô; lúc gió thổi, tôi cũng mặc áo khoác vào. Tờ giấy này đã giúp tôi rất nhiều!"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"上个月“我”出门的时候忘了做什么？","options":["关空调","关门","穿大衣","关灯"],"answer":0,"explanation_vi":"Đoạn 1: 上个月，我出门的时候忘了关空调."},
+          {"id":"rq2","type":"choice","tag":"g:左右","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"下大雨那天，“我”在公司门口等了多长时间？","options":["一个小时左右","两个小时左右","十分钟左右","三个小时"],"answer":0,"explanation_vi":"Đoạn 1: 在公司门口等了一个小时左右."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"门口的纸是谁写的？","options":["妈妈","“我”","“我”的朋友","“我”的同学"],"answer":0,"explanation_vi":"Đoạn 2: 我家门口有一张纸，是妈妈给我写的."},
+          {"id":"rq4","type":"choice","tag":"g:把字句1","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"纸上写着：出门前要把灯关了。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 出门前，你必须做三件事：把空调关了，把灯关了…… — câu này đúng."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"现在刮风的时候，“我”还是忘记穿大衣。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 刮风的时候，我也会穿上大衣 — bây giờ “tôi” đã nhớ mặc áo khoác, nên câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Lời dặn của cô giáo trước buổi leo núi",
+        "text_zh":"同学们，明天我们一起去爬山。听说明天会刮风，山上比较冷，大家不要穿短裤，要穿大衣。早上可能还会下雨，所以每个人都要准备一把伞或者一件雨衣。我们早上七点在学校门口见面，坐车一个小时左右就到了。爬山的时候，大家一定要小心，不要一个人走。还有，出门前别忘了把房间里的空调和灯关了。",
+        "pinyin":"Tóngxuémen, míngtiān wǒmen yìqǐ qù pá shān. Tīngshuō míngtiān huì guā fēng, shān shang bǐjiào lěng, dàjiā búyào chuān duǎnkù, yào chuān dàyī. Zǎoshang kěnéng hái huì xià yǔ, suǒyǐ měi ge rén dōu yào zhǔnbèi yì bǎ sǎn huòzhě yí jiàn yǔyī. Wǒmen zǎoshang qī diǎn zài xuéxiào ménkǒu jiànmiàn, zuò chē yí ge xiǎoshí zuǒyòu jiù dào le. Pá shān de shíhou, dàjiā yídìng yào xiǎoxīn, búyào yí ge rén zǒu. Hái yǒu, chūmén qián bié wàng le bǎ fángjiān li de kōngtiáo hé dēng guān le.",
+        "vi":"Các em, ngày mai chúng ta cùng đi leo núi. Nghe nói mai trời sẽ có gió, trên núi khá lạnh, mọi người đừng mặc quần soóc, hãy mặc áo khoác. Buổi sáng có thể còn mưa, nên mỗi người phải chuẩn bị một cái ô hoặc một chiếc áo mưa. Bảy giờ sáng chúng ta gặp nhau ở cổng trường, đi xe khoảng một tiếng là đến. Lúc leo núi, mọi người nhất định phải cẩn thận, đừng đi một mình. Còn nữa, trước khi ra khỏi nhà đừng quên tắt điều hòa và đèn trong phòng.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"明天的天气怎么样？","options":["会刮风，山上比较冷","很热，太阳很大","很凉快，没有风","下大雪"],"answer":0,"explanation_vi":"Nghe được: 明天会刮风，山上比较冷."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他们几点在哪儿见面？","options":["七点，在学校门口","七点，在山上","八点，在学校门口","八点，在山上"],"answer":0,"explanation_vi":"Nghe được: 我们早上七点在学校门口见面."},
+          {"id":"lq3","type":"choice","tag":"g:左右","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"坐车要多长时间？","options":["一个小时左右","两个小时左右","半个小时","十分钟左右"],"answer":0,"explanation_vi":"Nghe được: 坐车一个小时左右就到了."},
+          {"id":"lq4","type":"choice","tag":"g:把字句1","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"出门前大家要做什么？","options":["把房间里的空调和灯关了","把作业做好","把衣服洗了","把手机关机"],"answer":0,"explanation_vi":"Nghe được: 出门前别忘了把房间里的空调和灯关了."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"空调","pinyin":"kōngtiáo","vi":"điều hòa","tip_vi":"k và t đều là âm bật hơi: đẩy mạnh hơi ra, đừng đọc thành “công điều”. 空 kōng giữ thanh 1 cao và bằng; 调 tiáo thanh 2 đi lên, không đọc diào."},
+      {"id":"s2","zh":"小心","pinyin":"xiǎoxīn","vi":"cẩn thận","tip_vi":"x là âm mặt lưỡi (mặt lưỡi áp lên vòm, môi dẹt), khác “x” tiếng Việt. 心 xīn kết thúc bằng -n (đầu lưỡi chạm lợi trên), đừng đọc thành xīng (-ng)."},
+      {"id":"s3","zh":"外面刮风了。","pinyin":"Wàimiàn guā fēng le.","vi":"Bên ngoài nổi gió rồi.","tip_vi":"风 fēng: f là môi dưới chạm răng trên; vần -eng đọc gần “âng”, đừng đọc thành “phong”. 刮 guā giữ thanh 1 cao. 了 đọc nhẹ và ngắn."},
+      {"id":"s4","zh":"我晚上八点左右回来。","pinyin":"Wǒ wǎnshang bā diǎn zuǒyòu huílai.","vi":"Khoảng tám giờ tối tôi về.","tip_vi":"我晚 wǒ wǎn là hai thanh 3 liền nhau: 我 đọc gần như thanh 2. 左 zuǒ: z không bật hơi, đầu lưỡi đặt sau răng dưới, đừng đọc thành “chủa”; 右 yòu thanh 4 rơi dứt khoát. 来 trong 回来 đọc nhẹ."},
+      {"id":"s5","zh":"别忘了把空调关了。","pinyin":"Bié wàng le bǎ kōngtiáo guān le.","vi":"Đừng quên tắt điều hòa nhé.","tip_vi":"忘 wàng thanh 4 rơi mạnh từ cao xuống thấp. 把 bǎ đứng trước thanh 1 nên chỉ đọc nửa đầu thanh 3 (thấp, không lên lại). Hai chữ 了 đều đọc nhẹ. 关 guān kết thúc bằng -n."},
+      {"id":"s6","zh":"你出门的时候，一定要把门关好。","pinyin":"Nǐ chūmén de shíhou, yídìng yào bǎ mén guān hǎo.","vi":"Lúc bạn ra ngoài, nhất định phải đóng cửa cẩn thận.","tip_vi":"出 chū: ch uốn lưỡi và bật hơi; 时 shí: sh uốn lưỡi, -i không đọc như “i” tiếng Việt. 一定 yídìng: 一 đọc thanh 2 vì đứng trước thanh 4. Ngắt hơi ở dấu phẩy."},
+      {"id":"s7","zh":"最近楼里有人丢了东西，出门前必须把门关好。","pinyin":"Zuìjìn lóu li yǒu rén diū le dōngxi, chūmén qián bìxū bǎ mén guān hǎo.","vi":"Dạo này trong tòa nhà có người mất đồ, trước khi ra ngoài phải đóng cửa cẩn thận.","tip_vi":"Câu dài: ngắt hơi ở dấu phẩy. 必须 bìxū: 须 có ü, giữ lưỡi như đọc i rồi tròn môi, đừng đọc thành “xuy”. 东西 dōngxi: 西 đọc nhẹ. 关好 guān hǎo: 好 thanh 3 ở cuối câu được đọc đủ (xuống rồi lên)."}
+    ],
+    "review": {
+      "remember": [
+        "Câu chữ 把: S + 把 + vật cụ thể + V + 了/一下/好/完…: 把空调关了、把灯关一下、把衣服洗好了.",
+        "Trong câu 把, động từ không đứng trơ; 没/别/不要/要/能 đứng trước 把: 我没把门关好.",
+        "Số (+ lượng từ) + 左右 = khoảng, chừng: 十分钟左右、八点左右、三十岁左右.",
+        "Dặn dò: 别忘了 / 记得 / 一定要 / 必须 + việc cần làm; 小心 = cẩn thận, 注意身体 = giữ gìn sức khỏe.",
+        "开 / 打开 = bật, mở; 关 = tắt, đóng: 开空调、关灯、关门、关机; 一把伞 (把 còn là lượng từ)."
+      ],
+      "mistakes": [
+        "✗ 我把空调关 → ✓ 我把空调关了: sau động từ trong câu 把 phải có 了/好/一下…",
+        "✗ 我把门没关好 → ✓ 我没把门关好: 没, 别 đứng trước 把.",
+        "✗ 我等了左右十分钟 → ✓ 我等了十分钟左右: 左右 đứng sau con số."
+      ]
+    }
+  }
+}

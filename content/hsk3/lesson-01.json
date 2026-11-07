@@ -1,154 +1,218 @@
 {
   "level": 3,
   "number": 1,
-  "summary": "Hỏi và nói về dự định cuối tuần; học bổ ngữ kết quả “好”, cấu trúc phủ định nhấn mạnh “一……也/都……” và liên từ “那”.",
+  "summary": "Hỏi và nói về dự định cuối tuần, rủ bạn cùng đi chơi; học bổ ngữ kết quả “好”, phủ định nhấn mạnh “一……也/都 + 没/不……” và liên từ “那”.",
+  "readings_ok": ["只 zhī", "里 li"],
   "content": {
+    "objectives": [
+      "Hỏi và kể về dự định cuối tuần: 你有什么打算？我打算……",
+      "Rủ bạn cùng đi chơi bằng 咱们……一块儿……吧",
+      "Nói một việc đã làm xong bằng bổ ngữ kết quả 好 (做好、准备好)",
+      "Nhấn mạnh “không… một… nào” với 一……也/都 + 没/不, và đáp lời bằng 那 (vậy thì)"
+    ],
     "vocab": [
-      {"id":"v1","hanzi":"周末","pinyin":"zhōumò","pos":"danh từ","meaning_vi":"cuối tuần","example_zh":"周末你有什么打算？","example_pinyin":"Zhōumò nǐ yǒu shénme dǎsuàn?","example_vi":"Cuối tuần bạn có dự định gì?"},
-      {"id":"v2","hanzi":"打算","pinyin":"dǎsuàn","pos":"động từ / danh từ","meaning_vi":"dự định, kế hoạch","example_zh":"我打算明天去爬山。","example_pinyin":"Wǒ dǎsuàn míngtiān qù páshān.","example_vi":"Ngày mai tôi dự định đi leo núi."},
-      {"id":"v3","hanzi":"附近","pinyin":"fùjìn","pos":"danh từ","meaning_vi":"gần đây, vùng lân cận","example_zh":"我家附近有一个公园。","example_pinyin":"Wǒ jiā fùjìn yǒu yí ge gōngyuán.","example_vi":"Gần nhà tôi có một công viên."},
-      {"id":"v4","hanzi":"公园","pinyin":"gōngyuán","pos":"danh từ","meaning_vi":"công viên","example_zh":"周末公园里人很多。","example_pinyin":"Zhōumò gōngyuán lǐ rén hěn duō.","example_vi":"Cuối tuần trong công viên rất đông người."},
-      {"id":"v5","hanzi":"爬山","pinyin":"pá shān","pos":"động từ","meaning_vi":"leo núi","example_zh":"我们一起去爬山吧。","example_pinyin":"Wǒmen yìqǐ qù páshān ba.","example_vi":"Chúng ta cùng đi leo núi nhé."},
-      {"id":"v6","hanzi":"一起","pinyin":"yìqǐ","pos":"phó từ","meaning_vi":"cùng nhau","example_zh":"你和我一起去吧。","example_pinyin":"Nǐ hé wǒ yìqǐ qù ba.","example_vi":"Bạn đi cùng tôi nhé."},
-      {"id":"v7","hanzi":"作业","pinyin":"zuòyè","pos":"danh từ","meaning_vi":"bài tập về nhà","example_zh":"今天的作业我已经做好了。","example_pinyin":"Jīntiān de zuòyè wǒ yǐjīng zuò hǎo le.","example_vi":"Bài tập hôm nay tôi đã làm xong rồi."},
-      {"id":"v8","hanzi":"准备","pinyin":"zhǔnbèi","pos":"động từ","meaning_vi":"chuẩn bị","example_zh":"你准备好了吗？","example_pinyin":"Nǐ zhǔnbèi hǎo le ma?","example_vi":"Bạn chuẩn bị xong chưa?"},
-      {"id":"v9","hanzi":"复习","pinyin":"fùxí","pos":"động từ","meaning_vi":"ôn tập","example_zh":"明天考试，我今晚要复习。","example_pinyin":"Míngtiān kǎoshì, wǒ jīnwǎn yào fùxí.","example_vi":"Ngày mai thi, tối nay tôi phải ôn bài."},
-      {"id":"v10","hanzi":"考试","pinyin":"kǎoshì","pos":"động từ / danh từ","meaning_vi":"thi, kỳ thi","example_zh":"下周一有汉语考试。","example_pinyin":"Xià zhōuyī yǒu Hànyǔ kǎoshì.","example_vi":"Thứ Hai tuần sau có bài thi tiếng Trung."},
-      {"id":"v11","hanzi":"经常","pinyin":"jīngcháng","pos":"phó từ","meaning_vi":"thường xuyên","example_zh":"他经常去公园跑步。","example_pinyin":"Tā jīngcháng qù gōngyuán pǎobù.","example_vi":"Anh ấy thường xuyên đến công viên chạy bộ."},
-      {"id":"v12","hanzi":"一定","pinyin":"yídìng","pos":"phó từ","meaning_vi":"nhất định, chắc chắn","example_zh":"明天我一定去。","example_pinyin":"Míngtiān wǒ yídìng qù.","example_vi":"Ngày mai tôi nhất định đi."},
-      {"id":"v13","hanzi":"参加","pinyin":"cānjiā","pos":"động từ","meaning_vi":"tham gia","example_zh":"你参加这次比赛吗？","example_pinyin":"Nǐ cānjiā zhè cì bǐsài ma?","example_vi":"Bạn có tham gia cuộc thi lần này không?"},
-      {"id":"v14","hanzi":"比赛","pinyin":"bǐsài","pos":"danh từ / động từ","meaning_vi":"cuộc thi, thi đấu","example_zh":"周末有一场足球比赛。","example_pinyin":"Zhōumò yǒu yì chǎng zúqiú bǐsài.","example_vi":"Cuối tuần có một trận bóng đá."}
+      {"id":"v1","hanzi":"周末","pinyin":"zhōumò","pos":"danh từ","meaning_vi":"cuối tuần","example_zh":"这个周末你有什么打算？","example_pinyin":"Zhège zhōumò nǐ yǒu shénme dǎsuàn?","example_vi":"Cuối tuần này bạn có dự định gì?","hanviet":"CHU MẠT"},
+      {"id":"v2","hanzi":"打算","pinyin":"dǎsuàn","pos":"động từ / danh từ","meaning_vi":"định, dự định","example_zh":"我打算星期六去爬山。","example_pinyin":"Wǒ dǎsuàn xīngqīliù qù pá shān.","example_vi":"Tôi định thứ Bảy đi leo núi.","hanviet":"ĐẢ TOÁN","note_vi":"Vừa là động từ (打算 + việc định làm) vừa là danh từ (有什么打算？ = có dự định gì?). Không mang nghĩa “tính toán” như âm Hán Việt."},
+      {"id":"v3","hanzi":"咱们","pinyin":"zánmen","pos":"đại từ","meaning_vi":"chúng ta, chúng mình (gồm cả người nghe)","example_zh":"咱们一块儿去吧！","example_pinyin":"Zánmen yíkuàir qù ba!","example_vi":"Chúng mình cùng đi nhé!","note_vi":"咱们 luôn gồm cả người đang nghe, giống “chúng ta”. 我们 có thể không gồm người nghe, giống “chúng tôi”."},
+      {"id":"v4","hanzi":"一块儿","pinyin":"yíkuàir","pos":"phó từ","meaning_vi":"cùng nhau","example_zh":"周末咱们一块儿去公园吧。","example_pinyin":"Zhōumò zánmen yíkuàir qù gōngyuán ba.","example_vi":"Cuối tuần chúng mình cùng đi công viên nhé.","note_vi":"Nghĩa giống 一起, hay dùng khi nói chuyện thân mật. 一 đọc thanh 2 (yí) vì đứng trước thanh 4."},
+      {"id":"v5","hanzi":"那么","pinyin":"nàme","pos":"đại từ / liên từ","meaning_vi":"như thế, đến thế; vậy thì","example_zh":"你那么喜欢爬山啊！","example_pinyin":"Nǐ nàme xǐhuan pá shān a!","example_vi":"Bạn thích leo núi đến thế cơ à!","note_vi":"Đứng trước tính từ/động từ tâm lý: “đến thế”. Đứng đầu câu trả lời: “vậy thì”, giống liên từ 那 trong bài."},
+      {"id":"v6","hanzi":"有意思","pinyin":"yǒu yìsi","pos":"cụm từ (tính từ)","meaning_vi":"thú vị, hay","example_zh":"这个游戏很有意思。","example_pinyin":"Zhège yóuxì hěn yǒu yìsi.","example_vi":"Trò chơi này rất thú vị.","note_vi":"Ngược nghĩa là 没意思 (chán). 思 đọc nhẹ: yìsi."},
+      {"id":"v7","hanzi":"好玩儿","pinyin":"hǎowánr","pos":"tính từ","meaning_vi":"vui, chơi vui","example_zh":"动物园非常好玩儿。","example_pinyin":"Dòngwùyuán fēicháng hǎowánr.","example_vi":"Sở thú vui lắm.","note_vi":"好玩儿 nói về nơi chốn, trò chơi có vui để chơi hay không; 有意思 rộng hơn (phim, sách, câu chuyện… cũng dùng được)."},
+      {"id":"v8","hanzi":"地方","pinyin":"dìfang","pos":"danh từ","meaning_vi":"nơi, chỗ","example_zh":"你知道哪儿有好玩儿的地方吗？","example_pinyin":"Nǐ zhīdao nǎr yǒu hǎowánr de dìfang ma?","example_vi":"Bạn có biết chỗ nào vui để chơi không?","hanviet":"ĐỊA PHƯƠNG","note_vi":"Từ Hán Việt dễ hiểu nhầm: 地方 (dìfang) chủ yếu là “nơi, chỗ”, không phải “địa phương”. Nghĩa “địa phương” đọc dìfāng và ít gặp ở cấp này."},
+      {"id":"v9","hanzi":"公园","pinyin":"gōngyuán","pos":"danh từ","meaning_vi":"công viên","example_zh":"我家旁边有一个公园。","example_pinyin":"Wǒ jiā pángbiān yǒu yí ge gōngyuán.","example_vi":"Bên cạnh nhà tôi có một công viên.","hanviet":"CÔNG VIÊN"},
+      {"id":"v10","hanzi":"事","pinyin":"shì","pos":"danh từ","meaning_vi":"việc, chuyện","example_zh":"星期六我有事，不能去。","example_pinyin":"Xīngqīliù wǒ yǒu shì, bù néng qù.","example_vi":"Thứ Bảy tôi có việc, không đi được.","hanviet":"SỰ","note_vi":"有事 = có việc (bận); 没事 = không có việc gì / không sao."},
+      {"id":"v11","hanzi":"电影院","pinyin":"diànyǐngyuàn","pos":"danh từ","meaning_vi":"rạp chiếu phim","example_zh":"晚上咱们去电影院看电影吧。","example_pinyin":"Wǎnshang zánmen qù diànyǐngyuàn kàn diànyǐng ba.","example_vi":"Tối nay chúng mình đi rạp xem phim nhé.","hanviet":"ĐIỆN ẢNH VIỆN"},
+      {"id":"v12","hanzi":"游戏","pinyin":"yóuxì","pos":"danh từ","meaning_vi":"trò chơi, game","example_zh":"他周末喜欢在家玩儿游戏。","example_pinyin":"Tā zhōumò xǐhuan zài jiā wánr yóuxì.","example_vi":"Cuối tuần anh ấy thích ở nhà chơi game.","hanviet":"DU HÍ","note_vi":"Động từ đi kèm là 玩儿: 玩儿游戏 (chơi trò chơi)."},
+      {"id":"v13","hanzi":"作业","pinyin":"zuòyè","pos":"danh từ","meaning_vi":"bài tập (về nhà)","example_zh":"今天的作业我已经做好了。","example_pinyin":"Jīntiān de zuòyè wǒ yǐjīng zuò hǎo le.","example_vi":"Bài tập hôm nay tôi đã làm xong rồi.","hanviet":"TÁC NGHIỆP","note_vi":"“Làm bài tập” là 做作业, không nói 写作业 trong mọi trường hợp (写作业 chỉ dùng khi bài tập phải viết)."},
+      {"id":"v14","hanzi":"复习","pinyin":"fùxí","pos":"động từ","meaning_vi":"ôn tập, ôn bài","example_zh":"星期天我要在家复习。","example_pinyin":"Xīngqītiān wǒ yào zài jiā fùxí.","example_vi":"Chủ nhật tôi phải ở nhà ôn bài.","hanviet":"PHỤC TẬP","note_vi":"复习 = ôn lại bài đã học; 预习 = học trước bài mới (chưa học ở cấp này)."},
+      {"id":"v15","hanzi":"爬","pinyin":"pá","pos":"động từ","meaning_vi":"leo, trèo; bò","example_zh":"我们一块儿去爬山吧。","example_pinyin":"Wǒmen yíkuàir qù pá shān ba.","example_vi":"Chúng mình cùng đi leo núi nhé.","note_vi":"爬山 = leo núi (đi dã ngoại lên núi). p bật hơi mạnh, đừng đọc thành “ba”."},
+      {"id":"v16","hanzi":"山","pinyin":"shān","pos":"danh từ","meaning_vi":"núi","example_zh":"山上有很多花，很好看。","example_pinyin":"Shān shang yǒu hěn duō huā, hěn hǎokàn.","example_vi":"Trên núi có nhiều hoa, đẹp lắm.","hanviet":"SƠN"},
+      {"id":"v17","hanzi":"动物园","pinyin":"dòngwùyuán","pos":"danh từ","meaning_vi":"sở thú, vườn bách thú","example_zh":"星期天咱们去动物园吧。","example_pinyin":"Xīngqītiān zánmen qù dòngwùyuán ba.","example_vi":"Chủ nhật chúng mình đi sở thú nhé.","hanviet":"ĐỘNG VẬT VIÊN"}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"周","pinyin":"zhōu","pos":"danh từ","meaning_vi":"tuần","example_zh":"一周有七天。","example_pinyin":"Yì zhōu yǒu qī tiān.","example_vi":"Một tuần có bảy ngày."},
+      {"id":"x2","hanzi":"没意思","pinyin":"méi yìsi","pos":"cụm từ (tính từ)","meaning_vi":"chán, không thú vị","example_zh":"这个电影没意思。","example_pinyin":"Zhège diànyǐng méi yìsi.","example_vi":"Bộ phim này chán quá."},
+      {"id":"x3","hanzi":"放假","pinyin":"fàngjià","pos":"động từ","meaning_vi":"được nghỉ (lễ, hè…)","example_zh":"学校下个星期开始放假。","example_pinyin":"Xuéxiào xià ge xīngqī kāishǐ fàngjià.","example_vi":"Tuần sau trường bắt đầu nghỉ."},
+      {"id":"x4","hanzi":"假期","pinyin":"jiàqī","pos":"danh từ","meaning_vi":"kỳ nghỉ","example_zh":"假期你打算去哪儿？","example_pinyin":"Jiàqī nǐ dǎsuàn qù nǎr?","example_vi":"Kỳ nghỉ bạn định đi đâu?"},
+      {"id":"x5","hanzi":"后天","pinyin":"hòutiān","pos":"danh từ","meaning_vi":"ngày kia","example_zh":"后天是星期六。","example_pinyin":"Hòutiān shì xīngqīliù.","example_vi":"Ngày kia là thứ Bảy."},
+      {"id":"x6","hanzi":"开学","pinyin":"kāixué","pos":"động từ","meaning_vi":"khai giảng, bắt đầu năm học","example_zh":"九月一号开学。","example_pinyin":"Jiǔyuè yī hào kāixué.","example_vi":"Ngày một tháng Chín khai giảng."},
+      {"id":"x7","hanzi":"动物","pinyin":"dòngwù","pos":"danh từ","meaning_vi":"động vật, con vật","example_zh":"我很喜欢小动物。","example_pinyin":"Wǒ hěn xǐhuan xiǎo dòngwù.","example_vi":"Tôi rất thích các con vật nhỏ."},
+      {"id":"x8","hanzi":"只","pinyin":"zhī","pos":"lượng từ","meaning_vi":"con (lượng từ cho nhiều loài vật)","example_zh":"那儿有一只小鸟。","example_pinyin":"Nàr yǒu yì zhī xiǎo niǎo.","example_vi":"Ở đó có một con chim nhỏ."},
+      {"id":"x9","hanzi":"鸟","pinyin":"niǎo","pos":"danh từ","meaning_vi":"chim","example_zh":"公园里有很多鸟。","example_pinyin":"Gōngyuán li yǒu hěn duō niǎo.","example_vi":"Trong công viên có rất nhiều chim."},
+      {"id":"x10","hanzi":"大熊猫","pinyin":"dàxióngmāo","pos":"danh từ","meaning_vi":"gấu trúc lớn","example_zh":"动物园里有两只大熊猫。","example_pinyin":"Dòngwùyuán li yǒu liǎng zhī dàxióngmāo.","example_vi":"Trong sở thú có hai con gấu trúc."},
+      {"id":"x11","hanzi":"草地","pinyin":"cǎodì","pos":"danh từ","meaning_vi":"bãi cỏ","example_zh":"孩子们在草地上玩儿。","example_pinyin":"Háizimen zài cǎodì shang wánr.","example_vi":"Bọn trẻ chơi trên bãi cỏ."},
+      {"id":"x12","hanzi":"花园","pinyin":"huāyuán","pos":"danh từ","meaning_vi":"vườn hoa","example_zh":"我家后面有一个小花园。","example_pinyin":"Wǒ jiā hòumiàn yǒu yí ge xiǎo huāyuán.","example_vi":"Phía sau nhà tôi có một vườn hoa nhỏ."},
+      {"id":"x13","hanzi":"园","pinyin":"yuán","pos":"danh từ","meaning_vi":"vườn (thường đứng cuối từ ghép)","example_zh":"公园、动物园、花园都有一个“园”字。","example_pinyin":"Gōngyuán, dòngwùyuán, huāyuán dōu yǒu yí ge “yuán” zì.","example_vi":"Công viên, sở thú, vườn hoa đều có chữ “viên” (园)."}
+    ],
+    "glossary": [
+      {"hanzi":"花","pinyin":"huā","meaning_vi":"hoa","kind":"base"}
     ],
     "grammar": [
       {
         "id":"g1",
         "title":"Bổ ngữ kết quả “好”",
-        "pattern":"S + V + 好 (+ 了)",
-        "explanation_vi":"“好” đứng sau động từ làm bổ ngữ kết quả, biểu thị động tác đã hoàn thành và đạt kết quả tốt, như mong muốn. Dạng phủ định: 没(有) + V + 好 (chưa làm xong / làm chưa tốt).",
+        "pattern":"S + V + 好 (+ 了)　·　S + 没 + V + 好",
+        "explanation_vi":"“好” đứng ngay sau động từ để nói động tác đã xong và đạt yêu cầu, xong xuôi như ý muốn: 做好 (làm xong), 准备好 (chuẩn bị xong), 睡好 (ngủ ngon). Muốn nói chưa xong hoặc làm chưa tốt thì dùng 没 + V + 好.",
         "examples":[
-          {"zh":"我已经准备好了。","pinyin":"Wǒ yǐjīng zhǔnbèi hǎo le.","vi":"Tôi đã chuẩn bị xong rồi."},
-          {"zh":"作业你做好了吗？","pinyin":"Zuòyè nǐ zuò hǎo le ma?","vi":"Bài tập bạn làm xong chưa?"},
+          {"zh":"作业我已经做好了。","pinyin":"Zuòyè wǒ yǐjīng zuò hǎo le.","vi":"Bài tập tôi đã làm xong rồi."},
+          {"zh":"你准备好了吗？咱们走吧。","pinyin":"Nǐ zhǔnbèi hǎo le ma? Zánmen zǒu ba.","vi":"Bạn chuẩn bị xong chưa? Chúng mình đi thôi."},
           {"zh":"昨天晚上我没睡好。","pinyin":"Zuótiān wǎnshang wǒ méi shuì hǎo.","vi":"Tối qua tôi ngủ không ngon."}
-        ]
+        ],
+        "mistakes_vi":"✗ 我做作业好了。\n✓ 我做好作业了。/ 作业我做好了。\n“好” phải đứng sát sau động từ; tân ngữ đứng sau 好 hoặc đưa lên đầu câu.\n✗ 我不做好作业。\n✓ 我没做好作业。\nKết quả chưa đạt dùng 没, không dùng 不.",
+        "compare_vi":"Giống “làm xong”, “chuẩn bị xong” trong tiếng Việt, nhưng 好 còn có ý “xong và tốt, như mong muốn”."
       },
       {
         "id":"g2",
         "title":"Phủ định nhấn mạnh “一……也/都 + 没/不……”",
-        "pattern":"一 + Lượng từ (+ N) + 也/都 + 没/不 + V",
-        "explanation_vi":"Dùng “一 + lượng từ” kết hợp “也/都” và phủ định để nhấn mạnh phủ định hoàn toàn, nghĩa là “không… lấy một…”. Hành động đã xảy ra hay chưa dùng “没”, thói quen / tính từ / ý muốn dùng “不”.",
+        "pattern":"一 + lượng từ (+ danh từ) + 也/都 + 没/不 + V/Adj",
+        "explanation_vi":"Dùng “一 + lượng từ” cùng 也 hoặc 都 và từ phủ định để nói “không… một… nào”, “chẳng… chút nào”. Việc đã (không) xảy ra dùng 没; thói quen, ý muốn, tính từ dùng 不. Riêng 一点儿 thường đi với tính từ: 一点儿也不累.",
         "examples":[
-          {"zh":"我一个人都不认识。","pinyin":"Wǒ yí ge rén dōu bú rènshi.","vi":"Tôi không quen một ai cả."},
-          {"zh":"他一口水也没喝。","pinyin":"Tā yì kǒu shuǐ yě méi hē.","vi":"Anh ấy không uống lấy một ngụm nước."},
-          {"zh":"今天我一点儿也不饿。","pinyin":"Jīntiān wǒ yìdiǎnr yě bú è.","vi":"Hôm nay tôi chẳng đói chút nào."}
-        ]
+          {"zh":"我一个人也不认识。","pinyin":"Wǒ yí ge rén yě bú rènshi.","vi":"Tôi không quen một ai cả."},
+          {"zh":"他一本书都没看。","pinyin":"Tā yì běn shū dōu méi kàn.","vi":"Anh ấy chưa đọc một cuốn sách nào."},
+          {"zh":"这个周末我一点儿也不忙。","pinyin":"Zhège zhōumò wǒ yìdiǎnr yě bù máng.","vi":"Cuối tuần này tôi chẳng bận chút nào."}
+        ],
+        "mistakes_vi":"✗ 我一个人也认识。\n✓ 我一个人也不认识。\nThiếu 不/没 thì câu sai nghĩa.\n✗ 我也一个人不认识。\n✓ 我一个人也不认识。\n“一 + lượng từ + danh từ” phải đứng trước 也/都.\n✗ 昨天他一口饭也不吃。(nói việc đã xảy ra)\n✓ 昨天他一口饭也没吃。",
+        "compare_vi":"Tiếng Việt nói “không quen một ai”, đặt “một ai” sau động từ. Tiếng Trung đưa “一个人” lên trước động từ rồi mới phủ định."
       },
       {
         "id":"g3",
-        "title":"Liên từ “那”",
-        "pattern":"A：…… B：那 + (đề nghị / kết luận)",
-        "explanation_vi":"“那” đứng đầu câu, dựa trên điều đối phương vừa nói để đưa ra kết luận hoặc đề nghị, nghĩa là “vậy thì”.",
+        "title":"Liên từ “那” (vậy thì)",
+        "pattern":"A: (thông tin)　B: 那 + đề nghị / kết luận",
+        "explanation_vi":"“那” (hoặc 那么) đứng đầu câu trả lời, dựa vào điều người kia vừa nói để đưa ra đề nghị hay kết luận, giống “vậy thì, thế thì”.",
         "examples":[
-          {"zh":"A：我明天要考试。B：那你今天别出去玩了。","pinyin":"A: Wǒ míngtiān yào kǎoshì. B: Nà nǐ jīntiān bié chūqù wán le.","vi":"A: Mai tôi phải thi. B: Vậy hôm nay bạn đừng ra ngoài chơi nữa."},
-          {"zh":"A：我不想一个人去。B：那我和你一起去吧。","pinyin":"A: Wǒ bù xiǎng yí ge rén qù. B: Nà wǒ hé nǐ yìqǐ qù ba.","vi":"A: Tôi không muốn đi một mình. B: Vậy tôi đi cùng bạn nhé."}
-        ]
+          {"zh":"A：我星期六有事。B：那咱们星期天去吧。","pinyin":"A: Wǒ xīngqīliù yǒu shì. B: Nà zánmen xīngqītiān qù ba.","vi":"A: Thứ Bảy tôi có việc. B: Vậy chủ nhật chúng mình đi nhé."},
+          {"zh":"A：电影院人太多了。B：那我们去公园吧。","pinyin":"A: Diànyǐngyuàn rén tài duō le. B: Nà wǒmen qù gōngyuán ba.","vi":"A: Rạp chiếu phim đông người quá. B: Vậy chúng mình đi công viên đi."},
+          {"zh":"A：明天下雨。B：那我们不去爬山了。","pinyin":"A: Míngtiān xià yǔ. B: Nà wǒmen bú qù pá shān le.","vi":"A: Ngày mai trời mưa. B: Thế thì chúng ta không đi leo núi nữa."}
+        ],
+        "mistakes_vi":"Đừng nhầm liên từ 那 (vậy thì, đứng đầu câu trả lời) với đại từ 那 (đó, kia): 那是我的书 = Đó là sách của tôi.\n✗ (tự mở đầu câu chuyện) 那我去学校。\n✓ A：今天有课。B：那我去学校。\n那 “vậy thì” phải nối tiếp một ý người khác (hoặc mình) vừa nói.",
+        "compare_vi":"Dùng y hệt “vậy thì / thế thì” trong tiếng Việt."
       }
     ],
     "dialogue": {
-      "title_vi": "Cuối tuần này bạn định làm gì?",
+      "title_vi": "Cuối tuần này mình làm gì?",
+      "scene_vi": "Chiều thứ Sáu, hai bạn cùng lớp Tiểu Lý và Tiểu Vương bàn chuyện cuối tuần.",
       "lines": [
         {"speaker":"小李","zh":"小王，这个周末你有什么打算？","pinyin":"Xiǎo Wáng, zhège zhōumò nǐ yǒu shénme dǎsuàn?","vi":"Tiểu Vương, cuối tuần này bạn có dự định gì?"},
-        {"speaker":"小王","zh":"我打算去附近的公园爬山。我经常去那儿，下个月还要参加爬山比赛。你呢？","pinyin":"Wǒ dǎsuàn qù fùjìn de gōngyuán páshān. Wǒ jīngcháng qù nàr, xià ge yuè hái yào cānjiā páshān bǐsài. Nǐ ne?","vi":"Mình định đến công viên gần đây leo núi. Mình hay đến đó, tháng sau còn tham gia cuộc thi leo núi. Còn bạn?"},
-        {"speaker":"小李","zh":"我下周一有考试，我得复习。","pinyin":"Wǒ xià zhōuyī yǒu kǎoshì, wǒ děi fùxí.","vi":"Thứ Hai tuần sau mình có bài thi, mình phải ôn bài."},
-        {"speaker":"小王","zh":"那你准备好了吗？","pinyin":"Nà nǐ zhǔnbèi hǎo le ma?","vi":"Vậy bạn chuẩn bị xong chưa?"},
-        {"speaker":"小李","zh":"还没有，我一个字都没复习呢。","pinyin":"Hái méiyǒu, wǒ yí ge zì dōu méi fùxí ne.","vi":"Chưa, mình còn chưa ôn lấy một chữ nào đấy."},
-        {"speaker":"小王","zh":"那你上午在家复习，下午我们一起去公园吧。","pinyin":"Nà nǐ shàngwǔ zài jiā fùxí, xiàwǔ wǒmen yìqǐ qù gōngyuán ba.","vi":"Vậy sáng bạn ở nhà ôn bài, chiều chúng mình cùng đi công viên nhé."},
-        {"speaker":"小李","zh":"好！作业我也做好了，下午我一定去。","pinyin":"Hǎo! Zuòyè wǒ yě zuò hǎo le, xiàwǔ wǒ yídìng qù.","vi":"Được! Bài tập mình cũng làm xong rồi, chiều mình nhất định đi."}
+        {"speaker":"小王","zh":"我打算星期六去爬山。山上有很多花，很好看。","pinyin":"Wǒ dǎsuàn xīngqīliù qù pá shān. Shān shang yǒu hěn duō huā, hěn hǎokàn.","vi":"Mình định thứ Bảy đi leo núi. Trên núi có nhiều hoa, đẹp lắm."},
+        {"speaker":"小李","zh":"你那么喜欢爬山啊！我星期六有事，不能去。","pinyin":"Nǐ nàme xǐhuan pá shān a! Wǒ xīngqīliù yǒu shì, bù néng qù.","vi":"Bạn thích leo núi thế cơ à! Thứ Bảy mình có việc, không đi được."},
+        {"speaker":"小王","zh":"那星期天呢？咱们一块儿去动物园吧，那是个非常好玩儿的地方。","pinyin":"Nà xīngqītiān ne? Zánmen yíkuàir qù dòngwùyuán ba, nà shì ge fēicháng hǎowánr de dìfang.","vi":"Vậy chủ nhật thì sao? Chúng mình cùng đi sở thú nhé, đó là một nơi vui lắm."},
+        {"speaker":"小李","zh":"星期天我要在家复习。下星期一有考试，我一个字也没复习呢！","pinyin":"Xīngqītiān wǒ yào zài jiā fùxí. Xià xīngqīyī yǒu kǎoshì, wǒ yí ge zì yě méi fùxí ne!","vi":"Chủ nhật mình phải ở nhà ôn bài. Thứ Hai tuần sau có bài thi, mình chưa ôn được chữ nào cả!"},
+        {"speaker":"小王","zh":"那你上午在家复习，下午咱们去公园走走，怎么样？","pinyin":"Nà nǐ shàngwǔ zài jiā fùxí, xiàwǔ zánmen qù gōngyuán zǒuzou, zěnmeyàng?","vi":"Vậy buổi sáng bạn ở nhà ôn bài, buổi chiều chúng mình ra công viên đi dạo, được không?"},
+        {"speaker":"小李","zh":"好啊！公园离我家很近，我们可以在草地上休息一下。","pinyin":"Hǎo a! Gōngyuán lí wǒ jiā hěn jìn, wǒmen kěyǐ zài cǎodì shang xiūxi yíxià.","vi":"Được đấy! Công viên gần nhà mình, chúng mình có thể nghỉ một lát trên bãi cỏ."},
+        {"speaker":"小王","zh":"晚上咱们还可以去电影院看电影。","pinyin":"Wǎnshang zánmen hái kěyǐ qù diànyǐngyuàn kàn diànyǐng.","vi":"Buổi tối chúng mình còn có thể đi rạp xem phim."},
+        {"speaker":"小李","zh":"太好了！我不想在家玩儿游戏了。作业我已经做好了，明天就开始复习。","pinyin":"Tài hǎo le! Wǒ bù xiǎng zài jiā wánr yóuxì le. Zuòyè wǒ yǐjīng zuò hǎo le, míngtiān jiù kāishǐ fùxí.","vi":"Tuyệt quá! Mình không muốn ở nhà chơi game nữa. Bài tập mình làm xong rồi, mai mình bắt đầu ôn luôn."},
+        {"speaker":"小王","zh":"好，那星期天下午见！","pinyin":"Hǎo, nà xīngqītiān xiàwǔ jiàn!","vi":"Được, vậy hẹn chiều chủ nhật nhé!"}
       ]
     },
     "exercises": [
-      {"id":"e1","type":"choice","tag":"v:打算","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"周末你有什么____？","options":["打算","作业","附近","比赛"],"answer":0,"explanation_vi":"“有什么打算” = có dự định gì. 打算 là danh từ ở đây."},
-      {"id":"e2","type":"choice","tag":"v:附近","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我家____有一个很大的公园。","options":["附近","一起","一定","经常"],"answer":0,"explanation_vi":"“我家附近” = gần nhà tôi. 附近 là danh từ chỉ vị trí."},
-      {"id":"e3","type":"choice","tag":"g:结果补语好","prompt_vi":"Chọn bổ ngữ kết quả đúng.","question_zh":"作业你做____了吗？","options":["好","的","着","过"],"answer":0,"explanation_vi":"“做好” = làm xong và làm tốt, đây là bổ ngữ kết quả “好”."},
-      {"id":"e4","type":"choice","tag":"g:结果补语好","prompt_vi":"Chọn bổ ngữ kết quả đúng.","question_zh":"我已经准备____了，我们走吧。","options":["好","得","着","过"],"answer":0,"explanation_vi":"“准备好了” = đã chuẩn bị xong. “得” dùng cho bổ ngữ trạng thái, không phải ở đây."},
-      {"id":"e5","type":"choice","tag":"g:一…也都没","prompt_vi":"Chọn câu đúng.","question_zh":"“Anh ấy không uống lấy một ngụm nước.”","options":["他一口水也没喝。","他一口水也喝。","他没一口水也喝。","他也一口水没喝。"],"answer":0,"explanation_vi":"Cấu trúc: 一 + lượng từ + N + 也/都 + 没/不 + V. Câu phải có phủ định “没”."},
-      {"id":"e6","type":"choice","tag":"g:一…也都没","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天我一点儿也____累。","options":["不","没","很","都"],"answer":0,"explanation_vi":"累 là tính từ, phủ định tính từ dùng “不”. “没” dùng với động từ cho hành động chưa xảy ra."},
-      {"id":"e7","type":"choice","tag":"g:连词那","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：我明天有考试。 B：____你今天别出去玩了。","options":["那","但是","因为","虽然"],"answer":0,"explanation_vi":"B đưa ra đề nghị dựa trên lời A nói, nên dùng “那” (vậy thì)."},
-      {"id":"e8","type":"order","tag":"g:结果补语好","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","做","好","作业","了"],"answers":["我做好作业了","作业我做好了","我作业做好了"],"translation_vi":"Tôi làm xong bài tập rồi.","explanation_vi":"Bổ ngữ “好” đứng ngay sau động từ “做”. Tân ngữ có thể đứng sau bổ ngữ hoặc đưa lên trước làm chủ đề."},
-      {"id":"e9","type":"order","tag":"g:一…也都没","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","一个字","都","没","写"],"answers":["他一个字都没写"],"translation_vi":"Anh ấy không viết lấy một chữ.","explanation_vi":"Cấu trúc 一 + lượng từ + N + 都 + 没 + V: “一个字” đứng trước “都”."},
-      {"id":"e10","type":"order","tag":"v:一起","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["下午","我们","一起","去","公园","吧"],"answers":["下午我们一起去公园吧","我们下午一起去公园吧"],"translation_vi":"Chiều chúng mình cùng đi công viên nhé.","explanation_vi":"Trạng ngữ thời gian “下午” có thể đứng trước hoặc sau chủ ngữ; “一起” đứng trước động từ “去”."},
-      {"id":"e11","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"周末","vi":"cuối tuần"},{"zh":"附近","vi":"gần đây"},{"zh":"复习","vi":"ôn tập"},{"zh":"参加","vi":"tham gia"},{"zh":"比赛","vi":"cuộc thi"}]},
-      {"id":"e12","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"打算","vi":"dự định"},{"zh":"准备","vi":"chuẩn bị"},{"zh":"作业","vi":"bài tập về nhà"},{"zh":"经常","vi":"thường xuyên"},{"zh":"爬山","vi":"leo núi"}]}
+      {"id":"e1","type":"choice","tag":"v:周末","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个____你有什么打算？","options":["周末","作业","游戏","地方"],"answer":0,"explanation_vi":"“这个周末” = cuối tuần này. Các từ còn lại không đi với “这个……你有什么打算”."},
+      {"id":"e2","type":"choice","tag":"v:地方","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"动物园是一个很好玩儿的____。","options":["地方","事","作业","周末"],"answer":0,"explanation_vi":"“好玩儿的地方” = nơi vui để chơi. 地方 = nơi, chỗ."},
+      {"id":"e3","type":"choice","tag":"v:咱们","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：我们去看电影吧。B：好啊，____一块儿去！","options":["咱们","他们","她们","你们"],"answer":0,"explanation_vi":"B rủ cả hai người cùng đi nên dùng 咱们 (chúng ta, gồm cả người nghe)."},
+      {"id":"e4","type":"choice","tag":"g:结果补语好","prompt_vi":"Chọn bổ ngữ kết quả đúng.","question_zh":"饭做____了，快来吃吧！","options":["好","的","着","过"],"answer":0,"explanation_vi":"“做好” = nấu xong. Bổ ngữ kết quả 好 đứng ngay sau động từ."},
+      {"id":"e5","type":"choice","tag":"g:结果补语好","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"昨天晚上我没睡____，今天很累。","options":["好","得","着","过"],"answer":0,"explanation_vi":"“没睡好” = ngủ không ngon. Dạng phủ định của bổ ngữ kết quả: 没 + V + 好."},
+      {"id":"e6","type":"choice","tag":"g:一也都没","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天我一点儿也____累。","options":["不","没","很","都"],"answer":0,"explanation_vi":"累 là tính từ nên phủ định bằng 不: 一点儿也不累 = chẳng mệt chút nào."},
+      {"id":"e7","type":"choice","tag":"g:一也都没","prompt_vi":"Chọn câu đúng với nghĩa: “Anh ấy không uống lấy một ngụm nước.”","question_zh":"Anh ấy không uống lấy một ngụm nước.","options":["他一口水也没喝。","他一口水也喝了。","他也一口水没喝。","他没喝一口水也。"],"answer":0,"explanation_vi":"Cấu trúc: 一 + lượng từ + danh từ + 也 + 没 + V. “一口水” đứng trước 也, có 没 phủ định."},
+      {"id":"e8","type":"choice","tag":"g:连词那","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：星期六我有事。B：____我们星期天去吧。","options":["那","因为","所以","但是"],"answer":0,"explanation_vi":"B đưa ra đề nghị dựa trên lời A nói, nên dùng 那 (vậy thì)."},
+      {"id":"e9","type":"choice","tag":"v:有意思","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个游戏很____，我很喜欢。","options":["有意思","作业","地方","周末"],"answer":0,"explanation_vi":"“很有意思” = rất thú vị, hợp với vế sau “我很喜欢”."},
+      {"id":"e10","type":"order","tag":"g:结果补语好","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["作业","我","做","好","了"],"answers":["我做好作业了","作业我做好了","我作业做好了"],"translation_vi":"Tôi làm xong bài tập rồi.","explanation_vi":"好 đứng ngay sau 做; tân ngữ 作业 đứng sau 做好 hoặc lên đầu câu."},
+      {"id":"e11","type":"order","tag":"g:一也都没","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","一个字","也","没","写"],"answers":["他一个字也没写"],"translation_vi":"Anh ấy không viết lấy một chữ.","explanation_vi":"一个字 đứng trước 也, sau đó là 没 + động từ."},
+      {"id":"e12","type":"order","tag":"v:一块儿","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["咱们","一块儿","去","动物园","吧"],"answers":["咱们一块儿去动物园吧"],"translation_vi":"Chúng mình cùng đi sở thú nhé.","explanation_vi":"一块儿 (cùng nhau) đứng trước động từ 去; 吧 cuối câu là lời rủ."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"周末","vi":"cuối tuần"},{"zh":"打算","vi":"dự định"},{"zh":"复习","vi":"ôn tập"},{"zh":"作业","vi":"bài tập về nhà"},{"zh":"公园","vi":"công viên"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"电影院","vi":"rạp chiếu phim"},{"zh":"动物园","vi":"sở thú"},{"zh":"游戏","vi":"trò chơi"},{"zh":"有意思","vi":"thú vị"},{"zh":"地方","vi":"nơi, chỗ"}]}
     ],
     "quiz": {
       "grammar": [
-        {"id":"q1","type":"choice","tag":"g:结果补语好","prompt_vi":"Chọn bổ ngữ kết quả đúng.","question_zh":"饭做____了，快来吃吧！","options":["好","的","着","过"],"answer":0,"explanation_vi":"“做好” = nấu xong, làm xong. Bổ ngữ kết quả “好” đứng ngay sau động từ."},
-        {"id":"q2","type":"choice","tag":"g:结果补语好","prompt_vi":"Chọn bổ ngữ kết quả đúng.","question_zh":"昨天太吵了，我没睡____。","options":["好","在","对","去"],"answer":0,"explanation_vi":"“没睡好” = ngủ không ngon. Dạng phủ định: 没 + V + 好."},
-        {"id":"q3","type":"choice","tag":"g:一…也都没","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____个朋友都没有。","options":["一","也","就","再"],"answer":0,"explanation_vi":"“一个朋友都没有” = không có lấy một người bạn. Cấu trúc: 一 + lượng từ + N + 都/也 + 没 + V."},
-        {"id":"q4","type":"choice","tag":"g:一…也都没","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他一口饭也____吃。","options":["没","是","很","还"],"answer":0,"explanation_vi":"Cấu trúc nhấn mạnh phải có phủ định “没/不” sau “也/都”: 一口饭也没吃 = không ăn nổi một miếng cơm."},
-        {"id":"q5","type":"choice","tag":"g:连词那","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：外面下雨了。 B：____我们别去公园了。","options":["那","可是","而且","因为"],"answer":0,"explanation_vi":"B đưa ra đề nghị dựa trên thông tin A vừa nói nên dùng “那” (vậy thì)."},
-        {"id":"q6","type":"choice","tag":"g:连词那","prompt_vi":"Chọn nghĩa đúng của chữ “那”.","question_zh":"“那你上午在家复习吧。” 中的“那”是什么意思？","options":["Vậy thì","Kia, đó","Ở đó","Nhưng mà"],"answer":0,"explanation_vi":"Ở đầu câu, đáp lại lời người khác, “那” là liên từ nghĩa “vậy thì”, không phải đại từ chỉ định “kia”."}
+        {"id":"q1","type":"choice","tag":"g:结果补语好","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你准备____了吗？咱们走吧。","options":["好","的","过","着"],"answer":0,"explanation_vi":"“准备好了” = chuẩn bị xong rồi. Bổ ngữ kết quả 好 đứng sau động từ."},
+        {"id":"q2","type":"choice","tag":"g:结果补语好","prompt_vi":"Câu phủ định đúng của “作业我做好了” là câu nào?","question_zh":"作业我做好了。→ ？","options":["作业我没做好。","作业我不做好。","作业我做没好。","作业我没做好了。"],"answer":0,"explanation_vi":"Phủ định bổ ngữ kết quả: 没 + V + 好, và bỏ 了 ở cuối."},
+        {"id":"q3","type":"choice","tag":"g:一也都没","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____个朋友也没有。","options":["一","也","就","都"],"answer":0,"explanation_vi":"“一个朋友也没有” = không có lấy một người bạn."},
+        {"id":"q4","type":"choice","tag":"g:一也都没","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个电影一点儿____不好看。","options":["也","就","还","又"],"answer":0,"explanation_vi":"Cấu trúc 一点儿 + 也 + 不 + tính từ: chẳng… chút nào."},
+        {"id":"q5","type":"choice","tag":"g:连词那","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：电影院人太多了。B：____我们去公园吧。","options":["那","而且","因为","虽然"],"answer":0,"explanation_vi":"B đưa ra đề nghị dựa vào lời A, nên dùng 那 (vậy thì)."},
+        {"id":"q6","type":"choice","tag":"g:连词那","prompt_vi":"Chọn nghĩa đúng của chữ “那” trong câu.","question_zh":"“那你上午在家复习吧。”中的“那”是什么意思？","options":["Vậy thì","Kia, đó","Ở đó","Nhưng mà"],"answer":0,"explanation_vi":"Đứng đầu câu đáp lại người khác, 那 là liên từ “vậy thì”, không phải đại từ “kia/đó”."}
       ]
     },
     "test": [
-      {"id":"t1","type":"choice","tag":"v:一定","prompt_vi":"Chọn đáp án đúng.","question_zh":"明天我____去，你放心吧。","options":["一定","经常","附近","比赛"],"answer":0,"explanation_vi":"“一定” = nhất định, chắc chắn. “经常” chỉ thói quen thường xuyên nên không đi với “明天”."},
-      {"id":"t2","type":"choice","tag":"g:一…也都没","prompt_vi":"Chọn đáp án đúng.","question_zh":"我今天一口饭____没吃。","options":["也","就","再","又"],"answer":0,"explanation_vi":"Cấu trúc 一 + lượng từ + N + 也/都 + 没 + V diễn tả “không… lấy một…”."},
-      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"周末","vi":"cuối tuần"},{"zh":"公园","vi":"công viên"},{"zh":"爬山","vi":"leo núi"},{"zh":"作业","vi":"bài tập về nhà"},{"zh":"一起","vi":"cùng nhau"}]},
-      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"准备","vi":"chuẩn bị"},{"zh":"考试","vi":"kỳ thi"},{"zh":"比赛","vi":"trận đấu"},{"zh":"一定","vi":"nhất định"},{"zh":"参加","vi":"tham gia"}]},
-      {"id":"t5","type":"order","tag":"v:爬山","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","周末","一起","去","爬山","吧"],"answers":["我们周末一起去爬山吧","周末我们一起去爬山吧"],"translation_vi":"Cuối tuần chúng mình cùng đi leo núi nhé.","explanation_vi":"Trạng ngữ thời gian “周末” đứng trước hoặc sau chủ ngữ; “一起” đứng trước động từ “去”."},
-      {"id":"t6","type":"order","tag":"g:结果补语好","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","准备","好","了","吗"],"answers":["你准备好了吗"],"translation_vi":"Bạn chuẩn bị xong chưa?","explanation_vi":"Bổ ngữ kết quả “好” đứng ngay sau động từ “准备”, theo sau là “了吗” để hỏi."},
-      {"id":"t7","type":"fill","tag":"v:公园","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我打算去附近的____爬山。","answers":["公园"],"hint_vi":"nơi có cây xanh, mọi người hay đến đi dạo","explanation_vi":"“公园” = công viên. Cả câu: Tôi định đến công viên gần đây leo núi."},
-      {"id":"t8","type":"fill","tag":"g:连词那","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"A：我下周一有考试。 B：____你今天别出去玩了。","answers":["那"],"hint_vi":"liên từ mang nghĩa “vậy thì”","explanation_vi":"B đưa ra đề nghị dựa trên lời A nói nên mở đầu bằng liên từ “那”."},
-      {"id":"t9","type":"listen_choice","tag":"v:打算","prompt_vi":"Nghe audio và chọn nghĩa đúng.","audio_text":"我打算去公园爬山。","options":["Tôi định đi công viên leo núi.","Tôi đã leo núi ở công viên.","Tôi thích đi công viên.","Tôi không muốn leo núi."],"answer":0,"explanation_vi":"“打算” = dự định; “去公园爬山” = đến công viên leo núi."},
-      {"id":"t10","type":"listen_choice","tag":"v:周末","prompt_vi":"Nghe audio và chọn câu bạn nghe được.","audio_text":"周末你有什么打算？","options":["周末你有什么打算？","周末你有什么作业？","周末你想去哪儿？","今天你有什么打算？"],"answer":0,"explanation_vi":"Câu nghe được: 周末你有什么打算？ (Cuối tuần bạn có dự định gì?)."},
-      {"id":"t11","type":"dictation","tag":"g:结果补语好","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我已经准备好了。","answers":["我已经准备好了"],"explanation_vi":"我已经准备好了 = Tôi đã chuẩn bị xong rồi. “好” là bổ ngữ kết quả."},
-      {"id":"t12","type":"dictation","tag":"v:一起","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"下午我们一起去公园。","answers":["下午我们一起去公园","我们下午一起去公园"],"explanation_vi":"下午我们一起去公园 = Chiều chúng mình cùng đi công viên."},
-      {"id":"t13","type":"translate_vi_zh","tag":"v:打算","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Cuối tuần này bạn có dự định gì?","answers":["这个周末你有什么打算","这个周末你有什么打算呢","周末你有什么打算","周末你有什么打算呢","你这个周末有什么打算","你周末有什么打算"],"explanation_vi":"Mẫu câu: 周末 + 你 + 有什么打算？"},
-      {"id":"t14","type":"translate_vi_zh","tag":"g:结果补语好","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bài tập tôi làm xong rồi.","answers":["作业我做好了","我做好作业了","我作业做好了","我已经做好作业了","作业我已经做好了","我做完作业了","作业我做完了"],"explanation_vi":"Dùng bổ ngữ kết quả: 做好 (làm xong, làm tốt). Tân ngữ “作业” có thể đưa lên đầu câu làm chủ đề."},
-      {"id":"t15","type":"translate_zh_vi","tag":"g:一…也都没","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我一个字都没复习。","answers_vi":["Tôi không ôn một chữ nào cả.","Tôi chưa ôn lấy một chữ nào."],"keywords":[["không","chưa"],["một chữ","1 chữ"],["ôn","ôn tập"]],"explanation_vi":"“一个字都没复习” = không ôn lấy một chữ nào (phủ định nhấn mạnh)."},
-      {"id":"t16","type":"translate_zh_vi","tag":"v:一起","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"下午我们一起去公园吧。","answers_vi":["Chiều chúng ta cùng đi công viên nhé.","Buổi chiều chúng mình cùng đi công viên nhé."],"keywords":[["chiều","buổi chiều"],["chúng ta","chúng mình","chúng tôi","mình"],["cùng","cùng nhau"],["đi"],["công viên"]],"explanation_vi":"下午 = buổi chiều; 一起 = cùng nhau; 吧 ở cuối câu thể hiện lời rủ rê, đề nghị."}
+      {"id":"t1","type":"choice","tag":"v:打算","prompt_vi":"Chọn đáp án đúng.","question_zh":"你周末有什么____？","options":["打算","地方","作业","动物园"],"answer":0,"explanation_vi":"“有什么打算” = có dự định gì. 打算 ở đây là danh từ."},
+      {"id":"t2","type":"choice","tag":"g:一也都没","prompt_vi":"Chọn đáp án đúng.","question_zh":"我一个人____不认识。","options":["也","就","再","又"],"answer":0,"explanation_vi":"Cấu trúc 一 + lượng từ + N + 也/都 + 不/没 + V."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"咱们","vi":"chúng ta"},{"zh":"一块儿","vi":"cùng nhau"},{"zh":"事","vi":"việc, chuyện"},{"zh":"爬","vi":"leo, trèo"},{"zh":"山","vi":"núi"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"假期","vi":"kỳ nghỉ"},{"zh":"后天","vi":"ngày kia"},{"zh":"动物","vi":"động vật"},{"zh":"鸟","vi":"chim"},{"zh":"花园","vi":"vườn hoa"}]},
+      {"id":"t5","type":"order","tag":"v:周末","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["周末","我","打算","去","爬山"],"answers":["周末我打算去爬山","我周末打算去爬山"],"translation_vi":"Cuối tuần tôi định đi leo núi.","explanation_vi":"Thời gian 周末 đứng trước hoặc sau chủ ngữ, nhưng luôn trước động từ."},
+      {"id":"t6","type":"order","tag":"g:结果补语好","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","准备","好","了","吗"],"answers":["你准备好了吗"],"translation_vi":"Bạn chuẩn bị xong chưa?","explanation_vi":"好 đứng ngay sau 准备; 了吗 ở cuối để hỏi."},
+      {"id":"t7","type":"fill","tag":"v:电影院","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"晚上咱们去____看电影吧。","answers":["电影院"],"hint_vi":"nơi đến để xem phim","explanation_vi":"电影院 = rạp chiếu phim."},
+      {"id":"t8","type":"fill","tag":"g:连词那","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"A：明天下雨。B：____我们不去爬山了。","answers":["那","那么"],"hint_vi":"liên từ nghĩa là “vậy thì”","explanation_vi":"B kết luận dựa vào lời A nên mở đầu bằng 那 (hoặc 那么)."},
+      {"id":"t9","type":"listen_choice","tag":"v:动物园","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"星期天咱们一块儿去动物园吧。","options":["Chủ nhật chúng mình cùng đi sở thú nhé.","Chủ nhật tôi đi công viên một mình.","Thứ Bảy chúng mình đi leo núi nhé.","Chủ nhật tôi phải ở nhà ôn bài."],"answer":0,"explanation_vi":"星期天 = chủ nhật; 咱们一块儿 = chúng mình cùng; 动物园 = sở thú."},
+      {"id":"t10","type":"listen_choice","tag":"g:一也都没","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"我一个字也没复习呢。","options":["我一个字也没复习呢。","我一个字也复习了。","我一点儿也不想复习。","我已经复习好了。"],"answer":0,"explanation_vi":"Câu nghe được: 我一个字也没复习呢 = Tôi chưa ôn lấy một chữ nào."},
+      {"id":"t11","type":"dictation","tag":"g:结果补语好","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"作业我已经做好了。","answers":["作业我已经做好了"],"explanation_vi":"作业我已经做好了 = Bài tập tôi đã làm xong rồi."},
+      {"id":"t12","type":"dictation","tag":"v:有意思","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这个地方很有意思。","answers":["这个地方很有意思"],"explanation_vi":"这个地方很有意思 = Nơi này rất thú vị."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:打算","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Cuối tuần này bạn có dự định gì?","answers":["这个周末你有什么打算","这个周末你有什么打算呢","你这个周末有什么打算","你这个周末有什么打算呢","周末你有什么打算","你周末有什么打算"],"explanation_vi":"Mẫu câu: (这个)周末 + 你 + 有什么打算？"},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:一也都没","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tôi không quen một ai cả.","answers":["我一个人也不认识","我一个人都不认识","一个人我也不认识","一个人我都不认识"],"explanation_vi":"一个人 + 也/都 + 不 + 认识: phủ định hoàn toàn."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:咱们","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"咱们一块儿去公园吧。","answers_vi":["Chúng ta cùng đi công viên nhé.","Chúng mình cùng nhau đi công viên đi."],"keywords":[["chúng ta","chúng mình","mình"],["cùng"],["công viên"]],"explanation_vi":"咱们 = chúng ta (gồm cả người nghe); 一块儿 = cùng nhau; 吧 = nhé, đi (lời rủ)."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:结果补语好","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"昨天晚上我没睡好。","answers_vi":["Tối qua tôi ngủ không ngon.","Tối hôm qua tôi ngủ không được ngon."],"keywords":[["tối qua","tối hôm qua","đêm qua"],["ngủ"],["không ngon","không được ngon","chưa ngon","không tốt","không được tốt"]],"explanation_vi":"没睡好 = ngủ không ngon (bổ ngữ kết quả 好 ở dạng phủ định)."}
     ],
     "reading": [
       {
-        "id": "rp1",
-        "title_zh": "周末的打算",
-        "title_vi": "Dự định cuối tuần",
-        "paragraphs": [
+        "id":"rp1",
+        "title_zh":"一个有意思的周末",
+        "title_vi":"Một cuối tuần thú vị",
+        "paragraphs":[
           {
-            "tokens": [["小李","Xiǎo Lǐ","Tiểu Lý (tên người)"],["和","hé","và"],["小王","Xiǎo Wáng","Tiểu Vương (tên người)"],["是","shì","là"],["好朋友","hǎo péngyou","bạn thân"],["。"],["这个","zhège","này"],["周末","zhōumò","cuối tuần"],["，"],["小王","Xiǎo Wáng","Tiểu Vương"],["打算","dǎsuàn","dự định"],["去","qù","đi"],["附近","fùjìn","gần đây"],["的","de","(trợ từ sở hữu)"],["公园","gōngyuán","công viên"],["爬山","pá shān","leo núi"],["。"],["他","tā","anh ấy"],["经常","jīngcháng","thường xuyên"],["去","qù","đi"],["那儿","nàr","ở đó"],["，"],["下个月","xià ge yuè","tháng sau"],["还","hái","còn"],["要","yào","sẽ, định"],["参加","cānjiā","tham gia"],["爬山","pá shān","leo núi"],["比赛","bǐsài","cuộc thi"],["。"]],
-            "vi": "Tiểu Lý và Tiểu Vương là bạn thân. Cuối tuần này, Tiểu Vương định đến công viên gần đây leo núi. Anh ấy thường đến đó, tháng sau còn tham gia cuộc thi leo núi."
+            "tokens":[["这个","zhège","này"],["周末","zhōumò","cuối tuần"],["，"],["小李","Xiǎo Lǐ","Tiểu Lý (tên người)"],["和","hé","và"],["小王","Xiǎo Wáng","Tiểu Vương (tên người)"],["都","dōu","đều"],["有","yǒu","có"],["很多","hěn duō","nhiều"],["打算","dǎsuàn","dự định"],["。"],["小王","Xiǎo Wáng","Tiểu Vương"],["很","hěn","rất"],["喜欢","xǐhuan","thích"],["爬山","pá shān","leo núi"],["，"],["他","tā","anh ấy"],["打算","dǎsuàn","định"],["星期六","xīngqīliù","thứ Bảy"],["去","qù","đi"],["爬山","pá shān","leo núi"],["。"],["小李","Xiǎo Lǐ","Tiểu Lý"],["星期六","xīngqīliù","thứ Bảy"],["有事","yǒu shì","có việc"],["，"],["不能","bù néng","không thể"],["一块儿","yíkuàir","cùng nhau"],["去","qù","đi"],["。"]],
+            "vi":"Cuối tuần này, Tiểu Lý và Tiểu Vương đều có nhiều dự định. Tiểu Vương rất thích leo núi, cậu ấy định thứ Bảy đi leo núi. Thứ Bảy Tiểu Lý có việc, không thể đi cùng."
           },
           {
-            "tokens": [["小李","Xiǎo Lǐ","Tiểu Lý"],["下周一","xià zhōuyī","thứ Hai tuần sau"],["有","yǒu","có"],["考试","kǎoshì","bài thi"],["，"],["他","tā","cậu ấy"],["得","děi","phải"],["复习","fùxí","ôn tập"],["。"],["可是","kěshì","nhưng"],["他","tā","cậu ấy"],["一个字","yí ge zì","một chữ"],["都","dōu","đều"],["没","méi","chưa"],["复习","fùxí","ôn tập"],["，"],["也","yě","cũng"],["没","méi","chưa"],["准备好","zhǔnbèi hǎo","chuẩn bị xong"],["。"],["小王","Xiǎo Wáng","Tiểu Vương"],["说","shuō","nói"],["："],["“"],["那","nà","vậy thì"],["你","nǐ","bạn"],["上午","shàngwǔ","buổi sáng"],["在","zài","ở"],["家","jiā","nhà"],["复习","fùxí","ôn tập"],["，"],["下午","xiàwǔ","buổi chiều"],["我们","wǒmen","chúng ta, chúng mình"],["一起","yìqǐ","cùng nhau"],["去","qù","đi"],["公园","gōngyuán","công viên"],["吧","ba","nhé"],["。"],["”"]],
-            "vi": "Thứ Hai tuần sau Tiểu Lý có bài thi, cậu ấy phải ôn tập. Nhưng cậu ấy chưa ôn lấy một chữ nào, cũng chưa chuẩn bị xong. Tiểu Vương nói: “Vậy thì sáng bạn ở nhà ôn bài, chiều chúng mình cùng đến công viên nhé.”"
+            "tokens":[["小王","Xiǎo Wáng","Tiểu Vương"],["说","shuō","nói"],["："],["“"],["那","nà","vậy thì"],["星期天","xīngqītiān","chủ nhật"],["咱们","zánmen","chúng mình"],["去","qù","đi"],["动物园","dòngwùyuán","sở thú"],["吧","ba","nhé"],["！"],["那儿","nàr","ở đó"],["有","yǒu","có"],["大熊猫","dàxióngmāo","gấu trúc"],["，"],["非常","fēicháng","rất, cực kỳ"],["好玩儿","hǎowánr","vui"],["。"],["”"],["但是","dànshì","nhưng"],["小李","Xiǎo Lǐ","Tiểu Lý"],["下","xià","sau, tới"],["星期一","xīngqīyī","thứ Hai"],["有","yǒu","có"],["考试","kǎoshì","bài thi"],["，"],["她","tā","cô ấy"],["一个字","yí ge zì","một chữ"],["也","yě","cũng"],["没","méi","chưa"],["复习","fùxí","ôn tập"],["呢","ne","(trợ từ nhấn mạnh)"],["。"]],
+            "vi":"Tiểu Vương nói: “Vậy chủ nhật chúng mình đi sở thú nhé! Ở đó có gấu trúc, vui lắm.” Nhưng thứ Hai tuần sau Tiểu Lý có bài thi, cô ấy chưa ôn lấy một chữ nào."
           },
           {
-            "tokens": [["小李","Xiǎo Lǐ","Tiểu Lý"],["很","hěn","rất"],["高兴","gāoxìng","vui"],["。"],["上午","shàngwǔ","buổi sáng"],["，"],["他","tā","cậu ấy"],["在","zài","ở"],["家","jiā","nhà"],["认真","rènzhēn","chăm chỉ, nghiêm túc"],["复习","fùxí","ôn tập"],["，"],["作业","zuòyè","bài tập"],["也","yě","cũng"],["做好","zuò hǎo","làm xong"],["了","le","rồi"],["。"],["下午","xiàwǔ","buổi chiều"],["，"],["他们","tāmen","họ"],["一起","yìqǐ","cùng nhau"],["去","qù","đi"],["公园","gōngyuán","công viên"],["爬山","pá shān","leo núi"],["，"],["都","dōu","đều"],["很","hěn","rất"],["高兴","gāoxìng","vui"],["。"]],
-            "vi": "Tiểu Lý rất vui. Buổi sáng cậu ấy ở nhà chăm chỉ ôn bài, bài tập cũng làm xong rồi. Buổi chiều, họ cùng đến công viên leo núi, cả hai đều rất vui."
+            "tokens":[["星期天","xīngqītiān","chủ nhật"],["上午","shàngwǔ","buổi sáng"],["，"],["小李","Xiǎo Lǐ","Tiểu Lý"],["在","zài","ở"],["家","jiā","nhà"],["复习","fùxí","ôn tập"],["。"],["下午","xiàwǔ","buổi chiều"],["，"],["他们","tāmen","họ"],["一块儿","yíkuàir","cùng nhau"],["去","qù","đi"],["公园","gōngyuán","công viên"],["，"],["在","zài","ở"],["草地","cǎodì","bãi cỏ"],["上","shang","trên"],["休息","xiūxi","nghỉ ngơi"],["。"],["晚上","wǎnshang","buổi tối"],["，"],["他们","tāmen","họ"],["还","hái","còn"],["去","qù","đi"],["电影院","diànyǐngyuàn","rạp chiếu phim"],["看","kàn","xem"],["了","le","(đã)"],["电影","diànyǐng","phim"],["。"],["小李","Xiǎo Lǐ","Tiểu Lý"],["说","shuō","nói"],["："],["“"],["这个","zhège","này"],["周末","zhōumò","cuối tuần"],["真","zhēn","thật"],["有意思","yǒu yìsi","thú vị"],["！"],["”"]],
+            "vi":"Sáng chủ nhật, Tiểu Lý ở nhà ôn bài. Buổi chiều, họ cùng ra công viên, nghỉ ngơi trên bãi cỏ. Buổi tối, họ còn đi rạp xem phim. Tiểu Lý nói: “Cuối tuần này thật thú vị!”"
           }
         ],
-        "questions": [
-          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小王这个周末打算做什么？","options":["去公园爬山","在家复习","参加比赛","做作业"],"answer":0,"explanation_vi":"Đoạn 1: 小王打算去附近的公园爬山 (Tiểu Vương định đến công viên gần đây leo núi)."},
-          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小李为什么要在家复习？","options":["因为下周一有考试","因为他不喜欢公园","因为他要参加比赛","因为作业很多"],"answer":0,"explanation_vi":"Đoạn 2: 小李下周一有考试，他得复习 (Thứ Hai tuần sau cậu ấy có bài thi nên phải ôn)."},
-          {"id":"rq3","type":"choice","tag":"g:一…也都没","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“他一个字都没复习”是什么意思？","options":["他什么都没复习","他只复习了一个字","他复习得很好","他不想考试"],"answer":0,"explanation_vi":"Cấu trúc 一……都没…… nhấn mạnh phủ định hoàn toàn: không ôn lấy một chữ nào."},
-          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"下午他们去哪儿？","options":["公园","学校","小李家","书店"],"answer":0,"explanation_vi":"Đoạn 3: 下午，他们一起去公园爬山 (Buổi chiều họ cùng đến công viên leo núi)."},
-          {"id":"rq5","type":"choice","tag":"v:经常","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"小王很少去公园。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 1 nói 他经常去那儿 (anh ấy thường xuyên đến đó), nên “很少去” (ít khi đi) là sai."}
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小王星期六打算做什么？","options":["去爬山","去动物园","在家复习","去电影院"],"answer":0,"explanation_vi":"Đoạn 1: 他打算星期六去爬山."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"星期天上午小李为什么在家？","options":["因为下星期一有考试","因为她不喜欢动物园","因为下雨了","因为她要玩儿游戏"],"answer":0,"explanation_vi":"Đoạn 2: 小李下星期一有考试，她一个字也没复习呢 — nên sáng chủ nhật ở nhà ôn bài."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"星期天下午他们去哪儿了？","options":["公园","动物园","电影院","山上"],"answer":0,"explanation_vi":"Đoạn 3: 下午，他们一块儿去公园."},
+          {"id":"rq4","type":"choice","tag":"v:一块儿","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"星期六小李和小王一块儿去爬山了。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 1: 小李星期六有事，不能一块儿去 — nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"星期天晚上他们去看电影了。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 晚上，他们还去电影院看了电影."}
         ]
       }
     ],
     "listening": [
       {
-        "id": "lp1",
-        "title_vi": "Kế hoạch của ngày thứ Bảy",
-        "text_zh": "今天是周六，天气很好。我打算先在家复习一个小时，然后去附近的公园爬山。我的朋友小王也参加，我们下午两点在公园见面。",
-        "pinyin": "Jīntiān shì zhōuliù, tiānqì hěn hǎo. Wǒ dǎsuàn xiān zài jiā fùxí yí ge xiǎoshí, ránhòu qù fùjìn de gōngyuán páshān. Wǒ de péngyou Xiǎo Wáng yě cānjiā, wǒmen xiàwǔ liǎng diǎn zài gōngyuán jiànmiàn.",
-        "vi": "Hôm nay là thứ Bảy, thời tiết rất đẹp. Tôi định ở nhà ôn bài một tiếng trước, sau đó đến công viên gần đây leo núi. Bạn tôi là Tiểu Vương cũng tham gia, chúng tôi hẹn gặp nhau ở công viên lúc hai giờ chiều.",
-        "questions": [
-          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他今天先做什么？","options":["复习","爬山","做作业","见朋友"],"answer":0,"explanation_vi":"Nghe được: 我打算先在家复习一个小时 (tôi định ở nhà ôn bài một tiếng trước)."},
-          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他们打算去哪儿？","options":["附近的公园","学校","小王家","书店"],"answer":0,"explanation_vi":"Nghe được: 去附近的公园爬山 (đến công viên gần đây leo núi)."},
-          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他们几点见面？","options":["下午两点","上午两点","下午三点","晚上六点"],"answer":0,"explanation_vi":"Nghe được: 我们下午两点在公园见面 (hai giờ chiều gặp nhau ở công viên)."},
-          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"今天星期几？","options":["星期六","星期日","星期五","星期一"],"answer":0,"explanation_vi":"Nghe được: 今天是周六 (hôm nay là thứ Bảy). 周六 = 星期六."}
+        "id":"lp1",
+        "title_vi":"Một ngày ở sở thú",
+        "text_zh":"今天是星期六，天气很好。我和妹妹打算去动物园看大熊猫。动物园离我家不远，坐公共汽车二十分钟就到了。我们打算上午看动物，中午在动物园里吃饭，下午去旁边的公园走走。妹妹说，她的作业已经做好了，所以今天可以玩儿一天。",
+        "pinyin":"Jīntiān shì xīngqīliù, tiānqì hěn hǎo. Wǒ hé mèimei dǎsuàn qù dòngwùyuán kàn dàxióngmāo. Dòngwùyuán lí wǒ jiā bù yuǎn, zuò gōnggòng qìchē èrshí fēnzhōng jiù dào le. Wǒmen dǎsuàn shàngwǔ kàn dòngwù, zhōngwǔ zài dòngwùyuán li chī fàn, xiàwǔ qù pángbiān de gōngyuán zǒuzou. Mèimei shuō, tā de zuòyè yǐjīng zuò hǎo le, suǒyǐ jīntiān kěyǐ wánr yì tiān.",
+        "vi":"Hôm nay là thứ Bảy, trời đẹp. Tôi và em gái định đi sở thú xem gấu trúc. Sở thú cách nhà tôi không xa, đi xe buýt hai mươi phút là tới. Chúng tôi định buổi sáng xem thú, buổi trưa ăn ở trong sở thú, buổi chiều sang công viên bên cạnh đi dạo. Em gái nói bài tập của em đã làm xong rồi, nên hôm nay có thể chơi cả ngày.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他们打算去哪儿看大熊猫？","options":["动物园","公园","电影院","学校"],"answer":0,"explanation_vi":"Nghe được: 我和妹妹打算去动物园看大熊猫."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他们怎么去动物园？","options":["坐公共汽车","坐出租车","走路","坐火车"],"answer":0,"explanation_vi":"Nghe được: 坐公共汽车二十分钟就到了."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"中午他们在哪儿吃饭？","options":["在动物园里","在家","在公园","在学校"],"answer":0,"explanation_vi":"Nghe được: 中午在动物园里吃饭."},
+          {"id":"lq4","type":"choice","tag":"g:结果补语好","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"妹妹为什么今天可以玩儿一天？","options":["因为她的作业做好了","因为今天不上课","因为她不喜欢学习","因为天气很好"],"answer":0,"explanation_vi":"Nghe được: 她的作业已经做好了，所以今天可以玩儿一天."}
         ]
       }
-    ]
+    ],
+    "speaking": [
+      {"id":"s1","zh":"周末","pinyin":"zhōumò","vi":"cuối tuần","tip_vi":"周 zhōu: zh là âm uốn lưỡi (đầu lưỡi cong lên), giữ thanh 1 cao và bằng. 末 mò: thanh 4 rơi dứt khoát từ cao xuống thấp, đừng đọc ngang như “mơ”."},
+      {"id":"s2","zh":"有意思","pinyin":"yǒu yìsi","vi":"thú vị","tip_vi":"有 yǒu đứng trước thanh 4 nên chỉ đọc nửa thanh 3 (thấp, không cần lên lại). 思 si là thanh nhẹ: ngắn và nhẹ, đừng đọc thành “xư” đầy đủ."},
+      {"id":"s3","zh":"咱们一块儿去吧！","pinyin":"Zánmen yíkuàir qù ba!","vi":"Chúng mình cùng đi nhé!","tip_vi":"一 đọc yí (thanh 2) vì đứng trước 块 thanh 4. 块儿 kuàir: cuốn lưỡi ở cuối. 去 qù: q bật hơi, ü tròn môi, đừng đọc thành “khuy”."},
+      {"id":"s4","zh":"这个周末你有什么打算？","pinyin":"Zhège zhōumò nǐ yǒu shénme dǎsuàn?","vi":"Cuối tuần này bạn có dự định gì?","tip_vi":"你有 nǐ yǒu là hai thanh 3 liền nhau: 你 đọc lên như thanh 2 (ní yǒu). 什么 shénme: me đọc nhẹ. Câu hỏi có 什么 không cần lên giọng ở cuối như tiếng Việt."},
+      {"id":"s5","zh":"作业我已经做好了。","pinyin":"Zuòyè wǒ yǐjīng zuò hǎo le.","vi":"Bài tập tôi đã làm xong rồi.","tip_vi":"作 zuò, 做 zuò: z không bật hơi, đầu lưỡi đặt sau răng dưới, đừng đọc thành “chua”. 我已经 wǒ yǐjīng: 我 trước thanh 3 nên đọc gần thanh 2. 了 đọc nhẹ."},
+      {"id":"s6","zh":"我一个字也没复习呢！","pinyin":"Wǒ yí ge zì yě méi fùxí ne!","vi":"Tôi chưa ôn lấy một chữ nào!","tip_vi":"一个 yí ge: 一 thanh 2. 字 zì: z + nguyên âm “-i” đầu lưỡi, đừng đọc thành “chư” hay “chi”. 复习 fùxí: x là âm mặt lưỡi, khác “x” tiếng Việt."},
+      {"id":"s7","zh":"那你上午在家复习，下午咱们去公园走走吧。","pinyin":"Nà nǐ shàngwǔ zài jiā fùxí, xiàwǔ zánmen qù gōngyuán zǒuzou ba.","vi":"Vậy sáng bạn ở nhà ôn bài, chiều chúng mình đi công viên dạo nhé.","tip_vi":"Câu dài: ngắt hơi ở dấu phẩy. 走走 zǒuzou: chữ thứ hai đọc nhẹ. 公园 gōngyuán: -ng cuối là âm cuống lưỡi, đừng đọc như “công” có môi khép."}
+    ],
+    "review": {
+      "remember": [
+        "Hỏi dự định: 你（这个周末）有什么打算？ Trả lời: 我打算 + việc định làm.",
+        "Bổ ngữ kết quả 好: V + 好 = làm xong và tốt (做好、准备好、睡好). Phủ định: 没 + V + 好.",
+        "一 + lượng từ (+ danh từ) + 也/都 + 没/不 + V = “không… một… nào”.",
+        "Đầu câu đáp lời, 那 (那么) = “vậy thì”: đưa ra đề nghị dựa vào lời người kia.",
+        "咱们 luôn gồm cả người nghe; 一块儿 = 一起 (cùng nhau); 有意思 = thú vị, 好玩儿 = vui để chơi."
+      ],
+      "mistakes": [
+        "✗ 我做作业好了 → ✓ 我做好作业了: 好 đứng sát sau động từ.",
+        "✗ 我一个人也认识 → ✓ 我一个人也不认识: phải có 不/没.",
+        "✗ 我不复习好 → ✓ 我没复习好: kết quả chưa đạt thì dùng 没."
+      ]
+    }
   }
 }

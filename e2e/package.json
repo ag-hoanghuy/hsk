@@ -1,0 +1,15 @@
+﻿{
+  "name": "hsk-web-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "grading": "node --experimental-strip-types --no-warnings grading_check.mts",
+    "lesson": "node lesson.mjs",
+    "listen-read": "node listen-read.mjs",
+    "speaking": "node speaking.mjs",
+    "pages": "node pages.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "23.11.1"
+  }
+}

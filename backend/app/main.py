@@ -70,6 +70,13 @@ def health():
     return {"status": "ok"}
 
 
+@app.post("/api/admin/reload-content")
+def reload_content(db: Session = Depends(get_db)):
+    """Re-read content/ into the database (after editing lesson files) without restarting the backend."""
+    total, with_content = seed_lessons(db)
+    return {"lessons": total, "with_content": with_content}
+
+
 @app.get("/api/lessons")
 def list_lessons(level: int | None = None, db: Session = Depends(get_db)):
     stmt = select(Lesson).order_by(Lesson.level, Lesson.number)
