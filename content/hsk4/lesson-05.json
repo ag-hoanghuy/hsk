@@ -1,0 +1,257 @@
+{
+  "level": 4,
+  "number": 5,
+  "summary": "Đi mua sắm thông minh: hỏi giá, giảm giá, thẻ hội viên, trả tiền mặt hay quét mã, nêu ý kiến khi chọn đồ; học 肯定 (chắc chắn), 再说 (vả lại / để sau hẵng tính), 实际 / 实际上, 对……来说 và 尤其.",
+  "readings_ok": ["里 li", "得 de"],
+  "content": {
+    "objectives": [
+      "Nói chuyện khi đi mua sắm: giá cả, giảm giá, thẻ hội viên, trả tiền mặt hay quét mã",
+      "Nói điều mình chắc chắn bằng 肯定, thêm một lý do bằng 再说, và nói “thực ra” bằng 实际上",
+      "Nêu ý kiến từ góc nhìn của một người/nhóm bằng 对……来说, chỉ ra phần nổi bật bằng 尤其(是)",
+      "Khuyên bạn mua đồ hợp với mình thay vì chạy theo nhãn hiệu và quảng cáo"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"肯定","pinyin":"kěndìng","pos":"phó từ / tính từ","meaning_vi":"chắc chắn; khẳng định, công nhận","example_zh":"他肯定已经到了。","example_pinyin":"Tā kěndìng yǐjīng dào le.","example_vi":"Chắc chắn anh ấy đã đến rồi.","hanviet":"KHẲNG ĐỊNH","note_vi":"Bẫy Hán Việt: nghĩa hay dùng nhất là phó từ “chắc chắn” (đoán chắc): 肯定会、肯定不. Nghĩa “khẳng định, công nhận” (经理肯定了他的工作) ít gặp hơn. 不肯定 = không chắc."},
+      {"id":"v2","hanzi":"再说","pinyin":"zàishuō","pos":"liên từ / động từ","meaning_vi":"vả lại, hơn nữa; để sau hẵng tính","example_zh":"这件太贵了，再说你已经有很多外套了。","example_pinyin":"Zhè jiàn tài guì le, zàishuō nǐ yǐjīng yǒu hěn duō wàitào le.","example_vi":"Cái này đắt quá, vả lại bạn đã có nhiều áo khoác rồi.","note_vi":"Đứng đầu vế sau để thêm một lý do nữa (khẩu ngữ). 以后再说吧 = để sau hẵng tính. Không dùng để nối hai tính từ (dùng 而且)."},
+      {"id":"v3","hanzi":"实际","pinyin":"shíjì","pos":"danh từ / tính từ","meaning_vi":"thực tế; thiết thực","example_zh":"买东西要看自己的实际需要。","example_pinyin":"Mǎi dōngxi yào kàn zìjǐ de shíjì xūyào.","example_vi":"Mua đồ phải xem nhu cầu thực tế của mình.","hanviet":"THỰC TẾ","note_vi":"实际 là danh từ/tính từ: 实际需要, 很实际 (rất thiết thực), 不实际. Muốn nói “thực ra” ở đầu câu thì dùng 实际上."},
+      {"id":"v4","hanzi":"尤其","pinyin":"yóuqí","pos":"phó từ","meaning_vi":"đặc biệt là, nhất là","example_zh":"我喜欢吃水果，尤其是西瓜。","example_pinyin":"Wǒ xǐhuan chī shuǐguǒ, yóuqí shì xīguā.","example_vi":"Tôi thích ăn trái cây, nhất là dưa hấu.","hanviet":"VƯU KỲ","note_vi":"Trước danh từ dùng 尤其是 + N; trước động từ/tính từ đặt thẳng 尤其 (尤其喜欢). Khác 特别: 特别 còn có nghĩa “rất”, 尤其 thì không."},
+      {"id":"v5","hanzi":"购物","pinyin":"gòuwù","pos":"động từ","meaning_vi":"mua sắm","example_zh":"周末很多人去商场购物。","example_pinyin":"Zhōumò hěn duō rén qù shāngchǎng gòuwù.","example_vi":"Cuối tuần nhiều người đến trung tâm thương mại mua sắm.","hanviet":"CẤU VẬT","note_vi":"购物 đã có “vật” bên trong nên không mang tân ngữ: ✗ 购物衣服 → ✓ 买衣服. Hay gặp: 网上购物, 购物中心."},
+      {"id":"v6","hanzi":"价格","pinyin":"jiàgé","pos":"danh từ","meaning_vi":"giá, giá cả","example_zh":"这两件衣服的价格差不多。","example_pinyin":"Zhè liǎng jiàn yīfu de jiàgé chàbuduō.","example_vi":"Giá của hai cái áo này gần như nhau.","hanviet":"GIÁ CÁCH","note_vi":"价格 thường đi với 高/低 (价格很高); 贵/便宜 thường nói về món đồ (这件衣服很贵). 价格 trang trọng hơn 价钱."},
+      {"id":"v7","hanzi":"打折","pinyin":"dǎzhé","pos":"động từ","meaning_vi":"giảm giá","example_zh":"这家店的衣服都在打折。","example_pinyin":"Zhè jiā diàn de yīfu dōu zài dǎzhé.","example_vi":"Quần áo ở cửa hàng này đều đang giảm giá.","note_vi":"Chú ý cách tính: 打八折 = trả 80% giá (giảm 20%), 打五折 = giảm một nửa. Số càng nhỏ càng rẻ, ngược với cách nói “giảm 80%” của tiếng Việt. Động từ li hợp: 打完折、打了八折."},
+      {"id":"v8","hanzi":"商品","pinyin":"shāngpǐn","pos":"danh từ","meaning_vi":"hàng hóa, mặt hàng","example_zh":"超市里的商品很多。","example_pinyin":"Chāoshì li de shāngpǐn hěn duō.","example_vi":"Hàng hóa trong siêu thị rất nhiều.","hanviet":"THƯƠNG PHẨM"},
+      {"id":"v9","hanzi":"顾客","pinyin":"gùkè","pos":"danh từ","meaning_vi":"khách hàng","example_zh":"这家店的服务员对顾客很热情。","example_pinyin":"Zhè jiā diàn de fúwùyuán duì gùkè hěn rèqíng.","example_vi":"Nhân viên cửa hàng này rất nhiệt tình với khách hàng.","hanviet":"CỐ KHÁCH","note_vi":"顾客 = khách mua hàng, khách của cửa hàng; 客人 = khách đến nhà, khách mời."},
+      {"id":"v10","hanzi":"适合","pinyin":"shìhé","pos":"động từ","meaning_vi":"hợp với, phù hợp với","example_zh":"这个颜色很适合你。","example_pinyin":"Zhège yánsè hěn shìhé nǐ.","example_vi":"Màu này rất hợp với bạn.","hanviet":"THÍCH HỢP","note_vi":"适合 là động từ, mang tân ngữ ngay sau (适合你). 合适 (đã học) là tính từ, không mang tân ngữ: ✗ 这件衣服合适你 → ✓ 这件衣服很合适 / 很适合你."},
+      {"id":"v11","hanzi":"牌子","pinyin":"páizi","pos":"danh từ","meaning_vi":"nhãn hiệu, hãng; tấm biển","example_zh":"你的手机是什么牌子的？","example_pinyin":"Nǐ de shǒujī shì shénme páizi de?","example_vi":"Điện thoại của bạn là hãng gì?","note_vi":"Khẩu ngữ, 子 đọc nhẹ: páizi. 好牌子 / 有名的牌子 = hàng của hãng tốt, hãng nổi tiếng."},
+      {"id":"v12","hanzi":"免费","pinyin":"miǎnfèi","pos":"động từ","meaning_vi":"miễn phí","example_zh":"买两件外套，免费送一双袜子。","example_pinyin":"Mǎi liǎng jiàn wàitào, miǎnfèi sòng yì shuāng wàzi.","example_vi":"Mua hai áo khoác, được tặng miễn phí một đôi tất.","hanviet":"MIỄN PHÍ","note_vi":"Dùng như tiếng Việt: 免费 + V (免费送、免费看), hoặc ……是免费的."},
+      {"id":"v13","hanzi":"广告","pinyin":"guǎnggào","pos":"danh từ","meaning_vi":"quảng cáo","example_zh":"现在手机上的广告越来越多。","example_pinyin":"Xiànzài shǒujī shang de guǎnggào yuè lái yuè duō.","example_vi":"Bây giờ quảng cáo trên điện thoại ngày càng nhiều.","hanviet":"QUẢNG CÁO","note_vi":"做广告 = làm quảng cáo; 看广告 = xem quảng cáo."},
+      {"id":"v14","hanzi":"购买","pinyin":"gòumǎi","pos":"động từ","meaning_vi":"mua (văn viết, trang trọng)","example_zh":"您可以在网上购买这些商品。","example_pinyin":"Nín kěyǐ zài wǎng shang gòumǎi zhèxiē shāngpǐn.","example_vi":"Quý khách có thể mua những mặt hàng này trên mạng.","hanviet":"CẤU MÃI","note_vi":"购买 dùng trong thông báo, văn viết; nói chuyện hằng ngày dùng 买."},
+      {"id":"v15","hanzi":"逛","pinyin":"guàng","pos":"động từ","meaning_vi":"đi dạo, đi xem (phố, cửa hàng…)","example_zh":"周末我喜欢去商场逛逛。","example_pinyin":"Zhōumò wǒ xǐhuan qù shāngchǎng guàngguang.","example_vi":"Cuối tuần tôi thích đi dạo trung tâm thương mại.","note_vi":"逛街 = dạo phố (thường là ngắm và mua sắm), 逛商场, 逛公园. 逛 không nhất thiết là mua."},
+      {"id":"v16","hanzi":"付","pinyin":"fù","pos":"động từ","meaning_vi":"trả (tiền)","example_zh":"这次我来付钱吧。","example_pinyin":"Zhè cì wǒ lái fù qián ba.","example_vi":"Lần này để tôi trả tiền nhé.","note_vi":"付钱、付现金. 付 là thanh 4, f đọc như “ph” tiếng Việt."},
+      {"id":"v17","hanzi":"现金","pinyin":"xiànjīn","pos":"danh từ","meaning_vi":"tiền mặt","example_zh":"现在很多人出门不带现金。","example_pinyin":"Xiànzài hěn duō rén chūmén bú dài xiànjīn.","example_vi":"Bây giờ nhiều người ra ngoài không mang tiền mặt.","hanviet":"HIỆN KIM"},
+      {"id":"v18","hanzi":"省","pinyin":"shěng","pos":"động từ / danh từ","meaning_vi":"tiết kiệm, đỡ tốn; (danh từ) tỉnh","example_zh":"坐地铁上班又快又省钱。","example_pinyin":"Zuò dìtiě shàngbān yòu kuài yòu shěng qián.","example_vi":"Đi tàu điện ngầm đi làm vừa nhanh vừa tiết kiệm tiền.","hanviet":"TỈNH","note_vi":"省钱 = tiết kiệm tiền, 省时间 = đỡ tốn thời gian. Cùng chữ với 省 “tỉnh” (đơn vị hành chính)."},
+      {"id":"v19","hanzi":"流行","pinyin":"liúxíng","pos":"động từ / tính từ","meaning_vi":"thịnh hành, đang mốt, phổ biến","example_zh":"今年很流行这种颜色。","example_pinyin":"Jīnnián hěn liúxíng zhè zhǒng yánsè.","example_vi":"Năm nay màu này rất thịnh hành.","hanviet":"LƯU HÀNH","note_vi":"Bẫy Hán Việt: “lưu hành” tiếng Việt hay nói về tiền, sách được phát hành; 流行 là “thịnh hành, đang mốt”. 行 đọc xíng."},
+      {"id":"v20","hanzi":"实际上","pinyin":"shíjìshàng","pos":"phó từ","meaning_vi":"thực ra, trên thực tế","example_zh":"他看起来很年轻，实际上已经四十岁了。","example_pinyin":"Tā kàn qǐlai hěn niánqīng, shíjìshàng yǐjīng sìshí suì le.","example_vi":"Trông anh ấy rất trẻ, thực ra đã bốn mươi tuổi rồi.","note_vi":"Đưa ra sự thật khác với bề ngoài, gần nghĩa 其实 (其实 khẩu ngữ hơn)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"价钱","pinyin":"jiàqián","pos":"danh từ","meaning_vi":"giá (khẩu ngữ)","example_zh":"这件毛衣的价钱不贵。","example_pinyin":"Zhè jiàn máoyī de jiàqián bú guì.","example_vi":"Giá cái áo len này không đắt."},
+      {"id":"x2","hanzi":"降价","pinyin":"jiàngjià","pos":"động từ","meaning_vi":"hạ giá, giảm giá","example_zh":"冬天快过去了，外套都降价了。","example_pinyin":"Dōngtiān kuài guòqu le, wàitào dōu jiàngjià le.","example_vi":"Mùa đông sắp qua rồi, áo khoác đều hạ giá rồi."},
+      {"id":"x3","hanzi":"低价","pinyin":"dījià","pos":"danh từ","meaning_vi":"giá thấp, giá rẻ","example_zh":"这家店用低价吸引顾客。","example_pinyin":"Zhè jiā diàn yòng dījià xīyǐn gùkè.","example_vi":"Cửa hàng này dùng giá rẻ để thu hút khách."},
+      {"id":"x4","hanzi":"低","pinyin":"dī","pos":"tính từ","meaning_vi":"thấp","example_zh":"这里的价格比别的地方低。","example_pinyin":"Zhèli de jiàgé bǐ bié de dìfang dī.","example_vi":"Giá ở đây thấp hơn chỗ khác."},
+      {"id":"x5","hanzi":"费用","pinyin":"fèiyong","pos":"danh từ","meaning_vi":"chi phí","example_zh":"这次旅游的费用一共三千块。","example_pinyin":"Zhè cì lǚyóu de fèiyong yígòng sānqiān kuài.","example_vi":"Chi phí chuyến du lịch này tổng cộng ba nghìn tệ."},
+      {"id":"x6","hanzi":"费","pinyin":"fèi","pos":"danh từ / động từ","meaning_vi":"phí; tốn","example_zh":"每天打车上班太费钱了。","example_pinyin":"Měi tiān dǎchē shàngbān tài fèi qián le.","example_vi":"Ngày nào cũng đi taxi đi làm thì tốn tiền quá."},
+      {"id":"x7","hanzi":"收费","pinyin":"shōufèi","pos":"động từ","meaning_vi":"thu phí","example_zh":"在这儿上网不收费。","example_pinyin":"Zài zhèr shàngwǎng bù shōufèi.","example_vi":"Lên mạng ở đây không thu phí."},
+      {"id":"x8","hanzi":"结账","pinyin":"jiézhàng","pos":"động từ","meaning_vi":"thanh toán, tính tiền","example_zh":"服务员，我们结账。","example_pinyin":"Fúwùyuán, wǒmen jiézhàng.","example_vi":"Em ơi, cho tính tiền."},
+      {"id":"x9","hanzi":"扫码","pinyin":"sǎomǎ","pos":"động từ","meaning_vi":"quét mã","example_zh":"现在买东西扫码就可以付钱。","example_pinyin":"Xiànzài mǎi dōngxi sǎomǎ jiù kěyǐ fù qián.","example_vi":"Bây giờ mua đồ quét mã là trả tiền được."},
+      {"id":"x10","hanzi":"零钱","pinyin":"língqián","pos":"danh từ","meaning_vi":"tiền lẻ","example_zh":"你有零钱吗？我只有一百块的。","example_pinyin":"Nǐ yǒu língqián ma? Wǒ zhǐ yǒu yìbǎi kuài de.","example_vi":"Bạn có tiền lẻ không? Tôi chỉ có tờ một trăm."},
+      {"id":"x11","hanzi":"会员","pinyin":"huìyuán","pos":"danh từ","meaning_vi":"hội viên, thành viên","example_zh":"我是这家超市的会员。","example_pinyin":"Wǒ shì zhè jiā chāoshì de huìyuán.","example_vi":"Tôi là hội viên của siêu thị này."},
+      {"id":"x12","hanzi":"市场","pinyin":"shìchǎng","pos":"danh từ","meaning_vi":"chợ; thị trường","example_zh":"妈妈每天早上去市场买菜。","example_pinyin":"Māma měi tiān zǎoshang qù shìchǎng mǎi cài.","example_vi":"Mẹ sáng nào cũng đi chợ mua thức ăn."},
+      {"id":"x13","hanzi":"各种","pinyin":"gèzhǒng","pos":"đại từ","meaning_vi":"các loại, đủ loại","example_zh":"超市里有各种水果。","example_pinyin":"Chāoshì li yǒu gèzhǒng shuǐguǒ.","example_vi":"Trong siêu thị có đủ loại trái cây."},
+      {"id":"x14","hanzi":"全部","pinyin":"quánbù","pos":"danh từ","meaning_vi":"toàn bộ, tất cả","example_zh":"这些商品全部打五折。","example_pinyin":"Zhèxiē shāngpǐn quánbù dǎ wǔ zhé.","example_vi":"Những mặt hàng này đều giảm một nửa."},
+      {"id":"x15","hanzi":"加上","pinyin":"jiāshàng","pos":"động từ / liên từ","meaning_vi":"cộng thêm; thêm vào đó","example_zh":"毛衣三百，加上帽子五十，一共三百五。","example_pinyin":"Máoyī sānbǎi, jiāshàng màozi wǔshí, yígòng sānbǎi wǔ.","example_vi":"Áo len ba trăm, cộng thêm cái mũ năm mươi, tổng cộng ba trăm rưỡi."},
+      {"id":"x16","hanzi":"算","pinyin":"suàn","pos":"động từ","meaning_vi":"tính, tính toán; coi là","example_zh":"你帮我算一下一共多少钱。","example_pinyin":"Nǐ bāng wǒ suàn yíxià yígòng duōshao qián.","example_vi":"Bạn tính giúp tôi xem tổng cộng bao nhiêu tiền."},
+      {"id":"x17","hanzi":"排队","pinyin":"páiduì","pos":"động từ","meaning_vi":"xếp hàng","example_zh":"结账的人很多，我们排队排了二十分钟。","example_pinyin":"Jiézhàng de rén hěn duō, wǒmen páiduì pái le èrshí fēnzhōng.","example_vi":"Người thanh toán rất đông, chúng tôi xếp hàng hai mươi phút."},
+      {"id":"x18","hanzi":"排","pinyin":"pái","pos":"lượng từ / động từ","meaning_vi":"hàng, dãy; xếp","example_zh":"我们坐在第一排。","example_pinyin":"Wǒmen zuò zài dì yī pái.","example_vi":"Chúng tôi ngồi ở hàng đầu tiên."},
+      {"id":"x19","hanzi":"牌","pinyin":"pái","pos":"danh từ","meaning_vi":"nhãn hiệu; biển, thẻ","example_zh":"这是什么牌的手机？","example_pinyin":"Zhè shì shénme pái de shǒujī?","example_vi":"Đây là điện thoại hiệu gì?"},
+      {"id":"x20","hanzi":"样子","pinyin":"yàngzi","pos":"danh từ","meaning_vi":"kiểu dáng; dáng vẻ","example_zh":"这双鞋的样子很好看。","example_pinyin":"Zhè shuāng xié de yàngzi hěn hǎokàn.","example_vi":"Kiểu dáng đôi giày này rất đẹp."},
+      {"id":"x21","hanzi":"戴","pinyin":"dài","pos":"động từ","meaning_vi":"đeo, đội (kính, mũ, đồng hồ…)","example_zh":"外面很冷，戴上帽子吧。","example_pinyin":"Wàimiàn hěn lěng, dài shang màozi ba.","example_vi":"Bên ngoài lạnh lắm, đội mũ vào đi.","note_vi":"戴 dùng cho mũ, kính, đồng hồ…; 穿 dùng cho áo, quần, giày, tất."},
+      {"id":"x22","hanzi":"脱","pinyin":"tuō","pos":"động từ","meaning_vi":"cởi","example_zh":"进门以前请脱鞋。","example_pinyin":"Jìn mén yǐqián qǐng tuō xié.","example_vi":"Trước khi vào cửa xin cởi giày."},
+      {"id":"x23","hanzi":"厚","pinyin":"hòu","pos":"tính từ","meaning_vi":"dày","example_zh":"冬天要穿厚一点儿的衣服。","example_pinyin":"Dōngtiān yào chuān hòu yìdiǎnr de yīfu.","example_vi":"Mùa đông phải mặc quần áo dày một chút."},
+      {"id":"x24","hanzi":"外套","pinyin":"wàitào","pos":"danh từ","meaning_vi":"áo khoác","example_zh":"这件外套很适合你。","example_pinyin":"Zhè jiàn wàitào hěn shìhé nǐ.","example_vi":"Cái áo khoác này rất hợp với bạn."},
+      {"id":"x25","hanzi":"毛衣","pinyin":"máoyī","pos":"danh từ","meaning_vi":"áo len","example_zh":"妈妈给我买了一件红毛衣。","example_pinyin":"Māma gěi wǒ mǎi le yí jiàn hóng máoyī.","example_vi":"Mẹ mua cho tôi một cái áo len đỏ."},
+      {"id":"x26","hanzi":"帽子","pinyin":"màozi","pos":"danh từ","meaning_vi":"cái mũ","example_zh":"这个帽子多少钱？","example_pinyin":"Zhège màozi duōshao qián?","example_vi":"Cái mũ này bao nhiêu tiền?"},
+      {"id":"x27","hanzi":"皮鞋","pinyin":"píxié","pos":"danh từ","meaning_vi":"giày da","example_zh":"上班的时候他常穿皮鞋。","example_pinyin":"Shàngbān de shíhou tā cháng chuān píxié.","example_vi":"Khi đi làm anh ấy thường đi giày da."},
+      {"id":"x28","hanzi":"袜子","pinyin":"wàzi","pos":"danh từ","meaning_vi":"tất, vớ","example_zh":"我买了三双袜子。","example_pinyin":"Wǒ mǎi le sān shuāng wàzi.","example_vi":"Tôi mua ba đôi tất."},
+      {"id":"x29","hanzi":"眼镜","pinyin":"yǎnjìng","pos":"danh từ","meaning_vi":"kính (đeo mắt)","example_zh":"我看书的时候要戴眼镜。","example_pinyin":"Wǒ kàn shū de shíhou yào dài yǎnjìng.","example_vi":"Khi đọc sách tôi phải đeo kính."}
+    ],
+    "glossary": [
+      {"hanzi":"折","pinyin":"zhé","meaning_vi":"(trong 打……折) mức giá tính theo phần mười: 八折 = trả 80% giá, 九五折 = trả 95% giá","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Phó từ “肯定” (chắc chắn)",
+        "pattern":"S + 肯定 + (会/能/是) + V/Adj　·　S + 肯定 + 不/没 + V　·　A：……吗？B：肯定！",
+        "explanation_vi":"肯定 đặt trước động từ, tính từ hoặc động từ năng nguyện (会, 能…) để nói người nói rất chắc về một phán đoán: “chắc chắn, nhất định là”. Từ phủ định đặt SAU 肯定: 肯定不会 (chắc chắn không), 肯定没 (chắc chắn chưa). Nếu nói 不肯定 thì nghĩa thành “không chắc”. 肯定 còn có thể đứng một mình để trả lời (肯定！= chắc chắn rồi), làm tính từ (我很肯定 = tôi rất chắc) hoặc động từ “công nhận” (经理肯定了他的工作).\nSo với 一定 (đã học): cả hai đều nói “chắc chắn”, nhưng 一定 còn dùng để yêu cầu, dặn dò (你一定要来！); 肯定 chỉ là phán đoán, không dùng để ra lệnh hay dặn dò.",
+        "examples":[
+          {"zh":"好牌子的衣服肯定能穿好几年。","pinyin":"Hǎo páizi de yīfu kěndìng néng chuān hǎo jǐ nián.","vi":"Quần áo của hãng tốt chắc chắn mặc được mấy năm."},
+          {"zh":"今天是周末，商场里人肯定很多。","pinyin":"Jīntiān shì zhōumò, shāngchǎng li rén kěndìng hěn duō.","vi":"Hôm nay là cuối tuần, trong trung tâm thương mại chắc chắn đông người."},
+          {"zh":"这么贵的东西，她肯定不会买。","pinyin":"Zhème guì de dōngxi, tā kěndìng bú huì mǎi.","vi":"Đồ đắt thế này, chắc chắn cô ấy sẽ không mua."},
+          {"zh":"A：你明天还来吗？B：肯定来！","pinyin":"A: Nǐ míngtiān hái lái ma? B: Kěndìng lái!","vi":"A: Mai bạn còn đến không? B: Chắc chắn đến!"}
+        ],
+        "mistakes_vi":"✗ 他会肯定来。\n✓ 他肯定会来。\n肯定 là phó từ, đứng trước động từ năng nguyện 会/能.\n✗ 他不肯定会来。(muốn nói “chắc chắn anh ấy không đến”)\n✓ 他肯定不会来。\n不肯定 = “không chắc”; muốn phủ định sự việc thì 不 đặt sau 肯定.\n✗ 你肯定要来我家吃饭！(lời mời, dặn dò)\n✓ 你一定要来我家吃饭！\nYêu cầu, dặn dò dùng 一定要.",
+        "compare_vi":"Bẫy Hán Việt: 肯定 đọc là KHẲNG ĐỊNH, nhưng nghĩa hay dùng nhất là “chắc chắn” (phó từ), không phải động từ “khẳng định” như tiếng Việt."
+      },
+      {
+        "id":"g2",
+        "title":"“再说” (vả lại; để sau hẵng tính)",
+        "pattern":"Lý do 1，再说 + lý do 2 (hay có 也/又/还)　·　(等……) 以后再说吧",
+        "explanation_vi":"(1) Liên từ 再说 = “vả lại, với lại, hơn nữa”: thêm một lý do nữa để ủng hộ ý của mình. Nó đứng đầu vế sau (sau dấu phẩy hoặc dấu chấm), là cách nói khẩu ngữ; vế sau hay có 也, 又, 还.\n(2) Cụm động từ 再说 = “để sau hẵng tính, tính sau”: tạm gác chuyện lại đến một thời điểm khác: 以后再说吧、等发了工资再说.\nSo với 而且: 而且 nối hai ý tăng tiến nói chung và nối được hai tính từ (便宜而且好看); 再说 chủ yếu bổ sung thêm LÝ DO, đứng đầu một vế câu, không nối thẳng hai tính từ.",
+        "examples":[
+          {"zh":"这件外套太贵了，再说你已经有两件了。","pinyin":"Zhè jiàn wàitào tài guì le, zàishuō nǐ yǐjīng yǒu liǎng jiàn le.","vi":"Áo khoác này đắt quá, vả lại bạn đã có hai cái rồi."},
+          {"zh":"咱们坐地铁去吧，又快又省钱。再说，现在路上车太多了。","pinyin":"Zánmen zuò dìtiě qù ba, yòu kuài yòu shěng qián. Zàishuō, xiànzài lù shang chē tài duō le.","vi":"Chúng mình đi tàu điện ngầm nhé, vừa nhanh vừa đỡ tốn tiền. Với lại, bây giờ ngoài đường xe đông quá."},
+          {"zh":"A：这个手机要不要买？B：等发了工资再说吧。","pinyin":"A: Zhège shǒujī yào bu yào mǎi? B: Děng fā le gōngzī zài shuō ba.","vi":"A: Có mua cái điện thoại này không? B: Đợi lĩnh lương rồi hẵng tính."}
+        ],
+        "mistakes_vi":"✗ 这件衣服便宜再说好看。\n✓ 这件衣服很便宜，再说样子也好看。\n再说 mở đầu một vế câu mới (thường có dấu phẩy trước), không nối thẳng hai tính từ như 而且.\n✗ 我不想去，再说因为太远了。\n✓ 我不想去，再说那儿也太远了。\nBản thân 再说 đã có nghĩa “vả lại (còn một lý do nữa)”, không cần thêm 因为.",
+        "compare_vi":"Nghĩa (1) giống “vả lại, với lại” khi nói chuyện. Nghĩa (2) giống “để sau hẵng tính”: 以后再说吧 = Để sau rồi tính."
+      },
+      {
+        "id":"g3",
+        "title":"“实际” và “实际上” (thực tế; thực ra)",
+        "pattern":"实际上，+ sự thật (khác bề ngoài)　·　S + 实际上 + V　·　实际 + (的) + N　·　很实际 / 不实际",
+        "explanation_vi":"实际上 là phó từ = “thực ra, trên thực tế”: đưa ra sự thật, thường khác với vẻ bề ngoài hoặc điều người ta nghĩ. Nó đứng đầu vế câu (có thể có dấu phẩy) hoặc sau chủ ngữ. Nghĩa gần 其实; 其实 khẩu ngữ hơn, 实际上 hơi trang trọng, hay dùng khi nói về số liệu, tình hình thật.\n实际 (không có 上) là danh từ/tính từ: “thực tế”, “thiết thực”: 实际需要 (nhu cầu thực tế), 这个办法很实际 (rất thiết thực), 不实际 (không thực tế). Không dùng 实际 một mình ở đầu câu thay cho 实际上.",
+        "examples":[
+          {"zh":"这件衣服看起来很贵，实际上只要两百块。","pinyin":"Zhè jiàn yīfu kàn qǐlai hěn guì, shíjìshàng zhǐ yào liǎngbǎi kuài.","vi":"Cái áo này trông có vẻ đắt, thực ra chỉ hai trăm tệ."},
+          {"zh":"很多人以为网上的东西都便宜，实际上并不是这样。","pinyin":"Hěn duō rén yǐwéi wǎng shang de dōngxi dōu piányi, shíjìshàng bìng bú shì zhèyàng.","vi":"Nhiều người tưởng đồ trên mạng đều rẻ, thực ra đâu phải vậy."},
+          {"zh":"买东西要按照自己的实际需要，不要只看广告。","pinyin":"Mǎi dōngxi yào ànzhào zìjǐ de shíjì xūyào, búyào zhǐ kàn guǎnggào.","vi":"Mua đồ phải theo nhu cầu thực tế của mình, đừng chỉ nhìn quảng cáo."},
+          {"zh":"你的办法很实际，咱们就这么做吧。","pinyin":"Nǐ de bànfǎ hěn shíjì, zánmen jiù zhème zuò ba.","vi":"Cách của bạn rất thiết thực, chúng mình cứ làm thế nhé."}
+        ],
+        "mistakes_vi":"✗ 实际，这件衣服并不贵。\n✓ 实际上，这件衣服并不贵。\nLàm trạng ngữ “thực ra” phải dùng 实际上 (hoặc 其实).\n✗ 这个办法很实际上。\n✓ 这个办法很实际。\nLàm tính từ “thiết thực” thì không có 上.",
+        "compare_vi":"Tiếng Việt dùng “thực tế” cho cả hai nghĩa (“thực tế thì…” và “rất thực tế”); tiếng Trung tách ra: 实际上 (thực ra) và 实际 (thực tế, thiết thực)."
+      },
+      {
+        "id":"g4",
+        "title":"“对……来说” (đối với… mà nói) và “尤其” (đặc biệt là)",
+        "pattern":"对 + người/nhóm + 来说，+ nhận xét　·　……，尤其是 + N　·　S + 尤其 + V/Adj",
+        "explanation_vi":"对……来说 nêu góc nhìn: nhận xét phía sau đúng với người/nhóm nào. Cụm này thường đứng đầu câu, ngắt bằng dấu phẩy: 对学生来说，价格很重要. 对我来说 = “với tôi thì”. Chú ý: KHÔNG được bỏ 来说, vì 对我说 nghĩa là “nói với tôi”.\n尤其 là phó từ = “đặc biệt là, nhất là”: sau khi nói một ý chung, 尤其 chỉ ra phần nổi bật nhất. Trước danh từ dùng 尤其是 + N (尤其是学生); trước động từ/tính từ đặt thẳng 尤其 (尤其喜欢, 尤其便宜). So với 特别: 特别 còn có nghĩa “rất” (特别贵), còn 尤其 chỉ có nghĩa “đặc biệt là (hơn những cái khác)”.",
+        "examples":[
+          {"zh":"对学生来说，这个价格太高了。","pinyin":"Duì xuésheng lái shuō, zhège jiàgé tài gāo le.","vi":"Đối với sinh viên mà nói, giá này cao quá."},
+          {"zh":"对我来说，衣服舒服比牌子重要。","pinyin":"Duì wǒ lái shuō, yīfu shūfu bǐ páizi zhòngyào.","vi":"Với tôi thì quần áo mặc thoải mái quan trọng hơn nhãn hiệu."},
+          {"zh":"这家店的东西都不贵，尤其是袜子和帽子。","pinyin":"Zhè jiā diàn de dōngxi dōu bú guì, yóuqí shì wàzi hé màozi.","vi":"Đồ ở cửa hàng này đều không đắt, nhất là tất và mũ."},
+          {"zh":"我喜欢逛商场，尤其喜欢打折的时候去。","pinyin":"Wǒ xǐhuan guàng shāngchǎng, yóuqí xǐhuan dǎzhé de shíhou qù.","vi":"Tôi thích đi dạo trung tâm thương mại, nhất là thích đi lúc giảm giá."}
+        ],
+        "mistakes_vi":"✗ 对我说，价格最重要。\n✓ 对我来说，价格最重要。\nThiếu 来说 thì 对我说 thành “nói với tôi”.\n✗ 大家都喜欢这个颜色，尤其女孩儿喜欢。\n✓ 大家都喜欢这个颜色，尤其是女孩儿。/ ……，女孩儿尤其喜欢。\nTrước danh từ cần 是: 尤其是 + N; hoặc đặt 尤其 sau chủ ngữ, trước động từ.\n✗ 这个价格对学生太高来说。\n✓ 对学生来说，这个价格太高了。\nNgười/nhóm đặt giữa 对 và 来说; cả cụm đứng đầu câu (hoặc ngay sau chủ ngữ).",
+        "compare_vi":"对……来说 ≈ “đối với… mà nói / với… thì”. 尤其(是) ≈ “nhất là, đặc biệt là”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Mua áo khoác ngày giảm giá",
+      "scene_vi": "Chủ nhật, Tiểu Trần và Tiểu Lưu đi dạo trung tâm thương mại đang giảm giá. Tiểu Trần muốn mua một chiếc áo khoác mùa đông.",
+      "lines": [
+        {"speaker":"小陈","zh":"今天商场里很多商品都在打折，来逛的人真多！你看这件外套，这个牌子今年特别流行，广告里到处都是。","pinyin":"Jīntiān shāngchǎng li hěn duō shāngpǐn dōu zài dǎzhé, lái guàng de rén zhēn duō! Nǐ kàn zhè jiàn wàitào, zhège páizi jīnnián tèbié liúxíng, guǎnggào li dàochù dōu shì.","vi":"Hôm nay trong trung tâm thương mại nhiều mặt hàng đang giảm giá, người đến dạo đông thật! Cậu xem cái áo khoác này, hãng này năm nay đang rất thịnh hành, quảng cáo ở đâu cũng thấy."},
+        {"speaker":"小刘","zh":"样子是挺好看的，可是打完折还要一千二。对学生来说，这个价格也太高了吧？","pinyin":"Yàngzi shì tǐng hǎokàn de, kěshì dǎ wán zhé hái yào yìqiān èr. Duì xuésheng lái shuō, zhège jiàgé yě tài gāo le ba?","vi":"Kiểu dáng thì đẹp thật, nhưng giảm giá rồi vẫn còn một nghìn hai. Đối với sinh viên mà nói, giá này cũng cao quá nhỉ?"},
+        {"speaker":"小陈","zh":"贵是贵了点儿，可是好牌子的衣服肯定能穿好几年。再说，我真的很喜欢这个颜色。","pinyin":"Guì shì guì le diǎnr, kěshì hǎo páizi de yīfu kěndìng néng chuān hǎo jǐ nián. Zàishuō, wǒ zhēn de hěn xǐhuan zhège yánsè.","vi":"Đắt thì có đắt một chút, nhưng quần áo hãng tốt chắc chắn mặc được mấy năm. Với lại, tớ thật sự rất thích màu này."},
+        {"speaker":"小刘","zh":"实际上，很多东西贵，并不是因为好，而是因为广告做得多。牌子越有名，广告费越高，这些钱最后都要顾客来付。","pinyin":"Shíjìshàng, hěn duō dōngxi guì, bìng bú shì yīnwèi hǎo, ér shì yīnwèi guǎnggào zuò de duō. Páizi yuè yǒumíng, guǎnggàofèi yuè gāo, zhèxiē qián zuìhòu dōu yào gùkè lái fù.","vi":"Thật ra, nhiều thứ đắt không phải vì tốt, mà vì quảng cáo nhiều. Hãng càng nổi tiếng, phí quảng cáo càng cao, cuối cùng số tiền ấy đều do khách hàng trả."},
+        {"speaker":"小陈","zh":"那你说怎么办？我那件旧外套已经穿了五年了，冬天穿它还是觉得冷。","pinyin":"Nà nǐ shuō zěnme bàn? Wǒ nà jiàn jiù wàitào yǐjīng chuān le wǔ nián le, dōngtiān chuān tā háishi juéde lěng.","vi":"Thế cậu bảo làm sao? Cái áo khoác cũ của tớ đã mặc năm năm rồi, mùa đông mặc nó vẫn thấy lạnh."},
+        {"speaker":"小刘","zh":"衣服当然要买，但是要买适合自己的，不一定买最贵的。你看那件，很厚，样子也不错，才四百块。尤其是这个颜色，特别适合你。","pinyin":"Yīfu dāngrán yào mǎi, dànshì yào mǎi shìhé zìjǐ de, bù yídìng mǎi zuì guì de. Nǐ kàn nà jiàn, hěn hòu, yàngzi yě búcuò, cái sìbǎi kuài. Yóuqí shì zhège yánsè, tèbié shìhé nǐ.","vi":"Áo thì đương nhiên phải mua, nhưng nên mua cái hợp với mình, không nhất thiết mua cái đắt nhất. Cậu xem cái kia, rất dày, kiểu cũng được, chỉ có bốn trăm tệ. Nhất là màu này, rất hợp với cậu."},
+        {"speaker":"小陈","zh":"那我去试一下……真的挺合适的！好，就买这件，还能省八百块呢。","pinyin":"Nà wǒ qù shì yíxià…… Zhēn de tǐng héshì de! Hǎo, jiù mǎi zhè jiàn, hái néng shěng bābǎi kuài ne.","vi":"Vậy để tớ đi thử… Vừa thật đấy! Được, mua cái này, còn tiết kiệm được tám trăm tệ nữa."},
+        {"speaker":"服务员","zh":"您好，这件外套已经打了八折。您是我们的会员吗？会员结账的时候可以再打九五折，还免费送一双袜子。","pinyin":"Nín hǎo, zhè jiàn wàitào yǐjīng dǎ le bā zhé. Nín shì wǒmen de huìyuán ma? Huìyuán jiézhàng de shíhou kěyǐ zài dǎ jiǔwǔ zhé, hái miǎnfèi sòng yì shuāng wàzi.","vi":"Chào chị, áo khoác này đã giảm 20% rồi ạ. Chị có phải hội viên của cửa hàng không ạ? Hội viên khi thanh toán được giảm thêm 5%, còn được tặng miễn phí một đôi tất."},
+        {"speaker":"小陈","zh":"我还不是会员。办会员卡收费吗？我只带了现金，可以付现金吗？","pinyin":"Wǒ hái bú shì huìyuán. Bàn huìyuánkǎ shōufèi ma? Wǒ zhǐ dài le xiànjīn, kěyǐ fù xiànjīn ma?","vi":"Tôi chưa phải hội viên. Làm thẻ hội viên có mất phí không? Tôi chỉ mang tiền mặt, trả tiền mặt được không?"},
+        {"speaker":"服务员","zh":"办卡是免费的，用手机扫码就行。付现金、扫码都可以。结账请到那边排队。","pinyin":"Bàn kǎ shì miǎnfèi de, yòng shǒujī sǎomǎ jiù xíng. Fù xiànjīn, sǎomǎ dōu kěyǐ. Jiézhàng qǐng dào nàbiān páiduì.","vi":"Làm thẻ miễn phí ạ, dùng điện thoại quét mã là được. Trả tiền mặt hay quét mã đều được. Thanh toán xin mời chị ra bên kia xếp hàng."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:打折","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天商场里的衣服都在____，比平时便宜多了。","options":["打折","排队","免费","收费"],"answer":0,"explanation_vi":"都在打折 = đều đang giảm giá, nên “rẻ hơn ngày thường nhiều”."},
+      {"id":"e2","type":"choice","tag":"v:适合","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个颜色很____你。","options":["适合","合适","舒服","流行"],"answer":0,"explanation_vi":"适合 là động từ, mang tân ngữ 你 ngay sau. 合适 là tính từ, không nói 合适你."},
+      {"id":"e3","type":"choice","tag":"v:免费","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"办会员卡不要钱，是____的。","options":["免费","现金","价格","广告"],"answer":0,"explanation_vi":"不要钱 = không mất tiền → 免费的 (miễn phí)."},
+      {"id":"e4","type":"choice","tag":"v:逛","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"周末我喜欢去商场____，不一定买东西。","options":["逛逛","付付","省省","算算"],"answer":0,"explanation_vi":"逛 = đi dạo, đi xem; “không nhất thiết mua đồ” nên chọn 逛逛."},
+      {"id":"e5","type":"choice","tag":"g:肯定","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天是周末，商场里的人____很多。","options":["肯定","尤其","再说","实际"],"answer":0,"explanation_vi":"Cuối tuần → đoán chắc đông người: 肯定很多."},
+      {"id":"e6","type":"choice","tag":"g:肯定","prompt_vi":"Chọn câu đúng với nghĩa: “Chắc chắn cô ấy sẽ không mua.”","question_zh":"Chắc chắn cô ấy sẽ không mua.","options":["她肯定不会买。","她不肯定会买。","她会肯定不买。","她不会肯定买。"],"answer":0,"explanation_vi":"肯定 đứng trước, phủ định 不会 đứng sau: 肯定不会买. 不肯定 = không chắc."},
+      {"id":"e7","type":"choice","tag":"g:再说","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这件外套太贵了，____你已经有两件了。","options":["再说","尤其","肯定","实际"],"answer":0,"explanation_vi":"Thêm một lý do nữa (đã có hai cái rồi) → 再说 (vả lại)."},
+      {"id":"e8","type":"choice","tag":"g:实际","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这件衣服看起来很贵，____只要两百块。","options":["实际上","再说","尤其","适合"],"answer":0,"explanation_vi":"Trông đắt, nhưng sự thật thì rẻ → 实际上 (thực ra)."},
+      {"id":"e9","type":"choice","tag":"g:对来说","prompt_vi":"Chọn cặp từ thích hợp điền vào chỗ trống.","question_zh":"____学生____，这个价格太高了。","options":["对……来说","对……说","跟……一样","比……更"],"answer":0,"explanation_vi":"对 + 学生 + 来说 = đối với sinh viên mà nói. 对……说 là “nói với…”."},
+      {"id":"e10","type":"choice","tag":"g:尤其","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这家店的东西都很便宜，____是袜子。","options":["尤其","再说","肯定","实际上"],"answer":0,"explanation_vi":"尤其是 + N = nhất là… (phần nổi bật nhất trong “đồ đều rẻ”)."},
+      {"id":"e11","type":"order","tag":"g:对来说","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["对","我","来说","价格","最","重要"],"answers":["对我来说价格最重要","价格对我来说最重要"],"translation_vi":"Với tôi thì giá cả quan trọng nhất.","explanation_vi":"对 + 我 + 来说 đứng đầu câu (hoặc sau chủ ngữ 价格)."},
+      {"id":"e12","type":"order","tag":"g:尤其","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","喜欢","吃水果","尤其是","西瓜"],"answers":["我喜欢吃水果尤其是西瓜"],"translation_vi":"Tôi thích ăn trái cây, nhất là dưa hấu.","explanation_vi":"Ý chung trước (喜欢吃水果), phần nổi bật sau: 尤其是 + 西瓜."},
+      {"id":"e13","type":"order","tag":"g:肯定","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","肯定","会","喜欢","这个","礼物"],"answers":["他肯定会喜欢这个礼物","这个礼物他肯定会喜欢"],"translation_vi":"Chắc chắn anh ấy sẽ thích món quà này.","explanation_vi":"肯定 đứng trước 会; tân ngữ 这个礼物 có thể đưa lên đầu câu."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"价格","vi":"giá cả"},{"zh":"顾客","vi":"khách hàng"},{"zh":"现金","vi":"tiền mặt"},{"zh":"广告","vi":"quảng cáo"},{"zh":"牌子","vi":"nhãn hiệu"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:肯定","prompt_vi":"Câu nào đúng?","question_zh":"Câu nào đúng?","options":["他肯定会来。","他会肯定来。","他肯定来会。","他来肯定会。"],"answer":0,"explanation_vi":"肯定 là phó từ, đứng trước động từ năng nguyện 会."},
+        {"id":"q2","type":"choice","tag":"g:肯定","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：你明天还来吗？B：____来！我已经买好票了。","options":["肯定","尤其","实际上","再说"],"answer":0,"explanation_vi":"Trả lời chắc chắn: 肯定来 = chắc chắn đến."},
+        {"id":"q3","type":"choice","tag":"g:再说","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：这个手机要不要买？B：等发了工资____吧。","options":["再说","肯定","尤其","实际"],"answer":0,"explanation_vi":"等……再说 = đợi… rồi hẵng tính."},
+        {"id":"q4","type":"choice","tag":"g:实际","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"很多人以为网上的东西都便宜，____并不是这样。","options":["实际上","再说","尤其","对"],"answer":0,"explanation_vi":"Điều người ta tưởng ≠ sự thật → 实际上 (thực ra)."},
+        {"id":"q5","type":"choice","tag":"g:对来说","prompt_vi":"Chọn câu đúng với nghĩa: “Với tôi thì giá cả quan trọng nhất.”","question_zh":"Với tôi thì giá cả quan trọng nhất.","options":["对我来说，价格最重要。","对我说，价格最重要。","我对来说，价格最重要。","对来说我，价格最重要。"],"answer":0,"explanation_vi":"对 + 我 + 来说. 对我说 = nói với tôi."},
+        {"id":"q6","type":"choice","tag":"g:尤其","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"大家都喜欢这个颜色，____是女孩儿。","options":["尤其","再说","实际上","肯定"],"answer":0,"explanation_vi":"尤其是 + N = nhất là…: chỉ ra nhóm nổi bật nhất."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:省","prompt_vi":"Chọn đáp án đúng.","question_zh":"坐地铁上班又快又____钱。","options":["省","付","算","排"],"answer":0,"explanation_vi":"省钱 = tiết kiệm tiền; 又快又省钱 = vừa nhanh vừa đỡ tốn tiền."},
+      {"id":"t2","type":"choice","tag":"g:再说","prompt_vi":"Chọn đáp án đúng.","question_zh":"我不想去那家店，东西太贵了，____离这儿也太远了。","options":["再说","尤其","肯定","实际"],"answer":0,"explanation_vi":"Thêm một lý do nữa (xa quá) → 再说."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"外套","vi":"áo khoác"},{"zh":"毛衣","vi":"áo len"},{"zh":"帽子","vi":"mũ"},{"zh":"皮鞋","vi":"giày da"},{"zh":"袜子","vi":"tất"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"结账","vi":"thanh toán"},{"zh":"扫码","vi":"quét mã"},{"zh":"零钱","vi":"tiền lẻ"},{"zh":"排队","vi":"xếp hàng"},{"zh":"会员","vi":"hội viên"}]},
+      {"id":"t5","type":"order","tag":"g:实际","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["实际上","这件","衣服","并","不","贵"],"answers":["实际上这件衣服并不贵","这件衣服实际上并不贵"],"translation_vi":"Thực ra cái áo này đâu có đắt.","explanation_vi":"实际上 đứng đầu câu hoặc sau chủ ngữ; 并不 + 贵."},
+      {"id":"t6","type":"order","tag":"v:适合","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个","颜色","特别","适合","你"],"answers":["这个颜色特别适合你"],"translation_vi":"Màu này rất hợp với bạn.","explanation_vi":"适合 + tân ngữ 你; 特别 đứng trước 适合."},
+      {"id":"t7","type":"fill","tag":"v:付","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"这次我来____钱吧，你上次已经请客了。","answers":["付"],"hint_vi":"trả (tiền)","explanation_vi":"付钱 = trả tiền."},
+      {"id":"t8","type":"fill","tag":"g:对来说","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"对年轻人____，这种衣服很流行。","answers":["来说","来讲"],"hint_vi":"“… mà nói” (đi với 对)","explanation_vi":"对……来说 = đối với… mà nói."},
+      {"id":"t9","type":"listen_choice","tag":"g:尤其","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"这家店的东西都不贵，尤其是袜子和帽子。","options":["Đồ ở cửa hàng này đều không đắt, nhất là tất và mũ.","Đồ ở cửa hàng này đều đắt, nhất là tất và mũ.","Cửa hàng này chỉ bán tất và mũ.","Tất và mũ ở cửa hàng này đắt hơn những thứ khác."],"answer":0,"explanation_vi":"都不贵 = đều không đắt; 尤其是袜子和帽子 = nhất là tất và mũ."},
+      {"id":"t10","type":"listen_choice","tag":"v:现金","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"我只带了现金，可以付现金吗？","options":["我只带了现金，可以付现金吗？","我没带现金，可以扫码吗？","我只带了零钱，可以用零钱吗？","我带了会员卡，可以打折吗？"],"answer":0,"explanation_vi":"Câu nghe được: 我只带了现金，可以付现金吗？ = Tôi chỉ mang tiền mặt, trả tiền mặt được không?"},
+      {"id":"t11","type":"dictation","tag":"v:流行","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这个牌子今年特别流行。","answers":["这个牌子今年特别流行"],"explanation_vi":"这个牌子今年特别流行 = Hãng này năm nay rất thịnh hành."},
+      {"id":"t12","type":"dictation","tag":"g:肯定","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"今天是周末，商场里人肯定很多。","answers":["今天是周末商场里人肯定很多"],"explanation_vi":"今天是周末，商场里人肯定很多 = Hôm nay là cuối tuần, trong trung tâm thương mại chắc chắn đông người."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:对来说","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Đối với sinh viên mà nói, giá này quá cao.","answers":["对学生来说这个价格太高了","对学生来说这个价格太高","对学生来说这个价钱太高了","对学生来说这个价钱太高","对学生来说这个价格太贵了","对学生来说这个价钱太贵了","这个价格对学生来说太高了","这个价钱对学生来说太高了","对大学生来说这个价格太高了","对学生来讲这个价格太高了","对学生来说这个价格也太高了","对学生来说这个价格实在太高了"],"explanation_vi":"对 + 学生 + 来说，+ 这个价格太高了."},
+      {"id":"t14","type":"translate_vi_zh","tag":"v:打折","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Hôm nay quần áo trong trung tâm thương mại đều giảm giá.","answers":["今天商场里的衣服都打折","今天商场里的衣服都在打折","今天商场的衣服都打折","今天商场的衣服都在打折","商场里的衣服今天都打折","商场里的衣服今天都在打折","今天商场里的衣服都打折了","今天商场的衣服都打折了","今天商场里衣服都打折","今天商场里衣服都在打折","商场的衣服今天都打折","商场的衣服今天都在打折"],"explanation_vi":"Thời gian 今天 đứng trước; 都(在)打折 = đều (đang) giảm giá."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:再说","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这件外套太贵了，再说你已经有两件了。","answers_vi":["Cái áo khoác này đắt quá, vả lại bạn đã có hai cái rồi.","Áo khoác này đắt quá, hơn nữa cậu có hai cái rồi."],"keywords":[["áo khoác","áo"],["đắt","mắc"],["vả lại","hơn nữa","với lại","mà lại","thêm nữa","huống chi","còn nữa","ngoài ra"],["hai"]],"explanation_vi":"再说 = vả lại, với lại (thêm một lý do nữa)."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:肯定","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这么贵的东西，她肯定不会买。","answers_vi":["Đồ đắt thế này, chắc chắn cô ấy sẽ không mua.","Thứ đắt như vậy, chắc chắn chị ấy không mua đâu."],"keywords":[["đắt","mắc"],["chắc chắn","nhất định","chắc"],["không"],["mua"]],"explanation_vi":"肯定不会 = chắc chắn sẽ không."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"聪明的顾客",
+        "title_vi":"Người khách hàng thông minh",
+        "paragraphs":[
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["购物","gòuwù","mua sắm"],["越来越","yuè lái yuè","ngày càng"],["方便","fāngbiàn","tiện lợi"],["了","le","(trợ từ)"],["。"],["商场","shāngchǎng","trung tâm thương mại"],["里","li","trong"],["有","yǒu","có"],["各种","gèzhǒng","đủ loại"],["商品","shāngpǐn","hàng hóa"],["，"],["手机","shǒujī","điện thoại"],["上","shang","trên"],["也","yě","cũng"],["到处","dàochù","khắp nơi"],["都","dōu","đều"],["是","shì","là"],["广告","guǎnggào","quảng cáo"],["。"],["很多","hěn duō","nhiều"],["商店","shāngdiàn","cửa hàng"],["常常","chángcháng","thường xuyên"],["打折","dǎzhé","giảm giá"],["，"],["有时候","yǒu shíhou","có lúc"],["甚至","shènzhì","thậm chí"],["全部","quánbù","toàn bộ"],["商品","shāngpǐn","hàng hóa"],["都","dōu","đều"],["降价","jiàngjià","hạ giá"],["。"],["不少","bù shǎo","không ít"],["人","rén","người"],["一","yī","hễ"],["看到","kàndào","nhìn thấy"],["“"],["低价","dījià","giá rẻ"],["”"],["两个","liǎng ge","hai"],["字","zì","chữ"],["，"],["马上","mǎshàng","ngay lập tức"],["就","jiù","liền"],["购买","gòumǎi","mua"],["了","le","(đã)"],["。"]],
+            "vi":"Bây giờ mua sắm ngày càng tiện. Trong trung tâm thương mại có đủ loại hàng hóa, trên điện thoại cũng đâu đâu cũng là quảng cáo. Nhiều cửa hàng thường xuyên giảm giá, có lúc thậm chí toàn bộ hàng đều hạ giá. Không ít người hễ thấy hai chữ “giá rẻ” là mua ngay."
+          },
+          {
+            "tokens":[["实际上","shíjìshàng","thực ra"],["，"],["便宜","piányi","rẻ"],["的","de","(trợ từ)"],["东西","dōngxi","đồ vật"],["并","bìng","đâu có (nhấn mạnh phủ định)"],["不","bù","không"],["一定","yídìng","nhất định"],["省钱","shěng qián","tiết kiệm tiền"],["。"],["买","mǎi","mua"],["回家","huí jiā","về nhà"],["的","de","(trợ từ)"],["东西","dōngxi","đồ"],["如果","rúguǒ","nếu"],["用不上","yòng bu shàng","không dùng đến"],["，"],["价格","jiàgé","giá"],["再","zài","dù… đến mấy"],["低","dī","thấp"],["也","yě","cũng"],["没有","méiyǒu","không có"],["用","yòng","ích lợi"],["。"]],
+            "vi":"Thực ra, đồ rẻ đâu chắc đã tiết kiệm tiền. Đồ mua về nhà nếu không dùng đến thì giá có thấp đến mấy cũng vô ích."
+          },
+          {
+            "tokens":[["对","duì","đối với"],["我","wǒ","tôi"],["来说","lái shuō","mà nói"],["，"],["买","mǎi","mua"],["东西","dōngxi","đồ"],["以前","yǐqián","trước khi"],["要","yào","cần"],["先","xiān","trước tiên"],["问","wèn","hỏi"],["自己","zìjǐ","bản thân"],["两个","liǎng ge","hai"],["问题","wèntí","câu hỏi"],["："],["我","wǒ","tôi"],["真的","zhēn de","thật sự"],["需要","xūyào","cần"],["吗","ma","không"],["？"],["它","tā","nó"],["适合","shìhé","hợp với"],["我","wǒ","tôi"],["吗","ma","không"],["？"],["尤其是","yóuqí shì","đặc biệt là"],["买","mǎi","mua"],["衣服","yīfu","quần áo"],["的时候","de shíhou","khi"],["，"],["不要","búyào","đừng"],["只","zhǐ","chỉ"],["看","kàn","nhìn"],["牌子","páizi","nhãn hiệu"],["和","hé","và"],["广告","guǎnggào","quảng cáo"],["，"],["要","yào","phải"],["看","kàn","xem"],["样子","yàngzi","kiểu dáng"],["和","hé","và"],["大小","dàxiǎo","kích cỡ"],["是不是","shì bu shì","có… hay không"],["适合","shìhé","hợp với"],["自己","zìjǐ","bản thân"],["。"]],
+            "vi":"Với tôi thì trước khi mua đồ phải tự hỏi mình hai câu: Mình thật sự cần không? Nó có hợp với mình không? Nhất là khi mua quần áo, đừng chỉ nhìn nhãn hiệu và quảng cáo, phải xem kiểu dáng và kích cỡ có hợp với mình không."
+          },
+          {
+            "tokens":[["只","zhǐ","chỉ"],["买","mǎi","mua"],["对","duì","đúng"],["的","de","(cái)"],["，"],["不","bù","không"],["买","mǎi","mua"],["贵","guì","đắt"],["的","de","(cái)"],["，"],["肯定","kěndìng","chắc chắn"],["能","néng","có thể"],["省下","shěng xia","tiết kiệm được"],["不少","bù shǎo","không ít"],["钱","qián","tiền"],["。"],["再说","zàishuō","vả lại"],["，"],["买到","mǎi dào","mua được"],["真正","zhēnzhèng","thật sự"],["需要","xūyào","cần"],["的","de","(trợ từ)"],["东西","dōngxi","đồ"],["，"],["用起来","yòng qilai","khi dùng"],["也","yě","cũng"],["更","gèng","càng"],["开心","kāixīn","vui"],["。"],["我","wǒ","tôi"],["想","xiǎng","nghĩ"],["，"],["这样","zhèyàng","như thế"],["的","de","(trợ từ)"],["顾客","gùkè","khách hàng"],["才","cái","mới"],["是","shì","là"],["聪明","cōngming","thông minh"],["的","de","(trợ từ)"],["顾客","gùkè","khách hàng"],["。"]],
+            "vi":"Chỉ mua đồ đúng, không mua đồ đắt, chắc chắn tiết kiệm được không ít tiền. Vả lại, mua được thứ thật sự cần thì dùng cũng vui hơn. Tôi nghĩ, khách hàng như thế mới là khách hàng thông minh."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"现在很多商店常常怎么样？","options":["打折","免费送东西","不收现金","不让顾客排队"],"answer":0,"explanation_vi":"Đoạn 1: 很多商店常常打折."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”买东西以前，会先问自己什么问题？","options":["我真的需要吗","这个牌子有名吗","这个东西流行吗","广告多不多"],"answer":0,"explanation_vi":"Đoạn 3: 我真的需要吗？它适合我吗？"},
+          {"id":"rq3","type":"choice","tag":"g:尤其","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"买衣服的时候，“我”觉得应该看什么？","options":["样子和大小是不是适合自己","牌子和广告","价格是不是最低","是不是今年流行的"],"answer":0,"explanation_vi":"Đoạn 3: 尤其是买衣服的时候……要看样子和大小是不是适合自己."},
+          {"id":"rq4","type":"choice","tag":"g:实际","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"便宜的东西一定能省钱。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 实际上，便宜的东西并不一定省钱 — câu này sai."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”觉得聪明的顾客只买对的，不买贵的。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 4: 只买对的，不买贵的……这样的顾客才是聪明的顾客 — câu này đúng."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Lần đầu đi chợ",
+        "text_zh":"上个星期，我第一次去中国的菜市场。我以为买东西一定要用现金，所以专门准备了很多零钱。没想到，卖菜的阿姨说，现在大家都用手机扫码付钱，用现金的人已经很少了。她帮我算了一下：一斤鸡蛋六块，加上两斤苹果十块，一共十六块。我觉得这里的价钱比超市低，尤其是水果，又新鲜又便宜。下次去，我肯定不带那么多零钱了。",
+        "pinyin":"Shàng ge xīngqī, wǒ dì yī cì qù Zhōngguó de cài shìchǎng. Wǒ yǐwéi mǎi dōngxi yídìng yào yòng xiànjīn, suǒyǐ zhuānmén zhǔnbèi le hěn duō língqián. Méi xiǎngdào, mài cài de āyí shuō, xiànzài dàjiā dōu yòng shǒujī sǎomǎ fù qián, yòng xiànjīn de rén yǐjīng hěn shǎo le. Tā bāng wǒ suàn le yíxià: yì jīn jīdàn liù kuài, jiāshàng liǎng jīn píngguǒ shí kuài, yígòng shíliù kuài. Wǒ juéde zhèli de jiàqián bǐ chāoshì dī, yóuqí shì shuǐguǒ, yòu xīnxiān yòu piányi. Xià cì qù, wǒ kěndìng bú dài nàme duō língqián le.",
+        "vi":"Tuần trước, lần đầu tiên tôi đi chợ ở Trung Quốc. Tôi tưởng mua đồ nhất định phải dùng tiền mặt, nên đã chuẩn bị riêng rất nhiều tiền lẻ. Không ngờ cô bán rau nói bây giờ mọi người đều dùng điện thoại quét mã trả tiền, người dùng tiền mặt đã rất ít rồi. Cô tính giúp tôi: một cân trứng sáu tệ, cộng thêm hai cân táo mười tệ, tổng cộng mười sáu tệ. Tôi thấy giá ở đây thấp hơn siêu thị, nhất là trái cây, vừa tươi vừa rẻ. Lần sau đi, chắc chắn tôi không mang nhiều tiền lẻ thế nữa.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"“我”为什么准备了很多零钱？","options":["因为以为买东西一定要用现金","因为手机没有钱了","因为市场不能扫码","因为阿姨让“我”带零钱"],"answer":0,"explanation_vi":"Nghe được: 我以为买东西一定要用现金，所以专门准备了很多零钱."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"现在市场里大家一般怎么付钱？","options":["用手机扫码","用现金","用银行卡","用信用卡"],"answer":0,"explanation_vi":"Nghe được: 现在大家都用手机扫码付钱."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"“我”一共花了多少钱？","options":["十六块","六块","十块","二十六块"],"answer":0,"explanation_vi":"Nghe được: 一斤鸡蛋六块，加上两斤苹果十块，一共十六块."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"“我”觉得市场里什么东西尤其便宜？","options":["水果","鸡蛋","衣服","零钱"],"answer":0,"explanation_vi":"Nghe được: 尤其是水果，又新鲜又便宜."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"打折","pinyin":"dǎzhé","vi":"giảm giá","tip_vi":"打 dǎ đứng trước thanh 2 nên chỉ đọc nửa thanh 3 (thấp rồi dừng). 折 zhé: zh uốn lưỡi, đầu lưỡi cong lên chạm vòm; e đọc như “ơ” hơi lùi về sau, không phải “e”."},
+      {"id":"s2","zh":"购物","pinyin":"gòuwù","vi":"mua sắm","tip_vi":"Hai thanh 4 liền nhau: cả hai đều rơi dứt khoát, chữ đầu có thể hơi ngắn hơn. 物 wù: môi tròn như “u”, đừng đọc thành “vụ” với âm v."},
+      {"id":"s3","zh":"这个颜色很适合你。","pinyin":"Zhège yánsè hěn shìhé nǐ.","vi":"Màu này rất hợp với bạn.","tip_vi":"适 shì: sh uốn lưỡi, -i đọc như “ư” uốn lưỡi, không đọc “si”. 色 sè: s đầu lưỡi (khác sh). 合 hé: h xát ở cuống lưỡi, nghe hơi “khà”, không phải h tiếng Việt."},
+      {"id":"s4","zh":"对我来说，价格最重要。","pinyin":"Duì wǒ lái shuō, jiàgé zuì zhòngyào.","vi":"Với tôi thì giá cả quan trọng nhất.","tip_vi":"说 shuō: uo môi tròn rồi mở ra, đừng đọc thành “sâu”. 最 zuì: z không bật hơi, đặt đầu lưỡi sau răng dưới. 重 zhòng: -ong cuống lưỡi."},
+      {"id":"s5","zh":"这件外套太贵了，再说你已经有两件了。","pinyin":"Zhè jiàn wàitào tài guì le, zàishuō nǐ yǐjīng yǒu liǎng jiàn le.","vi":"Áo khoác này đắt quá, vả lại bạn đã có hai cái rồi.","tip_vi":"再说 zàishuō: z (đầu lưỡi) rồi sh (uốn lưỡi), phân biệt rõ. 你已经 nǐ yǐjīng: hai thanh 3 liền nên 你 đọc gần như thanh 2. 有两 yǒu liǎng cũng là hai thanh 3: 有 đọc lên như thanh 2."},
+      {"id":"s6","zh":"实际上，这件衣服并不贵。","pinyin":"Shíjìshàng, zhè jiàn yīfu bìng bú guì.","vi":"Thực ra, cái áo này đâu có đắt.","tip_vi":"实 shí, 上 shàng: âm uốn lưỡi; 际 jì: j mặt lưỡi, không uốn. 不贵 bú guì: 不 trước thanh 4 đọc bú. 衣服 yīfu: 服 đọc nhẹ."},
+      {"id":"s7","zh":"我喜欢逛商场，尤其喜欢打折的时候去。","pinyin":"Wǒ xǐhuan guàng shāngchǎng, yóuqí xǐhuan dǎzhé de shíhou qù.","vi":"Tôi thích đi dạo trung tâm thương mại, nhất là thích đi lúc giảm giá.","tip_vi":"逛 guàng, 商场 shāngchǎng: vần -ang mở miệng rộng, kết thúc ở cuống lưỡi. 尤其 yóuqí: q bật hơi mạnh. 我喜 wǒ xǐ hai thanh 3: 我 đọc như thanh 2. 欢 huan, 候 hou đọc nhẹ."}
+    ],
+    "review": {
+      "remember": [
+        "肯定 + (会/能) + V = chắc chắn (đoán chắc). Phủ định: 肯定不 / 肯定没; còn 不肯定 = không chắc. Dặn dò, yêu cầu dùng 一定要.",
+        "再说: (1) vả lại – thêm một lý do, đứng đầu vế sau; (2) để sau hẵng tính: 以后再说吧、等……再说.",
+        "实际上 = thực ra (phó từ, đứng đầu vế câu hoặc sau chủ ngữ); 实际 = thực tế, thiết thực (danh từ/tính từ): 实际需要、很实际.",
+        "对 + người/nhóm + 来说 = đối với… mà nói (không được bỏ 来说). 尤其是 + N / 尤其 + V = nhất là, đặc biệt là.",
+        "适合 là động từ (适合你), 合适 là tính từ (很合适). 打八折 = trả 80% giá (giảm 20%). 戴 mũ/kính, 穿 áo/giày/tất."
+      ],
+      "mistakes": [
+        "✗ 他会肯定来 / 他不肯定会来 → ✓ 他肯定会来 / 他肯定不会来: 肯定 đứng trước 会, từ phủ định đứng sau 肯定.",
+        "✗ 对我说，价格最重要 → ✓ 对我来说，价格最重要: thiếu 来说 thành “nói với tôi”.",
+        "✗ 这件衣服合适你 → ✓ 这件衣服很适合你 / 这件衣服很合适: 合适 không mang tân ngữ."
+      ]
+    }
+  }
+}

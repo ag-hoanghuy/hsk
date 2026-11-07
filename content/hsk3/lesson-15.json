@@ -1,0 +1,223 @@
+{
+  "level": 3,
+  "number": 15,
+  "summary": "Đi khám sức khỏe: kể triệu chứng và nghe bác sĩ dặn dò; học “除了……以外，都/还/也……” (ngoài… ra), đại từ nghi vấn dùng phiếm chỉ (没什么问题、吃点儿什么) và cách nói mức độ cực kỳ “极了”.",
+  "readings_ok": ["里 li", "谁 shéi", "还 hái"],
+  "content": {
+    "objectives": [
+      "Kể với bác sĩ mình khó chịu ở đâu: 我头疼、我感冒了、发烧了、手和眼睛不太舒服",
+      "Nói “ngoài… ra” bằng 除了……以外，都/还/也……, phân biệt nghĩa “trừ ra” và “thêm vào”",
+      "Dùng 什么、哪儿、谁 với nghĩa “gì đó, đâu đó, ai đó”: 没什么问题、吃点儿什么、去哪儿玩儿了吗",
+      "Nhấn mạnh mức độ cực kỳ bằng tính từ + 极了: 好极了、累极了、疼极了"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"检查","pinyin":"jiǎnchá","pos":"động từ / danh từ","meaning_vi":"kiểm tra, khám","example_zh":"医生给我检查了一下身体。","example_pinyin":"Yīshēng gěi wǒ jiǎnchá le yíxià shēntǐ.","example_vi":"Bác sĩ khám sức khỏe cho tôi một chút.","hanviet":"KIỂM TRA","note_vi":"检查身体 = khám sức khỏe; 检查作业 = kiểm tra bài tập. Cũng dùng như danh từ: 做检查 (làm xét nghiệm, kiểm tra). Khác 考试 (thi cử)."},
+      {"id":"v2","hanzi":"其他","pinyin":"qítā","pos":"đại từ","meaning_vi":"khác, những (người, cái) khác","example_zh":"我只认识小王，其他人我都不认识。","example_pinyin":"Wǒ zhǐ rènshi Xiǎo Wáng, qítā rén wǒ dōu bú rènshi.","example_vi":"Tôi chỉ quen Tiểu Vương, những người khác tôi đều không quen.","hanviet":"KỲ THA","note_vi":"其他 + danh từ (其他人, 其他问题) hoặc dùng một mình: 其他都没问题 (những cái khác đều ổn). Nghĩa gần 别的; 其他 hơi trang trọng hơn. q bật hơi mạnh."},
+      {"id":"v3","hanzi":"除了","pinyin":"chúle","pos":"giới từ","meaning_vi":"ngoài, trừ","example_zh":"除了游泳，他还喜欢踢足球。","example_pinyin":"Chúle yóuyǒng, tā hái xǐhuan tī zúqiú.","example_vi":"Ngoài bơi ra, anh ấy còn thích đá bóng.","hanviet":"TRỪ","note_vi":"Thường đi cùng 以外 ở cuối: 除了……以外. Vế sau dùng 都 (trừ ra) hoặc 还/也 (thêm vào). Xem ngữ pháp 1. 了 đọc nhẹ: chúle."},
+      {"id":"v4","hanzi":"以外","pinyin":"yǐwài","pos":"danh từ","meaning_vi":"ngoài ra (đứng sau 除了……)","example_zh":"除了周末以外，他每天都很忙。","example_pinyin":"Chúle zhōumò yǐwài, tā měi tiān dōu hěn máng.","example_vi":"Ngoài cuối tuần ra, ngày nào anh ấy cũng bận.","hanviet":"DĨ NGOẠI","note_vi":"以外 đứng cuối cụm 除了……以外, giống chữ “ra” trong “ngoài… ra”. Có thể lược bỏ: 除了周末，他每天都很忙."},
+      {"id":"v5","hanzi":"极","pinyin":"jí","pos":"phó từ","meaning_vi":"cực, cực kỳ","example_zh":"今天的天气好极了！","example_pinyin":"Jīntiān de tiānqì hǎo jí le!","example_vi":"Thời tiết hôm nay tuyệt quá!","hanviet":"CỰC","note_vi":"Ở cấp này chủ yếu dùng 极了 đứng SAU tính từ: 好极了, 累极了. Không thêm 很/非常 phía trước. j là âm mặt lưỡi, không đọc như “gi” hay “chi” tiếng Việt."},
+      {"id":"v6","hanzi":"病","pinyin":"bìng","pos":"danh từ / động từ","meaning_vi":"bệnh; bị ốm","example_zh":"他病了，今天没来上班。","example_pinyin":"Tā bìng le, jīntiān méi lái shàngbān.","example_vi":"Anh ấy bị ốm, hôm nay không đi làm.","hanviet":"BỆNH","note_vi":"Là động từ: 他病了 = 他生病了 (anh ấy ốm rồi). Là danh từ: 什么病 (bệnh gì), 大病 (bệnh nặng)."},
+      {"id":"v7","hanzi":"看病","pinyin":"kànbìng","pos":"động từ","meaning_vi":"khám bệnh, đi khám","example_zh":"我不舒服，下午要去医院看病。","example_pinyin":"Wǒ bù shūfu, xiàwǔ yào qù yīyuàn kànbìng.","example_vi":"Tôi không khỏe, chiều nay phải đi bệnh viện khám.","note_vi":"Người bệnh đi khám và bác sĩ khám bệnh đều dùng 看病. Là động từ li hợp: 看了两次病 (đi khám hai lần)."},
+      {"id":"v8","hanzi":"舒服","pinyin":"shūfu","pos":"tính từ","meaning_vi":"dễ chịu, thoải mái; khỏe (trong người)","example_zh":"这个沙发很舒服。","example_pinyin":"Zhège shāfā hěn shūfu.","example_vi":"Cái sofa này rất êm, ngồi rất thoải mái.","note_vi":"不舒服 = khó chịu trong người, hơi ốm: 我有点儿不舒服. 服 đọc nhẹ: shūfu. sh uốn lưỡi, đừng đọc thành “xu”."},
+      {"id":"v9","hanzi":"疼","pinyin":"téng","pos":"tính từ","meaning_vi":"đau","example_zh":"我头疼，不想吃饭。","example_pinyin":"Wǒ tóu téng, bù xiǎng chī fàn.","example_vi":"Tôi đau đầu, không muốn ăn cơm.","note_vi":"Bộ phận cơ thể đứng TRƯỚC 疼: 头疼 (đau đầu), 牙疼 (đau răng), 腿疼 (đau chân). Không nói ✗ 疼头 theo kiểu tiếng Việt “đau đầu”. t bật hơi."},
+      {"id":"v10","hanzi":"感冒","pinyin":"gǎnmào","pos":"động từ / danh từ","meaning_vi":"bị cảm; cảm cúm","example_zh":"天气冷了，小心感冒。","example_pinyin":"Tiānqì lěng le, xiǎoxīn gǎnmào.","example_vi":"Trời lạnh rồi, cẩn thận kẻo bị cảm.","hanviet":"CẢM MẠO","note_vi":"Hay dùng như động từ: 我感冒了 (tôi bị cảm rồi), không cần “bị” như tiếng Việt."},
+      {"id":"v11","hanzi":"发烧","pinyin":"fāshāo","pos":"động từ","meaning_vi":"sốt, bị sốt","example_zh":"孩子发烧了，我要带他去医院。","example_pinyin":"Háizi fāshāo le, wǒ yào dài tā qù yīyuàn.","example_vi":"Con bị sốt rồi, tôi phải đưa cháu đi bệnh viện.","hanviet":"PHÁT THIÊU","note_vi":"Hán Việt “phát thiêu” gần với “phát sốt”, dễ nhớ. Là động từ li hợp: 发了两天烧 (sốt hai ngày)."},
+      {"id":"v12","hanzi":"别的","pinyin":"biéde","pos":"đại từ","meaning_vi":"cái khác, (thứ) khác","example_zh":"这件衣服太贵了，有别的吗？","example_pinyin":"Zhè jiàn yīfu tài guì le, yǒu biéde ma?","example_vi":"Cái áo này đắt quá, có cái khác không?","note_vi":"别的 + danh từ (别的东西) hoặc đứng một mình. Gần nghĩa 其他. Đừng nhầm với 别人 (người khác) và 别 (đừng)."},
+      {"id":"v13","hanzi":"头","pinyin":"tóu","pos":"danh từ","meaning_vi":"đầu","example_zh":"我头有点儿疼。","example_pinyin":"Wǒ tóu yǒudiǎnr téng.","example_vi":"Tôi hơi đau đầu.","hanviet":"ĐẦU","note_vi":"头疼 = đau đầu. t bật hơi, ou tròn môi ở cuối; đừng đọc thành “thâu”."},
+      {"id":"v14","hanzi":"手","pinyin":"shǒu","pos":"danh từ","meaning_vi":"tay","example_zh":"吃饭前要洗手。","example_pinyin":"Chī fàn qián yào xǐ shǒu.","example_vi":"Trước khi ăn cơm phải rửa tay.","hanviet":"THỦ","note_vi":"Có trong nhiều từ đã học: 手机 (điện thoại, “máy cầm tay”), 手表 (đồng hồ đeo tay). 洗手 xǐ shǒu: hai thanh 3, 洗 đọc gần thanh 2."},
+      {"id":"v15","hanzi":"身高","pinyin":"shēngāo","pos":"danh từ","meaning_vi":"chiều cao (của người)","example_zh":"我的身高是一米六。","example_pinyin":"Wǒ de shēngāo shì yì mǐ liù.","example_vi":"Chiều cao của tôi là một mét sáu.","note_vi":"Hỏi chiều cao: 你多高？ hoặc 你的身高是多少？ Khi nói “1m65” người Trung nói 一米六五."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"病人","pinyin":"bìngrén","pos":"danh từ","meaning_vi":"bệnh nhân, người bệnh","example_zh":"医院里有很多病人。","example_pinyin":"Yīyuàn li yǒu hěn duō bìngrén.","example_vi":"Trong bệnh viện có rất nhiều bệnh nhân."},
+      {"id":"x2","hanzi":"住院","pinyin":"zhùyuàn","pos":"động từ","meaning_vi":"nằm viện","example_zh":"奶奶住院了，我每天去看她。","example_pinyin":"Nǎinai zhùyuàn le, wǒ měi tiān qù kàn tā.","example_vi":"Bà nằm viện rồi, ngày nào tôi cũng đến thăm bà."},
+      {"id":"x3","hanzi":"出院","pinyin":"chūyuàn","pos":"động từ","meaning_vi":"ra viện, xuất viện","example_zh":"爷爷明天就可以出院了。","example_pinyin":"Yéye míngtiān jiù kěyǐ chūyuàn le.","example_vi":"Ngày mai ông đã có thể ra viện rồi."},
+      {"id":"x4","hanzi":"药店","pinyin":"yàodiàn","pos":"danh từ","meaning_vi":"hiệu thuốc","example_zh":"我家楼下有一个药店。","example_pinyin":"Wǒ jiā lóu xià yǒu yí ge yàodiàn.","example_vi":"Dưới nhà tôi có một hiệu thuốc."},
+      {"id":"x5","hanzi":"常见","pinyin":"chángjiàn","pos":"tính từ","meaning_vi":"thường gặp, phổ biến","example_zh":"感冒是一种很常见的病。","example_pinyin":"Gǎnmào shì yì zhǒng hěn chángjiàn de bìng.","example_vi":"Cảm cúm là một bệnh rất thường gặp."},
+      {"id":"x6","hanzi":"照顾","pinyin":"zhàogù","pos":"động từ","meaning_vi":"chăm sóc, trông nom","example_zh":"妈妈病了，我在家照顾她。","example_pinyin":"Māma bìng le, wǒ zài jiā zhàogù tā.","example_vi":"Mẹ ốm, tôi ở nhà chăm sóc mẹ."},
+      {"id":"x7","hanzi":"口","pinyin":"kǒu","pos":"danh từ / lượng từ","meaning_vi":"miệng; khẩu (lượng từ cho người trong nhà)","example_zh":"我家有四口人。","example_pinyin":"Wǒ jiā yǒu sì kǒu rén.","example_vi":"Nhà tôi có bốn người."},
+      {"id":"x8","hanzi":"牙","pinyin":"yá","pos":"danh từ","meaning_vi":"răng","example_zh":"我牙疼，想去看看医生。","example_pinyin":"Wǒ yá téng, xiǎng qù kànkan yīshēng.","example_vi":"Tôi đau răng, muốn đi khám bác sĩ."},
+      {"id":"x9","hanzi":"耳朵","pinyin":"ěrduo","pos":"danh từ","meaning_vi":"tai","example_zh":"小狗的耳朵很大。","example_pinyin":"Xiǎo gǒu de ěrduo hěn dà.","example_vi":"Tai của con chó nhỏ rất to."},
+      {"id":"x10","hanzi":"嘴","pinyin":"zuǐ","pos":"danh từ","meaning_vi":"miệng","example_zh":"她的嘴很小，眼睛很大。","example_pinyin":"Tā de zuǐ hěn xiǎo, yǎnjing hěn dà.","example_vi":"Cô ấy miệng nhỏ, mắt to."},
+      {"id":"x11","hanzi":"脸","pinyin":"liǎn","pos":"danh từ","meaning_vi":"mặt, khuôn mặt","example_zh":"他喝了一点儿啤酒，脸就红了。","example_pinyin":"Tā hē le yìdiǎnr píjiǔ, liǎn jiù hóng le.","example_vi":"Anh ấy uống một chút bia là mặt đỏ lên."},
+      {"id":"x12","hanzi":"腿","pinyin":"tuǐ","pos":"danh từ","meaning_vi":"chân (phần đùi, cẳng chân)","example_zh":"走了一天，我的腿很累。","example_pinyin":"Zǒu le yì tiān, wǒ de tuǐ hěn lèi.","example_vi":"Đi bộ cả ngày, chân tôi mỏi lắm."},
+      {"id":"x13","hanzi":"脚","pinyin":"jiǎo","pos":"danh từ","meaning_vi":"bàn chân","example_zh":"这双鞋太小了，我的脚很疼。","example_pinyin":"Zhè shuāng xié tài xiǎo le, wǒ de jiǎo hěn téng.","example_vi":"Đôi giày này chật quá, chân tôi đau lắm."},
+      {"id":"x14","hanzi":"以上","pinyin":"yǐshàng","pos":"danh từ","meaning_vi":"trở lên, trên (một con số)","example_zh":"他的身高在一米八以上。","example_pinyin":"Tā de shēngāo zài yì mǐ bā yǐshàng.","example_vi":"Anh ấy cao từ một mét tám trở lên."},
+      {"id":"x15","hanzi":"以下","pinyin":"yǐxià","pos":"danh từ","meaning_vi":"trở xuống, dưới (một con số)","example_zh":"六岁以下的小朋友不用买票。","example_pinyin":"Liù suì yǐxià de xiǎopéngyǒu búyòng mǎi piào.","example_vi":"Trẻ em từ sáu tuổi trở xuống không cần mua vé."},
+      {"id":"x16","hanzi":"米","pinyin":"mǐ","pos":"lượng từ","meaning_vi":"mét","example_zh":"我家离公司五百米左右。","example_pinyin":"Wǒ jiā lí gōngsī wǔbǎi mǐ zuǒyòu.","example_vi":"Nhà tôi cách công ty khoảng năm trăm mét."},
+      {"id":"x17","hanzi":"姓名","pinyin":"xìngmíng","pos":"danh từ","meaning_vi":"họ tên","example_zh":"请在这儿写一下你的姓名。","example_pinyin":"Qǐng zài zhèr xiě yíxià nǐ de xìngmíng.","example_vi":"Bạn viết họ tên vào chỗ này nhé."},
+      {"id":"x18","hanzi":"出生","pinyin":"chūshēng","pos":"động từ","meaning_vi":"sinh ra, ra đời","example_zh":"我是一九九八年出生的。","example_pinyin":"Wǒ shì yī jiǔ jiǔ bā nián chūshēng de.","example_vi":"Tôi sinh năm 1998."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“除了……以外，都/还/也……” (ngoài… ra)",
+        "pattern":"除了 + A + (以外)，S + 都 + V (trừ A ra)　·　除了 + A + (以外)，S + 还/也 + V (ngoài A còn thêm)",
+        "explanation_vi":"除了……以外 giống “ngoài … ra”, nhưng có hai nghĩa tùy từ ở vế sau. (1) Vế sau có 都: loại A ra, những cái còn lại đều như nhau: 除了小王以外，我们都去了 (trừ Tiểu Vương, chúng tôi đều đi; Tiểu Vương không đi). (2) Vế sau có 还 hoặc 也: ngoài A còn có thêm cái khác: 除了头疼以外，我还发烧 (ngoài đau đầu, tôi còn sốt; cả hai đều có). Cùng một chủ ngữ thường dùng 还; vế sau có chủ ngữ khác thường dùng 也: 除了我以外，小王也感冒了. 以外 có thể bỏ. 都/还/也 là phó từ: đứng sau chủ ngữ, ngay trước động từ.",
+        "examples":[
+          {"zh":"除了小王以外，我们都去了。","pinyin":"Chúle Xiǎo Wáng yǐwài, wǒmen dōu qù le.","vi":"Trừ Tiểu Vương ra, chúng tôi đều đi rồi."},
+          {"zh":"除了头疼以外，我还有点儿发烧。","pinyin":"Chúle tóu téng yǐwài, wǒ hái yǒudiǎnr fāshāo.","vi":"Ngoài đau đầu ra, tôi còn hơi sốt."},
+          {"zh":"除了我以外，小王也感冒了。","pinyin":"Chúle wǒ yǐwài, Xiǎo Wáng yě gǎnmào le.","vi":"Không chỉ tôi, Tiểu Vương cũng bị cảm rồi."},
+          {"zh":"除了身高，其他都没什么问题。","pinyin":"Chúle shēngāo, qítā dōu méi shénme wèntí.","vi":"Ngoài chiều cao ra, những cái khác đều không có vấn đề gì."}
+        ],
+        "mistakes_vi":"✗ 小王没去。除了小王以外，我们也去了。\n✓ 小王没去。除了小王以外，我们都去了。\nTiếng Việt “ngoài… ra” dùng cho cả hai nghĩa. Muốn nói “trừ A ra” thì vế sau phải dùng 都; dùng 也/还 thành nghĩa “A có, chúng tôi cũng có”.\n✗ 除了头疼以外，还我发烧。\n✓ 除了头疼以外，我还发烧。\n还/都/也 đứng sau chủ ngữ, ngay trước động từ.\n✗ 除了周末以外，他每天很忙。\n✓ 除了周末以外，他每天都很忙。\nNghĩa “trừ ra” mà thiếu 都 thì câu nghe chưa trọn.",
+        "compare_vi":"Cấu trúc giống “ngoài … ra” của tiếng Việt: 除了 ≈ “ngoài”, 以外 ≈ “ra”. Khác ở chỗ tiếng Trung phải chọn 都 hay 还/也 ở vế sau để rõ nghĩa."
+      },
+      {
+        "id":"g2",
+        "title":"Đại từ nghi vấn dùng phiếm chỉ (2): “gì đó, đâu đó, ai đó”",
+        "pattern":"没(有) + 什么 + N/Adj　·　V + 点儿 + 什么 (+ 吗)　·　……哪儿/谁/什么……吗？",
+        "explanation_vi":"Ở bài 8, đại từ nghi vấn dùng thành cặp hô ứng (你去哪儿，我就去哪儿). Bài này, 什么, 哪儿, 谁 không dùng để hỏi mà chỉ một vật, nơi chốn, người không rõ hoặc không cần nói rõ: “gì đó, đâu đó, ai đó”. Ba kiểu hay gặp: (1) 没(有)什么 + danh từ/tính từ = “không có… gì (đáng kể)”: 没什么问题, 没什么不舒服. (2) V + 点儿 + 什么 = “… chút gì đó”: 吃点儿什么, 买点儿什么. (3) Trong câu hỏi có 吗, đại từ nghi vấn không còn là từ hỏi: 你想喝点儿什么吗？ (bạn có muốn uống gì không?), 周末你去哪儿玩儿了吗？ (cuối tuần bạn có đi đâu chơi không?). Câu có 吗 là câu hỏi có/không, nên trả lời bằng 想/不想, 去了/没去 trước.",
+        "examples":[
+          {"zh":"医生说我没什么问题。","pinyin":"Yīshēng shuō wǒ méi shénme wèntí.","vi":"Bác sĩ nói tôi không có vấn đề gì."},
+          {"zh":"你饿了吧？吃点儿什么吧。","pinyin":"Nǐ è le ba? Chī diǎnr shénme ba.","vi":"Bạn đói rồi phải không? Ăn chút gì đi."},
+          {"zh":"你想喝点儿什么吗？","pinyin":"Nǐ xiǎng hē diǎnr shénme ma?","vi":"Bạn có muốn uống gì không?"},
+          {"zh":"周末你去哪儿玩儿了吗？","pinyin":"Zhōumò nǐ qù nǎr wánr le ma?","vi":"Cuối tuần bạn có đi đâu chơi không?"},
+          {"zh":"昨天有谁来找过我吗？","pinyin":"Zuótiān yǒu shéi lái zhǎo guo wǒ ma?","vi":"Hôm qua có ai đến tìm tôi không?"}
+        ],
+        "mistakes_vi":"✗ 我没有问题什么。\n✓ 我没（有）什么问题。\nTiếng Việt nói “không có vấn đề gì”, đặt “gì” sau danh từ; tiếng Trung đặt 什么 TRƯỚC danh từ.\n✗ 你吃什么一点儿吧。\n✓ 你吃点儿什么吧。\n“Ăn gì một chút” trong tiếng Trung là V + 点儿 + 什么.\n✗ A：你想吃点儿什么吗？ B：饺子。\n✓ A：你想吃点儿什么吗？ B：想，我想吃饺子。/ 不想，我不饿。\nCâu có 吗 hỏi “có muốn hay không”, nên trả lời 想/不想 trước.",
+        "compare_vi":"Rất giống tiếng Việt: “Bạn có muốn ăn gì không?”, “Không có gì đâu”, “Cuối tuần có đi đâu không?”, “Có ai tìm tôi không?” — “gì, đâu, ai” ở đây cũng không dùng để hỏi."
+      },
+      {
+        "id":"g3",
+        "title":"Nói mức độ rất cao: tính từ + 极了",
+        "pattern":"Tính từ / động từ tâm lý + 极了",
+        "explanation_vi":"极了 đứng sau tính từ (好, 累, 疼, 舒服…) hoặc động từ chỉ tâm lý (喜欢, 想…) để nói mức độ rất cao, giống “cực kỳ”, “… cực”, “… vô cùng”: 好极了 (tuyệt vời), 疼极了 (đau kinh khủng), 喜欢极了 (thích vô cùng). Câu có 极了 đã đủ mạnh nên không thêm 很, 非常, 太 phía trước, và sau 极了 không có tân ngữ: muốn nói “thích cái gì đó cực kỳ” thì đưa cái đó lên đầu câu. 极了 hay dùng khi nói chuyện; muốn nói ngược lại thì dùng 一点儿也不…….",
+        "examples":[
+          {"zh":"今天的天气好极了！","pinyin":"Jīntiān de tiānqì hǎo jí le!","vi":"Thời tiết hôm nay tuyệt vời!"},
+          {"zh":"工作了一天，我累极了。","pinyin":"Gōngzuò le yì tiān, wǒ lèi jí le.","vi":"Làm việc cả ngày, tôi mệt rã rời."},
+          {"zh":"这个沙发舒服极了。","pinyin":"Zhège shāfā shūfu jí le.","vi":"Cái sofa này êm cực kỳ."},
+          {"zh":"这家饭馆的饺子我喜欢极了。","pinyin":"Zhè jiā fànguǎn de jiǎozi wǒ xǐhuan jí le.","vi":"Sủi cảo của quán này tôi thích vô cùng."}
+        ],
+        "mistakes_vi":"✗ 我很累极了。\n✓ 我累极了。\n极了 đã có nghĩa “cực kỳ”, không dùng thêm 很/非常/太.\n✗ 今天极了好。\n✓ 今天好极了。\nTiếng Việt có thể nói “cực kỳ tốt”, nhưng 极了 luôn đứng SAU tính từ (giống “tốt cực”).\n✗ 我喜欢极了这个公园。\n✓ 这个公园我喜欢极了。\nSau 极了 không có tân ngữ; đưa tân ngữ lên đầu câu.",
+        "compare_vi":"Giống cách nói “ngon cực”, “mệt cực” của tiếng Việt: từ chỉ mức độ đứng sau tính từ."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Đi khám sức khỏe",
+      "scene_vi": "Tiểu Lâm (Lâm Tiểu Vũ) đến bệnh viện khám sức khỏe định kỳ. Bác sĩ hỏi han và xem kết quả.",
+      "lines": [
+        {"speaker":"医生","zh":"你好，请坐。请先告诉我你的姓名。你是哪年出生的？","pinyin":"Nǐ hǎo, qǐng zuò. Qǐng xiān gàosu wǒ nǐ de xìngmíng. Nǐ shì nǎ nián chūshēng de?","vi":"Chào chị, mời chị ngồi. Chị cho tôi biết họ tên trước nhé. Chị sinh năm nào?"},
+        {"speaker":"小林","zh":"我叫林小雨，是一九九五年出生的。","pinyin":"Wǒ jiào Lín Xiǎoyǔ, shì yī jiǔ jiǔ wǔ nián chūshēng de.","vi":"Tôi tên là Lâm Tiểu Vũ, sinh năm 1995."},
+        {"speaker":"医生","zh":"今天是来检查身体的吧？最近身体怎么样？有什么不舒服吗？","pinyin":"Jīntiān shì lái jiǎnchá shēntǐ de ba? Zuìjìn shēntǐ zěnmeyàng? Yǒu shénme bù shūfu ma?","vi":"Hôm nay chị đến khám sức khỏe phải không? Dạo này sức khỏe thế nào? Có thấy khó chịu gì không?"},
+        {"speaker":"小林","zh":"上个星期我感冒发烧，在家休息了三天。现在除了头还有点儿疼以外，别的都挺好的。","pinyin":"Shàng ge xīngqī wǒ gǎnmào fāshāo, zài jiā xiūxi le sān tiān. Xiànzài chúle tóu hái yǒudiǎnr téng yǐwài, biéde dōu tǐng hǎo de.","vi":"Tuần trước tôi bị cảm sốt, nghỉ ở nhà ba ngày. Bây giờ ngoài việc đầu vẫn hơi đau ra, những cái khác đều khá ổn."},
+        {"speaker":"医生","zh":"你什么时候会头疼？","pinyin":"Nǐ shénme shíhou huì tóu téng?","vi":"Chị hay bị đau đầu vào lúc nào?"},
+        {"speaker":"小林","zh":"工作太累的时候。我每天坐在电脑前面十个小时左右，下了班，头就疼极了，手和眼睛也不太舒服。","pinyin":"Gōngzuò tài lèi de shíhou. Wǒ měi tiān zuò zài diànnǎo qiánmiàn shí ge xiǎoshí zuǒyòu, xià le bān, tóu jiù téng jí le, shǒu hé yǎnjing yě bú tài shūfu.","vi":"Lúc làm việc mệt quá. Mỗi ngày tôi ngồi trước máy tính khoảng mười tiếng, tan làm là đầu đau kinh khủng, tay và mắt cũng không thoải mái lắm."},
+        {"speaker":"医生","zh":"我看一下。你的身高是一米六五，五十公斤，眼睛、耳朵和牙都很好。","pinyin":"Wǒ kàn yíxià. Nǐ de shēngāo shì yì mǐ liù wǔ, wǔshí gōngjīn, yǎnjing, ěrduo hé yá dōu hěn hǎo.","vi":"Để tôi xem. Chị cao 1m65, nặng năm mươi cân, mắt, tai và răng đều tốt."},
+        {"speaker":"小林","zh":"那我头疼，是不是有什么病？要不要吃药？","pinyin":"Nà wǒ tóu téng, shì bu shì yǒu shénme bìng? Yào bu yào chī yào?","vi":"Vậy tôi đau đầu thì có phải bị bệnh gì không? Có cần uống thuốc không ạ?"},
+        {"speaker":"医生","zh":"别担心。除了有点儿累以外，其他都没什么问题。不用吃药，每天少看一会儿电脑，多出去走走，头就不疼了。","pinyin":"Bié dānxīn. Chúle yǒudiǎnr lèi yǐwài, qítā dōu méi shénme wèntí. Búyòng chī yào, měi tiān shǎo kàn yíhuìr diànnǎo, duō chūqu zǒuzou, tóu jiù bù téng le.","vi":"Chị đừng lo. Ngoài việc hơi mệt ra, những cái khác đều không có vấn đề gì. Không cần uống thuốc, mỗi ngày bớt nhìn máy tính một chút, ra ngoài đi dạo nhiều hơn là hết đau đầu."},
+        {"speaker":"小林","zh":"太好了！谢谢医生，这下我就放心了。","pinyin":"Tài hǎo le! Xièxie yīshēng, zhè xià wǒ jiù fàngxīn le.","vi":"Tốt quá! Cảm ơn bác sĩ, thế này thì tôi yên tâm rồi."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:检查","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"明天我要去医院____身体。","options":["检查","看病","舒服","照顾"],"answer":0,"explanation_vi":"检查身体 = khám sức khỏe. 看病 không có tân ngữ 身体 phía sau."},
+      {"id":"e2","type":"choice","tag":"v:舒服","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"医生：你哪儿不____？","options":["舒服","检查","感冒","发烧"],"answer":0,"explanation_vi":"哪儿不舒服？ = Khó chịu ở đâu? Câu bác sĩ hay hỏi."},
+      {"id":"e3","type":"choice","tag":"v:疼","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我头____，不想去上班。","options":["疼","身高","病人","检查"],"answer":0,"explanation_vi":"头疼 = đau đầu: bộ phận cơ thể + 疼."},
+      {"id":"e4","type":"choice","tag":"v:别的","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我只想喝水，不想喝____。","options":["别的","除了","以外","极了"],"answer":0,"explanation_vi":"别的 = thứ khác. 除了, 以外, 极了 không đứng một mình làm tân ngữ."},
+      {"id":"e5","type":"choice","tag":"g:除了以外","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"小王病了，没去。除了小王以外，我们____去了。","options":["都","也","还","又"],"answer":0,"explanation_vi":"Tiểu Vương không đi, tức là “trừ Tiểu Vương ra” nên vế sau dùng 都. 也/还 sẽ thành nghĩa Tiểu Vương cũng đi."},
+      {"id":"e6","type":"choice","tag":"g:除了以外","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"除了头疼以外，我____有点儿发烧。","options":["还","都","就","才"],"answer":0,"explanation_vi":"Đau đầu và sốt đều có: “ngoài… ra còn…” nên dùng 还."},
+      {"id":"e7","type":"choice","tag":"g:疑问代词2","prompt_vi":"Chọn nghĩa đúng của “什么” trong câu.","question_zh":"“你想吃点儿什么吗？”中的“什么”是什么意思？","options":["gì đó (không nói rõ)","cái gì? (đang hỏi món cụ thể)","tất cả mọi thứ","không có gì"],"answer":0,"explanation_vi":"Câu có 吗 nên 什么 không dùng để hỏi, chỉ “gì đó”: Bạn có muốn ăn gì không?"},
+      {"id":"e8","type":"choice","tag":"g:疑问代词2","prompt_vi":"Chọn câu đúng với nghĩa: “Tôi không có vấn đề gì.”","question_zh":"Tôi không có vấn đề gì.","options":["我没什么问题。","我没有问题什么。","我什么没问题。","我没问题什么。"],"answer":0,"explanation_vi":"什么 đứng trước danh từ: 没 + 什么 + 问题."},
+      {"id":"e9","type":"choice","tag":"g:极了","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"今天天气好____！","options":["极了","很","非常","太"],"answer":0,"explanation_vi":"极了 đứng sau tính từ: 好极了. 很, 非常, 太 phải đứng trước tính từ."},
+      {"id":"e10","type":"choice","tag":"v:感冒","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____了，还有点儿发烧。","options":["感冒","舒服","检查","身高"],"answer":0,"explanation_vi":"我感冒了 = tôi bị cảm rồi; đi kèm triệu chứng 发烧."},
+      {"id":"e11","type":"order","tag":"g:除了以外","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["除了","他","以外","我们","都","去了"],"answers":["除了他以外我们都去了","我们除了他以外都去了"],"translation_vi":"Trừ anh ấy ra, chúng tôi đều đi rồi.","explanation_vi":"除了 + 他 + 以外 đứng đầu câu (hoặc sau chủ ngữ); 都 đứng ngay trước động từ."},
+      {"id":"e12","type":"order","tag":"g:极了","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个","饺子","好吃","极了"],"answers":["这个饺子好吃极了"],"translation_vi":"Món sủi cảo này ngon cực.","explanation_vi":"极了 đứng ngay sau tính từ 好吃, ở cuối câu."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"检查","vi":"kiểm tra, khám"},{"zh":"感冒","vi":"bị cảm"},{"zh":"发烧","vi":"bị sốt"},{"zh":"疼","vi":"đau"},{"zh":"舒服","vi":"dễ chịu, thoải mái"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"头","vi":"đầu"},{"zh":"手","vi":"tay"},{"zh":"腿","vi":"chân (cẳng chân)"},{"zh":"耳朵","vi":"tai"},{"zh":"牙","vi":"răng"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:除了以外","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"除了游泳以外，他____喜欢跑步。","options":["还","都","就","再"],"answer":0,"explanation_vi":"Thích bơi và còn thích chạy bộ: “ngoài… ra còn…” dùng 还."},
+        {"id":"q2","type":"choice","tag":"g:除了以外","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"小林和小王没来。除了他们两个以外，大家____来了。","options":["都","还","再","又"],"answer":0,"explanation_vi":"Hai người không đến, những người khác đều đến: “trừ ra” dùng 都."},
+        {"id":"q3","type":"choice","tag":"g:疑问代词2","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：你想买点儿____吗？B：不买，我看看就走。","options":["什么","哪儿","谁","怎么"],"answer":0,"explanation_vi":"买点儿什么 = mua chút gì đó. Câu có 吗 nên 什么 nghĩa là “gì đó”."},
+        {"id":"q4","type":"choice","tag":"g:疑问代词2","prompt_vi":"Câu nào có “什么” KHÔNG dùng để hỏi?","question_zh":"哪个句子里的“什么”不是问问题？","options":["我没什么问题。","你想吃什么？","这是什么？","你叫什么名字？"],"answer":0,"explanation_vi":"没什么问题 = không có vấn đề gì: 什么 chỉ “gì (đáng kể)”, không hỏi. Ba câu còn lại đều là câu hỏi."},
+        {"id":"q5","type":"choice","tag":"g:极了","prompt_vi":"Chọn câu đúng.","question_zh":"Tôi mệt cực kỳ.","options":["我累极了。","我很累极了。","我极了累。","我累了极。"],"answer":0,"explanation_vi":"Tính từ + 极了, không thêm 很 phía trước."},
+        {"id":"q6","type":"choice","tag":"g:极了","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"听说你考了第一名，我高兴____！","options":["极了","非常","很","最"],"answer":0,"explanation_vi":"高兴极了 = vui vô cùng. 非常, 很, 最 phải đứng trước tính từ."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:其他","prompt_vi":"Chọn đáp án đúng.","question_zh":"除了小王，____人都来了。","options":["其他","以外","极","除了"],"answer":0,"explanation_vi":"其他人 = những người khác. 除了……，其他……都…… = trừ… ra, những cái khác đều…."},
+      {"id":"t2","type":"choice","tag":"g:极了","prompt_vi":"Chọn đáp án đúng.","question_zh":"这个地方漂亮____。","options":["极了","很","非常","太"],"answer":0,"explanation_vi":"漂亮极了 = đẹp cực kỳ. 极了 đứng sau tính từ."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"病人","vi":"bệnh nhân"},{"zh":"药店","vi":"hiệu thuốc"},{"zh":"住院","vi":"nằm viện"},{"zh":"出院","vi":"ra viện"},{"zh":"照顾","vi":"chăm sóc"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"嘴","vi":"miệng"},{"zh":"脸","vi":"khuôn mặt"},{"zh":"脚","vi":"bàn chân"},{"zh":"姓名","vi":"họ tên"},{"zh":"出生","vi":"sinh ra"}]},
+      {"id":"t5","type":"order","tag":"v:检查","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["医生","在","给","我","检查","身体"],"answers":["医生在给我检查身体"],"translation_vi":"Bác sĩ đang khám sức khỏe cho tôi.","explanation_vi":"在 (đang) + 给我 (cho tôi) + 检查身体."},
+      {"id":"t6","type":"order","tag":"g:疑问代词2","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","没","什么","问题"],"answers":["我没什么问题"],"translation_vi":"Tôi không có vấn đề gì.","explanation_vi":"没 + 什么 + danh từ = không có… gì."},
+      {"id":"t7","type":"fill","tag":"v:发烧","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"他感冒了，还有点儿____。","answers":["发烧"],"hint_vi":"bị sốt","explanation_vi":"有点儿发烧 = hơi sốt."},
+      {"id":"t8","type":"fill","tag":"g:除了以外","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"____你以外，我们都会说汉语。","answers":["除了"],"hint_vi":"“ngoài…” (đi với 以外)","explanation_vi":"除了……以外，都…… = trừ… ra, đều…."},
+      {"id":"t9","type":"listen_choice","tag":"v:看病","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我今天不舒服，要去医院看病。","options":["Hôm nay tôi không khỏe, phải đi bệnh viện khám.","Hôm nay tôi đến bệnh viện thăm người bệnh.","Hôm nay tôi khỏe rồi, không cần đi khám.","Hôm nay tôi đi hiệu thuốc mua thuốc."],"answer":0,"explanation_vi":"不舒服 = không khỏe; 去医院看病 = đi bệnh viện khám bệnh."},
+      {"id":"t10","type":"listen_choice","tag":"g:除了以外","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"除了头疼以外，别的都没什么问题。","options":["除了头疼以外，别的都没什么问题。","除了头疼以外，我还发烧了。","除了感冒以外，别的都没什么问题。","我头疼极了，别的也有问题。"],"answer":0,"explanation_vi":"Câu nghe được: Ngoài đau đầu ra, những cái khác đều không có vấn đề gì."},
+      {"id":"t11","type":"dictation","tag":"v:舒服","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你哪儿不舒服？","answers":["你哪儿不舒服","你哪里不舒服"],"explanation_vi":"你哪儿不舒服？ = Bạn khó chịu ở đâu?"},
+      {"id":"t12","type":"dictation","tag":"g:极了","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"今天我累极了。","answers":["今天我累极了"],"explanation_vi":"今天我累极了 = Hôm nay tôi mệt cực kỳ."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:除了以外","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Trừ Tiểu Vương ra, chúng tôi đều đi rồi.","answers":["除了小王以外我们都去了","除了小王我们都去了","我们除了小王以外都去了","我们除了小王都去了","除了小王以外我们都去","除了小王我们都去"],"explanation_vi":"“Trừ… ra” → 除了……(以外)，……都……."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:疑问代词2","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bạn có muốn ăn chút gì không?","answers":["你想吃点儿什么吗","你想吃点什么吗","你想吃一点儿什么吗","你想吃一点什么吗","你要吃点儿什么吗","你要吃点什么吗","你想不想吃点儿什么","你想不想吃点什么"],"explanation_vi":"V + 点儿 + 什么 + 吗: 什么 ở đây là “gì đó”."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:疼","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我的腿有点儿疼。","answers_vi":["Chân tôi hơi đau.","Chân của tôi hơi đau một chút."],"keywords":[["chân"],["đau"]],"explanation_vi":"腿 = chân; 有点儿疼 = hơi đau."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:极了","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这个西瓜甜极了。","answers_vi":["Quả dưa hấu này ngọt cực kỳ.","Quả dưa hấu này ngọt lắm."],"keywords":[["dưa hấu","dưa"],["ngọt"],["cực","cực kỳ","lắm","quá","vô cùng","hết sức","thật","rất"]],"explanation_vi":"甜极了 = ngọt cực kỳ (极了 chỉ mức độ rất cao)."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"爷爷住院了",
+        "title_vi":"Ông nội nằm viện",
+        "paragraphs":[
+          {
+            "tokens":[["上个月","shàng ge yuè","tháng trước"],["爷爷","yéye","ông nội"],["病","bìng","ốm"],["了","le","(rồi)"],["，"],["住院","zhùyuàn","nằm viện"],["了","le","(rồi)"],["。"],["他","tā","ông"],["在","zài","ở"],["医院","yīyuàn","bệnh viện"],["住","zhù","ở"],["了","le","(đã)"],["一个星期","yí ge xīngqī","một tuần"],["，"],["我","wǒ","tôi"],["每天","měi tiān","mỗi ngày"],["下班","xiàbān","tan làm"],["以后","yǐhòu","sau khi"],["都","dōu","đều"],["去","qù","đi, đến"],["照顾","zhàogù","chăm sóc"],["他","tā","ông"],["。"]],
+            "vi":"Tháng trước ông nội bị ốm, phải nằm viện. Ông ở bệnh viện một tuần, ngày nào tan làm tôi cũng đến chăm sóc ông."
+          },
+          {
+            "tokens":[["医院","yīyuàn","bệnh viện"],["里","li","trong"],["病人","bìngrén","bệnh nhân"],["很多","hěn duō","rất nhiều"],["，"],["很多","hěn duō","nhiều"],["人","rén","người"],["都","dōu","đều"],["是","shì","là"],["感冒","gǎnmào","cảm"],["、"],["发烧","fāshāo","sốt"],["，"],["这","zhè","đây, đó"],["是","shì","là"],["很","hěn","rất"],["常见","chángjiàn","thường gặp"],["的","de","(trợ từ)"],["病","bìng","bệnh"],["。"],["医生","yīshēng","bác sĩ"],["给","gěi","cho"],["爷爷","yéye","ông"],["做","zuò","làm"],["了","le","(đã)"],["很多","hěn duō","nhiều"],["检查","jiǎnchá","kiểm tra"],["，"],["他","tā","bác sĩ"],["说","shuō","nói"],["爷爷","yéye","ông"],["没","méi","không có"],["什么","shénme","gì (đáng kể)"],["大病","dà bìng","bệnh nặng"],["，"],["除了","chúle","ngoài"],["腿","tuǐ","chân"],["有点儿","yǒudiǎnr","hơi"],["疼","téng","đau"],["以外","yǐwài","ra"],["，"],["其他","qítā","những cái khác"],["都","dōu","đều"],["很","hěn","rất"],["好","hǎo","tốt"],["。"]],
+            "vi":"Trong bệnh viện có rất nhiều bệnh nhân, nhiều người bị cảm, sốt — đó là bệnh rất thường gặp. Bác sĩ làm nhiều kiểm tra cho ông và nói ông không có bệnh gì nặng; ngoài chân hơi đau ra, những cái khác đều tốt."
+          },
+          {
+            "tokens":[["上个星期六","shàng ge xīngqīliù","thứ Bảy tuần trước"],["，"],["爷爷","yéye","ông"],["出院","chūyuàn","ra viện"],["了","le","(rồi)"],["，"],["他","tā","ông"],["高兴","gāoxìng","vui"],["极了","jí le","cực kỳ"],["。"],["回家","huí jiā","về nhà"],["的","de","(trợ từ)"],["路上","lù shang","trên đường"],["，"],["我们","wǒmen","chúng tôi"],["去","qù","đi, ghé"],["药店","yàodiàn","hiệu thuốc"],["买","mǎi","mua"],["了","le","(đã)"],["一些","yìxiē","một ít"],["药","yào","thuốc"],["。"],["爷爷","yéye","ông"],["说","shuō","nói"],["："],["“"],["我","wǒ","ông (tôi)"],["饿","è","đói"],["了","le","(rồi)"],["，"],["想","xiǎng","muốn"],["吃点儿","chī diǎnr","ăn chút"],["什么","shénme","gì đó"],["，"],["咱们","zánmen","chúng ta"],["去","qù","đi"],["饭馆","fànguǎn","quán ăn"],["吧","ba","nhé"],["！"],["”"]],
+            "vi":"Thứ Bảy tuần trước ông ra viện, ông vui lắm. Trên đường về nhà, chúng tôi ghé hiệu thuốc mua một ít thuốc. Ông nói: “Ông đói rồi, muốn ăn chút gì đó, chúng ta đi quán ăn nhé!”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"爷爷在医院住了多长时间？","options":["一个星期","一个月","三天","两个星期"],"answer":0,"explanation_vi":"Đoạn 1: 他在医院住了一个星期."},
+          {"id":"rq2","type":"choice","tag":"v:照顾","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"谁每天下班以后去照顾爷爷？","options":["“我”","奶奶","医生","爸爸"],"answer":0,"explanation_vi":"Đoạn 1: 我每天下班以后都去照顾他."},
+          {"id":"rq3","type":"choice","tag":"g:除了以外","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"医生说爷爷怎么样？","options":["除了腿有点儿疼以外，其他都很好","他的病很大，要一直住院","除了头疼以外，还发烧","他感冒了，还有点儿发烧"],"answer":0,"explanation_vi":"Đoạn 2: 爷爷没什么大病，除了腿有点儿疼以外，其他都很好."},
+          {"id":"rq4","type":"choice","tag":"g:极了","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"爷爷出院的时候很高兴。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 爷爷出院了，他高兴极了."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"回家的路上，他们去超市买了药。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 我们去药店买了一些药 — họ đến hiệu thuốc, không phải siêu thị."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Thông báo khám sức khỏe ở công ty",
+        "text_zh":"大家好！明天上午八点，医院的医生来我们公司给大家检查身体。检查前，请不要吃早饭，可以喝一点儿水。来了以后，先在纸上写好你的姓名和出生年月，然后等医生叫你的名字。除了身高以外，医生还要检查眼睛、耳朵、牙和手。有什么不舒服的地方，可以告诉医生。检查完以后，公司请大家吃早饭。谢谢！",
+        "pinyin":"Dàjiā hǎo! Míngtiān shàngwǔ bā diǎn, yīyuàn de yīshēng lái wǒmen gōngsī gěi dàjiā jiǎnchá shēntǐ. Jiǎnchá qián, qǐng búyào chī zǎofàn, kěyǐ hē yìdiǎnr shuǐ. Lái le yǐhòu, xiān zài zhǐ shang xiě hǎo nǐ de xìngmíng hé chūshēng nián yuè, ránhòu děng yīshēng jiào nǐ de míngzi. Chúle shēngāo yǐwài, yīshēng hái yào jiǎnchá yǎnjing, ěrduo, yá hé shǒu. Yǒu shénme bù shūfu de dìfang, kěyǐ gàosu yīshēng. Jiǎnchá wán yǐhòu, gōngsī qǐng dàjiā chī zǎofàn. Xièxie!",
+        "vi":"Chào mọi người! Tám giờ sáng mai, bác sĩ bệnh viện sẽ đến công ty khám sức khỏe cho mọi người. Trước khi khám, xin đừng ăn sáng, có thể uống một chút nước. Đến nơi, trước tiên hãy viết họ tên và tháng năm sinh lên giấy, sau đó đợi bác sĩ gọi tên. Ngoài chiều cao ra, bác sĩ còn khám mắt, tai, răng và tay. Có chỗ nào khó chịu thì có thể nói với bác sĩ. Khám xong, công ty mời mọi người ăn sáng. Cảm ơn!",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"检查前，大家不能做什么？","options":["吃早饭","喝水","写姓名","来公司"],"answer":0,"explanation_vi":"Nghe được: 检查前，请不要吃早饭，可以喝一点儿水."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"来了以后，大家先做什么？","options":["在纸上写姓名和出生年月","检查眼睛","吃早饭","喝一点儿水"],"answer":0,"explanation_vi":"Nghe được: 先在纸上写好你的姓名和出生年月."},
+          {"id":"lq3","type":"choice","tag":"g:除了以外","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"除了身高以外，医生还检查什么？","options":["眼睛、耳朵、牙和手","头和脚","腿和脚","嘴和脸"],"answer":0,"explanation_vi":"Nghe được: 除了身高以外，医生还要检查眼睛、耳朵、牙和手."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"检查完以后，谁请大家吃早饭？","options":["公司","医生","医院","经理"],"answer":0,"explanation_vi":"Nghe được: 检查完以后，公司请大家吃早饭."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"舒服","pinyin":"shūfu","vi":"dễ chịu, thoải mái","tip_vi":"舒 shū: sh uốn lưỡi (đầu lưỡi cong lên), đừng đọc thành “xu”. 服 fu đọc nhẹ và ngắn; f là răng trên chạm môi dưới."},
+      {"id":"s2","zh":"发烧","pinyin":"fāshāo","vi":"bị sốt","tip_vi":"Hai thanh 1 liền nhau: giữ giọng cao và bằng. 烧 shāo uốn lưỡi; ao mở miệng rộng rồi khép tròn, đừng đọc thành “sao”."},
+      {"id":"s3","zh":"好极了！","pinyin":"Hǎo jí le!","vi":"Tuyệt quá!","tip_vi":"好 đứng trước thanh 2 nên chỉ đọc nửa thanh 3 (thấp, không lên lại). 极 jí: j mặt lưỡi, không bật hơi, đừng đọc thành “gi” hay “chi”. 了 đọc nhẹ."},
+      {"id":"s4","zh":"我头有点儿疼。","pinyin":"Wǒ tóu yǒudiǎnr téng.","vi":"Tôi hơi đau đầu.","tip_vi":"头 tóu, 疼 téng: t bật hơi mạnh, khác “t” tiếng Việt. 有点儿 yǒudiǎnr: hai thanh 3, 有 đọc gần thanh 2; cuối 点儿 cuốn lưỡi. 疼 -eng: cuống lưỡi, đừng đọc thành “tênh”."},
+      {"id":"s5","zh":"你有什么不舒服吗？","pinyin":"Nǐ yǒu shénme bù shūfu ma?","vi":"Bạn có thấy khó chịu gì không?","tip_vi":"你有 nǐ yǒu: hai thanh 3, 你 đọc gần thanh 2. 不 đứng trước thanh 1 nên giữ thanh 4 (bù). Câu có 吗 là câu hỏi có/không, giọng hơi lên ở cuối."},
+      {"id":"s6","zh":"除了头疼以外，其他都没什么问题。","pinyin":"Chúle tóu téng yǐwài, qítā dōu méi shénme wèntí.","vi":"Ngoài đau đầu ra, những cái khác đều không có vấn đề gì.","tip_vi":"除 chú: ch uốn lưỡi và bật hơi. 其他 qítā: q bật hơi, môi dẹt. 以外 yǐwài: 以 đứng trước thanh 4 nên đọc nửa thanh 3. Ngắt hơi ở dấu phẩy."},
+      {"id":"s7","zh":"除了感冒以外，我还有点儿发烧，累极了。","pinyin":"Chúle gǎnmào yǐwài, wǒ hái yǒudiǎnr fāshāo, lèi jí le.","vi":"Ngoài bị cảm ra, tôi còn hơi sốt, mệt cực kỳ.","tip_vi":"感冒 gǎnmào: g không bật hơi, -an đầu lưỡi. 还有点儿 hái yǒudiǎnr: 还 đọc hái (còn), không phải huán. 累 lèi: l, đừng đọc thành “n”; thanh 4 rơi dứt khoát."}
+    ],
+    "review": {
+      "remember": [
+        "除了 A (以外)，S + 都……: trừ A ra, những cái khác đều… (A không nằm trong đó).",
+        "除了 A (以外)，S + 还/也……: ngoài A ra còn có thêm… (A cũng có). Cùng chủ ngữ hay dùng 还.",
+        "什么/哪儿/谁 có thể không dùng để hỏi: 没什么问题 (không có vấn đề gì), 吃点儿什么 (ăn chút gì), 去哪儿玩儿了吗？ (có đi đâu chơi không?).",
+        "Tính từ/động từ tâm lý + 极了 = cực kỳ: 好极了、疼极了、喜欢极了; không thêm 很/非常, không có tân ngữ sau 极了.",
+        "Nói ốm đau: bộ phận + 疼 (头疼、牙疼、腿疼); 我感冒了、发烧了、不舒服; 去医院看病、检查身体."
+      ],
+      "mistakes": [
+        "✗ 小王没去，除了小王以外，我们也去了 → ✓ ……我们都去了: nghĩa “trừ ra” dùng 都.",
+        "✗ 我没有问题什么 → ✓ 我没什么问题: 什么 đứng trước danh từ.",
+        "✗ 我很累极了 → ✓ 我累极了: 极了 không đi cùng 很/非常."
+      ]
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "level": 3,
+  "number": 19,
+  "summary": "Nhận ra và kể về những thay đổi của con người, thành phố và bốn mùa; học nghĩa mở rộng của bổ ngữ xu hướng 出来, 起来 (看出来、想起来、笑起来) và câu “khiến ai làm gì” với 让、叫、使.",
+  "readings_ok": ["长 cháng", "种 zhòng", "得 de", "里 li"],
+  "content": {
+    "objectives": [
+      "Nói mình nhìn ra, nghe ra, nhận ra, nghĩ ra, nhớ ra điều gì: 看出来、听出来、认出来、想出来、想起来",
+      "Nói một việc bắt đầu xảy ra hoặc một trạng thái bắt đầu thay đổi: 笑起来、冷起来、下起雨来",
+      "Nói ai khiến ai làm gì, cảm thấy thế nào bằng 让、叫、使",
+      "Miêu tả sự thay đổi của người, thành phố và bốn mùa: 变短了、变成了……、变化很大"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"出来","pinyin":"chūlái","pos":"động từ","meaning_vi":"đi ra; (sau động từ) ra: nhìn ra, nghĩ ra…","example_zh":"我看出来了，你今天很开心。","example_pinyin":"Wǒ kàn chūlai le, nǐ jīntiān hěn kāixīn.","example_vi":"Mình nhìn ra rồi, hôm nay bạn vui lắm.","note_vi":"Nghĩa gốc: đi ra (về phía người nói): 他从房间里走出来了. Nghĩa mở rộng: V + 出来 làm điều chưa rõ trở nên rõ: 看出来 (nhìn ra), 听出来 (nghe ra), 认出来 (nhận ra), 想出来 (nghĩ ra). Làm bổ ngữ thường đọc nhẹ: kàn chulai."},
+      {"id":"v2","hanzi":"起来","pinyin":"qǐlái","pos":"động từ","meaning_vi":"đứng dậy, dậy; (sau động từ/tính từ) bắt đầu…, nhớ ra","example_zh":"天气慢慢热起来了。","example_pinyin":"Tiānqì mànmàn rè qǐlai le.","example_vi":"Trời dần dần nóng lên rồi.","note_vi":"Nghĩa gốc: 站起来 (đứng dậy), 快起来 (mau dậy đi). Nghĩa mở rộng: bắt đầu và tiếp diễn (笑起来 bật cười, 热起来 nóng lên), 想起来 (nhớ ra). Làm bổ ngữ thường đọc nhẹ: rè qilai."},
+      {"id":"v3","hanzi":"变化","pinyin":"biànhuà","pos":"danh từ / động từ","meaning_vi":"sự thay đổi; thay đổi","example_zh":"这几年，这个城市的变化很大。","example_pinyin":"Zhè jǐ nián, zhège chéngshì de biànhuà hěn dà.","example_vi":"Mấy năm nay, thành phố này thay đổi rất nhiều.","hanviet":"BIẾN HÓA","note_vi":"Hay dùng như danh từ: 变化很大 (thay đổi lớn), 有什么变化 (có gì thay đổi). Làm động từ thì không mang tân ngữ: 天气变化很快. Nghĩa là “thay đổi”, không phải “biến hóa (phép thuật)”."},
+      {"id":"v4","hanzi":"变","pinyin":"biàn","pos":"động từ","meaning_vi":"thay đổi, trở nên","example_zh":"两年没见，你一点儿也没变！","example_pinyin":"Liǎng nián méi jiàn, nǐ yìdiǎnr yě méi biàn!","example_vi":"Hai năm không gặp, bạn chẳng thay đổi chút nào!","hanviet":"BIẾN","note_vi":"变 + tính từ + 了 = trở nên…: 变短了 (ngắn đi), 变黄了 (vàng đi), 变漂亮了. Đã đổi hay chưa thì phủ định bằng 没: 没变."},
+      {"id":"v5","hanzi":"变成","pinyin":"biànchéng","pos":"động từ","meaning_vi":"biến thành, trở thành","example_zh":"以前这儿是一条小街，现在变成了一个大商场。","example_pinyin":"Yǐqián zhèr shì yì tiáo xiǎo jiē, xiànzài biànchéng le yí ge dà shāngchǎng.","example_vi":"Trước đây chỗ này là một con phố nhỏ, giờ đã thành một trung tâm thương mại lớn.","note_vi":"变成 + danh từ (变成了一个大商场); 变 + tính từ (变高了). ✗ 变成很高 → ✓ 变高了."},
+      {"id":"v6","hanzi":"发现","pinyin":"fāxiàn","pos":"động từ","meaning_vi":"phát hiện, nhận ra, thấy","example_zh":"我发现这个办法很有用。","example_pinyin":"Wǒ fāxiàn zhège bànfǎ hěn yǒuyòng.","example_vi":"Tôi nhận ra cách này rất có ích.","hanviet":"PHÁT HIỆN","note_vi":"发现 dùng cả cho chuyện nhỏ hằng ngày (nhận ra, thấy), không chỉ cho phát minh lớn như “phát hiện” tiếng Việt: 我发现他瘦了 (tôi thấy anh ấy gầy đi)."},
+      {"id":"v7","hanzi":"以前","pinyin":"yǐqián","pos":"danh từ","meaning_vi":"trước đây, trước kia; trước khi","example_zh":"以前我不会游泳，现在会了。","example_pinyin":"Yǐqián wǒ bú huì yóuyǒng, xiànzài huì le.","example_vi":"Trước đây tôi không biết bơi, giờ thì biết rồi.","note_vi":"Đứng một mình = trước đây. V + 以前 = trước khi (睡觉以前). Thời gian + 以前 = cách đây (三年以前). ✗ 以前三年 → ✓ 三年以前. Nói chuyện cũ thì không thêm 了 cho thói quen: 以前我常去 (không nói ✗ 以前我常去了)."},
+      {"id":"v8","hanzi":"好像","pinyin":"hǎoxiàng","pos":"phó từ / động từ","meaning_vi":"hình như, dường như; giống như","example_zh":"他好像不太高兴，你去问问吧。","example_pinyin":"Tā hǎoxiàng bú tài gāoxìng, nǐ qù wènwen ba.","example_vi":"Hình như anh ấy không vui lắm, bạn đi hỏi thử xem.","note_vi":"好像 = phỏng đoán không chắc (hình như). 好像 + N + 一样 = giống như: 她笑起来好像一个孩子 (cô ấy cười trông như một đứa trẻ)."},
+      {"id":"v9","hanzi":"像","pinyin":"xiàng","pos":"động từ","meaning_vi":"giống","example_zh":"你长得很像你妈妈。","example_pinyin":"Nǐ zhǎng de hěn xiàng nǐ māma.","example_vi":"Bạn trông rất giống mẹ bạn.","hanviet":"TƯỢNG","note_vi":"A 像 B (一样) = A giống B. Phủ định: 不像. 长得像 = trông giống (về ngoại hình), 长 ở đây đọc zhǎng."},
+      {"id":"v10","hanzi":"头发","pinyin":"tóufa","pos":"danh từ","meaning_vi":"tóc","example_zh":"她的头发又黑又长。","example_pinyin":"Tā de tóufa yòu hēi yòu cháng.","example_vi":"Tóc cô ấy vừa đen vừa dài.","note_vi":"发 trong 头发 đọc nhẹ fa, khác 发 fā trong 发现, 发展. 长头发 (tóc dài) đọc cháng tóufa."},
+      {"id":"v11","hanzi":"声音","pinyin":"shēngyīn","pos":"danh từ","meaning_vi":"âm thanh, tiếng, giọng","example_zh":"外面是什么声音？","example_pinyin":"Wàimiàn shì shénme shēngyīn?","example_vi":"Bên ngoài là tiếng gì vậy?","hanviet":"THANH ÂM","note_vi":"Dùng cho tiếng người (他的声音很好听 giọng anh ấy hay) và tiếng đồ vật, xe cộ. 声 -eng, 音 -in: chú ý hai vần cuối khác nhau."},
+      {"id":"v12","hanzi":"季节","pinyin":"jìjié","pos":"danh từ","meaning_vi":"mùa (trong năm)","example_zh":"秋天是去北京旅游最好的季节。","example_pinyin":"Qiūtiān shì qù Běijīng lǚyóu zuì hǎo de jìjié.","example_vi":"Mùa thu là mùa đẹp nhất để đi du lịch Bắc Kinh.","hanviet":"QUÝ TIẾT","note_vi":"Hỏi mùa: 你最喜欢哪个季节？ Lượng từ là 个. Một năm có 四个季节 = 四季."},
+      {"id":"v13","hanzi":"春天","pinyin":"chūntiān","pos":"danh từ","meaning_vi":"mùa xuân","example_zh":"春天来了，花都开了。","example_pinyin":"Chūntiān lái le, huā dōu kāi le.","example_vi":"Mùa xuân đến rồi, hoa nở hết rồi.","hanviet":"XUÂN THIÊN"},
+      {"id":"v14","hanzi":"夏天","pinyin":"xiàtiān","pos":"danh từ","meaning_vi":"mùa hè","example_zh":"这儿的夏天很热，常常下雨。","example_pinyin":"Zhèr de xiàtiān hěn rè, chángcháng xià yǔ.","example_vi":"Mùa hè ở đây rất nóng, hay mưa.","hanviet":"HẠ THIÊN"},
+      {"id":"v15","hanzi":"秋天","pinyin":"qiūtiān","pos":"danh từ","meaning_vi":"mùa thu","example_zh":"秋天不冷也不热，很舒服。","example_pinyin":"Qiūtiān bù lěng yě bú rè, hěn shūfu.","example_vi":"Mùa thu không lạnh cũng không nóng, rất dễ chịu.","hanviet":"THU THIÊN"},
+      {"id":"v16","hanzi":"冬天","pinyin":"dōngtiān","pos":"danh từ","meaning_vi":"mùa đông","example_zh":"北方的冬天常常下雪。","example_pinyin":"Běifāng de dōngtiān chángcháng xià xuě.","example_vi":"Mùa đông ở miền Bắc hay có tuyết.","hanviet":"ĐÔNG THIÊN"}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"认得","pinyin":"rènde","pos":"động từ","meaning_vi":"nhận ra, biết (mặt người, đường, chữ)","example_zh":"你还认得我吗？","example_pinyin":"Nǐ hái rènde wǒ ma?","example_vi":"Bạn còn nhận ra mình không?"},
+      {"id":"x2","hanzi":"后来","pinyin":"hòulái","pos":"danh từ","meaning_vi":"sau đó, về sau (kể chuyện đã qua)","example_zh":"我们以前常见面，后来他出国了。","example_pinyin":"Wǒmen yǐqián cháng jiànmiàn, hòulái tā chūguó le.","example_vi":"Trước đây chúng tôi hay gặp nhau, sau đó anh ấy ra nước ngoài."},
+      {"id":"x3","hanzi":"发生","pinyin":"fāshēng","pos":"động từ","meaning_vi":"xảy ra","example_zh":"昨天这儿发生了什么事？","example_pinyin":"Zuótiān zhèr fāshēng le shénme shì?","example_vi":"Hôm qua ở đây đã xảy ra chuyện gì?"},
+      {"id":"x4","hanzi":"发展","pinyin":"fāzhǎn","pos":"động từ / danh từ","meaning_vi":"phát triển","example_zh":"这个城市发展得很快。","example_pinyin":"Zhège chéngshì fāzhǎn de hěn kuài.","example_vi":"Thành phố này phát triển rất nhanh."},
+      {"id":"x5","hanzi":"不久","pinyin":"bùjiǔ","pos":"tính từ","meaning_vi":"không lâu (sau)","example_zh":"他走了不久，你就来了。","example_pinyin":"Tā zǒu le bùjiǔ, nǐ jiù lái le.","example_vi":"Anh ấy vừa đi không lâu thì bạn đến."},
+      {"id":"x6","hanzi":"老","pinyin":"lǎo","pos":"tính từ","meaning_vi":"già; cũ, lâu năm","example_zh":"他是我的老朋友。","example_pinyin":"Tā shì wǒ de lǎo péngyou.","example_vi":"Anh ấy là bạn lâu năm của tôi."},
+      {"id":"x7","hanzi":"旧","pinyin":"jiù","pos":"tính từ","meaning_vi":"cũ","example_zh":"这件衣服太旧了，换一件新的吧。","example_pinyin":"Zhè jiàn yīfu tài jiù le, huàn yí jiàn xīn de ba.","example_vi":"Cái áo này cũ quá rồi, đổi cái mới đi."},
+      {"id":"x8","hanzi":"矮","pinyin":"ǎi","pos":"tính từ","meaning_vi":"thấp (người, đồ vật)","example_zh":"小时候他比我矮，现在比我高了。","example_pinyin":"Xiǎoshíhou tā bǐ wǒ ǎi, xiànzài bǐ wǒ gāo le.","example_vi":"Hồi nhỏ cậu ấy thấp hơn tôi, giờ thì cao hơn tôi rồi."},
+      {"id":"x9","hanzi":"短","pinyin":"duǎn","pos":"tính từ","meaning_vi":"ngắn","example_zh":"她的头发变短了。","example_pinyin":"Tā de tóufa biàn duǎn le.","example_vi":"Tóc cô ấy ngắn đi rồi."},
+      {"id":"x10","hanzi":"小时候","pinyin":"xiǎoshíhou","pos":"danh từ","meaning_vi":"hồi nhỏ","example_zh":"小时候我很怕狗。","example_pinyin":"Xiǎoshíhou wǒ hěn pà gǒu.","example_vi":"Hồi nhỏ tôi rất sợ chó."},
+      {"id":"x11","hanzi":"前年","pinyin":"qiánnián","pos":"danh từ","meaning_vi":"năm kia (hai năm trước)","example_zh":"我前年来过这儿。","example_pinyin":"Wǒ qiánnián lái guo zhèr.","example_vi":"Năm kia tôi đã từng đến đây."},
+      {"id":"x12","hanzi":"城市","pinyin":"chéngshì","pos":"danh từ","meaning_vi":"thành phố","example_zh":"这是一个很漂亮的城市。","example_pinyin":"Zhè shì yí ge hěn piàoliang de chéngshì.","example_vi":"Đây là một thành phố rất đẹp."},
+      {"id":"x13","hanzi":"黄色","pinyin":"huángsè","pos":"danh từ","meaning_vi":"màu vàng","example_zh":"我喜欢黄色的花。","example_pinyin":"Wǒ xǐhuan huángsè de huā.","example_vi":"Tôi thích hoa màu vàng."},
+      {"id":"x14","hanzi":"蓝","pinyin":"lán","pos":"tính từ","meaning_vi":"xanh lam, xanh da trời","example_zh":"今天的天真蓝！","example_pinyin":"Jīntiān de tiān zhēn lán!","example_vi":"Bầu trời hôm nay xanh quá!"},
+      {"id":"x15","hanzi":"树","pinyin":"shù","pos":"danh từ","meaning_vi":"cây","example_zh":"路边有很多树。","example_pinyin":"Lùbiān yǒu hěn duō shù.","example_vi":"Ven đường có rất nhiều cây."},
+      {"id":"x16","hanzi":"草","pinyin":"cǎo","pos":"danh từ","meaning_vi":"cỏ","example_zh":"春天来了，草都绿了。","example_pinyin":"Chūntiān lái le, cǎo dōu lǜ le.","example_vi":"Mùa xuân đến, cỏ xanh hết cả rồi."},
+      {"id":"x17","hanzi":"开花","pinyin":"kāihuā","pos":"động từ","meaning_vi":"nở hoa, ra hoa","example_zh":"这些树每年春天都开花。","example_pinyin":"Zhèxiē shù měi nián chūntiān dōu kāihuā.","example_vi":"Những cây này mùa xuân năm nào cũng ra hoa."},
+      {"id":"x18","hanzi":"四季","pinyin":"sìjì","pos":"danh từ","meaning_vi":"bốn mùa","example_zh":"这个地方四季都有花。","example_pinyin":"Zhège dìfang sìjì dōu yǒu huā.","example_vi":"Nơi này bốn mùa đều có hoa."},
+      {"id":"x19","hanzi":"季","pinyin":"jì","pos":"danh từ","meaning_vi":"mùa (hay đứng trong từ ghép)","example_zh":"一年有四季，每季三个月。","example_pinyin":"Yì nián yǒu sìjì, měi jì sān ge yuè.","example_vi":"Một năm có bốn mùa, mỗi mùa ba tháng."}
+    ],
+    "glossary": [
+      {"hanzi":"树叶","pinyin":"shùyè","meaning_vi":"lá cây","kind":"beyond"},
+      {"hanzi":"使","pinyin":"shǐ","meaning_vi":"khiến, làm cho (văn viết; xem ngữ pháp g2)","kind":"beyond"},
+      {"hanzi":"认","pinyin":"rèn","meaning_vi":"nhận (ra); 认出来 = nhận ra","kind":"beyond"},
+      {"hanzi":"黄","pinyin":"huáng","meaning_vi":"vàng (màu); 变黄 = ngả vàng","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Nghĩa mở rộng của bổ ngữ xu hướng “出来”, “起来”",
+        "pattern":"V + 出来 (看出来、听出来、认出来、想出来)　·　V/Adj + 起来 (笑起来、冷起来、想起来)　·　V + 起 + O + 来 (下起雨来)",
+        "explanation_vi":"出来 và 起来 ngoài nghĩa chỉ hướng (走出来 = đi ra, 站起来 = đứng dậy) còn có nghĩa mở rộng rất hay dùng.\n• V + 出来: làm cho điều chưa rõ trở nên rõ, tức là “nhìn ra, nghe ra, nhận ra, nghĩ ra”: 看出来, 听出来, 认出来 (nhận ra người), 想出来 (nghĩ ra cái mới, ví dụ một cách giải quyết).\n• V/Adj + 起来: (1) bắt đầu và tiếp diễn: 笑起来 (bật cười), 哭起来 (òa khóc), 冷起来 (trở lạnh); (2) 想起来 = nhớ ra điều mình đã biết.\nTân ngữ thường đứng GIỮA hai phần: 认出他来, 下起雨来; khi việc đã xong cũng có thể nói 想起了小时候. Phủ định dùng 没: 没看出来. Dạng khả năng (bài 6): 看不出来, 想不起来.",
+        "examples":[
+          {"zh":"你没看出来吗？他今天特别高兴。","pinyin":"Nǐ méi kàn chūlai ma? Tā jīntiān tèbié gāoxìng.","vi":"Bạn không nhìn ra à? Hôm nay anh ấy vui đặc biệt."},
+          {"zh":"我想起来了，他叫小马！","pinyin":"Wǒ xiǎng qǐlai le, tā jiào Xiǎo Mǎ!","vi":"Mình nhớ ra rồi, cậu ấy tên là Tiểu Mã!"},
+          {"zh":"想了很久，我终于想出来一个好办法。","pinyin":"Xiǎng le hěn jiǔ, wǒ zhōngyú xiǎng chūlai yí ge hǎo bànfǎ.","vi":"Nghĩ rất lâu, cuối cùng tôi cũng nghĩ ra một cách hay."},
+          {"zh":"听到这个故事，大家都笑起来了。","pinyin":"Tīng dào zhège gùshi, dàjiā dōu xiào qǐlai le.","vi":"Nghe câu chuyện này, mọi người đều bật cười."},
+          {"zh":"外面下起雨来了，天气也冷起来了。","pinyin":"Wàimiàn xià qǐ yǔ lai le, tiānqì yě lěng qǐlai le.","vi":"Bên ngoài bắt đầu mưa rồi, trời cũng trở lạnh rồi."}
+        ],
+        "mistakes_vi":"✗ 外面下雨起来了。\n✓ 外面下起雨来了。\nTân ngữ (雨) đứng giữa 起 và 来. Tiếng Việt nói “bắt đầu mưa” nên hay để 起来 ở cuối.\n✗ 我想出来他的名字了。(muốn nói “nhớ ra”)\n✓ 我想起他的名字来了。/ 我想起了他的名字。\nNhớ lại điều đã biết dùng 起来; nghĩ ra điều mới (办法, 主意) mới dùng 出来.\n✗ 我知道出来了，你是小周！\n✓ 我认出来了 / 我看出来了，你是小周！\n“Nhận ra” là 认出来 / 看出来 / 听出来, không ghép 知道 với 出来.",
+        "compare_vi":"Tiếng Việt cũng dùng “ra”, “lên” theo nghĩa bóng: nhìn ra, nghĩ ra, nhớ ra, nóng lên, cười ồ lên. Chú ý: “nhớ ra” là 想起来, còn “nghĩ ra” là 想出来; “nóng lên, lạnh đi” đều có thể dùng 起来 (热起来, 冷起来)."
+      },
+      {
+        "id":"g2",
+        "title":"“让”, “叫”, “使”: khiến ai làm gì / thế nào",
+        "pattern":"S + 让 / 叫 / 使 + người + V / Adj　·　S + 不/没 + 让/叫 + người + V",
+        "explanation_vi":"Ba từ này tạo câu “ai/cái gì khiến (bảo, cho) ai làm gì hoặc cảm thấy thế nào”.\n• 让: dùng nhiều nhất khi nói. Nghĩa “bảo, cho phép, để” (妈妈让我早点儿回家) và “khiến, làm cho” (这件事让我很高兴).\n• 叫: khẩu ngữ, thiên về “bảo, sai ai làm gì”: 老师叫我们明天早点儿来.\n• 使: trang trọng, hay gặp trong văn viết, thường nói một việc khiến cảm xúc hay trạng thái của ai thay đổi: 他的话使大家很开心. 使 hầu như không dùng để sai bảo.\nPhủ định đặt trước 让/叫: 妈妈不让我去 (mẹ không cho tôi đi).",
+        "examples":[
+          {"zh":"妈妈让我早点儿回家。","pinyin":"Māma ràng wǒ zǎo diǎnr huí jiā.","vi":"Mẹ bảo tôi về nhà sớm một chút."},
+          {"zh":"老师叫我们明天八点到学校。","pinyin":"Lǎoshī jiào wǒmen míngtiān bā diǎn dào xuéxiào.","vi":"Thầy bảo chúng tôi mai tám giờ có mặt ở trường."},
+          {"zh":"这些变化让我很高兴。","pinyin":"Zhèxiē biànhuà ràng wǒ hěn gāoxìng.","vi":"Những thay đổi này khiến tôi rất vui."},
+          {"zh":"他的话使大家都很开心。","pinyin":"Tā de huà shǐ dàjiā dōu hěn kāixīn.","vi":"Lời anh ấy nói khiến mọi người đều rất vui."}
+        ],
+        "mistakes_vi":"✗ 他的话做我很高兴。\n✓ 他的话让我很高兴。\nTiếng Việt nói “làm (cho) tôi vui”, nhưng 做 không có nghĩa “khiến”; dùng 让 hoặc 使.\n✗ 妈妈使我去超市买东西。\n✓ 妈妈让我（叫我）去超市买东西。\n使 dùng cho cảm xúc, trạng thái (使人开心), không dùng để sai bảo.\n✗ 妈妈让我不去。(muốn nói “mẹ không cho tôi đi”)\n✓ 妈妈不让我去。\n不 đặt trước 让 = không cho phép. Còn 妈妈让我别去 = mẹ bảo tôi đừng đi.",
+        "compare_vi":"让 ≈ “bảo, cho, để, khiến”; 叫 ≈ “bảo, gọi (ai làm gì)”; 使 ≈ “khiến, làm cho” (văn viết). Thứ tự giống tiếng Việt: người ra lệnh + 让 + người làm + việc làm."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Cậu không nhận ra mình à?",
+      "scene_vi": "Sau hai năm làm việc ở thành phố khác, Tiểu Mã về quê. Bạn cũ Tiểu Chu ra ga đón anh.",
+      "lines": [
+        {"speaker":"小周","zh":"小马，这儿！怎么，你没认出我来吗？","pinyin":"Xiǎo Mǎ, zhèr! Zěnme, nǐ méi rèn chū wǒ lai ma?","vi":"Tiểu Mã, đây này! Sao thế, cậu không nhận ra mình à?"},
+        {"speaker":"小马","zh":"小周？真的是你！你的头发变短了，人也瘦了，我一点儿也没看出来。听到你的声音，我才认出来。","pinyin":"Xiǎo Zhōu? Zhēn de shì nǐ! Nǐ de tóufa biàn duǎn le, rén yě shòu le, wǒ yìdiǎnr yě méi kàn chūlai. Tīng dào nǐ de shēngyīn, wǒ cái rèn chūlai.","vi":"Tiểu Chu? Đúng là cậu rồi! Tóc cậu ngắn đi, người cũng gầy đi, mình chẳng nhìn ra chút nào. Nghe giọng cậu mình mới nhận ra đấy."},
+        {"speaker":"小周","zh":"你前年走的时候，我还是长头发呢。两年没回来，你发现这儿有什么变化了吗？","pinyin":"Nǐ qiánnián zǒu de shíhou, wǒ hái shì cháng tóufa ne. Liǎng nián méi huílai, nǐ fāxiàn zhèr yǒu shénme biànhuà le ma?","vi":"Năm kia lúc cậu đi, mình vẫn còn để tóc dài mà. Hai năm không về, cậu có thấy ở đây thay đổi gì không?"},
+        {"speaker":"小马","zh":"变化太大了！我好像不认得这个城市了。以前车站旁边是一条很旧的小街，现在变成了一个大商场。","pinyin":"Biànhuà tài dà le! Wǒ hǎoxiàng bú rènde zhège chéngshì le. Yǐqián chēzhàn pángbiān shì yì tiáo hěn jiù de xiǎo jiē, xiànzài biànchéng le yí ge dà shāngchǎng.","vi":"Thay đổi nhiều quá! Hình như mình không còn nhận ra thành phố này nữa. Trước đây cạnh nhà ga là một con phố nhỏ rất cũ, giờ đã thành một trung tâm thương mại lớn."},
+        {"speaker":"小周","zh":"是啊，这两年城市发展得很快。走吧，我叫了一辆车。你妈妈让我早点儿把你送回家。","pinyin":"Shì a, zhè liǎng nián chéngshì fāzhǎn de hěn kuài. Zǒu ba, wǒ jiào le yí liàng chē. Nǐ māma ràng wǒ zǎo diǎnr bǎ nǐ sòng huí jiā.","vi":"Đúng vậy, hai năm nay thành phố phát triển nhanh lắm. Đi thôi, mình gọi xe rồi. Mẹ cậu dặn mình đưa cậu về nhà sớm."},
+        {"speaker":"小马","zh":"好。你看，路边种了这么多树，还有草地。春天的时候一定很漂亮吧？","pinyin":"Hǎo. Nǐ kàn, lùbiān zhòng le zhème duō shù, hái yǒu cǎodì. Chūntiān de shíhou yídìng hěn piàoliang ba?","vi":"Ừ. Cậu nhìn kìa, ven đường trồng nhiều cây thế, còn có cả bãi cỏ. Mùa xuân chắc đẹp lắm nhỉ?"},
+        {"speaker":"小周","zh":"对，春天开花的时候特别好看。现在是秋天，你看，树叶都变黄了。","pinyin":"Duì, chūntiān kāihuā de shíhou tèbié hǎokàn. Xiànzài shì qiūtiān, nǐ kàn, shùyè dōu biàn huáng le.","vi":"Ừ, mùa xuân lúc hoa nở đẹp lắm. Giờ là mùa thu, cậu xem, lá cây đều ngả vàng cả rồi."},
+        {"speaker":"小马","zh":"这些树让我想起了小时候。那时候我们常在学校门口的大树下玩儿，你还记得吗？","pinyin":"Zhèxiē shù ràng wǒ xiǎng qǐ le xiǎoshíhou. Nà shíhou wǒmen cháng zài xuéxiào ménkǒu de dà shù xià wánr, nǐ hái jìde ma?","vi":"Mấy cái cây này làm mình nhớ lại hồi nhỏ. Hồi đó tụi mình hay chơi dưới cái cây to trước cổng trường, cậu còn nhớ không?"},
+        {"speaker":"小周","zh":"当然记得！你一说，我也想起来了：那时候你比我矮，现在你都比我高了。","pinyin":"Dāngrán jìde! Nǐ yì shuō, wǒ yě xiǎng qǐlai le: nà shíhou nǐ bǐ wǒ ǎi, xiànzài nǐ dōu bǐ wǒ gāo le.","vi":"Tất nhiên là nhớ! Cậu vừa nói là mình cũng nhớ ra: hồi đó cậu thấp hơn mình, giờ cậu còn cao hơn mình rồi."},
+        {"speaker":"小马","zh":"是啊，我们都变了。两年没回来，我都快变成“外地人”了！","pinyin":"Shì a, wǒmen dōu biàn le. Liǎng nián méi huílai, wǒ dōu kuài biànchéng “wàidì rén” le!","vi":"Đúng thế, chúng mình đều thay đổi cả. Hai năm không về, mình sắp thành “người nơi khác” rồi!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:变化","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这几年，这个城市的____很大。","options":["变化","变成","发现","好像"],"answer":0,"explanation_vi":"……的变化很大 = sự thay đổi của… rất lớn. Sau 的 cần một danh từ: 变化."},
+      {"id":"e2","type":"choice","tag":"v:变成","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"以前这儿是一条小街，现在____了一个大商场。","options":["变成","变化","发现","像"],"answer":0,"explanation_vi":"变成 + danh từ = biến thành: 变成了一个大商场. 变化 không mang tân ngữ."},
+      {"id":"e3","type":"choice","tag":"v:发现","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____他最近瘦了很多。","options":["发现","变化","声音","季节"],"answer":0,"explanation_vi":"发现 + một sự việc = nhận ra, thấy. Ba từ còn lại là danh từ."},
+      {"id":"e4","type":"choice","tag":"v:像","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"她说话的声音很____她妈妈。","options":["像","变","发现","以前"],"answer":0,"explanation_vi":"A 很像 B = A rất giống B: giọng cô ấy rất giống mẹ cô ấy."},
+      {"id":"e5","type":"choice","tag":"v:季节","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：你最喜欢哪个____？B：我最喜欢秋天。","options":["季节","声音","头发","城市"],"answer":0,"explanation_vi":"Câu trả lời là 秋天 (mùa thu), nên câu hỏi là 哪个季节 (mùa nào)."},
+      {"id":"e6","type":"choice","tag":"g:趋向补语引申","prompt_vi":"Chọn bổ ngữ thích hợp.","question_zh":"他的头发变短了，我一点儿也没看____。","options":["出来","起来","下来","过来"],"answer":0,"explanation_vi":"看出来 = nhìn ra, nhận ra. 出来 làm điều chưa rõ trở nên rõ."},
+      {"id":"e7","type":"choice","tag":"g:趋向补语引申","prompt_vi":"Chọn bổ ngữ thích hợp.","question_zh":"听到这个故事，大家都笑____了。","options":["起来","出来","过去","回来"],"answer":0,"explanation_vi":"笑起来 = bật cười (bắt đầu cười và cười tiếp). 起来 chỉ sự bắt đầu."},
+      {"id":"e8","type":"choice","tag":"g:趋向补语引申","prompt_vi":"Chọn bổ ngữ thích hợp.","question_zh":"他叫什么名字？我想不____了。","options":["起来","出来","下去","过来"],"answer":0,"explanation_vi":"Tên người là điều đã biết, giờ không nhớ ra: 想不起来. 想出来 là nghĩ ra cái mới (một cách giải quyết)."},
+      {"id":"e9","type":"choice","tag":"g:使叫让","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这些变化____我很高兴。","options":["让","做","给","被"],"answer":0,"explanation_vi":"让 + người + tính từ = khiến ai thế nào. 做 không có nghĩa “làm cho, khiến”."},
+      {"id":"e10","type":"choice","tag":"g:使叫让","prompt_vi":"Chọn câu đúng với nghĩa: “Mẹ không cho tôi đi.”","question_zh":"Mẹ không cho tôi đi.","options":["妈妈不让我去。","妈妈让我不去。","妈妈不使我去。","妈妈让不我去。"],"answer":0,"explanation_vi":"不 đặt trước 让: 不让我去 = không cho tôi đi. 使 không dùng để cho phép hay sai bảo."},
+      {"id":"e11","type":"order","tag":"g:趋向补语引申","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["外面","下","起","雨","来","了"],"answers":["外面下起雨来了"],"translation_vi":"Bên ngoài bắt đầu mưa rồi.","explanation_vi":"Tân ngữ 雨 đứng giữa 起 và 来: 下起雨来了."},
+      {"id":"e12","type":"order","tag":"g:使叫让","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这些树","让","我","想起了","小时候"],"answers":["这些树让我想起了小时候"],"translation_vi":"Những cái cây này làm tôi nhớ lại hồi nhỏ.","explanation_vi":"Cái gây ra (这些树) + 让 + người (我) + việc xảy ra (想起了小时候)."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"春天","vi":"mùa xuân"},{"zh":"夏天","vi":"mùa hè"},{"zh":"秋天","vi":"mùa thu"},{"zh":"冬天","vi":"mùa đông"},{"zh":"季节","vi":"mùa (trong năm)"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"头发","vi":"tóc"},{"zh":"声音","vi":"giọng nói, âm thanh"},{"zh":"以前","vi":"trước đây"},{"zh":"好像","vi":"hình như"},{"zh":"发现","vi":"phát hiện, nhận ra"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:趋向补语引申","prompt_vi":"Chọn bổ ngữ thích hợp.","question_zh":"这个问题很难，我想了很久，终于想____一个办法。","options":["出来","起来","下去","过来"],"answer":0,"explanation_vi":"Nghĩ ra một cách mới: 想出来. 想起来 là nhớ lại điều đã biết."},
+        {"id":"q2","type":"choice","tag":"g:趋向补语引申","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["外面下起雨来了。","外面下雨起来了。","外面起来下雨了。","外面下来起雨了。"],"answer":0,"explanation_vi":"Tân ngữ 雨 đứng giữa 起 và 来: 下起雨来."},
+        {"id":"q3","type":"choice","tag":"g:趋向补语引申","prompt_vi":"Chọn nghĩa đúng của câu.","question_zh":"我听出来了，是你的声音。","options":["Tôi nghe ra rồi, là giọng của bạn.","Tôi nghe xong rồi, giọng bạn hay quá.","Tôi đi ra ngoài nghe giọng bạn.","Tôi không nghe thấy giọng bạn."],"answer":0,"explanation_vi":"听出来 = nghe ra, nhận ra qua âm thanh."},
+        {"id":"q4","type":"choice","tag":"g:使叫让","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"老师____我们明天八点到学校。","options":["叫","使","被","把"],"answer":0,"explanation_vi":"Thầy bảo học sinh làm một việc → 叫 (hoặc 让). 使 không dùng để sai bảo."},
+        {"id":"q5","type":"choice","tag":"g:使叫让","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他的话____大家都很开心。","options":["使","做","被","把"],"answer":0,"explanation_vi":"使 + người + tính từ = khiến ai thế nào (văn viết). 做 không mang nghĩa “khiến”."},
+        {"id":"q6","type":"choice","tag":"g:使叫让","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["这件事让我很难过。","这件事做我很难过。","这件事让很难过我。","我让这件事很难过。"],"answer":0,"explanation_vi":"Thứ tự: việc gây ra (这件事) + 让 + người (我) + trạng thái (很难过)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:好像","prompt_vi":"Chọn đáp án đúng.","question_zh":"外面____下雨了，你带伞吧。","options":["好像","以前","季节","变化"],"answer":0,"explanation_vi":"好像下雨了 = hình như mưa rồi (phỏng đoán)."},
+      {"id":"t2","type":"choice","tag":"g:使叫让","prompt_vi":"Chọn đáp án đúng.","question_zh":"妈妈____我去超市买点儿水果。","options":["让","使","被","把"],"answer":0,"explanation_vi":"Sai bảo ai làm gì dùng 让 (hoặc 叫); 使 dùng cho cảm xúc, trạng thái."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"认得","vi":"nhận ra, biết mặt"},{"zh":"后来","vi":"sau đó"},{"zh":"发生","vi":"xảy ra"},{"zh":"发展","vi":"phát triển"},{"zh":"不久","vi":"không lâu"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"旧","vi":"cũ"},{"zh":"矮","vi":"thấp"},{"zh":"短","vi":"ngắn"},{"zh":"城市","vi":"thành phố"},{"zh":"树","vi":"cây"}]},
+      {"id":"t5","type":"order","tag":"v:变成","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这条小街","变成了","一个","大商场"],"answers":["这条小街变成了一个大商场"],"translation_vi":"Con phố nhỏ này đã thành một trung tâm thương mại lớn.","explanation_vi":"变成了 + 一个 + danh từ."},
+      {"id":"t6","type":"order","tag":"g:趋向补语引申","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","一点儿","也","没","看出来"],"answers":["我一点儿也没看出来"],"translation_vi":"Tôi chẳng nhìn ra chút nào.","explanation_vi":"一点儿也没 + V: chẳng… chút nào; 看出来 = nhìn ra."},
+      {"id":"t7","type":"fill","tag":"v:以前","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"____我很怕狗，现在不怕了。","answers":["以前"],"hint_vi":"trước đây","explanation_vi":"以前……，现在…… = trước đây…, bây giờ…"},
+      {"id":"t8","type":"fill","tag":"g:趋向补语引申","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我想____了，他叫小马！","answers":["起来"],"hint_vi":"bổ ngữ xu hướng nghĩa là “nhớ ra”","explanation_vi":"想起来 = nhớ ra điều đã biết."},
+      {"id":"t9","type":"listen_choice","tag":"v:声音","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我一听声音就知道是你。","options":["Vừa nghe giọng là tôi biết ngay là bạn.","Tôi không nghe ra giọng của bạn.","Bạn nghe giọng tôi là biết ngay.","Tôi rất thích nghe giọng bạn."],"answer":0,"explanation_vi":"一听声音就知道 = vừa nghe giọng là biết ngay."},
+      {"id":"t10","type":"listen_choice","tag":"g:趋向补语引申","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"天气慢慢冷起来了。","options":["天气慢慢冷起来了。","天气慢慢热起来了。","天气一直很冷。","明天天气会很冷。"],"answer":0,"explanation_vi":"Câu nghe được: 天气慢慢冷起来了 = Trời dần dần trở lạnh."},
+      {"id":"t11","type":"dictation","tag":"v:季节","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你最喜欢哪个季节？","answers":["你最喜欢哪个季节"],"explanation_vi":"你最喜欢哪个季节 = Bạn thích mùa nào nhất?"},
+      {"id":"t12","type":"dictation","tag":"g:使叫让","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这些变化让我很高兴。","answers":["这些变化让我很高兴"],"explanation_vi":"这些变化让我很高兴 = Những thay đổi này khiến tôi rất vui."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:变","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bạn chẳng thay đổi chút nào!","answers":["你一点儿也没变","你一点儿都没变","你一点也没变","你一点都没变","你一点儿也没有变","你一点儿都没有变","你一点也没有变","你一点都没有变"],"explanation_vi":"一点儿也/都 + 没 + 变 = chẳng thay đổi chút nào."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:使叫让","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Mẹ bảo tôi về nhà sớm một chút.","answers":["妈妈让我早点儿回家","妈妈叫我早点儿回家","妈妈让我早点回家","妈妈叫我早点回家","妈妈让我早一点儿回家","妈妈叫我早一点儿回家","妈妈让我早一点回家","妈妈叫我早一点回家"],"explanation_vi":"妈妈 + 让/叫 + 我 + 早点儿回家."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:发现","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我发现他最近瘦了很多。","answers_vi":["Tôi nhận ra dạo này anh ấy gầy đi nhiều.","Tôi phát hiện gần đây anh ấy gầy đi rất nhiều."],"keywords":[["nhận ra","phát hiện","thấy"],["gần đây","dạo này","mới đây","dạo gần đây"],["gầy","ốm"]],"explanation_vi":"发现 = nhận ra, thấy; 最近 = gần đây; 瘦了很多 = gầy đi nhiều."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:趋向补语引申","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"听到这个故事，大家都笑起来了。","answers_vi":["Nghe câu chuyện này, mọi người đều bật cười.","Nghe xong câu chuyện, ai cũng cười ồ lên."],"keywords":[["nghe"],["chuyện"],["mọi người","ai cũng","cả nhà","tất cả"],["cười"]],"explanation_vi":"笑起来 = bật cười, bắt đầu cười."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"秋天的公园",
+        "title_vi":"Công viên mùa thu",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["住","zhù","sống"],["的","de","(mà)"],["城市","chéngshì","thành phố"],["四季","sìjì","bốn mùa"],["很","hěn","rất"],["不一样","bù yíyàng","khác nhau"],["。"],["春天","chūntiān","mùa xuân"],["，"],["树","shù","cây"],["绿","lǜ","xanh"],["了","le","(rồi)"],["，"],["花","huā","hoa"],["也","yě","cũng"],["开","kāi","nở"],["了","le","(rồi)"],["；"],["夏天","xiàtiān","mùa hè"],["很","hěn","rất"],["热","rè","nóng"],["，"],["天","tiān","bầu trời"],["特别","tèbié","đặc biệt"],["蓝","lán","xanh"],["；"],["秋天","qiūtiān","mùa thu"],["，"],["很多","hěn duō","nhiều"],["树叶","shùyè","lá cây"],["变成","biànchéng","biến thành"],["了","le","(rồi)"],["黄色","huángsè","màu vàng"],["；"],["冬天","dōngtiān","mùa đông"],["有时候","yǒu shíhou","có khi"],["会","huì","sẽ"],["下雪","xià xuě","có tuyết rơi"],["。"]],
+            "vi":"Thành phố tôi sống bốn mùa rất khác nhau. Mùa xuân cây xanh lại, hoa cũng nở; mùa hè rất nóng, bầu trời xanh đặc biệt; mùa thu nhiều lá cây chuyển sang màu vàng; mùa đông có khi có tuyết rơi."
+          },
+          {
+            "tokens":[["小时候","xiǎoshíhou","hồi nhỏ"],["，"],["我","wǒ","tôi"],["最","zuì","nhất"],["喜欢","xǐhuan","thích"],["冬天","dōngtiān","mùa đông"],["，"],["因为","yīnwèi","vì"],["可以","kěyǐ","có thể"],["在","zài","ở"],["雪","xuě","tuyết"],["里","li","trong"],["玩儿","wánr","chơi"],["。"],["后来","hòulái","về sau"],["我","wǒ","tôi"],["发现","fāxiàn","nhận ra"],["，"],["秋天","qiūtiān","mùa thu"],["才","cái","mới (nhấn mạnh)"],["是","shì","là"],["最","zuì","nhất"],["好","hǎo","đẹp, tốt"],["的","de","(của)"],["季节","jìjié","mùa"],["："],["不","bù","không"],["冷","lěng","lạnh"],["也","yě","cũng"],["不","bú","không"],["热","rè","nóng"],["，"],["天气","tiānqì","thời tiết"],["特别","tèbié","đặc biệt"],["舒服","shūfu","dễ chịu"],["。"]],
+            "vi":"Hồi nhỏ tôi thích mùa đông nhất, vì có thể chơi trong tuyết. Về sau tôi mới nhận ra mùa thu mới là mùa đẹp nhất: không lạnh cũng không nóng, thời tiết dễ chịu vô cùng."
+          },
+          {
+            "tokens":[["上","shàng","trước"],["个","ge","(lượng từ)"],["星期","xīngqī","tuần"],["，"],["我","wǒ","tôi"],["带","dài","đưa"],["妈妈","māma","mẹ"],["去","qù","đi"],["公园","gōngyuán","công viên"],["。"],["妈妈","māma","mẹ"],["说","shuō","nói"],["："],["“"],["以前","yǐqián","trước đây"],["这儿","zhèr","chỗ này"],["只是","zhǐshì","chỉ là"],["一块","yí kuài","một mảnh"],["草地","cǎodì","bãi cỏ"],["，"],["现在","xiànzài","bây giờ"],["变化","biànhuà","thay đổi"],["真","zhēn","thật"],["大","dà","lớn"],["！"],["”"],["黄色","huángsè","màu vàng"],["的","de","(của)"],["树叶","shùyè","lá cây"],["使","shǐ","khiến"],["妈妈","māma","mẹ"],["很","hěn","rất"],["开心","kāixīn","vui"],["，"],["她","tā","bà"],["笑","xiào","cười"],["了","le","(rồi)"],["起来","qǐlai","bắt đầu (bật cười)"],["，"],["好像","hǎoxiàng","giống như"],["又","yòu","lại"],["变成","biànchéng","trở thành"],["了","le","(rồi)"],["一个","yí ge","một"],["孩子","háizi","đứa trẻ"],["。"]],
+            "vi":"Tuần trước, tôi đưa mẹ đi công viên. Mẹ nói: “Trước đây chỗ này chỉ là một bãi cỏ, bây giờ thay đổi nhiều thật!” Những chiếc lá vàng khiến mẹ rất vui, mẹ bật cười, trông như lại trở thành một đứa trẻ."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"春天的时候，这个城市怎么样？","options":["树绿了，花开了","天特别蓝，很热","很多树叶变成了黄色","有时候会下雪"],"answer":0,"explanation_vi":"Đoạn 1: 春天，树绿了，花也开了. Ba đáp án còn lại là mùa hè, mùa thu, mùa đông."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”小时候最喜欢哪个季节？","options":["冬天","春天","夏天","秋天"],"answer":0,"explanation_vi":"Đoạn 2: 小时候，我最喜欢冬天，因为可以在雪里玩儿."},
+          {"id":"rq3","type":"choice","tag":"v:发现","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"后来“我”发现哪个季节最好？","options":["秋天","冬天","夏天","春天"],"answer":0,"explanation_vi":"Đoạn 2: 后来我发现，秋天才是最好的季节."},
+          {"id":"rq4","type":"choice","tag":"v:以前","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"这个公园以前就很大。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 以前这儿只是一块草地 — trước đây chỉ là một bãi cỏ, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"g:趋向补语引申","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"看到黄色的树叶，妈妈笑了起来。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 黄色的树叶使妈妈很开心，她笑了起来."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Gặp lại bạn cũ trên tàu",
+        "text_zh":"前年夏天，我坐火车去北京。车上有一个人一直在打电话，我觉得他的声音很像我的一个老同学。我看了他好几次，可是没认出来，因为我的老同学是长头发，这个人的头发很短。不久，他也看了看我，突然笑起来，说：“你是小林吧？”我这才认出来，他真的是我的老同学！我们已经十年没见了，大家都变了很多。那天在火车上，我们聊了很久。",
+        "pinyin":"Qiánnián xiàtiān, wǒ zuò huǒchē qù Běijīng. Chē shang yǒu yí ge rén yìzhí zài dǎ diànhuà, wǒ juéde tā de shēngyīn hěn xiàng wǒ de yí ge lǎo tóngxué. Wǒ kàn le tā hǎo jǐ cì, kěshì méi rèn chūlai, yīnwèi wǒ de lǎo tóngxué shì cháng tóufa, zhège rén de tóufa hěn duǎn. Bùjiǔ, tā yě kàn le kàn wǒ, tūrán xiào qǐlai, shuō: “Nǐ shì Xiǎo Lín ba?” Wǒ zhè cái rèn chūlai, tā zhēn de shì wǒ de lǎo tóngxué! Wǒmen yǐjīng shí nián méi jiàn le, dàjiā dōu biàn le hěn duō. Nà tiān zài huǒchē shang, wǒmen liáo le hěn jiǔ.",
+        "vi":"Mùa hè năm kia, tôi đi tàu hỏa đến Bắc Kinh. Trên tàu có một người cứ gọi điện thoại mãi, tôi thấy giọng anh ấy rất giống một người bạn học cũ của tôi. Tôi nhìn anh ấy mấy lần mà không nhận ra, vì bạn học cũ của tôi để tóc dài, còn người này tóc rất ngắn. Không lâu sau, anh ấy cũng nhìn tôi, bỗng bật cười và nói: “Cậu là Tiểu Lâm phải không?” Lúc đó tôi mới nhận ra, đúng là bạn học cũ của tôi! Chúng tôi đã mười năm không gặp, ai cũng thay đổi nhiều. Hôm đó trên tàu, chúng tôi nói chuyện rất lâu.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"v:发生","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"这件事是什么时候发生的？","options":["前年夏天","去年冬天","前年冬天","今年春天"],"answer":0,"explanation_vi":"Nghe được: 前年夏天，我坐火车去北京."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"“我”为什么没认出老同学？","options":["因为他的头发很短","因为他一直不说话","因为他变胖了","因为车上人太多"],"answer":0,"explanation_vi":"Nghe được: 我的老同学是长头发，这个人的头发很短."},
+          {"id":"lq3","type":"choice","tag":"g:趋向补语引申","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"是谁先说出“小林”这个名字的？","options":["老同学","“我”","别的人","没有人说"],"answer":0,"explanation_vi":"Nghe được: 他也看了看我，突然笑起来，说：“你是小林吧？” — người bạn cũ gọi tên trước."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他们多长时间没见了？","options":["十年","两年","一年","五年"],"answer":0,"explanation_vi":"Nghe được: 我们已经十年没见了."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"头发","pinyin":"tóufa","vi":"tóc","tip_vi":"头 tóu: t bật hơi, vần ou (môi tròn dần), đừng đọc thành “tâu”. 发 đọc nhẹ, ngắn: fa."},
+      {"id":"s2","zh":"声音","pinyin":"shēngyīn","vi":"âm thanh, giọng","tip_vi":"声 shēng: sh uốn lưỡi, vần -eng (cuống lưỡi). 音 yīn: vần -in (đầu lưỡi chạm lợi). Hai chữ đều thanh 1, giữ cao và bằng."},
+      {"id":"s3","zh":"春夏秋冬","pinyin":"chūn xià qiū dōng","vi":"xuân hạ thu đông","tip_vi":"春 chūn: ch uốn lưỡi, bật hơi. 秋 qiū: q bật hơi mạnh, môi dẹt, đừng đọc thành “chiu” hay “kiu”. 夏 xià thanh 4 hạ dứt khoát."},
+      {"id":"s4","zh":"你没看出来吗？","pinyin":"Nǐ méi kàn chūlai ma?","vi":"Bạn không nhìn ra à?","tip_vi":"出来 làm bổ ngữ: 出 rõ, 来 đọc nhẹ. 看 kàn: k bật hơi. Câu hỏi có 吗 thì giọng cuối hơi lên nhẹ, không cần lên cao như tiếng Việt."},
+      {"id":"s5","zh":"我想起来了！","pinyin":"Wǒ xiǎng qǐlai le!","vi":"Tôi nhớ ra rồi!","tip_vi":"我想起 là ba thanh 3 liền nhau: khi nói nhanh, 我 và 想 đều đọc gần thanh 2, 起 giữ thấp. 来 và 了 đọc nhẹ."},
+      {"id":"s6","zh":"这些树让我想起了小时候。","pinyin":"Zhèxiē shù ràng wǒ xiǎng qǐ le xiǎoshíhou.","vi":"Những cái cây này làm tôi nhớ lại hồi nhỏ.","tip_vi":"让 ràng: r uốn lưỡi, vần -ang mở miệng rộng. 树 shù, 时 shí: sh uốn lưỡi. 小时候 xiǎoshíhou: 候 đọc nhẹ."},
+      {"id":"s7","zh":"外面下起雨来了，天气也冷起来了。","pinyin":"Wàimiàn xià qǐ yǔ lai le, tiānqì yě lěng qǐlai le.","vi":"Bên ngoài bắt đầu mưa rồi, trời cũng trở lạnh rồi.","tip_vi":"雨 yǔ: ü tròn môi, đừng đọc thành “uy”. 冷 lěng: l rõ (đừng lẫn với n), vần -eng. 起雨 qǐ yǔ: hai thanh 3, 起 đọc gần thanh 2."}
+    ],
+    "review": {
+      "remember": [
+        "V + 出来 = nhìn ra / nghe ra / nhận ra / nghĩ ra: 看出来, 听出来, 认出来, 想出来 (nghĩ ra cái mới).",
+        "V/Adj + 起来 = bắt đầu và tiếp diễn (笑起来, 冷起来); 想起来 = nhớ ra. Tân ngữ đứng giữa: 下起雨来, 认出他来.",
+        "让 / 叫 / 使 + người + V/Adj: 让 hay dùng nhất (bảo, cho, khiến); 叫 = bảo, sai (khẩu ngữ); 使 = khiến (văn viết, cho cảm xúc, trạng thái). Không cho phép: 不让.",
+        "变 + tính từ (变短了, 变黄了); 变成 + danh từ (变成了一个大商场); 变化 = sự thay đổi (变化很大).",
+        "Bốn mùa (四季): 春天, 夏天, 秋天, 冬天. 以前 = trước đây; 好像 = hình như; A 像 B = A giống B."
+      ],
+      "mistakes": [
+        "✗ 外面下雨起来了 → ✓ 外面下起雨来了: tân ngữ đứng giữa 起 và 来.",
+        "✗ 我想出来他的名字了 (muốn nói “nhớ ra”) → ✓ 我想起他的名字来了 / 我想起了他的名字: nhớ ra dùng 起来, nghĩ ra dùng 出来.",
+        "✗ 他的话做我很高兴 → ✓ 他的话让我很高兴: “làm cho, khiến” là 让 / 使, không phải 做."
+      ]
+    }
+  }
+}

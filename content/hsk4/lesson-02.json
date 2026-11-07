@@ -1,0 +1,251 @@
+{
+  "level": 4,
+  "number": 2,
+  "summary": "Nói về tình bạn đích thực: liên lạc, hiểu lầm, xin lỗi và tha thứ; học 正好, 差不多 (xem kỹ hơn), 尽管……却/还是……, phó từ 却 và liên từ 而.",
+  "readings_ok": ["得 de", "长 cháng"],
+  "content": {
+    "objectives": [
+      "Kể về một người bạn thân, về hiểu lầm giữa bạn bè, xin lỗi và tha thứ: 误会、道歉、原谅",
+      "Nói sự trùng hợp, vừa vặn bằng 正好 và nói “gần như, gần giống nhau” bằng 差不多",
+      "Diễn đạt nhượng bộ, tương phản bằng 尽管……可是/还是……, 却 (lại) và 而 (còn, mà)",
+      "Dùng đúng các từ dễ nhầm với tiếng Việt: 共同 (chung), 交流 (trao đổi), 互相 + động từ"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"尽管","pinyin":"jǐnguǎn","pos":"liên từ / phó từ","meaning_vi":"mặc dù, dù rằng; (khẩu ngữ) cứ việc","example_zh":"尽管我们很少见面，感情却一直很好。","example_pinyin":"Jǐnguǎn wǒmen hěn shǎo jiànmiàn, gǎnqíng què yìzhí hěn hǎo.","example_vi":"Mặc dù chúng tôi ít gặp nhau, tình cảm lại luôn rất tốt.","note_vi":"Liên từ: gần nghĩa 虽然 nhưng nhấn mạnh hơn, hay gặp trong văn viết; vế sau có 但是/可是/还是/却. Phó từ (khẩu ngữ) đứng trước động từ: “cứ việc” — 有问题尽管问我 = Có gì cứ hỏi tôi. Hai thanh 3 liền nhau: 尽 đọc gần thanh 2."},
+      {"id":"v2","hanzi":"却","pinyin":"què","pos":"phó từ","meaning_vi":"lại, nhưng lại (trái với mong đợi)","example_zh":"我等了他一个小时，他却没来。","example_pinyin":"Wǒ děng le tā yí ge xiǎoshí, tā què méi lái.","example_vi":"Tôi đợi anh ấy một tiếng đồng hồ, anh ấy lại không đến.","hanviet":"KHƯỚC","note_vi":"却 là phó từ: đứng SAU chủ ngữ, ngay trước động từ (他却没来), khác 但是/可是 đứng đầu vế câu. Có thể dùng chung: 可是他却没来. q bật hơi, vần üe tròn môi."},
+      {"id":"v3","hanzi":"而","pinyin":"ér","pos":"liên từ","meaning_vi":"còn; mà (nối hai ý đối chiếu hoặc bổ sung, văn viết)","example_zh":"我喜欢喝茶，而他喜欢喝咖啡。","example_pinyin":"Wǒ xǐhuan hē chá, ér tā xǐhuan hē kāfēi.","example_vi":"Tôi thích uống trà, còn anh ấy thích uống cà phê.","hanviet":"NHI","note_vi":"而 đứng đầu vế sau, trước chủ ngữ thứ hai. Cũng nối hai tính từ: 简单而快乐 (giản dị mà vui vẻ). Không dùng 而 để nối hai danh từ (phải dùng 和). Đọc ér: uốn đầu lưỡi, đừng đọc thành “ơ”."},
+      {"id":"v4","hanzi":"正好","pinyin":"zhènghǎo","pos":"tính từ / phó từ","meaning_vi":"vừa đúng, vừa vặn; vừa hay, đúng lúc","example_zh":"你来得正好，我们正要去吃饭。","example_pinyin":"Nǐ lái de zhènghǎo, wǒmen zhèng yào qù chī fàn.","example_vi":"Bạn đến đúng lúc lắm, chúng tôi đang định đi ăn.","note_vi":"Tính từ: vừa đúng, vừa khít (这双鞋大小正好), làm vị ngữ không thêm 很. Phó từ: vừa hay, tình cờ đúng lúc (我正好也要去). Chú ý: “vừa mới” là 刚, không phải 正好."},
+      {"id":"v5","hanzi":"真正","pinyin":"zhēnzhèng","pos":"tính từ / phó từ","meaning_vi":"thật sự, đích thực","example_zh":"真正的朋友会在你需要的时候帮你。","example_pinyin":"Zhēnzhèng de péngyou huì zài nǐ xūyào de shíhou bāng nǐ.","example_vi":"Người bạn đích thực sẽ giúp bạn khi bạn cần.","hanviet":"CHÂN CHÍNH","note_vi":"Làm định ngữ: 真正的朋友 (người bạn đích thực); làm trạng ngữ: 真正了解 (thật sự hiểu). Khác 真 (thật là): khen “hay thật” nói 真好, không nói *真正好. 真 -n và 正 -ng: phân biệt âm cuối."},
+      {"id":"v6","hanzi":"友谊","pinyin":"yǒuyì","pos":"danh từ","meaning_vi":"tình bạn, tình hữu nghị","example_zh":"我们的友谊已经有二十年了。","example_pinyin":"Wǒmen de yǒuyì yǐjīng yǒu èrshí nián le.","example_vi":"Tình bạn của chúng tôi đã được hai mươi năm rồi.","hanviet":"HỮU NGHỊ","note_vi":"Tiếng Việt “hữu nghị” thường nói về quan hệ giữa các nước, còn 友谊 dùng được cho tình bạn giữa hai người. 友谊 trang trọng hơn 友情 một chút."},
+      {"id":"v7","hanzi":"互相","pinyin":"hùxiāng","pos":"phó từ","meaning_vi":"lẫn nhau, với nhau","example_zh":"朋友之间应该互相帮助。","example_pinyin":"Péngyou zhījiān yīnggāi hùxiāng bāngzhù.","example_vi":"Bạn bè thì nên giúp đỡ lẫn nhau.","hanviet":"HỖ TƯƠNG","note_vi":"互相 đứng TRƯỚC động từ: 互相帮助, 互相理解. Đừng đặt sau động từ như tiếng Việt “giúp đỡ lẫn nhau”: ✗ 帮助互相."},
+      {"id":"v8","hanzi":"理解","pinyin":"lǐjiě","pos":"động từ","meaning_vi":"hiểu, thông cảm","example_zh":"我很理解你为什么生气。","example_pinyin":"Wǒ hěn lǐjiě nǐ wèi shénme shēngqì.","example_vi":"Tôi rất hiểu vì sao bạn giận.","hanviet":"LÝ GIẢI","note_vi":"Không có nghĩa “giải thích” như tiếng Việt “lý giải”. 理解 = hiểu lý do, suy nghĩ, cảm xúc của người khác (và thông cảm); 懂 = hiểu được (lời nói, chữ nghĩa); 了解 = biết rõ (về người, tình hình)."},
+      {"id":"v9","hanzi":"支持","pinyin":"zhīchí","pos":"động từ","meaning_vi":"ủng hộ","example_zh":"你的决定，我们都支持。","example_pinyin":"Nǐ de juédìng, wǒmen dōu zhīchí.","example_vi":"Quyết định của bạn, chúng tôi đều ủng hộ.","note_vi":"zh + ch: zhīchí là hai âm uốn lưỡi; 支 không bật hơi, 持 bật hơi. Vần -i sau zh/ch đọc như “ư” uốn lưỡi, không phải “i”."},
+      {"id":"v10","hanzi":"误会","pinyin":"wùhuì","pos":"động từ / danh từ","meaning_vi":"hiểu lầm","example_zh":"你误会了，我不是那个意思。","example_pinyin":"Nǐ wùhuì le, wǒ bú shì nàge yìsi.","example_vi":"Bạn hiểu lầm rồi, ý tôi không phải vậy.","hanviet":"NGỘ HỘI","note_vi":"Động từ: 误会他了 (hiểu lầm anh ấy). Danh từ: 有误会 (có hiểu lầm), 一个误会."},
+      {"id":"v11","hanzi":"原谅","pinyin":"yuánliàng","pos":"động từ","meaning_vi":"tha thứ, bỏ qua","example_zh":"对不起，请原谅我。","example_pinyin":"Duìbuqǐ, qǐng yuánliàng wǒ.","example_vi":"Xin lỗi, mong bạn tha thứ cho tôi.","hanviet":"NGUYÊN LƯỢNG","note_vi":"原谅 + người/lỗi: 原谅他, 原谅我的错. Tiếng Việt có từ gần âm là “lượng thứ”."},
+      {"id":"v12","hanzi":"联系","pinyin":"liánxì","pos":"động từ / danh từ","meaning_vi":"liên lạc, liên hệ","example_zh":"离开学校以后，我们还一直有联系。","example_pinyin":"Líkāi xuéxiào yǐhòu, wǒmen hái yìzhí yǒu liánxì.","example_vi":"Sau khi rời trường, chúng tôi vẫn luôn giữ liên lạc.","hanviet":"LIÊN HỆ","note_vi":"跟/和 + người + 联系 (liên lạc với ai), hoặc 联系 + người. 有联系 / 没有联系 = có / không còn liên lạc."},
+      {"id":"v13","hanzi":"交流","pinyin":"jiāoliú","pos":"động từ","meaning_vi":"trao đổi, giao lưu","example_zh":"有问题的时候，我们要多交流。","example_pinyin":"Yǒu wèntí de shíhou, wǒmen yào duō jiāoliú.","example_vi":"Khi có vấn đề, chúng ta nên trao đổi nhiều hơn.","hanviet":"GIAO LƯU","note_vi":"Ngoài nghĩa “giao lưu” (văn hóa…), 交流 rất hay dùng với nghĩa “trao đổi, nói chuyện để hiểu nhau”: 跟朋友交流. Đừng chỉ nghĩ đến nghĩa “giao lưu văn nghệ”."},
+      {"id":"v14","hanzi":"共同","pinyin":"gòngtóng","pos":"tính từ","meaning_vi":"chung, cùng","example_zh":"我们有很多共同的爱好。","example_pinyin":"Wǒmen yǒu hěn duō gòngtóng de àihào.","example_vi":"Chúng tôi có nhiều sở thích chung.","hanviet":"CỘNG ĐỒNG","note_vi":"Bẫy Hán Việt: 共同 KHÔNG phải “cộng đồng” (community). 共同 = chung, cùng nhau: 共同的爱好 (sở thích chung), 共同努力 (cùng cố gắng)."},
+      {"id":"v15","hanzi":"之间","pinyin":"zhījiān","pos":"danh từ","meaning_vi":"giữa (hai hay nhiều người, sự vật)","example_zh":"朋友之间不用这么客气。","example_pinyin":"Péngyou zhījiān búyòng zhème kèqi.","example_vi":"Giữa bạn bè với nhau không cần khách sáo thế.","hanviet":"CHI GIAN","note_vi":"Đứng sau danh từ: 朋友之间, 我和他之间 (giữa tôi và anh ấy). Khác 中间 (chỗ ở giữa, vị trí cụ thể): 两个人中间有一张桌子."},
+      {"id":"v16","hanzi":"熟悉","pinyin":"shúxi","pos":"động từ / tính từ","meaning_vi":"quen thuộc, biết rõ","example_zh":"我对这个城市很熟悉。","example_pinyin":"Wǒ duì zhège chéngshì hěn shúxi.","example_vi":"Tôi rất thông thuộc thành phố này.","note_vi":"熟悉 + người/nơi chốn (熟悉这个地方) hoặc 对……很熟悉. Khác 认识 (quen biết, biết mặt): 认识 một người chưa chắc đã 熟悉 người đó. 熟 đọc shú."},
+      {"id":"v17","hanzi":"聚会","pinyin":"jùhuì","pos":"danh từ / động từ","meaning_vi":"buổi tụ họp, buổi gặp mặt; tụ họp","example_zh":"周末我们有一个同学聚会。","example_pinyin":"Zhōumò wǒmen yǒu yí ge tóngxué jùhuì.","example_vi":"Cuối tuần chúng tôi có buổi họp lớp.","hanviet":"TỤ HỘI","note_vi":"聚会 là buổi gặp mặt thân mật của bạn bè, người quen. 晚会 (HSK3) là buổi liên hoan, biểu diễn buổi tối có tiết mục."},
+      {"id":"v18","hanzi":"感谢","pinyin":"gǎnxiè","pos":"động từ","meaning_vi":"cảm ơn, biết ơn","example_zh":"非常感谢你的帮助。","example_pinyin":"Fēicháng gǎnxiè nǐ de bāngzhù.","example_vi":"Rất cảm ơn sự giúp đỡ của bạn.","hanviet":"CẢM TẠ","note_vi":"Trang trọng hơn 谢谢. Hay dùng: 感谢 + người + 的 + việc (感谢你的支持)."},
+      {"id":"v19","hanzi":"麻烦","pinyin":"máfan","pos":"tính từ / động từ","meaning_vi":"phiền phức, rắc rối; làm phiền","example_zh":"麻烦你帮我拿一下这个箱子。","example_pinyin":"Máfan nǐ bāng wǒ ná yíxià zhège xiāngzi.","example_vi":"Phiền bạn cầm giúp tôi cái va li này một chút.","note_vi":"Ba cách dùng: tính từ 很麻烦 (phiền phức); động từ 麻烦你…… (làm phiền bạn…, lời nhờ lịch sự); danh từ 遇到麻烦 (gặp rắc rối). 烦 đọc nhẹ: máfan."},
+      {"id":"v20","hanzi":"开玩笑","pinyin":"kāi wánxiào","pos":"cụm từ (động từ)","meaning_vi":"nói đùa, đùa","example_zh":"别生气，我跟你开玩笑呢。","example_pinyin":"Bié shēngqì, wǒ gēn nǐ kāi wánxiào ne.","example_vi":"Đừng giận, mình đùa bạn thôi mà.","note_vi":"Đùa với ai: 跟/和 + người + 开玩笑, không nói *开玩笑他. Có thể tách ra: 开了一个玩笑 (đã đùa một câu)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"友好","pinyin":"yǒuhǎo","pos":"tính từ","meaning_vi":"thân thiện","example_zh":"这里的人都很友好。","example_pinyin":"Zhèlǐ de rén dōu hěn yǒuhǎo.","example_vi":"Người ở đây đều rất thân thiện."},
+      {"id":"x2","hanzi":"友情","pinyin":"yǒuqíng","pos":"danh từ","meaning_vi":"tình bạn","example_zh":"这是一个关于友情的故事。","example_pinyin":"Zhè shì yí ge guānyú yǒuqíng de gùshi.","example_vi":"Đây là một câu chuyện về tình bạn."},
+      {"id":"x3","hanzi":"交","pinyin":"jiāo","pos":"động từ","meaning_vi":"kết (bạn); nộp, giao","example_zh":"我在大学交了很多朋友。","example_pinyin":"Wǒ zài dàxué jiāo le hěn duō péngyou.","example_vi":"Ở đại học tôi đã kết bạn với rất nhiều người."},
+      {"id":"x4","hanzi":"答应","pinyin":"dāying","pos":"động từ","meaning_vi":"nhận lời, đồng ý, hứa","example_zh":"我请他帮忙，他马上就答应了。","example_pinyin":"Wǒ qǐng tā bāngmáng, tā mǎshàng jiù dāying le.","example_vi":"Tôi nhờ anh ấy giúp, anh ấy nhận lời ngay."},
+      {"id":"x5","hanzi":"道歉","pinyin":"dàoqiàn","pos":"động từ","meaning_vi":"xin lỗi","example_zh":"我应该向你道歉。","example_pinyin":"Wǒ yīnggāi xiàng nǐ dàoqiàn.","example_vi":"Tôi nên xin lỗi bạn."},
+      {"id":"x6","hanzi":"抱歉","pinyin":"bàoqiàn","pos":"tính từ","meaning_vi":"xin lỗi, áy náy","example_zh":"很抱歉，我来晚了。","example_pinyin":"Hěn bàoqiàn, wǒ lái wǎn le.","example_vi":"Rất xin lỗi, tôi đến muộn."},
+      {"id":"x7","hanzi":"伤心","pinyin":"shāngxīn","pos":"tính từ","meaning_vi":"đau lòng, buồn","example_zh":"好朋友离开了，她很伤心。","example_pinyin":"Hǎo péngyou líkāi le, tā hěn shāngxīn.","example_vi":"Bạn thân đi xa, cô ấy rất buồn."},
+      {"id":"x8","hanzi":"失望","pinyin":"shīwàng","pos":"động từ / tính từ","meaning_vi":"thất vọng","example_zh":"他没来，我有点儿失望。","example_pinyin":"Tā méi lái, wǒ yǒudiǎnr shīwàng.","example_vi":"Anh ấy không đến, tôi hơi thất vọng."},
+      {"id":"x9","hanzi":"诚实","pinyin":"chéngshí","pos":"tính từ","meaning_vi":"thành thật, trung thực","example_zh":"他是一个诚实的人。","example_pinyin":"Tā shì yí ge chéngshí de rén.","example_vi":"Anh ấy là một người trung thực."},
+      {"id":"x10","hanzi":"客气","pinyin":"kèqi","pos":"tính từ / động từ","meaning_vi":"khách sáo, lịch sự","example_zh":"别客气，我们是朋友。","example_pinyin":"Bié kèqi, wǒmen shì péngyou.","example_vi":"Đừng khách sáo, chúng ta là bạn mà."},
+      {"id":"x11","hanzi":"礼貌","pinyin":"lǐmào","pos":"danh từ / tính từ","meaning_vi":"lễ phép, lịch sự","example_zh":"这个孩子很有礼貌。","example_pinyin":"Zhège háizi hěn yǒu lǐmào.","example_vi":"Đứa trẻ này rất lễ phép."},
+      {"id":"x12","hanzi":"邀请","pinyin":"yāoqǐng","pos":"động từ","meaning_vi":"mời","example_zh":"他邀请我参加他的生日聚会。","example_pinyin":"Tā yāoqǐng wǒ cānjiā tā de shēngrì jùhuì.","example_vi":"Anh ấy mời tôi dự tiệc sinh nhật của anh ấy."},
+      {"id":"x13","hanzi":"打扰","pinyin":"dǎrǎo","pos":"động từ","meaning_vi":"làm phiền, quấy rầy","example_zh":"对不起，打扰一下。","example_pinyin":"Duìbuqǐ, dǎrǎo yíxià.","example_vi":"Xin lỗi, làm phiền một chút."},
+      {"id":"x14","hanzi":"打招呼","pinyin":"dǎ zhāohu","pos":"cụm từ (động từ)","meaning_vi":"chào hỏi","example_zh":"他看见我，笑着跟我打招呼。","example_pinyin":"Tā kànjiàn wǒ, xiàozhe gēn wǒ dǎ zhāohu.","example_vi":"Anh ấy nhìn thấy tôi, cười chào tôi."},
+      {"id":"x15","hanzi":"十分","pinyin":"shífēn","pos":"phó từ","meaning_vi":"rất, vô cùng","example_zh":"我十分感谢你。","example_pinyin":"Wǒ shífēn gǎnxiè nǐ.","example_vi":"Tôi vô cùng cảm ơn bạn."},
+      {"id":"x16","hanzi":"随便","pinyin":"suíbiàn","pos":"tính từ / phó từ","meaning_vi":"tùy ý, sao cũng được; tùy tiện","example_zh":"A：你想吃什么？B：随便。","example_pinyin":"A: Nǐ xiǎng chī shénme? B: Suíbiàn.","example_vi":"A: Bạn muốn ăn gì? B: Gì cũng được."},
+      {"id":"x17","hanzi":"网友","pinyin":"wǎngyǒu","pos":"danh từ","meaning_vi":"bạn trên mạng","example_zh":"她有很多外国网友。","example_pinyin":"Tā yǒu hěn duō wàiguó wǎngyǒu.","example_vi":"Cô ấy có nhiều bạn nước ngoài trên mạng."},
+      {"id":"x18","hanzi":"兄弟","pinyin":"xiōngdì","pos":"danh từ","meaning_vi":"anh em (trai)","example_zh":"他们俩好得像兄弟一样。","example_pinyin":"Tāmen liǎ hǎo de xiàng xiōngdì yíyàng.","example_vi":"Hai người họ thân như anh em ruột."},
+      {"id":"x19","hanzi":"笑话","pinyin":"xiàohua","pos":"danh từ / động từ","meaning_vi":"truyện cười; cười nhạo","example_zh":"他很会讲笑话。","example_pinyin":"Tā hěn huì jiǎng xiàohua.","example_vi":"Anh ấy rất giỏi kể chuyện cười."},
+      {"id":"x20","hanzi":"好笑","pinyin":"hǎoxiào","pos":"tính từ","meaning_vi":"buồn cười","example_zh":"这个笑话一点儿也不好笑。","example_pinyin":"Zhège xiàohua yìdiǎnr yě bù hǎoxiào.","example_vi":"Câu chuyện cười này chẳng buồn cười chút nào."},
+      {"id":"x21","hanzi":"回忆","pinyin":"huíyì","pos":"động từ / danh từ","meaning_vi":"nhớ lại; kỷ niệm","example_zh":"那是一段很快乐的回忆。","example_pinyin":"Nà shì yí duàn hěn kuàilè de huíyì.","example_vi":"Đó là một kỷ niệm rất vui."},
+      {"id":"x22","hanzi":"回信","pinyin":"huíxìn","pos":"động từ / danh từ","meaning_vi":"trả lời thư, hồi âm","example_zh":"我给他发了邮件，他还没回信。","example_pinyin":"Wǒ gěi tā fā le yóujiàn, tā hái méi huíxìn.","example_vi":"Tôi gửi email cho anh ấy, anh ấy vẫn chưa hồi âm."},
+      {"id":"x23","hanzi":"故意","pinyin":"gùyì","pos":"phó từ","meaning_vi":"cố ý, cố tình","example_zh":"对不起，我不是故意的。","example_pinyin":"Duìbuqǐ, wǒ bú shì gùyì de.","example_vi":"Xin lỗi, tôi không cố ý."},
+      {"id":"x24","hanzi":"加入","pinyin":"jiārù","pos":"động từ","meaning_vi":"gia nhập, tham gia","example_zh":"欢迎你加入我们！","example_pinyin":"Huānyíng nǐ jiārù wǒmen!","example_vi":"Chào mừng bạn tham gia cùng chúng tôi!"},
+      {"id":"x25","hanzi":"聚","pinyin":"jù","pos":"động từ","meaning_vi":"tụ tập, gặp mặt","example_zh":"周末我们几个老同学聚一聚吧。","example_pinyin":"Zhōumò wǒmen jǐ ge lǎo tóngxué jù yi jù ba.","example_vi":"Cuối tuần mấy bạn học cũ chúng mình gặp mặt nhau đi."},
+      {"id":"x26","hanzi":"聚餐","pinyin":"jùcān","pos":"động từ","meaning_vi":"ăn uống cùng nhau, liên hoan","example_zh":"今天晚上我们公司聚餐。","example_pinyin":"Jīntiān wǎnshang wǒmen gōngsī jùcān.","example_vi":"Tối nay công ty chúng tôi liên hoan."},
+      {"id":"x27","hanzi":"烦","pinyin":"fán","pos":"tính từ / động từ","meaning_vi":"bực bội, phiền; làm phiền","example_zh":"最近工作太多，我很烦。","example_pinyin":"Zuìjìn gōngzuò tài duō, wǒ hěn fán.","example_vi":"Dạo này nhiều việc quá, tôi rất bực bội."},
+      {"id":"x28","hanzi":"巧","pinyin":"qiǎo","pos":"tính từ","meaning_vi":"trùng hợp, khéo","example_zh":"真巧，你也在这儿！","example_pinyin":"Zhēn qiǎo, nǐ yě zài zhèr!","example_vi":"Trùng hợp thật, bạn cũng ở đây!"},
+      {"id":"x29","hanzi":"点头","pinyin":"diǎntóu","pos":"động từ","meaning_vi":"gật đầu","example_zh":"我问他好不好，他点了点头。","example_pinyin":"Wǒ wèn tā hǎo bu hǎo, tā diǎn le diǎn tóu.","example_vi":"Tôi hỏi anh ấy có được không, anh ấy gật gật đầu."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“正好” (vừa đúng, vừa hay)",
+        "pattern":"N + 正好 (vị ngữ)　·　V + 得 + 正好　·　S + 正好 + V",
+        "explanation_vi":"正好 có hai cách dùng:\n① Tính từ “vừa đúng, vừa khít” (về kích cỡ, thời gian, số lượng…): 这双鞋大小正好; 你来得正好 (bạn đến đúng lúc). Làm vị ngữ thì không thêm 很/非常.\n② Phó từ “vừa hay, tình cờ đúng lúc”: một việc trùng khớp với hoàn cảnh: 我正好也要去超市 (tôi cũng vừa hay định đi siêu thị). Thường đứng sau chủ ngữ, trước động từ.\nKhi muốn khen sự trùng hợp, người ta còn nói 真巧!",
+        "examples":[
+          {"zh":"这件衣服我穿正好。","pinyin":"Zhè jiàn yīfu wǒ chuān zhènghǎo.","vi":"Bộ quần áo này tôi mặc vừa khít."},
+          {"zh":"你来得正好，我们正要去聚餐。","pinyin":"Nǐ lái de zhènghǎo, wǒmen zhèng yào qù jùcān.","vi":"Bạn đến đúng lúc lắm, chúng tôi đang định đi liên hoan."},
+          {"zh":"我正好也要去超市，咱们一起走吧。","pinyin":"Wǒ zhènghǎo yě yào qù chāoshì, zánmen yìqǐ zǒu ba.","vi":"Tôi cũng vừa hay định đi siêu thị, chúng mình đi cùng nhé."},
+          {"zh":"他打电话来的时候，我正好不在家。","pinyin":"Tā dǎ diànhuà lái de shíhou, wǒ zhènghǎo bú zài jiā.","vi":"Lúc anh ấy gọi điện đến thì tôi lại vừa hay không có nhà."}
+        ],
+        "mistakes_vi":"✗ 这双鞋很正好。\n✓ 这双鞋大小正好。/ 这双鞋很合适。\n正好 làm vị ngữ không đi với 很; muốn dùng 很 thì dùng 合适.\n✗ 我正好到家。(muốn nói “tôi vừa mới về đến nhà”)\n✓ 我刚到家。\nChữ “vừa” tiếng Việt có hai nghĩa: “vừa mới” (刚) và “vừa hay, vừa khít” (正好). Đừng lẫn.",
+        "compare_vi":"正好 ≈ “vừa hay, vừa đúng lúc, vừa khít”. Nhưng “vừa” với nghĩa “vừa mới” thì phải dùng 刚."
+      },
+      {
+        "id":"g2",
+        "title":"“差不多” (gần giống nhau; gần như, xấp xỉ)",
+        "pattern":"A 跟 B 差不多　·　差不多 + số lượng / V / Adj　·　V得 + 差不多了",
+        "explanation_vi":"Ở HSK3 bạn đã gặp 差不多 với nghĩa “khoảng, xấp xỉ”. Bài này xem kỹ ba cách dùng:\n① Tính từ “gần giống nhau, không khác mấy”, làm vị ngữ: 我们俩的性格差不多; A跟B差不多.\n② Phó từ “gần như, xấp xỉ”, đứng trước số lượng hoặc động từ/tính từ: 我们差不多三年没见面了; 菜差不多都吃完了.\n③ ……差不多了: “gần xong rồi, cũng được rồi”: 准备得差不多了.\nPhân biệt với 几乎 (HSK3): 几乎 chỉ là phó từ, luôn cần động từ/tính từ đi sau, không làm vị ngữ được; 差不多 thì làm được cả hai.",
+        "examples":[
+          {"zh":"我跟他的爱好差不多，我们都喜欢看电影。","pinyin":"Wǒ gēn tā de àihào chàbuduō, wǒmen dōu xǐhuan kàn diànyǐng.","vi":"Sở thích của tôi với anh ấy gần giống nhau, chúng tôi đều thích xem phim."},
+          {"zh":"我们差不多三年没见面了。","pinyin":"Wǒmen chàbuduō sān nián méi jiànmiàn le.","vi":"Chúng tôi gần ba năm không gặp nhau rồi."},
+          {"zh":"聚会的东西准备得差不多了。","pinyin":"Jùhuì de dōngxi zhǔnbèi de chàbuduō le.","vi":"Đồ cho buổi tụ họp đã chuẩn bị gần xong rồi."}
+        ],
+        "mistakes_vi":"✗ 我和他的爱好几乎。\n✓ 我和他的爱好差不多。\n几乎 chỉ là phó từ, phải có động từ/tính từ đi sau; làm vị ngữ phải dùng 差不多.\n✗ 我们差不多性格。\n✓ 我们的性格差不多。\nTiếng Việt nói “chúng tôi gần giống nhau về tính cách”, còn tiếng Trung đưa 性格 lên làm chủ ngữ rồi mới dùng 差不多.",
+        "compare_vi":"差不多 ≈ “gần như, xấp xỉ, na ná”. 不 ở đây đọc nhẹ: chàbuduō."
+      },
+      {
+        "id":"g3",
+        "title":"“尽管……，可是/还是……” và phó từ “却” (lại)",
+        "pattern":"尽管 + sự thật，(可是/但是) + S + 还是/却/也 + V　·　S1……，S2 + 却 + V",
+        "explanation_vi":"尽管 = “mặc dù, dù rằng”: vế đầu nêu một sự thật, vế sau nói điều trái với dự đoán. Nghĩa gần 虽然 nhưng nhấn mạnh hơn, hay dùng trong văn viết. Vế sau thường có 但是/可是 (đứng đầu vế) và/hoặc 还是/也/却 (đứng sau chủ ngữ). 尽管 chỉ dùng cho sự thật; giả định thì dùng 即使……也…… (bài 1).\n却 = “lại, thế mà lại”: phó từ chỉ kết quả trái với điều người ta nghĩ. 却 luôn đứng SAU chủ ngữ, ngay trước động từ/tính từ (他却没来), không đứng đầu câu như 但是. Có thể dùng chung với 但是/可是 để nhấn mạnh (可是他却没来), và cũng dùng một mình, không cần 尽管/虽然.",
+        "examples":[
+          {"zh":"尽管他向我道歉了，我还是很生气。","pinyin":"Jǐnguǎn tā xiàng wǒ dàoqiàn le, wǒ háishi hěn shēngqì.","vi":"Mặc dù anh ấy đã xin lỗi tôi, tôi vẫn rất giận."},
+          {"zh":"尽管我们很少见面，可是我们的感情却一直很好。","pinyin":"Jǐnguǎn wǒmen hěn shǎo jiànmiàn, kěshì wǒmen de gǎnqíng què yìzhí hěn hǎo.","vi":"Mặc dù chúng tôi ít gặp nhau, nhưng tình cảm lại luôn rất tốt."},
+          {"zh":"我以为他忘了我的生日，他却给我准备了一个聚会。","pinyin":"Wǒ yǐwéi tā wàng le wǒ de shēngrì, tā què gěi wǒ zhǔnbèi le yí ge jùhuì.","vi":"Tôi tưởng anh ấy quên sinh nhật tôi, thế mà anh ấy lại chuẩn bị cho tôi một bữa tiệc."},
+          {"zh":"大家都很开心，她却一句话也不说。","pinyin":"Dàjiā dōu hěn kāixīn, tā què yí jù huà yě bù shuō.","vi":"Mọi người đều rất vui, cô ấy lại chẳng nói một câu nào."}
+        ],
+        "mistakes_vi":"✗ 尽管很累，却他还在工作。\n✓ 尽管很累，他却还在工作。\n却 là phó từ, đứng sau chủ ngữ (tiếng Việt cũng nói “anh ấy lại…”).\n✗ 尽管他很忙，所以没来。\n✓ 尽管他很忙，可是他还是来了。\n尽管 nêu ý nhượng bộ, vế sau phải là ý trái ngược (可是/还是/却), không dùng 所以.\n✗ 尽管明天下雨，我们也去爬山。(chuyện chưa xảy ra)\n✓ 即使明天下雨，我们也去爬山。\n尽管 nói sự thật; giả định thì dùng 即使.",
+        "compare_vi":"尽管 ≈ “mặc dù”; 却 ≈ “lại, thế mà lại”. Giống tiếng Việt “nhưng anh ấy lại không đến”: “lại” đứng sau chủ ngữ, y như 却."
+      },
+      {
+        "id":"g4",
+        "title":"Liên từ “而” (còn; mà)",
+        "pattern":"S1 + A，而 + S2 + B　·　Adj1 + 而 + Adj2　·　不是 A，而是 B",
+        "explanation_vi":"而 là liên từ, hay gặp trong văn viết và lời nói trang trọng.\n① Nối hai vế đối chiếu, mỗi vế có chủ ngữ riêng, giống “còn” trong tiếng Việt: 我喜欢喝茶，而他喜欢喝咖啡. 而 đứng đầu vế sau, TRƯỚC chủ ngữ thứ hai (khác 却 đứng sau chủ ngữ).\n② Nối hai tính từ bổ sung cho nhau, giống “mà”: 简单而快乐 (giản dị mà vui vẻ).\n③ 不是 A，而是 B: “không phải A mà là B”.\n而 chỉ đặt hai điều cạnh nhau để so sánh, nhẹ hơn 但是/却 (vốn nhấn mạnh sự trái ý mong đợi). Không dùng 而 để nối hai danh từ (dùng 和).",
+        "examples":[
+          {"zh":"我喜欢在家看书，而他喜欢出去玩儿。","pinyin":"Wǒ xǐhuan zài jiā kàn shū, ér tā xǐhuan chūqu wánr.","vi":"Tôi thích ở nhà đọc sách, còn anh ấy thích ra ngoài chơi."},
+          {"zh":"他们的生活简单而快乐。","pinyin":"Tāmen de shēnghuó jiǎndān ér kuàilè.","vi":"Cuộc sống của họ giản dị mà vui vẻ."},
+          {"zh":"真正的朋友不是常常在一起的人，而是在你需要的时候会帮你的人。","pinyin":"Zhēnzhèng de péngyou bú shì chángcháng zài yìqǐ de rén, ér shì zài nǐ xūyào de shíhou huì bāng nǐ de rén.","vi":"Bạn thật sự không phải là người lúc nào cũng ở bên bạn, mà là người sẽ giúp bạn khi bạn cần."}
+        ],
+        "mistakes_vi":"✗ 我而他是好朋友。\n✓ 我和他是好朋友。\n而 không nối hai danh từ/đại từ; dùng 和/跟.\n✗ 我喜欢喝茶，他而喜欢喝咖啡。\n✓ 我喜欢喝茶，而他喜欢喝咖啡。\n而 là liên từ, đứng trước chủ ngữ của vế sau.\n✗ 我很想去，而我没有时间。(muốn nói “nhưng tôi không có thời gian”)\n✓ 我很想去，可是我没有时间。\nCùng một người, ý trái với mong muốn thì dùng 可是/但是; dùng 而 ở đây nghe không tự nhiên.",
+        "compare_vi":"而 ① ≈ “còn” (Tôi thích trà, còn anh ấy thích cà phê); 而 ② ≈ “mà” (giản dị mà vui vẻ)."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Gặp lại bạn cũ",
+      "scene_vi": "Chiều thứ Bảy, Tiểu Vương tình cờ gặp lại Tiểu Trương, bạn học đại học cũ, ở siêu thị gần nhà. Hai người nói chuyện về Tiểu Chu, bạn thân của Tiểu Trương.",
+      "lines": [
+        {"speaker":"小张","zh":"小王？真巧！你也来这儿买东西？","pinyin":"Xiǎo Wáng? Zhēn qiǎo! Nǐ yě lái zhèr mǎi dōngxi?","vi":"Tiểu Vương? Trùng hợp quá! Cậu cũng đến đây mua đồ à?"},
+        {"speaker":"小王","zh":"小张！我家就在附近。我们差不多三年没见面了吧？你最近怎么样？","pinyin":"Xiǎo Zhāng! Wǒ jiā jiù zài fùjìn. Wǒmen chàbuduō sān nián méi jiànmiàn le ba? Nǐ zuìjìn zěnmeyàng?","vi":"Tiểu Trương! Nhà mình ở ngay gần đây. Chúng mình gần ba năm không gặp rồi nhỉ? Dạo này cậu thế nào?"},
+        {"speaker":"小张","zh":"还不错，可是工作太忙了。离开学校以后，大家的联系越来越少了。","pinyin":"Hái búcuò, kěshì gōngzuò tài máng le. Líkāi xuéxiào yǐhòu, dàjiā de liánxì yuè lái yuè shǎo le.","vi":"Cũng ổn, nhưng công việc bận quá. Từ khi rời trường, mọi người liên lạc với nhau ngày càng ít."},
+        {"speaker":"小王","zh":"是啊。对了，你跟小周还有联系吗？听说你们之间有点儿误会。","pinyin":"Shì a. Duì le, nǐ gēn Xiǎo Zhōu hái yǒu liánxì ma? Tīngshuō nǐmen zhījiān yǒudiǎnr wùhuì.","vi":"Đúng thế. À phải rồi, cậu với Tiểu Chu còn liên lạc không? Nghe nói giữa hai cậu có chút hiểu lầm."},
+        {"speaker":"小张","zh":"是有一点儿。上个月他邀请我参加他的生日聚会，我答应了。可是那天公司突然有事，我却忘了告诉他。他等了我一个晚上，非常失望。","pinyin":"Shì yǒu yìdiǎnr. Shàng ge yuè tā yāoqǐng wǒ cānjiā tā de shēngrì jùhuì, wǒ dāying le. Kěshì nà tiān gōngsī tūrán yǒu shì, wǒ què wàng le gàosu tā. Tā děng le wǒ yí ge wǎnshang, fēicháng shīwàng.","vi":"Có một chút. Tháng trước cậu ấy mời mình dự tiệc sinh nhật, mình đã nhận lời. Nhưng hôm đó công ty đột nhiên có việc, mình lại quên báo cho cậu ấy. Cậu ấy đợi mình cả buổi tối, thất vọng lắm."},
+        {"speaker":"小王","zh":"那你向他道歉了吗？","pinyin":"Nà nǐ xiàng tā dàoqiàn le ma?","vi":"Thế cậu đã xin lỗi cậu ấy chưa?"},
+        {"speaker":"小张","zh":"当然道歉了。尽管我给他发了好几次邮件，他却一直没回信。我想，他还在生气吧。","pinyin":"Dāngrán dàoqiàn le. Jǐnguǎn wǒ gěi tā fā le hǎo jǐ cì yóujiàn, tā què yìzhí méi huíxìn. Wǒ xiǎng, tā hái zài shēngqì ba.","vi":"Tất nhiên là xin lỗi rồi. Mặc dù mình đã gửi email cho cậu ấy mấy lần, cậu ấy lại mãi không trả lời. Mình nghĩ chắc cậu ấy vẫn còn giận."},
+        {"speaker":"小王","zh":"我觉得他不是故意不回你的。很多人遇到误会就不说话了，而真正的朋友应该把话说清楚。这个周末我们几个老同学正好要聚一聚，小周也来，你也来吧！","pinyin":"Wǒ juéde tā bú shì gùyì bù huí nǐ de. Hěn duō rén yùdào wùhuì jiù bù shuōhuà le, ér zhēnzhèng de péngyou yīnggāi bǎ huà shuō qīngchu. Zhège zhōumò wǒmen jǐ ge lǎo tóngxué zhènghǎo yào jù yi jù, Xiǎo Zhōu yě lái, nǐ yě lái ba!","vi":"Mình nghĩ cậu ấy không cố ý không trả lời cậu đâu. Nhiều người gặp hiểu lầm là im lặng luôn, còn bạn bè thật sự thì nên nói cho rõ ràng. Cuối tuần này mấy bạn học cũ bọn mình vừa hay định gặp nhau, Tiểu Chu cũng đến, cậu cũng đến nhé!"},
+        {"speaker":"小张","zh":"太好了！可是我怕他还不想见我……","pinyin":"Tài hǎo le! Kěshì wǒ pà tā hái bù xiǎng jiàn wǒ……","vi":"Tốt quá! Nhưng mình sợ cậu ấy vẫn chưa muốn gặp mình…"},
+        {"speaker":"小王","zh":"放心吧！你们是十年的好朋友，他一定会理解你、原谅你的。见了面，你们好好聊一聊，误会就没有了。","pinyin":"Fàngxīn ba! Nǐmen shì shí nián de hǎo péngyou, tā yídìng huì lǐjiě nǐ, yuánliàng nǐ de. Jiàn le miàn, nǐmen hǎohǎo liáo yi liáo, wùhuì jiù méiyǒu le.","vi":"Yên tâm đi! Hai cậu là bạn thân mười năm, cậu ấy nhất định sẽ hiểu và tha thứ cho cậu. Gặp nhau rồi, hai cậu nói chuyện tử tế với nhau một chút là hết hiểu lầm thôi."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:联系","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"离开学校以后，我们还一直有____。","options":["联系","感谢","原谅","理解"],"answer":0,"explanation_vi":"“有联系” = có liên lạc. Các từ còn lại là động từ, không đi với 有 như vậy."},
+      {"id":"e2","type":"choice","tag":"v:误会","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你____了，我不是那个意思。","options":["误会","原谅","支持","感谢"],"answer":0,"explanation_vi":"“你误会了” = bạn hiểu lầm rồi; vế sau giải thích “ý tôi không phải vậy”."},
+      {"id":"e3","type":"choice","tag":"v:共同","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们有很多____的爱好，常常一起去爬山。","options":["共同","互相","之间","感谢"],"answer":0,"explanation_vi":"“共同的爱好” = sở thích chung. 共同 không phải “cộng đồng”."},
+      {"id":"e4","type":"choice","tag":"v:麻烦","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____你帮我拿一下这个箱子，好吗？","options":["麻烦","感谢","原谅","理解"],"answer":0,"explanation_vi":"“麻烦你……” = phiền bạn… (lời nhờ lịch sự)."},
+      {"id":"e5","type":"choice","tag":"g:正好","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你来得____，我们正要去吃饭。","options":["正好","刚","差不多","却"],"answer":0,"explanation_vi":"“来得正好” = đến đúng lúc."},
+      {"id":"e6","type":"choice","tag":"g:差不多","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我跟他的爱好____，我们都喜欢看电影。","options":["差不多","几乎","正好","互相"],"answer":0,"explanation_vi":"差不多 làm vị ngữ được (gần giống nhau); 几乎 chỉ là phó từ, không làm vị ngữ."},
+      {"id":"e7","type":"choice","tag":"g:却","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"尽管我们很少见面，我们的感情____一直很好。","options":["却","而","所以","因为"],"answer":0,"explanation_vi":"却 đứng sau chủ ngữ (我们的感情), trước động từ/tính từ: ý trái với dự đoán. 而 phải đứng trước chủ ngữ."},
+      {"id":"e8","type":"choice","tag":"g:尽管","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____他向我道歉了，我还是很生气。","options":["尽管","因为","所以","而且"],"answer":0,"explanation_vi":"尽管……，还是……: mặc dù… vẫn…."},
+      {"id":"e9","type":"choice","tag":"g:而","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我喜欢在家看书，____他喜欢出去玩儿。","options":["而","却","和","所以"],"answer":0,"explanation_vi":"Hai vế đối chiếu, chỗ trống đứng trước chủ ngữ 他 nên dùng 而 (còn). 却 phải đứng sau chủ ngữ."},
+      {"id":"e10","type":"order","tag":"g:却","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我等了他很久","他","却","没","来"],"answers":["我等了他很久他却没来"],"translation_vi":"Tôi đợi anh ấy rất lâu, anh ấy lại không đến.","explanation_vi":"却 đứng sau chủ ngữ 他, trước 没来."},
+      {"id":"e11","type":"order","tag":"g:差不多","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","差不多","三年","没","见面了"],"answers":["我们差不多三年没见面了"],"translation_vi":"Chúng tôi gần ba năm không gặp nhau rồi.","explanation_vi":"差不多 đứng trước khoảng thời gian 三年; 没见面了 = không gặp (đã bao lâu)."},
+      {"id":"e12","type":"order","tag":"v:互相","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["朋友","之间","应该","互相","帮助"],"answers":["朋友之间应该互相帮助"],"translation_vi":"Bạn bè nên giúp đỡ lẫn nhau.","explanation_vi":"朋友之间 = giữa bạn bè; 互相 đứng trước động từ 帮助."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"友谊","vi":"tình bạn"},{"zh":"理解","vi":"hiểu, thông cảm"},{"zh":"支持","vi":"ủng hộ"},{"zh":"原谅","vi":"tha thứ"},{"zh":"误会","vi":"hiểu lầm"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"联系","vi":"liên lạc"},{"zh":"交流","vi":"trao đổi"},{"zh":"熟悉","vi":"quen thuộc, biết rõ"},{"zh":"感谢","vi":"cảm ơn"},{"zh":"聚会","vi":"buổi tụ họp"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:正好","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____也要去超市，咱们一起走吧。","options":["正好","刚才","差不多","却"],"answer":0,"explanation_vi":"Phó từ 正好 = vừa hay: tôi cũng vừa hay định đi siêu thị."},
+        {"id":"q2","type":"choice","tag":"g:差不多","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我和他的性格差不多。","我和他的性格几乎。","我和他差不多性格。","差不多我和他的性格。"],"answer":0,"explanation_vi":"差不多 làm vị ngữ, đứng sau chủ ngữ 我和他的性格. 几乎 không làm vị ngữ được."},
+        {"id":"q3","type":"choice","tag":"g:尽管","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"尽管工作很忙，他____每天给我打电话。","options":["还是","所以","就","才"],"answer":0,"explanation_vi":"尽管……，还是……: mặc dù bận, anh ấy vẫn gọi điện mỗi ngày."},
+        {"id":"q4","type":"choice","tag":"g:却","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["大家都很开心，她却一句话也不说。","大家都很开心，却她一句话也不说。","大家都很开心，她一句话却也不说。","却大家都很开心，她一句话也不说。"],"answer":0,"explanation_vi":"却 đứng sau chủ ngữ 她, trước phần vị ngữ."},
+        {"id":"q5","type":"choice","tag":"g:而","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我喜欢喝茶，____他喜欢喝咖啡。","options":["而","却","也","就"],"answer":0,"explanation_vi":"Chỗ trống đứng trước chủ ngữ 他: dùng liên từ 而. 却, 也, 就 là phó từ, phải đứng sau chủ ngữ."},
+        {"id":"q6","type":"choice","tag":"g:而","prompt_vi":"Câu nào dùng “而” đúng?","question_zh":"Câu nào đúng?","options":["他们的生活简单而快乐。","我而他是好朋友。","我喜欢喝茶，他而喜欢喝咖啡。","我而喜欢喝茶。"],"answer":0,"explanation_vi":"而 nối hai tính từ (简单而快乐) hoặc đứng đầu vế sau; không nối danh từ, không đứng sau chủ ngữ."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:熟悉","prompt_vi":"Chọn đáp án đúng.","question_zh":"我在这个城市住了十年，对这里很____。","options":["熟悉","共同","真正","互相"],"answer":0,"explanation_vi":"对……很熟悉 = rất quen thuộc với…."},
+      {"id":"t2","type":"choice","tag":"g:正好","prompt_vi":"Chọn đáp án đúng.","question_zh":"这件衣服我穿____，不大也不小。","options":["正好","却","而","互相"],"answer":0,"explanation_vi":"穿正好 = mặc vừa khít (không to cũng không nhỏ)."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"答应","vi":"nhận lời"},{"zh":"道歉","vi":"xin lỗi"},{"zh":"失望","vi":"thất vọng"},{"zh":"邀请","vi":"mời"},{"zh":"打扰","vi":"làm phiền"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"友好","vi":"thân thiện"},{"zh":"诚实","vi":"trung thực"},{"zh":"伤心","vi":"đau lòng"},{"zh":"故意","vi":"cố ý"},{"zh":"礼貌","vi":"lễ phép"}]},
+      {"id":"t5","type":"order","tag":"g:尽管","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["尽管","他","道歉了","我","还是很生气"],"answers":["尽管他道歉了我还是很生气","他尽管道歉了我还是很生气"],"translation_vi":"Mặc dù anh ấy đã xin lỗi, tôi vẫn rất giận.","explanation_vi":"尽管 + sự thật, chủ ngữ + 还是 + ….."},
+      {"id":"t6","type":"order","tag":"g:而","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我喜欢喝茶","而","他","喜欢喝咖啡"],"answers":["我喜欢喝茶而他喜欢喝咖啡","他喜欢喝咖啡而我喜欢喝茶"],"translation_vi":"Tôi thích uống trà, còn anh ấy thích uống cà phê.","explanation_vi":"而 đứng đầu vế sau, trước chủ ngữ thứ hai."},
+      {"id":"t7","type":"fill","tag":"v:原谅","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"对不起，请你____我。","answers":["原谅"],"hint_vi":"tha thứ","explanation_vi":"请你原谅我 = mong bạn tha thứ cho tôi."},
+      {"id":"t8","type":"fill","tag":"g:却","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我等了他一个小时，他____没来。","answers":["却","还是"],"hint_vi":"phó từ “lại” (trái với mong đợi)","explanation_vi":"他却没来 = anh ấy lại không đến; 却 đứng sau chủ ngữ."},
+      {"id":"t9","type":"listen_choice","tag":"v:开玩笑","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"别生气，我跟你开玩笑呢。","options":["Đừng giận, mình đùa bạn thôi.","Đừng giận, mình xin lỗi bạn.","Đừng giận, mình không cố ý.","Đừng buồn, mình sẽ gọi cho bạn."],"answer":0,"explanation_vi":"跟你开玩笑 = đùa với bạn."},
+      {"id":"t10","type":"listen_choice","tag":"g:差不多","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"我们差不多三年没见面了。","options":["我们差不多三年没见面了。","我们差不多三天没见面了。","我们三年前见过面。","我们差不多每年都见面。"],"answer":0,"explanation_vi":"Câu nghe được: 我们差不多三年没见面了 = Chúng tôi gần ba năm không gặp nhau rồi."},
+      {"id":"t11","type":"dictation","tag":"g:正好","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你来得正好，我们正要去吃饭。","answers":["你来得正好我们正要去吃饭"],"explanation_vi":"你来得正好，我们正要去吃饭 = Bạn đến đúng lúc, chúng tôi đang định đi ăn."},
+      {"id":"t12","type":"dictation","tag":"v:互相","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"朋友之间应该互相帮助。","answers":["朋友之间应该互相帮助"],"explanation_vi":"朋友之间应该互相帮助 = Bạn bè nên giúp đỡ lẫn nhau."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:误会","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bạn hiểu lầm rồi, tôi không cố ý.","answers":["你误会了我不是故意的","你误会我了我不是故意的","你误会了我不是故意","你误会我了我不是故意","你误会了我并不是故意的"],"explanation_vi":"误会了 = hiểu lầm rồi; 我不是故意的 = tôi không cố ý."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:尽管","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Mặc dù chúng tôi ít gặp nhau, nhưng tình cảm vẫn rất tốt.","answers":["尽管我们很少见面但是感情还是很好","尽管我们很少见面但是我们的感情还是很好","尽管我们很少见面可是感情还是很好","尽管我们很少见面可是我们的感情还是很好","尽管我们很少见面感情还是很好","尽管我们很少见面我们的感情还是很好","尽管我们很少见面感情却很好","尽管我们很少见面我们的感情却很好","尽管我们很少见面但是我们的感情却很好","尽管我们很少见面可是我们的感情却很好","尽管我们很少见面但是感情一直很好","尽管我们很少见面但是我们的感情一直很好","尽管我们很少见面可是我们的感情一直很好","尽管我们见面很少但是感情还是很好","尽管我们见面很少可是我们的感情还是很好","虽然我们很少见面但是感情还是很好","虽然我们很少见面但是我们的感情还是很好","虽然我们很少见面可是我们的感情还是很好"],"explanation_vi":"尽管 + sự thật, 但是/可是 + (我们的)感情 + 还是/却 + 很好."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:而","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我喜欢在家看书，而他喜欢出去玩儿。","answers_vi":["Tôi thích ở nhà đọc sách, còn anh ấy thích ra ngoài chơi.","Tôi thích đọc sách ở nhà, còn cậu ấy thích đi chơi."],"keywords":[["tôi","mình"],["đọc sách"],["còn","mà","trong khi","nhưng"],["chơi"]],"explanation_vi":"而 nối hai vế đối chiếu ≈ “còn”."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:联系","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"离开学校以后，我们还一直有联系。","answers_vi":["Sau khi rời trường, chúng tôi vẫn luôn giữ liên lạc.","Từ khi ra trường, chúng tôi vẫn liên lạc với nhau."],"keywords":[["rời trường","ra trường","rời khỏi trường","rời ghế nhà trường","tốt nghiệp"],["liên lạc","liên hệ"]],"explanation_vi":"离开学校以后 = sau khi rời trường; 有联系 = có liên lạc."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"真正的朋友",
+        "title_vi":"Người bạn đích thực",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["和","hé","và"],["小月","Xiǎoyuè","Tiểu Nguyệt (tên người)"],["是","shì","là"],["大学","dàxué","đại học"],["同学","tóngxué","bạn học"],["。"],["我们","wǒmen","chúng tôi"],["的","de","của"],["性格","xìnggé","tính cách"],["很","hěn","rất"],["不一样","bù yíyàng","không giống nhau"],["："],["我","wǒ","tôi"],["喜欢","xǐhuan","thích"],["安静","ānjìng","yên tĩnh"],["，"],["而","ér","còn"],["她","tā","cô ấy"],["特别","tèbié","rất, đặc biệt"],["爱","ài","thích"],["开玩笑","kāi wánxiào","nói đùa"],["。"],["尽管","jǐnguǎn","mặc dù"],["这样","zhèyàng","như vậy"],["，"],["我们","wǒmen","chúng tôi"],["却","què","lại"],["有","yǒu","có"],["很多","hěn duō","nhiều"],["共同","gòngtóng","chung"],["的","de","(trợ từ)"],["爱好","àihào","sở thích"],["，"],["很快","hěn kuài","rất nhanh"],["就","jiù","đã"],["互相","hùxiāng","lẫn nhau"],["熟悉","shúxi","quen thân"],["了","le","(rồi)"],["，"],["变成","biànchéng","trở thành"],["了","le","(đã)"],["好朋友","hǎo péngyou","bạn thân"],["。"]],
+            "vi":"Tôi và Tiểu Nguyệt là bạn học đại học. Tính cách chúng tôi rất khác nhau: tôi thích yên tĩnh, còn cô ấy rất thích nói đùa. Mặc dù vậy, chúng tôi lại có nhiều sở thích chung, chẳng bao lâu đã thân nhau và trở thành bạn tốt."
+          },
+          {
+            "tokens":[["有","yǒu","có"],["一次","yí cì","một lần"],["，"],["我","wǒ","tôi"],["听说","tīngshuō","nghe nói"],["小月","Xiǎoyuè","Tiểu Nguyệt"],["跟","gēn","cùng với"],["别人","biérén","người khác"],["一起","yìqǐ","cùng nhau"],["笑话","xiàohua","cười nhạo"],["我","wǒ","tôi"],["，"],["我","wǒ","tôi"],["很","hěn","rất"],["伤心","shāngxīn","đau lòng"],["，"],["很","hěn","rất"],["长","cháng","dài"],["时间","shíjiān","thời gian"],["没","méi","không"],["跟","gēn","với"],["她","tā","cô ấy"],["联系","liánxì","liên lạc"],["。"],["后来","hòulái","sau đó"],["我","wǒ","tôi"],["才","cái","mới"],["知道","zhīdao","biết"],["，"],["这","zhè","đây"],["是","shì","là"],["一个","yí ge","một"],["误会","wùhuì","hiểu lầm"],["："],["那天","nà tiān","hôm đó"],["她","tā","cô ấy"],["其实","qíshí","thật ra"],["是","shì","là"],["在","zài","đang"],["帮","bāng","giúp"],["我","wǒ","tôi"],["说话","shuōhuà","nói (đỡ)"],["。"],["我","wǒ","tôi"],["很","hěn","rất"],["不好意思","bù hǎoyìsi","ngại, áy náy"],["，"],["给","gěi","cho"],["她","tā","cô ấy"],["打电话","dǎ diànhuà","gọi điện"],["道歉","dàoqiàn","xin lỗi"],["。"],["她","tā","cô ấy"],["却","què","lại"],["笑着","xiàozhe","cười"],["说","shuō","nói"],["："],["“"],["朋友","péngyou","bạn bè"],["之间","zhījiān","giữa"],["，"],["不用","búyòng","không cần"],["说","shuō","nói"],["对不起","duìbuqǐ","xin lỗi"],["！"],["”"]],
+            "vi":"Có lần, tôi nghe nói Tiểu Nguyệt cùng người khác cười nhạo tôi, tôi rất buồn, rất lâu không liên lạc với cô ấy. Sau này tôi mới biết đó là một sự hiểu lầm: hôm đó thật ra cô ấy đang nói đỡ cho tôi. Tôi rất áy náy, gọi điện xin lỗi cô ấy. Cô ấy lại cười nói: “Bạn bè với nhau, không cần nói xin lỗi!”"
+          },
+          {
+            "tokens":[["这","zhè","này"],["件","jiàn","(lượng từ cho việc)"],["事","shì","việc"],["让","ràng","làm cho"],["我","wǒ","tôi"],["明白","míngbai","hiểu ra"],["，"],["真正","zhēnzhèng","đích thực"],["的","de","(trợ từ)"],["朋友","péngyou","bạn"],["会","huì","sẽ"],["互相","hùxiāng","lẫn nhau"],["理解","lǐjiě","hiểu, thông cảm"],["、"],["互相","hùxiāng","lẫn nhau"],["支持","zhīchí","ủng hộ"],["，"],["也","yě","cũng"],["愿意","yuànyì","sẵn lòng"],["原谅","yuánliàng","tha thứ"],["对方","duìfāng","người kia"],["。"],["现在","xiànzài","bây giờ"],["我们","wǒmen","chúng tôi"],["在","zài","ở"],["不同","bù tóng","khác nhau"],["的","de","(trợ từ)"],["城市","chéngshì","thành phố"],["工作","gōngzuò","làm việc"],["，"],["见面","jiànmiàn","gặp mặt"],["的","de","(trợ từ)"],["机会","jīhuì","cơ hội"],["少","shǎo","ít"],["了","le","(đi)"],["，"],["可是","kěshì","nhưng"],["每次","měi cì","mỗi lần"],["见面","jiànmiàn","gặp nhau"],["，"],["我们","wǒmen","chúng tôi"],["还是","háishi","vẫn"],["跟","gēn","giống"],["以前","yǐqián","trước đây"],["一样","yíyàng","như"],["熟悉","shúxi","thân quen"],["。"],["我","wǒ","tôi"],["十分","shífēn","vô cùng"],["感谢","gǎnxiè","biết ơn"],["生活","shēnghuó","cuộc sống"],["中","zhōng","trong"],["有","yǒu","có"],["这样","zhèyàng","như thế"],["一个","yí ge","một"],["朋友","péngyou","người bạn"],["。"]],
+            "vi":"Chuyện này giúp tôi hiểu ra: bạn bè thật sự sẽ hiểu nhau, ủng hộ nhau và sẵn lòng tha thứ cho nhau. Bây giờ chúng tôi làm việc ở hai thành phố khác nhau, ít có dịp gặp, nhưng mỗi lần gặp lại, chúng tôi vẫn thân quen như ngày trước. Tôi vô cùng biết ơn vì trong đời có một người bạn như thế."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”和小月的性格怎么样？","options":["很不一样","差不多","都很安静","都爱开玩笑"],"answer":0,"explanation_vi":"Đoạn 1: 我们的性格很不一样：我喜欢安静，而她特别爱开玩笑."},
+          {"id":"rq2","type":"choice","tag":"v:误会","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”为什么很长时间没跟小月联系？","options":["因为“我”误会了小月","因为“我”工作太忙","因为小月去了别的城市","因为小月不想跟“我”做朋友"],"answer":0,"explanation_vi":"Đoạn 2: “我” nghe nói 小月 cười nhạo mình nên buồn, sau mới biết 这是一个误会."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”道歉的时候，小月说了什么？","options":["朋友之间不用说对不起","我不能原谅你","你应该早点儿给我打电话","我也要向你道歉"],"answer":0,"explanation_vi":"Đoạn 2: 她却笑着说：“朋友之间，不用说对不起！”"},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"现在“我”和小月在一个城市工作。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 现在我们在不同的城市工作 — câu này sai."},
+          {"id":"rq5","type":"choice","tag":"v:真正","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”觉得真正的朋友会互相理解、互相支持。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 真正的朋友会互相理解、互相支持，也愿意原谅对方."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Người bạn trên mạng",
+        "text_zh":"去年我加入了一个学汉语的网站，在上面认识了一个中国网友小红。我们常常在网上交流，她帮我练习汉语，我给她介绍我们国家的文化。上个月，她正好来我的城市旅游，我就邀请她和我的几个朋友一起聚餐。第一次见面，她有点儿害羞，可是十分有礼貌，笑着跟每个人打招呼。吃饭的时候，大家给她讲笑话，她笑得特别开心。走的时候，她说：“麻烦你们了，谢谢！”我说：“别客气，朋友之间不用说谢谢。”",
+        "pinyin":"Qùnián wǒ jiārù le yí ge xué Hànyǔ de wǎngzhàn, zài shàngmiàn rènshi le yí ge Zhōngguó wǎngyǒu Xiǎohóng. Wǒmen chángcháng zài wǎngshang jiāoliú, tā bāng wǒ liànxí Hànyǔ, wǒ gěi tā jièshào wǒmen guójiā de wénhuà. Shàng ge yuè, tā zhènghǎo lái wǒ de chéngshì lǚyóu, wǒ jiù yāoqǐng tā hé wǒ de jǐ ge péngyou yìqǐ jùcān. Dì yī cì jiànmiàn, tā yǒudiǎnr hàixiū, kěshì shífēn yǒu lǐmào, xiàozhe gēn měi ge rén dǎ zhāohu. Chī fàn de shíhou, dàjiā gěi tā jiǎng xiàohua, tā xiào de tèbié kāixīn. Zǒu de shíhou, tā shuō: “Máfan nǐmen le, xièxie!” Wǒ shuō: “Bié kèqi, péngyou zhījiān búyòng shuō xièxie.”",
+        "vi":"Năm ngoái tôi tham gia một trang web học tiếng Trung, trên đó tôi quen một bạn người Trung Quốc tên là Tiểu Hồng. Chúng tôi hay trao đổi trên mạng, cô ấy giúp tôi luyện tiếng Trung, tôi giới thiệu cho cô ấy văn hóa nước mình. Tháng trước, cô ấy vừa hay đến thành phố tôi du lịch, tôi liền mời cô ấy đi ăn cùng mấy người bạn của tôi. Lần đầu gặp mặt, cô ấy hơi ngại, nhưng rất lễ phép, tươi cười chào hỏi từng người. Lúc ăn, mọi người kể chuyện cười cho cô ấy nghe, cô ấy cười rất vui. Lúc về, cô ấy nói: “Làm phiền mọi người rồi, cảm ơn!” Tôi nói: “Đừng khách sáo, bạn bè với nhau không cần nói cảm ơn.”",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"说话人是怎么认识小红的？","options":["在学汉语的网站上","在大学里","在旅游的时候","在朋友的聚会上"],"answer":0,"explanation_vi":"Nghe được: 我加入了一个学汉语的网站，在上面认识了一个中国网友小红."},
+          {"id":"lq2","type":"choice","tag":"g:正好","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"上个月小红为什么来说话人的城市？","options":["来旅游","来工作","来学习","来参加聚会"],"answer":0,"explanation_vi":"Nghe được: 她正好来我的城市旅游."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"第一次见面，小红怎么样？","options":["有点儿害羞，可是很有礼貌","很随便，不太有礼貌","一句话也不说","很不高兴"],"answer":0,"explanation_vi":"Nghe được: 她有点儿害羞，可是十分有礼貌，笑着跟每个人打招呼."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"走的时候，小红说了什么？","options":["麻烦你们了，谢谢！","别客气！","欢迎你们来中国！","下次我请你们吃饭！"],"answer":0,"explanation_vi":"Nghe được: 她说：“麻烦你们了，谢谢！”"}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"友谊","pinyin":"yǒuyì","vi":"tình bạn","tip_vi":"友 yǒu đứng trước thanh 4 nên chỉ đọc nửa thanh 3 (thấp, không cần lên lại). 谊 yì rơi dứt khoát. Đừng đọc theo âm Hán Việt “hữu nghị”."},
+      {"id":"s2","zh":"互相理解","pinyin":"hùxiāng lǐjiě","vi":"hiểu nhau","tip_vi":"理解 lǐjiě là hai thanh 3 liền nhau: 理 đọc gần thanh 2 (líjiě). 互 hù: h là âm xát ở cuống lưỡi, có tiếng ma sát, mạnh hơn “h” tiếng Việt. 相 xiāng: x mặt lưỡi, môi dẹt, khác “x” tiếng Việt."},
+      {"id":"s3","zh":"真正的朋友","pinyin":"zhēnzhèng de péngyou","vi":"người bạn đích thực","tip_vi":"真 zhēn kết thúc bằng -n (đầu lưỡi), 正 zhèng kết thúc bằng -ng (cuống lưỡi): phân biệt rõ. 朋友 péngyou: p bật hơi, 友 đọc nhẹ."},
+      {"id":"s4","zh":"你来得正好！","pinyin":"Nǐ lái de zhènghǎo!","vi":"Bạn đến đúng lúc quá!","tip_vi":"得 đọc nhẹ “de”. 正好 zhènghǎo: thanh 4 rồi thanh 3; 好 ở cuối câu đọc đủ thanh 3 (xuống thấp rồi lên), đừng đọc như dấu hỏi tiếng Việt."},
+      {"id":"s5","zh":"我们差不多三年没见面了。","pinyin":"Wǒmen chàbuduō sān nián méi jiànmiàn le.","vi":"Chúng tôi gần ba năm không gặp nhau rồi.","tip_vi":"差不多 chàbuduō: 不 đọc nhẹ, không đọc bù. 差 ch uốn lưỡi, bật hơi. 三 sān: s đầu lưỡi, khác sh. 见面 jiànmiàn: hai thanh 4."},
+      {"id":"s6","zh":"朋友之间应该互相支持。","pinyin":"Péngyou zhījiān yīnggāi hùxiāng zhīchí.","vi":"Bạn bè nên ủng hộ lẫn nhau.","tip_vi":"之间 zhījiān: zh uốn lưỡi rồi j mặt lưỡi. 支持 zhīchí: zh không bật hơi, ch bật hơi; vần -i sau zh/ch đọc như “ư” uốn lưỡi. 应该 yīnggāi: -ing kết thúc ở cuống lưỡi."},
+      {"id":"s7","zh":"他尽管很忙，却每天都给我打电话。","pinyin":"Tā jǐnguǎn hěn máng, què měi tiān dōu gěi wǒ dǎ diànhuà.","vi":"Mặc dù rất bận, anh ấy lại ngày nào cũng gọi điện cho tôi.","tip_vi":"尽管 jǐnguǎn: hai thanh 3 → 尽 đọc gần thanh 2. 却 què: q bật hơi, vần üe tròn môi. 给我打 gěi wǒ dǎ: ba thanh 3 liền nhau, đọc nhẹ nhàng, chỉ chữ cuối mới xuống thấp rõ."},
+      {"id":"s8","zh":"我喜欢安静，而他喜欢开玩笑。","pinyin":"Wǒ xǐhuan ānjìng, ér tā xǐhuan kāi wánxiào.","vi":"Tôi thích yên tĩnh, còn anh ấy thích nói đùa.","tip_vi":"而 ér: uốn đầu lưỡi lên, đừng đọc thành “ơ”. 开 kāi: k bật hơi. 笑 xiào: x mặt lưỡi, môi dẹt. Ngắt hơi ở dấu phẩy, nhấn nhẹ vào 而 để thấy sự đối chiếu."}
+    ],
+    "review": {
+      "remember": [
+        "正好: tính từ “vừa đúng, vừa khít” (大小正好, 来得正好) – không thêm 很; phó từ “vừa hay” (我正好也要去). “Vừa mới” thì dùng 刚.",
+        "差不多: làm vị ngữ “gần giống nhau” (我们的性格差不多), đứng trước số lượng/động từ “gần như, khoảng” (差不多三年没见面了); 几乎 không làm vị ngữ được.",
+        "尽管……，可是/还是/却……: mặc dù (sự thật)… vẫn/lại…; giả định thì dùng 即使……也…….",
+        "却 = lại, thế mà lại: đứng SAU chủ ngữ (他却没来). 而 = còn, mà: đứng TRƯỚC chủ ngữ vế sau (而他喜欢……) hoặc nối hai tính từ (简单而快乐).",
+        "Từ dễ nhầm: 共同 = chung (không phải “cộng đồng”), 理解 = hiểu, thông cảm (không phải “giải thích”), 互相 đứng trước động từ (互相帮助), 跟……开玩笑 / 跟……联系."
+      ],
+      "mistakes": [
+        "✗ 尽管很累，却他还在工作 → ✓ 尽管很累，他却还在工作: 却 đứng sau chủ ngữ.",
+        "✗ 我和他的爱好几乎 → ✓ 我和他的爱好差不多: 几乎 không làm vị ngữ.",
+        "✗ 我正好到家 (muốn nói “vừa mới về”) → ✓ 我刚到家: “vừa mới” = 刚; 正好 = vừa hay, vừa khít."
+      ]
+    }
+  }
+}

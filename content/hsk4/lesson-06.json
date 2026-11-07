@@ -1,0 +1,251 @@
+{
+  "level": 4,
+  "number": 6,
+  "summary": "Nhận xét giá cả và chất lượng, kể chuyện mua hàng trên mạng bị hỏng, hàng giả; học 竟然 (vậy mà), 倍 (gấp… lần) và 其中 (trong đó), 值得 / 值 (đáng), cấu trúc (在)……下 (nhờ…, dưới…).",
+  "readings_ok": ["得 de", "得 děi", "得 dé", "里 li", "片 piàn"],
+  "content": {
+    "objectives": [
+      "Nhận xét giá cả và chất lượng hàng hóa; kể chuyện mua hàng trên mạng, nhận chuyển phát nhanh, sửa đồ hỏng",
+      "Bày tỏ sự bất ngờ bằng 竟然 và nói “suýt nữa” bằng 差点儿",
+      "So sánh số lượng bằng 倍 và nói một phần của tập hợp bằng 其中",
+      "Nói cái gì đáng mua, đáng làm bằng 值得 / 值, và nói “nhờ…, dưới…” bằng (在)……下"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"竟然","pinyin":"jìngrán","pos":"phó từ","meaning_vi":"vậy mà, thế mà, không ngờ (lại)","example_zh":"这么便宜的东西，质量竟然很好。","example_pinyin":"Zhème piányi de dōngxi, zhìliàng jìngrán hěn hǎo.","example_vi":"Đồ rẻ thế này mà chất lượng lại tốt.","hanviet":"CÁNH NHIÊN","note_vi":"Diễn tả sự ngạc nhiên: điều xảy ra khác hẳn điều mình nghĩ. Đứng sau chủ ngữ, trước động từ/tính từ. Khác 原来 (hóa ra, hiểu ra sự thật)."},
+      {"id":"v2","hanzi":"倍","pinyin":"bèi","pos":"lượng từ","meaning_vi":"lần, gấp (… lần)","example_zh":"这件衣服的价格是那件的两倍。","example_pinyin":"Zhè jiàn yīfu de jiàgé shì nà jiàn de liǎng bèi.","example_vi":"Giá cái áo này gấp đôi cái kia.","hanviet":"BỘI","note_vi":"A 是 B 的两倍 = A gấp đôi B. Trước 倍 không thêm 个 (✗ 两个倍). 倍 chỉ dùng khi tăng lên; giảm đi nói 一半."},
+      {"id":"v3","hanzi":"值得","pinyin":"zhídé","pos":"động từ","meaning_vi":"đáng, đáng để (làm gì)","example_zh":"这家店的东西很值得买。","example_pinyin":"Zhè jiā diàn de dōngxi hěn zhídé mǎi.","example_vi":"Đồ ở cửa hàng này rất đáng mua.","hanviet":"TRỊ ĐẮC","note_vi":"值得 + động từ: 值得买, 值得一看. Phủ định 不值得. Trước số tiền dùng 值, không dùng 值得."},
+      {"id":"v4","hanzi":"其中","pinyin":"qízhōng","pos":"danh từ","meaning_vi":"trong đó, trong số đó","example_zh":"我买了三本书，其中一本是网购的。","example_pinyin":"Wǒ mǎi le sān běn shū, qízhōng yì běn shì wǎnggòu de.","example_vi":"Tôi mua ba cuốn sách, trong đó một cuốn mua trên mạng.","hanviet":"KỲ TRUNG","note_vi":"Chỉ một phần của tập hợp vừa nói ở vế trước; đứng đầu vế sau, thường có số lượng hoặc 有 theo sau: 其中两件、其中有几个人."},
+      {"id":"v5","hanzi":"质量","pinyin":"zhìliàng","pos":"danh từ","meaning_vi":"chất lượng","example_zh":"这双鞋的质量很好，穿了两年还像新的。","example_pinyin":"Zhè shuāng xié de zhìliàng hěn hǎo, chuān le liǎng nián hái xiàng xīn de.","example_vi":"Đôi giày này chất lượng rất tốt, đi hai năm rồi vẫn như mới.","hanviet":"CHẤT LƯỢNG","note_vi":"Nói 质量好 / 质量差 / 质量高. 量 ở đây đọc liàng (thanh 4)."},
+      {"id":"v6","hanzi":"货","pinyin":"huò","pos":"danh từ","meaning_vi":"hàng, hàng hóa","example_zh":"你要的货明天就到。","example_pinyin":"Nǐ yào de huò míngtiān jiù dào.","example_vi":"Hàng bạn cần mai là đến.","hanviet":"HÓA","note_vi":"Khẩu ngữ, hay gặp trong từ ghép và câu nói: 假货 (hàng giả), 一分钱一分货 (tiền nào của nấy)."},
+      {"id":"v7","hanzi":"网购","pinyin":"wǎnggòu","pos":"động từ","meaning_vi":"mua hàng trên mạng","example_zh":"现在很多人喜欢网购。","example_pinyin":"Xiànzài hěn duō rén xǐhuan wǎnggòu.","example_vi":"Bây giờ nhiều người thích mua hàng trên mạng.","note_vi":"Là cách nói gọn của 网上购物. Có thể nói 网购的东西 (đồ mua trên mạng)."},
+      {"id":"v8","hanzi":"快递","pinyin":"kuàidì","pos":"danh từ","meaning_vi":"chuyển phát nhanh; bưu kiện, hàng gửi","example_zh":"你的快递到了，就在门口。","example_pinyin":"Nǐ de kuàidì dào le, jiù zài ménkǒu.","example_vi":"Hàng chuyển phát của bạn đến rồi, ngay ở cửa.","note_vi":"Vừa chỉ dịch vụ, vừa chỉ món hàng nhận được: 取快递 (đi lấy hàng), 寄快递 (gửi hàng), 送快递的 (người giao hàng)."},
+      {"id":"v9","hanzi":"线上","pinyin":"xiànshàng","pos":"danh từ","meaning_vi":"trực tuyến, trên mạng (online)","example_zh":"这家店线上线下都可以买。","example_pinyin":"Zhè jiā diàn xiànshàng xiànxià dōu kěyǐ mǎi.","example_vi":"Cửa hàng này mua online hay mua tại cửa hàng đều được.","note_vi":"线上 (online) ↔ 线下 (offline, ngoài đời, tại cửa hàng)."},
+      {"id":"v10","hanzi":"保证","pinyin":"bǎozhèng","pos":"động từ / danh từ","meaning_vi":"bảo đảm, cam đoan; sự bảo đảm","example_zh":"我保证明天以前把快递送到。","example_pinyin":"Wǒ bǎozhèng míngtiān yǐqián bǎ kuàidì sòng dào.","example_vi":"Tôi đảm bảo trước ngày mai sẽ giao hàng đến nơi.","hanviet":"BẢO CHỨNG","note_vi":"保证 + cả một mệnh đề (保证明天送到), hoặc 保证质量 (đảm bảo chất lượng)."},
+      {"id":"v11","hanzi":"后悔","pinyin":"hòuhuǐ","pos":"động từ","meaning_vi":"hối hận","example_zh":"我很后悔买了这件衣服。","example_pinyin":"Wǒ hěn hòuhuǐ mǎi le zhè jiàn yīfu.","example_vi":"Tôi rất hối hận vì đã mua cái áo này.","hanviet":"HẬU HỐI","note_vi":"后悔 + việc đã làm (không cần “vì”): 后悔买了…, 后悔没去…."},
+      {"id":"v12","hanzi":"效果","pinyin":"xiàoguǒ","pos":"danh từ","meaning_vi":"hiệu quả, tác dụng","example_zh":"这个耳机的声音效果很好。","example_pinyin":"Zhège ěrjī de shēngyīn xiàoguǒ hěn hǎo.","example_vi":"Âm thanh của cái tai nghe này rất tốt.","hanviet":"HIỆU QUẢ","note_vi":"Tiếng Việt “hiệu quả” còn dùng như tính từ (“rất hiệu quả”); 效果 chỉ là danh từ: 效果很好, không nói ✗ 很效果."},
+      {"id":"v13","hanzi":"相比","pinyin":"xiāngbǐ","pos":"động từ","meaning_vi":"so với, so sánh với","example_zh":"跟线下相比，线上的东西便宜一些。","example_pinyin":"Gēn xiànxià xiāngbǐ, xiànshàng de dōngxi piányi yìxiē.","example_vi":"So với ngoài cửa hàng, đồ trên mạng rẻ hơn một chút.","hanviet":"TƯƠNG BỈ","note_vi":"Mẫu: 跟/和 + A + 相比，…… (so với A thì…), cả cụm đứng đầu câu."},
+      {"id":"v14","hanzi":"合格","pinyin":"hégé","pos":"tính từ","meaning_vi":"đạt chuẩn, đạt yêu cầu","example_zh":"这些商品的质量都合格。","example_pinyin":"Zhèxiē shāngpǐn de zhìliàng dōu hégé.","example_vi":"Chất lượng những mặt hàng này đều đạt chuẩn.","hanviet":"HỢP CÁCH","note_vi":"Phủ định: 不合格. Hay nói về chất lượng, kỳ thi, sản phẩm."},
+      {"id":"v15","hanzi":"支付","pinyin":"zhīfù","pos":"động từ","meaning_vi":"thanh toán, chi trả","example_zh":"您可以用手机支付。","example_pinyin":"Nín kěyǐ yòng shǒujī zhīfù.","example_vi":"Quý khách có thể thanh toán bằng điện thoại.","hanviet":"CHI PHÓ","note_vi":"支付 trang trọng hơn 付 (bài 5); hay gặp trong thông báo, trên ứng dụng: 手机支付、线上支付."},
+      {"id":"v16","hanzi":"修理","pinyin":"xiūlǐ","pos":"động từ","meaning_vi":"sửa chữa","example_zh":"我的自行车坏了，得找人修理。","example_pinyin":"Wǒ de zìxíngchē huài le, děi zhǎo rén xiūlǐ.","example_vi":"Xe đạp của tôi hỏng rồi, phải tìm người sửa.","hanviet":"TU LÝ","note_vi":"修理 hơi trang trọng; khẩu ngữ hay dùng 修: 修电脑、修好了."},
+      {"id":"v17","hanzi":"不满","pinyin":"bùmǎn","pos":"tính từ / động từ","meaning_vi":"không hài lòng, bất mãn","example_zh":"很多顾客对这家店很不满。","example_pinyin":"Hěn duō gùkè duì zhè jiā diàn hěn bùmǎn.","example_vi":"Nhiều khách hàng rất không hài lòng với cửa hàng này.","hanviet":"BẤT MÃN","note_vi":"Mẫu: 对 + ai/cái gì + 不满. Nghĩa nhẹ hơn chữ “bất mãn” tiếng Việt: chỉ là không hài lòng."},
+      {"id":"v18","hanzi":"值","pinyin":"zhí","pos":"động từ","meaning_vi":"đáng giá, trị giá","example_zh":"这块手表值一千块。","example_pinyin":"Zhè kuài shǒubiǎo zhí yìqiān kuài.","example_vi":"Cái đồng hồ này trị giá một nghìn tệ.","hanviet":"TRỊ","note_vi":"值 + số tiền; khẩu ngữ: 很值 (rất đáng tiền), 不值. Đừng nhầm với 值得 + động từ."},
+      {"id":"v19","hanzi":"假","pinyin":"jiǎ","pos":"tính từ","meaning_vi":"giả","example_zh":"这个包是假的。","example_pinyin":"Zhège bāo shì jiǎ de.","example_vi":"Cái túi này là hàng giả.","hanviet":"GIẢ","note_vi":"假 jiǎ (giả) khác 假 jià trong 放假, 假期 (nghỉ). 假货 = hàng giả."},
+      {"id":"v20","hanzi":"差点儿","pinyin":"chàdiǎnr","pos":"phó từ","meaning_vi":"suýt nữa, suýt","example_zh":"我差点儿忘了取快递。","example_pinyin":"Wǒ chàdiǎnr wàng le qǔ kuàidì.","example_vi":"Tôi suýt nữa quên đi lấy hàng.","note_vi":"差点儿 + V (+了): việc không mong muốn suýt xảy ra nhưng không xảy ra. 差 đọc chà, không phải chāi như trong 出差."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"线下","pinyin":"xiànxià","pos":"danh từ","meaning_vi":"ngoài đời, tại cửa hàng (offline)","example_zh":"我更喜欢线下购物，可以先试一试再买。","example_pinyin":"Wǒ gèng xǐhuan xiànxià gòuwù, kěyǐ xiān shì yi shì zài mǎi.","example_vi":"Tôi thích mua sắm ở cửa hàng thật hơn, có thể thử trước rồi mới mua."},
+      {"id":"x2","hanzi":"网页","pinyin":"wǎngyè","pos":"danh từ","meaning_vi":"trang web","example_zh":"这个网页上有很多商品的照片。","example_pinyin":"Zhège wǎngyè shang yǒu hěn duō shāngpǐn de zhàopiàn.","example_vi":"Trên trang web này có nhiều ảnh sản phẩm."},
+      {"id":"x3","hanzi":"地址","pinyin":"dìzhǐ","pos":"danh từ","meaning_vi":"địa chỉ","example_zh":"请把你的地址发给我。","example_pinyin":"Qǐng bǎ nǐ de dìzhǐ fā gěi wǒ.","example_vi":"Hãy gửi địa chỉ của bạn cho tôi."},
+      {"id":"x4","hanzi":"寄","pinyin":"jì","pos":"động từ","meaning_vi":"gửi (qua bưu điện, chuyển phát)","example_zh":"我给妈妈寄了一个快递。","example_pinyin":"Wǒ gěi māma jì le yí ge kuàidì.","example_vi":"Tôi gửi cho mẹ một gói hàng."},
+      {"id":"x5","hanzi":"取","pinyin":"qǔ","pos":"động từ","meaning_vi":"lấy, nhận (về)","example_zh":"我下班以后去取快递。","example_pinyin":"Wǒ xiàbān yǐhòu qù qǔ kuàidì.","example_vi":"Tan làm tôi đi lấy hàng."},
+      {"id":"x6","hanzi":"上门","pinyin":"shàngmén","pos":"động từ","meaning_vi":"đến tận nhà","example_zh":"修理师傅明天上午上门。","example_pinyin":"Xiūlǐ shīfu míngtiān shàngwǔ shàngmén.","example_vi":"Thợ sửa sáng mai đến tận nhà."},
+      {"id":"x7","hanzi":"取消","pinyin":"qǔxiāo","pos":"động từ","meaning_vi":"hủy, hủy bỏ","example_zh":"下雨了，比赛取消了。","example_pinyin":"Xià yǔ le, bǐsài qǔxiāo le.","example_vi":"Trời mưa, trận đấu bị hủy rồi."},
+      {"id":"x8","hanzi":"再次","pinyin":"zàicì","pos":"phó từ","meaning_vi":"lần nữa, một lần nữa","example_zh":"欢迎您再次来我们店。","example_pinyin":"Huānyíng nín zàicì lái wǒmen diàn.","example_vi":"Hoan nghênh quý khách lần sau lại đến cửa hàng chúng tôi."},
+      {"id":"x9","hanzi":"直接","pinyin":"zhíjiē","pos":"tính từ","meaning_vi":"trực tiếp, thẳng","example_zh":"有问题你直接给我打电话吧。","example_pinyin":"Yǒu wèntí nǐ zhíjiē gěi wǒ dǎ diànhuà ba.","example_vi":"Có vấn đề gì bạn cứ gọi thẳng cho tôi nhé."},
+      {"id":"x10","hanzi":"说明书","pinyin":"shuōmíngshū","pos":"danh từ","meaning_vi":"sách hướng dẫn (sử dụng)","example_zh":"用以前请先看说明书。","example_pinyin":"Yòng yǐqián qǐng xiān kàn shuōmíngshū.","example_vi":"Trước khi dùng xin đọc sách hướng dẫn."},
+      {"id":"x11","hanzi":"说明","pinyin":"shuōmíng","pos":"động từ / danh từ","meaning_vi":"giải thích, cho thấy; lời mô tả","example_zh":"网页上的商品说明写得很清楚。","example_pinyin":"Wǎngyè shang de shāngpǐn shuōmíng xiě de hěn qīngchu.","example_vi":"Phần mô tả sản phẩm trên trang web viết rất rõ."},
+      {"id":"x12","hanzi":"有效","pinyin":"yǒuxiào","pos":"tính từ","meaning_vi":"có hiệu lực; có hiệu quả","example_zh":"这张会员卡一年以内有效。","example_pinyin":"Zhè zhāng huìyuánkǎ yì nián yǐnèi yǒuxiào.","example_vi":"Thẻ hội viên này có hiệu lực trong vòng một năm."},
+      {"id":"x13","hanzi":"高价","pinyin":"gāojià","pos":"danh từ","meaning_vi":"giá cao","example_zh":"他用高价买了一个旧手机。","example_pinyin":"Tā yòng gāojià mǎi le yí ge jiù shǒujī.","example_vi":"Anh ấy mua một cái điện thoại cũ với giá cao."},
+      {"id":"x14","hanzi":"高于","pinyin":"gāoyú","pos":"động từ","meaning_vi":"cao hơn","example_zh":"这里的价格高于别的商店。","example_pinyin":"Zhèli de jiàgé gāoyú bié de shāngdiàn.","example_vi":"Giá ở đây cao hơn các cửa hàng khác."},
+      {"id":"x15","hanzi":"低于","pinyin":"dīyú","pos":"động từ","meaning_vi":"thấp hơn","example_zh":"网上的价格常常低于商场。","example_pinyin":"Wǎng shang de jiàgé chángcháng dīyú shāngchǎng.","example_vi":"Giá trên mạng thường thấp hơn trung tâm thương mại."},
+      {"id":"x16","hanzi":"共","pinyin":"gòng","pos":"phó từ","meaning_vi":"tổng cộng, cả thảy","example_zh":"这次网购共花了三百块。","example_pinyin":"Zhè cì wǎnggòu gòng huā le sānbǎi kuài.","example_vi":"Lần mua hàng online này tổng cộng tiêu hết ba trăm tệ."},
+      {"id":"x17","hanzi":"以内","pinyin":"yǐnèi","pos":"danh từ","meaning_vi":"trong vòng, trong phạm vi","example_zh":"快递三天以内就能到。","example_pinyin":"Kuàidì sān tiān yǐnèi jiù néng dào.","example_vi":"Hàng chuyển phát trong vòng ba ngày là đến."},
+      {"id":"x18","hanzi":"现有","pinyin":"xiànyǒu","pos":"tính từ","meaning_vi":"hiện có","example_zh":"现有的商品已经不多了。","example_pinyin":"Xiànyǒu de shāngpǐn yǐjīng bù duō le.","example_vi":"Hàng hiện có đã không còn nhiều."},
+      {"id":"x19","hanzi":"暂时","pinyin":"zànshí","pos":"tính từ / phó từ","meaning_vi":"tạm thời","example_zh":"这个商品暂时没有了。","example_pinyin":"Zhège shāngpǐn zànshí méiyǒu le.","example_vi":"Mặt hàng này tạm thời hết rồi."},
+      {"id":"x20","hanzi":"实在","pinyin":"shízài","pos":"phó từ / tính từ","meaning_vi":"thật sự, quả thực; thật thà","example_zh":"这个价格实在太高了。","example_pinyin":"Zhège jiàgé shízài tài gāo le.","example_vi":"Giá này quả thật quá cao."},
+      {"id":"x21","hanzi":"吃惊","pinyin":"chījīng","pos":"động từ","meaning_vi":"giật mình, ngạc nhiên","example_zh":"听到这个价格，我很吃惊。","example_pinyin":"Tīng dào zhège jiàgé, wǒ hěn chījīng.","example_vi":"Nghe giá này, tôi rất ngạc nhiên."},
+      {"id":"x22","hanzi":"查看","pinyin":"chákàn","pos":"động từ","meaning_vi":"xem, kiểm tra","example_zh":"你可以在手机上查看快递到哪儿了。","example_pinyin":"Nǐ kěyǐ zài shǒujī shang chákàn kuàidì dào nǎr le.","example_vi":"Bạn có thể xem trên điện thoại hàng đã đến đâu rồi."},
+      {"id":"x23","hanzi":"推出","pinyin":"tuīchū","pos":"động từ","meaning_vi":"tung ra, cho ra mắt","example_zh":"这个牌子今年推出了新手机。","example_pinyin":"Zhège páizi jīnnián tuīchū le xīn shǒujī.","example_vi":"Năm nay hãng này tung ra điện thoại mới."},
+      {"id":"x24","hanzi":"盒子","pinyin":"hézi","pos":"danh từ","meaning_vi":"cái hộp","example_zh":"这个盒子里有什么？","example_pinyin":"Zhège hézi li yǒu shénme?","example_vi":"Trong cái hộp này có gì?"},
+      {"id":"x25","hanzi":"破","pinyin":"pò","pos":"tính từ / động từ","meaning_vi":"rách, vỡ, thủng","example_zh":"快递的盒子破了。","example_pinyin":"Kuàidì de hézi pò le.","example_vi":"Hộp hàng chuyển phát bị rách rồi."},
+      {"id":"x26","hanzi":"修","pinyin":"xiū","pos":"động từ","meaning_vi":"sửa","example_zh":"师傅，这个耳机能修吗？","example_pinyin":"Shīfu, zhège ěrjī néng xiū ma?","example_vi":"Anh thợ ơi, cái tai nghe này sửa được không?"},
+      {"id":"x27","hanzi":"掉","pinyin":"diào","pos":"động từ","meaning_vi":"rơi; mất","example_zh":"我的手机掉在地上了。","example_pinyin":"Wǒ de shǒujī diào zài dì shang le.","example_vi":"Điện thoại của tôi rơi xuống đất rồi."},
+      {"id":"x28","hanzi":"轻","pinyin":"qīng","pos":"tính từ","meaning_vi":"nhẹ","example_zh":"这个盒子很轻，里面好像没有东西。","example_pinyin":"Zhège hézi hěn qīng, lǐmiàn hǎoxiàng méiyǒu dōngxi.","example_vi":"Cái hộp này rất nhẹ, bên trong hình như không có gì."},
+      {"id":"x29","hanzi":"装","pinyin":"zhuāng","pos":"động từ","meaning_vi":"đựng, chứa; lắp","example_zh":"这个包能装很多东西。","example_pinyin":"Zhège bāo néng zhuāng hěn duō dōngxi.","example_vi":"Cái túi này đựng được nhiều đồ."},
+      {"id":"x30","hanzi":"日期","pinyin":"rìqī","pos":"danh từ","meaning_vi":"ngày (tháng), thời hạn","example_zh":"买牛奶的时候要看日期。","example_pinyin":"Mǎi niúnǎi de shíhou yào kàn rìqī.","example_vi":"Khi mua sữa phải xem ngày (hạn sử dụng)."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Phó từ “竟然” (vậy mà, không ngờ)",
+        "pattern":"S + 竟然 + V/Adj (điều bất ngờ)",
+        "explanation_vi":"竟然 diễn tả sự ngạc nhiên: điều xảy ra khác hẳn điều mình nghĩ hoặc chờ đợi: “vậy mà, thế mà, không ngờ lại…”. Nó là phó từ, thường đứng sau chủ ngữ, trước động từ/tính từ: 这件衣服竟然是假的. Điều bất ngờ có thể tốt hoặc xấu. Câu trước thường nói điều bình thường, hoặc điều mình đã nghĩ.\nSo với 原来 (bài 4): 原来 = “hóa ra”, dùng khi hiểu ra sự thật hay nguyên nhân; 竟然 nhấn mạnh cảm giác bất ngờ. So với 没想到 (không ngờ): 没想到 đứng đầu câu, trước cả chủ ngữ: 没想到这件衣服是假的 ≈ 这件衣服竟然是假的.",
+        "examples":[
+          {"zh":"五十块的耳机，竟然用了五天就坏了。","pinyin":"Wǔshí kuài de ěrjī, jìngrán yòng le wǔ tiān jiù huài le.","vi":"Cái tai nghe năm mươi tệ, vậy mà dùng năm ngày đã hỏng."},
+          {"zh":"这么便宜的衣服，质量竟然这么好！","pinyin":"Zhème piányi de yīfu, zhìliàng jìngrán zhème hǎo!","vi":"Quần áo rẻ thế này mà chất lượng lại tốt đến vậy!"},
+          {"zh":"他每天都网购，一个月竟然收到了三十多个快递。","pinyin":"Tā měi tiān dōu wǎnggòu, yí ge yuè jìngrán shōu dào le sānshí duō ge kuàidì.","vi":"Ngày nào anh ấy cũng mua hàng trên mạng, một tháng mà nhận hơn ba mươi gói hàng."}
+        ],
+        "mistakes_vi":"✗ 竟然这件衣服是假的。\n✓ 这件衣服竟然是假的。/ 没想到这件衣服是假的。\n竟然 là phó từ, thường đứng sau chủ ngữ; “không ngờ” ở đầu câu thì dùng 没想到.\n✗ 我说他怎么没来，竟然他病了。\n✓ 我说他怎么没来，原来他病了。\nHiểu ra nguyên nhân dùng 原来 (hóa ra); 竟然 dùng cho điều làm mình bất ngờ.",
+        "compare_vi":"竟然 ≈ “vậy mà, thế mà, không ngờ lại”. Tiếng Việt đặt “không ngờ” ở đầu câu được, còn 竟然 phải đứng sau chủ ngữ."
+      },
+      {
+        "id":"g2",
+        "title":"Nói về số lượng: “倍” (gấp… lần) và “其中” (trong đó)",
+        "pattern":"A 是 B 的 + số + 倍　·　A 比 B + 多/贵… + 一倍 (= gấp đôi)　·　(tập hợp)，其中 + số lượng / 有 + ……",
+        "explanation_vi":"倍 là lượng từ “lần”, dùng để so sánh số lượng khi tăng lên. Cách nói rõ nhất: A 是 B 的两倍 = A gấp đôi B (A = 2 × B). Cẩn thận với 比: theo cách nói chuẩn, A 比 B 多一倍 / 贵一倍 = gấp đôi (nhiều hơn thêm một lần), còn A 比 B 多两倍 = gấp ba. Vì vậy, muốn nói “gấp đôi, gấp ba” an toàn nhất là dùng 是……的 + số + 倍. Khi giảm đi không dùng 倍 mà dùng 一半 (một nửa). Trước 倍 không thêm 个.\n其中 = “trong đó, trong số đó”: chỉ một phần của tập hợp vừa nhắc ở vế trước. Nó đứng đầu vế sau: 我买了五件衣服，其中两件是假的. Sau 其中 thường là số lượng hoặc 有: 其中一件、其中有几个人.",
+        "examples":[
+          {"zh":"我的耳机一百五十块，是你的三倍。","pinyin":"Wǒ de ěrjī yìbǎi wǔshí kuài, shì nǐ de sān bèi.","vi":"Tai nghe của tôi một trăm năm mươi tệ, gấp ba cái của bạn."},
+          {"zh":"今年网购的人比去年多了一倍。","pinyin":"Jīnnián wǎnggòu de rén bǐ qùnián duō le yí bèi.","vi":"Năm nay số người mua hàng trên mạng nhiều gấp đôi năm ngoái."},
+          {"zh":"我买了五件衣服，其中两件质量不合格。","pinyin":"Wǒ mǎi le wǔ jiàn yīfu, qízhōng liǎng jiàn zhìliàng bù hégé.","vi":"Tôi mua năm cái áo, trong đó hai cái chất lượng không đạt."},
+          {"zh":"班里有二十个学生，其中十五个经常网购。","pinyin":"Bān li yǒu èrshí ge xuésheng, qízhōng shíwǔ ge jīngcháng wǎnggòu.","vi":"Lớp có hai mươi học sinh, trong đó mười lăm em thường mua hàng trên mạng."}
+        ],
+        "mistakes_vi":"✗ (100 tệ so với 50 tệ) 这件比那件贵两倍。\n✓ 这件是那件的两倍。/ 这件比那件贵一倍。\nTheo cách nói chuẩn, 比……贵两倍 là đắt thêm hai lần nữa, tức gấp ba.\n✗ 价格便宜了两倍。\n✓ 价格便宜了一半。\nGiảm đi không dùng 倍, dùng 一半 (hoặc 打五折).\n✗ 我买了五件衣服，其中衣服是假的。\n✓ 我买了五件衣服，其中两件是假的。\nSau 其中 cần số lượng (两件, 一个…) hoặc 有.",
+        "compare_vi":"Tiếng Việt “đắt gấp hai lần”, “nhiều hơn hai lần” dễ hiểu theo nhiều cách; tiếng Trung chuẩn phân biệt: 是……的两倍 = gấp đôi, 比……多两倍 = gấp ba. 其中 ≈ “trong đó, trong số đó”."
+      },
+      {
+        "id":"g3",
+        "title":"“值得” (đáng, đáng để) và “值” (đáng giá)",
+        "pattern":"(A) + 值得 + V　·　很值得 / 不值得　·　值不值得 + V？　·　A + 值 + số tiền　·　很值 / 不值",
+        "explanation_vi":"值得 = “đáng, đáng để” (bỏ tiền, thời gian, công sức): 值得 + động từ: 值得买 (đáng mua), 值得一看 (đáng xem), 值得去. Có thể nói 很值得 / 不值得; câu hỏi: 值得……吗？ hoặc 值不值得……？ Phủ định luôn dùng 不.\n值 là động từ “có giá trị bằng, trị giá”: 值 + số tiền (这块手表值一千块). Trong khẩu ngữ còn nói 很值 / 不值 = rất đáng tiền / không đáng tiền. Phân biệt: 值得 đứng trước động từ; 值 đứng trước số tiền.",
+        "examples":[
+          {"zh":"这本书很有意思，值得一看。","pinyin":"Zhè běn shū hěn yǒu yìsi, zhídé yí kàn.","vi":"Cuốn sách này rất hay, đáng để đọc."},
+          {"zh":"五十块的耳机，不值得再等两个星期。","pinyin":"Wǔshí kuài de ěrjī, bù zhídé zài děng liǎng ge xīngqī.","vi":"Tai nghe năm mươi tệ, không đáng để đợi thêm hai tuần."},
+          {"zh":"质量好的东西虽然贵一点儿，但是很值。","pinyin":"Zhìliàng hǎo de dōngxi suīrán guì yìdiǎnr, dànshì hěn zhí.","vi":"Đồ chất lượng tốt tuy đắt hơn một chút, nhưng rất đáng tiền."},
+          {"zh":"这个旧手机现在只值两百块。","pinyin":"Zhège jiù shǒujī xiànzài zhǐ zhí liǎngbǎi kuài.","vi":"Cái điện thoại cũ này bây giờ chỉ đáng giá hai trăm tệ."}
+        ],
+        "mistakes_vi":"✗ 这件衣服值得五百块。\n✓ 这件衣服值五百块。\nĐứng trước số tiền là 值, không phải 值得.\n✗ 这个地方值得去不？\n✓ 这个地方值不值得去？/ 这个地方值得去吗？\nCâu hỏi chính phản là 值不值得 + V.\n✗ 这个电影没值得看。\n✓ 这个电影不值得看。\nPhủ định 值得 dùng 不, không dùng 没.",
+        "compare_vi":"值得 ≈ “đáng (để làm gì)”, 值 ≈ “trị giá / đáng giá”. 很值 ≈ “đáng đồng tiền bát gạo”."
+      },
+      {
+        "id":"g4",
+        "title":"Cấu trúc “(在)……下” (nhờ…, dưới…)",
+        "pattern":"在 + ai + 的 + 帮助/影响/要求 + 下，S + V　·　在 + (这样的) + 条件 + 下，……",
+        "explanation_vi":"在……下 nêu điều kiện, hoàn cảnh hoặc tác động khiến việc phía sau xảy ra: 在朋友的帮助下 (nhờ sự giúp đỡ của bạn), 在妈妈的影响下 (chịu ảnh hưởng của mẹ), 在老师的要求下 (theo yêu cầu của thầy cô), 在这样的条件下 (trong điều kiện như thế). Giữa 在 và 下 thường là “ai đó + 的 + danh từ hai âm tiết” như 帮助、影响、要求、条件. Cả cụm đứng ĐẦU câu hoặc ngay sau chủ ngữ, trước động từ chính. Trong văn viết đôi khi lược 在, chỉ còn ……下.",
+        "examples":[
+          {"zh":"在朋友的帮助下，我买到了质量很好的耳机。","pinyin":"Zài péngyou de bāngzhù xià, wǒ mǎi dào le zhìliàng hěn hǎo de ěrjī.","vi":"Nhờ bạn giúp, tôi đã mua được tai nghe chất lượng rất tốt."},
+          {"zh":"在妈妈的影响下，她买东西以前总是先看说明书。","pinyin":"Zài māma de yǐngxiǎng xià, tā mǎi dōngxi yǐqián zǒngshì xiān kàn shuōmíngshū.","vi":"Chịu ảnh hưởng của mẹ, trước khi mua đồ cô ấy luôn đọc sách hướng dẫn trước."},
+          {"zh":"在这样的条件下，这个价格已经很低了。","pinyin":"Zài zhèyàng de tiáojiàn xià, zhège jiàgé yǐjīng hěn dī le.","vi":"Trong điều kiện như thế, giá này đã rất thấp rồi."}
+        ],
+        "mistakes_vi":"✗ 我修好了电脑在朋友的帮助下。\n✓ 在朋友的帮助下，我修好了电脑。\nTiếng Việt có thể để “nhờ bạn giúp” ở cuối câu, tiếng Trung phải đặt 在……下 trước động từ.\n✗ 在朋友的帮助，我修好了电脑。\n✓ 在朋友的帮助下，我修好了电脑。\nĐừng quên 下 ở cuối cụm; cũng không thay bằng 下面.",
+        "compare_vi":"Gần với “nhờ (sự giúp đỡ của)…”, “dưới (ảnh hưởng của)…”, “trong (điều kiện)…” của tiếng Việt, nhưng vị trí luôn ở trước động từ."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Cái tai nghe năm mươi tệ",
+      "scene_vi": "Ở ký túc xá, Tiểu Vương cầm cái tai nghe mua trên mạng vừa hỏng sang phòng Tiểu Lý than thở.",
+      "lines": [
+        {"speaker":"小王","zh":"小李，你看，我上星期网购的耳机，才用了五天就坏了！","pinyin":"Xiǎo Lǐ, nǐ kàn, wǒ shàng xīngqī wǎnggòu de ěrjī, cái yòng le wǔ tiān jiù huài le!","vi":"Tiểu Lý, cậu xem này, cái tai nghe tớ mua trên mạng tuần trước, mới dùng năm ngày đã hỏng rồi!"},
+        {"speaker":"小李","zh":"多少钱买的？看起来跟我的差不多啊。","pinyin":"Duōshao qián mǎi de? Kàn qǐlai gēn wǒ de chàbuduō a.","vi":"Mua bao nhiêu tiền thế? Trông cũng giống cái của tớ mà."},
+        {"speaker":"小王","zh":"只要五十块！网页上说质量合格，还保证一年以内免费修理。可是收到快递的时候，盒子就是破的。","pinyin":"Zhǐ yào wǔshí kuài! Wǎngyè shang shuō zhìliàng hégé, hái bǎozhèng yì nián yǐnèi miǎnfèi xiūlǐ. Kěshì shōu dào kuàidì de shíhou, hézi jiù shì pò de.","vi":"Chỉ năm mươi tệ! Trên trang web nói chất lượng đạt chuẩn, còn đảm bảo trong vòng một năm sửa miễn phí. Nhưng lúc nhận hàng, cái hộp đã rách sẵn rồi."},
+        {"speaker":"小李","zh":"五十块？我这个是线下买的，一百五，是你的三倍。你那个肯定是假的吧？","pinyin":"Wǔshí kuài? Wǒ zhège shì xiànxià mǎi de, yìbǎi wǔ, shì nǐ de sān bèi. Nǐ nàge kěndìng shì jiǎ de ba?","vi":"Năm mươi tệ á? Cái của tớ mua ngoài cửa hàng, một trăm rưỡi, gấp ba cái của cậu. Cái của cậu chắc chắn là hàng giả rồi?"},
+        {"speaker":"小王","zh":"我也这么想。我在网上问了卖耳机的人，他们竟然说不能修，只能再寄一个新的给我，可是要等两个星期。","pinyin":"Wǒ yě zhème xiǎng. Wǒ zài wǎng shang wèn le mài ěrjī de rén, tāmen jìngrán shuō bù néng xiū, zhǐ néng zài jì yí ge xīn de gěi wǒ, kěshì yào děng liǎng ge xīngqī.","vi":"Tớ cũng nghĩ thế. Tớ hỏi người bán tai nghe trên mạng, vậy mà họ bảo không sửa được, chỉ có thể gửi lại cho tớ một cái mới, nhưng phải đợi hai tuần."},
+        {"speaker":"小李","zh":"新的质量也不一定好。我看，五十块的耳机，实在不值得再等两个星期。","pinyin":"Xīn de zhìliàng yě bù yídìng hǎo. Wǒ kàn, wǔshí kuài de ěrjī, shízài bù zhídé zài děng liǎng ge xīngqī.","vi":"Cái mới chất lượng cũng chưa chắc đã tốt. Tớ thấy tai nghe năm mươi tệ thật sự không đáng để đợi thêm hai tuần."},
+        {"speaker":"小王","zh":"我真后悔！当时我只看了价格。网页上有很多买过的人写的话，其中好几个人都说声音效果很差，我却没认真看。","pinyin":"Wǒ zhēn hòuhuǐ! Dāngshí wǒ zhǐ kàn le jiàgé. Wǎngyè shang yǒu hěn duō mǎi guo de rén xiě de huà, qízhōng hǎo jǐ ge rén dōu shuō shēngyīn xiàoguǒ hěn chà, wǒ què méi rènzhēn kàn.","vi":"Tớ hối hận quá! Lúc đó tớ chỉ nhìn giá. Trên trang có rất nhiều nhận xét của người đã mua, trong đó mấy người nói âm thanh rất tệ, vậy mà tớ lại không đọc kỹ."},
+        {"speaker":"小李","zh":"跟线下相比，线上的东西是便宜一些，可是买以前看不到真的东西，所以更要小心。有句话叫“一分钱一分货”：价格比别人低很多的东西，质量很难保证。","pinyin":"Gēn xiànxià xiāngbǐ, xiànshàng de dōngxi shì piányi yìxiē, kěshì mǎi yǐqián kàn bu dào zhēn de dōngxi, suǒyǐ gèng yào xiǎoxīn. Yǒu jù huà jiào “yì fēn qián yì fēn huò”: jiàgé bǐ biérén dī hěn duō de dōngxi, zhìliàng hěn nán bǎozhèng.","vi":"So với mua ở cửa hàng, đồ trên mạng có rẻ hơn một chút, nhưng trước khi mua không thấy được đồ thật nên càng phải cẩn thận. Có câu “tiền nào của nấy”: đồ có giá thấp hơn người khác nhiều thì chất lượng khó mà đảm bảo."},
+        {"speaker":"小王","zh":"你说得对。上次买手机，就是在你的帮助下才买到了好的。这次我差点儿给妹妹也买了一个！","pinyin":"Nǐ shuō de duì. Shàng cì mǎi shǒujī, jiù shì zài nǐ de bāngzhù xià cái mǎi dào le hǎo de. Zhè cì wǒ chàdiǎnr gěi mèimei yě mǎi le yí ge!","vi":"Cậu nói đúng. Lần trước mua điện thoại, cũng là nhờ cậu giúp tớ mới mua được cái tốt. Lần này suýt nữa tớ mua cho em gái thêm một cái!"},
+        {"speaker":"小李","zh":"走吧，下午我陪你去商店看看。好的耳机虽然贵一点儿，但是很值，用好几年都没问题。","pinyin":"Zǒu ba, xiàwǔ wǒ péi nǐ qù shāngdiàn kànkan. Hǎo de ěrjī suīrán guì yìdiǎnr, dànshì hěn zhí, yòng hǎo jǐ nián dōu méi wèntí.","vi":"Đi thôi, chiều nay tớ đi cùng cậu ra cửa hàng xem. Tai nghe tốt tuy đắt hơn một chút nhưng rất đáng tiền, dùng mấy năm cũng chẳng sao."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:质量","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这双鞋穿了一个月就破了，____太差了。","options":["质量","效果","价格","地址"],"answer":0,"explanation_vi":"Giày mới đi một tháng đã rách → chất lượng kém: 质量太差了."},
+      {"id":"e2","type":"choice","tag":"v:后悔","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这件衣服又贵又不好看，我真____买了它。","options":["后悔","吃惊","不满","保证"],"answer":0,"explanation_vi":"后悔 + việc đã làm: 后悔买了它 = hối hận vì đã mua nó."},
+      {"id":"e3","type":"choice","tag":"v:假","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个包只要一百块，看起来却像有名的牌子，肯定是____的。","options":["假","直接","实在","暂时"],"answer":0,"explanation_vi":"Rẻ mà trông như hàng hiệu → chắc chắn là hàng giả: 是假的."},
+      {"id":"e4","type":"choice","tag":"v:快递","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你的____到了，就在门口，快去取吧。","options":["快递","地址","网页","日期"],"answer":0,"explanation_vi":"取快递 = lấy hàng chuyển phát; hàng đã đến, đang ở cửa."},
+      {"id":"e5","type":"choice","tag":"g:竟然","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这么便宜的耳机，质量____这么好！","options":["竟然","其中","值得","倍"],"answer":0,"explanation_vi":"Rẻ mà tốt → bất ngờ: 竟然这么好."},
+      {"id":"e6","type":"choice","tag":"g:竟然","prompt_vi":"Người nói vừa hiểu ra lý do. Chọn từ thích hợp.","question_zh":"我说他怎么没来上课，____他病了。","options":["原来","竟然","值得","其中"],"answer":0,"explanation_vi":"Hiểu ra nguyên nhân → 原来 (hóa ra). 竟然 dùng cho điều bất ngờ và không đứng trước chủ ngữ 他."},
+      {"id":"e7","type":"choice","tag":"g:倍","prompt_vi":"Chọn số thích hợp điền vào chỗ trống.","question_zh":"我的耳机一百五十块，你的五十块，我的是你的____倍。","options":["三","两","一","五"],"answer":0,"explanation_vi":"150 = 3 × 50, nên 是你的三倍."},
+      {"id":"e8","type":"choice","tag":"g:倍","prompt_vi":"Chọn câu đúng với nghĩa: “Năm nay số người mua hàng trên mạng gấp đôi năm ngoái.”","question_zh":"Năm nay số người mua hàng trên mạng gấp đôi năm ngoái.","options":["今年网购的人是去年的两倍。","今年网购的人比去年多两个倍。","今年网购的人是去年的一半。","今年网购的人是两倍去年的。"],"answer":0,"explanation_vi":"A 是 B 的两倍 = A gấp đôi B. Trước 倍 không thêm 个; 一半 là “một nửa”."},
+      {"id":"e9","type":"choice","tag":"g:其中","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我买了五件衣服，____两件是假的。","options":["其中","竟然","值得","相比"],"answer":0,"explanation_vi":"其中 = trong số đó (trong năm cái áo vừa nói)."},
+      {"id":"e10","type":"choice","tag":"g:值得","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这本书很有意思，____一看。","options":["值得","值","竟然","其中"],"answer":0,"explanation_vi":"值得 + động từ (一看): đáng xem. 值 đi với số tiền."},
+      {"id":"e11","type":"choice","tag":"g:在下","prompt_vi":"Chọn cặp từ thích hợp điền vào chỗ trống.","question_zh":"____朋友的帮助____，我买到了质量很好的耳机。","options":["在……下","在……上","对……来说","跟……相比"],"answer":0,"explanation_vi":"在 + ai + 的帮助 + 下 = nhờ sự giúp đỡ của ai."},
+      {"id":"e12","type":"order","tag":"g:值得","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这个","地方","值得","去","吗"],"answers":["这个地方值得去吗"],"translation_vi":"Chỗ này có đáng đi không?","explanation_vi":"值得 + 去 (động từ); 吗 ở cuối để hỏi."},
+      {"id":"e13","type":"order","tag":"g:在下","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["在","妈妈的","影响","下","她","喜欢上了","网购"],"answers":["在妈妈的影响下她喜欢上了网购","她在妈妈的影响下喜欢上了网购"],"translation_vi":"Chịu ảnh hưởng của mẹ, cô ấy đã thích mua hàng trên mạng.","explanation_vi":"在……的影响下 đứng đầu câu hoặc ngay sau chủ ngữ 她, trước động từ."},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"快递","vi":"chuyển phát nhanh"},{"zh":"质量","vi":"chất lượng"},{"zh":"后悔","vi":"hối hận"},{"zh":"修理","vi":"sửa chữa"},{"zh":"效果","vi":"hiệu quả"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:竟然","prompt_vi":"Câu nào đúng?","question_zh":"Câu nào đúng?","options":["这件衣服竟然是假的。","这件衣服是竟然假的。","这件衣服是假的竟然。","这竟然件衣服是假的。"],"answer":0,"explanation_vi":"竟然 đứng sau chủ ngữ (这件衣服), trước vị ngữ (是假的)."},
+        {"id":"q2","type":"choice","tag":"g:竟然","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他平时很少网购，这个月____买了二十多次！","options":["竟然","其中","值得","倍"],"answer":0,"explanation_vi":"Bình thường ít mua, tháng này lại mua hơn hai mươi lần → bất ngờ: 竟然."},
+        {"id":"q3","type":"choice","tag":"g:倍","prompt_vi":"Chọn đáp án đúng.","question_zh":"这个手机三千块，那个一千块，这个是那个的____。","options":["三倍","两倍","一半","三个倍"],"answer":0,"explanation_vi":"3000 = 3 × 1000 → 三倍. Không nói 三个倍."},
+        {"id":"q4","type":"choice","tag":"g:其中","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"班里有二十个学生，____十五个经常网购。","options":["其中","竟然","相比","值得"],"answer":0,"explanation_vi":"其中 + số lượng: trong số hai mươi học sinh có mười lăm em…"},
+        {"id":"q5","type":"choice","tag":"g:值得","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这件衣服____五百块吗？我看最多两百。","options":["值","值得","其中","倍"],"answer":0,"explanation_vi":"Trước số tiền dùng 值 (trị giá), không dùng 值得."},
+        {"id":"q6","type":"choice","tag":"g:在下","prompt_vi":"Câu nào đúng?","question_zh":"Câu nào đúng?","options":["在老师的帮助下，我找到了好工作。","我找到了好工作在老师的帮助下。","在老师的帮助，我找到了好工作。","在老师的帮助下面，我找到了好工作。"],"answer":0,"explanation_vi":"在……的帮助下 đứng đầu câu, trước động từ; phải có 下 (không phải 下面)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:差点儿","prompt_vi":"Chọn đáp án đúng.","question_zh":"今天早上我起晚了，____迟到。","options":["差点儿","其中","实在","暂时"],"answer":0,"explanation_vi":"差点儿迟到 = suýt nữa đến muộn (nhưng không muộn)."},
+      {"id":"t2","type":"choice","tag":"g:值得","prompt_vi":"Chọn đáp án đúng.","question_zh":"五十块的耳机，不____再等两个星期。","options":["值得","相比","合格","其中"],"answer":0,"explanation_vi":"不值得 + V = không đáng để làm gì."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"地址","vi":"địa chỉ"},{"zh":"寄","vi":"gửi (hàng)"},{"zh":"取","vi":"lấy, nhận"},{"zh":"取消","vi":"hủy"},{"zh":"盒子","vi":"cái hộp"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"吃惊","vi":"ngạc nhiên"},{"zh":"暂时","vi":"tạm thời"},{"zh":"直接","vi":"trực tiếp"},{"zh":"以内","vi":"trong vòng"},{"zh":"说明书","vi":"sách hướng dẫn"}]},
+      {"id":"t5","type":"order","tag":"g:其中","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","买了","五件衣服","其中","两件","是假的"],"answers":["我买了五件衣服其中两件是假的"],"translation_vi":"Tôi mua năm cái áo, trong đó hai cái là hàng giả.","explanation_vi":"Tập hợp (五件衣服) đứng trước, 其中 + số lượng (两件) đứng đầu vế sau."},
+      {"id":"t6","type":"order","tag":"g:竟然","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这么","便宜的","东西","质量","竟然","很好"],"answers":["这么便宜的东西质量竟然很好","这么便宜的东西竟然质量很好"],"translation_vi":"Đồ rẻ thế này mà chất lượng lại rất tốt.","explanation_vi":"竟然 đứng trước vị ngữ (很好) hoặc trước cả 质量很好."},
+      {"id":"t7","type":"fill","tag":"v:网购","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"在网上买东西，也就是____，现在越来越流行了。","answers":["网购","网上购物"],"hint_vi":"mua hàng trên mạng (2 chữ)","explanation_vi":"网购 = 网上购物 (mua hàng trên mạng)."},
+      {"id":"t8","type":"fill","tag":"g:倍","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"一百五十块是五十块的三____。","answers":["倍"],"hint_vi":"lần (gấp)","explanation_vi":"A 是 B 的 + số + 倍: 150 là gấp ba 50."},
+      {"id":"t9","type":"listen_choice","tag":"g:在下","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"在朋友的帮助下，我买到了质量很好的耳机。","options":["Nhờ bạn giúp, tôi đã mua được tai nghe chất lượng rất tốt.","Tôi giúp bạn mua một cái tai nghe chất lượng tốt.","Bạn tôi mua tai nghe giúp tôi nhưng chất lượng kém.","Tôi mua tai nghe ở dưới nhà bạn."],"answer":0,"explanation_vi":"在朋友的帮助下 = nhờ sự giúp đỡ của bạn; 买到了质量很好的耳机 = đã mua được tai nghe chất lượng tốt."},
+      {"id":"t10","type":"listen_choice","tag":"v:修理","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"这个耳机一年以内可以免费修理。","options":["这个耳机一年以内可以免费修理。","这个耳机一年以后可以免费换新的。","这个耳机修理一次要一百块。","这个耳机已经修理好了。"],"answer":0,"explanation_vi":"Câu nghe được: 这个耳机一年以内可以免费修理 = Tai nghe này trong vòng một năm được sửa miễn phí."},
+      {"id":"t11","type":"dictation","tag":"v:质量","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"一分钱一分货，便宜的东西质量不一定好。","answers":["一分钱一分货便宜的东西质量不一定好"],"explanation_vi":"一分钱一分货，便宜的东西质量不一定好 = Tiền nào của nấy, đồ rẻ chất lượng chưa chắc đã tốt."},
+      {"id":"t12","type":"dictation","tag":"g:值得","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这家店的东西很值得买。","answers":["这家店的东西很值得买"],"explanation_vi":"这家店的东西很值得买 = Đồ ở cửa hàng này rất đáng mua."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:竟然","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Cái tai nghe này vậy mà mới dùng năm ngày đã hỏng.","answers":["这个耳机竟然用了五天就坏了","这个耳机竟然才用了五天就坏了","这个耳机竟然只用了五天就坏了","这个耳机才用了五天竟然就坏了","这个耳机竟然用五天就坏了","这个耳机竟然才用五天就坏了","这个耳机竟然用了五天就坏","这耳机竟然用了五天就坏了","这耳机竟然才用了五天就坏了","这个耳机竟然刚用了五天就坏了"],"explanation_vi":"竟然 đứng sau chủ ngữ 这个耳机; 才用了五天就坏了 = mới dùng năm ngày đã hỏng."},
+      {"id":"t14","type":"translate_vi_zh","tag":"v:后悔","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tôi rất hối hận vì đã mua cái áo này.","answers":["我很后悔买了这件衣服","我很后悔买这件衣服","我真后悔买了这件衣服","我真后悔买这件衣服","我非常后悔买了这件衣服","我特别后悔买了这件衣服","我很后悔我买了这件衣服","我买了这件衣服很后悔","我很后悔买了这件上衣","我很后悔买了这件外套"],"explanation_vi":"后悔 + việc đã làm: 后悔买了这件衣服 (không cần dịch chữ “vì”)."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:倍","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"这个耳机的价格是那个的三倍。","answers_vi":["Giá cái tai nghe này gấp ba cái kia.","Cái tai nghe này đắt gấp ba lần cái kia."],"keywords":[["tai nghe"],["gấp ba","gấp 3","ba lần","3 lần"]],"explanation_vi":"A 是 B 的三倍 = A gấp ba B."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:其中","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我买了五件衣服，其中两件是假的。","answers_vi":["Tôi mua năm cái áo, trong đó hai cái là hàng giả.","Tôi đã mua năm bộ quần áo, trong số đó có hai bộ là đồ giả."],"keywords":[["năm","5"],["trong đó","trong số đó"],["hai","2"],["giả"]],"explanation_vi":"其中 = trong đó, trong số đó."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"网购还值得吗？",
+        "title_vi":"Mua hàng trên mạng còn đáng không?",
+        "paragraphs":[
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["，"],["在","zài","(trong cụm 在……下)"],["手机","shǒujī","điện thoại"],["的","de","của"],["帮助","bāngzhù","sự giúp đỡ"],["下","xià","nhờ (trong cụm 在……下)"],["，"],["网购","wǎnggòu","mua hàng trên mạng"],["变得","biàn de","trở nên"],["越来越","yuè lái yuè","ngày càng"],["方便","fāngbiàn","tiện lợi"],["了","le","(trợ từ)"],["："],["在","zài","ở"],["网页","wǎngyè","trang web"],["上","shang","trên"],["选好","xuǎn hǎo","chọn xong"],["商品","shāngpǐn","hàng hóa"],["，"],["用","yòng","dùng"],["手机","shǒujī","điện thoại"],["支付","zhīfù","thanh toán"],["，"],["过","guò","qua"],["一两天","yì liǎng tiān","một hai ngày"],["，"],["快递","kuàidì","hàng chuyển phát"],["就","jiù","là, liền"],["送","sòng","đưa"],["上门","shàngmén","đến tận nhà"],["了","le","(trợ từ)"],["。"],["有的","yǒude","có (món)"],["商品","shāngpǐn","hàng hóa"],["线上","xiànshàng","trên mạng"],["的","de","(trợ từ)"],["价格","jiàgé","giá"],["甚至","shènzhì","thậm chí"],["低于","dīyú","thấp hơn"],["线下","xiànxià","cửa hàng thật"],["。"]],
+            "vi":"Bây giờ, nhờ có điện thoại, mua hàng trên mạng ngày càng tiện: chọn hàng trên trang web, thanh toán bằng điện thoại, qua một hai ngày là hàng được đưa đến tận nhà. Có món giá trên mạng thậm chí còn thấp hơn ở cửa hàng."
+          },
+          {
+            "tokens":[["可是","kěshì","nhưng"],["，"],["网购","wǎnggòu","mua trên mạng"],["的","de","(trợ từ)"],["东西","dōngxi","đồ"],["质量","zhìliàng","chất lượng"],["怎么样","zěnmeyàng","thế nào"],["呢","ne","(trợ từ hỏi)"],["？"],["我们","wǒmen","chúng tôi"],["问","wèn","hỏi"],["了","le","(đã)"],["一百","yìbǎi","một trăm"],["位","wèi","(lượng từ chỉ người, lịch sự)"],["常常","chángcháng","thường xuyên"],["网购","wǎnggòu","mua trên mạng"],["的","de","(trợ từ)"],["人","rén","người"],["，"],["其中","qízhōng","trong đó"],["有","yǒu","có"],["四十","sìshí","bốn mươi"],["位","wèi","người"],["买到过","mǎi dào guo","từng mua phải"],["质量","zhìliàng","chất lượng"],["不","bù","không"],["合格","hégé","đạt chuẩn"],["的","de","(trợ từ)"],["商品","shāngpǐn","hàng hóa"],["，"],["有的","yǒude","có người"],["甚至","shènzhì","thậm chí"],["买到过","mǎi dào guo","từng mua phải"],["假货","jiǎhuò","hàng giả"],["。"],["让","ràng","khiến"],["人","rén","người ta"],["吃惊","chījīng","ngạc nhiên"],["的","de","(điều)"],["是","shì","là"],["，"],["很多","hěn duō","nhiều"],["人","rén","người"],["竟然","jìngrán","vậy mà"],["从来","cónglái","từ trước đến nay"],["不","bù","không"],["看","kàn","xem"],["商品","shāngpǐn","sản phẩm"],["说明","shuōmíng","phần mô tả"],["。"]],
+            "vi":"Nhưng chất lượng đồ mua trên mạng thế nào? Chúng tôi đã hỏi một trăm người hay mua hàng trên mạng, trong đó có bốn mươi người từng mua phải hàng không đạt chất lượng, có người thậm chí từng mua phải hàng giả. Điều khiến người ta ngạc nhiên là rất nhiều người xưa nay chưa bao giờ đọc phần mô tả sản phẩm."
+          },
+          {
+            "tokens":[["那么","nàme","vậy thì"],["，"],["网购","wǎnggòu","mua hàng trên mạng"],["还","hái","còn"],["值得","zhídé","đáng"],["吗","ma","không"],["？"],["对","duì","đối với"],["很多","hěn duō","nhiều"],["人","rén","người"],["来说","lái shuō","mà nói"],["，"],["当然","dāngrán","đương nhiên"],["值得","zhídé","đáng"],["。"],["但是","dànshì","nhưng"],["买","mǎi","mua"],["东西","dōngxi","đồ"],["以前","yǐqián","trước khi"],["，"],["要","yào","cần"],["先","xiān","trước"],["认真","rènzhēn","nghiêm túc, kỹ"],["看看","kànkan","xem qua"],["商品","shāngpǐn","sản phẩm"],["说明","shuōmíng","phần mô tả"],["；"],["收到","shōu dào","nhận được"],["快递","kuàidì","hàng chuyển phát"],["以后","yǐhòu","sau khi"],["，"],["有","yǒu","có"],["问题","wèntí","vấn đề"],["要","yào","phải"],["马上","mǎshàng","ngay"],["说","shuō","nói"],["。"],["记住","jìzhù","hãy nhớ"],["："],["一分钱一分货","yì fēn qián yì fēn huò","tiền nào của nấy"],["，"],["太","tài","quá"],["便宜","piányi","rẻ"],["的","de","(trợ từ)"],["东西","dōngxi","đồ"],["，"],["你","nǐ","bạn"],["可能","kěnéng","có thể"],["会","huì","sẽ"],["后悔","hòuhuǐ","hối hận"],["。"]],
+            "vi":"Vậy mua hàng trên mạng còn đáng không? Với nhiều người thì đương nhiên là đáng. Nhưng trước khi mua phải đọc kỹ phần mô tả sản phẩm; nhận hàng rồi, có vấn đề phải báo ngay. Hãy nhớ: tiền nào của nấy, đồ quá rẻ có thể sẽ khiến bạn hối hận."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"网购的时候，一般用什么支付？","options":["手机","现金","银行卡","零钱"],"answer":0,"explanation_vi":"Đoạn 1: 用手机支付."},
+          {"id":"rq2","type":"choice","tag":"g:其中","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"一百位常常网购的人中，有多少位买到过质量不合格的商品？","options":["四十位","十位","一百位","六十位"],"answer":0,"explanation_vi":"Đoạn 2: 其中有四十位买到过质量不合格的商品."},
+          {"id":"rq3","type":"choice","tag":"g:竟然","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"让人吃惊的是什么？","options":["很多人从来不看商品说明","线上的东西比线下贵","快递送得很慢","一百个人都买到过假货"],"answer":0,"explanation_vi":"Đoạn 2: 让人吃惊的是，很多人竟然从来不看商品说明."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"有的商品线上的价格比线下低。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 1: 有的商品线上的价格甚至低于线下 — câu này đúng."},
+          {"id":"rq5","type":"choice","tag":"g:值得","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"作者觉得网购不值得。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 对很多人来说，当然值得 — câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Lời nhắn của người giao hàng",
+        "text_zh":"您好，我是送快递的。您在网上买的东西到了，一共两个盒子。我刚才上门，可是家里没有人。您写的地址是三号楼，实际上您住在五号楼，我差点儿送错了。现在我暂时把快递放在小区门口的快递站，您三天以内都可以去取，取的时候带上手机就行。如果您想让我明天再次上门，请直接给我打电话。另外，大盒子里有说明书，用以前请先看一下。",
+        "pinyin":"Nín hǎo, wǒ shì sòng kuàidì de. Nín zài wǎng shang mǎi de dōngxi dào le, yígòng liǎng ge hézi. Wǒ gāngcái shàngmén, kěshì jiā li méiyǒu rén. Nín xiě de dìzhǐ shì sān hào lóu, shíjìshàng nín zhù zài wǔ hào lóu, wǒ chàdiǎnr sòng cuò le. Xiànzài wǒ zànshí bǎ kuàidì fàng zài xiǎoqū ménkǒu de kuàidìzhàn, nín sān tiān yǐnèi dōu kěyǐ qù qǔ, qǔ de shíhou dài shang shǒujī jiù xíng. Rúguǒ nín xiǎng ràng wǒ míngtiān zàicì shàngmén, qǐng zhíjiē gěi wǒ dǎ diànhuà. Lìngwài, dà hézi li yǒu shuōmíngshū, yòng yǐqián qǐng xiān kàn yíxià.",
+        "vi":"Chào anh/chị, tôi là người giao hàng. Đồ anh/chị mua trên mạng đến rồi, tổng cộng hai hộp. Lúc nãy tôi đến tận nhà nhưng không có ai. Địa chỉ anh/chị ghi là tòa số 3, thực ra anh/chị ở tòa số 5, suýt nữa tôi giao nhầm. Bây giờ tôi tạm để hàng ở điểm nhận hàng trước cổng khu chung cư, trong vòng ba ngày anh/chị đều có thể đến lấy, khi lấy mang theo điện thoại là được. Nếu anh/chị muốn mai tôi đến nhà lần nữa, xin gọi thẳng cho tôi. Ngoài ra, trong hộp lớn có sách hướng dẫn, trước khi dùng xin đọc qua.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"快递一共有几个盒子？","options":["两个","一个","三个","五个"],"answer":0,"explanation_vi":"Nghe được: 一共两个盒子."},
+          {"id":"lq2","type":"choice","tag":"v:差点儿","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"送快递的人为什么差点儿送错了？","options":["因为地址写错了","因为家里没有人","因为盒子太多了","因为小区太大了"],"answer":0,"explanation_vi":"Nghe được: 您写的地址是三号楼，实际上您住在五号楼，我差点儿送错了."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"快递现在在哪儿？","options":["小区门口的快递站","五号楼","三号楼","送快递的人那儿"],"answer":0,"explanation_vi":"Nghe được: 我暂时把快递放在小区门口的快递站."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"几天以内可以去取快递？","options":["三天","两天","一天","五天"],"answer":0,"explanation_vi":"Nghe được: 您三天以内都可以去取."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"质量","pinyin":"zhìliàng","vi":"chất lượng","tip_vi":"质 zhì: zh uốn lưỡi, vần -i đọc như “ư” uốn lưỡi, không đọc “chi”. 量 liàng là thanh 4 (rơi mạnh), khác 量 liáng (đo). -ang mở miệng rộng, kết thúc ở cuống lưỡi."},
+      {"id":"s2","zh":"一分钱一分货","pinyin":"yì fēn qián yì fēn huò","vi":"tiền nào của nấy","tip_vi":"一 đứng trước 分 (thanh 1) nên đọc yì (thanh 4). 分 fēn: -n đầu lưỡi, đừng đọc thành -ng. 货 huò: h xát ở cuống lưỡi; uo môi tròn rồi mở."},
+      {"id":"s3","zh":"很值得买","pinyin":"hěn zhídé mǎi","vi":"rất đáng mua","tip_vi":"很 hěn trước thanh 2 đọc nửa thanh 3. 值得 zhídé: hai thanh 2 liền nhau, giọng đi lên rõ ràng. 买 mǎi cuối câu đọc đủ thanh 3: xuống thấp rồi lên."},
+      {"id":"s4","zh":"他竟然买到了假货。","pinyin":"Tā jìngrán mǎi dào le jiǎhuò.","vi":"Vậy mà anh ấy mua phải hàng giả.","tip_vi":"竟然 jìngrán: -ing (cuống lưỡi) rồi -an (đầu lưỡi). 然 rán: r uốn lưỡi, gần giống “r” cong lưỡi, không đọc “dan” hay “zan”. 假 jiǎ: j mặt lưỡi, thanh 3."},
+      {"id":"s5","zh":"这个是那个的三倍。","pinyin":"Zhège shì nàge de sān bèi.","vi":"Cái này gấp ba cái kia.","tip_vi":"倍 bèi: b không bật hơi và không rung như “b” tiếng Việt; thanh 4. 三 sān: s đầu lưỡi, khác sh. 个 ge, 的 de đọc nhẹ."},
+      {"id":"s6","zh":"我差点儿忘了取快递。","pinyin":"Wǒ chàdiǎnr wàng le qǔ kuàidì.","vi":"Tôi suýt nữa quên đi lấy hàng.","tip_vi":"差点儿 chàdiǎnr: ch bật hơi, uốn lưỡi; 点儿 cuốn lưỡi ở cuối (diǎnr đọc gần “diǎr”). 取 qǔ: q bật hơi, ü tròn môi, đừng đọc “chủy”. 快递 kuàidì: k bật hơi."},
+      {"id":"s7","zh":"在朋友的帮助下，我买到了质量很好的耳机。","pinyin":"Zài péngyou de bāngzhù xià, wǒ mǎi dào le zhìliàng hěn hǎo de ěrjī.","vi":"Nhờ bạn giúp, tôi đã mua được tai nghe chất lượng rất tốt.","tip_vi":"Ngắt hơi sau 下. 朋友 péngyou: p bật hơi, 友 đọc nhẹ. 我买 wǒ mǎi, 很好 hěn hǎo: hai thanh 3 liền nhau nên chữ đầu đọc gần thanh 2. 耳 ěr: cuốn lưỡi, đừng đọc thành “ơ”."}
+    ],
+    "review": {
+      "remember": [
+        "竟然 = vậy mà, không ngờ: S + 竟然 + V/Adj, nói điều bất ngờ. Hiểu ra nguyên nhân thì dùng 原来.",
+        "A 是 B 的两倍 = A gấp đôi B (an toàn nhất); 比……多一倍 cũng là gấp đôi. Giảm đi nói 一半, không dùng 倍; không nói 两个倍.",
+        "其中 = trong đó: đứng đầu vế sau, theo sau là số lượng hoặc 有: 我买了五件，其中两件是假的.",
+        "值得 + V = đáng để làm gì (不值得, 值不值得); 值 + số tiền = trị giá; 很值 = rất đáng tiền.",
+        "在 + ai + 的帮助/影响/要求 + 下 đứng đầu câu, trước động từ. 差点儿 + V(了) = suýt nữa (nhưng không xảy ra)."
+      ],
+      "mistakes": [
+        "✗ 竟然这件衣服是假的 → ✓ 这件衣服竟然是假的: 竟然 đứng sau chủ ngữ.",
+        "✗ 这件衣服值得五百块 → ✓ 这件衣服值五百块: trước số tiền dùng 值.",
+        "✗ 我修好了电脑在朋友的帮助下 → ✓ 在朋友的帮助下，我修好了电脑: 在……下 đứng trước động từ."
+      ]
+    }
+  }
+}

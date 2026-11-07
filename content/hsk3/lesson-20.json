@@ -1,0 +1,213 @@
+{
+  "level": 3,
+  "number": 20,
+  "summary": "Nói về ảnh hưởng của người thân, môi trường và văn hóa lên thói quen của mình; học câu bị động chữ “被” và cấu trúc điều kiện bắt buộc “只有……才……” (chỉ có… mới…). Đây là bài cuối cấp HSK 3.",
+  "readings_ok": ["得 de", "里 li", "谁 shéi", "都 dōu"],
+  "content": {
+    "objectives": [
+      "Kể việc ai / cái gì bị (được) tác động ra sao bằng câu chữ 被: 我的蛋糕被弟弟吃了、我被他影响了",
+      "Nói điều kiện bắt buộc “chỉ có… mới…” bằng 只有……才……, phân biệt với 只要……就……",
+      "Nói về ảnh hưởng của người xung quanh, môi trường và văn hóa: 受到……的影响、感到、得到",
+      "Ôn lại cả cấp HSK 3: hiểu và kể một câu chuyện dài hơn với nhiều mẫu câu đã học"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"被","pinyin":"bèi","pos":"giới từ","meaning_vi":"bị, được (đánh dấu câu bị động)","example_zh":"我的蛋糕被弟弟吃了。","example_pinyin":"Wǒ de dàngāo bèi dìdi chī le.","example_vi":"Bánh kem của tôi bị em trai ăn mất rồi.","hanviet":"BỊ","note_vi":"被 + người làm + động từ + thành phần khác (了, 走, 坏…). Chữ “được” tiếng Việt rộng hơn 被 nhiều: “được đi, được làm gì” (có cơ hội, được phép) không dùng 被 (✗ 我被去中国学习)."},
+      {"id":"v2","hanzi":"影响","pinyin":"yǐngxiǎng","pos":"động từ / danh từ","meaning_vi":"ảnh hưởng","example_zh":"晚上喝咖啡会影响睡觉。","example_pinyin":"Wǎnshang hē kāfēi huì yǐngxiǎng shuìjiào.","example_vi":"Buổi tối uống cà phê sẽ ảnh hưởng đến giấc ngủ.","hanviet":"ẢNH HƯỞNG","note_vi":"Động từ: 影响 + người / việc (影响学习, 影响他), không cần thêm từ nào như “đến” trong tiếng Việt: 影响睡觉 (ảnh hưởng đến giấc ngủ), 影响他 (ảnh hưởng đến anh ấy). Danh từ: 对……有影响, 受到……的影响."},
+      {"id":"v3","hanzi":"只有","pinyin":"zhǐyǒu","pos":"liên từ","meaning_vi":"chỉ có (… mới…)","example_zh":"只有多练习，才能说好汉语。","example_pinyin":"Zhǐyǒu duō liànxí, cái néng shuō hǎo Hànyǔ.","example_vi":"Chỉ có luyện tập nhiều mới nói giỏi tiếng Trung được.","note_vi":"Làm liên từ thì đi với 才: 只有……才……. Còn có nghĩa đơn giản “chỉ có”: 我只有一百块钱 (tôi chỉ có một trăm tệ), 只有你做到了 (chỉ có bạn làm được)."},
+      {"id":"v4","hanzi":"受到","pinyin":"shòudào","pos":"động từ","meaning_vi":"nhận được, chịu (ảnh hưởng, sự giúp đỡ…)","example_zh":"他从小就受到爸爸的影响。","example_pinyin":"Tā cóngxiǎo jiù shòudào bàba de yǐngxiǎng.","example_vi":"Từ nhỏ anh ấy đã chịu ảnh hưởng của bố.","note_vi":"受到 + 影响 / 欢迎 / 关注 / 帮助: 受到大家的欢迎 (được mọi người yêu thích). Mang nghĩa bị động nhưng không cần 被."},
+      {"id":"v5","hanzi":"受","pinyin":"shòu","pos":"động từ","meaning_vi":"chịu, nhận","example_zh":"这本书很受孩子们的欢迎。","example_pinyin":"Zhè běn shū hěn shòu háizimen de huānyíng.","example_vi":"Cuốn sách này rất được trẻ em yêu thích.","hanviet":"THỤ","note_vi":"受 ngắn gọn hơn 受到, có thể đứng sau 很: 很受欢迎 (rất được yêu thích), 很受影响 (bị ảnh hưởng nhiều)."},
+      {"id":"v6","hanzi":"生活","pinyin":"shēnghuó","pos":"danh từ / động từ","meaning_vi":"cuộc sống; sống","example_zh":"我很喜欢这儿的生活。","example_pinyin":"Wǒ hěn xǐhuan zhèr de shēnghuó.","example_vi":"Tôi rất thích cuộc sống ở đây.","hanviet":"SINH HOẠT","note_vi":"Từ dễ hiểu nhầm: 生活 = cuộc sống, đời sống (生活习惯 thói quen sinh hoạt hằng ngày), không phải “sinh hoạt tập thể, họp”. Động từ: 他在北京生活了三年 (anh ấy sống ở Bắc Kinh ba năm)."},
+      {"id":"v7","hanzi":"环境","pinyin":"huánjìng","pos":"danh từ","meaning_vi":"môi trường, khung cảnh xung quanh","example_zh":"这个小区的环境很好，又安静又干净。","example_pinyin":"Zhège xiǎoqū de huánjìng hěn hǎo, yòu ānjìng yòu gānjìng.","example_vi":"Môi trường của khu dân cư này rất tốt, vừa yên tĩnh vừa sạch sẽ.","hanviet":"HOÀN CẢNH","note_vi":"环境 = môi trường xung quanh (nơi ở, nơi học, thiên nhiên). “Hoàn cảnh (gia đình khó khăn)” trong tiếng Việt thì tiếng Trung không dùng 环境 mà dùng 情况 / 条件 (học sau)."},
+      {"id":"v8","hanzi":"世界","pinyin":"shìjiè","pos":"danh từ","meaning_vi":"thế giới","example_zh":"世界上有很多国家。","example_pinyin":"Shìjiè shang yǒu hěn duō guójiā.","example_vi":"Trên thế giới có rất nhiều quốc gia.","hanviet":"THẾ GIỚI","note_vi":"Nói “trên thế giới” là 世界上, đừng quên 上."},
+      {"id":"v9","hanzi":"文化","pinyin":"wénhuà","pos":"danh từ","meaning_vi":"văn hóa","example_zh":"我对中国文化很感兴趣。","example_pinyin":"Wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.","example_vi":"Tôi rất hứng thú với văn hóa Trung Quốc.","hanviet":"VĂN HÓA"},
+      {"id":"v10","hanzi":"国家","pinyin":"guójiā","pos":"danh từ","meaning_vi":"quốc gia, đất nước","example_zh":"你去过几个国家？","example_pinyin":"Nǐ qù guo jǐ ge guójiā?","example_vi":"Bạn đã đi qua mấy nước rồi?","hanviet":"QUỐC GIA","note_vi":"Lượng từ là 个: 三个国家. Tiếng Việt hay nói “nước”, tiếng Trung nói 国家 (hoặc 国 trong từ ghép: 外国, 出国)."},
+      {"id":"v11","hanzi":"感到","pinyin":"gǎndào","pos":"động từ","meaning_vi":"cảm thấy","example_zh":"在这儿，我感到很快乐。","example_pinyin":"Zài zhèr, wǒ gǎndào hěn kuàilè.","example_vi":"Ở đây, tôi cảm thấy rất vui.","note_vi":"感到 hơi trang trọng hơn 觉得, hay đi với từ chỉ cảm xúc (感到高兴, 感到难过, 感到奇怪). 觉得 còn dùng để nêu ý kiến (我觉得他说得对); 感到 ít dùng như vậy."},
+      {"id":"v12","hanzi":"得到","pinyin":"dédào","pos":"động từ","meaning_vi":"được, nhận được, đạt được","example_zh":"他得到了一个很好的机会。","example_pinyin":"Tā dédào le yí ge hěn hǎo de jīhuì.","example_vi":"Anh ấy có được một cơ hội rất tốt.","note_vi":"得 đọc dé. 得到 + 帮助 / 机会 / 关心: “được” theo nghĩa “nhận được” dùng 得到, không dùng 被 (✗ 我被帮助了很多 → ✓ 我得到了很多帮助)."},
+      {"id":"v13","hanzi":"身边","pinyin":"shēnbiān","pos":"danh từ","meaning_vi":"bên cạnh, xung quanh (mình)","example_zh":"身边的朋友都很关心我。","example_pinyin":"Shēnbiān de péngyou dōu hěn guānxīn wǒ.","example_vi":"Bạn bè xung quanh đều rất quan tâm tôi.","note_vi":"在 + người + 身边 = ở bên cạnh ai: 妈妈不在我身边 (mẹ không ở bên tôi)."},
+      {"id":"v14","hanzi":"主要","pinyin":"zhǔyào","pos":"tính từ","meaning_vi":"chủ yếu, chính","example_zh":"我学汉语，主要是因为工作需要。","example_pinyin":"Wǒ xué Hànyǔ, zhǔyào shì yīnwèi gōngzuò xūyào.","example_vi":"Tôi học tiếng Trung chủ yếu là vì công việc cần.","hanviet":"CHỦ YẾU","note_vi":"Đứng trước danh từ: 主要的问题 (vấn đề chính); đứng trước động từ / 是: 主要是因为…… (chủ yếu là vì…)."},
+      {"id":"v15","hanzi":"关注","pinyin":"guānzhù","pos":"động từ","meaning_vi":"theo dõi, quan tâm chú ý; (trên mạng) theo dõi, follow","example_zh":"我每天都关注天气的变化。","example_pinyin":"Wǒ měi tiān dōu guānzhù tiānqì de biànhuà.","example_vi":"Ngày nào tôi cũng theo dõi sự thay đổi của thời tiết.","hanviet":"QUAN CHÚ","note_vi":"关注 = theo dõi sát một vấn đề, tin tức; trên mạng xã hội 关注 = follow. Khác 关心 (quan tâm, lo cho người): 妈妈很关心我."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"新闻","pinyin":"xīnwén","pos":"danh từ","meaning_vi":"tin tức, thời sự","example_zh":"爸爸每天晚上都看新闻。","example_pinyin":"Bàba měi tiān wǎnshang dōu kàn xīnwén.","example_vi":"Tối nào bố cũng xem thời sự."},
+      {"id":"x2","hanzi":"报纸","pinyin":"bàozhǐ","pos":"danh từ","meaning_vi":"báo (giấy)","example_zh":"现在看报纸的人越来越少了。","example_pinyin":"Xiànzài kàn bàozhǐ de rén yuè lái yuè shǎo le.","example_vi":"Bây giờ người đọc báo giấy ngày càng ít."},
+      {"id":"x3","hanzi":"名人","pinyin":"míngrén","pos":"danh từ","meaning_vi":"người nổi tiếng","example_zh":"他是我们这儿的名人。","example_pinyin":"Tā shì wǒmen zhèr de míngrén.","example_vi":"Anh ấy là người nổi tiếng ở vùng chúng tôi."},
+      {"id":"x4","hanzi":"画家","pinyin":"huàjiā","pos":"danh từ","meaning_vi":"họa sĩ","example_zh":"我爷爷是一个画家。","example_pinyin":"Wǒ yéye shì yí ge huàjiā.","example_vi":"Ông tôi là một họa sĩ."},
+      {"id":"x5","hanzi":"运动员","pinyin":"yùndòngyuán","pos":"danh từ","meaning_vi":"vận động viên","example_zh":"他以前是足球运动员。","example_pinyin":"Tā yǐqián shì zúqiú yùndòngyuán.","example_vi":"Trước đây anh ấy là cầu thủ bóng đá."},
+      {"id":"x6","hanzi":"大人","pinyin":"dàren","pos":"danh từ","meaning_vi":"người lớn","example_zh":"这件事你问问大人吧。","example_pinyin":"Zhè jiàn shì nǐ wènwen dàren ba.","example_vi":"Chuyện này con hỏi người lớn xem."},
+      {"id":"x7","hanzi":"小孩儿","pinyin":"xiǎoháir","pos":"danh từ","meaning_vi":"trẻ con, đứa trẻ","example_zh":"公园里有很多小孩儿在玩儿。","example_pinyin":"Gōngyuán li yǒu hěn duō xiǎoháir zài wánr.","example_vi":"Trong công viên có nhiều trẻ con đang chơi."},
+      {"id":"x8","hanzi":"老人","pinyin":"lǎorén","pos":"danh từ","meaning_vi":"người già, người cao tuổi","example_zh":"这个小区住着很多老人。","example_pinyin":"Zhège xiǎoqū zhù zhe hěn duō lǎorén.","example_vi":"Khu dân cư này có nhiều người già sinh sống."},
+      {"id":"x9","hanzi":"男人","pinyin":"nánrén","pos":"danh từ","meaning_vi":"đàn ông","example_zh":"那个男人是谁？","example_pinyin":"Nàge nánrén shì shéi?","example_vi":"Người đàn ông kia là ai?"},
+      {"id":"x10","hanzi":"女人","pinyin":"nǚrén","pos":"danh từ","meaning_vi":"phụ nữ, người đàn bà","example_zh":"那个穿红裙子的女人是我的邻居。","example_pinyin":"Nàge chuān hóng qúnzi de nǚrén shì wǒ de línjū.","example_vi":"Người phụ nữ mặc váy đỏ kia là hàng xóm của tôi."},
+      {"id":"x11","hanzi":"男生","pinyin":"nánshēng","pos":"danh từ","meaning_vi":"nam sinh, bạn nam","example_zh":"我们班的男生都喜欢踢足球。","example_pinyin":"Wǒmen bān de nánshēng dōu xǐhuan tī zúqiú.","example_vi":"Các bạn nam lớp tôi đều thích đá bóng."},
+      {"id":"x12","hanzi":"女生","pinyin":"nǚshēng","pos":"danh từ","meaning_vi":"nữ sinh, bạn nữ","example_zh":"我们班有十个女生。","example_pinyin":"Wǒmen bān yǒu shí ge nǚshēng.","example_vi":"Lớp tôi có mười bạn nữ."},
+      {"id":"x13","hanzi":"爱人","pinyin":"àiren","pos":"danh từ","meaning_vi":"chồng / vợ (cách gọi ở Trung Quốc đại lục)","example_zh":"我爱人是医生。","example_pinyin":"Wǒ àiren shì yīshēng.","example_vi":"Chồng (vợ) tôi là bác sĩ."},
+      {"id":"x14","hanzi":"夫妻","pinyin":"fūqī","pos":"danh từ","meaning_vi":"vợ chồng","example_zh":"这对夫妻每天一起去公园锻炼。","example_pinyin":"Zhè duì fūqī měi tiān yìqǐ qù gōngyuán duànliàn.","example_vi":"Đôi vợ chồng này ngày nào cũng cùng ra công viên tập thể dục."},
+      {"id":"x15","hanzi":"姐妹","pinyin":"jiěmèi","pos":"danh từ","meaning_vi":"chị em gái","example_zh":"她们是姐妹，长得很像。","example_pinyin":"Tāmen shì jiěmèi, zhǎng de hěn xiàng.","example_vi":"Họ là chị em, trông rất giống nhau."},
+      {"id":"x16","hanzi":"从小","pinyin":"cóngxiǎo","pos":"phó từ","meaning_vi":"từ nhỏ","example_zh":"他从小就喜欢画画儿。","example_pinyin":"Tā cóngxiǎo jiù xǐhuan huà huàr.","example_vi":"Từ nhỏ cậu ấy đã thích vẽ tranh."},
+      {"id":"x17","hanzi":"为","pinyin":"wèi","pos":"giới từ","meaning_vi":"cho, vì (ai)","example_zh":"妈妈为我做了一个蛋糕。","example_pinyin":"Māma wèi wǒ zuò le yí ge dàngāo.","example_vi":"Mẹ làm cho tôi một cái bánh kem."},
+      {"id":"x18","hanzi":"中","pinyin":"zhōng","pos":"danh từ","meaning_vi":"trong, trong số","example_zh":"在这些运动中，我最喜欢游泳。","example_pinyin":"Zài zhèxiē yùndòng zhōng, wǒ zuì xǐhuan yóuyǒng.","example_vi":"Trong số các môn thể thao này, tôi thích bơi nhất."},
+      {"id":"x19","hanzi":"东方","pinyin":"dōngfāng","pos":"danh từ","meaning_vi":"phương Đông","example_zh":"东方文化和西方文化很不一样。","example_pinyin":"Dōngfāng wénhuà hé xīfāng wénhuà hěn bù yíyàng.","example_vi":"Văn hóa phương Đông và văn hóa phương Tây rất khác nhau."},
+      {"id":"x20","hanzi":"西方","pinyin":"xīfāng","pos":"danh từ","meaning_vi":"phương Tây","example_zh":"很多西方人喜欢学习中国文化。","example_pinyin":"Hěn duō xīfāng rén xǐhuan xuéxí Zhōngguó wénhuà.","example_vi":"Nhiều người phương Tây thích tìm hiểu văn hóa Trung Quốc."}
+    ],
+    "glossary": [
+      {"hanzi":"被子","pinyin":"bèizi","meaning_vi":"chăn (để đắp)","kind":"beyond"}
+    ],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Câu bị động chữ “被”",
+        "pattern":"Người/vật chịu tác động + 被 + (người làm) + V + thành phần khác　·　… + 没/不/会 + 被 + … + V + …",
+        "explanation_vi":"Câu chữ 被 là câu bị động: chủ ngữ là người hoặc vật CHỊU tác động, người gây ra hành động đứng sau 被 (không biết hoặc không cần nói thì bỏ: 我的自行车被借走了). Giống câu 把, động từ không đứng trơ một mình: sau nó phải có 了, bổ ngữ kết quả hay bổ ngữ xu hướng… (被吃了, 被拿走了, 被叫到办公室去了). Câu 被 hay dùng cho việc không như ý (bị mất, bị lấy, bị ăn mất…), nhưng cũng dùng được cho việc trung tính: 我被他影响了. Từ phủ định và động từ năng nguyện đặt TRƯỚC 被: 没被借走, 会被他看见. Khi nói có thể thay 被 bằng 叫 / 让, nhưng sau 叫/让 phải có người làm: 我的蛋糕叫弟弟吃了.",
+        "examples":[
+          {"zh":"我的蛋糕被弟弟吃了。","pinyin":"Wǒ de dàngāo bèi dìdi chī le.","vi":"Bánh kem của tôi bị em trai ăn mất rồi."},
+          {"zh":"我的自行车被朋友借走了。","pinyin":"Wǒ de zìxíngchē bèi péngyou jiè zǒu le.","vi":"Xe đạp của tôi bị bạn mượn đi mất rồi."},
+          {"zh":"他被老师叫到办公室去了。","pinyin":"Tā bèi lǎoshī jiào dào bàngōngshì qu le.","vi":"Cậu ấy bị thầy gọi lên văn phòng rồi."},
+          {"zh":"我被他影响了，现在每天都跑步。","pinyin":"Wǒ bèi tā yǐngxiǎng le, xiànzài měi tiān dōu pǎobù.","vi":"Tôi bị anh ấy ảnh hưởng rồi, giờ ngày nào cũng chạy bộ."},
+          {"zh":"那本书没被借走，你去图书馆看看吧。","pinyin":"Nà běn shū méi bèi jiè zǒu, nǐ qù túshūguǎn kànkan ba.","vi":"Cuốn sách đó chưa bị ai mượn, bạn đến thư viện xem đi."}
+        ],
+        "mistakes_vi":"✗ 我被去中国学习。(muốn nói “được đi Trung Quốc học”)\n✓ 我有机会去中国学习。/ 学校让我去中国学习。\nChữ “được” tiếng Việt rộng hơn 被 nhiều. “Được đi, được làm gì” (có cơ hội, được phép) không dùng 被; “được nhận” thì dùng 得到.\n✗ 我的手机被他拿。\n✓ 我的手机被他拿走了。\nSau động từ trong câu 被 phải có thành phần khác (了, 走, 完, 坏…).\n✗ 我的自行车被朋友没借走。\n✓ 我的自行车没被朋友借走。\n没 / 不 / 会 / 能 đứng trước 被, không đứng trước động từ.",
+        "compare_vi":"Tiếng Việt dùng “bị” cho việc xấu, “được” cho việc tốt, và có thể nói “bị mưa”, “được khen” rất tự do. Tiếng Trung chỉ có một chữ 被 cho câu bị động thật (có người làm và người/vật chịu tác động), và nhiều câu tiếng Việt có “được / bị” khi dịch sang tiếng Trung không cần 被: 我感冒了 (tôi bị cảm), 我可以去 (tôi được đi)."
+      },
+      {
+        "id":"g2",
+        "title":"Câu điều kiện “只有……才……” (chỉ có… mới…)",
+        "pattern":"只有 + điều kiện duy nhất，(S +) 才 + (能/会) + kết quả",
+        "explanation_vi":"只有 nêu điều kiện DUY NHẤT, bắt buộc phải có thì kết quả ở vế sau mới xảy ra; vế sau dùng 才 (đứng sau chủ ngữ, trước động từ), hay đi với 能 / 会 / 可以. Giống “chỉ có… mới…”. So với 只要……就…… (bài 18): 只要 = chỉ cần (có điều kiện này là đủ, thường dễ làm); 只有 = chỉ có (thiếu nó thì không được, nhấn mạnh sự bắt buộc).",
+        "examples":[
+          {"zh":"只有每天坚持，身体才会好起来。","pinyin":"Zhǐyǒu měi tiān jiānchí, shēntǐ cái huì hǎo qǐlai.","vi":"Chỉ có kiên trì mỗi ngày thì sức khỏe mới tốt lên được."},
+          {"zh":"只有多听多说，你才能学好汉语。","pinyin":"Zhǐyǒu duō tīng duō shuō, nǐ cái néng xué hǎo Hànyǔ.","vi":"Chỉ có nghe nhiều nói nhiều, bạn mới học giỏi tiếng Trung được."},
+          {"zh":"只有你去说，他才会同意。","pinyin":"Zhǐyǒu nǐ qù shuō, tā cái huì tóngyì.","vi":"Chỉ có bạn đi nói thì anh ấy mới đồng ý."},
+          {"zh":"只有了解一个国家的文化，才能真的了解这个国家。","pinyin":"Zhǐyǒu liǎojiě yí ge guójiā de wénhuà, cái néng zhēn de liǎojiě zhège guójiā.","vi":"Chỉ có hiểu văn hóa của một đất nước thì mới thật sự hiểu được đất nước đó."}
+        ],
+        "mistakes_vi":"✗ 只有多练习，就能说好。\n✓ 只有多练习，才能说好。\n只有 đi với 才; 只要 mới đi với 就.\n✗ 只有每天坚持，才身体会好。\n✓ 只有每天坚持，身体才会好。\n才 là phó từ, đứng sau chủ ngữ (身体) và trước động từ. Tiếng Việt nói “thì sức khỏe mới…” nên hay đặt 才 trước chủ ngữ.",
+        "compare_vi":"Giống “chỉ có… mới…”: 只有 = chỉ có, 才 = mới. Mẹo nhớ: 只要……就…… (chỉ cần… là…) — điều kiện “đủ”; 只有……才…… (chỉ có… mới…) — điều kiện “bắt buộc”."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Mình bị chồng ảnh hưởng rồi",
+      "scene_vi": "Sáng thứ Bảy, Tiểu Vương đi dạo trong công viên thì gặp đồng nghiệp Tiểu Lý đang chạy bộ.",
+      "lines": [
+        {"speaker":"小王","zh":"小李？你怎么这么早就在公园跑步？以前你周末不是十点才起床吗？","pinyin":"Xiǎo Lǐ? Nǐ zěnme zhème zǎo jiù zài gōngyuán pǎobù? Yǐqián nǐ zhōumò bú shì shí diǎn cái qǐchuáng ma?","vi":"Tiểu Lý? Sao sớm thế này cậu đã chạy bộ trong công viên rồi? Trước đây cuối tuần chẳng phải mười giờ cậu mới dậy sao?"},
+        {"speaker":"小李","zh":"是啊，可是现在不一样了。我被我爱人影响了。","pinyin":"Shì a, kěshì xiànzài bù yíyàng le. Wǒ bèi wǒ àiren yǐngxiǎng le.","vi":"Ừ, nhưng giờ khác rồi. Mình bị chồng mình ảnh hưởng đấy."},
+        {"speaker":"小王","zh":"你爱人？他很喜欢运动吗？","pinyin":"Nǐ àiren? Tā hěn xǐhuan yùndòng ma?","vi":"Chồng cậu á? Anh ấy thích thể thao lắm à?"},
+        {"speaker":"小李","zh":"他从小就喜欢运动，以前还是运动员呢。结婚以后，他每天早上六点都叫我起来跑步。","pinyin":"Tā cóngxiǎo jiù xǐhuan yùndòng, yǐqián hái shì yùndòngyuán ne. Jiéhūn yǐhòu, tā měi tiān zǎoshang liù diǎn dōu jiào wǒ qǐlai pǎobù.","vi":"Từ nhỏ anh ấy đã mê thể thao, trước đây còn là vận động viên cơ. Cưới nhau xong, sáng nào sáu giờ anh ấy cũng gọi mình dậy chạy bộ."},
+        {"speaker":"小王","zh":"一开始你一定很不习惯吧？","pinyin":"Yì kāishǐ nǐ yídìng hěn bù xíguàn ba?","vi":"Lúc đầu chắc cậu không quen lắm nhỉ?"},
+        {"speaker":"小李","zh":"当然！早上我不想起床，被子就被他拿走了！第一个星期，我累得什么都不想做。","pinyin":"Dāngrán! Zǎoshang wǒ bù xiǎng qǐchuáng, bèizi jiù bèi tā ná zǒu le! Dì yī ge xīngqī, wǒ lèi de shénme dōu bù xiǎng zuò.","vi":"Tất nhiên! Sáng mình không muốn dậy là bị anh ấy lấy mất chăn luôn! Tuần đầu tiên mình mệt đến mức chẳng muốn làm gì cả."},
+        {"speaker":"小王","zh":"那后来呢？你怎么坚持下来的？","pinyin":"Nà hòulái ne? Nǐ zěnme jiānchí xiàlai de?","vi":"Thế sau đó thì sao? Làm sao cậu kiên trì được?"},
+        {"speaker":"小李","zh":"他说：“只有每天坚持，身体才会好起来。”现在我睡得好，工作的时候也不容易累了。我感到生活变得更健康了。","pinyin":"Tā shuō: “Zhǐyǒu měi tiān jiānchí, shēntǐ cái huì hǎo qǐlai.” Xiànzài wǒ shuì de hǎo, gōngzuò de shíhou yě bù róngyì lèi le. Wǒ gǎndào shēnghuó biàn de gèng jiànkāng le.","vi":"Anh ấy bảo: “Chỉ có kiên trì mỗi ngày thì sức khỏe mới tốt lên được.” Giờ mình ngủ ngon, lúc làm việc cũng không dễ mệt nữa. Mình cảm thấy cuộc sống khỏe khoắn hơn hẳn."},
+        {"speaker":"小王","zh":"真好！我身边的朋友都说要锻炼，可是只有你真的做到了。","pinyin":"Zhēn hǎo! Wǒ shēnbiān de péngyou dōu shuō yào duànliàn, kěshì zhǐyǒu nǐ zhēn de zuò dào le.","vi":"Hay thật! Bạn bè xung quanh mình ai cũng nói phải tập thể dục, nhưng chỉ có cậu là làm được thật."},
+        {"speaker":"小李","zh":"那你也跟我们一起跑吧！明天早上六点，我给你打电话。","pinyin":"Nà nǐ yě gēn wǒmen yìqǐ pǎo ba! Míngtiān zǎoshang liù diǎn, wǒ gěi nǐ dǎ diànhuà.","vi":"Thế cậu cũng chạy cùng bọn mình đi! Sáu giờ sáng mai mình gọi điện cho cậu."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:影响","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"晚上喝咖啡会____睡觉。","options":["影响","关注","感到","得到"],"answer":0,"explanation_vi":"影响睡觉 = ảnh hưởng đến giấc ngủ. 影响 + việc bị tác động, không cần “đến”."},
+      {"id":"e2","type":"choice","tag":"v:环境","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个小区的____很好，又安静又干净。","options":["环境","世界","文化","国家"],"answer":0,"explanation_vi":"Yên tĩnh, sạch sẽ là nói về 环境 (môi trường xung quanh) của khu dân cư."},
+      {"id":"e3","type":"choice","tag":"v:得到","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他____了一个去中国学习的机会。","options":["得到","感到","受","关注"],"answer":0,"explanation_vi":"得到……机会 = có được cơ hội. “Được” theo nghĩa nhận được dùng 得到, không dùng 被."},
+      {"id":"e4","type":"choice","tag":"v:感到","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"在这儿，我____很快乐。","options":["感到","得到","影响","关注"],"answer":0,"explanation_vi":"感到 + tính từ chỉ cảm xúc: 感到很快乐 = cảm thấy rất vui."},
+      {"id":"e5","type":"choice","tag":"v:关注","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我每天都____天气的变化。","options":["关注","感到","得到","受到"],"answer":0,"explanation_vi":"关注 = theo dõi sát: 关注天气的变化 = theo dõi sự thay đổi của thời tiết."},
+      {"id":"e6","type":"choice","tag":"g:被字句","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我的蛋糕____弟弟吃了。","options":["被","把","从","对"],"answer":0,"explanation_vi":"Chủ ngữ 我的蛋糕 là vật chịu tác động (bị ăn) → câu bị động với 被. Câu 把 thì phải là 弟弟把我的蛋糕吃了."},
+      {"id":"e7","type":"choice","tag":"g:被字句","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我的自行车被朋友借走了。","我的自行车被朋友借。","我的自行车朋友被借走了。","被朋友我的自行车借走了。"],"answer":0,"explanation_vi":"Thứ tự: vật chịu tác động + 被 + người làm + V + thành phần khác (走了)."},
+      {"id":"e8","type":"choice","tag":"g:被字句","prompt_vi":"Chọn câu đúng với nghĩa: “Tôi được đi Trung Quốc học.” (tôi có cơ hội)","question_zh":"Tôi được đi Trung Quốc học.","options":["我有机会去中国学习。","我被去中国学习。","我被机会去中国学习。","我去中国学习被。"],"answer":0,"explanation_vi":"“Được” ở đây nghĩa là “có cơ hội”, không phải bị động, nên không dùng 被."},
+      {"id":"e9","type":"choice","tag":"g:只有才","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"只有多听多说，你____能学好汉语。","options":["才","就","都","也"],"answer":0,"explanation_vi":"只有 đi với 才: 只有……才…… = chỉ có… mới…"},
+      {"id":"e10","type":"choice","tag":"g:只有才","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____每天坚持锻炼，身体才会好起来。","options":["只有","只要","虽然","因为"],"answer":0,"explanation_vi":"Vế sau có 才 → vế trước dùng 只有. 只要 đi với 就."},
+      {"id":"e11","type":"order","tag":"g:被字句","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","被","他","影响","了"],"answers":["我被他影响了"],"translation_vi":"Tôi bị anh ấy ảnh hưởng rồi.","explanation_vi":"Người chịu tác động (我) + 被 + người gây ra (他) + V (影响) + 了."},
+      {"id":"e12","type":"order","tag":"g:只有才","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["只有","你","去说","他","才会","同意"],"answers":["只有你去说他才会同意"],"translation_vi":"Chỉ có bạn đi nói thì anh ấy mới đồng ý.","explanation_vi":"只有 + điều kiện (你去说), chủ ngữ vế sau (他) + 才会 + động từ."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"影响","vi":"ảnh hưởng"},{"zh":"环境","vi":"môi trường"},{"zh":"世界","vi":"thế giới"},{"zh":"文化","vi":"văn hóa"},{"zh":"国家","vi":"quốc gia"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"生活","vi":"cuộc sống"},{"zh":"身边","vi":"bên cạnh"},{"zh":"主要","vi":"chủ yếu"},{"zh":"感到","vi":"cảm thấy"},{"zh":"关注","vi":"theo dõi"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:被字句","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我的手机____妹妹拿走了。","options":["被","把","从","往"],"answer":0,"explanation_vi":"Điện thoại là vật chịu tác động (bị lấy đi) → 被 + người làm (妹妹) + 拿走了."},
+        {"id":"q2","type":"choice","tag":"g:被字句","prompt_vi":"Chọn câu phủ định đúng.","question_zh":"我的自行车被借走了。→ ？","options":["我的自行车没被借走。","我的自行车被没借走。","我的自行车被借没走。","我的自行车不被借走了。"],"answer":0,"explanation_vi":"没 đứng trước 被, và bỏ 了 ở cuối."},
+        {"id":"q3","type":"choice","tag":"g:被字句","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他被老师叫到办公室去了。","他被老师叫。","他被叫老师到办公室去了。","他老师被叫到办公室去了。"],"answer":0,"explanation_vi":"被 + người làm (老师) + V (叫) + thành phần khác (到办公室去了). Động từ không đứng trơ một mình."},
+        {"id":"q4","type":"choice","tag":"g:只有才","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"只有你去说，他____会同意。","options":["才","就","都","还"],"answer":0,"explanation_vi":"只有……才……; 才 đứng sau chủ ngữ 他."},
+        {"id":"q5","type":"choice","tag":"g:只有才","prompt_vi":"Chọn cặp từ thích hợp.","question_zh":"____多练习，你____能说好汉语。","options":["只有……才……","只有……就……","只要……才……","虽然……才……"],"answer":0,"explanation_vi":"Hai cặp đúng là 只有……才…… và 只要……就……; không ghép chéo 只有 với 就 hay 只要 với 才."},
+        {"id":"q6","type":"choice","tag":"g:只有才","prompt_vi":"Chọn nghĩa đúng của câu.","question_zh":"只有多了解这个世界，你才能知道自己想要什么。","options":["Chỉ có hiểu thêm về thế giới này, bạn mới biết mình muốn gì.","Chỉ cần hiểu thế giới này là bạn có được mọi thứ.","Bạn chỉ muốn tìm hiểu thế giới này thôi.","Thế giới này chỉ có những gì bạn muốn."],"answer":0,"explanation_vi":"只有……才…… = chỉ có… mới…: điều kiện bắt buộc là hiểu thêm về thế giới."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:主要","prompt_vi":"Chọn đáp án đúng.","question_zh":"我学汉语，____是因为工作需要。","options":["主要","身边","世界","环境"],"answer":0,"explanation_vi":"主要是因为…… = chủ yếu là vì…"},
+      {"id":"t2","type":"choice","tag":"g:被字句","prompt_vi":"Chọn đáp án đúng.","question_zh":"我的自行车____朋友借走了。","options":["被","把","对","往"],"answer":0,"explanation_vi":"Xe đạp là vật chịu tác động (bị mượn đi) → 被."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"新闻","vi":"tin tức"},{"zh":"报纸","vi":"báo giấy"},{"zh":"名人","vi":"người nổi tiếng"},{"zh":"画家","vi":"họa sĩ"},{"zh":"运动员","vi":"vận động viên"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"大人","vi":"người lớn"},{"zh":"小孩儿","vi":"trẻ con"},{"zh":"老人","vi":"người già"},{"zh":"爱人","vi":"vợ hoặc chồng"},{"zh":"姐妹","vi":"chị em gái"}]},
+      {"id":"t5","type":"order","tag":"v:受到","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","从小","就","受到了","爸爸的","影响"],"answers":["他从小就受到了爸爸的影响"],"translation_vi":"Từ nhỏ anh ấy đã chịu ảnh hưởng của bố.","explanation_vi":"从小就 đứng trước động từ; 受到了 + 爸爸的影响."},
+      {"id":"t6","type":"order","tag":"g:只有才","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["只有","多","练习","才能","说好"],"answers":["只有多练习才能说好"],"translation_vi":"Chỉ có luyện tập nhiều mới nói giỏi được.","explanation_vi":"只有 + điều kiện (多练习) + 才能 + kết quả (说好)."},
+      {"id":"t7","type":"fill","tag":"v:世界","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"____上有很多国家，我都想去看看。","answers":["世界"],"hint_vi":"thế giới","explanation_vi":"世界上 = trên thế giới."},
+      {"id":"t8","type":"fill","tag":"g:被字句","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我的蛋糕____弟弟吃了。","answers":["被","叫","让"],"hint_vi":"giới từ của câu bị động (bị)","explanation_vi":"我的蛋糕被弟弟吃了. Khi nói cũng có thể dùng 叫 / 让 thay 被."},
+      {"id":"t9","type":"listen_choice","tag":"v:文化","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"我对中国文化很感兴趣。","options":["Tôi rất hứng thú với văn hóa Trung Quốc.","Tôi không quan tâm đến văn hóa Trung Quốc.","Tôi đang học lịch sử Trung Quốc.","Văn hóa Trung Quốc rất khó hiểu."],"answer":0,"explanation_vi":"对……很感兴趣 = rất hứng thú với…; 中国文化 = văn hóa Trung Quốc."},
+      {"id":"t10","type":"listen_choice","tag":"g:只有才","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"只有每天坚持，身体才会好起来。","options":["只有每天坚持，身体才会好起来。","只要每天坚持，身体就会好起来。","每天坚持，身体也不会好起来。","只有身体好，才能每天坚持。"],"answer":0,"explanation_vi":"Câu nghe được: 只有每天坚持，身体才会好起来 = Chỉ có kiên trì mỗi ngày thì sức khỏe mới tốt lên."},
+      {"id":"t11","type":"dictation","tag":"v:环境","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这儿的环境很好。","answers":["这儿的环境很好","这里的环境很好"],"explanation_vi":"这儿的环境很好 = Môi trường ở đây rất tốt."},
+      {"id":"t12","type":"dictation","tag":"g:被字句","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我被他影响了。","answers":["我被他影响了"],"explanation_vi":"我被他影响了 = Tôi bị anh ấy ảnh hưởng rồi."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:生活","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tôi rất thích cuộc sống ở đây.","answers":["我很喜欢这儿的生活","我很喜欢这里的生活","我非常喜欢这儿的生活","我非常喜欢这里的生活","我很喜欢这边的生活","我很喜欢在这儿的生活","我很喜欢在这里的生活"],"explanation_vi":"这儿的生活 = cuộc sống ở đây; định ngữ chỉ nơi chốn đứng trước 的生活."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:被字句","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Xe đạp của tôi bị bạn mượn đi mất rồi.","answers":["我的自行车被朋友借走了","我的自行车被我朋友借走了","我的自行车被我的朋友借走了","我的自行车叫朋友借走了","我的自行车让朋友借走了","我的自行车被朋友借去了","自行车被朋友借走了"],"explanation_vi":"我的自行车 + 被 + 朋友 + 借走了."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:关注","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"爸爸每天都关注新闻。","answers_vi":["Ngày nào bố cũng theo dõi tin tức.","Bố tôi theo dõi thời sự mỗi ngày."],"keywords":[["bố","ba","cha"],["ngày nào","mỗi ngày","hằng ngày","hàng ngày","hôm nào"],["theo dõi","quan tâm","chú ý","xem","đọc"],["tin","thời sự"]],"explanation_vi":"关注 = theo dõi sát; 新闻 = tin tức, thời sự."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:只有才","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"只有多听多说，才能学好汉语。","answers_vi":["Chỉ có nghe nhiều nói nhiều mới học giỏi được tiếng Trung.","Phải nghe nhiều, nói nhiều thì mới học tốt tiếng Hán."],"keywords":[["chỉ có","phải","chỉ khi"],["nghe"],["nói"],["mới"],["tiếng trung","tiếng hán","tiếng hoa","hán ngữ","trung văn"]],"explanation_vi":"只有……才…… = chỉ có… mới…; 学好 = học giỏi."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"谁影响了你？",
+        "title_vi":"Ai đã ảnh hưởng đến bạn?",
+        "paragraphs":[
+          {
+            "tokens":[["每","měi","mỗi"],["个","ge","(lượng từ)"],["人","rén","người"],["都","dōu","đều"],["会","huì","sẽ"],["受到","shòudào","chịu"],["别人","biérén","người khác"],["的","de","của"],["影响","yǐngxiǎng","ảnh hưởng"],["。"],["小孩儿","xiǎoháir","trẻ con"],["主要","zhǔyào","chủ yếu"],["受","shòu","chịu"],["大人","dàren","người lớn"],["的","de","của"],["影响","yǐngxiǎng","ảnh hưởng"],["："],["大人","dàren","người lớn"],["喜欢","xǐhuan","thích"],["看书","kàn shū","đọc sách"],["，"],["小孩儿","xiǎoháir","trẻ con"],["也","yě","cũng"],["会","huì","sẽ"],["爱","ài","thích"],["看书","kàn shū","đọc sách"],["；"],["大人","dàren","người lớn"],["总是","zǒngshì","lúc nào cũng"],["看","kàn","xem"],["手机","shǒujī","điện thoại"],["，"],["小孩儿","xiǎoháir","trẻ con"],["也","yě","cũng"],["会","huì","sẽ"],["这样","zhèyàng","như vậy"],["。"]],
+            "vi":"Ai cũng sẽ chịu ảnh hưởng của người khác. Trẻ con chủ yếu chịu ảnh hưởng của người lớn: người lớn thích đọc sách thì trẻ con cũng sẽ thích đọc sách; người lớn lúc nào cũng xem điện thoại thì trẻ con cũng sẽ như vậy."
+          },
+          {
+            "tokens":[["我","wǒ","tôi"],["从小","cóngxiǎo","từ nhỏ"],["就","jiù","đã"],["受到","shòudào","chịu"],["爷爷","yéye","ông nội"],["的","de","của"],["影响","yǐngxiǎng","ảnh hưởng"],["。"],["爷爷","yéye","ông nội"],["是","shì","là"],["一个","yí ge","một"],["画家","huàjiā","họa sĩ"],["，"],["他","tā","ông"],["每天","měi tiān","mỗi ngày"],["早上","zǎoshang","buổi sáng"],["都","dōu","đều"],["看","kàn","đọc"],["报纸","bàozhǐ","báo"],["，"],["关注","guānzhù","theo dõi"],["世界","shìjiè","thế giới"],["上","shang","trên"],["的","de","(của)"],["新闻","xīnwén","tin tức"],["。"],["他","tā","ông"],["常","cháng","hay"],["说","shuō","nói"],["："],["“"],["只有","zhǐyǒu","chỉ có"],["多","duō","nhiều"],["了解","liǎojiě","hiểu, tìm hiểu"],["这个","zhège","này"],["世界","shìjiè","thế giới"],["，"],["你","nǐ","cháu"],["才","cái","mới"],["能","néng","có thể"],["知道","zhīdao","biết"],["自己","zìjǐ","bản thân"],["想要","xiǎng yào","muốn"],["什么","shénme","gì"],["。"],["”"]],
+            "vi":"Tôi chịu ảnh hưởng của ông nội từ nhỏ. Ông là một họa sĩ, sáng nào ông cũng đọc báo, theo dõi tin tức trên thế giới. Ông hay nói: “Chỉ có tìm hiểu thế giới này nhiều hơn, cháu mới biết mình muốn gì.”"
+          },
+          {
+            "tokens":[["后来","hòulái","về sau"],["，"],["我","wǒ","tôi"],["去","qù","đi"],["了","le","(đã)"],["很多","hěn duō","nhiều"],["国家","guójiā","quốc gia"],["，"],["了解","liǎojiě","tìm hiểu"],["了","le","(đã)"],["不同","bùtóng","khác nhau"],["的","de","(của)"],["文化","wénhuà","văn hóa"],["。"],["我","wǒ","tôi"],["的","de","của"],["生活","shēnghuó","cuộc sống"],["也","yě","cũng"],["被","bèi","bị"],["爷爷","yéye","ông nội"],["影响","yǐngxiǎng","ảnh hưởng"],["了","le","(rồi)"],["："],["现在","xiànzài","bây giờ"],["我","wǒ","tôi"],["每天","měi tiān","mỗi ngày"],["都","dōu","đều"],["看","kàn","xem"],["新闻","xīnwén","tin tức"],["。"]],
+            "vi":"Về sau, tôi đã đi nhiều nước, tìm hiểu nhiều nền văn hóa khác nhau. Cuộc sống của tôi cũng bị ông ảnh hưởng: bây giờ ngày nào tôi cũng xem tin tức."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小孩儿主要受谁的影响？","options":["大人","老师","朋友","名人"],"answer":0,"explanation_vi":"Đoạn 1: 小孩儿主要受大人的影响."},
+          {"id":"rq2","type":"choice","tag":"v:画家","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"爷爷是做什么的？","options":["画家","运动员","老师","医生"],"answer":0,"explanation_vi":"Đoạn 2: 爷爷是一个画家."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"爷爷每天早上做什么？","options":["看报纸","画画儿","跑步","看手机"],"answer":0,"explanation_vi":"Đoạn 2: 他每天早上都看报纸，关注世界上的新闻."},
+          {"id":"rq4","type":"choice","tag":"g:只有才","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"爷爷认为，只有多了解世界，才能知道自己想要什么。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 只有多了解这个世界，你才能知道自己想要什么."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”一直没去过别的国家。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 后来，我去了很多国家 — nên câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Ai ảnh hưởng đến bạn nhiều nhất?",
+        "text_zh":"上个星期，老师问我们班的同学：“谁对你的影响最大？”大家的回答很不一样。很多男生说是有名的运动员，很多女生说是自己的妈妈或者姐妹。在大家的回答中，最多的是“妈妈”。我的同学小张说，影响他最大的是一对老夫妻。他们是他的邻居，每天都为小区里的老人和小孩儿做很多事。小张说：“在他们身边，我感到很快乐。”老师说，我们每个人都会得到别人的帮助，也都在影响身边的人。",
+        "pinyin":"Shàng ge xīngqī, lǎoshī wèn wǒmen bān de tóngxué: “Shéi duì nǐ de yǐngxiǎng zuì dà?” Dàjiā de huídá hěn bù yíyàng. Hěn duō nánshēng shuō shì yǒumíng de yùndòngyuán, hěn duō nǚshēng shuō shì zìjǐ de māma huòzhě jiěmèi. Zài dàjiā de huídá zhōng, zuì duō de shì “māma”. Wǒ de tóngxué Xiǎo Zhāng shuō, yǐngxiǎng tā zuì dà de shì yí duì lǎo fūqī. Tāmen shì tā de línjū, měi tiān dōu wèi xiǎoqū li de lǎorén hé xiǎoháir zuò hěn duō shì. Xiǎo Zhāng shuō: “Zài tāmen shēnbiān, wǒ gǎndào hěn kuàilè.” Lǎoshī shuō, wǒmen měi ge rén dōu huì dédào biérén de bāngzhù, yě dōu zài yǐngxiǎng shēnbiān de rén.",
+        "vi":"Tuần trước, thầy giáo hỏi các bạn lớp tôi: “Ai ảnh hưởng đến em nhiều nhất?” Câu trả lời của mọi người rất khác nhau. Nhiều bạn nam nói là một vận động viên nổi tiếng, nhiều bạn nữ nói là mẹ hoặc chị em gái của mình. Trong các câu trả lời, nhiều nhất là “mẹ”. Bạn Tiểu Trương lớp tôi nói người ảnh hưởng đến bạn ấy nhiều nhất là một đôi vợ chồng già. Họ là hàng xóm của bạn ấy, ngày nào cũng làm nhiều việc cho người già và trẻ em trong khu. Tiểu Trương nói: “Ở bên họ, em cảm thấy rất vui.” Thầy nói, mỗi người chúng ta đều nhận được sự giúp đỡ của người khác, và cũng đều đang ảnh hưởng đến những người bên cạnh.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"很多男生说，谁对他们的影响最大？","options":["有名的运动员","自己的妈妈","自己的姐妹","老师"],"answer":0,"explanation_vi":"Nghe được: 很多男生说是有名的运动员."},
+          {"id":"lq2","type":"choice","tag":"v:中","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"在大家的回答中，最多的是谁？","options":["妈妈","运动员","邻居","爸爸"],"answer":0,"explanation_vi":"Nghe được: 在大家的回答中，最多的是“妈妈”."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"那对老夫妻每天做什么？","options":["为小区里的老人和小孩儿做事","在家看新闻","去公园跑步","帮小张学习"],"answer":0,"explanation_vi":"Nghe được: 每天都为小区里的老人和小孩儿做很多事."},
+          {"id":"lq4","type":"choice","tag":"v:感到","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"在老夫妻身边，小张感到怎么样？","options":["很快乐","很累","很害怕","很难过"],"answer":0,"explanation_vi":"Nghe được: 在他们身边，我感到很快乐."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"影响","pinyin":"yǐngxiǎng","vi":"ảnh hưởng","tip_vi":"Hai thanh 3 liền nhau: 影 đọc lên như thanh 2 (yíng xiǎng). 影 -ing, 响 -iang: cả hai kết thúc bằng -ng (cuống lưỡi), đừng đọc 影 thành “inh”."},
+      {"id":"s2","zh":"环境","pinyin":"huánjìng","vi":"môi trường","tip_vi":"环 huán: h tiếng Trung xát ở cuống lưỡi (gần “kh” nhẹ), không phải “h” tiếng Việt. 境 jìng: j môi dẹt, -ing là âm cuống lưỡi."},
+      {"id":"s3","zh":"世界","pinyin":"shìjiè","vi":"thế giới","tip_vi":"世 shì: sh uốn lưỡi, vần -i đọc kiểu đầu lưỡi, đừng đọc thành “si” hay “xi”. Hai chữ đều thanh 4: hạ dứt khoát cả hai."},
+      {"id":"s4","zh":"我被他影响了。","pinyin":"Wǒ bèi tā yǐngxiǎng le.","vi":"Tôi bị anh ấy ảnh hưởng rồi.","tip_vi":"被 bèi: b không bật hơi và không rung như “b” tiếng Việt. 影响 đọc yíng xiǎng (biến điệu thanh 3). 了 đọc nhẹ."},
+      {"id":"s5","zh":"我的蛋糕被弟弟吃了。","pinyin":"Wǒ de dàngāo bèi dìdi chī le.","vi":"Bánh kem của tôi bị em trai ăn mất rồi.","tip_vi":"弟弟 dìdi: chữ sau đọc nhẹ. 吃 chī: ch uốn lưỡi, bật hơi, vần -i đầu lưỡi. 蛋糕 dàngāo: -an rồi -ao, đừng nuốt âm."},
+      {"id":"s6","zh":"只有每天坚持，身体才会好起来。","pinyin":"Zhǐyǒu měi tiān jiānchí, shēntǐ cái huì hǎo qǐlai.","vi":"Chỉ có kiên trì mỗi ngày thì sức khỏe mới tốt lên.","tip_vi":"只有 zhǐyǒu: hai thanh 3, 只 đọc gần thanh 2. 好起 hǎo qǐ cũng vậy: 好 đọc gần thanh 2. 才 cái: c bật hơi, đừng đọc thành “chai”."},
+      {"id":"s7","zh":"每个人都会受到身边的人的影响。","pinyin":"Měi ge rén dōu huì shòudào shēnbiān de rén de yǐngxiǎng.","vi":"Ai cũng sẽ chịu ảnh hưởng của những người bên cạnh.","tip_vi":"受 shòu, 身 shēn: sh uốn lưỡi. 人 rén: r uốn lưỡi, không đọc thành “dân” hay “rần” kiểu Việt. Câu dài: ngắt nhẹ sau 受到, hai chữ 的 đọc nhẹ."}
+    ],
+    "review": {
+      "remember": [
+        "Câu 被: người/vật chịu tác động + 被 + (người làm) + V + thành phần khác (了, 走, 完…). Khi nói có thể dùng 叫 / 让 thay 被 (nhưng phải có người làm).",
+        "没 / 不 / 会 / 能 đặt trước 被: 我的自行车没被借走.",
+        "“Được” (có cơ hội, được phép, nhận được) không dịch bằng 被: 有机会去, 可以去, 得到帮助.",
+        "只有……才……: chỉ có… mới… (điều kiện bắt buộc); 只要……就……: chỉ cần… là… (điều kiện đủ). 才 và 就 đều đứng sau chủ ngữ.",
+        "影响 (影响学习 / 受到……的影响), 感到 (cảm thấy), 得到 (nhận được), 关注 (theo dõi), 生活 = cuộc sống (không phải “sinh hoạt tập thể”), 环境 = môi trường."
+      ],
+      "mistakes": [
+        "✗ 我被去中国学习 → ✓ 我有机会去中国学习: “được đi” không dùng 被.",
+        "✗ 我的手机被他拿 → ✓ 我的手机被他拿走了: sau động từ phải có thành phần khác.",
+        "✗ 只有多练习，就能说好 → ✓ 只有多练习，才能说好: 只有 đi với 才."
+      ]
+    }
+  }
+}

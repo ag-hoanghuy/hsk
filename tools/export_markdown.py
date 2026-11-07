@@ -196,6 +196,37 @@ def write_roadmap(curriculum: list[dict], lessons: dict[tuple[int, int], dict]) 
     (OUT.parent / "lo-trinh.md").write_text("\n".join(L), encoding="utf-8")
 
 
+REVIEW_INTRO = """# Những chỗ cần người biết tiếng Trung xem lại
+
+Nội dung 40 bài do AI soạn và đã qua kiểm tra tự động (cấu trúc, pinyin khớp chữ Hán, cấp độ từ theo đề cương 2025,
+từ cần chú thích, mọi đáp án được chấp nhận qua bộ chấm của web). Kiểm tra tự động không bắt được câu thiếu tự nhiên
+hay giải thích chưa chuẩn, nên dưới đây là các điểm mà người soạn tự thấy chưa chắc, theo từng bài.
+Sửa trực tiếp trong `content/hsk*/lesson-NN.json`, chạy lại công cụ kiểm tra (xem README) rồi
+`POST /api/admin/reload-content` (hoặc khởi động lại backend).
+
+Điểm chung cần biết:
+- Pinyin của 一/不 ghi theo biến điệu thực tế; biến điệu thanh 3 không ghi (nhắc trong phần luyện nói).
+- Một số câu được viết lại để tránh từ chưa học; vài từ được đưa vào phần "Từ cần biết thêm" thay vì dạy chính thức.
+- Bộ chấm phát âm chỉ được kiểm chứng trên giọng máy (xem PLAN.md mục 5).
+- Web chưa có phần nghe hiểu theo tranh và viết đoạn văn theo đề thi mới; phần viết chữ chỉ luyện từng chữ.
+"""
+
+
+def write_review_notes(curriculum: dict[tuple[int, int], dict]) -> int:
+    notes_dir = OUT.parent / "review-notes"
+    notes = sorted(notes_dir.glob("hsk*-*.md")) if notes_dir.exists() else []
+    L = [REVIEW_INTRO]
+    for path in notes:
+        level, number = path.stem.replace("hsk", "").split("-")
+        meta = curriculum.get((int(level), int(number)), {})
+        body = path.read_text(encoding="utf-8").strip()
+        # drop the note's own title and push its headings one level down under the lesson heading
+        body = "\n".join("#" + line if line.startswith("##") else line for line in body.splitlines() if not line.startswith("# "))
+        L += [f"## HSK {level} · Bài {int(number)}: {meta.get('title_zh', '')} – {meta.get('title_vi', '')}", "", body.strip(), ""]
+    (OUT.parent / "can-xem-lai.md").write_text("\n".join(L), encoding="utf-8")
+    return len(notes)
+
+
 def main() -> int:
     curriculum_list = json.loads((CONTENT / "curriculum.json").read_text(encoding="utf-8"))
     curriculum = {(i["level"], i["number"]): i for i in curriculum_list}
@@ -213,7 +244,8 @@ def main() -> int:
         index.append(f"- [HSK {data['level']} · Bài {data['number']}: {meta['title_zh']} – {meta['title_vi']}]({name})")
     (OUT / "README.md").write_text("\n".join(index) + "\n", encoding="utf-8")
     write_roadmap(curriculum_list, lessons)
-    print(f"wrote {len(files)} lesson(s) to {OUT} and the roadmap to {OUT.parent / 'lo-trinh.md'}")
+    n_notes = write_review_notes(curriculum)
+    print(f"wrote {len(files)} lesson(s) to {OUT}, the roadmap and {n_notes} review note(s) to {OUT.parent}")
     return 0
 
 

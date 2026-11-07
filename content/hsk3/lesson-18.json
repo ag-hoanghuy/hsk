@@ -1,0 +1,208 @@
+{
+  "level": 3,
+  "number": 18,
+  "summary": "Thuyết phục người khác và nói về niềm tin, ý kiến, quyết định của mình; học cấu trúc điều kiện “只要……就……” (chỉ cần… là…) và giới từ “关于” (về).",
+  "readings_ok": ["得 de", "里 li"],
+  "content": {
+    "objectives": [
+      "Động viên, thuyết phục người khác bằng 只要……就……: 只要你讲清楚，他们就会同意的",
+      "Nói về một chủ đề bằng 关于: 关于这件事，……；一本关于……的书",
+      "Nói niềm tin, ý kiến và quyết định: 我相信……、我认为……、我决定……、我愿意……",
+      "Phân biệt 以为 (tưởng, mà hóa ra không phải) với 认为 (cho rằng), và dùng 其实 để nói điều thật sự"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"相信","pinyin":"xiāngxìn","pos":"động từ","meaning_vi":"tin, tin tưởng","example_zh":"我相信你一定能做好。","example_pinyin":"Wǒ xiāngxìn nǐ yídìng néng zuò hǎo.","example_vi":"Mình tin bạn nhất định sẽ làm tốt.","hanviet":"TƯƠNG TÍN","note_vi":"相信 + người / điều gì: 相信他 (tin anh ấy), 相信他会来 (tin là anh ấy sẽ đến). 相 ở đây đọc xiāng (thanh 1)."},
+      {"id":"v2","hanzi":"同意","pinyin":"tóngyì","pos":"động từ","meaning_vi":"đồng ý; cho phép","example_zh":"爸爸妈妈同意我出国留学了。","example_pinyin":"Bàba māma tóngyì wǒ chūguó liúxué le.","example_vi":"Bố mẹ đã đồng ý cho tôi đi du học rồi.","hanviet":"ĐỒNG Ý","note_vi":"同意 + việc / ý kiến: 同意这个办法. 同意 + người + làm gì = cho phép ai làm gì: 同意我去. Phủ định: 不同意 (không đồng ý), 没同意 (đã không đồng ý)."},
+      {"id":"v3","hanzi":"只要","pinyin":"zhǐyào","pos":"liên từ","meaning_vi":"chỉ cần","example_zh":"只要你喜欢，就买吧。","example_pinyin":"Zhǐyào nǐ xǐhuan, jiù mǎi ba.","example_vi":"Chỉ cần bạn thích thì mua đi.","note_vi":"Hay đi với 就: 只要……就……. Đừng nhầm với 只 + 要 (chỉ cần, chỉ muốn): 这件衣服只要一百块 (cái áo này chỉ có một trăm tệ)."},
+      {"id":"v4","hanzi":"关于","pinyin":"guānyú","pos":"giới từ","meaning_vi":"về, liên quan đến","example_zh":"这是一本关于中国历史的书。","example_pinyin":"Zhè shì yì běn guānyú Zhōngguó lìshǐ de shū.","example_vi":"Đây là một cuốn sách về lịch sử Trung Quốc.","note_vi":"关于 + chủ đề đứng đầu câu (关于这件事，……) hoặc đứng trước danh từ với 的 (关于中国的书). Xem phần ngữ pháp."},
+      {"id":"v5","hanzi":"认为","pinyin":"rènwéi","pos":"động từ","meaning_vi":"cho rằng, nghĩ rằng","example_zh":"我认为这个办法很好。","example_pinyin":"Wǒ rènwéi zhège bànfǎ hěn hǎo.","example_vi":"Tôi cho rằng cách này rất hay.","note_vi":"认为 nói ý kiến, đánh giá của mình về một việc. Khác 以为: 以为 là “tưởng” (điều mình nghĩ hóa ra không đúng)."},
+      {"id":"v6","hanzi":"以为","pinyin":"yǐwéi","pos":"động từ","meaning_vi":"tưởng (là)","example_zh":"我以为你不来了呢！","example_pinyin":"Wǒ yǐwéi nǐ bù lái le ne!","example_vi":"Mình cứ tưởng bạn không đến nữa chứ!","note_vi":"以为 thường dùng khi điều mình nghĩ hóa ra sai: 我以为他是老师，其实他是医生. Nói ý kiến nghiêm túc thì dùng 认为."},
+      {"id":"v7","hanzi":"决定","pinyin":"juédìng","pos":"động từ / danh từ","meaning_vi":"quyết định","example_zh":"去不去，你自己决定吧。","example_pinyin":"Qù bu qù, nǐ zìjǐ juédìng ba.","example_vi":"Đi hay không, bạn tự quyết định nhé.","hanviet":"QUYẾT ĐỊNH","note_vi":"Động từ: 决定 + việc (我决定明年去中国). Danh từ: 做决定 (đưa ra quyết định), 这是我的决定."},
+      {"id":"v8","hanzi":"愿意","pinyin":"yuànyì","pos":"động từ năng nguyện","meaning_vi":"bằng lòng, sẵn lòng, muốn","example_zh":"你愿意跟我们一起去吗？","example_pinyin":"Nǐ yuànyì gēn wǒmen yìqǐ qù ma?","example_vi":"Bạn có muốn đi cùng chúng tôi không?","hanviet":"NGUYỆN Ý","note_vi":"愿意 + V = sẵn lòng làm (do mình tự muốn). Phủ định: 不愿意. Gần nghĩa 想 nhưng nhấn vào ý “bằng lòng, chịu làm”."},
+      {"id":"v9","hanzi":"当然","pinyin":"dāngrán","pos":"phó từ","meaning_vi":"tất nhiên, đương nhiên","example_zh":"A：你会来吗？B：当然会来！","example_pinyin":"A: Nǐ huì lái ma? B: Dāngrán huì lái!","example_vi":"A: Bạn có đến không? B: Tất nhiên là đến rồi!","hanviet":"ĐƯƠNG NHIÊN","note_vi":"Có thể đứng một mình để trả lời: 当然！/ 当然了！(tất nhiên rồi!). r trong 然 đọc uốn lưỡi, không đọc như “r” hay “d” tiếng Việt."},
+      {"id":"v10","hanzi":"选择","pinyin":"xuǎnzé","pos":"động từ / danh từ","meaning_vi":"lựa chọn","example_zh":"这是你自己的选择，我相信你。","example_pinyin":"Zhè shì nǐ zìjǐ de xuǎnzé, wǒ xiāngxìn nǐ.","example_vi":"Đây là lựa chọn của chính bạn, mình tin bạn.","hanviet":"TUYỂN TRẠCH","note_vi":"选择 trang trọng hơn 选 và cũng là danh từ (一个选择, 你的选择). Chọn đồ vật cụ thể hằng ngày hay dùng 选: 选衣服."},
+      {"id":"v11","hanzi":"机会","pinyin":"jīhuì","pos":"danh từ","meaning_vi":"cơ hội, dịp","example_zh":"这是一个很好的机会，你一定要去。","example_pinyin":"Zhè shì yí ge hěn hǎo de jīhuì, nǐ yídìng yào qù.","example_vi":"Đây là một cơ hội rất tốt, bạn nhất định phải đi.","hanviet":"CƠ HỘI","note_vi":"有机会 + V = có dịp làm gì: 有机会我想去北京看看. “Được đi du học” nói 有机会去留学, không nói ✗ 被去留学."},
+      {"id":"v12","hanzi":"了解","pinyin":"liǎojiě","pos":"động từ","meaning_vi":"hiểu rõ, tìm hiểu","example_zh":"我跟他是十年的朋友，我很了解他。","example_pinyin":"Wǒ gēn tā shì shí nián de péngyou, wǒ hěn liǎojiě tā.","example_vi":"Tôi với anh ấy là bạn mười năm rồi, tôi rất hiểu anh ấy.","note_vi":"了 ở đây đọc liǎo, không phải le. 了解 = hiểu rõ một người, một việc (nhờ tìm hiểu, tiếp xúc); 明白 = hiểu ý, hiểu lời nói; 懂 = hiểu (ngôn ngữ, đạo lý)."},
+      {"id":"v13","hanzi":"其实","pinyin":"qíshí","pos":"phó từ","meaning_vi":"thật ra, thực ra","example_zh":"大家都以为他是老师，其实他是医生。","example_pinyin":"Dàjiā dōu yǐwéi tā shì lǎoshī, qíshí tā shì yīshēng.","example_vi":"Mọi người đều tưởng anh ấy là thầy giáo, thật ra anh ấy là bác sĩ.","note_vi":"其实 dùng để nói sự thật, thường khác với điều người ta nghĩ trước đó; rất hay đi cùng 以为."},
+      {"id":"v14","hanzi":"信","pinyin":"xìn","pos":"danh từ / động từ","meaning_vi":"thư; tin","example_zh":"我给妈妈写了一封信。","example_pinyin":"Wǒ gěi māma xiě le yì fēng xìn.","example_vi":"Tôi viết cho mẹ một lá thư.","hanviet":"TÍN","note_vi":"Danh từ: lá thư (lượng từ 封). Động từ: tin (khẩu ngữ, giống 相信): 我信你 = mình tin bạn."},
+      {"id":"v15","hanzi":"行","pinyin":"xíng","pos":"động từ / tính từ","meaning_vi":"được, ổn; giỏi","example_zh":"A：明天八点见，行吗？B：行！","example_pinyin":"A: Míngtiān bā diǎn jiàn, xíng ma? B: Xíng!","example_vi":"A: Mai tám giờ gặp nhé, được không? B: Được!","note_vi":"行 đọc xíng ở nghĩa này (khác 银行 yínháng). 你真行！= Bạn giỏi thật! Phủ định: 不行 (không được)."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"不行","pinyin":"bùxíng","pos":"động từ / tính từ","meaning_vi":"không được; kém","example_zh":"明天不行，我有事。","example_pinyin":"Míngtiān bùxíng, wǒ yǒu shì.","example_vi":"Mai không được, mình có việc."},
+      {"id":"x2","hanzi":"可","pinyin":"kě","pos":"liên từ","meaning_vi":"nhưng (khẩu ngữ, như 可是)","example_zh":"我很想去，可我没有时间。","example_pinyin":"Wǒ hěn xiǎng qù, kě wǒ méiyǒu shíjiān.","example_vi":"Mình rất muốn đi, nhưng mình không có thời gian."},
+      {"id":"x3","hanzi":"只是","pinyin":"zhǐshì","pos":"phó từ / liên từ","meaning_vi":"chỉ là; có điều","example_zh":"这个房子很好，只是有点儿小。","example_pinyin":"Zhège fángzi hěn hǎo, zhǐshì yǒudiǎnr xiǎo.","example_vi":"Căn nhà này tốt lắm, có điều hơi nhỏ."},
+      {"id":"x4","hanzi":"看来","pinyin":"kànlái","pos":"động từ","meaning_vi":"xem ra, có vẻ","example_zh":"他还没来，看来今天不来了。","example_pinyin":"Tā hái méi lái, kànlái jīntiān bù lái le.","example_vi":"Anh ấy vẫn chưa đến, xem ra hôm nay không đến nữa rồi."},
+      {"id":"x5","hanzi":"心里","pinyin":"xīnli","pos":"danh từ","meaning_vi":"trong lòng","example_zh":"他嘴上不说，心里很高兴。","example_pinyin":"Tā zuǐ shang bù shuō, xīnli hěn gāoxìng.","example_vi":"Ngoài miệng anh ấy không nói, nhưng trong lòng rất vui."},
+      {"id":"x6","hanzi":"有关","pinyin":"yǒuguān","pos":"động từ","meaning_vi":"có liên quan","example_zh":"这件事跟他有关。","example_pinyin":"Zhè jiàn shì gēn tā yǒuguān.","example_vi":"Chuyện này có liên quan đến anh ấy."},
+      {"id":"x7","hanzi":"根据","pinyin":"gēnjù","pos":"giới từ / danh từ","meaning_vi":"căn cứ vào, dựa theo","example_zh":"根据地图，前面就是火车站。","example_pinyin":"Gēnjù dìtú, qiánmiàn jiù shì huǒchē zhàn.","example_vi":"Theo bản đồ, phía trước chính là ga tàu hỏa."},
+      {"id":"x8","hanzi":"选","pinyin":"xuǎn","pos":"động từ","meaning_vi":"chọn","example_zh":"这两件衣服，你选哪件？","example_pinyin":"Zhè liǎng jiàn yīfu, nǐ xuǎn nǎ jiàn?","example_vi":"Hai cái áo này, bạn chọn cái nào?"},
+      {"id":"x9","hanzi":"回答","pinyin":"huídá","pos":"động từ / danh từ","meaning_vi":"trả lời; câu trả lời","example_zh":"这个问题你能回答吗？","example_pinyin":"Zhège wèntí nǐ néng huídá ma?","example_vi":"Câu hỏi này bạn trả lời được không?"},
+      {"id":"x10","hanzi":"讲","pinyin":"jiǎng","pos":"động từ","meaning_vi":"nói, kể, giảng","example_zh":"奶奶常给我讲故事。","example_pinyin":"Nǎinai cháng gěi wǒ jiǎng gùshi.","example_vi":"Bà hay kể chuyện cho tôi nghe."},
+      {"id":"x11","hanzi":"关系","pinyin":"guānxì","pos":"danh từ","meaning_vi":"quan hệ, mối liên quan","example_zh":"我们两个人的关系很好。","example_pinyin":"Wǒmen liǎng ge rén de guānxì hěn hǎo.","example_vi":"Quan hệ giữa hai chúng tôi rất tốt."},
+      {"id":"x12","hanzi":"结婚","pinyin":"jiéhūn","pos":"động từ","meaning_vi":"kết hôn, cưới","example_zh":"我哥哥明年结婚。","example_pinyin":"Wǒ gēge míngnián jiéhūn.","example_vi":"Sang năm anh trai tôi cưới vợ."},
+      {"id":"x13","hanzi":"房子","pinyin":"fángzi","pos":"danh từ","meaning_vi":"nhà, căn nhà","example_zh":"他们的房子离公司很近。","example_pinyin":"Tāmen de fángzi lí gōngsī hěn jìn.","example_vi":"Nhà của họ gần công ty lắm."},
+      {"id":"x14","hanzi":"出国","pinyin":"chūguó","pos":"động từ","meaning_vi":"ra nước ngoài","example_zh":"我还没出过国。","example_pinyin":"Wǒ hái méi chū guo guó.","example_vi":"Tôi chưa ra nước ngoài bao giờ."},
+      {"id":"x15","hanzi":"校长","pinyin":"xiàozhǎng","pos":"danh từ","meaning_vi":"hiệu trưởng","example_zh":"校长下午要来我们班。","example_pinyin":"Xiàozhǎng xiàwǔ yào lái wǒmen bān.","example_vi":"Chiều nay thầy hiệu trưởng sẽ đến lớp chúng tôi."},
+      {"id":"x16","hanzi":"封","pinyin":"fēng","pos":"lượng từ","meaning_vi":"lá, bức (thư)","example_zh":"今天我收到了两封信。","example_pinyin":"Jīntiān wǒ shōu dào le liǎng fēng xìn.","example_vi":"Hôm nay tôi nhận được hai lá thư."},
+      {"id":"x17","hanzi":"面前","pinyin":"miànqián","pos":"danh từ","meaning_vi":"trước mặt","example_zh":"在老师面前，他有点儿害怕。","example_pinyin":"Zài lǎoshī miànqián, tā yǒudiǎnr hàipà.","example_vi":"Đứng trước mặt thầy giáo, cậu ấy hơi sợ."},
+      {"id":"x18","hanzi":"后年","pinyin":"hòunián","pos":"danh từ","meaning_vi":"năm sau nữa (hai năm nữa)","example_zh":"我打算后年去中国留学。","example_pinyin":"Wǒ dǎsuàn hòunián qù Zhōngguó liúxué.","example_vi":"Tôi định năm sau nữa đi du học Trung Quốc."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Câu điều kiện “只要……就……” (chỉ cần… là…)",
+        "pattern":"只要 + điều kiện，(S +) 就 + kết quả",
+        "explanation_vi":"只要 nêu một điều kiện “đủ”: chỉ cần có điều kiện này là kết quả ở vế sau sẽ xảy ra. Vế sau thường có 就, hay đi kèm 会 / 能 / 可以. 只要 đứng trước hoặc sau chủ ngữ của vế đầu (只要你喜欢 / 你只要喜欢); 就 là phó từ nên luôn đứng sau chủ ngữ của vế sau và trước động từ: ……，他们就会同意. Mẫu này rất hợp để động viên, thuyết phục: điều kiện đưa ra thường dễ làm.",
+        "examples":[
+          {"zh":"只要你每天坚持练习，汉语水平就会提高。","pinyin":"Zhǐyào nǐ měi tiān jiānchí liànxí, Hànyǔ shuǐpíng jiù huì tígāo.","vi":"Chỉ cần bạn kiên trì luyện tập mỗi ngày là trình độ tiếng Trung sẽ tiến bộ."},
+          {"zh":"只要你跟他们讲清楚，他们就会同意的。","pinyin":"Zhǐyào nǐ gēn tāmen jiǎng qīngchu, tāmen jiù huì tóngyì de.","vi":"Chỉ cần bạn nói rõ với họ là họ sẽ đồng ý thôi."},
+          {"zh":"只要天气好，我们就去爬山。","pinyin":"Zhǐyào tiānqì hǎo, wǒmen jiù qù pá shān.","vi":"Chỉ cần trời đẹp là chúng mình đi leo núi."},
+          {"zh":"只要你开心，我们就放心。","pinyin":"Zhǐyào nǐ kāixīn, wǒmen jiù fàngxīn.","vi":"Chỉ cần con vui là bố mẹ yên tâm."}
+        ],
+        "mistakes_vi":"✗ 只要你努力，就你能考好。\n✓ 只要你努力，你就能考好。\n就 là phó từ, phải đứng sau chủ ngữ của vế sau. Tiếng Việt nói “là / thì bạn…” nên hay đặt 就 trước chủ ngữ.\n✗ 只要多练习，才能说好。\n✓ 只要多练习，就能说好。\n只要 đi với 就, không đi với 才 (只有……才…… là một mẫu khác, sẽ học ở bài 20).",
+        "compare_vi":"Rất giống “chỉ cần… là…” trong tiếng Việt: 只要 = chỉ cần, 就 = là / thì. Khác với 如果 (nếu): 如果 chỉ đặt ra một giả thiết, còn 只要 nhấn mạnh rằng điều kiện này là đủ, không cần gì thêm."
+      },
+      {
+        "id":"g2",
+        "title":"Giới từ “关于” (về)",
+        "pattern":"关于 + chủ đề，S + V……　·　关于 + chủ đề + 的 + N",
+        "explanation_vi":"关于 = về, liên quan đến; nó giới thiệu chủ đề mà câu nói tới. Có hai cách dùng chính: (1) đứng ĐẦU câu, sau đó có dấu phẩy: 关于这件事，我们明天再说. (2) cùng với 的 đứng trước danh từ làm định ngữ: 一本关于中国历史的书 (một cuốn sách về lịch sử Trung Quốc), 关于那个学校的介绍. Khi làm trạng ngữ, 关于 + chủ đề thường đặt trước chủ ngữ, không đặt giữa chủ ngữ và động từ.",
+        "examples":[
+          {"zh":"关于这件事，我们明天再说吧。","pinyin":"Guānyú zhè jiàn shì, wǒmen míngtiān zài shuō ba.","vi":"Về chuyện này, mai chúng ta bàn tiếp nhé."},
+          {"zh":"我看了很多关于那个学校的介绍。","pinyin":"Wǒ kàn le hěn duō guānyú nàge xuéxiào de jièshào.","vi":"Tôi đã đọc rất nhiều bài giới thiệu về ngôi trường đó."},
+          {"zh":"他给我讲了一个关于北方的故事。","pinyin":"Tā gěi wǒ jiǎng le yí ge guānyú běifāng de gùshi.","vi":"Anh ấy kể cho tôi nghe một câu chuyện về miền Bắc."},
+          {"zh":"关于考试的时间，老师还没告诉我们。","pinyin":"Guānyú kǎoshì de shíjiān, lǎoshī hái méi gàosu wǒmen.","vi":"Về thời gian thi, thầy giáo vẫn chưa cho chúng tôi biết."}
+        ],
+        "mistakes_vi":"✗ 我看了一本书关于中国。\n✓ 我看了一本关于中国的书。\nTiếng Việt nói “cuốn sách về Trung Quốc” (phần “về…” đứng sau danh từ); tiếng Trung đưa 关于中国 lên trước danh từ và thêm 的.\n✗ 我关于那个学校了解得很多。\n✓ 关于那个学校，我了解得很多。/ 我很了解那个学校。\nLàm trạng ngữ, 关于 + chủ đề đứng đầu câu, trước chủ ngữ.",
+        "compare_vi":"关于 ≈ “về” trong “nói về, cuốn sách về”. Điểm khác là vị trí: tiếng Việt để “về…” sau danh từ hoặc sau động từ, tiếng Trung đặt 关于…… trước danh từ (kèm 的) hoặc lên đầu câu."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Mình tin bố mẹ bạn sẽ đồng ý",
+      "scene_vi": "Giờ nghỉ trưa ở trường, Tiểu Trần có vẻ không vui. Bạn thân Tiểu Lưu hỏi chuyện và động viên cô.",
+      "lines": [
+        {"speaker":"小刘","zh":"小陈，你今天怎么不太高兴？心里有事吗？","pinyin":"Xiǎo Chén, nǐ jīntiān zěnme bú tài gāoxìng? Xīnli yǒu shì ma?","vi":"Tiểu Trần, hôm nay sao bạn có vẻ không vui lắm? Trong lòng có chuyện gì à?"},
+        {"speaker":"小陈","zh":"学校有一个出国留学的机会，我很想去，可我怕爸爸妈妈不同意。","pinyin":"Xuéxiào yǒu yí ge chūguó liúxué de jīhuì, wǒ hěn xiǎng qù, kě wǒ pà bàba māma bù tóngyì.","vi":"Trường có một suất đi du học nước ngoài, mình rất muốn đi, nhưng mình sợ bố mẹ không đồng ý."},
+        {"speaker":"小刘","zh":"这是好事啊！你为什么认为他们会不同意？","pinyin":"Zhè shì hǎo shì a! Nǐ wèi shénme rènwéi tāmen huì bù tóngyì?","vi":"Chuyện tốt mà! Sao bạn lại cho rằng họ sẽ không đồng ý?"},
+        {"speaker":"小陈","zh":"他们一直觉得我还小，一个人去那么远的地方，他们不放心。","pinyin":"Tāmen yìzhí juéde wǒ hái xiǎo, yí ge rén qù nàme yuǎn de dìfang, tāmen bú fàngxīn.","vi":"Bố mẹ lúc nào cũng nghĩ mình còn nhỏ, một mình đi xa như thế, họ không yên tâm."},
+        {"speaker":"小刘","zh":"其实你已经二十二岁了，可以自己做决定了。关于那个学校，你了解多少？","pinyin":"Qíshí nǐ yǐjīng èrshí'èr suì le, kěyǐ zìjǐ zuò juédìng le. Guānyú nàge xuéxiào, nǐ liǎojiě duōshao?","vi":"Thật ra bạn đã hai mươi hai tuổi rồi, có thể tự quyết định được rồi. Về ngôi trường đó, bạn biết được bao nhiêu?"},
+        {"speaker":"小陈","zh":"当然了解。我在网上看了很多关于那个学校的介绍，还问了在那儿读书的留学生。","pinyin":"Dāngrán liǎojiě. Wǒ zài wǎngshang kàn le hěn duō guānyú nàge xuéxiào de jièshào, hái wèn le zài nàr dúshū de liúxuéshēng.","vi":"Tất nhiên là biết rõ. Mình đã đọc trên mạng rất nhiều bài giới thiệu về trường đó, còn hỏi cả những du học sinh đang học ở đó."},
+        {"speaker":"小刘","zh":"那就好。只要你把这些都跟他们讲清楚，他们就会放心的。我相信他们会同意的。","pinyin":"Nà jiù hǎo. Zhǐyào nǐ bǎ zhèxiē dōu gēn tāmen jiǎng qīngchu, tāmen jiù huì fàngxīn de. Wǒ xiāngxìn tāmen huì tóngyì de.","vi":"Thế thì tốt. Chỉ cần bạn nói rõ hết những điều này với họ là họ sẽ yên tâm thôi. Mình tin họ sẽ đồng ý."},
+        {"speaker":"小陈","zh":"我一直以为他们只关心我的成绩，现在才明白，他们是担心我。","pinyin":"Wǒ yìzhí yǐwéi tāmen zhǐ guānxīn wǒ de chéngjì, xiànzài cái míngbai, tāmen shì dānxīn wǒ.","vi":"Mình cứ tưởng bố mẹ chỉ quan tâm đến điểm số của mình, giờ mới hiểu ra là họ lo cho mình."},
+        {"speaker":"小刘","zh":"是啊。这是你自己的选择，只要你想好了，就去做吧！","pinyin":"Shì a. Zhè shì nǐ zìjǐ de xuǎnzé, zhǐyào nǐ xiǎng hǎo le, jiù qù zuò ba!","vi":"Đúng thế. Đây là lựa chọn của chính bạn, chỉ cần bạn đã nghĩ kỹ thì cứ làm đi!"},
+        {"speaker":"小陈","zh":"行！今天晚上我就跟他们聊聊。只要能去，我愿意每个星期给他们写一封信！","pinyin":"Xíng! Jīntiān wǎnshang wǒ jiù gēn tāmen liáoliao. Zhǐyào néng qù, wǒ yuànyì měi ge xīngqī gěi tāmen xiě yì fēng xìn!","vi":"Được! Tối nay mình nói chuyện với bố mẹ luôn. Chỉ cần được đi, mình sẵn lòng tuần nào cũng viết cho họ một lá thư!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:相信","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他是我最好的朋友，我____他。","options":["相信","机会","关于","其实"],"answer":0,"explanation_vi":"相信 + người = tin ai. 机会 là danh từ, 关于 là giới từ, 其实 là phó từ, không làm động từ chính được."},
+      {"id":"e2","type":"choice","tag":"v:同意","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我想出国留学，可是爸爸妈妈不____。","options":["同意","机会","关于","当然"],"answer":0,"explanation_vi":"不同意 = không đồng ý. Sau 不 cần một động từ; ba từ còn lại không phải động từ."},
+      {"id":"e3","type":"choice","tag":"v:以为","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____今天是星期六，其实今天是星期五。","options":["以为","认为","相信","同意"],"answer":0,"explanation_vi":"Điều mình nghĩ hóa ra sai (其实 là thứ Sáu) nên dùng 以为 (tưởng). 认为 dùng để nêu ý kiến, đánh giá."},
+      {"id":"e4","type":"choice","tag":"v:机会","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这是一个很好的____，你一定要去。","options":["机会","相信","愿意","认为"],"answer":0,"explanation_vi":"一个很好的机会 = một cơ hội rất tốt. Sau 一个很好的 cần danh từ."},
+      {"id":"e5","type":"choice","tag":"v:了解","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我跟他是十年的朋友了，我很____他。","options":["了解","以为","决定","选择"],"answer":0,"explanation_vi":"很了解他 = rất hiểu anh ấy. 以为, 决定, 选择 không đi với 很 + người theo nghĩa này."},
+      {"id":"e6","type":"choice","tag":"g:只要就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"只要你每天坚持练习，汉语水平____会提高。","options":["就","才","都","还"],"answer":0,"explanation_vi":"只要 đi với 就: 只要……就…… = chỉ cần… là…"},
+      {"id":"e7","type":"choice","tag":"g:只要就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____天气好，我们就去爬山。","options":["只要","虽然","但是","而且"],"answer":0,"explanation_vi":"Vế sau có 就 và câu nêu điều kiện (trời đẹp) → 只要……就……. 虽然, 但是, 而且 không nêu điều kiện."},
+      {"id":"e8","type":"choice","tag":"g:关于","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我看了一本____中国历史的书。","options":["关于","对","给","跟"],"answer":0,"explanation_vi":"Một cuốn sách “về” lịch sử Trung Quốc: 关于 + chủ đề + 的 + 书."},
+      {"id":"e9","type":"choice","tag":"g:关于","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["关于这件事，我们明天再说吧。","我们关于这件事明天再说吧。","这件事关于，我们明天再说吧。","关于这件事的，我们明天再说吧。"],"answer":0,"explanation_vi":"关于 + chủ đề đứng đầu câu rồi có dấu phẩy, sau đó mới đến chủ ngữ 我们."},
+      {"id":"e10","type":"order","tag":"g:只要就","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["只要","你","讲清楚","他们","就","会同意"],"answers":["只要你讲清楚他们就会同意","你只要讲清楚他们就会同意"],"translation_vi":"Chỉ cần bạn nói rõ là họ sẽ đồng ý.","explanation_vi":"只要 đứng trước hoặc sau chủ ngữ 你; 就 đứng sau chủ ngữ 他们, trước 会同意."},
+      {"id":"e11","type":"order","tag":"g:关于","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","给我","讲了","一个","关于北方的","故事"],"answers":["他给我讲了一个关于北方的故事"],"translation_vi":"Anh ấy kể cho tôi nghe một câu chuyện về miền Bắc.","explanation_vi":"关于北方的 đứng trước danh từ 故事; 一个 đứng trước cả cụm định ngữ."},
+      {"id":"e12","type":"order","tag":"v:决定","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","决定","后年","出国","留学"],"answers":["我决定后年出国留学"],"translation_vi":"Tôi quyết định năm sau nữa sẽ đi du học.","explanation_vi":"决定 + việc định làm (后年出国留学); thời gian 后年 đứng trước 出国留学."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"相信","vi":"tin tưởng"},{"zh":"同意","vi":"đồng ý"},{"zh":"认为","vi":"cho rằng"},{"zh":"决定","vi":"quyết định"},{"zh":"选择","vi":"lựa chọn"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"机会","vi":"cơ hội"},{"zh":"了解","vi":"hiểu rõ"},{"zh":"其实","vi":"thật ra"},{"zh":"愿意","vi":"sẵn lòng"},{"zh":"当然","vi":"tất nhiên"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:只要就","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"只要你喜欢，____买吧。","options":["就","才","也","还"],"answer":0,"explanation_vi":"只要……就……: chỉ cần bạn thích thì mua đi."},
+        {"id":"q2","type":"choice","tag":"g:只要就","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["只要你努力，你就能考好。","只要你努力，就你能考好。","只要你努力，你才能考好。","你努力只要，就能考好。"],"answer":0,"explanation_vi":"就 đứng sau chủ ngữ 你; 只要 đi với 就 chứ không đi với 才; 只要 đứng trước động từ, không đứng sau."},
+        {"id":"q3","type":"choice","tag":"g:只要就","prompt_vi":"Chọn nghĩa đúng của câu.","question_zh":"只要能去，我愿意每个星期给他们写一封信。","options":["Chỉ cần được đi, tôi sẵn lòng tuần nào cũng viết cho họ một lá thư.","Nếu không được đi, tôi sẽ viết thư cho họ mỗi tuần.","Chỉ có tôi mới muốn viết thư cho họ.","Tôi chỉ muốn đi, không muốn viết thư."],"answer":0,"explanation_vi":"只要能去 = chỉ cần được đi; 愿意 = sẵn lòng; 一封信 = một lá thư."},
+        {"id":"q4","type":"choice","tag":"g:关于","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____这个问题，老师明天会回答大家。","options":["关于","给","跟","从"],"answer":0,"explanation_vi":"关于 + chủ đề đứng đầu câu: về vấn đề này, ngày mai thầy sẽ trả lời mọi người."},
+        {"id":"q5","type":"choice","tag":"g:关于","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我看了一本关于中国的书。","我看了一本书关于中国。","我关于中国看了一本书。","我看了关于一本中国的书。"],"answer":0,"explanation_vi":"关于中国的 đứng trước danh từ 书; số lượng 一本 đứng trước cả cụm."},
+        {"id":"q6","type":"choice","tag":"g:关于","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他给我讲了很多____那个学校的事。","options":["关于","对","在","往"],"answer":0,"explanation_vi":"关于那个学校的事 = những chuyện về ngôi trường đó."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:愿意","prompt_vi":"Chọn đáp án đúng.","question_zh":"如果你需要帮忙，我很____帮你。","options":["愿意","机会","关于","其实"],"answer":0,"explanation_vi":"很愿意帮你 = rất sẵn lòng giúp bạn. 愿意 + động từ."},
+      {"id":"t2","type":"choice","tag":"g:只要就","prompt_vi":"Chọn đáp án đúng.","question_zh":"只要你跟他们讲清楚，他们____会同意的。","options":["就","才","都","再"],"answer":0,"explanation_vi":"只要……就……; 就 đứng sau chủ ngữ 他们."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"不行","vi":"không được"},{"zh":"看来","vi":"xem ra"},{"zh":"心里","vi":"trong lòng"},{"zh":"根据","vi":"căn cứ vào"},{"zh":"回答","vi":"trả lời"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"结婚","vi":"kết hôn"},{"zh":"房子","vi":"căn nhà"},{"zh":"出国","vi":"ra nước ngoài"},{"zh":"校长","vi":"hiệu trưởng"},{"zh":"后年","vi":"năm sau nữa"}]},
+      {"id":"t5","type":"order","tag":"v:相信","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","相信","他们","会","同意","的"],"answers":["我相信他们会同意的"],"translation_vi":"Tôi tin họ sẽ đồng ý.","explanation_vi":"相信 + cả một mệnh đề (他们会同意的); 会……的 nhấn mạnh sự chắc chắn."},
+      {"id":"t6","type":"order","tag":"g:关于","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["关于","这件事","我们","明天","再说","吧"],"answers":["关于这件事我们明天再说吧","关于这件事明天我们再说吧"],"translation_vi":"Về chuyện này, mai chúng ta bàn tiếp nhé.","explanation_vi":"关于这件事 đứng đầu câu; thời gian 明天 đứng trước hoặc sau chủ ngữ 我们."},
+      {"id":"t7","type":"fill","tag":"v:以为","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我____他是老师，其实他是医生。","answers":["以为"],"hint_vi":"tưởng (là), nhưng hóa ra không phải","explanation_vi":"以为 dùng khi điều mình nghĩ hóa ra sai; 其实 ở vế sau nói sự thật."},
+      {"id":"t8","type":"fill","tag":"g:只要就","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"____你喜欢，就买吧。","answers":["只要"],"hint_vi":"chỉ cần","explanation_vi":"只要……就……: chỉ cần bạn thích thì mua đi."},
+      {"id":"t9","type":"listen_choice","tag":"v:其实","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"其实他是想帮你，你别生气了。","options":["Thật ra anh ấy muốn giúp bạn, bạn đừng giận nữa.","Anh ấy không muốn giúp bạn nên bạn giận.","Thật ra bạn muốn giúp anh ấy, đừng giận nữa.","Anh ấy đang giận bạn, bạn giúp anh ấy đi."],"answer":0,"explanation_vi":"其实 = thật ra; 想帮你 = muốn giúp bạn; 别生气了 = đừng giận nữa."},
+      {"id":"t10","type":"listen_choice","tag":"g:关于","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"我看了很多关于那个学校的介绍。","options":["我看了很多关于那个学校的介绍。","我看了很多那个学校的书。","我去了很多次那个学校。","我给那个学校写了一封信。"],"answer":0,"explanation_vi":"Câu nghe được: 我看了很多关于那个学校的介绍 = Tôi đã đọc nhiều bài giới thiệu về trường đó."},
+      {"id":"t11","type":"dictation","tag":"v:决定","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我决定后年出国留学。","answers":["我决定后年出国留学"],"explanation_vi":"我决定后年出国留学 = Tôi quyết định năm sau nữa đi du học."},
+      {"id":"t12","type":"dictation","tag":"g:只要就","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"只要天气好，我们就去爬山。","answers":["只要天气好我们就去爬山"],"explanation_vi":"只要天气好，我们就去爬山 = Chỉ cần trời đẹp là chúng mình đi leo núi."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:相信","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tôi tin họ sẽ đồng ý.","answers":["我相信他们会同意的","我相信他们会同意","我相信他们一定会同意的","我相信他们一定会同意"],"explanation_vi":"相信 + 他们会同意(的): tin rằng họ sẽ đồng ý."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:只要就","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Chỉ cần bạn thích là được.","answers":["只要你喜欢就行","只要你喜欢就行了","只要你喜欢就好","只要你喜欢就好了","只要你喜欢就可以","只要你喜欢就可以了","你只要喜欢就行","你只要喜欢就好"],"explanation_vi":"只要你喜欢 + 就行 / 就好 / 就可以 = chỉ cần bạn thích là được."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:了解","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我跟他是十年的朋友，我很了解他。","answers_vi":["Tôi với anh ấy là bạn mười năm rồi, tôi rất hiểu anh ấy.","Tôi và anh ấy làm bạn mười năm, tôi hiểu rõ anh ấy."],"keywords":[["mười năm","10 năm"],["bạn"],["hiểu"]],"explanation_vi":"十年的朋友 = bạn bè mười năm; 很了解他 = rất hiểu anh ấy."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:关于","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他给我讲了一个关于北方的故事。","answers_vi":["Anh ấy kể cho tôi nghe một câu chuyện về miền Bắc.","Anh ấy kể tôi nghe một câu chuyện về phương Bắc."],"keywords":[["kể","nói"],["chuyện"],["về"],["miền bắc","phương bắc","phía bắc"]],"explanation_vi":"讲故事 = kể chuyện; 关于北方的故事 = câu chuyện về miền Bắc."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"爸爸的信",
+        "title_vi":"Lá thư của bố",
+        "paragraphs":[
+          {
+            "tokens":[["小陈","Xiǎo Chén","Tiểu Trần (tên người)"],["，"],["你好","nǐ hǎo","chào con"],["！"],["你","nǐ","con"],["出国","chūguó","ra nước ngoài"],["已经","yǐjīng","đã"],["一个月","yí ge yuè","một tháng"],["了","le","rồi"],["，"],["你","nǐ","con"],["妈妈","māma","mẹ"],["和","hé","và"],["我","wǒ","bố"],["都","dōu","đều"],["很","hěn","rất"],["想","xiǎng","nhớ"],["你","nǐ","con"],["。"],["你","nǐ","con"],["刚","gāng","vừa mới"],["说","shuō","nói"],["要","yào","muốn"],["出国","chūguó","ra nước ngoài"],["的","de","(khi)"],["时候","shíhou","lúc"],["，"],["我们","wǒmen","bố mẹ"],["都","dōu","đều"],["不","bù","không"],["同意","tóngyì","đồng ý"],["。"],["我们","wǒmen","bố mẹ"],["以为","yǐwéi","tưởng"],["你","nǐ","con"],["还","hái","vẫn"],["是","shì","là"],["个","ge","một"],["孩子","háizi","đứa trẻ"],["，"],["什么","shénme","gì"],["都","dōu","cũng"],["不","bù","không"],["懂","dǒng","hiểu"],["。"]],
+            "vi":"Tiểu Trần, chào con! Con ra nước ngoài đã một tháng rồi, mẹ con và bố đều rất nhớ con. Lúc con mới nói muốn ra nước ngoài, bố mẹ đều không đồng ý. Bố mẹ tưởng con vẫn còn là một đứa trẻ, chuyện gì cũng chưa hiểu."
+          },
+          {
+            "tokens":[["可是","kěshì","nhưng"],["那","nà","hôm đó"],["天","tiān","ngày"],["晚上","wǎnshang","buổi tối"],["，"],["你","nǐ","con"],["在","zài","ở"],["我们","wǒmen","bố mẹ"],["面前","miànqián","trước mặt"],["讲","jiǎng","nói, kể"],["了","le","(đã)"],["很多","hěn duō","rất nhiều"],["关于","guānyú","về"],["那个","nàge","đó"],["学校","xuéxiào","trường"],["的","de","(của)"],["事","shì","chuyện"],["，"],["还","hái","còn"],["回答","huídá","trả lời"],["了","le","(đã)"],["我们","wǒmen","bố mẹ"],["的","de","của"],["每","měi","mỗi"],["一个","yí ge","một"],["问题","wèntí","câu hỏi"],["。"],["你","nǐ","con"],["还","hái","còn"],["说","shuō","nói"],["，"],["你","nǐ","con"],["愿意","yuànyì","sẵn lòng"],["每个","měi ge","mỗi"],["星期","xīngqī","tuần"],["给","gěi","cho"],["我们","wǒmen","bố mẹ"],["写","xiě","viết"],["一封","yì fēng","một lá"],["信","xìn","thư"],["。"],["看来","kànlái","xem ra"],["，"],["你","nǐ","con"],["是","shì","là"],["真的","zhēn de","thật sự"],["想","xiǎng","nghĩ"],["好","hǎo","kỹ, xong"],["了","le","rồi"],["。"]],
+            "vi":"Nhưng tối hôm đó, con đã nói trước mặt bố mẹ rất nhiều chuyện về ngôi trường ấy, còn trả lời từng câu hỏi của bố mẹ. Con còn nói con sẵn lòng tuần nào cũng viết cho bố mẹ một lá thư. Xem ra con đã thật sự nghĩ kỹ rồi."
+          },
+          {
+            "tokens":[["其实","qíshí","thật ra"],["，"],["只要","zhǐyào","chỉ cần"],["你","nǐ","con"],["开心","kāixīn","vui vẻ"],["，"],["我们","wǒmen","bố mẹ"],["就","jiù","là"],["放心","fàngxīn","yên tâm"],["。"],["我们","wǒmen","bố mẹ"],["相信","xiāngxìn","tin"],["你","nǐ","con"],["能","néng","có thể"],["照顾","zhàogù","chăm sóc"],["好","hǎo","tốt"],["自己","zìjǐ","bản thân"],["。"],["有","yǒu","có"],["什么","shénme","gì"],["事","shì","chuyện"],["，"],["就","jiù","thì"],["给","gěi","cho"],["家里","jiā li","nhà"],["打电话","dǎ diànhuà","gọi điện"],["。"]],
+            "vi":"Thật ra, chỉ cần con vui là bố mẹ yên tâm. Bố mẹ tin con có thể tự chăm sóc tốt cho bản thân. Có chuyện gì thì cứ gọi điện về nhà nhé."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"这封信是谁写的？","options":["爸爸","妈妈","小陈","校长"],"answer":0,"explanation_vi":"Tiêu đề là 爸爸的信, và người viết xưng 我 cùng với 你妈妈 — đó là bố."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"小陈刚说要出国的时候，爸爸妈妈怎么样？","options":["都不同意","都很高兴","马上同意了","都不关心"],"answer":0,"explanation_vi":"Đoạn 1: 你刚说要出国的时候，我们都不同意."},
+          {"id":"rq3","type":"choice","tag":"v:回答","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"那天晚上，小陈做了什么？","options":["回答了爸爸妈妈的问题","给校长写了一封信","去了那个学校","给家里打了电话"],"answer":0,"explanation_vi":"Đoạn 2: 你……还回答了我们的每一个问题."},
+          {"id":"rq4","type":"choice","tag":"v:以为","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"爸爸妈妈一直认为小陈什么都懂。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 1: 我们以为你还是个孩子，什么都不懂 — bố mẹ tưởng cô chưa hiểu gì, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"v:相信","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"现在爸爸相信小陈能照顾好自己。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 我们相信你能照顾好自己."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Chọn nhà",
+        "text_zh":"我和女朋友打算后年结婚，所以最近一直在看房子。我们已经看了十几个房子了，有的离公司太远，有的太贵，都不行。昨天我们又看了一个，离地铁站很近，旁边还有一个公园，只是有点儿小。女朋友很喜欢，可我觉得应该再看看。她说：“房子大小没关系，只要我们住得开心就行。”我想了想，她说得也对。看来，我们就选这个房子了。",
+        "pinyin":"Wǒ hé nǚpéngyou dǎsuàn hòunián jiéhūn, suǒyǐ zuìjìn yìzhí zài kàn fángzi. Wǒmen yǐjīng kàn le shí jǐ ge fángzi le, yǒude lí gōngsī tài yuǎn, yǒude tài guì, dōu bùxíng. Zuótiān wǒmen yòu kàn le yí ge, lí dìtiě zhàn hěn jìn, pángbiān hái yǒu yí ge gōngyuán, zhǐshì yǒudiǎnr xiǎo. Nǚpéngyou hěn xǐhuan, kě wǒ juéde yīnggāi zài kànkan. Tā shuō: “Fángzi dàxiǎo méi guānxi, zhǐyào wǒmen zhù de kāixīn jiù xíng.” Wǒ xiǎng le xiǎng, tā shuō de yě duì. Kànlái, wǒmen jiù xuǎn zhège fángzi le.",
+        "vi":"Tôi và bạn gái định năm sau nữa cưới, nên dạo này cứ đi xem nhà suốt. Chúng tôi đã xem hơn mười căn rồi, căn thì xa công ty quá, căn thì đắt quá, đều không được. Hôm qua chúng tôi lại xem một căn, gần ga tàu điện ngầm, bên cạnh còn có một công viên, có điều hơi nhỏ. Bạn gái tôi rất thích, nhưng tôi thấy nên xem thêm. Cô ấy nói: “Nhà to hay nhỏ không quan trọng, chỉ cần chúng mình ở vui vẻ là được.” Tôi nghĩ một lúc, thấy cô ấy nói cũng đúng. Xem ra chúng tôi sẽ chọn căn này.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他们为什么最近一直在看房子？","options":["因为后年要结婚","因为要出国","因为房子太旧","因为换了工作"],"answer":0,"explanation_vi":"Nghe được: 我和女朋友打算后年结婚，所以最近一直在看房子."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"昨天看的房子怎么样？","options":["离地铁站很近","离公司太远","太贵了","很大"],"answer":0,"explanation_vi":"Nghe được: 离地铁站很近，旁边还有一个公园，只是有点儿小."},
+          {"id":"lq3","type":"choice","tag":"g:只要就","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"女朋友觉得什么最重要？","options":["住得开心","房子很大","离公司近","很便宜"],"answer":0,"explanation_vi":"Nghe được: 房子大小没关系，只要我们住得开心就行."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"最后他们打算怎么做？","options":["选这个房子","再看看别的房子","不买房子了","去问爸爸妈妈"],"answer":0,"explanation_vi":"Nghe được: 看来，我们就选这个房子了."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"相信","pinyin":"xiāngxìn","vi":"tin tưởng","tip_vi":"相 xiāng kết thúc bằng -ng (cuống lưỡi nâng lên), 信 xìn kết thúc bằng -n (đầu lưỡi chạm lợi). Đừng đọc cả hai thành “-inh”. x là âm mặt lưỡi, môi dẹt."},
+      {"id":"s2","zh":"同意","pinyin":"tóngyì","vi":"đồng ý","tip_vi":"同 tóng: t bật hơi rõ, thanh 2 đi lên như dấu sắc kéo dài. 意 yì thanh 4 hạ dứt khoát. Đừng đọc 同 thành “đồng” (thanh huyền)."},
+      {"id":"s3","zh":"当然","pinyin":"dāngrán","vi":"tất nhiên","tip_vi":"然 rán: r tiếng Trung uốn lưỡi, gần giống “r” miền Nam nhưng không rung, cũng không đọc thành “d” hay “gi”. 当 dāng giữ cao và bằng."},
+      {"id":"s4","zh":"只要你喜欢就行。","pinyin":"Zhǐyào nǐ xǐhuan jiù xíng.","vi":"Chỉ cần bạn thích là được.","tip_vi":"你喜 nǐ xǐ là hai thanh 3 liền nhau: 你 đọc lên như thanh 2 (ní xǐ). 欢 đọc nhẹ: xǐhuan. 只 zhǐ: zh uốn lưỡi, không bật hơi."},
+      {"id":"s5","zh":"我以为他是老师。","pinyin":"Wǒ yǐwéi tā shì lǎoshī.","vi":"Tôi tưởng anh ấy là thầy giáo.","tip_vi":"我以 wǒ yǐ: hai thanh 3 liền nhau, 我 đọc gần thanh 2. 为 ở đây đọc wéi (thanh 2), khác 为 wèi (vì, cho). 是 shì, 师 shī: sh uốn lưỡi, đừng đọc thành “x”."},
+      {"id":"s6","zh":"关于这件事，我们明天再说吧。","pinyin":"Guānyú zhè jiàn shì, wǒmen míngtiān zài shuō ba.","vi":"Về chuyện này, mai chúng ta bàn tiếp nhé.","tip_vi":"于 yú: ü tròn môi, giữ lưỡi như khi đọc i, đừng đọc thành “uy”. 这 zhè, 事 shì, 说 shuō: zh/sh uốn lưỡi. 再 zài: z không bật hơi, đừng đọc thành “chai”."},
+      {"id":"s7","zh":"只要你跟他们讲清楚，他们就会同意的。","pinyin":"Zhǐyào nǐ gēn tāmen jiǎng qīngchu, tāmen jiù huì tóngyì de.","vi":"Chỉ cần bạn nói rõ với họ là họ sẽ đồng ý thôi.","tip_vi":"讲清楚 jiǎng qīngchu: j không bật hơi, q bật hơi mạnh, 楚 đọc nhẹ. Ngắt hơi ở dấu phẩy, nhấn vào 就会同意 ở vế sau."}
+    ],
+    "review": {
+      "remember": [
+        "只要……，(S) 就……: chỉ cần… là…; 就 đứng sau chủ ngữ của vế sau.",
+        "关于 + chủ đề đứng đầu câu (关于这件事，……) hoặc đứng trước danh từ với 的 (一本关于中国的书).",
+        "以为 = tưởng (mà hóa ra không phải), hay đi với 其实; 认为 = cho rằng (nêu ý kiến).",
+        "相信 + người/việc (tin), 同意 + việc / người + làm gì (đồng ý, cho phép), 愿意 + V (sẵn lòng).",
+        "行 xíng = được, ổn (行吗？—行！); 不行 = không được; 只是 = có điều; 看来 = xem ra."
+      ],
+      "mistakes": [
+        "✗ 只要你努力，就你能考好 → ✓ 只要你努力，你就能考好: 就 đứng sau chủ ngữ.",
+        "✗ 我看了一本书关于中国 → ✓ 我看了一本关于中国的书: 关于…的 đứng trước danh từ.",
+        "✗ 我认为今天是星期六，其实是星期五 → ✓ 我以为今天是星期六，其实是星期五: nghĩ sai thì dùng 以为."
+      ]
+    }
+  }
+}

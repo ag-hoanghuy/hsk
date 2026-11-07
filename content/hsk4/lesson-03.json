@@ -1,0 +1,253 @@
+{
+  "level": 4,
+  "number": 3,
+  "summary": "Đi phỏng vấn xin việc: giới thiệu bản thân, trình bày lý do theo thứ tự, nói về kinh nghiệm và năng lực; học 挺……的, 本来, 首先……其次…… và 另外, 不管……都/也…….",
+  "readings_ok": ["得 de", "都 dōu"],
+  "content": {
+    "objectives": [
+      "Giới thiệu bản thân khi phỏng vấn: chuyên ngành, kinh nghiệm, năng lực, ưu khuyết điểm",
+      "Trình bày ý theo thứ tự bằng 首先……，其次……，最后…… và thêm ý bằng 另外",
+      "Nói “lúc đầu vốn…, sau đó…” bằng 本来, và nhận xét nhẹ nhàng bằng 挺……的",
+      "Nói “bất kể… đều…” bằng 不管……都/也……, phân biệt với 尽管 và 即使"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"本来","pinyin":"běnlái","pos":"tính từ / phó từ","meaning_vi":"vốn, lúc đầu; vốn dĩ","example_zh":"我本来想今天去，可是后来有事，就没去。","example_pinyin":"Wǒ běnlái xiǎng jīntiān qù, kěshì hòulái yǒu shì, jiù méi qù.","example_vi":"Lúc đầu tôi định hôm nay đi, nhưng sau đó có việc nên không đi.","hanviet":"BẢN LAI","note_vi":"Dùng khi tình huống đã thay đổi so với lúc đầu (vế sau hay có 后来, 现在, 可是). 本来就 = vốn dĩ đã, đương nhiên. Khác 以前 (trước đây): 以前 chỉ nói thời gian, không có ý “đã thay đổi kế hoạch”."},
+      {"id":"v2","hanzi":"另外","pinyin":"lìngwài","pos":"liên từ / đại từ","meaning_vi":"ngoài ra; … khác","example_zh":"另外，我还想问一个问题。","example_pinyin":"Lìngwài, wǒ hái xiǎng wèn yí ge wèntí.","example_vi":"Ngoài ra, tôi còn muốn hỏi một câu.","note_vi":"Đầu câu: “ngoài ra”. Trước (一)个/的 + danh từ: “… khác” (另外一个人). Trước động từ: “thêm, riêng” (另外找时间). Vế sau hay có 还/也."},
+      {"id":"v3","hanzi":"首先","pinyin":"shǒuxiān","pos":"phó từ / đại từ","meaning_vi":"trước hết, đầu tiên","example_zh":"首先，请你简单介绍一下自己。","example_pinyin":"Shǒuxiān, qǐng nǐ jiǎndān jièshào yíxià zìjǐ.","example_vi":"Trước hết, mời bạn giới thiệu ngắn gọn về bản thân.","hanviet":"THỦ TIÊN","note_vi":"Trang trọng hơn 先; hay đi với 其次, 最后. 首先 đứng được đầu câu (có dấu phẩy), còn 先 chỉ đứng trước động từ (我先介绍一下)."},
+      {"id":"v4","hanzi":"其次","pinyin":"qícì","pos":"đại từ","meaning_vi":"tiếp theo, thứ hai; thứ yếu","example_zh":"首先要准时，其次要有礼貌。","example_pinyin":"Shǒuxiān yào zhǔnshí, qícì yào yǒu lǐmào.","example_vi":"Trước hết phải đúng giờ, tiếp theo phải lịch sự.","hanviet":"KỲ THỨ","note_vi":"Luôn đứng sau 首先. Nghĩa khác: “xếp sau, kém quan trọng hơn”: 能力最重要，经验其次. q và c đều bật hơi."},
+      {"id":"v5","hanzi":"不管","pinyin":"bùguǎn","pos":"liên từ","meaning_vi":"bất kể, dù… thế nào","example_zh":"不管多忙，他每天都给妈妈打电话。","example_pinyin":"Bùguǎn duō máng, tā měi tiān dōu gěi māma dǎ diànhuà.","example_vi":"Bất kể bận đến đâu, ngày nào anh ấy cũng gọi điện cho mẹ.","note_vi":"Sau 不管 là từ để hỏi / A还是B / A不A / 多 + tính từ; vế sau có 都 hoặc 也. 不 đọc bù vì 管 là thanh 3."},
+      {"id":"v6","hanzi":"首","pinyin":"shǒu","pos":"lượng từ","meaning_vi":"bài (lượng từ cho bài hát, bài thơ)","example_zh":"我会唱很多首中文歌。","example_pinyin":"Wǒ huì chàng hěn duō shǒu Zhōngwén gē.","example_vi":"Tôi biết hát nhiều bài hát tiếng Trung.","note_vi":"一首歌 = một bài hát. Đừng dùng 个: ✗ 一个歌. Chữ 首 còn có nghĩa “đầu tiên” như trong 首先."},
+      {"id":"v7","hanzi":"印象","pinyin":"yìnxiàng","pos":"danh từ","meaning_vi":"ấn tượng","example_zh":"经理对我的印象挺不错的。","example_pinyin":"Jīnglǐ duì wǒ de yìnxiàng tǐng búcuò de.","example_vi":"Giám đốc có ấn tượng khá tốt về tôi.","hanviet":"ẤN TƯỢNG","note_vi":"Hay dùng: 对……的印象很好 / 对……印象不错 (có ấn tượng tốt về…), 给……留下好印象 (để lại ấn tượng tốt cho…). Chú ý dùng 对, không dùng 给 trong 对……印象不错."},
+      {"id":"v8","hanzi":"面试","pinyin":"miànshì","pos":"động từ / danh từ","meaning_vi":"phỏng vấn (xin việc, tuyển sinh)","example_zh":"明天上午我要去一家公司面试。","example_pinyin":"Míngtiān shàngwǔ wǒ yào qù yì jiā gōngsī miànshì.","example_vi":"Sáng mai tôi phải đến một công ty phỏng vấn.","hanviet":"DIỆN THÍ","note_vi":"面试 là phỏng vấn để chọn người (xin việc, xin học); còn nhà báo phỏng vấn ai đó là từ khác (采访, sau này học). 笔试 = thi viết."},
+      {"id":"v9","hanzi":"招聘","pinyin":"zhāopìn","pos":"động từ","meaning_vi":"tuyển dụng (công ty tuyển người)","example_zh":"我们公司正在招聘工作人员。","example_pinyin":"Wǒmen gōngsī zhèngzài zhāopìn gōngzuò rényuán.","example_vi":"Công ty chúng tôi đang tuyển nhân viên.","hanviet":"CHIÊU SÍNH","note_vi":"招聘 là việc của bên tuyển (công ty); người đi xin việc thì 应聘. 聘 pìn: p bật hơi, vần -in."},
+      {"id":"v10","hanzi":"应聘","pinyin":"yìngpìn","pos":"động từ","meaning_vi":"ứng tuyển, xin vào làm","example_zh":"那家公司正在招聘，我想去应聘。","example_pinyin":"Nà jiā gōngsī zhèngzài zhāopìn, wǒ xiǎng qù yìngpìn.","example_vi":"Công ty đó đang tuyển người, tôi muốn đến ứng tuyển.","hanviet":"ỨNG SÍNH","note_vi":"应 đọc thanh 4 (yìng) trong 应聘, khác 应该 (yīnggāi). Người ứng tuyển: 应聘的人."},
+      {"id":"v11","hanzi":"经验","pinyin":"jīngyàn","pos":"danh từ","meaning_vi":"kinh nghiệm","example_zh":"他有很多工作经验。","example_pinyin":"Tā yǒu hěn duō gōngzuò jīngyàn.","example_vi":"Anh ấy có nhiều kinh nghiệm làm việc.","hanviet":"KINH NGHIỆM","note_vi":"Chú ý thứ tự: 工作经验 (kinh nghiệm làm việc) – định ngữ đứng trước, ngược với tiếng Việt."},
+      {"id":"v12","hanzi":"能力","pinyin":"nénglì","pos":"danh từ","meaning_vi":"năng lực, khả năng","example_zh":"他的工作能力很不错。","example_pinyin":"Tā de gōngzuò nénglì hěn búcuò.","example_vi":"Năng lực làm việc của anh ấy rất tốt.","hanviet":"NĂNG LỰC","note_vi":"能力 là danh từ, không dùng như động từ “có thể” (có thể = 能/可以). 有能力 + V = có khả năng làm gì."},
+      {"id":"v13","hanzi":"专业","pinyin":"zhuānyè","pos":"danh từ / tính từ","meaning_vi":"chuyên ngành, ngành học; chuyên nghiệp","example_zh":"我大学的专业是汉语。","example_pinyin":"Wǒ dàxué de zhuānyè shì Hànyǔ.","example_vi":"Chuyên ngành đại học của tôi là tiếng Trung.","hanviet":"CHUYÊN NGHIỆP","note_vi":"Bẫy Hán Việt: ngành học là 专业, không dùng 专门 (专门 = chuyên để, dành riêng cho). Làm tính từ: 很专业 = rất chuyên nghiệp."},
+      {"id":"v14","hanzi":"毕业","pinyin":"bìyè","pos":"động từ","meaning_vi":"tốt nghiệp","example_zh":"我今年六月大学毕业。","example_pinyin":"Wǒ jīnnián liùyuè dàxué bìyè.","example_vi":"Tháng Sáu năm nay tôi tốt nghiệp đại học.","hanviet":"TẤT NGHIỆP","note_vi":"毕业 không mang tân ngữ trực tiếp: ✗ 毕业大学 (dịch từ “tốt nghiệp đại học”). ✓ 大学毕业 / 从……学院毕业."},
+      {"id":"v15","hanzi":"表现","pinyin":"biǎoxiàn","pos":"động từ / danh từ","meaning_vi":"thể hiện; sự thể hiện, biểu hiện","example_zh":"你今天的表现挺不错的。","example_pinyin":"Nǐ jīntiān de biǎoxiàn tǐng búcuò de.","example_vi":"Hôm nay bạn thể hiện khá tốt.","hanviet":"BIỂU HIỆN","note_vi":"Hay dùng làm danh từ: 表现很好 (thể hiện tốt). Đừng nhầm với 表演 (biểu diễn, HSK3)."},
+      {"id":"v16","hanzi":"优秀","pinyin":"yōuxiù","pos":"tính từ","meaning_vi":"xuất sắc, ưu tú","example_zh":"她是我们学院最优秀的学生。","example_pinyin":"Tā shì wǒmen xuéyuàn zuì yōuxiù de xuésheng.","example_vi":"Cô ấy là sinh viên xuất sắc nhất học viện chúng tôi.","hanviet":"ƯU TÚ"},
+      {"id":"v17","hanzi":"紧张","pinyin":"jǐnzhāng","pos":"tính từ","meaning_vi":"căng thẳng, hồi hộp; (thời gian) gấp","example_zh":"第一次面试的时候，我特别紧张。","example_pinyin":"Dì yī cì miànshì de shíhou, wǒ tèbié jǐnzhāng.","example_vi":"Lần đầu đi phỏng vấn, tôi cực kỳ hồi hộp.","hanviet":"KHẨN TRƯƠNG","note_vi":"Bẫy Hán Việt: “khẩn trương” tiếng Việt là “nhanh lên, gấp rút”, còn 紧张 chủ yếu là “căng thẳng, hồi hộp”. Muốn giục “khẩn trương lên” thì nói 快点儿. 时间很紧张 = thời gian rất gấp."},
+      {"id":"v18","hanzi":"自信","pinyin":"zìxìn","pos":"tính từ / danh từ","meaning_vi":"tự tin; sự tự tin","example_zh":"面试的时候要自信一点儿。","example_pinyin":"Miànshì de shíhou yào zìxìn yìdiǎnr.","example_vi":"Khi phỏng vấn nên tự tin một chút.","hanviet":"TỰ TÍN","note_vi":"Tính từ: 很自信; danh từ: 有自信. z (自, đầu lưỡi) và x (信, mặt lưỡi) khác nhau."},
+      {"id":"v19","hanzi":"态度","pinyin":"tàidù","pos":"danh từ","meaning_vi":"thái độ","example_zh":"他工作的态度很认真。","example_pinyin":"Tā gōngzuò de tàidù hěn rènzhēn.","example_vi":"Thái độ làm việc của anh ấy rất nghiêm túc.","hanviet":"THÁI ĐỘ","note_vi":"态度好 / 态度不好 / 服务态度 (thái độ phục vụ). t bật hơi, d không bật hơi."},
+      {"id":"v20","hanzi":"申请","pinyin":"shēnqǐng","pos":"động từ / danh từ","meaning_vi":"xin, nộp đơn; đơn xin","example_zh":"我想申请这份工作。","example_pinyin":"Wǒ xiǎng shēnqǐng zhè fèn gōngzuò.","example_vi":"Tôi muốn nộp đơn xin công việc này.","note_vi":"申请 + thứ muốn xin: 申请工作, 申请学校, 申请护照. 申 -en (đầu lưỡi) và 请 -ing (cuống lưỡi) khác nhau."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"条件","pinyin":"tiáojiàn","pos":"danh từ","meaning_vi":"điều kiện","example_zh":"这份工作的条件很好。","example_pinyin":"Zhè fèn gōngzuò de tiáojiàn hěn hǎo.","example_vi":"Điều kiện của công việc này rất tốt."},
+      {"id":"x2","hanzi":"符合","pinyin":"fúhé","pos":"động từ","meaning_vi":"phù hợp, đáp ứng (yêu cầu, điều kiện)","example_zh":"你的条件符合我们的要求。","example_pinyin":"Nǐ de tiáojiàn fúhé wǒmen de yāoqiú.","example_vi":"Điều kiện của bạn đáp ứng yêu cầu của chúng tôi."},
+      {"id":"x3","hanzi":"负责","pinyin":"fùzé","pos":"động từ / tính từ","meaning_vi":"phụ trách, chịu trách nhiệm; có trách nhiệm","example_zh":"他是一个很负责的人。","example_pinyin":"Tā shì yí ge hěn fùzé de rén.","example_vi":"Anh ấy là một người rất có trách nhiệm."},
+      {"id":"x4","hanzi":"接受","pinyin":"jiēshòu","pos":"động từ","meaning_vi":"nhận, chấp nhận","example_zh":"我接受了这份工作。","example_pinyin":"Wǒ jiēshòu le zhè fèn gōngzuò.","example_vi":"Tôi đã nhận công việc này."},
+      {"id":"x5","hanzi":"通知","pinyin":"tōngzhī","pos":"động từ / danh từ","meaning_vi":"thông báo","example_zh":"我们会打电话通知你。","example_pinyin":"Wǒmen huì dǎ diànhuà tōngzhī nǐ.","example_vi":"Chúng tôi sẽ gọi điện thông báo cho bạn."},
+      {"id":"x6","hanzi":"正式","pinyin":"zhèngshì","pos":"tính từ","meaning_vi":"chính thức; trang trọng","example_zh":"下个月我就正式上班了。","example_pinyin":"Xià ge yuè wǒ jiù zhèngshì shàngbān le.","example_vi":"Tháng sau tôi sẽ chính thức đi làm."},
+      {"id":"x7","hanzi":"准时","pinyin":"zhǔnshí","pos":"tính từ","meaning_vi":"đúng giờ","example_zh":"明天上午九点，请准时到。","example_pinyin":"Míngtiān shàngwǔ jiǔ diǎn, qǐng zhǔnshí dào.","example_vi":"Chín giờ sáng mai, mời bạn đến đúng giờ."},
+      {"id":"x8","hanzi":"顺利","pinyin":"shùnlì","pos":"tính từ","meaning_vi":"thuận lợi, suôn sẻ","example_zh":"今天的面试很顺利。","example_pinyin":"Jīntiān de miànshì hěn shùnlì.","example_vi":"Buổi phỏng vấn hôm nay rất suôn sẻ."},
+      {"id":"x9","hanzi":"单位","pinyin":"dānwèi","pos":"danh từ","meaning_vi":"cơ quan, đơn vị (nơi làm việc)","example_zh":"你在哪个单位工作？","example_pinyin":"Nǐ zài nǎge dānwèi gōngzuò?","example_vi":"Bạn làm ở cơ quan nào?"},
+      {"id":"x10","hanzi":"部门","pinyin":"bùmén","pos":"danh từ","meaning_vi":"bộ phận, phòng ban","example_zh":"我们部门一共有十个人。","example_pinyin":"Wǒmen bùmén yígòng yǒu shí ge rén.","example_vi":"Phòng chúng tôi có tất cả mười người."},
+      {"id":"x11","hanzi":"负责人","pinyin":"fùzérén","pos":"danh từ","meaning_vi":"người phụ trách","example_zh":"王经理是我们部门的负责人。","example_pinyin":"Wáng jīnglǐ shì wǒmen bùmén de fùzérén.","example_vi":"Giám đốc Vương là người phụ trách phòng chúng tôi."},
+      {"id":"x12","hanzi":"人员","pinyin":"rényuán","pos":"danh từ","meaning_vi":"nhân viên, nhân sự (thường đứng sau từ khác)","example_zh":"我们需要两名工作人员。","example_pinyin":"Wǒmen xūyào liǎng míng gōngzuò rényuán.","example_vi":"Chúng tôi cần hai nhân viên."},
+      {"id":"x13","hanzi":"填写","pinyin":"tiánxiě","pos":"động từ","meaning_vi":"điền (vào mẫu đơn)","example_zh":"请先填写这张表格。","example_pinyin":"Qǐng xiān tiánxiě zhè zhāng biǎogé.","example_vi":"Mời bạn điền vào tờ mẫu đơn này trước."},
+      {"id":"x14","hanzi":"表格","pinyin":"biǎogé","pos":"danh từ","meaning_vi":"bảng biểu, mẫu đơn","example_zh":"表格上要写你的姓名和电话。","example_pinyin":"Biǎogé shang yào xiě nǐ de xìngmíng hé diànhuà.","example_vi":"Trên mẫu đơn phải ghi họ tên và số điện thoại của bạn."},
+      {"id":"x15","hanzi":"材料","pinyin":"cáiliào","pos":"danh từ","meaning_vi":"hồ sơ, tài liệu; vật liệu","example_zh":"你的申请材料我们已经收到了。","example_pinyin":"Nǐ de shēnqǐng cáiliào wǒmen yǐjīng shōudào le.","example_vi":"Hồ sơ xin việc của bạn chúng tôi đã nhận được rồi."},
+      {"id":"x16","hanzi":"文件","pinyin":"wénjiàn","pos":"danh từ","meaning_vi":"văn bản, giấy tờ; tệp (file)","example_zh":"这个文件很重要，请放好。","example_pinyin":"Zhège wénjiàn hěn zhòngyào, qǐng fàng hǎo.","example_vi":"Văn bản này rất quan trọng, hãy cất cẩn thận."},
+      {"id":"x17","hanzi":"证明","pinyin":"zhèngmíng","pos":"động từ / danh từ","meaning_vi":"chứng minh; giấy chứng nhận","example_zh":"你需要一份工作证明。","example_pinyin":"Nǐ xūyào yí fèn gōngzuò zhèngmíng.","example_vi":"Bạn cần một giấy xác nhận công tác."},
+      {"id":"x18","hanzi":"毕业生","pinyin":"bìyèshēng","pos":"danh từ","meaning_vi":"sinh viên tốt nghiệp","example_zh":"今年的大学毕业生特别多。","example_pinyin":"Jīnnián de dàxué bìyèshēng tèbié duō.","example_vi":"Năm nay sinh viên tốt nghiệp đại học đặc biệt nhiều."},
+      {"id":"x19","hanzi":"本科","pinyin":"běnkē","pos":"danh từ","meaning_vi":"hệ đại học (cử nhân)","example_zh":"我是本科毕业。","example_pinyin":"Wǒ shì běnkē bìyè.","example_vi":"Tôi tốt nghiệp hệ đại học (cử nhân)."},
+      {"id":"x20","hanzi":"硕士","pinyin":"shuòshì","pos":"danh từ","meaning_vi":"thạc sĩ","example_zh":"他明年要去读硕士。","example_pinyin":"Tā míngnián yào qù dú shuòshì.","example_vi":"Sang năm anh ấy sẽ đi học thạc sĩ."},
+      {"id":"x21","hanzi":"博士","pinyin":"bóshì","pos":"danh từ","meaning_vi":"tiến sĩ","example_zh":"她是一位博士。","example_pinyin":"Tā shì yí wèi bóshì.","example_vi":"Cô ấy là một tiến sĩ."},
+      {"id":"x22","hanzi":"研究生","pinyin":"yánjiūshēng","pos":"danh từ","meaning_vi":"học viên sau đại học (cao học, nghiên cứu sinh)","example_zh":"我哥哥是研究生，正在读硕士。","example_pinyin":"Wǒ gēge shì yánjiūshēng, zhèngzài dú shuòshì.","example_vi":"Anh trai tôi là học viên cao học, đang học thạc sĩ."},
+      {"id":"x23","hanzi":"学院","pinyin":"xuéyuàn","pos":"danh từ","meaning_vi":"học viện; khoa, trường (thuộc đại học)","example_zh":"我是外语学院的学生。","example_pinyin":"Wǒ shì wàiyǔ xuéyuàn de xuésheng.","example_vi":"Tôi là sinh viên trường ngoại ngữ."},
+      {"id":"x24","hanzi":"笔试","pinyin":"bǐshì","pos":"động từ / danh từ","meaning_vi":"thi viết","example_zh":"面试以前还有一个笔试。","example_pinyin":"Miànshì yǐqián hái yǒu yí ge bǐshì.","example_vi":"Trước khi phỏng vấn còn có một bài thi viết."},
+      {"id":"x25","hanzi":"份","pinyin":"fèn","pos":"lượng từ","meaning_vi":"phần, bản (công việc, giấy tờ, báo…)","example_zh":"我想找一份好工作。","example_pinyin":"Wǒ xiǎng zhǎo yí fèn hǎo gōngzuò.","example_vi":"Tôi muốn tìm một công việc tốt."},
+      {"id":"x26","hanzi":"部","pinyin":"bù","pos":"lượng từ / danh từ","meaning_vi":"bộ (phim); bộ phận","example_zh":"这部电影挺有意思的。","example_pinyin":"Zhè bù diànyǐng tǐng yǒu yìsi de.","example_vi":"Bộ phim này khá thú vị."},
+      {"id":"x27","hanzi":"表","pinyin":"biǎo","pos":"danh từ","meaning_vi":"bảng, mẫu đơn; đồng hồ","example_zh":"请在这张表上写你的名字。","example_pinyin":"Qǐng zài zhè zhāng biǎo shang xiě nǐ de míngzi.","example_vi":"Hãy viết tên bạn vào tờ đơn này."},
+      {"id":"x28","hanzi":"另","pinyin":"lìng","pos":"đại từ / phó từ","meaning_vi":"khác; riêng (dạng ngắn của 另外)","example_zh":"这个时间不行，我们另找一天吧。","example_pinyin":"Zhège shíjiān bù xíng, wǒmen lìng zhǎo yì tiān ba.","example_vi":"Giờ này không được, chúng ta chọn một ngày khác nhé."},
+      {"id":"x29","hanzi":"证","pinyin":"zhèng","pos":"danh từ","meaning_vi":"giấy chứng nhận, thẻ (毕业证, 学生证)","example_zh":"面试的时候要带毕业证。","example_pinyin":"Miànshì de shíhou yào dài bìyèzhèng.","example_vi":"Khi phỏng vấn phải mang bằng tốt nghiệp."},
+      {"id":"x30","hanzi":"迟","pinyin":"chí","pos":"tính từ","meaning_vi":"muộn, trễ","example_zh":"对不起，我来迟了。","example_pinyin":"Duìbuqǐ, wǒ lái chí le.","example_vi":"Xin lỗi, tôi đến muộn."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“挺……(的)” (khá, rất – khẩu ngữ)",
+        "pattern":"S + 挺 + Adj / động từ tâm lý (+ 的)",
+        "explanation_vi":"挺 (đã gặp ở HSK3) là phó từ chỉ mức độ, dùng nhiều trong khẩu ngữ, nghĩa “khá, rất”; mức độ gần với 很 nhưng nghe thân mật, nhẹ nhàng hơn, và thấp hơn 非常. Cuối câu hay thêm 的: 挺好的, 挺不错的, 挺喜欢的. 挺 đi với tính từ và động từ tâm lý (喜欢, 想, 担心…), phía sau có thể là dạng phủ định: 挺不错的, 挺不容易的.\nKhông dùng 挺 trong câu so sánh với 比; trong văn viết trang trọng nên dùng 很/非常/十分. Muốn phủ định thì nói 不太 + Adj (不太好), không đặt 不 trước 挺.",
+        "examples":[
+          {"zh":"你今天的表现挺不错的。","pinyin":"Nǐ jīntiān de biǎoxiàn tǐng búcuò de.","vi":"Hôm nay bạn thể hiện khá tốt."},
+          {"zh":"我挺想去那家公司工作的。","pinyin":"Wǒ tǐng xiǎng qù nà jiā gōngsī gōngzuò de.","vi":"Tôi khá muốn vào làm ở công ty đó."},
+          {"zh":"面试的问题挺难的，可是我都回答了。","pinyin":"Miànshì de wèntí tǐng nán de, kěshì wǒ dōu huídá le.","vi":"Câu hỏi phỏng vấn khá khó, nhưng tôi đều trả lời được."}
+        ],
+        "mistakes_vi":"✗ 他比我挺高。\n✓ 他比我高。/ 他挺高的。\nCâu so sánh với 比 không dùng 挺, 很.\n✗ 这个工作不挺好。\n✓ 这个工作不太好。\nPhủ định mức độ dùng 不太, không đặt 不 trước 挺.",
+        "compare_vi":"挺……的 ≈ “khá là…, cũng… đấy”: 挺好的 = tốt đấy, khá tốt."
+      },
+      {
+        "id":"g2",
+        "title":"“本来” (lúc đầu, vốn; vốn dĩ)",
+        "pattern":"S + 本来 + V/Adj……，后来/现在/可是……　·　本来的 + N　·　S + 本来就 + ……",
+        "explanation_vi":"本来 có ba cách dùng:\n① Phó từ “lúc đầu, vốn định / vốn là”: nói tình huống ban đầu, sau đó đã thay đổi; vế sau hay có 后来, 现在, 可是: 我本来很紧张，后来就不紧张了. 本来 đứng trước hoặc sau chủ ngữ.\n② Tính từ “vốn có, ban đầu”, làm định ngữ: 本来的颜色 (màu ban đầu).\n③ 本来就 + …: “vốn dĩ đã, đương nhiên là”: 面试本来就应该准时 (đi phỏng vấn thì đương nhiên phải đúng giờ).\nChú ý: với nghĩa ①, tình huống phải có thay đổi; nếu không thay đổi thì dùng 一直.",
+        "examples":[
+          {"zh":"我本来很紧张，后来就不紧张了。","pinyin":"Wǒ běnlái hěn jǐnzhāng, hòulái jiù bù jǐnzhāng le.","vi":"Lúc đầu tôi rất hồi hộp, sau đó thì hết hồi hộp."},
+          {"zh":"本来我打算今天去，可是公司突然有事，就没去。","pinyin":"Běnlái wǒ dǎsuàn jīntiān qù, kěshì gōngsī tūrán yǒu shì, jiù méi qù.","vi":"Lúc đầu tôi định hôm nay đi, nhưng công ty đột nhiên có việc nên không đi."},
+          {"zh":"这件衣服本来的颜色是白的。","pinyin":"Zhè jiàn yīfu běnlái de yánsè shì bái de.","vi":"Màu ban đầu của chiếc áo này là màu trắng."},
+          {"zh":"面试本来就应该准时，不能迟到。","pinyin":"Miànshì běnlái jiù yīnggāi zhǔnshí, bù néng chídào.","vi":"Đi phỏng vấn thì đương nhiên phải đúng giờ, không được đến muộn."}
+        ],
+        "mistakes_vi":"✗ 本来他很瘦，现在也很瘦。\n✓ 他一直很瘦。/ 他本来很瘦，现在胖了。\n本来 (lúc đầu) ngầm báo tình huống đã thay đổi; không đổi thì dùng 一直.\n✗ 本来的时候，我想做老师。\n✓ 我本来想做老师。\nDịch từ “lúc đầu” thành *本来的时候 là sai; bản thân 本来 đã là “lúc đầu”.",
+        "compare_vi":"本来 ≈ “lúc đầu, vốn (định)…”, như câu “Lúc đầu tôi định đi, nhưng sau đó…”. 本来就 ≈ “vốn dĩ, đương nhiên”."
+      },
+      {
+        "id":"g3",
+        "title":"“首先……，其次……” và “另外” (trình bày theo thứ tự, bổ sung ý)",
+        "pattern":"首先，……；其次，……；(最后，……)　·　另外，(S) 还……　·　另外 + (一)个/的 + N　·　另外 + V",
+        "explanation_vi":"首先 = “trước hết, đầu tiên”, 其次 = “tiếp theo, thứ hai”: dùng để trình bày các ý theo thứ tự, rất hay gặp khi phỏng vấn, phát biểu, viết bài; ý cuối có thể dùng 最后. 首先 đứng đầu câu (có thể có dấu phẩy) hoặc trước động từ; còn 先 (HSK3) chỉ là phó từ đứng trước động từ: 我先介绍一下.\n其次 còn có nghĩa “xếp sau, thứ yếu”: 能力最重要，经验其次.\n另外 = “ngoài ra”:\n① Đứng đầu câu để thêm một ý mới, vế sau hay có 还/也: 另外，你还要参加一个笔试.\n② Đứng trước (一)个/的 + danh từ = “… khác”: 另外一个问题.\n③ Đứng trước động từ = “làm thêm / làm riêng”: 我们另外找一个时间吧. Dạng ngắn, văn viết là 另: 另一个, 另找时间.",
+        "examples":[
+          {"zh":"首先，我很喜欢跟人交流；其次，这个工作能用上我的专业。","pinyin":"Shǒuxiān, wǒ hěn xǐhuan gēn rén jiāoliú; qícì, zhège gōngzuò néng yòng shang wǒ de zhuānyè.","vi":"Trước hết, tôi rất thích giao tiếp với mọi người; thứ hai, công việc này dùng được chuyên ngành của tôi."},
+          {"zh":"首先要准时，其次要有自信，最后还要有礼貌。","pinyin":"Shǒuxiān yào zhǔnshí, qícì yào yǒu zìxìn, zuìhòu hái yào yǒu lǐmào.","vi":"Trước hết phải đúng giờ, tiếp theo phải tự tin, cuối cùng còn phải lịch sự."},
+          {"zh":"另外，你还要参加一个笔试。","pinyin":"Lìngwài, nǐ hái yào cānjiā yí ge bǐshì.","vi":"Ngoài ra, bạn còn phải dự một bài thi viết."},
+          {"zh":"今天我没时间，我们另外找一个时间吧。","pinyin":"Jīntiān wǒ méi shíjiān, wǒmen lìngwài zhǎo yí ge shíjiān ba.","vi":"Hôm nay tôi không có thời gian, chúng ta tìm lúc khác nhé."}
+        ],
+        "mistakes_vi":"✗ 先，我介绍一下我自己。\n✓ 首先，我介绍一下我自己。/ 我先介绍一下我自己。\n先 là phó từ, không đứng một mình ở đầu câu như “trước hết”.\n✗ 其次，……；首先，……\n✓ 首先，……；其次，……\n其次 là ý thứ hai, phải đứng sau 首先.\n✗ 我还有另外问题。\n✓ 我还有另外一个问题。/ 另外，我还有一个问题。\n另外 làm định ngữ thì cần (一)个 hoặc 的 đi kèm.",
+        "compare_vi":"首先……其次…… ≈ “trước hết… tiếp theo…”; 另外 ≈ “ngoài ra”, hoặc “… khác” khi đứng trước danh từ."
+      },
+      {
+        "id":"g4",
+        "title":"“不管……，都/也……” (bất kể… đều…)",
+        "pattern":"不管 + từ để hỏi / A还是B / A不A / 多 + Adj，(S) + 都/也 + V",
+        "explanation_vi":"不管 = “bất kể, dù… (thế nào) thì cũng…”: trong mọi trường hợp, kết quả ở vế sau không đổi. Sau 不管 phải là một ý “mở”, có nhiều khả năng: từ để hỏi (什么, 谁, 怎么样, 多 + tính từ…), A还是B, hoặc A不A (去不去). Vế sau dùng 都 hoặc 也, đứng sau chủ ngữ.\nBa từ cùng dịch là “dù” trong tiếng Việt:\n• 尽管 (bài 2) + một sự thật cụ thể: 尽管下雨了 (trời đã mưa thật).\n• 即使 (bài 1) + một giả định: 即使下雨 (giả sử có mưa).\n• 不管 + mọi khả năng: 不管下不下雨 (mưa hay không mưa).",
+        "examples":[
+          {"zh":"不管遇到什么问题，我都会自己想办法。","pinyin":"Bùguǎn yùdào shénme wèntí, wǒ dōu huì zìjǐ xiǎng bànfǎ.","vi":"Bất kể gặp vấn đề gì, tôi đều sẽ tự tìm cách."},
+          {"zh":"不管你去不去，我都要去试试。","pinyin":"Bùguǎn nǐ qù bu qù, wǒ dōu yào qù shìshi.","vi":"Dù bạn có đi hay không, tôi cũng sẽ đi thử."},
+          {"zh":"不管工作多忙，他每天都坚持锻炼。","pinyin":"Bùguǎn gōngzuò duō máng, tā měi tiān dōu jiānchí duànliàn.","vi":"Bất kể công việc bận đến đâu, ngày nào anh ấy cũng kiên trì tập luyện."},
+          {"zh":"不管你是本科毕业还是硕士毕业，都可以来应聘。","pinyin":"Bùguǎn nǐ shì běnkē bìyè háishi shuòshì bìyè, dōu kěyǐ lái yìngpìn.","vi":"Dù bạn tốt nghiệp đại học hay thạc sĩ, đều có thể đến ứng tuyển."}
+        ],
+        "mistakes_vi":"✗ 不管天气很冷，他都去跑步。\n✓ 不管天气多冷，他都去跑步。/ 尽管天气很冷，他还是去跑步了。\nSau 不管 phải là ý chưa xác định (多冷, 冷不冷…); một sự thật cụ thể thì dùng 尽管.\n✗ 不管你去或者不去，我都去。\n✓ 不管你去还是不去，我都去。\nTrong 不管 dùng 还是 (giống câu hỏi lựa chọn), không dùng 或者.\n✗ 不管遇到什么问题，但是我不怕。\n✓ 不管遇到什么问题，我都不怕。\nVế sau dùng 都/也, không dùng 但是.",
+        "compare_vi":"Tiếng Việt chỉ cần “dù / bất kể”: dù trời lạnh thế nào, dù đi hay không… Tiếng Trung chọn từ theo loại ý: sự thật → 尽管, giả định → 即使, mọi khả năng → 不管."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Buổi phỏng vấn",
+      "scene_vi": "Lâm Nguyệt vừa tốt nghiệp chuyên ngành tiếng Trung, đến phỏng vấn vào một công ty du lịch. Giám đốc Vương, người phụ trách bộ phận, trực tiếp phỏng vấn cô.",
+      "lines": [
+        {"speaker":"王经理","zh":"你好，请坐。别紧张，我们随便聊聊。我是这个部门的负责人，我姓王。首先，请你简单介绍一下自己。","pinyin":"Nǐ hǎo, qǐng zuò. Bié jǐnzhāng, wǒmen suíbiàn liáoliao. Wǒ shì zhège bùmén de fùzérén, wǒ xìng Wáng. Shǒuxiān, qǐng nǐ jiǎndān jièshào yíxià zìjǐ.","vi":"Chào em, mời ngồi. Đừng căng thẳng, chúng ta cứ nói chuyện thoải mái. Tôi là người phụ trách bộ phận này, tôi họ Vương. Trước hết, mời em giới thiệu ngắn gọn về bản thân."},
+        {"speaker":"林月","zh":"王经理您好！我叫林月，今年六月从外语学院毕业，是本科毕业生，专业是汉语。上大学的时候，我在一家旅游公司工作过半年。","pinyin":"Wáng jīnglǐ nín hǎo! Wǒ jiào Lín Yuè, jīnnián liùyuè cóng wàiyǔ xuéyuàn bìyè, shì běnkē bìyèshēng, zhuānyè shì Hànyǔ. Shàng dàxué de shíhou, wǒ zài yì jiā lǚyóu gōngsī gōngzuòguo bàn nián.","vi":"Chào giám đốc Vương! Em tên là Lâm Nguyệt, tháng Sáu năm nay em tốt nghiệp trường ngoại ngữ, hệ đại học, chuyên ngành tiếng Trung. Hồi học đại học, em đã làm ở một công ty du lịch nửa năm."},
+        {"speaker":"王经理","zh":"挺好的。那你为什么来应聘我们公司？","pinyin":"Tǐng hǎo de. Nà nǐ wèi shénme lái yìngpìn wǒmen gōngsī?","vi":"Tốt đấy. Vậy vì sao em đến ứng tuyển vào công ty chúng tôi?"},
+        {"speaker":"林月","zh":"首先，我很喜欢跟人交流，这个工作正好能用上我的专业。其次，我听说在贵公司，年轻人有很多学习和发展的机会。","pinyin":"Shǒuxiān, wǒ hěn xǐhuan gēn rén jiāoliú, zhège gōngzuò zhènghǎo néng yòng shang wǒ de zhuānyè. Qícì, wǒ tīngshuō zài guì gōngsī, niánqīngrén yǒu hěn duō xuéxí hé fāzhǎn de jīhuì.","vi":"Trước hết, em rất thích giao tiếp với mọi người, công việc này lại vừa hay dùng được chuyên ngành của em. Thứ hai, em nghe nói ở quý công ty, người trẻ có nhiều cơ hội học hỏi và phát triển."},
+        {"speaker":"王经理","zh":"我们招聘的工作人员每天都要跟中国游客交流，有时候周末也要工作。而且不管遇到什么问题，都要自己想办法解决。你觉得你能做好吗？","pinyin":"Wǒmen zhāopìn de gōngzuò rényuán měi tiān dōu yào gēn Zhōngguó yóukè jiāoliú, yǒu shíhou zhōumò yě yào gōngzuò. Érqiě bùguǎn yùdào shénme wèntí, dōu yào zìjǐ xiǎng bànfǎ jiějué. Nǐ juéde nǐ néng zuò hǎo ma?","vi":"Nhân viên chúng tôi tuyển ngày nào cũng phải tiếp xúc với khách du lịch Trung Quốc, có khi cuối tuần cũng phải làm. Hơn nữa, gặp bất kỳ vấn đề gì cũng phải tự tìm cách giải quyết. Em thấy mình làm tốt được không?"},
+        {"speaker":"林月","zh":"我相信我能做好。在旅游公司工作的时候，我也遇到过很多难题，不管多忙多累，我都坚持下来了。另外，我是一个很准时、很负责的人。","pinyin":"Wǒ xiāngxìn wǒ néng zuò hǎo. Zài lǚyóu gōngsī gōngzuò de shíhou, wǒ yě yùdàoguo hěn duō nántí, bùguǎn duō máng duō lèi, wǒ dōu jiānchí xiàlai le. Lìngwài, wǒ shì yí ge hěn zhǔnshí, hěn fùzé de rén.","vi":"Em tin là em làm tốt được. Hồi làm ở công ty du lịch, em cũng từng gặp nhiều chuyện khó, dù bận dù mệt thế nào em cũng đều cố gắng vượt qua. Ngoài ra, em là người rất đúng giờ và có trách nhiệm."},
+        {"speaker":"王经理","zh":"看得出来，你很自信。那你觉得自己有什么缺点？","pinyin":"Kàn de chūlai, nǐ hěn zìxìn. Nà nǐ juéde zìjǐ yǒu shénme quēdiǎn?","vi":"Nhìn là thấy em rất tự tin. Vậy em thấy mình có khuyết điểm gì?"},
+        {"speaker":"林月","zh":"我的工作经验还不太多，可是我学东西很快，也愿意多学习。其实我本来很紧张，跟您聊了一会儿，现在好多了。","pinyin":"Wǒ de gōngzuò jīngyàn hái bú tài duō, kěshì wǒ xué dōngxi hěn kuài, yě yuànyì duō xuéxí. Qíshí wǒ běnlái hěn jǐnzhāng, gēn nín liáo le yíhuìr, xiànzài hǎo duō le.","vi":"Kinh nghiệm làm việc của em còn chưa nhiều, nhưng em học rất nhanh và sẵn sàng học hỏi thêm. Thật ra lúc đầu em rất hồi hộp, nói chuyện với anh một lúc, bây giờ đỡ nhiều rồi."},
+        {"speaker":"王经理","zh":"你的申请材料我们都看了，你的成绩很优秀，今天的表现也挺不错的。另外，你还要参加一个笔试。下星期一上午九点，请准时来公司。笔试以后，我们会打电话通知你。","pinyin":"Nǐ de shēnqǐng cáiliào wǒmen dōu kàn le, nǐ de chéngjì hěn yōuxiù, jīntiān de biǎoxiàn yě tǐng búcuò de. Lìngwài, nǐ hái yào cānjiā yí ge bǐshì. Xià xīngqīyī shàngwǔ jiǔ diǎn, qǐng zhǔnshí lái gōngsī. Bǐshì yǐhòu, wǒmen huì dǎ diànhuà tōngzhī nǐ.","vi":"Hồ sơ xin việc của em chúng tôi đã xem hết, thành tích của em rất xuất sắc, hôm nay em cũng thể hiện khá tốt. Ngoài ra, em còn phải làm một bài thi viết. Chín giờ sáng thứ Hai tuần sau, mời em đến công ty đúng giờ. Sau bài thi viết, chúng tôi sẽ gọi điện thông báo cho em."},
+        {"speaker":"林月","zh":"好的，我一定准时到。谢谢王经理！","pinyin":"Hǎo de, wǒ yídìng zhǔnshí dào. Xièxie Wáng jīnglǐ!","vi":"Vâng ạ, em nhất định sẽ đến đúng giờ. Cảm ơn giám đốc Vương!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:面试","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"明天上午我要去一家公司____。","options":["面试","毕业","专业","印象"],"answer":0,"explanation_vi":"去一家公司面试 = đến một công ty phỏng vấn."},
+      {"id":"e2","type":"choice","tag":"v:经验","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他在这家公司工作了十年，很有____。","options":["经验","毕业","申请","紧张"],"answer":0,"explanation_vi":"很有经验 = rất có kinh nghiệm."},
+      {"id":"e3","type":"choice","tag":"v:专业","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你大学学的是什么____？","options":["专业","能力","经验","表现"],"answer":0,"explanation_vi":"学什么专业 = học chuyên ngành gì. Ngành học là 专业, không phải 专门."},
+      {"id":"e4","type":"choice","tag":"v:紧张","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"第一次面试的时候，我很____，话都说不好。","options":["紧张","优秀","自信","准时"],"answer":0,"explanation_vi":"紧张 = hồi hộp, căng thẳng, nên nói không trôi chảy."},
+      {"id":"e5","type":"choice","tag":"v:印象","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他的态度很好，经理对他的____不错。","options":["印象","经验","能力","专业"],"answer":0,"explanation_vi":"对……的印象不错 = có ấn tượng tốt về…."},
+      {"id":"e6","type":"choice","tag":"g:挺","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个工作____好的，我很喜欢。","options":["挺","太","真","最"],"answer":0,"explanation_vi":"挺 + Adj + 的: 挺好的 = khá tốt. 太 phải đi với 了 (太好了)."},
+      {"id":"e7","type":"choice","tag":"g:本来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____想今天去，可是后来有事，就没去。","options":["本来","首先","另外","不管"],"answer":0,"explanation_vi":"本来 = lúc đầu (định…), sau đó thay đổi (后来有事，就没去)."},
+      {"id":"e8","type":"choice","tag":"g:首先其次","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____，我很喜欢这个专业；其次，我也有工作经验。","options":["首先","最后","另外","本来"],"answer":0,"explanation_vi":"首先……；其次……: trước hết…; tiếp theo…."},
+      {"id":"e9","type":"choice","tag":"g:不管","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____工作多忙，他每天都锻炼。","options":["不管","尽管","因为","所以"],"answer":0,"explanation_vi":"Sau chỗ trống là 多忙 (bận đến đâu – ý mở) và vế sau có 都, nên dùng 不管. 尽管 phải đi với một sự thật cụ thể (尽管工作很忙)."},
+      {"id":"e10","type":"order","tag":"g:不管","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["不管","遇到什么问题","他","都","不着急"],"answers":["不管遇到什么问题他都不着急","他不管遇到什么问题都不着急"],"translation_vi":"Bất kể gặp vấn đề gì, anh ấy đều không vội vàng lo lắng.","explanation_vi":"不管 + từ để hỏi (什么), chủ ngữ + 都 + ….. Chủ ngữ 他 có thể đứng đầu câu."},
+      {"id":"e11","type":"order","tag":"g:另外","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["另外","我","还","想","问一个问题"],"answers":["另外我还想问一个问题","我另外还想问一个问题"],"translation_vi":"Ngoài ra, tôi còn muốn hỏi một câu.","explanation_vi":"另外 đứng đầu câu (hoặc sau chủ ngữ), vế sau có 还."},
+      {"id":"e12","type":"order","tag":"g:挺","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","今天的","表现","挺","不错的"],"answers":["你今天的表现挺不错的"],"translation_vi":"Hôm nay bạn thể hiện khá tốt.","explanation_vi":"Chủ ngữ (你今天的表现) + 挺 + 不错 + 的."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"面试","vi":"phỏng vấn"},{"zh":"招聘","vi":"tuyển dụng"},{"zh":"应聘","vi":"ứng tuyển"},{"zh":"毕业","vi":"tốt nghiệp"},{"zh":"申请","vi":"nộp đơn xin"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"能力","vi":"năng lực"},{"zh":"态度","vi":"thái độ"},{"zh":"自信","vi":"tự tin"},{"zh":"优秀","vi":"xuất sắc"},{"zh":"经验","vi":"kinh nghiệm"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:挺","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他的汉语挺好的。","他的汉语比我挺好。","他的汉语不挺好。","他挺汉语好的。"],"answer":0,"explanation_vi":"挺 + Adj + 的. Không dùng 挺 trong câu 比; phủ định nói 不太好; 挺 đứng ngay trước tính từ."},
+        {"id":"q2","type":"choice","tag":"g:本来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他____很瘦，现在胖了。","options":["本来","首先","另外","其次"],"answer":0,"explanation_vi":"本来 = lúc đầu vốn…; vế sau cho thấy đã thay đổi (现在胖了)."},
+        {"id":"q3","type":"choice","tag":"g:首先其次","prompt_vi":"Chọn cặp từ đúng điền vào hai chỗ trống.","question_zh":"____要准时，____要有自信，最后要有礼貌。","options":["首先……其次……","其次……首先……","另外……首先……","最后……其次……"],"answer":0,"explanation_vi":"Thứ tự đúng: 首先 → 其次 → 最后."},
+        {"id":"q4","type":"choice","tag":"g:另外","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个工作我很喜欢。____，我还想问一个问题。","options":["另外","首先","本来","不管"],"answer":0,"explanation_vi":"另外 (ngoài ra) đứng đầu câu để thêm một ý mới; vế sau có 还."},
+        {"id":"q5","type":"choice","tag":"g:不管","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"不管你去不去，我____要去。","options":["都","就","才","却"],"answer":0,"explanation_vi":"不管……，都/也……: dù bạn đi hay không, tôi cũng sẽ đi."},
+        {"id":"q6","type":"choice","tag":"g:不管","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["不管天气怎么样，他都去跑步。","不管天气很冷，他都去跑步。","不管天气怎么样，但是他去跑步。","不管天气怎么样，他去跑步都。"],"answer":0,"explanation_vi":"Sau 不管 cần ý mở (怎么样); vế sau dùng 都 đứng trước động từ, không dùng 但是."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:首","prompt_vi":"Chọn lượng từ đúng.","question_zh":"我会唱很多____中文歌。","options":["首","部","份","张"],"answer":0,"explanation_vi":"首 là lượng từ cho bài hát, bài thơ: 一首歌. 部 cho phim, 份 cho công việc/giấy tờ, 张 cho tờ giấy, bàn."},
+      {"id":"t2","type":"choice","tag":"g:不管","prompt_vi":"Chọn đáp án đúng.","question_zh":"____你同意不同意，我都要去试试。","options":["不管","尽管","虽然","即使"],"answer":0,"explanation_vi":"Sau chỗ trống là dạng A不A (同意不同意) và vế sau có 都 → 不管."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"条件","vi":"điều kiện"},{"zh":"通知","vi":"thông báo"},{"zh":"正式","vi":"chính thức"},{"zh":"准时","vi":"đúng giờ"},{"zh":"顺利","vi":"suôn sẻ"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"本科","vi":"hệ đại học (cử nhân)"},{"zh":"硕士","vi":"thạc sĩ"},{"zh":"博士","vi":"tiến sĩ"},{"zh":"毕业生","vi":"sinh viên tốt nghiệp"},{"zh":"部门","vi":"phòng ban"}]},
+      {"id":"t5","type":"order","tag":"g:首先其次","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["首先","请你","介绍一下","自己"],"answers":["首先请你介绍一下自己"],"translation_vi":"Trước hết, mời bạn giới thiệu về bản thân.","explanation_vi":"首先 đứng đầu câu; 介绍一下自己 = giới thiệu bản thân."},
+      {"id":"t6","type":"order","tag":"g:本来","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","本来","很紧张","现在","好多了"],"answers":["我本来很紧张现在好多了","本来我很紧张现在好多了"],"translation_vi":"Lúc đầu tôi rất hồi hộp, bây giờ đỡ nhiều rồi.","explanation_vi":"本来 đứng trước hoặc sau chủ ngữ; vế sau nói sự thay đổi (现在好多了)."},
+      {"id":"t7","type":"fill","tag":"v:毕业","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我今年六月大学____，现在正在找工作。","answers":["毕业"],"hint_vi":"tốt nghiệp","explanation_vi":"大学毕业 = tốt nghiệp đại học (không nói 毕业大学)."},
+      {"id":"t8","type":"fill","tag":"g:挺","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"你今天的表现____不错的。","answers":["挺"],"hint_vi":"“khá, rất” (khẩu ngữ, hay đi với 的 ở cuối)","explanation_vi":"挺不错的 = khá tốt."},
+      {"id":"t9","type":"listen_choice","tag":"v:通知","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"笔试以后，我们会打电话通知你。","options":["Sau bài thi viết, chúng tôi sẽ gọi điện thông báo cho bạn.","Trước bài thi viết, chúng tôi sẽ gọi điện cho bạn.","Sau buổi phỏng vấn, bạn hãy gọi điện cho chúng tôi.","Chúng tôi sẽ gửi email thông báo cho bạn."],"answer":0,"explanation_vi":"笔试以后 = sau bài thi viết; 打电话通知你 = gọi điện thông báo cho bạn."},
+      {"id":"t10","type":"listen_choice","tag":"g:另外","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"另外，你还要参加一个笔试。","options":["另外，你还要参加一个笔试。","另外，你还要参加一个面试。","首先，你要参加一个笔试。","另外，你不用参加笔试。"],"answer":0,"explanation_vi":"Câu nghe được: 另外，你还要参加一个笔试 = Ngoài ra, bạn còn phải dự một bài thi viết."},
+      {"id":"t11","type":"dictation","tag":"g:不管","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"不管遇到什么问题，我都会自己想办法。","answers":["不管遇到什么问题我都会自己想办法"],"explanation_vi":"不管遇到什么问题，我都会自己想办法 = Bất kể gặp vấn đề gì, tôi đều sẽ tự tìm cách."},
+      {"id":"t12","type":"dictation","tag":"v:印象","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"经理对我的印象挺不错的。","answers":["经理对我的印象挺不错的","经理对我印象挺不错的"],"explanation_vi":"经理对我的印象挺不错的 = Giám đốc có ấn tượng khá tốt về tôi."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:本来","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Lúc đầu tôi rất hồi hộp, bây giờ đỡ nhiều rồi.","answers":["我本来很紧张现在好多了","本来我很紧张现在好多了","我本来很紧张现在已经好多了","本来我很紧张现在已经好多了","我本来很紧张可是现在好多了","本来我很紧张可是现在好多了","我本来很紧张但是现在好多了","本来我很紧张但是现在好多了","我本来特别紧张现在好多了","我本来非常紧张现在好多了","我本来很紧张现在好一些了","我本来很紧张现在好一点儿了"],"explanation_vi":"本来 (lúc đầu) + 很紧张，现在好多了 (đỡ nhiều rồi)."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:不管","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Dù bạn có đi hay không, tôi cũng đi.","answers":["不管你去不去我都去","不管你去不去我也去","不管你去还是不去我都去","不管你去还是不去我也去","不管你去不去我都要去","不管你去不去我也要去","不管你去还是不去我都要去","不管你去还是不去我也要去","不管你去不去我都会去","不管你去不去我也会去","不管你去还是不去我都会去","不管你去还是不去我也会去"],"explanation_vi":"不管 + 去不去 / 去还是不去, 我 + 都/也 + 去."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:首先其次","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"首先要准时，其次要有自信。","answers_vi":["Trước hết phải đúng giờ, sau đó phải tự tin.","Đầu tiên cần đúng giờ, thứ hai là cần có sự tự tin."],"keywords":[["trước hết","đầu tiên","trước tiên","thứ nhất"],["đúng giờ"],["sau đó","thứ hai","tiếp theo","kế đến","tiếp đến","thứ nữa"],["tự tin"]],"explanation_vi":"首先 = trước hết; 其次 = tiếp theo, thứ hai."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:态度","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他工作的态度很认真。","answers_vi":["Thái độ làm việc của anh ấy rất nghiêm túc.","Anh ấy có thái độ làm việc rất chăm chỉ."],"keywords":[["thái độ"],["làm việc","công việc"],["nghiêm túc","chăm chỉ","cẩn thận","chu đáo","chịu khó","tận tâm"]],"explanation_vi":"工作的态度 = thái độ làm việc; 认真 = nghiêm túc, chăm chỉ."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"面试的时候怎样留下好印象",
+        "title_vi":"Làm sao để lại ấn tượng tốt khi phỏng vấn",
+        "paragraphs":[
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["大学","dàxué","đại học"],["毕业生","bìyèshēng","sinh viên tốt nghiệp"],["越来越","yuè lái yuè","càng ngày càng"],["多","duō","nhiều"],["，"],["找","zhǎo","tìm"],["工作","gōngzuò","việc làm"],["也","yě","cũng"],["越来越","yuè lái yuè","càng ngày càng"],["难","nán","khó"],["。"],["很多","hěn duō","nhiều"],["公司","gōngsī","công ty"],["招聘","zhāopìn","tuyển dụng"],["的","de","(trợ từ)"],["时候","shíhou","khi"],["，"],["不仅","bùjǐn","không chỉ"],["要","yào","cần"],["看","kàn","xem"],["你","nǐ","bạn"],["的","de","của"],["专业","zhuānyè","chuyên ngành"],["和","hé","và"],["能力","nénglì","năng lực"],["，"],["还要","hái yào","còn phải"],["看","kàn","xem"],["你","nǐ","bạn"],["在","zài","trong"],["面试","miànshì","phỏng vấn"],["中","zhōng","trong"],["的","de","(trợ từ)"],["表现","biǎoxiàn","sự thể hiện"],["。"],["那么","nàme","vậy thì"],["，"],["怎样","zěnyàng","làm thế nào"],["才","cái","mới"],["能","néng","có thể"],["给","gěi","cho"],["对方","duìfāng","người kia"],["留下","liú xià","để lại"],["一个","yí ge","một"],["好","hǎo","tốt"],["印象","yìnxiàng","ấn tượng"],["呢","ne","(trợ từ hỏi)"],["？"]],
+            "vi":"Bây giờ sinh viên tốt nghiệp ngày càng nhiều, tìm việc cũng ngày càng khó. Khi tuyển dụng, nhiều công ty không chỉ xem chuyên ngành và năng lực của bạn, mà còn xem bạn thể hiện thế nào trong buổi phỏng vấn. Vậy làm thế nào mới để lại được ấn tượng tốt cho người phỏng vấn?"
+          },
+          {
+            "tokens":[["首先","shǒuxiān","trước hết"],["，"],["要","yào","phải"],["准时","zhǔnshí","đúng giờ"],["。"],["面试","miànshì","phỏng vấn"],["那天","nà tiān","hôm đó"],["最好","zuìhǎo","tốt nhất"],["早","zǎo","sớm"],["到","dào","đến"],["十","shí","mười"],["分钟","fēnzhōng","phút"],["，"],["一定","yídìng","nhất định"],["不要","búyào","đừng"],["迟到","chídào","đến muộn"],["。"],["其次","qícì","tiếp theo"],["，"],["要","yào","phải"],["有","yǒu","có"],["自信","zìxìn","sự tự tin"],["。"],["很多","hěn duō","nhiều"],["人","rén","người"],["面试","miànshì","phỏng vấn"],["的","de","(trợ từ)"],["时候","shíhou","khi"],["很","hěn","rất"],["紧张","jǐnzhāng","hồi hộp"],["，"],["本来","běnlái","vốn"],["准备","zhǔnbèi","chuẩn bị"],["得","de","(trợ từ)"],["很","hěn","rất"],["好","hǎo","tốt"],["，"],["可是","kěshì","nhưng"],["一","yì","hễ"],["紧张","jǐnzhāng","hồi hộp"],["就","jiù","là"],["什么","shénme","cái gì"],["都","dōu","cũng"],["忘","wàng","quên"],["了","le","(mất)"],["。"],["另外","lìngwài","ngoài ra"],["，"],["回答","huídá","trả lời"],["问题","wèntí","câu hỏi"],["的","de","(trợ từ)"],["态度","tàidù","thái độ"],["要","yào","phải"],["诚实","chéngshí","thành thật"],["，"],["不知道","bù zhīdào","không biết"],["的","de","(điều)"],["就","jiù","thì"],["说","shuō","nói"],["不知道","bù zhīdào","không biết"],["。"]],
+            "vi":"Trước hết, phải đúng giờ. Hôm phỏng vấn tốt nhất nên đến sớm mười phút, nhất định đừng đến muộn. Tiếp theo, phải tự tin. Nhiều người khi phỏng vấn rất hồi hộp, vốn đã chuẩn bị rất kỹ, nhưng hễ hồi hộp là quên sạch. Ngoài ra, thái độ trả lời câu hỏi phải thành thật, điều gì không biết thì nói là không biết."
+          },
+          {
+            "tokens":[["最后","zuìhòu","cuối cùng"],["，"],["不管","bùguǎn","bất kể"],["能不能","néng bu néng","có… hay không"],["得到","dédào","có được"],["这","zhè","này"],["份","fèn","(lượng từ cho công việc)"],["工作","gōngzuò","công việc"],["，"],["走","zǒu","đi về"],["的","de","(trợ từ)"],["时候","shíhou","khi"],["都","dōu","đều"],["要","yào","phải"],["记得","jìde","nhớ"],["说","shuō","nói"],["一声","yì shēng","một tiếng"],["“"],["谢谢","xièxie","cảm ơn"],["”"],["。"],["有","yǒu","có"],["礼貌","lǐmào","lễ phép"],["的","de","(trợ từ)"],["人","rén","người"],["，"],["总是","zǒngshì","luôn"],["更","gèng","càng"],["容易","róngyì","dễ"],["让","ràng","làm cho"],["人","rén","người ta"],["记住","jìzhù","nhớ"],["。"]],
+            "vi":"Cuối cùng, bất kể có nhận được công việc này hay không, lúc ra về đều nhớ nói một tiếng “cảm ơn”. Người lịch sự lúc nào cũng dễ được người khác nhớ đến hơn."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"很多公司招聘的时候，除了专业和能力，还要看什么？","options":["面试中的表现","年龄","家庭","性别"],"answer":0,"explanation_vi":"Đoạn 1: 还要看你在面试中的表现."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"面试那天晚到十分钟也没关系。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 最好早到十分钟，一定不要迟到 — câu này sai."},
+          {"id":"rq3","type":"choice","tag":"v:紧张","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"有的人本来准备得很好，为什么面试的时候什么都忘了？","options":["因为太紧张了","因为没有准备","因为迟到了","因为太自信了"],"answer":0,"explanation_vi":"Đoạn 2: 本来准备得很好，可是一紧张就什么都忘了."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"回答问题的时候，应该怎么样？","options":["态度诚实，不知道就说不知道","什么问题都说知道","说得越多越好","难的问题不回答"],"answer":0,"explanation_vi":"Đoạn 2: 回答问题的态度要诚实，不知道的就说不知道."},
+          {"id":"rq5","type":"choice","tag":"g:不管","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"不管能不能得到工作，走的时候都应该说“谢谢”。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 不管能不能得到这份工作，走的时候都要记得说一声“谢谢”."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Gọi điện cho mẹ sau buổi phỏng vấn",
+        "text_zh":"妈，我刚面试完，今天挺顺利的。我本来很紧张，可是王经理很客气，跟他聊了一会儿以后，我就不紧张了。经理说我的条件很符合他们的要求，对我的印象也挺不错的。下星期一我还要参加一个笔试，经理让我那天带上毕业证，再填写一张表格。如果没有问题，下个月我就可以正式上班了。您放心吧，不管能不能得到这份工作，我都学到了很多。",
+        "pinyin":"Mā, wǒ gāng miànshì wán, jīntiān tǐng shùnlì de. Wǒ běnlái hěn jǐnzhāng, kěshì Wáng jīnglǐ hěn kèqi, gēn tā liáo le yíhuìr yǐhòu, wǒ jiù bù jǐnzhāng le. Jīnglǐ shuō wǒ de tiáojiàn hěn fúhé tāmen de yāoqiú, duì wǒ de yìnxiàng yě tǐng búcuò de. Xià xīngqīyī wǒ hái yào cānjiā yí ge bǐshì, jīnglǐ ràng wǒ nà tiān dàishang bìyèzhèng, zài tiánxiě yì zhāng biǎogé. Rúguǒ méiyǒu wèntí, xià ge yuè wǒ jiù kěyǐ zhèngshì shàngbān le. Nín fàngxīn ba, bùguǎn néng bu néng dédào zhè fèn gōngzuò, wǒ dōu xué dào le hěn duō.",
+        "vi":"Mẹ ơi, con vừa phỏng vấn xong, hôm nay khá suôn sẻ ạ. Lúc đầu con rất hồi hộp, nhưng giám đốc Vương rất lịch sự, nói chuyện với ông ấy một lúc thì con hết hồi hộp. Giám đốc nói điều kiện của con rất phù hợp với yêu cầu của họ, ấn tượng về con cũng khá tốt. Thứ Hai tuần sau con còn phải làm một bài thi viết, giám đốc bảo hôm đó con mang theo bằng tốt nghiệp và điền thêm một tờ đơn. Nếu không có vấn đề gì thì tháng sau con có thể chính thức đi làm. Mẹ yên tâm nhé, dù có được nhận công việc này hay không, con cũng đã học được rất nhiều.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"v:顺利","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"说话人觉得今天的面试怎么样？","options":["挺顺利的","很不顺利","太难了","没意思"],"answer":0,"explanation_vi":"Nghe được: 今天挺顺利的."},
+          {"id":"lq2","type":"choice","tag":"v:印象","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"经理对说话人的印象怎么样？","options":["挺不错的","不太好","很一般","很差"],"answer":0,"explanation_vi":"Nghe được: 对我的印象也挺不错的."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"下星期一说话人要做什么？","options":["参加笔试","正式上班","去别的公司面试","去学院拿毕业证"],"answer":0,"explanation_vi":"Nghe được: 下星期一我还要参加一个笔试."},
+          {"id":"lq4","type":"choice","tag":"g:本来","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"说话人面试的时候紧张吗？","options":["本来很紧张，后来不紧张了","一直很紧张","一点儿也不紧张","笔试的时候才紧张"],"answer":0,"explanation_vi":"Nghe được: 我本来很紧张……跟他聊了一会儿以后，我就不紧张了."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"面试","pinyin":"miànshì","vi":"phỏng vấn","tip_vi":"Hai thanh 4 liền nhau: cả hai đều rơi dứt khoát. 试 shì: sh uốn lưỡi, vần -i đọc như “ư” uốn lưỡi, đừng đọc thành “si” hay “xi”."},
+      {"id":"s2","zh":"印象","pinyin":"yìnxiàng","vi":"ấn tượng","tip_vi":"印 yìn kết thúc bằng -n (đầu lưỡi chạm lợi), 象 xiàng kết thúc bằng -ng (cuống lưỡi). x mặt lưỡi, môi dẹt, khác “x” tiếng Việt."},
+      {"id":"s3","zh":"挺不错的","pinyin":"tǐng búcuò de","vi":"khá tốt","tip_vi":"不 đọc bú (thanh 2) vì 错 là thanh 4. 挺 tǐng: t bật hơi, -ing cuống lưỡi, đừng đọc thành “thỉnh”. 的 đọc nhẹ."},
+      {"id":"s4","zh":"我本来有点儿紧张。","pinyin":"Wǒ běnlái yǒudiǎnr jǐnzhāng.","vi":"Lúc đầu tôi hơi hồi hộp.","tip_vi":"有点儿 yǒudiǎnr là hai thanh 3 liền nhau: 有 đọc gần thanh 2; 儿 cuốn lưỡi. 紧张 jǐnzhāng: -in rồi -ang, zh uốn lưỡi. 我本 wǒ běn cũng là hai thanh 3."},
+      {"id":"s5","zh":"首先，请你介绍一下自己。","pinyin":"Shǒuxiān, qǐng nǐ jièshào yíxià zìjǐ.","vi":"Trước hết, mời bạn giới thiệu bản thân.","tip_vi":"首 shǒu: sh uốn lưỡi. 请你 qǐng nǐ là hai thanh 3: 请 đọc gần thanh 2. 一下 yíxià: 一 thanh 2. 自己 zìjǐ: z đầu lưỡi, j mặt lưỡi, hai âm khác nhau."},
+      {"id":"s6","zh":"不管遇到什么问题，我都会自己想办法。","pinyin":"Bùguǎn yùdào shénme wèntí, wǒ dōu huì zìjǐ xiǎng bànfǎ.","vi":"Bất kể gặp vấn đề gì, tôi đều sẽ tự tìm cách.","tip_vi":"不管 bùguǎn: 不 giữ thanh 4 vì 管 là thanh 3. 遇 yù: ü tròn môi, đừng đọc thành “dụ”. 想办法 xiǎng bànfǎ: 法 cuối cụm đọc đủ thanh 3."},
+      {"id":"s7","zh":"首先要准时，其次要有自信。","pinyin":"Shǒuxiān yào zhǔnshí, qícì yào yǒu zìxìn.","vi":"Trước hết phải đúng giờ, tiếp theo phải tự tin.","tip_vi":"准时 zhǔnshí: zh và sh đều uốn lưỡi. 其次 qícì: q và c đều bật hơi mạnh. 自信 zìxìn: z đầu lưỡi, x mặt lưỡi; -in đầu lưỡi."},
+      {"id":"s8","zh":"另外，我还想申请这个部门的工作。","pinyin":"Lìngwài, wǒ hái xiǎng shēnqǐng zhège bùmén de gōngzuò.","vi":"Ngoài ra, tôi còn muốn xin vào làm ở bộ phận này.","tip_vi":"另 lìng: -ing cuống lưỡi. 申请 shēnqǐng: -en (đầu lưỡi) rồi -ing (cuống lưỡi), q bật hơi. 部门 bùmén: b không bật hơi, không rung như “b” tiếng Việt."}
+    ],
+    "review": {
+      "remember": [
+        "挺 + Adj / động từ tâm lý (+ 的) = khá, rất (khẩu ngữ): 挺好的, 挺不错的, 挺想去的; không dùng trong câu 比, phủ định nói 不太.",
+        "本来 = lúc đầu, vốn… (sau đó đã thay đổi): 我本来很紧张，现在好多了; 本来的 + N = … ban đầu; 本来就 = vốn dĩ, đương nhiên.",
+        "首先……，其次……，最后……: trình bày theo thứ tự; 先 chỉ là phó từ đứng trước động từ (我先介绍一下).",
+        "另外: ① đầu câu = ngoài ra (另外，我还……); ② 另外 + (一)个/的 + N = … khác; ③ 另外 + V = làm thêm, làm riêng.",
+        "不管 + từ để hỏi / A还是B / A不A，(S) 都/也……: bất kể… đều…. “Dù”: sự thật → 尽管, giả định → 即使, mọi khả năng → 不管. Nhớ: 专业 = ngành học, 紧张 = hồi hộp (không phải “khẩn trương”), 大学毕业 (không nói 毕业大学)."
+      ],
+      "mistakes": [
+        "✗ 不管天气很冷，他都去跑步 → ✓ 不管天气多冷，他都去跑步: sau 不管 phải có ý mở (多冷, 冷不冷, 什么…).",
+        "✗ 他比我挺高 → ✓ 他比我高 / 他挺高的: câu so sánh 比 không dùng 挺.",
+        "✗ 我毕业大学了 → ✓ 我大学毕业了: 毕业 không mang tân ngữ; “tốt nghiệp đại học” = 大学毕业."
+      ]
+    }
+  }
+}

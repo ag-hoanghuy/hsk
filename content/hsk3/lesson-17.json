@@ -1,0 +1,211 @@
+{
+  "level": 3,
+  "number": 17,
+  "summary": "Nói về thói quen tốt, xấu và khuyên nhủ nhau nhẹ nhàng; học cách lặp động từ hai âm tiết (休息休息、聊聊天) và đại từ nghi vấn dùng với nghĩa “ai cũng, gì cũng, đâu cũng” (谁都、什么都、哪儿都).",
+  "readings_ok": ["着 zháo", "地 de", "得 de", "子 zǐ", "里 li", "片 piàn"],
+  "content": {
+    "objectives": [
+      "Kể về thói quen tốt và xấu của mình: 我有个坏习惯……、我习惯……",
+      "Khuyên người khác bằng 应该、该、最好 và nói nhẹ nhàng hơn bằng động từ lặp (休息休息、锻炼锻炼、聊聊天)",
+      "Nói “ai cũng / gì cũng / đâu cũng…” bằng 谁都、什么都、哪儿都、什么时候都",
+      "Nói về cảm xúc khi gặp chuyện khó (生气、难过、害怕) và cách giải quyết"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"办法","pinyin":"bànfǎ","pos":"danh từ","meaning_vi":"cách, biện pháp (để xử lý một việc)","example_zh":"别着急，我们一起想想办法。","example_pinyin":"Bié zháojí, wǒmen yìqǐ xiǎngxiang bànfǎ.","example_vi":"Đừng sốt ruột, chúng ta cùng nghĩ cách xem.","hanviet":"BIỆN PHÁP","note_vi":"办法 là cách cụ thể để xử lý một việc: 有办法 (có cách), 没办法 (hết cách), 想办法 (nghĩ cách). 方法 thiên về phương pháp, cách làm có trình tự: 学习方法 (phương pháp học)."},
+      {"id":"v2","hanzi":"习惯","pinyin":"xíguàn","pos":"danh từ / động từ","meaning_vi":"thói quen; quen (với)","example_zh":"我习惯每天早上喝一杯咖啡。","example_pinyin":"Wǒ xíguàn měi tiān zǎoshang hē yì bēi kāfēi.","example_vi":"Tôi quen mỗi sáng uống một cốc cà phê.","hanviet":"TẬP QUÁN","note_vi":"Danh từ: 好习惯 (thói quen tốt), 坏习惯 (thói quen xấu). Động từ: 习惯 + việc (quen làm gì), 习惯了 (đã quen rồi), 不习惯 (chưa quen). Nghĩa hay gặp là “thói quen”, không phải “phong tục tập quán”."},
+      {"id":"v3","hanzi":"应该","pinyin":"yīnggāi","pos":"động từ năng nguyện","meaning_vi":"nên, cần phải","example_zh":"你感冒了，应该多喝水。","example_pinyin":"Nǐ gǎnmào le, yīnggāi duō hē shuǐ.","example_vi":"Bạn bị cảm rồi, nên uống nhiều nước.","note_vi":"Phủ định là 不应该 (không nên). 应该 dùng được cả khi nói lẫn khi viết; 该 ngắn gọn, khẩu ngữ hơn."},
+      {"id":"v4","hanzi":"最好","pinyin":"zuìhǎo","pos":"phó từ","meaning_vi":"tốt nhất là, nên","example_zh":"晚上你最好别喝咖啡。","example_pinyin":"Wǎnshang nǐ zuìhǎo bié hē kāfēi.","example_vi":"Buổi tối bạn tốt nhất đừng uống cà phê.","note_vi":"最好 + (别/不要) + V = tốt nhất là (đừng)…: lời khuyên mềm và lịch sự. Đừng nhầm với 最好 làm định ngữ: 我最好的朋友 (người bạn thân nhất của tôi)."},
+      {"id":"v5","hanzi":"坚持","pinyin":"jiānchí","pos":"động từ","meaning_vi":"kiên trì, duy trì đều đặn","example_zh":"他坚持每天跑步，已经一年了。","example_pinyin":"Tā jiānchí měi tiān pǎobù, yǐjīng yì nián le.","example_vi":"Anh ấy kiên trì chạy bộ mỗi ngày, đã được một năm rồi.","hanviet":"KIÊN TRÌ","note_vi":"坚持 + V: đều đặn làm một việc trong thời gian dài (坚持锻炼, 坚持学习). Còn có nghĩa “nhất quyết”: 他坚持自己去 (anh ấy nhất quyết tự đi)."},
+      {"id":"v6","hanzi":"解决","pinyin":"jiějué","pos":"động từ","meaning_vi":"giải quyết","example_zh":"这个问题我们一定能解决。","example_pinyin":"Zhège wèntí wǒmen yídìng néng jiějué.","example_vi":"Vấn đề này chúng ta nhất định giải quyết được.","hanviet":"GIẢI QUYẾT","note_vi":"Tân ngữ thường là 问题, 难题, 事. Bài tập thì không “giải quyết” mà 做完 / 做好."},
+      {"id":"v7","hanzi":"方法","pinyin":"fāngfǎ","pos":"danh từ","meaning_vi":"phương pháp, cách làm","example_zh":"你的学习方法很好，可以给我介绍介绍吗？","example_pinyin":"Nǐ de xuéxí fāngfǎ hěn hǎo, kěyǐ gěi wǒ jièshào jièshào ma?","example_vi":"Phương pháp học của bạn hay quá, giới thiệu cho mình một chút được không?","hanviet":"PHƯƠNG PHÁP","note_vi":"Hay gặp: 学习方法, 好方法, 简单的方法. So với 办法: không nói “没方法”, mà nói 没办法 (hết cách)."},
+      {"id":"v8","hanzi":"该","pinyin":"gāi","pos":"động từ năng nguyện","meaning_vi":"nên; đến lúc phải","example_zh":"十一点了，我该睡觉了。","example_pinyin":"Shíyī diǎn le, wǒ gāi shuìjiào le.","example_vi":"Mười một giờ rồi, tôi phải đi ngủ thôi.","note_vi":"Mẫu 该……了 = đã đến lúc… rồi: 该吃饭了 (đến giờ ăn rồi), 该走了 (phải đi thôi). 该 là cách nói ngắn, thân mật của 应该."},
+      {"id":"v9","hanzi":"有用","pinyin":"yǒuyòng","pos":"tính từ","meaning_vi":"có ích, có tác dụng","example_zh":"这个办法很有用，你试试吧。","example_pinyin":"Zhège bànfǎ hěn yǒuyòng, nǐ shìshi ba.","example_vi":"Cách này có ích lắm, bạn thử xem.","hanviet":"HỮU DỤNG","note_vi":"Ngược nghĩa là 没用 / 没有用 (vô ích, chẳng được gì): 着急也没有用 (sốt ruột cũng chẳng ích gì)."},
+      {"id":"v10","hanzi":"简单","pinyin":"jiǎndān","pos":"tính từ","meaning_vi":"đơn giản","example_zh":"这个方法很简单，谁都会。","example_pinyin":"Zhège fāngfǎ hěn jiǎndān, shéi dōu huì.","example_vi":"Phương pháp này rất đơn giản, ai cũng làm được.","hanviet":"GIẢN ĐƠN","note_vi":"Tiếng Việt nói “đơn giản”, tiếng Trung đảo lại thành 简单 (giản đơn). Đừng viết thành 单简."},
+      {"id":"v11","hanzi":"遇到","pinyin":"yùdào","pos":"động từ","meaning_vi":"gặp (phải)","example_zh":"遇到难题的时候，你可以问问老师。","example_pinyin":"Yùdào nántí de shíhou, nǐ kěyǐ wènwen lǎoshī.","example_vi":"Khi gặp chuyện khó, bạn có thể hỏi thầy cô.","note_vi":"遇到 hay đi với 问题, 难题, 事 (gặp phải chuyện gì); tình cờ gặp ai cũng dùng 遇到 / 遇见. Hẹn nhau gặp mặt thì dùng 见面. 遇 có âm ü: yù."},
+      {"id":"v12","hanzi":"怕","pinyin":"pà","pos":"động từ","meaning_vi":"sợ; ngại","example_zh":"我妹妹很怕狗。","example_pinyin":"Wǒ mèimei hěn pà gǒu.","example_vi":"Em gái tôi rất sợ chó.","note_vi":"怕 + danh từ / động từ: 怕冷 (sợ lạnh), 怕迟到 (sợ đến muộn). p bật hơi mạnh, đừng đọc thành “ba”."},
+      {"id":"v13","hanzi":"害怕","pinyin":"hàipà","pos":"động từ","meaning_vi":"sợ, sợ hãi","example_zh":"别害怕，有我呢。","example_pinyin":"Bié hàipà, yǒu wǒ ne.","example_vi":"Đừng sợ, có mình đây mà.","note_vi":"害怕 và 怕 gần nghĩa. 害怕 hay đứng một mình sau 很 / 别 / 不 (很害怕, 别害怕); 怕 hay có tân ngữ đi sau (怕冷, 怕狗). 害 ở đây không có nghĩa “hại”."},
+      {"id":"v14","hanzi":"生气","pinyin":"shēngqì","pos":"động từ / tính từ","meaning_vi":"tức giận, giận","example_zh":"我又回家晚了，妈妈很生气。","example_pinyin":"Wǒ yòu huí jiā wǎn le, māma hěn shēngqì.","example_vi":"Tôi lại về nhà muộn, mẹ rất giận.","note_vi":"Giận ai: 生 + người + 的气 hoặc 跟 + người + 生气 (别生我的气 / 别跟我生气). ✗ 生气他. Không mang nghĩa “sinh khí, sức sống” như tiếng Việt."},
+      {"id":"v15","hanzi":"难过","pinyin":"nánguò","pos":"tính từ","meaning_vi":"buồn, đau lòng","example_zh":"小狗丢了，孩子难过得哭了。","example_pinyin":"Xiǎo gǒu diū le, háizi nánguò de kū le.","example_vi":"Con chó nhỏ bị lạc, đứa trẻ buồn đến phát khóc.","note_vi":"难过 = trong lòng buồn, khó chịu, không phải “khó qua”. Buồn nhẹ hơn thì nói 不开心."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"难题","pinyin":"nántí","pos":"danh từ","meaning_vi":"vấn đề khó, chuyện khó","example_zh":"我遇到了一个难题，你能帮帮我吗？","example_pinyin":"Wǒ yùdào le yí ge nántí, nǐ néng bāngbang wǒ ma?","example_vi":"Mình gặp một chuyện khó, bạn giúp mình chút được không?"},
+      {"id":"x2","hanzi":"比如","pinyin":"bǐrú","pos":"động từ","meaning_vi":"ví dụ như","example_zh":"我喜欢很多运动，比如跑步、游泳和打网球。","example_pinyin":"Wǒ xǐhuan hěn duō yùndòng, bǐrú pǎobù, yóuyǒng hé dǎ wǎngqiú.","example_vi":"Tôi thích nhiều môn thể thao, ví dụ như chạy bộ, bơi và đánh quần vợt."},
+      {"id":"x3","hanzi":"常","pinyin":"cháng","pos":"phó từ","meaning_vi":"thường, hay","example_zh":"他常去图书馆看书。","example_pinyin":"Tā cháng qù túshūguǎn kàn shū.","example_vi":"Anh ấy hay đến thư viện đọc sách."},
+      {"id":"x4","hanzi":"懂得","pinyin":"dǒngde","pos":"động từ","meaning_vi":"hiểu, biết (lẽ phải, cách làm)","example_zh":"他很懂得关心别人。","example_pinyin":"Tā hěn dǒngde guānxīn biérén.","example_vi":"Anh ấy rất biết quan tâm người khác."},
+      {"id":"x5","hanzi":"怎样","pinyin":"zěnyàng","pos":"đại từ","meaning_vi":"thế nào, như thế nào","example_zh":"怎样才能学好汉语？","example_pinyin":"Zěnyàng cái néng xué hǎo Hànyǔ?","example_vi":"Làm thế nào mới học giỏi được tiếng Trung?"},
+      {"id":"x6","hanzi":"哭","pinyin":"kū","pos":"động từ","meaning_vi":"khóc","example_zh":"别哭了，我们再想想办法。","example_pinyin":"Bié kū le, wǒmen zài xiǎngxiang bànfǎ.","example_vi":"Đừng khóc nữa, chúng ta nghĩ thêm cách xem."},
+      {"id":"x7","hanzi":"刷","pinyin":"shuā","pos":"động từ","meaning_vi":"chải, đánh (răng); lướt (điện thoại: 刷手机)","example_zh":"我每天早上和晚上都刷牙。","example_pinyin":"Wǒ měi tiān zǎoshang hé wǎnshang dōu shuā yá.","example_vi":"Sáng và tối hôm nào tôi cũng đánh răng."},
+      {"id":"x8","hanzi":"洗澡","pinyin":"xǐzǎo","pos":"động từ","meaning_vi":"tắm","example_zh":"我习惯睡觉前洗澡。","example_pinyin":"Wǒ xíguàn shuìjiào qián xǐzǎo.","example_vi":"Tôi quen tắm trước khi đi ngủ."},
+      {"id":"x9","hanzi":"读书","pinyin":"dúshū","pos":"động từ","meaning_vi":"đọc sách; đi học","example_zh":"她很喜欢读书，每个月都读两本。","example_pinyin":"Tā hěn xǐhuan dúshū, měi ge yuè dōu dú liǎng běn.","example_vi":"Cô ấy rất thích đọc sách, tháng nào cũng đọc hai cuốn."},
+      {"id":"x10","hanzi":"电子书","pinyin":"diànzǐshū","pos":"danh từ","meaning_vi":"sách điện tử","example_zh":"我常在手机上看电子书。","example_pinyin":"Wǒ cháng zài shǒujī shang kàn diànzǐshū.","example_vi":"Tôi hay đọc sách điện tử trên điện thoại."},
+      {"id":"x11","hanzi":"上网","pinyin":"shàngwǎng","pos":"động từ","meaning_vi":"lên mạng, vào mạng","example_zh":"他每天上网三个小时。","example_pinyin":"Tā měi tiān shàngwǎng sān ge xiǎoshí.","example_vi":"Mỗi ngày anh ấy lên mạng ba tiếng."},
+      {"id":"x12","hanzi":"网上","pinyin":"wǎngshang","pos":"danh từ","meaning_vi":"trên mạng","example_zh":"这本书网上就能买到。","example_pinyin":"Zhè běn shū wǎngshang jiù néng mǎi dào.","example_vi":"Cuốn sách này mua trên mạng là có."},
+      {"id":"x13","hanzi":"养","pinyin":"yǎng","pos":"động từ","meaning_vi":"nuôi","example_zh":"我家养了一只小猫。","example_pinyin":"Wǒ jiā yǎng le yì zhī xiǎo māo.","example_vi":"Nhà tôi nuôi một con mèo nhỏ."},
+      {"id":"x14","hanzi":"聊","pinyin":"liáo","pos":"động từ","meaning_vi":"tán gẫu, nói chuyện","example_zh":"我们聊了一个晚上。","example_pinyin":"Wǒmen liáo le yí ge wǎnshang.","example_vi":"Chúng tôi nói chuyện cả một buổi tối."},
+      {"id":"x15","hanzi":"网球","pinyin":"wǎngqiú","pos":"danh từ","meaning_vi":"quần vợt, tennis","example_zh":"周末我常跟朋友打网球。","example_pinyin":"Zhōumò wǒ cháng gēn péngyou dǎ wǎngqiú.","example_vi":"Cuối tuần tôi hay đánh quần vợt với bạn."},
+      {"id":"x16","hanzi":"酒","pinyin":"jiǔ","pos":"danh từ","meaning_vi":"rượu","example_zh":"开车的时候不能喝酒。","example_pinyin":"Kāichē de shíhou bù néng hē jiǔ.","example_vi":"Khi lái xe thì không được uống rượu."},
+      {"id":"x17","hanzi":"照","pinyin":"zhào","pos":"động từ","meaning_vi":"chụp (ảnh); soi, chiếu","example_zh":"我们在公园里照了很多照片。","example_pinyin":"Wǒmen zài gōngyuán li zhào le hěn duō zhàopiàn.","example_vi":"Chúng tôi chụp rất nhiều ảnh trong công viên."},
+      {"id":"x18","hanzi":"故事","pinyin":"gùshi","pos":"danh từ","meaning_vi":"câu chuyện","example_zh":"这个故事很有意思。","example_pinyin":"Zhège gùshi hěn yǒu yìsi.","example_vi":"Câu chuyện này rất thú vị."},
+      {"id":"x19","hanzi":"南方","pinyin":"nánfāng","pos":"danh từ","meaning_vi":"phương Nam, miền Nam","example_zh":"南方比北方热。","example_pinyin":"Nánfāng bǐ běifāng rè.","example_vi":"Miền Nam nóng hơn miền Bắc."},
+      {"id":"x20","hanzi":"北方","pinyin":"běifāng","pos":"danh từ","meaning_vi":"phương Bắc, miền Bắc","example_zh":"北方人很喜欢吃面条儿。","example_pinyin":"Běifāng rén hěn xǐhuan chī miàntiáor.","example_vi":"Người miền Bắc rất thích ăn mì."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Lặp động từ hai âm tiết (ABAB)",
+        "pattern":"AB + AB (休息休息)　·　động từ li hợp: A + A + B (聊聊天、洗洗澡)",
+        "explanation_vi":"Động từ hai âm tiết có thể lặp lại theo kiểu ABAB: 休息休息, 锻炼锻炼, 复习复习, 介绍介绍. Lặp lại làm động tác nghe nhẹ đi, ngắn, có ý “làm thử một chút”, giống “nghỉ ngơi chút”, “tập tành tí” trong tiếng Việt, nên lời khuyên, lời rủ nghe mềm và thân mật hơn. Nghĩa gần với V + 一下. Động từ li hợp (động từ + tân ngữ dính liền như 聊天, 洗澡, 跑步, 读书) chỉ lặp phần động từ: 聊聊天, 洗洗澡, 跑跑步, 读读书. Động từ lặp hay dùng cho việc sắp làm, lời khuyên, lời đề nghị; không dùng khi nói việc đang diễn ra.",
+        "examples":[
+          {"zh":"你太累了，应该休息休息。","pinyin":"Nǐ tài lèi le, yīnggāi xiūxi xiūxi.","vi":"Bạn mệt quá rồi, nên nghỉ ngơi một chút."},
+          {"zh":"周末咱们去公园锻炼锻炼吧。","pinyin":"Zhōumò zánmen qù gōngyuán duànliàn duànliàn ba.","vi":"Cuối tuần chúng mình ra công viên tập thể dục chút nhé."},
+          {"zh":"明天有考试，今天晚上你该复习复习了。","pinyin":"Míngtiān yǒu kǎoshì, jīntiān wǎnshang nǐ gāi fùxí fùxí le.","vi":"Mai có bài thi, tối nay bạn phải ôn bài chút đi chứ."},
+          {"zh":"不开心的时候，跟朋友聊聊天吧。","pinyin":"Bù kāixīn de shíhou, gēn péngyou liáoliao tiān ba.","vi":"Lúc không vui thì trò chuyện với bạn bè một chút đi."},
+          {"zh":"你去洗洗澡，早点儿睡吧。","pinyin":"Nǐ qù xǐxi zǎo, zǎo diǎnr shuì ba.","vi":"Bạn đi tắm đi rồi ngủ sớm một chút."}
+        ],
+        "mistakes_vi":"✗ 你应该休休息息。\n✓ 你应该休息休息。\nĐộng từ lặp theo kiểu ABAB; kiểu AABB (干干净净, 高高兴兴) là của tính từ.\n✗ 我们去聊天聊天吧。\n✓ 我们去聊聊天吧。\n聊天 là động từ li hợp (聊 + 天), chỉ lặp phần động từ 聊. Tương tự: 洗洗澡, 跑跑步.\n✗ 他正在休息休息。\n✓ 他正在休息。\nĐộng từ lặp mang ý “làm một chút”, không đi với 正在 / 在 / 着 (đang).",
+        "compare_vi":"Tiếng Việt làm câu nhẹ đi bằng cách thêm “chút, tí, một lát” (nghỉ chút, tập tí). Tiếng Trung có thể lặp chính động từ: 休息休息, 聊聊天."
+      },
+      {
+        "id":"g2",
+        "title":"Đại từ nghi vấn chỉ “bất kỳ” (谁都、什么都、哪儿都)",
+        "pattern":"谁 / 什么 (+ N) / 哪儿 / 什么时候 / 怎么 + 都/也 + (不/没) + V",
+        "explanation_vi":"Khi đại từ nghi vấn đi cùng 都 hoặc 也, câu không còn là câu hỏi mà có nghĩa “bất kỳ… nào cũng”: 谁都知道 (ai cũng biết), 他什么都吃 (anh ấy cái gì cũng ăn), 我哪儿都不想去 (đi đâu tôi cũng không muốn), 你什么时候来都可以 (lúc nào bạn đến cũng được). Đại từ nghi vấn (và danh từ đi theo nó, như 什么方法) phải đứng TRƯỚC 都/也 và trước động từ. Trong câu phủ định dùng 都 hay 也 đều được: 我什么都不想吃 = 我什么也不想吃.",
+        "examples":[
+          {"zh":"这个方法很简单，谁都会。","pinyin":"Zhège fāngfǎ hěn jiǎndān, shéi dōu huì.","vi":"Cách này rất đơn giản, ai cũng làm được."},
+          {"zh":"我今天很累，什么都不想做。","pinyin":"Wǒ jīntiān hěn lèi, shénme dōu bù xiǎng zuò.","vi":"Hôm nay tôi mệt lắm, chẳng muốn làm gì cả."},
+          {"zh":"周末我哪儿也没去，在家看电子书。","pinyin":"Zhōumò wǒ nǎr yě méi qù, zài jiā kàn diànzǐshū.","vi":"Cuối tuần tôi chẳng đi đâu cả, ở nhà đọc sách điện tử."},
+          {"zh":"你什么时候来都可以，我今天一直在家。","pinyin":"Nǐ shénme shíhou lái dōu kěyǐ, wǒ jīntiān yìzhí zài jiā.","vi":"Lúc nào bạn đến cũng được, hôm nay mình ở nhà suốt."}
+        ],
+        "mistakes_vi":"✗ 我不想吃什么都。/ ✗ 我都不想吃什么。\n✓ 我什么都不想吃。\nTiếng Việt nói “không muốn ăn gì cả” nên hay đặt 什么 sau động từ; tiếng Trung đưa 什么 lên trước 都/也.\n✗ 都谁喜欢她。\n✓ 谁都喜欢她。\n都 đứng sau đại từ nghi vấn, ngay trước động từ.\n✗ 我什么方法都试过了吗？(muốn kể lại)\n✓ 我什么方法都试过了。\nĐây là câu kể, không thêm 吗.",
+        "compare_vi":"Giống “ai cũng…”, “gì cũng…”, “đâu cũng…” trong tiếng Việt: thứ tự “ai cũng” trùng với 谁都 nên dễ nhớ. Riêng câu phủ định, tiếng Việt đặt “gì” sau động từ (“không ăn gì”) còn tiếng Trung vẫn để 什么 trước: 什么都不吃. Lưu ý: 我不想吃什么 (không thèm ăn gì đặc biệt) nhẹ hơn nhiều so với 我什么都不想吃 (chẳng muốn ăn gì hết)."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Ai cũng có cách chữa “bệnh” cho mình",
+      "scene_vi": "Sáng thứ Hai ở văn phòng, Tiểu Lâm ngáp liên tục. Đồng nghiệp Tiểu Trương hỏi han và khuyên cô.",
+      "lines": [
+        {"speaker":"小张","zh":"小林，你怎么了？昨天晚上又没睡好吗？","pinyin":"Xiǎo Lín, nǐ zěnme le? Zuótiān wǎnshang yòu méi shuì hǎo ma?","vi":"Tiểu Lâm, bạn sao thế? Tối qua lại ngủ không ngon à?"},
+        {"speaker":"小林","zh":"是啊。我有个坏习惯：一上床就刷手机，越刷越不想睡，每天都一两点才睡。","pinyin":"Shì a. Wǒ yǒu ge huài xíguàn: yí shàng chuáng jiù shuā shǒujī, yuè shuā yuè bù xiǎng shuì, měi tiān dōu yì liǎng diǎn cái shuì.","vi":"Ừ. Mình có một thói quen xấu: hễ lên giường là lướt điện thoại, càng lướt càng không muốn ngủ, ngày nào cũng một hai giờ sáng mới ngủ."},
+        {"speaker":"小张","zh":"这样对身体很不好。睡觉前你最好别看手机，读读书或者听听音乐。","pinyin":"Zhèyàng duì shēntǐ hěn bù hǎo. Shuìjiào qián nǐ zuìhǎo bié kàn shǒujī, dúdu shū huòzhě tīngting yīnyuè.","vi":"Như thế hại sức khỏe lắm. Trước khi ngủ bạn tốt nhất đừng xem điện thoại, đọc sách chút hoặc nghe nhạc chút."},
+        {"speaker":"小林","zh":"大家都这么说！妈妈让我睡觉前喝杯热牛奶，姐姐让我多锻炼锻炼，男朋友说我应该去南方休息休息……真是谁都有办法看好我的“病”。","pinyin":"Dàjiā dōu zhème shuō! Māma ràng wǒ shuìjiào qián hē bēi rè niúnǎi, jiějie ràng wǒ duō duànliàn duànliàn, nánpéngyou shuō wǒ yīnggāi qù nánfāng xiūxi xiūxi…… Zhēn shì shéi dōu yǒu bànfǎ kàn hǎo wǒ de “bìng”.","vi":"Ai cũng nói thế! Mẹ bảo mình trước khi ngủ uống cốc sữa nóng, chị gái bảo mình chịu khó tập thể dục, bạn trai thì bảo mình nên về phương Nam nghỉ ngơi ít hôm… Đúng là ai cũng có cách chữa “bệnh” cho mình."},
+        {"speaker":"小张","zh":"那是因为大家都关心你。这些方法都很简单，也都有用，最重要的是坚持。","pinyin":"Nà shì yīnwèi dàjiā dōu guānxīn nǐ. Zhèxiē fāngfǎ dōu hěn jiǎndān, yě dōu yǒuyòng, zuì zhòngyào de shì jiānchí.","vi":"Đó là vì mọi người đều quan tâm bạn. Mấy cách này đều đơn giản, cũng đều có ích, quan trọng nhất là kiên trì."},
+        {"speaker":"小林","zh":"我知道。可是我什么方法都试过了，每个都只坚持了两三天。","pinyin":"Wǒ zhīdao. Kěshì wǒ shénme fāngfǎ dōu shì guo le, měi ge dōu zhǐ jiānchí le liǎng sān tiān.","vi":"Mình biết. Nhưng cách nào mình cũng thử rồi, cách nào cũng chỉ duy trì được hai ba ngày."},
+        {"speaker":"小张","zh":"遇到这种问题，别着急，也别生气。咱们先从简单的开始：今天晚上十一点就关手机，怎么样？","pinyin":"Yùdào zhè zhǒng wèntí, bié zháojí, yě bié shēngqì. Zánmen xiān cóng jiǎndān de kāishǐ: jīntiān wǎnshang shíyī diǎn jiù guān shǒujī, zěnmeyàng?","vi":"Gặp chuyện thế này thì đừng sốt ruột, cũng đừng bực bội. Mình bắt đầu từ việc đơn giản trước: tối nay mười một giờ là tắt điện thoại, được không?"},
+        {"speaker":"小林","zh":"十一点？那如果我睡不着呢？","pinyin":"Shíyī diǎn? Nà rúguǒ wǒ shuì bu zháo ne?","vi":"Mười một giờ á? Thế nếu mình không ngủ được thì sao?"},
+        {"speaker":"小张","zh":"如果睡不着，你就读读书，什么都别想。","pinyin":"Rúguǒ shuì bu zháo, nǐ jiù dúdu shū, shénme dōu bié xiǎng.","vi":"Nếu không ngủ được thì bạn đọc sách một chút, đừng nghĩ ngợi gì cả."},
+        {"speaker":"小林","zh":"好，我今天就试试。明天告诉你有没有用！","pinyin":"Hǎo, wǒ jīntiān jiù shìshi. Míngtiān gàosu nǐ yǒu méiyǒu yòng!","vi":"Được, hôm nay mình thử luôn. Mai mình kể bạn nghe có hiệu quả không nhé!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:办法","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"别着急，我们一起想想____。","options":["办法","习惯","故事","网球"],"answer":0,"explanation_vi":"想办法 = nghĩ cách. Khi gặp chuyện khó thì “nghĩ cách”, không “nghĩ thói quen” hay “nghĩ quần vợt”."},
+      {"id":"e2","type":"choice","tag":"v:习惯","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____每天早上喝一杯咖啡。","options":["习惯","难过","简单","有用"],"answer":0,"explanation_vi":"习惯 + việc = quen làm gì. Ba từ còn lại là tính từ, không đứng trước “每天早上喝……” được."},
+      {"id":"e3","type":"choice","tag":"v:简单","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个问题很____，谁都会。","options":["简单","害怕","生气","难过"],"answer":0,"explanation_vi":"Vế sau “ai cũng làm được” cho thấy vấn đề “đơn giản” (简单). Ba từ còn lại nói cảm xúc của người, không dùng cho 问题."},
+      {"id":"e4","type":"choice","tag":"v:难过","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"小狗丢了，孩子很____，哭了一个下午。","options":["难过","简单","有用","习惯"],"answer":0,"explanation_vi":"Chó bị lạc, đứa trẻ khóc cả buổi chiều: 难过 = buồn, đau lòng."},
+      {"id":"e5","type":"choice","tag":"g:动词重叠","prompt_vi":"Chọn cách lặp động từ đúng.","question_zh":"你太累了，应该____。","options":["休息休息","休休息息","休息一休息","休息了休息"],"answer":0,"explanation_vi":"Động từ hai âm tiết lặp theo kiểu ABAB: 休息休息. AABB là kiểu của tính từ; A一A chỉ dùng cho động từ một âm tiết (想一想); 了 không hợp với lời khuyên 应该."},
+      {"id":"e6","type":"choice","tag":"g:动词重叠","prompt_vi":"Chọn cách lặp động từ đúng.","question_zh":"晚上我想跟朋友____。","options":["聊聊天","聊天聊天","聊天天","聊聊天天"],"answer":0,"explanation_vi":"聊天 là động từ li hợp (聊 + 天), chỉ lặp phần động từ: 聊聊天."},
+      {"id":"e7","type":"choice","tag":"g:疑问代词任指","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这个方法很简单，____都会。","options":["谁","什么","哪儿","怎么"],"answer":0,"explanation_vi":"谁都会 = ai cũng làm được. Chủ ngữ ở đây là người nên dùng 谁."},
+      {"id":"e8","type":"choice","tag":"g:疑问代词任指","prompt_vi":"Chọn câu đúng với nghĩa: “Hôm nay tôi chẳng muốn ăn gì cả.”","question_zh":"Hôm nay tôi chẳng muốn ăn gì cả.","options":["我今天什么都不想吃。","我今天不想吃什么都。","我今天都什么不想吃。","我今天什么都想吃。"],"answer":0,"explanation_vi":"什么 đứng trước 都, sau đó mới đến 不想吃. Câu cuối thiếu 不 nên nghĩa ngược lại (“cái gì cũng muốn ăn”)."},
+      {"id":"e9","type":"choice","tag":"v:该","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"十一点了，我____睡觉了。","options":["该","怕","刷","养"],"answer":0,"explanation_vi":"该……了 = đã đến lúc… rồi: 我该睡觉了 = tôi phải đi ngủ thôi."},
+      {"id":"e10","type":"order","tag":"g:动词重叠","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["周末","咱们","去","公园","锻炼锻炼","吧"],"answers":["周末咱们去公园锻炼锻炼吧","咱们周末去公园锻炼锻炼吧"],"translation_vi":"Cuối tuần chúng mình ra công viên tập thể dục chút nhé.","explanation_vi":"Thời gian 周末 đứng trước hoặc sau chủ ngữ; 去公园 + 锻炼锻炼 (đi đâu làm gì); 吧 cuối câu là lời rủ."},
+      {"id":"e11","type":"order","tag":"g:疑问代词任指","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","哪儿","都","不想","去"],"answers":["我哪儿都不想去","哪儿我都不想去"],"translation_vi":"Tôi chẳng muốn đi đâu cả.","explanation_vi":"哪儿 đứng trước 都, rồi mới đến 不想去. Có thể đưa 哪儿 lên đầu câu: 哪儿我都不想去."},
+      {"id":"e12","type":"order","tag":"v:最好","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["晚上","你","最好","别","喝","咖啡"],"answers":["晚上你最好别喝咖啡","你晚上最好别喝咖啡","你最好晚上别喝咖啡"],"translation_vi":"Buổi tối bạn tốt nhất đừng uống cà phê.","explanation_vi":"最好 đứng trước 别 + động từ: 最好别喝. Thời gian 晚上 đứng trước động từ."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"办法","vi":"cách, biện pháp"},{"zh":"习惯","vi":"thói quen"},{"zh":"解决","vi":"giải quyết"},{"zh":"坚持","vi":"kiên trì"},{"zh":"有用","vi":"có ích"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"害怕","vi":"sợ hãi"},{"zh":"生气","vi":"tức giận"},{"zh":"难过","vi":"buồn"},{"zh":"遇到","vi":"gặp phải"},{"zh":"简单","vi":"đơn giản"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:动词重叠","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你累了吧？先____，我们一会儿再做。","options":["休息休息","休息着","休息过","正在休息"],"answer":0,"explanation_vi":"Lời khuyên “nghỉ một chút đã” dùng động từ lặp: 先休息休息. 着, 过, 正在 không hợp với lời đề nghị."},
+        {"id":"q2","type":"choice","tag":"g:动词重叠","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["你去洗洗澡吧。","你去洗澡洗澡吧。","你去洗洗澡澡吧。","你去洗澡洗吧。"],"answer":0,"explanation_vi":"洗澡 là động từ li hợp, chỉ lặp 洗: 洗洗澡."},
+        {"id":"q3","type":"choice","tag":"g:动词重叠","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他正在复习。","他正在复习复习。","他复习复习着。","他在复复习习。"],"answer":0,"explanation_vi":"Động từ lặp mang ý “làm một chút”, không đi với 正在 / 着. Nói việc đang làm thì dùng động từ bình thường: 他正在复习."},
+        {"id":"q4","type":"choice","tag":"g:疑问代词任指","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我昨天很累，____都没做。","options":["什么","谁","哪儿","怎么"],"answer":0,"explanation_vi":"什么都没做 = chẳng làm gì cả. Việc (vật) thì dùng 什么."},
+        {"id":"q5","type":"choice","tag":"g:疑问代词任指","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你什么____来都可以，我今天一直在家。","options":["时候","地方","人","东西"],"answer":0,"explanation_vi":"什么时候 + 都 = lúc nào cũng: 你什么时候来都可以 = lúc nào bạn đến cũng được."},
+        {"id":"q6","type":"choice","tag":"g:疑问代词任指","prompt_vi":"Chọn nghĩa đúng của câu.","question_zh":"谁都有办法看好你的“病”。","options":["Ai cũng có cách chữa “bệnh” cho bạn.","Ai có cách chữa “bệnh” cho bạn?","Không ai có cách chữa “bệnh” cho bạn.","Ai cũng bị “bệnh” giống bạn."],"answer":0,"explanation_vi":"谁 + 都 trong câu kể = ai cũng. Câu không có 吗 hay dấu hỏi nên không phải câu hỏi."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:遇到","prompt_vi":"Chọn đáp án đúng.","question_zh":"____难题的时候，别着急。","options":["遇到","简单","有用","坚持"],"answer":0,"explanation_vi":"遇到难题 = gặp chuyện khó. 简单, 有用 là tính từ; 坚持 không đi với 难题."},
+      {"id":"t2","type":"choice","tag":"g:疑问代词任指","prompt_vi":"Chọn đáp án đúng.","question_zh":"我的手机丢了，我____都找了，还是没找到。","options":["哪儿","谁","什么","怎么样"],"answer":0,"explanation_vi":"哪儿都找了 = chỗ nào cũng tìm rồi. Tìm điện thoại ở các nơi nên dùng 哪儿."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"难题","vi":"vấn đề khó"},{"zh":"比如","vi":"ví dụ như"},{"zh":"哭","vi":"khóc"},{"zh":"洗澡","vi":"tắm"},{"zh":"养","vi":"nuôi"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"网球","vi":"quần vợt"},{"zh":"酒","vi":"rượu"},{"zh":"故事","vi":"câu chuyện"},{"zh":"南方","vi":"miền Nam"},{"zh":"北方","vi":"miền Bắc"}]},
+      {"id":"t5","type":"order","tag":"v:坚持","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","坚持","每天","跑步","一个小时"],"answers":["他坚持每天跑步一个小时","他每天坚持跑步一个小时"],"translation_vi":"Anh ấy kiên trì mỗi ngày chạy bộ một tiếng.","explanation_vi":"坚持 đứng trước việc được duy trì; thời lượng 一个小时 đứng sau động từ 跑步."},
+      {"id":"t6","type":"order","tag":"g:动词重叠","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","去","洗洗澡","吧"],"answers":["你去洗洗澡吧"],"translation_vi":"Bạn đi tắm một chút đi.","explanation_vi":"去 + 洗洗澡 (đi làm gì); 吧 cuối câu là lời khuyên."},
+      {"id":"t7","type":"fill","tag":"v:解决","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"这个问题很难，我们一起想办法____吧。","answers":["解决"],"hint_vi":"giải quyết","explanation_vi":"想办法解决 = nghĩ cách giải quyết."},
+      {"id":"t8","type":"fill","tag":"g:疑问代词任指","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我今天很累，____都不想做。","answers":["什么","什么事"],"hint_vi":"đại từ nghi vấn nghĩa là “gì”, dùng với 都 thành “gì cũng”","explanation_vi":"什么都不想做 = chẳng muốn làm gì cả."},
+      {"id":"t9","type":"listen_choice","tag":"v:应该","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"你太累了，应该休息休息。","options":["Bạn mệt quá rồi, nên nghỉ ngơi một chút.","Bạn mệt quá rồi, đang nghỉ ngơi à?","Tôi mệt quá, muốn đi ngủ sớm.","Bạn không mệt, không cần nghỉ."],"answer":0,"explanation_vi":"太累了 = mệt quá rồi; 应该休息休息 = nên nghỉ ngơi một chút."},
+      {"id":"t10","type":"listen_choice","tag":"g:疑问代词任指","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"周末我哪儿也没去，在家看电子书。","options":["周末我哪儿也没去，在家看电子书。","周末我去哪儿了？在家看电子书。","周末我哪儿都想去，不想在家。","周末我去书店买电子书。"],"answer":0,"explanation_vi":"Câu nghe được: 周末我哪儿也没去 = cuối tuần tôi chẳng đi đâu cả."},
+      {"id":"t11","type":"dictation","tag":"v:有用","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这个办法很有用。","answers":["这个办法很有用"],"explanation_vi":"这个办法很有用 = Cách này rất có ích."},
+      {"id":"t12","type":"dictation","tag":"g:动词重叠","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"咱们去公园锻炼锻炼吧。","answers":["咱们去公园锻炼锻炼吧"],"explanation_vi":"咱们去公园锻炼锻炼吧 = Chúng mình ra công viên tập thể dục chút nhé."},
+      {"id":"t13","type":"translate_vi_zh","tag":"v:最好","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Buổi tối bạn tốt nhất đừng uống cà phê.","answers":["晚上你最好别喝咖啡","你晚上最好别喝咖啡","你最好晚上别喝咖啡","晚上你最好不要喝咖啡","你晚上最好不要喝咖啡","你最好晚上不要喝咖啡","晚上最好别喝咖啡","晚上最好不要喝咖啡"],"explanation_vi":"最好 + 别/不要 + V: tốt nhất là đừng…"},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:疑问代词任指","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Ai cũng biết anh ấy thích đánh quần vợt.","answers":["谁都知道他喜欢打网球","谁都知道他很喜欢打网球","谁都知道他爱打网球","大家都知道他喜欢打网球","大家都知道他很喜欢打网球"],"explanation_vi":"谁都知道 = ai cũng biết; 打网球 = đánh quần vợt."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:生气","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"别生气了，我们再想想办法。","answers_vi":["Đừng giận nữa, chúng ta nghĩ thêm cách xem.","Đừng tức giận nữa, chúng mình cùng nghĩ cách khác."],"keywords":[["đừng"],["giận","tức"],["nghĩ","tìm"],["cách","biện pháp","giải pháp"]],"explanation_vi":"别……了 = đừng… nữa; 生气 = giận; 再想想办法 = nghĩ thêm cách."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:动词重叠","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"不开心的时候，跟朋友聊聊天吧。","answers_vi":["Lúc không vui thì trò chuyện với bạn bè một chút đi.","Khi buồn, hãy nói chuyện với bạn bè một lát."],"keywords":[["không vui","buồn"],["bạn"],["trò chuyện","nói chuyện","tán gẫu","chuyện trò","tâm sự","chat"]],"explanation_vi":"不开心的时候 = lúc không vui; 聊聊天 = trò chuyện một chút (động từ li hợp lặp phần đầu)."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"遇到难题，怎么办？",
+        "title_vi":"Gặp chuyện khó thì làm sao?",
+        "paragraphs":[
+          {
+            "tokens":[["谁","shéi","ai"],["都","dōu","cũng"],["会","huì","sẽ"],["遇到","yùdào","gặp phải"],["难题","nántí","chuyện khó"],["。"],["有的","yǒude","có (người)"],["人","rén","người"],["一","yí","hễ (一……就)"],["遇到","yùdào","gặp"],["难题","nántí","chuyện khó"],["就","jiù","là"],["着急","zháojí","sốt ruột"],["，"],["有的","yǒude","có (người)"],["人","rén","người"],["会","huì","thì"],["生气","shēngqì","tức giận"],["，"],["还","hái","còn"],["有的","yǒude","có (người)"],["人","rén","người"],["难过","nánguò","buồn"],["得","de","đến mức"],["哭","kū","khóc"],["了","le","(rồi)"],["。"],["可是","kěshì","nhưng"],["，"],["着急","zháojí","sốt ruột"],["、"],["生气","shēngqì","tức giận"],["和","hé","và"],["难过","nánguò","buồn"],["都","dōu","đều"],["没有","méiyǒu","không có"],["用","yòng","tác dụng"],["，"],["难题","nántí","chuyện khó"],["还","hái","vẫn"],["在","zài","ở"],["那儿","nàr","đó"],["。"]],
+            "vi":"Ai rồi cũng sẽ gặp chuyện khó. Có người hễ gặp chuyện khó là sốt ruột, có người thì tức giận, còn có người buồn đến phát khóc. Nhưng sốt ruột, tức giận hay buồn bã đều chẳng ích gì, chuyện khó vẫn còn nguyên đó."
+          },
+          {
+            "tokens":[["我","wǒ","tôi"],["的","de","của"],["方法","fāngfǎ","phương pháp"],["很","hěn","rất"],["简单","jiǎndān","đơn giản"],["："],["先","xiān","trước tiên"],["休息休息","xiūxi xiūxi","nghỉ ngơi một chút"],["，"],["听听","tīngting","nghe (một chút)"],["音乐","yīnyuè","nhạc"],["，"],["或者","huòzhě","hoặc"],["跟","gēn","với"],["朋友","péngyou","bạn bè"],["聊聊天","liáoliao tiān","trò chuyện một chút"],["。"],["然后","ránhòu","sau đó"],["再","zài","rồi mới"],["想一想","xiǎng yi xiǎng","nghĩ một chút"],["："],["这个","zhège","này"],["问题","wèntí","vấn đề"],["应该","yīnggāi","nên"],["怎样","zěnyàng","thế nào"],["解决","jiějué","giải quyết"],["？"],["比如","bǐrú","ví dụ"],["，"],["工作","gōngzuò","công việc"],["上","shang","về mặt"],["遇到","yùdào","gặp"],["难题","nántí","chuyện khó"],["，"],["可以","kěyǐ","có thể"],["问问","wènwen","hỏi (thử)"],["同事","tóngshì","đồng nghiệp"],["；"],["学习","xuéxí","học tập"],["上","shang","về mặt"],["遇到","yùdào","gặp"],["难题","nántí","chuyện khó"],["，"],["可以","kěyǐ","có thể"],["上网","shàngwǎng","lên mạng"],["查一查","chá yi chá","tra (một chút)"],["。"]],
+            "vi":"Cách của tôi rất đơn giản: trước tiên nghỉ ngơi một chút, nghe chút nhạc hoặc trò chuyện với bạn bè. Sau đó mới nghĩ xem: vấn đề này nên giải quyết thế nào? Ví dụ, gặp chuyện khó trong công việc thì có thể hỏi đồng nghiệp; gặp chuyện khó trong học tập thì có thể lên mạng tra thử."
+          },
+          {
+            "tokens":[["最后","zuìhòu","cuối cùng"],["，"],["别","bié","đừng"],["怕","pà","sợ"],["难题","nántí","chuyện khó"],["多","duō","nhiều"],["。"],["坚持","jiānchí","kiên trì"],["这样","zhèyàng","như thế này"],["做","zuò","làm"],["，"],["慢慢","mànmàn","dần dần"],["地","de","(trợ từ)"],["你","nǐ","bạn"],["就","jiù","sẽ"],["不","bú","không"],["害怕","hàipà","sợ"],["了","le","nữa"],["。"]],
+            "vi":"Cuối cùng, đừng sợ chuyện khó nhiều. Kiên trì làm như vậy, dần dần bạn sẽ không còn sợ nữa."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"遇到难题的时候，有的人会怎么样？","options":["生气","很高兴","去旅游","马上睡觉"],"answer":0,"explanation_vi":"Đoạn 1: 有的人会生气 (có người thì tức giận)."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"“我”遇到难题，先做什么？","options":["休息休息","问问同事","上网查一查","哭一会儿"],"answer":0,"explanation_vi":"Đoạn 2: 先休息休息，听听音乐，或者跟朋友聊聊天 — việc làm đầu tiên là nghỉ ngơi một chút."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"学习上遇到难题，可以怎么做？","options":["上网查一查","问问同事","去睡觉","生自己的气"],"answer":0,"explanation_vi":"Đoạn 2: 学习上遇到难题，可以上网查一查. Hỏi đồng nghiệp là cách cho chuyện khó trong công việc."},
+          {"id":"rq4","type":"choice","tag":"v:有用","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"生气和难过可以解决难题。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 1: 着急、生气和难过都没有用，难题还在那儿 — nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"v:坚持","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"坚持这样做，慢慢地就不怕难题了。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 坚持这样做，慢慢地你就不害怕了."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Một người miền Nam lên miền Bắc làm việc",
+        "text_zh":"我是南方人，去年来北方工作。刚来的时候，我什么都不习惯：天气太冷，这儿的人很少吃米饭，周末我也不知道去哪儿玩儿。同事小王对我说：“别着急，你应该多出去走走，认识认识新朋友。”他还常常带我去打网球。现在我每个周末都跟同事打网球，晚上在家看看电子书，或者在网上跟家人聊聊天。我觉得在北方工作也很有意思。",
+        "pinyin":"Wǒ shì nánfāng rén, qùnián lái běifāng gōngzuò. Gāng lái de shíhou, wǒ shénme dōu bù xíguàn: tiānqì tài lěng, zhèr de rén hěn shǎo chī mǐfàn, zhōumò wǒ yě bù zhīdao qù nǎr wánr. Tóngshì Xiǎo Wáng duì wǒ shuō: “Bié zháojí, nǐ yīnggāi duō chūqu zǒuzou, rènshi rènshi xīn péngyou.” Tā hái chángcháng dài wǒ qù dǎ wǎngqiú. Xiànzài wǒ měi ge zhōumò dōu gēn tóngshì dǎ wǎngqiú, wǎnshang zài jiā kànkan diànzǐshū, huòzhě zài wǎngshang gēn jiārén liáoliao tiān. Wǒ juéde zài běifāng gōngzuò yě hěn yǒu yìsi.",
+        "vi":"Tôi là người miền Nam, năm ngoái lên miền Bắc làm việc. Lúc mới đến, cái gì tôi cũng không quen: trời quá lạnh, người ở đây ít ăn cơm, cuối tuần tôi cũng chẳng biết đi đâu chơi. Đồng nghiệp Tiểu Vương nói với tôi: “Đừng sốt ruột, bạn nên ra ngoài đi đây đi đó nhiều hơn, làm quen thêm bạn mới.” Anh ấy còn hay dẫn tôi đi đánh quần vợt. Bây giờ cuối tuần nào tôi cũng đánh quần vợt với đồng nghiệp, buổi tối ở nhà đọc sách điện tử, hoặc trò chuyện với gia đình trên mạng. Tôi thấy làm việc ở miền Bắc cũng rất thú vị.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"说话的人是哪儿人？","options":["南方人","北方人","外国人","北京人"],"answer":0,"explanation_vi":"Nghe được: 我是南方人，去年来北方工作."},
+          {"id":"lq2","type":"choice","tag":"g:疑问代词任指","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"刚来北方的时候，他觉得怎么样？","options":["什么都不习惯","什么都很好","天气很热","常常吃米饭"],"answer":0,"explanation_vi":"Nghe được: 刚来的时候，我什么都不习惯."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"小王让他做什么？","options":["多出去走走","早点儿回南方","在家看电子书","少打网球"],"answer":0,"explanation_vi":"Nghe được: 你应该多出去走走，认识认识新朋友."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"现在他周末常做什么？","options":["跟同事打网球","在家睡觉","去南方","去饭馆吃饭"],"answer":0,"explanation_vi":"Nghe được: 现在我每个周末都跟同事打网球."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"办法","pinyin":"bànfǎ","vi":"cách, biện pháp","tip_vi":"办 bàn thanh 4: hạ dứt khoát từ cao xuống thấp. 法 fǎ thanh 3: xuống thấp rồi hơi lên lại. b tiếng Trung không rung như “b” tiếng Việt, nghe gần “p” nhẹ, không bật hơi."},
+      {"id":"s2","zh":"坚持","pinyin":"jiānchí","vi":"kiên trì","tip_vi":"坚 jiān: j là âm mặt lưỡi, môi dẹt, đừng đọc thành “gi” hay “ch” tiếng Việt. 持 chí: ch uốn lưỡi và bật hơi mạnh; vần -i đọc kiểu đầu lưỡi, không phải “i”."},
+      {"id":"s3","zh":"休息休息","pinyin":"xiūxi xiūxi","vi":"nghỉ ngơi một chút","tip_vi":"息 là thanh nhẹ: mỗi cặp 休息 thì 休 đọc rõ thanh 1, 息 ngắn và nhẹ. x đọc bằng mặt lưỡi, đừng đọc thành “x” (s) tiếng Việt."},
+      {"id":"s4","zh":"聊聊天","pinyin":"liáoliao tiān","vi":"trò chuyện một chút","tip_vi":"Chữ 聊 thứ hai đọc nhẹ và ngắn. 天 tiān: t bật hơi, vần -ian đọc gần “iên”, đừng đọc thành “tan”."},
+      {"id":"s5","zh":"谁都有办法。","pinyin":"Shéi dōu yǒu bànfǎ.","vi":"Ai cũng có cách.","tip_vi":"谁 đọc shéi (khẩu ngữ) hoặc shuí. Nhấn giọng vào 谁 để ra nghĩa “ai cũng”. 有 yǒu đứng trước thanh 4 nên chỉ đọc nửa thanh 3 (phần thấp)."},
+      {"id":"s6","zh":"我今天很累，什么都不想做。","pinyin":"Wǒ jīntiān hěn lèi, shénme dōu bù xiǎng zuò.","vi":"Hôm nay tôi mệt lắm, chẳng muốn làm gì cả.","tip_vi":"不想 bù xiǎng: 不 trước thanh 3 vẫn giữ thanh 4. 什么 shénme: me đọc nhẹ. 做 zuò: z không bật hơi, đầu lưỡi đặt sau răng dưới, đừng đọc như “chua”."},
+      {"id":"s7","zh":"遇到难题的时候，别着急，先跟朋友聊聊天吧。","pinyin":"Yùdào nántí de shíhou, bié zháojí, xiān gēn péngyou liáoliao tiān ba.","vi":"Khi gặp chuyện khó, đừng sốt ruột, hãy trò chuyện với bạn bè một chút trước đã.","tip_vi":"遇 yù: ü tròn môi nhưng giữ lưỡi như khi đọc i, đừng đọc thành “uy”. 着急 zháojí: 着 đọc zháo, không phải zhe. Ngắt hơi ở hai dấu phẩy."}
+    ],
+    "review": {
+      "remember": [
+        "Lặp động từ hai âm tiết kiểu ABAB (休息休息, 锻炼锻炼, 复习复习) để nói nhẹ nhàng “làm một chút”, hay dùng khi khuyên hoặc rủ.",
+        "Động từ li hợp chỉ lặp phần động từ: 聊聊天, 洗洗澡, 读读书, 跑跑步.",
+        "谁 / 什么 / 哪儿 / 什么时候 + 都/也 = ai / gì / đâu / lúc nào cũng…; phủ định: 我什么都不想吃.",
+        "Khuyên nhủ: 应该 / 该 + V (nên), 最好 + (别) + V (tốt nhất là (đừng)…), 该……了 (đến lúc… rồi).",
+        "办法 = cách xử lý một việc (想办法, 没办法); 方法 = phương pháp (学习方法). 怕 hay có tân ngữ (怕冷), 害怕 hay đứng một mình (别害怕)."
+      ],
+      "mistakes": [
+        "✗ 我不想吃什么都 → ✓ 我什么都不想吃: đại từ nghi vấn đứng trước 都/也 và trước động từ.",
+        "✗ 我们去聊天聊天吧 → ✓ 我们去聊聊天吧: động từ li hợp chỉ lặp phần đầu.",
+        "✗ 你别生气我 → ✓ 你别生我的气 / 别跟我生气: 生气 không mang tân ngữ trực tiếp."
+      ]
+    }
+  }
+}

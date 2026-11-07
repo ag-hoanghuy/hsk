@@ -1,0 +1,252 @@
+{
+  "level": 4,
+  "number": 4,
+  "summary": "Nói về chọn nghề, lương, thu nhập và áp lực công việc; học 以为/原来 để sửa lại một nhận thức sai, 并 + 不/没 để phủ nhận mạnh, giới từ 按照 (theo) và liên từ 甚至 (thậm chí).",
+  "readings_ok": ["得 děi", "得 de", "里 li"],
+  "content": {
+    "objectives": [
+      "Nói về nghề nghiệp, tiền lương, thu nhập và áp lực công việc: 职业、工资、收入、加班、压力",
+      "Sửa lại một suy nghĩ sai bằng 我以为……，原来…… và phủ nhận mạnh bằng 并不 / 并没(有)",
+      "Nói làm việc theo một yêu cầu, thói quen bằng 按照 + N, và đưa ra trường hợp cực nhất bằng 甚至",
+      "Khuyên một người trẻ chọn nghề theo sở thích, đừng quá vội kiếm tiền"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"原来","pinyin":"yuánlái","pos":"phó từ / tính từ","meaning_vi":"hóa ra, thì ra; ban đầu, trước đây (vốn là)","example_zh":"原来你也在这家公司工作！","example_pinyin":"Yuánlái nǐ yě zài zhè jiā gōngsī gōngzuò!","example_vi":"Hóa ra bạn cũng làm ở công ty này!","hanviet":"NGUYÊN LAI","note_vi":"Hai nghĩa: (1) “hóa ra” khi vừa phát hiện sự thật; (2) “ban đầu, trước đây”: 原来的工作 = công việc cũ, 他原来是工人 = trước đây anh ấy là công nhân. 本来 (bài 3) cũng có nghĩa “ban đầu” nhưng KHÔNG có nghĩa “hóa ra”."},
+      {"id":"v2","hanzi":"并","pinyin":"bìng","pos":"phó từ / liên từ","meaning_vi":"(trước 不/没) đâu có, hoàn toàn không; và, đồng thời (văn viết)","example_zh":"他的工资并不高。","example_pinyin":"Tā de gōngzī bìng bù gāo.","example_vi":"Lương của anh ấy đâu có cao.","hanviet":"TỊNH","note_vi":"Phó từ 并 chỉ đi với từ phủ định: 并不、并没(有), dùng để cãi lại điều người khác tưởng. Không dùng 并 trong câu khẳng định để nói “rất”."},
+      {"id":"v3","hanzi":"按照","pinyin":"ànzhào","pos":"giới từ","meaning_vi":"theo, dựa theo","example_zh":"请按照经理的要求做。","example_pinyin":"Qǐng ànzhào jīnglǐ de yāoqiú zuò.","example_vi":"Hãy làm theo yêu cầu của giám đốc.","hanviet":"ÁN CHIẾU","note_vi":"按照 + danh từ (要求、习惯、兴趣…) đứng TRƯỚC động từ. Khác 根据 (căn cứ vào): 根据 nêu cơ sở để rút ra kết luận, 按照 nhấn mạnh làm đúng theo."},
+      {"id":"v4","hanzi":"甚至","pinyin":"shènzhì","pos":"liên từ / phó từ","meaning_vi":"thậm chí, đến cả","example_zh":"他很忙，甚至周末也要加班。","example_pinyin":"Tā hěn máng, shènzhì zhōumò yě yào jiābān.","example_vi":"Anh ấy rất bận, thậm chí cuối tuần cũng phải tăng ca.","hanviet":"THẬM CHÍ","note_vi":"Nghĩa giống hệt “thậm chí” tiếng Việt. Phần đứng sau 甚至 phải là trường hợp “cực nhất”, hay có 也/都 đi kèm."},
+      {"id":"v5","hanzi":"赚","pinyin":"zhuàn","pos":"động từ","meaning_vi":"kiếm (tiền); lãi, có lời","example_zh":"他做生意赚了不少钱。","example_pinyin":"Tā zuò shēngyi zhuàn le bù shǎo qián.","example_vi":"Anh ấy làm ăn kiếm được khá nhiều tiền.","note_vi":"赚钱 = kiếm tiền. zh là âm uốn lưỡi, đọc zhuàn chứ không phải “choan”."},
+      {"id":"v6","hanzi":"职业","pinyin":"zhíyè","pos":"danh từ","meaning_vi":"nghề nghiệp, nghề","example_zh":"你将来想选择什么职业？","example_pinyin":"Nǐ jiānglái xiǎng xuǎnzé shénme zhíyè?","example_vi":"Sau này bạn muốn chọn nghề gì?","hanviet":"CHỨC NGHIỆP","note_vi":"职业 là “nghề” nói chung (bác sĩ, luật sư, giáo viên…), không phải “chức vụ”. 工作 là công việc, việc làm cụ thể: 找工作 (tìm việc), không nói 找职业."},
+      {"id":"v7","hanzi":"工资","pinyin":"gōngzī","pos":"danh từ","meaning_vi":"tiền lương","example_zh":"这个月的工资还没发。","example_pinyin":"Zhège yuè de gōngzī hái méi fā.","example_vi":"Lương tháng này vẫn chưa phát.","hanviet":"CÔNG TƯ","note_vi":"工资 = lương đơn vị trả hằng tháng; 收入 = tổng thu nhập (lương + thưởng + làm thêm…). Động từ đi kèm: 发工资 (phát lương), 工资高/低."},
+      {"id":"v8","hanzi":"收入","pinyin":"shōurù","pos":"danh từ / động từ","meaning_vi":"thu nhập","example_zh":"他现在的收入比以前高多了。","example_pinyin":"Tā xiànzài de shōurù bǐ yǐqián gāo duō le.","example_vi":"Thu nhập bây giờ của anh ấy cao hơn trước nhiều.","hanviet":"THU NHẬP","note_vi":"Trật tự giống hệt tiếng Việt “thu nhập”. Nói 收入高 / 收入多 (thu nhập cao), không nói 收入大."},
+      {"id":"v9","hanzi":"压力","pinyin":"yālì","pos":"danh từ","meaning_vi":"áp lực","example_zh":"最近工作很多，我的压力很大。","example_pinyin":"Zuìjìn gōngzuò hěn duō, wǒ de yālì hěn dà.","example_vi":"Dạo này nhiều việc, áp lực của tôi rất lớn.","hanviet":"ÁP LỰC","note_vi":"Đi với 大/小: 压力很大 (áp lực lớn), không nói 压力很高. Tiếng Việt hay nói “rất áp lực” (dùng như tính từ), tiếng Trung phải nói 压力很大 hoặc 有压力."},
+      {"id":"v10","hanzi":"辛苦","pinyin":"xīnkǔ","pos":"tính từ / động từ","meaning_vi":"vất vả, cực nhọc","example_zh":"当警察非常辛苦，晚上也常常要工作。","example_pinyin":"Dāng jǐngchá fēicháng xīnkǔ, wǎnshang yě chángcháng yào gōngzuò.","example_vi":"Làm cảnh sát rất vất vả, buổi tối cũng thường phải làm việc.","hanviet":"TÂN KHỔ","note_vi":"您辛苦了！/ 辛苦了！ là câu cảm ơn người vừa làm việc vất vả cho mình (anh tài xế, đồng nghiệp…)."},
+      {"id":"v11","hanzi":"理想","pinyin":"lǐxiǎng","pos":"danh từ / tính từ","meaning_vi":"lý tưởng, hoài bão; (tính từ) lý tưởng, như ý","example_zh":"找一份理想的工作并不容易。","example_pinyin":"Zhǎo yí fèn lǐxiǎng de gōngzuò bìng bù róngyì.","example_vi":"Tìm được một công việc như ý đâu có dễ.","hanviet":"LÝ TƯỞNG","note_vi":"Danh từ: 我的理想是当老师 (hoài bão của tôi là làm giáo viên). Tính từ: 理想的工作 = công việc như mong muốn. Nghĩa rộng và đời thường hơn chữ “lý tưởng” tiếng Việt."},
+      {"id":"v12","hanzi":"梦想","pinyin":"mèngxiǎng","pos":"danh từ / động từ","meaning_vi":"ước mơ, mơ ước","example_zh":"我的梦想是有一家自己的咖啡店。","example_pinyin":"Wǒ de mèngxiǎng shì yǒu yì jiā zìjǐ de kāfēidiàn.","example_vi":"Ước mơ của tôi là có một quán cà phê của riêng mình.","hanviet":"MỘNG TƯỞNG","note_vi":"Bẫy Hán Việt: “mộng tưởng” tiếng Việt có ý viển vông, còn 梦想 là “ước mơ” mang nghĩa tốt. 理想 gần với mục tiêu thực tế hơn, 梦想 là điều mình rất mong."},
+      {"id":"v13","hanzi":"目标","pinyin":"mùbiāo","pos":"danh từ","meaning_vi":"mục tiêu","example_zh":"今年我的目标是存两万块钱。","example_pinyin":"Jīnnián wǒ de mùbiāo shì cún liǎng wàn kuài qián.","example_vi":"Mục tiêu năm nay của tôi là để dành được hai vạn tệ.","hanviet":"MỤC TIÊU"},
+      {"id":"v14","hanzi":"将来","pinyin":"jiānglái","pos":"danh từ","meaning_vi":"tương lai, sau này","example_zh":"你将来想做什么工作？","example_pinyin":"Nǐ jiānglái xiǎng zuò shénme gōngzuò?","example_vi":"Sau này bạn muốn làm công việc gì?","hanviet":"TƯƠNG LAI","note_vi":"将来 là từ chỉ thời gian, đứng trước động từ như 以后: 将来想当律师. 以后 dùng cho cả “vài hôm nữa”, còn 将来 thường chỉ tương lai xa."},
+      {"id":"v15","hanzi":"成为","pinyin":"chéngwéi","pos":"động từ","meaning_vi":"trở thành","example_zh":"她成为了一名律师。","example_pinyin":"Tā chéngwéi le yì míng lǜshī.","example_vi":"Cô ấy đã trở thành một luật sư.","hanviet":"THÀNH VI","note_vi":"成为 + danh từ (người, vật). Sau 成为 không đặt tính từ: ✗ 成为漂亮 → ✓ 变得漂亮. 为 ở đây đọc wéi (thanh 2), không phải wèi."},
+      {"id":"v16","hanzi":"竞争","pinyin":"jìngzhēng","pos":"động từ / danh từ","meaning_vi":"cạnh tranh, sự cạnh tranh","example_zh":"现在找工作，竞争很大。","example_pinyin":"Xiànzài zhǎo gōngzuò, jìngzhēng hěn dà.","example_vi":"Bây giờ tìm việc, cạnh tranh rất lớn.","hanviet":"CẠNH TRANH","note_vi":"Chú ý -ing và -eng: jìng (cuống lưỡi, không đọc “jinh”), zhēng (uốn lưỡi)."},
+      {"id":"v17","hanzi":"社会","pinyin":"shèhuì","pos":"danh từ","meaning_vi":"xã hội","example_zh":"大学毕业以后，他走进了社会。","example_pinyin":"Dàxué bìyè yǐhòu, tā zǒu jìn le shèhuì.","example_vi":"Sau khi tốt nghiệp đại học, anh ấy bước vào đời (xã hội).","hanviet":"XÃ HỘI"},
+      {"id":"v18","hanzi":"经济","pinyin":"jīngjì","pos":"danh từ","meaning_vi":"kinh tế","example_zh":"这几年，城市的经济发展得很快。","example_pinyin":"Zhè jǐ nián, chéngshì de jīngjì fāzhǎn de hěn kuài.","example_vi":"Mấy năm nay, kinh tế của thành phố phát triển rất nhanh.","hanviet":"KINH TẾ"},
+      {"id":"v19","hanzi":"生意","pinyin":"shēngyi","pos":"danh từ","meaning_vi":"việc buôn bán, làm ăn","example_zh":"这家饭馆的生意很好。","example_pinyin":"Zhè jiā fànguǎn de shēngyi hěn hǎo.","example_vi":"Quán ăn này làm ăn rất được (rất đắt khách).","hanviet":"SINH Ý","note_vi":"做生意 = buôn bán, kinh doanh; 生意好 = đắt khách. 意 đọc nhẹ: shēngyi. Không liên quan đến “sinh ý” hay “ý định”."},
+      {"id":"v20","hanzi":"加班","pinyin":"jiābān","pos":"động từ","meaning_vi":"làm thêm giờ, tăng ca","example_zh":"今天我要加班，晚一点儿回家。","example_pinyin":"Jīntiān wǒ yào jiābān, wǎn yìdiǎnr huí jiā.","example_vi":"Hôm nay tôi phải tăng ca, về nhà muộn một chút.","hanviet":"GIA BAN","note_vi":"Động từ li hợp: 加了两个小时班 (tăng ca hai tiếng). Thời lượng đặt giữa 加 và 班, hoặc nói 加班加了两个小时."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"律师","pinyin":"lǜshī","pos":"danh từ","meaning_vi":"luật sư","example_zh":"她的梦想是当一名律师。","example_pinyin":"Tā de mèngxiǎng shì dāng yì míng lǜshī.","example_vi":"Ước mơ của cô ấy là làm luật sư."},
+      {"id":"x2","hanzi":"记者","pinyin":"jìzhě","pos":"danh từ","meaning_vi":"phóng viên, nhà báo","example_zh":"那位记者问了经理很多问题。","example_pinyin":"Nà wèi jìzhě wèn le jīnglǐ hěn duō wèntí.","example_vi":"Vị phóng viên đó hỏi giám đốc rất nhiều câu hỏi."},
+      {"id":"x3","hanzi":"警察","pinyin":"jǐngchá","pos":"danh từ","meaning_vi":"cảnh sát","example_zh":"有问题可以找警察。","example_pinyin":"Yǒu wèntí kěyǐ zhǎo jǐngchá.","example_vi":"Có chuyện gì có thể tìm cảnh sát."},
+      {"id":"x4","hanzi":"教师","pinyin":"jiàoshī","pos":"danh từ","meaning_vi":"giáo viên (cách nói trang trọng)","example_zh":"我妈妈是一名中学教师。","example_pinyin":"Wǒ māma shì yì míng zhōngxué jiàoshī.","example_vi":"Mẹ tôi là giáo viên trung học."},
+      {"id":"x5","hanzi":"教授","pinyin":"jiàoshòu","pos":"danh từ","meaning_vi":"giáo sư","example_zh":"王教授的课很有意思。","example_pinyin":"Wáng jiàoshòu de kè hěn yǒu yìsi.","example_vi":"Tiết học của giáo sư Vương rất thú vị."},
+      {"id":"x6","hanzi":"工人","pinyin":"gōngrén","pos":"danh từ","meaning_vi":"công nhân","example_zh":"这个工厂有五百多个工人。","example_pinyin":"Zhège gōngchǎng yǒu wǔbǎi duō ge gōngrén.","example_vi":"Nhà máy này có hơn năm trăm công nhân."},
+      {"id":"x7","hanzi":"师傅","pinyin":"shīfu","pos":"danh từ","meaning_vi":"bác thợ, anh tài xế (cách gọi người làm nghề); thầy dạy nghề","example_zh":"师傅，去火车站多少钱？","example_pinyin":"Shīfu, qù huǒchēzhàn duōshao qián?","example_vi":"Anh ơi (bác tài), đi ga tàu hết bao nhiêu tiền?"},
+      {"id":"x8","hanzi":"工厂","pinyin":"gōngchǎng","pos":"danh từ","meaning_vi":"nhà máy, xí nghiệp","example_zh":"他在一家工厂上班。","example_pinyin":"Tā zài yì jiā gōngchǎng shàngbān.","example_vi":"Anh ấy làm ở một nhà máy."},
+      {"id":"x9","hanzi":"厂","pinyin":"chǎng","pos":"danh từ","meaning_vi":"xưởng, nhà máy (hay đứng cuối từ ghép)","example_zh":"我爸爸在汽车厂工作了二十年。","example_pinyin":"Wǒ bàba zài qìchē chǎng gōngzuò le èrshí nián.","example_vi":"Bố tôi làm ở nhà máy ô tô hai mươi năm rồi."},
+      {"id":"x10","hanzi":"打工","pinyin":"dǎgōng","pos":"động từ","meaning_vi":"làm thuê, làm thêm (bán thời gian)","example_zh":"放假的时候，我在咖啡店打工。","example_pinyin":"Fàngjià de shíhou, wǒ zài kāfēidiàn dǎgōng.","example_vi":"Lúc được nghỉ, tôi làm thêm ở quán cà phê."},
+      {"id":"x11","hanzi":"出差","pinyin":"chūchāi","pos":"động từ","meaning_vi":"đi công tác","example_zh":"经理下个星期要去北京出差。","example_pinyin":"Jīnglǐ xià ge xīngqī yào qù Běijīng chūchāi.","example_vi":"Tuần sau giám đốc phải đi Bắc Kinh công tác.","note_vi":"差 ở đây đọc chāi, khác 差不多 (chà)."},
+      {"id":"x12","hanzi":"奖金","pinyin":"jiǎngjīn","pos":"danh từ","meaning_vi":"tiền thưởng","example_zh":"今年年底的奖金比去年多。","example_pinyin":"Jīnnián niándǐ de jiǎngjīn bǐ qùnián duō.","example_vi":"Tiền thưởng cuối năm nay nhiều hơn năm ngoái."},
+      {"id":"x13","hanzi":"存","pinyin":"cún","pos":"động từ","meaning_vi":"gửi (tiền), để dành; lưu giữ","example_zh":"我每个月存两千块钱。","example_pinyin":"Wǒ měi ge yuè cún liǎng qiān kuài qián.","example_vi":"Mỗi tháng tôi để dành hai nghìn tệ."},
+      {"id":"x14","hanzi":"管理","pinyin":"guǎnlǐ","pos":"động từ / danh từ","meaning_vi":"quản lý","example_zh":"她负责管理二十个人。","example_pinyin":"Tā fùzé guǎnlǐ èrshí ge rén.","example_vi":"Cô ấy phụ trách quản lý hai mươi người."},
+      {"id":"x15","hanzi":"任务","pinyin":"rènwu","pos":"danh từ","meaning_vi":"nhiệm vụ","example_zh":"今天的任务已经完成了。","example_pinyin":"Jīntiān de rènwu yǐjīng wánchéng le.","example_vi":"Nhiệm vụ hôm nay đã hoàn thành rồi."},
+      {"id":"x16","hanzi":"办公","pinyin":"bàngōng","pos":"động từ","meaning_vi":"làm việc (ở văn phòng)","example_zh":"经理在楼上办公。","example_pinyin":"Jīnglǐ zài lóu shang bàngōng.","example_vi":"Giám đốc làm việc ở trên lầu."},
+      {"id":"x17","hanzi":"办事","pinyin":"bànshì","pos":"động từ","meaning_vi":"làm việc, lo việc","example_zh":"我去银行办点儿事，马上回来。","example_pinyin":"Wǒ qù yínháng bàn diǎnr shì, mǎshàng huílai.","example_vi":"Tôi ra ngân hàng lo chút việc, về ngay."},
+      {"id":"x18","hanzi":"办理","pinyin":"bànlǐ","pos":"động từ","meaning_vi":"làm (thủ tục), giải quyết (giấy tờ)","example_zh":"我想办理一张银行卡。","example_pinyin":"Wǒ xiǎng bànlǐ yì zhāng yínhángkǎ.","example_vi":"Tôi muốn làm một thẻ ngân hàng."},
+      {"id":"x19","hanzi":"至少","pinyin":"zhìshǎo","pos":"phó từ","meaning_vi":"ít nhất","example_zh":"我每天至少睡七个小时。","example_pinyin":"Wǒ měi tiān zhìshǎo shuì qī ge xiǎoshí.","example_vi":"Mỗi ngày tôi ngủ ít nhất bảy tiếng."},
+      {"id":"x20","hanzi":"超过","pinyin":"chāoguò","pos":"động từ","meaning_vi":"vượt quá, hơn","example_zh":"这个月他的收入超过了一万块。","example_pinyin":"Zhège yuè tā de shōurù chāoguò le yí wàn kuài.","example_vi":"Tháng này thu nhập của anh ấy vượt quá một vạn tệ."},
+      {"id":"x21","hanzi":"增长","pinyin":"zēngzhǎng","pos":"động từ","meaning_vi":"tăng lên, tăng trưởng","example_zh":"这几年公司的收入增长得很快。","example_pinyin":"Zhè jǐ nián gōngsī de shōurù zēngzhǎng de hěn kuài.","example_vi":"Mấy năm nay thu nhập của công ty tăng rất nhanh."},
+      {"id":"x22","hanzi":"专门","pinyin":"zhuānmén","pos":"phó từ / tính từ","meaning_vi":"chuyên, riêng để (làm gì); chuyên dùng","example_zh":"这是我专门给你买的。","example_pinyin":"Zhè shì wǒ zhuānmén gěi nǐ mǎi de.","example_vi":"Cái này tôi mua riêng cho bạn đấy.","note_vi":"Không phải “chuyên môn, ngành học”: ngành học là 专业."},
+      {"id":"x23","hanzi":"作为","pinyin":"zuòwéi","pos":"giới từ / động từ","meaning_vi":"với tư cách là, là (một…)","example_zh":"作为老师，我很关心学生的生活。","example_pinyin":"Zuòwéi lǎoshī, wǒ hěn guānxīn xuésheng de shēnghuó.","example_vi":"Là giáo viên, tôi rất quan tâm đến cuộc sống của học sinh."},
+      {"id":"x24","hanzi":"当","pinyin":"dāng","pos":"động từ","meaning_vi":"làm (nghề), đảm nhận","example_zh":"他小时候就想当警察。","example_pinyin":"Tā xiǎoshíhou jiù xiǎng dāng jǐngchá.","example_vi":"Từ hồi nhỏ anh ấy đã muốn làm cảnh sát."},
+      {"id":"x25","hanzi":"法律","pinyin":"fǎlǜ","pos":"danh từ","meaning_vi":"pháp luật, luật","example_zh":"他在大学学的是法律。","example_pinyin":"Tā zài dàxué xué de shì fǎlǜ.","example_vi":"Ở đại học anh ấy học ngành luật."},
+      {"id":"x26","hanzi":"法","pinyin":"fǎ","pos":"danh từ","meaning_vi":"luật, phép; cách (trong 办法、方法)","example_zh":"他是学法的，现在是一名律师。","example_pinyin":"Tā shì xué fǎ de, xiànzài shì yì míng lǜshī.","example_vi":"Anh ấy học luật, bây giờ là luật sư."},
+      {"id":"x27","hanzi":"年底","pinyin":"niándǐ","pos":"danh từ","meaning_vi":"cuối năm","example_zh":"年底公司会发奖金。","example_pinyin":"Niándǐ gōngsī huì fā jiǎngjīn.","example_vi":"Cuối năm công ty sẽ phát tiền thưởng."},
+      {"id":"x28","hanzi":"项","pinyin":"xiàng","pos":"lượng từ","meaning_vi":"hạng mục, (lượng từ cho nhiệm vụ, công việc)","example_zh":"这项任务很重要，你一定要完成。","example_pinyin":"Zhè xiàng rènwu hěn zhòngyào, nǐ yídìng yào wánchéng.","example_vi":"Nhiệm vụ này rất quan trọng, bạn nhất định phải hoàn thành."},
+      {"id":"x29","hanzi":"推迟","pinyin":"tuīchí","pos":"động từ","meaning_vi":"hoãn lại, lùi lại","example_zh":"会议推迟到下午三点了。","example_pinyin":"Huìyì tuīchí dào xiàwǔ sān diǎn le.","example_vi":"Cuộc họp lùi đến ba giờ chiều rồi."},
+      {"id":"x30","hanzi":"压","pinyin":"yā","pos":"động từ","meaning_vi":"đè, ép","example_zh":"别把我的蛋糕压坏了！","example_pinyin":"Bié bǎ wǒ de dàngāo yā huài le!","example_vi":"Đừng đè bẹp cái bánh kem của tôi!"}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“以为” (tưởng là) và “原来” (hóa ra; ban đầu)",
+        "pattern":"S + 以为 + (điều đã nghĩ, hóa ra sai)，原来/其实 + sự thật　·　原来 + 的 + N　·　S + 原来 + V",
+        "explanation_vi":"以为 = “tưởng (là)”: nói điều mình đã nghĩ trước đó, nhưng giờ biết là SAI. Vế sau thường đưa ra sự thật: 我以为……，原来/其实……. Hay gặp 我还以为……呢 (tôi cứ tưởng…). Khác 认为 (cho rằng): 认为 nêu nhận định, ý kiến, không có ý “nghĩ nhầm”, giọng nghiêm túc hơn 觉得.\n原来 có hai nghĩa. (1) Phó từ “hóa ra, thì ra”: vừa phát hiện ra sự thật hoặc nguyên nhân mà trước đó không biết; đứng đầu câu hoặc sau chủ ngữ. (2) “Ban đầu, trước đây”: 原来的工作 (công việc cũ), 他原来是工人 (trước đây vốn là công nhân, bây giờ đã khác). So với 本来 (bài 3): cả hai đều có nghĩa “ban đầu”, nhưng chỉ 原来 có nghĩa “hóa ra”; còn nghĩa “lẽ ra, đương nhiên” (本来就应该……) chỉ có ở 本来.",
+        "examples":[
+          {"zh":"我以为他是经理，原来他是记者。","pinyin":"Wǒ yǐwéi tā shì jīnglǐ, yuánlái tā shì jìzhě.","vi":"Tôi tưởng anh ấy là giám đốc, hóa ra anh ấy là phóng viên."},
+          {"zh":"我还以为今天不用加班呢。","pinyin":"Wǒ hái yǐwéi jīntiān búyòng jiābān ne.","vi":"Tôi cứ tưởng hôm nay không phải tăng ca chứ."},
+          {"zh":"原来你们俩是同学啊！","pinyin":"Yuánlái nǐmen liǎ shì tóngxué a!","vi":"Hóa ra hai người là bạn học à!"},
+          {"zh":"他原来是工人，现在成为了工厂的经理。","pinyin":"Tā yuánlái shì gōngrén, xiànzài chéngwéi le gōngchǎng de jīnglǐ.","vi":"Trước đây anh ấy là công nhân, bây giờ đã trở thành giám đốc nhà máy."},
+          {"zh":"我原来的工作压力太大了。","pinyin":"Wǒ yuánlái de gōngzuò yālì tài dà le.","vi":"Công việc cũ của tôi áp lực quá lớn."}
+        ],
+        "mistakes_vi":"✗ 我以为这个办法很好，咱们就这么做吧。(muốn nêu ý kiến)\n✓ 我认为/觉得这个办法很好，咱们就这么做吧。\nTrong khẩu ngữ, 以为 gần như luôn mang ý “tưởng nhầm”; nêu ý kiến thì dùng 认为 hoặc 觉得.\n✗ 本来是你啊！我还以为是谁呢。\n✓ 原来是你啊！\nNghĩa “hóa ra, thì ra” chỉ có ở 原来, không dùng 本来.",
+        "compare_vi":"以为 ≈ “tưởng”, 认为 ≈ “cho rằng”, 原来 ≈ “hóa ra / thì ra” hoặc “trước đây vốn…”. Câu “Tôi tưởng…, hóa ra…” dịch thẳng thành 我以为……，原来…… rất tự nhiên."
+      },
+      {
+        "id":"g2",
+        "title":"Phó từ “并” + 不/没 (đâu có, hoàn toàn không)",
+        "pattern":"S + 并 + 不/没(有) + V/Adj　·　(văn viết) V1 + O，并 + V2",
+        "explanation_vi":"Đặt 并 ngay trước 不 hoặc 没(有) để phủ nhận mạnh một điều mà người khác tưởng, hoặc điều nhìn bề ngoài có vẻ như vậy: “thật ra (hoàn toàn) không…, đâu có…”. Câu trước thường nói điều người ta tưởng: 大家都以为……，其实……并不……. Câu chỉ có 不 là nói bình thường; thêm 并 là đang “cãi lại”, sửa một suy nghĩ sai.\nTrong văn viết, 并 còn là liên từ “và, đồng thời”, nối hai động từ hoặc hai vế cùng chủ ngữ (完成了任务，并写了邮件). Nó không nối hai danh từ (danh từ dùng 和).",
+        "examples":[
+          {"zh":"工资高的工作并不一定好。","pinyin":"Gōngzī gāo de gōngzuò bìng bù yídìng hǎo.","vi":"Công việc lương cao đâu chắc đã tốt."},
+          {"zh":"大家都以为他赚了很多钱，其实他并没有赚多少。","pinyin":"Dàjiā dōu yǐwéi tā zhuàn le hěn duō qián, qíshí tā bìng méiyǒu zhuàn duōshao.","vi":"Mọi người đều tưởng anh ấy kiếm được nhiều tiền, thật ra anh ấy chẳng kiếm được bao nhiêu."},
+          {"zh":"我并没有说过这句话。","pinyin":"Wǒ bìng méiyǒu shuō guo zhè jù huà.","vi":"Tôi đâu có nói câu đó."},
+          {"zh":"他完成了任务，并写了一封邮件告诉经理。","pinyin":"Tā wánchéng le rènwu, bìng xiě le yì fēng yóujiàn gàosu jīnglǐ.","vi":"Anh ấy hoàn thành nhiệm vụ, đồng thời viết một email báo cho giám đốc."}
+        ],
+        "mistakes_vi":"✗ 他不并忙。\n✓ 他并不忙。\n并 luôn đứng TRƯỚC 不/没.\n✗ 我并很喜欢这份工作。\n✓ 我很喜欢这份工作。/ 我并不喜欢这份工作。\nPhó từ 并 chỉ dùng trong câu phủ định, không dùng để nhấn mạnh câu khẳng định.\n✗ 我并他都是记者。\n✓ 我和他都是记者。\nNối hai danh từ dùng 和, không dùng 并.",
+        "compare_vi":"Gần với “đâu có…”, “chẳng hề…”, “thật ra không…” trong tiếng Việt. Đọc 并 hơi nhấn giọng khi phản bác."
+      },
+      {
+        "id":"g3",
+        "title":"Giới từ “按照” (theo, dựa theo)",
+        "pattern":"(S +) 按照 + N + V　·　按照 + N，S + V",
+        "explanation_vi":"按照 dẫn ra tiêu chuẩn, quy tắc, cách thức mà hành động làm theo: “theo, dựa theo”. Cụm 按照 + danh từ đứng TRƯỚC động từ (sau chủ ngữ), hoặc đứng đầu câu rồi ngắt bằng dấu phẩy. Sau 按照 thường là danh từ hai âm tiết trở lên hoặc cụm danh từ: 按照要求、按照习惯、按照自己的兴趣、按照经理说的.\nSo với 根据 (đã học): 根据 = “căn cứ vào”, nêu cơ sở để rút ra kết luận, quyết định (根据他的成绩，……); 按照 nhấn mạnh làm đúng theo một chuẩn có sẵn (按照要求做). Nhiều câu dùng được cả hai, nhưng “làm theo yêu cầu/thói quen” thì 按照 tự nhiên hơn.",
+        "examples":[
+          {"zh":"请大家按照要求填写表格。","pinyin":"Qǐng dàjiā ànzhào yāoqiú tiánxiě biǎogé.","vi":"Mời mọi người điền bảng theo yêu cầu."},
+          {"zh":"按照公司的习惯，年底每个人都有奖金。","pinyin":"Ànzhào gōngsī de xíguàn, niándǐ měi ge rén dōu yǒu jiǎngjīn.","vi":"Theo lệ của công ty, cuối năm ai cũng có tiền thưởng."},
+          {"zh":"他按照自己的兴趣选择了职业。","pinyin":"Tā ànzhào zìjǐ de xìngqù xuǎnzé le zhíyè.","vi":"Anh ấy chọn nghề theo sở thích của mình."}
+        ],
+        "mistakes_vi":"✗ 我们做按照经理的要求。\n✓ 我们按照经理的要求做。\nTiếng Việt nói “làm theo yêu cầu”, nhưng cụm 按照 + N phải đứng trước động từ.\n✗ 按照他，这个办法不好。\n✓ 他觉得/他认为这个办法不好。\n“Theo anh ấy thì…” (nêu ý kiến của ai đó) không dịch bằng 按照 + người.",
+        "compare_vi":"Giống “theo” trong “làm theo hướng dẫn”. Nhưng “theo tôi thì…” (ý kiến) dùng 我觉得 / 我认为, không dùng 按照."
+      },
+      {
+        "id":"g4",
+        "title":"Liên từ “甚至” (thậm chí)",
+        "pattern":"A，甚至 + B (B là trường hợp cực nhất)　·　甚至 + (S/thời gian) + 也/都 + V",
+        "explanation_vi":"甚至 đưa ra ví dụ nổi bật nhất, ở mức cao nhất để nhấn mạnh: “thậm chí, đến cả”. Phần sau 甚至 phải cùng chiều với ý trước và “bất ngờ” hơn. Nó có thể đứng trước động từ, trước chủ ngữ (甚至经理也不知道) hoặc trước danh từ cuối trong một dãy (学生、老师，甚至校长都来了). Khi nhấn mạnh một người hay một thời điểm, phía sau thường có 也/都.",
+        "examples":[
+          {"zh":"他工作很忙，有时候甚至周末也要加班。","pinyin":"Tā gōngzuò hěn máng, yǒu shíhou shènzhì zhōumò yě yào jiābān.","vi":"Anh ấy làm việc rất bận, có lúc thậm chí cuối tuần cũng phải tăng ca."},
+          {"zh":"这件事很多人都不知道，甚至经理也不清楚。","pinyin":"Zhè jiàn shì hěn duō rén dōu bù zhīdào, shènzhì jīnglǐ yě bù qīngchu.","vi":"Chuyện này nhiều người không biết, thậm chí giám đốc cũng không rõ."},
+          {"zh":"为了存钱买房子，她甚至一年都没买新衣服。","pinyin":"Wèile cún qián mǎi fángzi, tā shènzhì yì nián dōu méi mǎi xīn yīfu.","vi":"Để dành tiền mua nhà, cô ấy thậm chí cả năm không mua quần áo mới."}
+        ],
+        "mistakes_vi":"✗ 这个问题很难，甚至老师也会回答。\n✓ 这个问题很难，甚至老师也回答不了。\nPhần sau 甚至 phải cùng chiều và “cực” hơn ý trước (khó → đến thầy cũng không trả lời được).\n✗ 他甚至很忙。\n✓ 他很忙，甚至没有时间吃饭。\n甚至 cần đi sau một ý đã nêu và đưa ra trường hợp cụ thể, không dùng như “rất”.",
+        "compare_vi":"Dùng gần như “thậm chí” tiếng Việt (âm Hán Việt THẬM CHÍ). Tiếng Trung hay thêm 也/都 sau phần được nhấn mạnh: 甚至周末也……, 甚至经理都……"
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Lương cao có phải là tất cả?",
+      "scene_vi": "Tiểu Lâm tốt nghiệp được một năm, cuối tuần về trường thăm cô Vương, cô giáo cũ, và kể chuyện công việc.",
+      "lines": [
+        {"speaker":"王老师","zh":"小林，好久不见！听说你在一家大公司工作，收入挺高的吧？","pinyin":"Xiǎo Lín, hǎojiǔ bú jiàn! Tīngshuō nǐ zài yì jiā dà gōngsī gōngzuò, shōurù tǐng gāo de ba?","vi":"Tiểu Lâm, lâu quá không gặp! Nghe nói em làm ở một công ty lớn, thu nhập khá cao phải không?"},
+        {"speaker":"小林","zh":"工资是不少，可是我差不多每天都要加班，有时候甚至周末也得去公司。我觉得压力特别大。","pinyin":"Gōngzī shì bù shǎo, kěshì wǒ chàbuduō měi tiān dōu yào jiābān, yǒu shíhou shènzhì zhōumò yě děi qù gōngsī. Wǒ juéde yālì tèbié dà.","vi":"Lương thì không ít ạ, nhưng gần như ngày nào em cũng phải tăng ca, có lúc thậm chí cuối tuần cũng phải lên công ty. Em thấy áp lực lắm."},
+        {"speaker":"王老师","zh":"我还以为你很喜欢这份工作呢。你上次不是说，赚钱是你现在最大的目标吗？","pinyin":"Wǒ hái yǐwéi nǐ hěn xǐhuan zhè fèn gōngzuò ne. Nǐ shàng cì bú shì shuō, zhuàn qián shì nǐ xiànzài zuì dà de mùbiāo ma?","vi":"Cô cứ tưởng em rất thích công việc này chứ. Lần trước em chẳng bảo kiếm tiền là mục tiêu lớn nhất của em bây giờ sao?"},
+        {"speaker":"小林","zh":"是啊，我以为只要工资高，生活就会很好。工作了一年才发现，原来钱多并不一定开心。我已经很久没时间锻炼了。","pinyin":"Shì a, wǒ yǐwéi zhǐyào gōngzī gāo, shēnghuó jiù huì hěn hǎo. Gōngzuò le yì nián cái fāxiàn, yuánlái qián duō bìng bù yídìng kāixīn. Wǒ yǐjīng hěn jiǔ méi shíjiān duànliàn le.","vi":"Vâng, em tưởng chỉ cần lương cao thì cuộc sống sẽ tốt. Đi làm một năm em mới nhận ra, hóa ra nhiều tiền đâu chắc đã vui. Lâu lắm rồi em không có thời gian tập thể dục."},
+        {"speaker":"王老师","zh":"你还记得上大学时的梦想吗？你说过将来想成为一名记者。","pinyin":"Nǐ hái jìde shàng dàxué shí de mèngxiǎng ma? Nǐ shuō guo jiānglái xiǎng chéngwéi yì míng jìzhě.","vi":"Em còn nhớ ước mơ hồi học đại học không? Em từng nói sau này muốn trở thành một nhà báo."},
+        {"speaker":"小林","zh":"当然记得！上个月一家新闻网站招聘记者，我去面试了，他们对我的印象还不错。可是那儿的工资只有现在的一半……","pinyin":"Dāngrán jìde! Shàng ge yuè yì jiā xīnwén wǎngzhàn zhāopìn jìzhě, wǒ qù miànshì le, tāmen duì wǒ de yìnxiàng hái búcuò. Kěshì nàr de gōngzī zhǐ yǒu xiànzài de yíbàn……","vi":"Tất nhiên là nhớ ạ! Tháng trước một trang tin tức tuyển phóng viên, em đã đi phỏng vấn, họ có ấn tượng khá tốt về em. Nhưng lương ở đó chỉ bằng một nửa bây giờ…"},
+        {"speaker":"王老师","zh":"小林，你还年轻，不要太着急赚钱。按照自己的兴趣选择职业，先多学点儿东西，收入以后会慢慢增长的。","pinyin":"Xiǎo Lín, nǐ hái niánqīng, búyào tài zháojí zhuàn qián. Ànzhào zìjǐ de xìngqù xuǎnzé zhíyè, xiān duō xué diǎnr dōngxi, shōurù yǐhòu huì mànmàn zēngzhǎng de.","vi":"Tiểu Lâm, em còn trẻ, đừng quá vội kiếm tiền. Hãy chọn nghề theo sở thích của mình, trước hết học hỏi thêm nhiều thứ, thu nhập sau này sẽ dần dần tăng lên."},
+        {"speaker":"小林","zh":"可是现在社会上竞争这么大，经济也不太好。我担心当记者收入太少，将来买不起房子。","pinyin":"Kěshì xiànzài shèhuì shang jìngzhēng zhème dà, jīngjì yě bú tài hǎo. Wǒ dānxīn dāng jìzhě shōurù tài shǎo, jiānglái mǎi bu qǐ fángzi.","vi":"Nhưng bây giờ xã hội cạnh tranh lớn như vậy, kinh tế cũng không tốt lắm. Em lo làm phóng viên thu nhập quá ít, sau này không mua nổi nhà."},
+        {"speaker":"王老师","zh":"我以前有个学生，原来在银行工作，每天都很辛苦。后来他按照自己的爱好开了一家咖啡店，生意很好，收入甚至比以前还高。所以，钱当然重要，但并不是最重要的。","pinyin":"Wǒ yǐqián yǒu ge xuésheng, yuánlái zài yínháng gōngzuò, měi tiān dōu hěn xīnkǔ. Hòulái tā ànzhào zìjǐ de àihào kāi le yì jiā kāfēidiàn, shēngyi hěn hǎo, shōurù shènzhì bǐ yǐqián hái gāo. Suǒyǐ, qián dāngrán zhòngyào, dàn bìng bú shì zuì zhòngyào de.","vi":"Cô từng có một học trò, lúc đầu làm ở ngân hàng, ngày nào cũng vất vả. Sau đó cậu ấy theo sở thích của mình mở một quán cà phê, làm ăn rất được, thu nhập thậm chí còn cao hơn trước. Cho nên, tiền đương nhiên quan trọng, nhưng hoàn toàn không phải là quan trọng nhất."},
+        {"speaker":"小林","zh":"谢谢您，王老师！我明白了。我回去好好考虑一下，想清楚自己真正的理想是什么。","pinyin":"Xièxie nín, Wáng lǎoshī! Wǒ míngbai le. Wǒ huíqu hǎohǎo kǎolǜ yíxià, xiǎng qīngchu zìjǐ zhēnzhèng de lǐxiǎng shì shénme.","vi":"Em cảm ơn cô Vương! Em hiểu rồi. Em về sẽ suy nghĩ kỹ, nghĩ cho rõ hoài bão thật sự của mình là gì."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:职业","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你将来想选择什么____？","options":["职业","工资","压力","经济"],"answer":0,"explanation_vi":"选择职业 = chọn nghề. 工资 (lương), 压力 (áp lực), 经济 (kinh tế) không đi với “选择什么……”."},
+      {"id":"e2","type":"choice","tag":"v:压力","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"最近工作太多了，我的____很大，晚上睡不好。","options":["压力","收入","目标","社会"],"answer":0,"explanation_vi":"压力很大 = áp lực rất lớn, hợp với “nhiều việc, tối ngủ không ngon”."},
+      {"id":"e3","type":"choice","tag":"v:赚","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这家咖啡店生意很好，一个月能____五万块钱。","options":["赚","当","压","办"],"answer":0,"explanation_vi":"赚钱 = kiếm tiền; quán đắt khách nên một tháng kiếm được năm vạn tệ."},
+      {"id":"e4","type":"choice","tag":"v:成为","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"经过很多年的努力，她____了一名有名的律师。","options":["成为","作为","按照","超过"],"answer":0,"explanation_vi":"成为 + danh từ = trở thành. 作为 = với tư cách là, không đi với 了 ở đây."},
+      {"id":"e5","type":"choice","tag":"g:以为","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你来了！我还____你今天不来了呢。","options":["以为","认为","原来","按照"],"answer":0,"explanation_vi":"我还以为……呢 = tôi cứ tưởng… (nhưng thật ra không phải). Người kia đã đến nên điều mình nghĩ là sai → dùng 以为."},
+      {"id":"e6","type":"choice","tag":"g:原来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我说他今天怎么这么累，____他昨天加班到十二点。","options":["原来","本来","以为","甚至"],"answer":0,"explanation_vi":"Vừa hiểu ra nguyên nhân → 原来 (hóa ra). 本来 không có nghĩa “hóa ra”."},
+      {"id":"e7","type":"choice","tag":"g:并","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"大家都以为律师的收入很高，其实很多律师的收入____不高。","options":["并","很","甚至","原来"],"answer":0,"explanation_vi":"并不 + Adj: phủ nhận điều mọi người tưởng (thu nhập cao)."},
+      {"id":"e8","type":"choice","tag":"g:按照","prompt_vi":"Chọn câu đúng với nghĩa: “Hãy làm theo yêu cầu của giám đốc.”","question_zh":"Hãy làm theo yêu cầu của giám đốc.","options":["请按照经理的要求做。","请做按照经理的要求。","请按照做经理的要求。","按照请经理的要求做。"],"answer":0,"explanation_vi":"按照 + N (经理的要求) đứng trước động từ 做; 请 đứng đầu câu."},
+      {"id":"e9","type":"choice","tag":"g:甚至","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他太忙了，____周末也要去公司。","options":["甚至","原来","并","按照"],"answer":0,"explanation_vi":"甚至……也…… = thậm chí… cũng…: cuối tuần là trường hợp “cực” nhất."},
+      {"id":"e10","type":"order","tag":"g:甚至","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","甚至","周末","也","要","加班"],"answers":["他甚至周末也要加班","甚至周末他也要加班","他周末甚至也要加班"],"translation_vi":"Anh ấy thậm chí cuối tuần cũng phải tăng ca.","explanation_vi":"甚至 đứng trước phần được nhấn mạnh (周末), sau đó là 也 + 要 + 加班."},
+      {"id":"e11","type":"order","tag":"g:按照","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["请","按照","老师的","要求","填写","表格"],"answers":["请按照老师的要求填写表格"],"translation_vi":"Hãy điền bảng theo yêu cầu của thầy cô.","explanation_vi":"请 + 按照 + N + động từ (填写) + tân ngữ (表格)."},
+      {"id":"e12","type":"order","tag":"g:并","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["这份","工作","并","不","辛苦"],"answers":["这份工作并不辛苦"],"translation_vi":"Công việc này đâu có vất vả.","explanation_vi":"并 đứng ngay trước 不: 并不辛苦."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"工资","vi":"tiền lương"},{"zh":"收入","vi":"thu nhập"},{"zh":"职业","vi":"nghề nghiệp"},{"zh":"梦想","vi":"ước mơ"},{"zh":"竞争","vi":"cạnh tranh"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"律师","vi":"luật sư"},{"zh":"记者","vi":"phóng viên"},{"zh":"警察","vi":"cảnh sát"},{"zh":"工人","vi":"công nhân"},{"zh":"教授","vi":"giáo sư"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:以为","prompt_vi":"B đồng ý và nêu ý kiến của mình. Chọn từ thích hợp.","question_zh":"A：你觉得这个办法怎么样？B：我____这个办法不错，咱们就这么做吧。","options":["认为","以为","原来","并"],"answer":0,"explanation_vi":"B nêu ý kiến (cho rằng cách này được) nên dùng 认为. 以为 mang ý “tưởng nhầm”, không hợp khi mình đang đồng ý làm theo."},
+        {"id":"q2","type":"choice","tag":"g:以为","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____他是经理，原来他是记者。","options":["以为","原来","按照","甚至"],"answer":0,"explanation_vi":"我以为……，原来…… = tôi tưởng…, hóa ra…: điều đã nghĩ là sai."},
+        {"id":"q3","type":"choice","tag":"g:原来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____是你啊！我还以为是谁呢。","options":["原来","本来","并","甚至"],"answer":0,"explanation_vi":"Nghĩa “hóa ra” chỉ có ở 原来. 本来 = vốn dĩ, lẽ ra."},
+        {"id":"q4","type":"choice","tag":"g:并","prompt_vi":"Câu nào đúng?","question_zh":"Câu nào đúng?","options":["他的工资并不高。","他的工资不并高。","他的工资并很高。","并他的工资不高。"],"answer":0,"explanation_vi":"并 đứng sau chủ ngữ, ngay trước 不; chỉ dùng trong câu phủ định."},
+        {"id":"q5","type":"choice","tag":"g:按照","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____公司的要求，每个人都要参加这次会议。","options":["按照","甚至","原来","并"],"answer":0,"explanation_vi":"按照 + 公司的要求 = theo yêu cầu của công ty."},
+        {"id":"q6","type":"choice","tag":"g:甚至","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这件事很多人都不知道，____经理也不清楚。","options":["甚至","按照","原来","并"],"answer":0,"explanation_vi":"甚至 + 经理 + 也……: thậm chí giám đốc cũng không rõ (người lẽ ra phải biết nhất)."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:加班","prompt_vi":"Chọn đáp án đúng.","question_zh":"今天的任务太多了，我晚上得____。","options":["加班","竞争","社会","理想"],"answer":0,"explanation_vi":"任务太多 → 晚上得加班 (tối phải tăng ca). 得 ở đây đọc děi = phải."},
+      {"id":"t2","type":"choice","tag":"g:并","prompt_vi":"Chọn đáp án đúng.","question_zh":"大家都以为他很忙，其实他____不忙。","options":["并","甚至","原来","按照"],"answer":0,"explanation_vi":"其实……并不…… = thật ra… đâu có…: sửa lại điều mọi người tưởng."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"出差","vi":"đi công tác"},{"zh":"奖金","vi":"tiền thưởng"},{"zh":"年底","vi":"cuối năm"},{"zh":"推迟","vi":"hoãn lại"},{"zh":"至少","vi":"ít nhất"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"管理","vi":"quản lý"},{"zh":"任务","vi":"nhiệm vụ"},{"zh":"超过","vi":"vượt quá"},{"zh":"增长","vi":"tăng lên"},{"zh":"办理","vi":"làm thủ tục"}]},
+      {"id":"t5","type":"order","tag":"g:以为","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","以为","你","不","来","了"],"answers":["我以为你不来了"],"translation_vi":"Tôi cứ tưởng bạn không đến nữa.","explanation_vi":"S + 以为 + mệnh đề (你不来了)."},
+      {"id":"t6","type":"order","tag":"v:成为","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["她","想","成为","一名","律师"],"answers":["她想成为一名律师"],"translation_vi":"Cô ấy muốn trở thành một luật sư.","explanation_vi":"想 + 成为 + 一名 + 律师."},
+      {"id":"t7","type":"fill","tag":"v:收入","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"他现在的____比去年增长了很多。","answers":["收入","工资"],"hint_vi":"thu nhập","explanation_vi":"收入 (thu nhập) 增长 = thu nhập tăng lên. (工资 cũng đúng.)"},
+      {"id":"t8","type":"fill","tag":"g:原来","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我说怎么找不到你，____你在这儿！","answers":["原来"],"hint_vi":"hóa ra","explanation_vi":"Vừa phát hiện ra sự thật → 原来 (hóa ra)."},
+      {"id":"t9","type":"listen_choice","tag":"g:甚至","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"他工作太忙了，有时候甚至周末也要加班。","options":["Anh ấy quá bận, có lúc thậm chí cuối tuần cũng phải tăng ca.","Anh ấy không bận, cuối tuần thường nghỉ ngơi.","Anh ấy bận nên cuối tuần không đi chơi.","Anh ấy thỉnh thoảng tăng ca vào buổi tối."],"answer":0,"explanation_vi":"甚至周末也要加班 = thậm chí cuối tuần cũng phải tăng ca."},
+      {"id":"t10","type":"listen_choice","tag":"v:梦想","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"我的梦想是将来成为一名记者。","options":["我的梦想是将来成为一名记者。","我的理想是将来成为一名律师。","我的目标是今年赚很多钱。","我将来想当一名警察。"],"answer":0,"explanation_vi":"Câu nghe được: 我的梦想是将来成为一名记者 = Ước mơ của tôi là sau này trở thành nhà báo."},
+      {"id":"t11","type":"dictation","tag":"v:工资","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"这家公司的工资并不高。","answers":["这家公司的工资并不高"],"explanation_vi":"这家公司的工资并不高 = Lương của công ty này đâu có cao."},
+      {"id":"t12","type":"dictation","tag":"g:按照","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"请按照要求填写表格。","answers":["请按照要求填写表格"],"explanation_vi":"请按照要求填写表格 = Hãy điền bảng theo yêu cầu."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:以为","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tôi cứ tưởng hôm nay không phải tăng ca.","answers":["我以为今天不用加班","我以为今天不用加班呢","我还以为今天不用加班呢","我还以为今天不用加班","我以为今天不用加班了","我以为今天不用加班了呢","我还以为今天不用加班了呢","我还以为今天不用加班了","我以为今天不需要加班","我以为今天不需要加班呢","我还以为今天不需要加班呢","我以为我今天不用加班","我以为今天我不用加班","我还以为我今天不用加班呢","我还以为今天我不用加班呢"],"explanation_vi":"“Tưởng (nhầm)” = 以为; “cứ tưởng” thường nói 我还以为……呢. “Không phải” (không cần) = 不用."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:甚至","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Anh ấy rất bận, thậm chí cuối tuần cũng phải tăng ca.","answers":["他很忙甚至周末也要加班","他很忙甚至周末都要加班","他很忙甚至周末也得加班","他很忙甚至周末都得加班","他很忙甚至周末也加班","他非常忙甚至周末也要加班","他非常忙甚至周末都要加班","他非常忙甚至周末也得加班","他特别忙甚至周末也要加班","他特别忙甚至周末都要加班","他很忙甚至周末他也要加班","他很忙他甚至周末也要加班","他非常忙他甚至周末也要加班","他工作很忙甚至周末也要加班"],"explanation_vi":"A，甚至 + 周末 + 也/都 + 要/得 + 加班."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:并","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"钱多并不一定开心。","answers_vi":["Nhiều tiền chưa chắc đã vui.","Có nhiều tiền không hẳn là vui."],"keywords":[["tiền"],["không","chưa","đâu"],["vui","hạnh phúc","sung sướng"]],"explanation_vi":"并不一定 = đâu chắc đã, chưa hẳn đã. 开心 = vui."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:压力","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"最近我的工作压力很大。","answers_vi":["Gần đây áp lực công việc của tôi rất lớn.","Dạo này công việc của tôi rất áp lực."],"keywords":[["gần đây","dạo này","thời gian này","mấy hôm nay","dạo gần đây","mấy ngày nay"],["áp lực","căng thẳng"],["công việc","làm việc"]],"explanation_vi":"压力很大 = áp lực rất lớn; 最近 = gần đây, dạo này."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"姐姐的选择",
+        "title_vi":"Lựa chọn của chị gái",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["姐姐","jiějie","chị gái"],["大学","dàxué","đại học"],["学","xué","học"],["的","de","(trợ từ)"],["是","shì","là"],["法律","fǎlǜ","luật, pháp luật"],["，"],["毕业","bìyè","tốt nghiệp"],["以后","yǐhòu","sau khi"],["成为","chéngwéi","trở thành"],["了","le","(đã)"],["一名","yì míng","một (người)"],["律师","lǜshī","luật sư"],["。"],["很多","hěn duō","nhiều"],["人","rén","người"],["以为","yǐwéi","tưởng"],["律师","lǜshī","luật sư"],["的","de","của"],["收入","shōurù","thu nhập"],["很","hěn","rất"],["高","gāo","cao"],["，"],["工作","gōngzuò","công việc"],["也","yě","cũng"],["很","hěn","rất"],["有意思","yǒu yìsi","thú vị"],["。"],["其实","qíshí","thật ra"],["，"],["她","tā","chị ấy"],["刚","gāng","vừa mới"],["开始","kāishǐ","bắt đầu"],["工作","gōngzuò","đi làm"],["的时候","de shíhou","khi"],["，"],["工资","gōngzī","tiền lương"],["并","bìng","đâu có (nhấn mạnh phủ định)"],["不","bù","không"],["高","gāo","cao"],["，"],["而且","érqiě","hơn nữa"],["压力","yālì","áp lực"],["特别","tèbié","rất, đặc biệt"],["大","dà","lớn"],["。"],["她","tā","chị ấy"],["差不多","chàbuduō","gần như"],["每天","měi tiān","mỗi ngày"],["都","dōu","đều"],["要","yào","phải"],["加班","jiābān","tăng ca"],["，"],["有时候","yǒu shíhou","có lúc"],["甚至","shènzhì","thậm chí"],["晚上","wǎnshang","buổi tối"],["十一点","shíyī diǎn","mười một giờ"],["才","cái","mới"],["下班","xiàbān","tan làm"],["。"]],
+            "vi":"Ở đại học chị tôi học luật, sau khi tốt nghiệp trở thành một luật sư. Nhiều người tưởng thu nhập của luật sư rất cao, công việc cũng rất thú vị. Thật ra, khi chị mới bắt đầu đi làm, lương đâu có cao, hơn nữa áp lực rất lớn. Gần như ngày nào chị cũng phải tăng ca, có lúc thậm chí mười một giờ đêm mới tan làm."
+          },
+          {
+            "tokens":[["去年","qùnián","năm ngoái"],["年底","niándǐ","cuối năm"],["，"],["姐姐","jiějie","chị gái"],["做","zuò","đưa ra"],["了","le","(đã)"],["一个","yí ge","một"],["决定","juédìng","quyết định"],["："],["她","tā","chị ấy"],["要","yào","sẽ, muốn"],["去","qù","đi"],["中学","zhōngxué","trường trung học"],["当","dāng","làm"],["老师","lǎoshī","giáo viên"],["，"],["因为","yīnwèi","vì"],["这","zhè","đây"],["是","shì","là"],["她","tā","chị ấy"],["从小","cóngxiǎo","từ nhỏ"],["的","de","(trợ từ)"],["梦想","mèngxiǎng","ước mơ"],["。"],["爸爸","bàba","bố"],["妈妈","māma","mẹ"],["很","hěn","rất"],["担心","dānxīn","lo lắng"],["，"],["觉得","juéde","cảm thấy"],["当","dāng","làm"],["老师","lǎoshī","giáo viên"],["赚","zhuàn","kiếm (tiền)"],["的","de","(trợ từ)"],["钱","qián","tiền"],["太","tài","quá"],["少","shǎo","ít"],["了","le","(trợ từ)"],["。"]],
+            "vi":"Cuối năm ngoái, chị đưa ra một quyết định: chị sẽ đi dạy ở một trường trung học, vì đó là ước mơ từ nhỏ của chị. Bố mẹ rất lo, thấy làm giáo viên kiếm được ít tiền quá."
+          },
+          {
+            "tokens":[["现在","xiànzài","bây giờ"],["，"],["姐姐","jiějie","chị gái"],["的","de","của"],["工资","gōngzī","lương"],["比","bǐ","so với"],["原来","yuánlái","trước đây, ban đầu"],["少","shǎo","ít"],["了","le","(đã)"],["一些","yìxiē","một chút"],["，"],["可是","kěshì","nhưng"],["她","tā","chị ấy"],["每天","měi tiān","mỗi ngày"],["都","dōu","đều"],["很","hěn","rất"],["开心","kāixīn","vui vẻ"],["。"],["她","tā","chị ấy"],["常","cháng","thường"],["说","shuō","nói"],["："],["“"],["按照","ànzhào","theo"],["自己","zìjǐ","bản thân"],["的","de","của"],["兴趣","xìngqù","sở thích"],["选择","xuǎnzé","lựa chọn"],["职业","zhíyè","nghề nghiệp"],["，"],["才","cái","mới"],["不会","bú huì","không (sẽ)"],["觉得","juéde","thấy"],["辛苦","xīnkǔ","vất vả"],["。"],["”"],["我","wǒ","tôi"],["这","zhè","lúc này"],["才","cái","mới"],["明白","míngbai","hiểu ra"],["，"],["原来","yuánlái","hóa ra"],["，"],["钱","qián","tiền"],["并","bìng","hoàn toàn (nhấn mạnh phủ định)"],["不是","bú shì","không phải"],["最","zuì","nhất"],["重要","zhòngyào","quan trọng"],["的","de","(trợ từ)"],["。"]],
+            "vi":"Bây giờ, lương của chị ít hơn trước một chút, nhưng ngày nào chị cũng rất vui. Chị thường nói: “Chọn nghề theo sở thích của mình thì mới không thấy vất vả.” Đến lúc này tôi mới hiểu ra, hóa ra tiền hoàn toàn không phải là thứ quan trọng nhất."
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"姐姐大学学的是什么？","options":["法律","经济","新闻","汉语"],"answer":0,"explanation_vi":"Đoạn 1: 我姐姐大学学的是法律."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"姐姐当律师的时候，工作怎么样？","options":["压力很大，常常加班","工资很高，不用加班","每天都很开心","常常去外地出差"],"answer":0,"explanation_vi":"Đoạn 1: 压力特别大。她差不多每天都要加班."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"姐姐为什么要去当老师？","options":["因为这是她从小的梦想","因为老师的收入更高","因为爸爸妈妈让她去","因为律师的工作太少"],"answer":0,"explanation_vi":"Đoạn 2: 因为这是她从小的梦想."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"姐姐现在的工资比当律师的时候高。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 姐姐的工资比原来少了一些 — lương bây giờ ít hơn, nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"g:并","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"“我”现在觉得钱是最重要的。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 3: 原来，钱并不是最重要的 — “tôi” hiểu ra tiền không phải quan trọng nhất, nên câu này sai."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Mười năm ở nhà máy ô tô",
+        "text_zh":"我在一家汽车厂工作了十年。我原来是厂里的工人，后来跟一位老师傅学了很多东西，现在负责管理一个部门。我们厂的任务很多，每个月至少要加班二十个小时，有时候还得去外地出差。但是收入也不错：这几年我的工资一直在增长，去年年底的奖金甚至超过了三个月的工资。我的目标是再过几年，成为厂里最好的经理。",
+        "pinyin":"Wǒ zài yì jiā qìchē chǎng gōngzuò le shí nián. Wǒ yuánlái shì chǎng li de gōngrén, hòulái gēn yí wèi lǎo shīfu xué le hěn duō dōngxi, xiànzài fùzé guǎnlǐ yí ge bùmén. Wǒmen chǎng de rènwu hěn duō, měi ge yuè zhìshǎo yào jiābān èrshí ge xiǎoshí, yǒu shíhou hái děi qù wàidì chūchāi. Dànshì shōurù yě búcuò: zhè jǐ nián wǒ de gōngzī yìzhí zài zēngzhǎng, qùnián niándǐ de jiǎngjīn shènzhì chāoguò le sān ge yuè de gōngzī. Wǒ de mùbiāo shì zài guò jǐ nián, chéngwéi chǎng li zuì hǎo de jīnglǐ.",
+        "vi":"Tôi làm ở một nhà máy ô tô đã mười năm. Lúc đầu tôi là công nhân trong xưởng, sau đó theo một bác thợ lâu năm học được nhiều thứ, bây giờ phụ trách quản lý một bộ phận. Nhà máy chúng tôi nhiều việc, mỗi tháng phải tăng ca ít nhất hai mươi tiếng, có lúc còn phải đi công tác tỉnh khác. Nhưng thu nhập cũng khá: mấy năm nay lương tôi tăng đều, tiền thưởng cuối năm ngoái thậm chí vượt quá ba tháng lương. Mục tiêu của tôi là vài năm nữa trở thành giám đốc giỏi nhất của nhà máy.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他现在在哪儿工作？","options":["汽车厂","银行","学校","饭馆"],"answer":0,"explanation_vi":"Nghe được: 我在一家汽车厂工作了十年."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他每个月至少要加班多长时间？","options":["二十个小时","十个小时","两个小时","三十个小时"],"answer":0,"explanation_vi":"Nghe được: 每个月至少要加班二十个小时."},
+          {"id":"lq3","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"去年年底的奖金怎么样？","options":["超过了三个月的工资","只有一个月的工资","没有奖金","比去年少"],"answer":0,"explanation_vi":"Nghe được: 去年年底的奖金甚至超过了三个月的工资."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"他的目标是什么？","options":["成为厂里最好的经理","去外地工作","换一份工作","当一名老师"],"answer":0,"explanation_vi":"Nghe được: 我的目标是再过几年，成为厂里最好的经理."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"工资","pinyin":"gōngzī","vi":"tiền lương","tip_vi":"资 zī: z không bật hơi, đầu lưỡi đặt sau răng dưới; vần -i ở đây đọc gần như “ư” ngắn, không đọc thành “chi”. 工 gōng: -ng cuối là âm cuống lưỡi."},
+      {"id":"s2","zh":"压力很大","pinyin":"yālì hěn dà","vi":"áp lực rất lớn","tip_vi":"压 yā giữ thanh 1 cao và bằng; 力 lì, 大 dà là thanh 4: rơi dứt khoát từ cao xuống thấp. 很 hěn đứng trước thanh 4 nên chỉ đọc nửa thanh 3 (thấp, không vòng lên)."},
+      {"id":"s3","zh":"不要太着急赚钱！","pinyin":"Búyào tài zháojí zhuàn qián!","vi":"Đừng quá vội kiếm tiền!","tip_vi":"不 đứng trước 要 (thanh 4) nên đọc bú. 着急 đọc zháojí, không phải zhe. 赚 zhuàn uốn lưỡi; 钱 qián: q bật hơi mạnh, đừng đọc thành “chiền”."},
+      {"id":"s4","zh":"我还以为你不来了呢。","pinyin":"Wǒ hái yǐwéi nǐ bù lái le ne.","vi":"Tôi cứ tưởng bạn không đến nữa chứ.","tip_vi":"以为 yǐwéi: 为 đọc wéi (thanh 2). 不来 bù lái: sau 不 là thanh 2 nên 不 giữ thanh 4. 了呢 le ne đọc nhẹ và ngắn, giọng hơi ngạc nhiên."},
+      {"id":"s5","zh":"原来钱并不是最重要的。","pinyin":"Yuánlái qián bìng bú shì zuì zhòngyào de.","vi":"Hóa ra tiền hoàn toàn không phải là quan trọng nhất.","tip_vi":"原来 yuánlái: hai thanh 2 liền nhau, giọng đi lên rõ; ü trong yuán tròn môi. 并不是 bìng bú shì: 不 đứng trước 是 (thanh 4) nên đọc bú; nhấn nhẹ vào 并. 重 zhòng uốn lưỡi, -ong cuống lưỡi."},
+      {"id":"s6","zh":"按照自己的兴趣选择职业。","pinyin":"Ànzhào zìjǐ de xìngqù xuǎnzé zhíyè.","vi":"Chọn nghề theo sở thích của mình.","tip_vi":"兴 xìng: -ing là âm cuống lưỡi, đừng đọc “xinh”. 趣 qù: q bật hơi, ü tròn môi, đừng đọc “khuy”. 选择 xuǎnzé: x mặt lưỡi; 职 zhí uốn lưỡi, khác 自 zì (đầu lưỡi)."},
+      {"id":"s7","zh":"他工作很忙，有时候甚至周末也要加班。","pinyin":"Tā gōngzuò hěn máng, yǒu shíhou shènzhì zhōumò yě yào jiābān.","vi":"Anh ấy làm việc rất bận, có lúc thậm chí cuối tuần cũng phải tăng ca.","tip_vi":"甚至 shènzhì: hai âm uốn lưỡi sh, zh liền nhau; shèn là -n (đầu lưỡi), không phải -ng. 也要 yě yào: 也 trước thanh 4 đọc nửa thanh 3. Ngắt hơi ở dấu phẩy."}
+    ],
+    "review": {
+      "remember": [
+        "以为 = tưởng (thường là tưởng sai): 我以为……，原来/其实……. Muốn nêu ý kiến thì dùng 认为 hoặc 觉得.",
+        "原来: (1) hóa ra (vừa phát hiện sự thật); (2) ban đầu, trước đây: 原来的工作. Nghĩa “hóa ra” không dùng 本来.",
+        "并 + 不/没(有): phủ nhận mạnh điều người khác tưởng: 钱多并不一定开心.",
+        "按照 + N (要求、习惯、兴趣…) + V = làm theo; cụm 按照 đứng trước động từ. 甚至 (+ 也/都) = thậm chí, đưa ra trường hợp cực nhất.",
+        "工资 (lương) chỉ là một phần của 收入 (thu nhập); 职业 = nghề; 梦想 = ước mơ (không viển vông như “mộng tưởng”); 压力很大 (không nói 压力很高)."
+      ],
+      "mistakes": [
+        "✗ 我以为这个办法很好，就这么做吧 → ✓ 我认为/觉得这个办法很好: 以为 mang ý “tưởng nhầm”.",
+        "✗ 他不并忙 → ✓ 他并不忙: 并 đứng trước 不/没.",
+        "✗ 我们做按照经理的要求 → ✓ 我们按照经理的要求做: 按照 + N đứng trước động từ."
+      ]
+    }
+  }
+}

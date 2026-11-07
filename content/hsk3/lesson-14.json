@@ -1,0 +1,212 @@
+{
+  "level": 3,
+  "number": 14,
+  "summary": "Đón hàng xóm đến nhà chơi và ăn tối; học câu chữ “把” với bổ ngữ kết quả hoặc bổ ngữ xu hướng (把屋子打扫干净、把水果拿过来) và cách kể các bước theo thứ tự “先……，再/又……，然后……，最后……”.",
+  "readings_ok": ["里 li", "只 zhī", "得 de", "脏 zāng"],
+  "content": {
+    "objectives": [
+      "Đón khách đến nhà: 欢迎欢迎！快请进！你们先坐在沙发上休息一下。",
+      "Nhờ người khác mang, dọn, rửa đồ bằng câu 把 + V + bổ ngữ kết quả/xu hướng: 把水果拿过来、把屋子打扫干净",
+      "Kể các bước theo thứ tự bằng 先……，再/又……，然后……，最后……",
+      "Gọi tên món ăn và đồ dùng trong bữa cơm: 饺子、西瓜、香蕉、碗、盘子、筷子、勺子"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"拿","pinyin":"ná","pos":"động từ","meaning_vi":"cầm, lấy, mang (bằng tay)","example_zh":"你帮我拿一下这个包，好吗？","example_pinyin":"Nǐ bāng wǒ ná yíxià zhège bāo, hǎo ma?","example_vi":"Bạn cầm giúp mình cái túi này một chút được không?","note_vi":"拿 là cầm, lấy bằng tay: 拿杯子, 拿过来 (mang lại đây). 带 (bài 12) là mang theo bên mình khi đi đâu đó: 带护照. n đầu lưỡi, đừng đọc thành “la”."},
+      {"id":"v2","hanzi":"过来","pinyin":"guòlai","pos":"động từ","meaning_vi":"qua đây, lại đây (về phía người nói)","example_zh":"你过来一下，我有事跟你说。","example_pinyin":"Nǐ guòlai yíxià, wǒ yǒu shì gēn nǐ shuō.","example_vi":"Bạn qua đây một chút, mình có việc muốn nói với bạn.","note_vi":"过来 = đi về phía người nói; 过去 (bài 13) = rời xa người nói. Đứng sau động từ làm bổ ngữ: 拿过来 (mang lại đây), 走过来 (đi lại đây), 搬过来 (bê qua đây). 来 thường đọc nhẹ: guòlai."},
+      {"id":"v3","hanzi":"先","pinyin":"xiān","pos":"phó từ","meaning_vi":"trước, trước tiên","example_zh":"你先坐一会儿，饭马上就好。","example_pinyin":"Nǐ xiān zuò yíhuìr, fàn mǎshàng jiù hǎo.","example_vi":"Bạn ngồi chơi một lát trước đã, cơm sắp xong rồi.","hanviet":"TIÊN","note_vi":"先 là phó từ: đứng sau chủ ngữ, ngay trước động từ (我先走了 = mình đi trước nhé). Không đặt lên đầu câu như “trước tiên” của tiếng Việt: ✗ 先我走了."},
+      {"id":"v4","hanzi":"然后","pinyin":"ránhòu","pos":"liên từ","meaning_vi":"sau đó, rồi thì","example_zh":"我们先吃饭，然后去看电影。","example_pinyin":"Wǒmen xiān chī fàn, ránhòu qù kàn diànyǐng.","example_vi":"Chúng mình ăn cơm trước, sau đó đi xem phim.","note_vi":"然后 đứng đầu vế sau, có thể đứng trước chủ ngữ: 然后我们去公园. Đừng nhầm với 以后 (sau khi): 吃饭以后 = sau khi ăn cơm; không nói ✗ 吃饭然后. r đọc gần “r” uốn lưỡi nhẹ, không phải “d” hay “z”."},
+      {"id":"v5","hanzi":"最后","pinyin":"zuìhòu","pos":"danh từ","meaning_vi":"cuối cùng, sau cùng","example_zh":"他每天都是最后一个离开办公室的。","example_pinyin":"Tā měi tiān dōu shì zuìhòu yí ge líkāi bàngōngshì de.","example_vi":"Ngày nào anh ấy cũng là người cuối cùng rời văn phòng.","hanviet":"TỐI HẬU","note_vi":"最后 = bước cuối, người/lần cuối (最后一天, 最后一次). Khác 终于 (bài 6) = “cuối cùng thì cũng…” sau khi chờ đợi lâu: 他终于来了. Tiếng Việt dùng “cuối cùng” cho cả hai nên dễ nhầm."},
+      {"id":"v6","hanzi":"做客","pinyin":"zuòkè","pos":"động từ","meaning_vi":"đến nhà người khác chơi, làm khách","example_zh":"周末我去朋友家做客。","example_pinyin":"Zhōumò wǒ qù péngyou jiā zuòkè.","example_vi":"Cuối tuần mình đến nhà bạn chơi.","hanviet":"TÁC KHÁCH","note_vi":"做客 không mang tân ngữ: nói 去 + người + 家 + 做客 (去朋友家做客), không nói ✗ 做客朋友家. Đừng nhầm với 请客 (mời, đãi khách)."},
+      {"id":"v7","hanzi":"欢迎","pinyin":"huānyíng","pos":"động từ","meaning_vi":"chào mừng, hoan nghênh","example_zh":"欢迎你来我家做客！","example_pinyin":"Huānyíng nǐ lái wǒ jiā zuòkè!","example_vi":"Chào mừng bạn đến nhà mình chơi!","hanviet":"HOAN NGHÊNH","note_vi":"Khi mở cửa đón khách hay nói hai lần: 欢迎欢迎！ Mẫu câu: 欢迎 + người + V (欢迎你下次再来)."},
+      {"id":"v8","hanzi":"做饭","pinyin":"zuò fàn","pos":"động từ","meaning_vi":"nấu cơm, nấu ăn","example_zh":"我妈妈做饭做得很好吃。","example_pinyin":"Wǒ māma zuò fàn zuò de hěn hǎochī.","example_vi":"Mẹ mình nấu ăn rất ngon.","note_vi":"做饭 là nấu ăn nói chung (cả bữa cơm), không chỉ nấu “cơm”. Muốn khen nấu ngon phải lặp lại động từ: 做饭做得很好吃."},
+      {"id":"v9","hanzi":"尝","pinyin":"cháng","pos":"động từ","meaning_vi":"nếm, ăn thử","example_zh":"这是我做的饺子，你尝尝！","example_pinyin":"Zhè shì wǒ zuò de jiǎozi, nǐ chángchang!","example_vi":"Đây là sủi cảo mình làm, bạn ăn thử đi!","note_vi":"Hay dùng ở dạng lặp: 尝尝, 尝一尝, 尝一下 (nếm thử). ch là âm uốn lưỡi, bật hơi mạnh; thanh 2 đi lên, đừng đọc như “thường”."},
+      {"id":"v10","hanzi":"打扫","pinyin":"dǎsǎo","pos":"động từ","meaning_vi":"quét dọn, dọn dẹp","example_zh":"周末我要在家打扫房间。","example_pinyin":"Zhōumò wǒ yào zài jiā dǎsǎo fángjiān.","example_vi":"Cuối tuần mình phải ở nhà dọn phòng.","note_vi":"打扫 dùng với nơi chốn: 打扫屋子, 打扫卫生间. Rửa bát, giặt đồ dùng 洗, không dùng 打扫. Hai thanh 3 liền nhau: 打 đọc gần thanh 2 (dá sǎo)."},
+      {"id":"v11","hanzi":"干净","pinyin":"gānjìng","pos":"tính từ","meaning_vi":"sạch, sạch sẽ","example_zh":"你的房间真干净！","example_pinyin":"Nǐ de fángjiān zhēn gānjìng!","example_vi":"Phòng bạn sạch thật đấy!","hanviet":"CAN TỊNH","note_vi":"Hay làm bổ ngữ kết quả: 洗干净 (rửa sạch), 打扫干净 (dọn sạch). Ngược nghĩa là 脏 (bẩn). 干 ở đây đọc gān; cùng chữ này đọc gàn nghĩa là “làm” (bài 16)."},
+      {"id":"v12","hanzi":"不用","pinyin":"búyòng","pos":"phó từ","meaning_vi":"không cần","example_zh":"明天不用上班，咱们去公园吧。","example_pinyin":"Míngtiān búyòng shàngbān, zánmen qù gōngyuán ba.","example_vi":"Mai không phải đi làm, chúng mình đi công viên đi.","note_vi":"不用 = không cần (lịch sự, nhẹ nhàng): 不用谢 (không cần cảm ơn), 不用不用 (thôi, không cần đâu). 别/不要 = đừng (cấm, khuyên ngăn). 不 đọc bú vì đứng trước thanh 4."},
+      {"id":"v13","hanzi":"请客","pinyin":"qǐngkè","pos":"động từ","meaning_vi":"mời khách, đãi (ăn uống), khao","example_zh":"今天我请客，大家想吃什么就点什么。","example_pinyin":"Jīntiān wǒ qǐngkè, dàjiā xiǎng chī shénme jiù diǎn shénme.","example_vi":"Hôm nay mình khao, mọi người muốn ăn gì cứ gọi món đó.","note_vi":"请客 = mời người khác ăn uống và mình trả tiền, hoặc mời khách đến nhà ăn cơm. Không mang tân ngữ người: nói 请他吃饭, không nói ✗ 请客他."},
+      {"id":"v14","hanzi":"饺子","pinyin":"jiǎozi","pos":"danh từ","meaning_vi":"sủi cảo, bánh chẻo","example_zh":"过年的时候，我们一家人一起包饺子。","example_pinyin":"Guònián de shíhou, wǒmen yì jiā rén yìqǐ bāo jiǎozi.","example_vi":"Dịp Tết, cả nhà mình cùng nhau gói sủi cảo.","note_vi":"Động từ đi kèm: 包饺子 (gói sủi cảo), 吃饺子. 包 ở đây là động từ “gói”, khác 包 (cái túi) ở bài 6. 子 đọc nhẹ."},
+      {"id":"v15","hanzi":"西瓜","pinyin":"xīguā","pos":"danh từ","meaning_vi":"dưa hấu","example_zh":"这个西瓜又大又甜。","example_pinyin":"Zhège xīguā yòu dà yòu tián.","example_vi":"Quả dưa hấu này vừa to vừa ngọt.","note_vi":"Hai thanh 1 liền nhau: giữ giọng cao và bằng cho cả hai chữ, đừng hạ giọng ở 瓜."},
+      {"id":"v16","hanzi":"香蕉","pinyin":"xiāngjiāo","pos":"danh từ","meaning_vi":"chuối","example_zh":"妈妈买了很多香蕉。","example_pinyin":"Māma mǎi le hěn duō xiāngjiāo.","example_vi":"Mẹ mua rất nhiều chuối.","note_vi":"香 (thơm) + 蕉. Hai thanh 1, đều cao và bằng. x và j là âm mặt lưỡi, môi dẹt."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"阿姨","pinyin":"āyí","pos":"danh từ","meaning_vi":"cô, dì (gọi phụ nữ cỡ tuổi mẹ)","example_zh":"王阿姨是我妈妈的朋友。","example_pinyin":"Wáng āyí shì wǒ māma de péngyou.","example_vi":"Cô Vương là bạn của mẹ mình."},
+      {"id":"x2","hanzi":"叔叔","pinyin":"shūshu","pos":"danh từ","meaning_vi":"chú (gọi đàn ông cỡ tuổi bố)","example_zh":"叔叔，您好！请进。","example_pinyin":"Shūshu, nín hǎo! Qǐng jìn.","example_vi":"Cháu chào chú! Chú mời vào."},
+      {"id":"x3","hanzi":"小朋友","pinyin":"xiǎopéngyǒu","pos":"danh từ","meaning_vi":"bạn nhỏ, cháu (gọi trẻ em)","example_zh":"小朋友，你今年几岁了？","example_pinyin":"Xiǎopéngyǒu, nǐ jīnnián jǐ suì le?","example_vi":"Cháu ơi, năm nay cháu mấy tuổi rồi?"},
+      {"id":"x4","hanzi":"邻居","pinyin":"línjū","pos":"danh từ","meaning_vi":"hàng xóm","example_zh":"我的邻居是一位医生。","example_pinyin":"Wǒ de línjū shì yí wèi yīshēng.","example_vi":"Hàng xóm của mình là một bác sĩ."},
+      {"id":"x5","hanzi":"小区","pinyin":"xiǎoqū","pos":"danh từ","meaning_vi":"khu dân cư, khu chung cư","example_zh":"我们小区里有一个小花园。","example_pinyin":"Wǒmen xiǎoqū li yǒu yí ge xiǎo huāyuán.","example_vi":"Trong khu nhà mình có một vườn hoa nhỏ."},
+      {"id":"x6","hanzi":"屋子","pinyin":"wūzi","pos":"danh từ","meaning_vi":"phòng, căn phòng; nhà","example_zh":"这间屋子很干净。","example_pinyin":"Zhè jiān wūzi hěn gānjìng.","example_vi":"Căn phòng này rất sạch."},
+      {"id":"x7","hanzi":"间","pinyin":"jiān","pos":"lượng từ","meaning_vi":"gian, căn (lượng từ cho phòng)","example_zh":"我家有三间屋子。","example_pinyin":"Wǒ jiā yǒu sān jiān wūzi.","example_vi":"Nhà mình có ba phòng."},
+      {"id":"x8","hanzi":"沙发","pinyin":"shāfā","pos":"danh từ","meaning_vi":"ghế sofa","example_zh":"爸爸坐在沙发上看电视。","example_pinyin":"Bàba zuò zài shāfā shang kàn diànshì.","example_vi":"Bố ngồi trên ghế sofa xem ti vi."},
+      {"id":"x9","hanzi":"卫生间","pinyin":"wèishēngjiān","pos":"danh từ","meaning_vi":"nhà vệ sinh, phòng tắm","example_zh":"请问，卫生间在哪儿？","example_pinyin":"Qǐngwèn, wèishēngjiān zài nǎr?","example_vi":"Xin hỏi, nhà vệ sinh ở đâu ạ?"},
+      {"id":"x10","hanzi":"扫","pinyin":"sǎo","pos":"động từ","meaning_vi":"quét","example_zh":"你扫地，我洗碗。","example_pinyin":"Nǐ sǎo dì, wǒ xǐ wǎn.","example_vi":"Bạn quét nhà, mình rửa bát."},
+      {"id":"x11","hanzi":"脏","pinyin":"zāng","pos":"tính từ","meaning_vi":"bẩn","example_zh":"你的鞋太脏了，快去洗洗吧。","example_pinyin":"Nǐ de xié tài zāng le, kuài qù xǐxi ba.","example_vi":"Giày của bạn bẩn quá, mau đi rửa đi."},
+      {"id":"x12","hanzi":"新鲜","pinyin":"xīnxiān","pos":"tính từ","meaning_vi":"tươi","example_zh":"这些水果很新鲜。","example_pinyin":"Zhèxiē shuǐguǒ hěn xīnxiān.","example_vi":"Chỗ hoa quả này rất tươi."},
+      {"id":"x13","hanzi":"鸡","pinyin":"jī","pos":"danh từ","meaning_vi":"gà; thịt gà","example_zh":"奶奶家有五只鸡。","example_pinyin":"Nǎinai jiā yǒu wǔ zhī jī.","example_vi":"Nhà bà nội có năm con gà."},
+      {"id":"x14","hanzi":"牛","pinyin":"niú","pos":"danh từ","meaning_vi":"bò, trâu","example_zh":"我不太喜欢吃牛肉。","example_pinyin":"Wǒ bú tài xǐhuan chī niúròu.","example_vi":"Mình không thích ăn thịt bò lắm."},
+      {"id":"x15","hanzi":"羊","pinyin":"yáng","pos":"danh từ","meaning_vi":"dê, cừu","example_zh":"草地上有很多羊。","example_pinyin":"Cǎodì shang yǒu hěn duō yáng.","example_vi":"Trên bãi cỏ có rất nhiều cừu."},
+      {"id":"x16","hanzi":"盘子","pinyin":"pánzi","pos":"danh từ","meaning_vi":"cái đĩa","example_zh":"请把盘子放在桌子上。","example_pinyin":"Qǐng bǎ pánzi fàng zài zhuōzi shang.","example_vi":"Bạn đặt cái đĩa lên bàn giúp mình."},
+      {"id":"x17","hanzi":"碗","pinyin":"wǎn","pos":"danh từ / lượng từ","meaning_vi":"cái bát, cái chén; bát (lượng từ)","example_zh":"我吃了两碗米饭。","example_pinyin":"Wǒ chī le liǎng wǎn mǐfàn.","example_vi":"Mình ăn hai bát cơm."},
+      {"id":"x18","hanzi":"筷子","pinyin":"kuàizi","pos":"danh từ","meaning_vi":"đũa","example_zh":"我给你拿一双筷子。","example_pinyin":"Wǒ gěi nǐ ná yì shuāng kuàizi.","example_vi":"Mình lấy cho bạn một đôi đũa."},
+      {"id":"x19","hanzi":"勺子","pinyin":"sháozi","pos":"danh từ","meaning_vi":"cái thìa, cái muỗng","example_zh":"小朋友不会用筷子，给他一个勺子吧。","example_pinyin":"Xiǎopéngyǒu bú huì yòng kuàizi, gěi tā yí ge sháozi ba.","example_vi":"Cháu bé chưa biết dùng đũa, đưa cháu một cái thìa đi."},
+      {"id":"x20","hanzi":"子","pinyin":"zi","pos":"trợ từ","meaning_vi":"hậu tố của danh từ (đọc nhẹ)","example_zh":"盘子、筷子、勺子都有一个“子”字。","example_pinyin":"Pánzi, kuàizi, sháozi dōu yǒu yí ge “zi” zì.","example_vi":"Đĩa, đũa, thìa (盘子、筷子、勺子) đều có chữ “子”."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"Câu chữ “把” (3): A把B + V + bổ ngữ kết quả / bổ ngữ xu hướng",
+        "pattern":"S + 把 + vật + V + 干净/好/完/走…　·　S + 把 + vật + V + 过来/过去/进来/回去…　·　S + 没/别 + 把 + vật + V + bổ ngữ",
+        "explanation_vi":"Ở bài 11 và 12 bạn đã học 把 + vật + V + 了/一下 và 把 + vật + V + 在/到/给. Bài này, sau động từ là một bổ ngữ cho biết vật đó ra sao sau động tác. (1) Bổ ngữ kết quả: vật đạt kết quả gì: 把屋子打扫干净 (dọn phòng cho sạch), 把碗洗好 (rửa xong bát), 把衣服拿走 (cầm quần áo đi). (2) Bổ ngữ xu hướng: vật di chuyển theo hướng nào: 把水果拿过来 (mang hoa quả lại đây, về phía người nói), 把椅子搬过去 (bê ghế qua đó, rời xa người nói). Nếu có nơi chốn thì nơi chốn đứng giữa 进/回/上… và 来/去: 把椅子搬进房间去. Câu 把 rất hay dùng khi nhờ vả, dặn dò ở nhà. Như các bài trước, 没/别 và động từ năng nguyện (要, 想…) đứng trước 把.",
+        "examples":[
+          {"zh":"你先把屋子打扫干净吧。","pinyin":"Nǐ xiān bǎ wūzi dǎsǎo gānjìng ba.","vi":"Con dọn phòng cho sạch trước đi."},
+          {"zh":"请你把水果拿过来。","pinyin":"Qǐng nǐ bǎ shuǐguǒ ná guòlai.","vi":"Bạn mang hoa quả lại đây giúp mình."},
+          {"zh":"我已经把碗洗好了。","pinyin":"Wǒ yǐjīng bǎ wǎn xǐ hǎo le.","vi":"Mình rửa bát xong rồi."},
+          {"zh":"他把椅子搬进房间去了。","pinyin":"Tā bǎ yǐzi bān jìn fángjiān qu le.","vi":"Anh ấy bê ghế vào phòng rồi."},
+          {"zh":"别把西瓜放进冰箱里，我们现在就吃。","pinyin":"Bié bǎ xīguā fàng jìn bīngxiāng li, wǒmen xiànzài jiù chī.","vi":"Đừng cho dưa hấu vào tủ lạnh, chúng mình ăn luôn bây giờ."}
+        ],
+        "mistakes_vi":"✗ 我打扫屋子干净了。\n✓ 我把屋子打扫干净了。\nTiếng Việt nói “dọn nhà sạch sẽ”, đặt vật giữa động từ và kết quả. Tiếng Trung không đặt tân ngữ giữa động từ và bổ ngữ kết quả; hãy đưa vật lên trước bằng 把.\n✗ 他把椅子搬进去房间了。\n✓ 他把椅子搬进房间去了。\nNơi chốn đứng giữa 进 và 去, không đứng cuối như tiếng Việt “bê vào phòng”.\n✗ 我把碗没洗干净。\n✓ 我没把碗洗干净。\n没/别 luôn đứng trước 把.",
+        "compare_vi":"Câu 把 giống cách nói “đem/lấy… mà…” của tiếng Việt: 把屋子打扫干净 ≈ “đem phòng dọn cho sạch”. Tiếng Việt nghe hơi cứng, nhưng trong tiếng Trung đây là cách nói rất tự nhiên khi nhờ ai làm gì với một đồ vật cụ thể."
+      },
+      {
+        "id":"g2",
+        "title":"Kể trình tự: “先……，再/又……，然后……，最后……”",
+        "pattern":"S + 先 + V1，再 + V2 (chưa xảy ra)　·　S + 先 + V1 了，又 + V2 了 (đã xảy ra)　·　……，然后 (S) + V，最后 (S) + V",
+        "explanation_vi":"Khi kể các bước theo thứ tự: bước đầu dùng 先 (trước), bước tiếp theo dùng 再 hoặc 又 (rồi), 然后 (sau đó), bước cuối dùng 最后 (cuối cùng). 先, 再, 又 là phó từ nên đứng sau chủ ngữ, ngay trước động từ. 然后 và 最后 thường đứng đầu vế câu, có thể đứng trước chủ ngữ. Nhớ lại bài 8: việc chưa xảy ra (dự định, lời dặn, cách làm) dùng 再; việc đã xảy ra rồi dùng 又, thường có 了. 然后 dùng được cho cả hai và hay đi cùng 再: 然后再…….",
+        "examples":[
+          {"zh":"我们先打扫屋子，再去超市买东西。","pinyin":"Wǒmen xiān dǎsǎo wūzi, zài qù chāoshì mǎi dōngxi.","vi":"Chúng mình dọn nhà trước, rồi đi siêu thị mua đồ."},
+          {"zh":"昨天我先去了银行，又去了超市。","pinyin":"Zuótiān wǒ xiān qù le yínháng, yòu qù le chāoshì.","vi":"Hôm qua mình đi ngân hàng trước, rồi lại đi siêu thị."},
+          {"zh":"你先坐一会儿，我把水果洗好，然后拿过来。","pinyin":"Nǐ xiān zuò yíhuìr, wǒ bǎ shuǐguǒ xǐ hǎo, ránhòu ná guòlai.","vi":"Bạn ngồi một lát nhé, mình rửa hoa quả xong rồi mang ra."},
+          {"zh":"吃完饭，大家先在沙发上休息了一会儿，然后又吃了西瓜，最后一起把碗洗干净了。","pinyin":"Chī wán fàn, dàjiā xiān zài shāfā shang xiūxi le yíhuìr, ránhòu yòu chī le xīguā, zuìhòu yìqǐ bǎ wǎn xǐ gānjìng le.","vi":"Ăn cơm xong, mọi người ngồi nghỉ trên sofa một lát, sau đó ăn dưa hấu, cuối cùng cùng nhau rửa sạch bát."}
+        ],
+        "mistakes_vi":"✗ 先我扫地，再我洗碗。\n✓ 我先扫地，再洗碗。\n先/再/又 là phó từ, đứng sau chủ ngữ, ngay trước động từ; không đứng đầu câu như “trước tiên”, “rồi” trong tiếng Việt.\n✗ 昨天我先去了银行，再去了超市。\n✓ 昨天我先去了银行，又去了超市。/ ……，然后去了超市。\nViệc đã xảy ra dùng 又 hoặc 然后; 再 dành cho việc chưa xảy ra.\n✗ 吃饭然后，我们去公园。\n✓ 吃饭以后，我们去公园。/ 我们先吃饭，然后去公园。\n“Sau khi ăn” là 吃饭以后; 然后 (“sau đó”) đứng đầu vế sau, không đứng sau động từ.",
+        "compare_vi":"Giống “trước tiên… rồi… sau đó… cuối cùng…” của tiếng Việt; chỉ khác là 先/再/又 phải đứng sau chủ ngữ."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Hàng xóm đến nhà chơi",
+      "scene_vi": "Chiều thứ Bảy, mẹ và Tiểu Lâm chuẩn bị đón gia đình cô Lý hàng xóm đến ăn tối. Sáu giờ tối, khách đến.",
+      "lines": [
+        {"speaker":"妈妈","zh":"小林，今天晚上咱们家请客，邻居李阿姨一家要来做客。你先把屋子打扫干净吧。","pinyin":"Xiǎo Lín, jīntiān wǎnshang zánmen jiā qǐngkè, línjū Lǐ āyí yì jiā yào lái zuòkè. Nǐ xiān bǎ wūzi dǎsǎo gānjìng ba.","vi":"Tiểu Lâm, tối nay nhà mình mời khách, cả nhà cô Lý hàng xóm sẽ sang chơi. Con dọn nhà cho sạch trước đi."},
+        {"speaker":"小林","zh":"好的。我先扫地，然后把沙发上的衣服拿走，最后再把卫生间打扫一下。","pinyin":"Hǎo de. Wǒ xiān sǎo dì, ránhòu bǎ shāfā shang de yīfu ná zǒu, zuìhòu zài bǎ wèishēngjiān dǎsǎo yíxià.","vi":"Vâng ạ. Con quét nhà trước, sau đó cất quần áo trên sofa đi, cuối cùng dọn nhà vệ sinh một chút."},
+        {"speaker":"妈妈","zh":"我去超市买鸡和牛肉，回来再做饭。李阿姨的儿子最喜欢吃饺子，咱们还要包饺子。","pinyin":"Wǒ qù chāoshì mǎi jī hé niúròu, huílai zài zuò fàn. Lǐ āyí de érzi zuì xǐhuan chī jiǎozi, zánmen hái yào bāo jiǎozi.","vi":"Mẹ đi siêu thị mua gà và thịt bò, về rồi nấu cơm. Con trai cô Lý thích ăn sủi cảo nhất, nhà mình còn phải gói sủi cảo nữa."},
+        {"speaker":"小林","zh":"李阿姨、叔叔，欢迎欢迎！快请进！小朋友，你好！","pinyin":"Lǐ āyí, shūshu, huānyíng huānyíng! Kuài qǐng jìn! Xiǎopéngyǒu, nǐ hǎo!","vi":"Cô Lý, chú ạ, chào mừng cô chú! Cô chú vào nhà đi ạ! Chào em!"},
+        {"speaker":"李阿姨","zh":"你们家真干净！这是我们在小区门口买的西瓜和香蕉，很新鲜。","pinyin":"Nǐmen jiā zhēn gānjìng! Zhè shì wǒmen zài xiǎoqū ménkǒu mǎi de xīguā hé xiāngjiāo, hěn xīnxiān.","vi":"Nhà cháu sạch quá! Đây là dưa hấu với chuối cô chú mua ở cổng khu nhà, tươi lắm."},
+        {"speaker":"小林","zh":"谢谢阿姨！你们先坐在沙发上休息一下。我把西瓜放进冰箱里，吃完饭再吃。","pinyin":"Xièxie āyí! Nǐmen xiān zuò zài shāfā shang xiūxi yíxià. Wǒ bǎ xīguā fàng jìn bīngxiāng li, chī wán fàn zài chī.","vi":"Cháu cảm ơn cô! Cô chú ngồi sofa nghỉ một lát đã ạ. Cháu cho dưa hấu vào tủ lạnh, ăn cơm xong rồi ăn."},
+        {"speaker":"妈妈","zh":"小林，你把香蕉拿过来吧，先给小朋友吃一个。饺子我们下午就包好了，大家都尝尝！","pinyin":"Xiǎo Lín, nǐ bǎ xiāngjiāo ná guòlai ba, xiān gěi xiǎopéngyǒu chī yí ge. Jiǎozi wǒmen xiàwǔ jiù bāo hǎo le, dàjiā dōu chángchang!","vi":"Tiểu Lâm, con mang chuối lại đây, cho em bé ăn một quả trước. Sủi cảo nhà mình gói xong từ chiều rồi, mọi người ăn thử đi!"},
+        {"speaker":"李阿姨","zh":"饺子真好吃！吃完饭，我帮你们把碗洗干净。","pinyin":"Jiǎozi zhēn hǎochī! Chī wán fàn, wǒ bāng nǐmen bǎ wǎn xǐ gānjìng.","vi":"Sủi cảo ngon thật! Ăn xong, cô rửa bát giúp nhà mình nhé."},
+        {"speaker":"小林","zh":"不用，不用！您是客人，碗我来洗。您多吃点儿！","pinyin":"Búyòng, búyòng! Nín shì kèrén, wǎn wǒ lái xǐ. Nín duō chī diǎnr!","vi":"Không cần đâu ạ! Cô là khách mà, bát để cháu rửa. Cô ăn thêm đi ạ!"},
+        {"speaker":"李阿姨","zh":"好，那下个周末你们来我家做客吧！","pinyin":"Hǎo, nà xià ge zhōumò nǐmen lái wǒ jiā zuòkè ba!","vi":"Được rồi, vậy cuối tuần sau cả nhà sang nhà cô chơi nhé!"}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:拿","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你把那个盘子____过来，好吗？","options":["拿","尝","扫","欢迎"],"answer":0,"explanation_vi":"“拿过来” = mang lại đây. 尝 (nếm), 扫 (quét), 欢迎 (chào mừng) không đi với 盘子……过来."},
+      {"id":"e2","type":"choice","tag":"v:干净","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我已经把屋子打扫____了。","options":["干净","新鲜","脏","最后"],"answer":0,"explanation_vi":"“打扫干净” = dọn sạch. 干净 là bổ ngữ kết quả của 打扫; không ai “dọn cho bẩn”, còn 新鲜 là “tươi”."},
+      {"id":"e3","type":"choice","tag":"v:尝","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"这是我做的饺子，你____一下吧！","options":["尝","打扫","欢迎","请客"],"answer":0,"explanation_vi":"“尝一下” = ăn thử. Đồ ăn thì “nếm, ăn thử”."},
+      {"id":"e4","type":"choice","tag":"v:不用","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"A：我帮你洗碗吧。B：____，你是客人，快去休息吧。","options":["不用","没有","不会","不对"],"answer":0,"explanation_vi":"Từ chối lời giúp đỡ một cách lịch sự: 不用 (không cần đâu)."},
+      {"id":"e5","type":"choice","tag":"g:把字句3","prompt_vi":"Chọn bổ ngữ xu hướng đúng.","question_zh":"你把西瓜放____冰箱里吧。","options":["进","上","过","开"],"answer":0,"explanation_vi":"“放进冰箱里” = cho vào trong tủ lạnh. Có 里 (trong) nên dùng 进 (vào)."},
+      {"id":"e6","type":"choice","tag":"g:把字句3","prompt_vi":"Chọn câu đúng.","question_zh":"Tôi dọn phòng sạch sẽ rồi.","options":["我把屋子打扫干净了。","我打扫屋子干净了。","我把屋子干净打扫了。","我把屋子打扫了干净。"],"answer":0,"explanation_vi":"把 + vật + V + bổ ngữ kết quả + 了. Không đặt 屋子 giữa 打扫 và 干净, cũng không đặt 了 giữa động từ và bổ ngữ."},
+      {"id":"e7","type":"choice","tag":"g:把字句3","prompt_vi":"Chọn câu đúng với nghĩa: “Tôi chưa rửa sạch bát.”","question_zh":"Tôi chưa rửa sạch bát.","options":["我没把碗洗干净。","我把碗没洗干净。","我把碗洗没干净。","我不把碗洗干净了。"],"answer":0,"explanation_vi":"Phủ định câu 把: 没 đứng trước 把, và bỏ 了 ở cuối câu."},
+      {"id":"e8","type":"choice","tag":"g:先然后","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们____去超市买东西，然后回家做饭。","options":["先","最后","然后","一边"],"answer":0,"explanation_vi":"Vế sau có 然后 (sau đó) nên vế trước dùng 先 (trước). 一边 phải đi thành cặp, 然后 không đứng sau chủ ngữ như vậy."},
+      {"id":"e9","type":"choice","tag":"g:先然后","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"明天你先去超市，____去银行。","options":["再","又","先","还是"],"answer":0,"explanation_vi":"Việc ngày mai chưa xảy ra nên dùng 再 (rồi). 又 dùng cho việc đã xảy ra."},
+      {"id":"e10","type":"order","tag":"g:把字句3","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["你","把","水果","拿","过来","吧"],"answers":["你把水果拿过来吧"],"translation_vi":"Bạn mang hoa quả lại đây nhé.","explanation_vi":"S + 把 + vật + V + 过来 + 吧: lời nhờ mang đồ về phía người nói."},
+      {"id":"e11","type":"order","tag":"g:先然后","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","先","扫地","然后","洗碗"],"answers":["我先扫地然后洗碗","我先洗碗然后扫地"],"translation_vi":"Mình quét nhà trước, sau đó rửa bát.","explanation_vi":"先 đứng sau chủ ngữ, trước động từ; 然后 mở đầu việc thứ hai."},
+      {"id":"e12","type":"order","tag":"g:把字句3","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","把","屋子","打扫","干净","了"],"answers":["他把屋子打扫干净了"],"translation_vi":"Anh ấy dọn phòng sạch sẽ rồi.","explanation_vi":"把 + 屋子 + 打扫 + 干净 + 了: bổ ngữ kết quả đứng ngay sau động từ."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"拿","vi":"cầm, lấy"},{"zh":"尝","vi":"nếm thử"},{"zh":"打扫","vi":"quét dọn"},{"zh":"干净","vi":"sạch sẽ"},{"zh":"欢迎","vi":"chào mừng"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"饺子","vi":"sủi cảo"},{"zh":"西瓜","vi":"dưa hấu"},{"zh":"香蕉","vi":"chuối"},{"zh":"筷子","vi":"đũa"},{"zh":"盘子","vi":"cái đĩa"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:把字句3","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"请你把盘子拿____来。","options":["过","开","完","好"],"answer":0,"explanation_vi":"“拿过来” = mang lại đây. Không nói 拿开来, 拿完来, 拿好来."},
+        {"id":"q2","type":"choice","tag":"g:把字句3","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"你把衣服洗____了吗？","options":["干净","打扫","新鲜","过来"],"answer":0,"explanation_vi":"“洗干净” = giặt sạch. 干净 là bổ ngữ kết quả của 洗."},
+        {"id":"q3","type":"choice","tag":"g:把字句3","prompt_vi":"Chọn câu đúng.","question_zh":"Anh ấy bê ghế vào phòng rồi.","options":["他把椅子搬进房间去了。","他把椅子搬进去房间了。","他搬椅子进去房间了。","他把椅子搬房间进去了。"],"answer":0,"explanation_vi":"Nơi chốn (房间) đứng giữa 进 và 去: 搬进房间去."},
+        {"id":"q4","type":"choice","tag":"g:先然后","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们先吃饭，____去看电影。","options":["然后","一边","先","还是"],"answer":0,"explanation_vi":"先……，然后…… = trước…, sau đó…."},
+        {"id":"q5","type":"choice","tag":"g:先然后","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"昨天我们先去了公园，____去了动物园。","options":["又","再","先","还是"],"answer":0,"explanation_vi":"Việc hôm qua đã xảy ra nên dùng 又 (rồi lại). 再 dùng cho việc chưa xảy ra."},
+        {"id":"q6","type":"choice","tag":"g:先然后","prompt_vi":"Chọn câu đúng.","question_zh":"Tôi quét nhà trước, rồi rửa bát.","options":["我先扫地，再洗碗。","先我扫地，再我洗碗。","我扫地先，洗碗再。","我先扫地，洗碗然后。"],"answer":0,"explanation_vi":"先/再 là phó từ, đứng sau chủ ngữ và trước động từ."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:做客","prompt_vi":"Chọn đáp án đúng.","question_zh":"这个周末我想去朋友家____。","options":["做客","请客","欢迎","尝"],"answer":0,"explanation_vi":"去朋友家做客 = đến nhà bạn chơi. 请客 là mời, đãi khách."},
+      {"id":"t2","type":"choice","tag":"g:把字句3","prompt_vi":"Chọn đáp án đúng.","question_zh":"你把水果洗____，再拿过来。","options":["干净","过来","新鲜","最后"],"answer":0,"explanation_vi":"把水果洗干净 = rửa sạch hoa quả. Vế sau đã có 拿过来 nên vế trước cần kết quả của 洗."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"邻居","vi":"hàng xóm"},{"zh":"沙发","vi":"ghế sofa"},{"zh":"卫生间","vi":"nhà vệ sinh"},{"zh":"小区","vi":"khu dân cư"},{"zh":"屋子","vi":"căn phòng"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"碗","vi":"cái bát"},{"zh":"勺子","vi":"cái thìa"},{"zh":"鸡","vi":"con gà"},{"zh":"羊","vi":"con cừu, con dê"},{"zh":"新鲜","vi":"tươi"}]},
+      {"id":"t5","type":"order","tag":"v:欢迎","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["欢迎","你","来","我家","做客"],"answers":["欢迎你来我家做客"],"translation_vi":"Chào mừng bạn đến nhà mình chơi.","explanation_vi":"欢迎 + người + 来 + nơi + 做客."},
+      {"id":"t6","type":"order","tag":"g:把字句3","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我","把","西瓜","放进","冰箱里","了"],"answers":["我把西瓜放进冰箱里了"],"translation_vi":"Mình cho dưa hấu vào tủ lạnh rồi.","explanation_vi":"把 + vật + 放进 + nơi chốn + 了."},
+      {"id":"t7","type":"fill","tag":"v:打扫","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"周末我要在家____房间。","answers":["打扫"],"hint_vi":"quét dọn","explanation_vi":"打扫房间 = dọn phòng."},
+      {"id":"t8","type":"fill","tag":"g:先然后","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"我们先去超市，____回家做饭。","answers":["然后","再","然后再"],"hint_vi":"sau đó","explanation_vi":"先……，然后/再…… = trước…, sau đó…."},
+      {"id":"t9","type":"listen_choice","tag":"v:请客","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"今天我请客，大家想吃什么就点什么。","options":["Hôm nay mình khao, mọi người muốn ăn gì cứ gọi món đó.","Hôm nay bạn khao, mình muốn ăn gì thì gọi món đó.","Hôm nay mọi người tự trả tiền phần mình.","Hôm nay mình nấu cơm ở nhà cho mọi người."],"answer":0,"explanation_vi":"我请客 = mình khao; 想吃什么就点什么 = muốn ăn gì gọi nấy."},
+      {"id":"t10","type":"listen_choice","tag":"g:把字句3","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"你把香蕉拿过来吧。","options":["你把香蕉拿过来吧。","你把香蕉拿过去吧。","你把西瓜拿过来吧。","你把香蕉放进去吧。"],"answer":0,"explanation_vi":"Câu nghe được: 你把香蕉拿过来吧 = Bạn mang chuối lại đây nhé (过来 = về phía người nói)."},
+      {"id":"t11","type":"dictation","tag":"v:干净","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"你的房间真干净。","answers":["你的房间真干净"],"explanation_vi":"你的房间真干净 = Phòng bạn sạch thật."},
+      {"id":"t12","type":"dictation","tag":"g:先然后","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"我先扫地，然后洗碗。","answers":["我先扫地然后洗碗"],"explanation_vi":"我先扫地，然后洗碗 = Mình quét nhà trước, sau đó rửa bát."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:把字句3","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Bạn mang hoa quả lại đây nhé.","answers":["你把水果拿过来吧","你把水果拿过来","把水果拿过来吧","把水果拿过来","请你把水果拿过来","请把水果拿过来","你拿水果过来吧","你拿水果过来"],"explanation_vi":"把 + 水果 + 拿过来 + 吧. 过来 = về phía người nói."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:先然后","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Chúng ta ăn cơm trước, sau đó đi xem phim.","answers":["我们先吃饭然后去看电影","我们先吃饭然后再去看电影","我们先吃饭再去看电影","咱们先吃饭然后去看电影","咱们先吃饭然后再去看电影","咱们先吃饭再去看电影","我们先吃饭然后看电影","咱们先吃饭然后看电影","我们先吃饭再看电影","咱们先吃饭再看电影","我们先吃饭然后去看电影吧","咱们先吃饭然后去看电影吧"],"explanation_vi":"S + 先 + 吃饭，然后/再 + 去看电影."},
+      {"id":"t15","type":"translate_zh_vi","tag":"v:不用","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"明天不用上班。","answers_vi":["Ngày mai không cần đi làm.","Mai không phải đi làm."],"keywords":[["mai"],["không cần","không phải","khỏi","không phải là"],["làm"]],"explanation_vi":"不用 = không cần; 上班 = đi làm."},
+      {"id":"t16","type":"translate_zh_vi","tag":"g:把字句3","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"我已经把屋子打扫干净了。","answers_vi":["Tôi đã dọn phòng sạch sẽ rồi.","Mình dọn sạch nhà rồi."],"keywords":[["dọn","quét"],["sạch"],["phòng","nhà"]],"explanation_vi":"把屋子打扫干净 = dọn phòng (nhà) cho sạch; 已经……了 = đã… rồi."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"去王叔叔家做客",
+        "title_vi":"Sang nhà chú Vương chơi",
+        "paragraphs":[
+          {
+            "tokens":[["上个星期六","shàng ge xīngqīliù","thứ Bảy tuần trước"],["，"],["邻居","línjū","hàng xóm"],["王叔叔","Wáng shūshu","chú Vương"],["请","qǐng","mời"],["我们","wǒmen","chúng tôi"],["去","qù","đến"],["他","tā","chú ấy"],["家","jiā","nhà"],["做客","zuòkè","chơi, làm khách"],["。"],["他们","tāmen","họ"],["的","de","của"],["屋子","wūzi","nhà, căn phòng"],["不","bú","không"],["大","dà","rộng, to"],["，"],["可是","kěshì","nhưng"],["很","hěn","rất"],["干净","gānjìng","sạch sẽ"],["。"],["王阿姨","Wáng āyí","cô Vương"],["做","zuò","nấu, làm"],["了","le","(đã)"],["很多","hěn duō","nhiều"],["菜","cài","món ăn"],["，"],["有","yǒu","có"],["鸡","jī","gà"],["，"],["有","yǒu","có"],["牛肉","niúròu","thịt bò"],["，"],["还有","hái yǒu","còn có"],["饺子","jiǎozi","sủi cảo"],["。"]],
+            "vi":"Thứ Bảy tuần trước, chú Vương hàng xóm mời nhà tôi sang chơi. Nhà họ không rộng nhưng rất sạch sẽ. Cô Vương nấu rất nhiều món, có gà, có thịt bò, còn có cả sủi cảo."
+          },
+          {
+            "tokens":[["我们","wǒmen","chúng tôi"],["先","xiān","trước"],["吃","chī","ăn"],["了","le","(đã)"],["饺子","jiǎozi","sủi cảo"],["，"],["又","yòu","rồi lại"],["尝","cháng","nếm, ăn thử"],["了","le","(đã)"],["王阿姨","Wáng āyí","cô Vương"],["做","zuò","nấu"],["的","de","(trợ từ)"],["鸡","jī","(món) gà"],["，"],["真","zhēn","thật"],["好吃","hǎochī","ngon"],["！"],["吃完","chī wán","ăn xong"],["饭","fàn","cơm"],["，"],["王叔叔","Wáng shūshu","chú Vương"],["把","bǎ","(đem)"],["西瓜","xīguā","dưa hấu"],["拿过来","ná guòlai","mang ra, mang lại đây"],["，"],["大家","dàjiā","mọi người"],["一边","yìbiān","vừa"],["吃","chī","ăn"],["西瓜","xīguā","dưa hấu"],["一边","yìbiān","vừa"],["聊天儿","liáotiānr","trò chuyện"],["。"]],
+            "vi":"Chúng tôi ăn sủi cảo trước, rồi ăn thử món gà cô Vương nấu, ngon thật! Ăn cơm xong, chú Vương mang dưa hấu ra, mọi người vừa ăn dưa hấu vừa trò chuyện."
+          },
+          {
+            "tokens":[["最后","zuìhòu","cuối cùng"],["，"],["我","wǒ","tôi"],["和","hé","và"],["妈妈","māma","mẹ"],["帮","bāng","giúp"],["王阿姨","Wáng āyí","cô Vương"],["把","bǎ","(đem)"],["碗","wǎn","bát"],["洗","xǐ","rửa"],["干净","gānjìng","sạch"],["了","le","(rồi)"],["。"],["王阿姨","Wáng āyí","cô Vương"],["笑着","xiàozhe","cười"],["说","shuō","nói"],["："],["“"],["欢迎","huānyíng","chào mừng, mời"],["你们","nǐmen","mọi người"],["下次","xià cì","lần sau"],["再","zài","lại"],["来","lái","đến"],["！"],["”"]],
+            "vi":"Cuối cùng, tôi và mẹ giúp cô Vương rửa sạch bát. Cô Vương cười nói: “Lần sau cả nhà lại sang chơi nhé!”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"王阿姨做了什么菜？","options":["鸡、牛肉和饺子","羊肉和饺子","鱼和米饭","西瓜和香蕉"],"answer":0,"explanation_vi":"Đoạn 1: 王阿姨做了很多菜，有鸡，有牛肉，还有饺子."},
+          {"id":"rq2","type":"choice","tag":"g:先然后","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"他们先吃了什么？","options":["饺子","鸡","西瓜","牛肉"],"answer":0,"explanation_vi":"Đoạn 2: 我们先吃了饺子，又尝了王阿姨做的鸡."},
+          {"id":"rq3","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"吃完饭，谁把西瓜拿过来了？","options":["王叔叔","王阿姨","妈妈","“我”"],"answer":0,"explanation_vi":"Đoạn 2: 吃完饭，王叔叔把西瓜拿过来."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"王叔叔家的屋子很大。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 1: 他们的屋子不大，可是很干净 — nên câu này sai."},
+          {"id":"rq5","type":"choice","tag":"reading","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"最后，“我”和妈妈帮王阿姨洗了碗。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 3: 最后，我和妈妈帮王阿姨把碗洗干净了."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Lời nhắn của mẹ",
+        "text_zh":"小林，妈妈今天晚上七点左右才能回家。你的朋友六点来咱们家做客，你先把屋子打扫干净，再去楼下的超市买一个西瓜和一些香蕉。冰箱里有饺子，你们饿了就先吃饺子。吃完饭，别忘了把碗和筷子洗干净，然后放回去。最后，别让你的朋友一个人回家，你把她送到车站吧。",
+        "pinyin":"Xiǎo Lín, māma jīntiān wǎnshang qī diǎn zuǒyòu cái néng huí jiā. Nǐ de péngyou liù diǎn lái zánmen jiā zuòkè, nǐ xiān bǎ wūzi dǎsǎo gānjìng, zài qù lóu xià de chāoshì mǎi yí ge xīguā hé yìxiē xiāngjiāo. Bīngxiāng li yǒu jiǎozi, nǐmen è le jiù xiān chī jiǎozi. Chī wán fàn, bié wàng le bǎ wǎn hé kuàizi xǐ gānjìng, ránhòu fàng huíqu. Zuìhòu, bié ràng nǐ de péngyou yí ge rén huí jiā, nǐ bǎ tā sòng dào chēzhàn ba.",
+        "vi":"Tiểu Lâm, tối nay khoảng bảy giờ mẹ mới về được. Sáu giờ bạn con đến nhà mình chơi, con dọn nhà cho sạch trước, rồi xuống siêu thị dưới nhà mua một quả dưa hấu và ít chuối. Trong tủ lạnh có sủi cảo, đói thì hai đứa cứ ăn sủi cảo trước. Ăn xong đừng quên rửa sạch bát đũa rồi cất lại chỗ cũ. Cuối cùng, đừng để bạn con về một mình, con đưa bạn ra bến xe nhé.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"妈妈几点回家？","options":["七点左右","六点左右","八点左右","五点半"],"answer":0,"explanation_vi":"Nghe được: 妈妈今天晚上七点左右才能回家."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"小林要去超市买什么？","options":["一个西瓜和一些香蕉","饺子","鸡和牛肉","碗和筷子"],"answer":0,"explanation_vi":"Nghe được: 再去楼下的超市买一个西瓜和一些香蕉."},
+          {"id":"lq3","type":"choice","tag":"g:把字句3","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"吃完饭，小林要做什么？","options":["把碗和筷子洗干净","去超市买东西","包饺子","打扫卫生间"],"answer":0,"explanation_vi":"Nghe được: 吃完饭，别忘了把碗和筷子洗干净."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"最后，妈妈让小林做什么？","options":["把朋友送到车站","给妈妈打电话","和朋友一起看电视","把屋子打扫干净"],"answer":0,"explanation_vi":"Nghe được: 最后……你把她送到车站吧. Dọn nhà là việc làm trước tiên (先)."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"干净","pinyin":"gānjìng","vi":"sạch sẽ","tip_vi":"干 gān kết thúc bằng -n (đầu lưỡi chạm lợi), 净 jìng kết thúc bằng -ng (cuống lưỡi nâng lên); đừng đọc 净 thành “tịnh” kiểu Việt. g đọc gần “c” tiếng Việt (không bật hơi), không phải “g” của tiếng Việt."},
+      {"id":"s2","zh":"欢迎欢迎！","pinyin":"Huānyíng huānyíng!","vi":"Chào mừng, chào mừng!","tip_vi":"h tiếng Trung xát ở cuống lưỡi, gần “kh” tiếng Việt nhưng nhẹ hơn, không phải h thanh hầu. 迎 yíng là -ing, đừng đọc thành “inh”. Thanh 1 + thanh 2: cao bằng rồi đi lên."},
+      {"id":"s3","zh":"你尝尝！","pinyin":"Nǐ chángchang!","vi":"Bạn ăn thử đi!","tip_vi":"尝 ch uốn lưỡi và bật hơi mạnh, đừng đọc thành “tr” hay “ch” tiếng Việt. Chữ 尝 thứ hai đọc nhẹ và ngắn."},
+      {"id":"s4","zh":"你把水果拿过来吧。","pinyin":"Nǐ bǎ shuǐguǒ ná guòlai ba.","vi":"Bạn mang hoa quả lại đây nhé.","tip_vi":"你把水果 là bốn thanh 3 liền nhau: chia thành hai nhóm 你把 / 水果, chữ đầu mỗi nhóm đọc gần thanh 2 (ní bǎ shuí guǒ). 过来 guòlai: 来 đọc nhẹ."},
+      {"id":"s5","zh":"我先扫地，然后洗碗。","pinyin":"Wǒ xiān sǎo dì, ránhòu xǐ wǎn.","vi":"Mình quét nhà trước, sau đó rửa bát.","tip_vi":"扫 sǎo: s đầu lưỡi phẳng, khác sh. 洗碗 xǐ wǎn: hai thanh 3, 洗 đọc gần thanh 2. 然 rán: r uốn lưỡi nhẹ, đừng đọc thành “dán” hay “zán”."},
+      {"id":"s6","zh":"你先把屋子打扫干净吧。","pinyin":"Nǐ xiān bǎ wūzi dǎsǎo gānjìng ba.","vi":"Con dọn phòng cho sạch trước đi.","tip_vi":"打扫 dǎsǎo: hai thanh 3 liền nhau, 打 đọc gần thanh 2. 屋子 wūzi: 子 đọc nhẹ. 先 xiān: x là âm mặt lưỡi (mặt lưỡi nâng sát vòm cứng, môi dẹt), không phải “x” tiếng Việt."},
+      {"id":"s7","zh":"吃完饭，我帮你们把碗洗干净。","pinyin":"Chī wán fàn, wǒ bāng nǐmen bǎ wǎn xǐ gānjìng.","vi":"Ăn xong, mình rửa sạch bát giúp mọi người.","tip_vi":"把碗洗 bǎ wǎn xǐ là ba thanh 3 liền nhau: thường đọc bá wán xǐ. 吃 chī: ch uốn lưỡi, bật hơi, nguyên âm “-i” không phải “i”. 饭 fàn thanh 4 rơi dứt khoát."}
+    ],
+    "review": {
+      "remember": [
+        "把 + vật + V + bổ ngữ kết quả: 把屋子打扫干净、把碗洗好、把衣服拿走 — làm cho vật đó đạt kết quả.",
+        "把 + vật + V + bổ ngữ xu hướng: 把水果拿过来 (về phía mình)、把椅子搬过去 (rời xa mình); nơi chốn đứng giữa: 搬进房间去.",
+        "Phủ định câu 把: 没/别 + 把……: 我没把碗洗干净、别把西瓜放进冰箱里.",
+        "Kể trình tự: S + 先……，再……，然后……，最后……; việc đã xảy ra: 先……了，又……了.",
+        "Tiếp khách: 欢迎欢迎！快请进！你尝尝！不用不用。做客 = đến nhà người khác chơi; 请客 = mời khách, khao."
+      ],
+      "mistakes": [
+        "✗ 我打扫屋子干净了 → ✓ 我把屋子打扫干净了: không đặt vật giữa động từ và bổ ngữ kết quả.",
+        "✗ 先我扫地，再我洗碗 → ✓ 我先扫地，再洗碗: 先/再 đứng sau chủ ngữ, trước động từ.",
+        "✗ 我去朋友家请客 (muốn nói “đến nhà bạn chơi”) → ✓ 我去朋友家做客: 做客 là làm khách, 请客 là mời, đãi."
+      ]
+    }
+  }
+}

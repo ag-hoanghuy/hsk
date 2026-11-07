@@ -1,0 +1,251 @@
+{
+  "level": 4,
+  "number": 1,
+  "summary": "Nói về tình yêu và người yêu: tính cách, ưu điểm, khuyết điểm, sự tôn trọng và trách nhiệm; học 不仅……也/还/而且……, phó từ 从来 và 刚, 即使……也…… và 在……上 (về mặt…).",
+  "readings_ok": ["嗯 ǹg", "都 dōu", "得 de"],
+  "content": {
+    "objectives": [
+      "Miêu tả tính cách, ưu điểm và khuyết điểm của một người: 他性格很好，可是脾气有点儿急",
+      "Nói “không những… mà còn…” bằng 不仅……而且/还/也……",
+      "Nói “chưa bao giờ / không bao giờ” bằng 从来没……过 / 从来不, và “mới… thôi / vừa… đã…” bằng 刚",
+      "Nêu giả định “cho dù… cũng…” bằng 即使……也…… và nói “về mặt…” bằng 在……上"
+    ],
+    "vocab": [
+      {"id":"v1","hanzi":"不仅","pinyin":"bùjǐn","pos":"liên từ","meaning_vi":"không những, không chỉ","example_zh":"他不仅很帅，而且很幽默。","example_pinyin":"Tā bùjǐn hěn shuài, érqiě hěn yōumò.","example_vi":"Anh ấy không những đẹp trai mà còn rất hài hước.","hanviet":"BẤT CẬN","note_vi":"Nghĩa giống 不但 (đã học ở HSK3) nhưng trang trọng hơn một chút, hay gặp trong văn viết. Vế sau thường có 而且/还/也. 不 vẫn đọc thanh 4 (bù) vì 仅 là thanh 3."},
+      {"id":"v2","hanzi":"从来","pinyin":"cónglái","pos":"phó từ","meaning_vi":"từ trước đến nay, xưa nay (hay đi với phủ định: chưa bao giờ, không bao giờ)","example_zh":"他从来没送过我花。","example_pinyin":"Tā cónglái méi sòngguo wǒ huā.","example_vi":"Anh ấy chưa bao giờ tặng hoa cho tôi.","note_vi":"从来没(有) + V + 过 = chưa bao giờ (trải nghiệm); 从来不 + V = không bao giờ (thói quen, nguyên tắc). Chỉ nói về quá khứ đến hiện tại, không dùng cho tương lai."},
+      {"id":"v3","hanzi":"即使","pinyin":"jíshǐ","pos":"liên từ","meaning_vi":"cho dù, ngay cả khi (nêu giả định)","example_zh":"即使工作很忙，他也每天给我打电话。","example_pinyin":"Jíshǐ gōngzuò hěn máng, tā yě měi tiān gěi wǒ dǎ diànhuà.","example_vi":"Cho dù công việc bận, ngày nào anh ấy cũng gọi điện cho tôi.","hanviet":"TỨC SỬ","note_vi":"Vế sau dùng 也. 即使 nêu một giả định (có thể chưa xảy ra); muốn nói sự thật đã có thì dùng 虽然……但是……. Chú ý j và sh: jí đọc mặt lưỡi, shǐ uốn lưỡi."},
+      {"id":"v4","hanzi":"爱情","pinyin":"àiqíng","pos":"danh từ","meaning_vi":"tình yêu (đôi lứa)","example_zh":"这是一个关于爱情的电影。","example_pinyin":"Zhè shì yí ge guānyú àiqíng de diànyǐng.","example_vi":"Đây là một bộ phim về tình yêu.","hanviet":"ÁI TÌNH","note_vi":"爱情 chỉ tình yêu nam nữ. Tình cảm gia đình, bạn bè nói 感情 hoặc 爱 (妈妈的爱 = tình yêu của mẹ)."},
+      {"id":"v5","hanzi":"感情","pinyin":"gǎnqíng","pos":"danh từ","meaning_vi":"tình cảm","example_zh":"他们俩的感情一直很好。","example_pinyin":"Tāmen liǎ de gǎnqíng yìzhí hěn hǎo.","example_vi":"Tình cảm của hai người họ lúc nào cũng rất tốt.","hanviet":"CẢM TÌNH","note_vi":"Chú ý thứ tự chữ: tiếng Việt “tình cảm” → tiếng Trung 感情 (đảo ngược), đừng viết thành 情感 khi muốn nói tình cảm giữa hai người. Và 感情 không phải “cảm tình” (có thiện cảm) như tiếng Việt."},
+      {"id":"v6","hanzi":"浪漫","pinyin":"làngmàn","pos":"tính từ","meaning_vi":"lãng mạn","example_zh":"他是一个很浪漫的人，常常给女朋友送花。","example_pinyin":"Tā shì yí ge hěn làngmàn de rén, chángcháng gěi nǚpéngyou sòng huā.","example_vi":"Anh ấy là người rất lãng mạn, hay tặng hoa cho bạn gái.","hanviet":"LÃNG MẠN","note_vi":"Hai thanh 4 liền nhau: cả hai đều rơi dứt khoát. -ang (làng) và -an (màn) khác nhau: -ng cuối do cuống lưỡi, -n cuối do đầu lưỡi."},
+      {"id":"v7","hanzi":"约会","pinyin":"yuēhuì","pos":"động từ / danh từ","meaning_vi":"hẹn hò; cuộc hẹn","example_zh":"今天晚上我有一个约会。","example_pinyin":"Jīntiān wǎnshang wǒ yǒu yí ge yuēhuì.","example_vi":"Tối nay tôi có một cuộc hẹn.","note_vi":"Làm động từ thì nói 跟……约会 (hẹn hò với ai), không nói *约会她. Danh từ: 有一个约会 (có một cuộc hẹn)."},
+      {"id":"v8","hanzi":"性格","pinyin":"xìnggé","pos":"danh từ","meaning_vi":"tính cách","example_zh":"她性格很好，大家都喜欢她。","example_pinyin":"Tā xìnggé hěn hǎo, dàjiā dōu xǐhuan tā.","example_vi":"Cô ấy tính cách rất tốt, mọi người đều quý cô ấy.","hanviet":"TÍNH CÁCH","note_vi":"Hỏi tính cách: 他性格怎么样？ 格 đọc thanh 2 (gé)."},
+      {"id":"v9","hanzi":"脾气","pinyin":"píqi","pos":"danh từ","meaning_vi":"tính khí, tính nết (nóng hay hiền)","example_zh":"我爸爸脾气不太好，很容易生气。","example_pinyin":"Wǒ bàba píqi bú tài hǎo, hěn róngyì shēngqì.","example_vi":"Bố tôi tính khí không tốt lắm, rất dễ nổi giận.","note_vi":"脾气 nói về cảm xúc, dễ nổi nóng hay không: 脾气好 = hiền, ít cáu; 脾气急 / 脾气大 = nóng tính. 性格 rộng hơn: cả con người (vui vẻ, hướng nội, cẩn thận…). 气 đọc nhẹ."},
+      {"id":"v10","hanzi":"优点","pinyin":"yōudiǎn","pos":"danh từ","meaning_vi":"ưu điểm, điểm mạnh","example_zh":"他最大的优点是很认真。","example_pinyin":"Tā zuì dà de yōudiǎn shì hěn rènzhēn.","example_vi":"Ưu điểm lớn nhất của anh ấy là rất chăm chỉ, nghiêm túc.","hanviet":"ƯU ĐIỂM"},
+      {"id":"v11","hanzi":"缺点","pinyin":"quēdiǎn","pos":"danh từ","meaning_vi":"khuyết điểm, nhược điểm","example_zh":"每个人都有优点，也有缺点。","example_pinyin":"Měi ge rén dōu yǒu yōudiǎn, yě yǒu quēdiǎn.","example_vi":"Ai cũng có ưu điểm và cũng có khuyết điểm.","hanviet":"KHUYẾT ĐIỂM","note_vi":"缺 quē: q bật hơi, vần üe tròn môi; đừng đọc thành “khuê”."},
+      {"id":"v12","hanzi":"对方","pinyin":"duìfāng","pos":"danh từ","meaning_vi":"người kia, phía bên kia","example_zh":"两个人在一起，要多考虑对方。","example_pinyin":"Liǎng ge rén zài yìqǐ, yào duō kǎolǜ duìfāng.","example_vi":"Hai người ở bên nhau thì phải nghĩ cho người kia nhiều hơn.","hanviet":"ĐỐI PHƯƠNG","note_vi":"Tiếng Việt “đối phương” thường là đối thủ; 对方 tiếng Trung trung tính: chỉ người kia trong một cặp đôi, một cuộc nói chuyện, một cuộc điện thoại…"},
+      {"id":"v13","hanzi":"一生","pinyin":"yìshēng","pos":"danh từ","meaning_vi":"cả đời, một đời","example_zh":"爷爷一生只爱过奶奶一个人。","example_pinyin":"Yéye yìshēng zhǐ àiguo nǎinai yí ge rén.","example_vi":"Cả đời ông chỉ yêu một mình bà.","hanviet":"NHẤT SINH","note_vi":"一 đọc thanh 4 (yì) vì 生 là thanh 1. Hơi trang trọng; khẩu ngữ hay nói 一辈子 (sẽ học sau)."},
+      {"id":"v14","hanzi":"永远","pinyin":"yǒngyuǎn","pos":"phó từ","meaning_vi":"mãi mãi, vĩnh viễn","example_zh":"我会永远记得这一天。","example_pinyin":"Wǒ huì yǒngyuǎn jìde zhè yì tiān.","example_vi":"Tôi sẽ mãi mãi nhớ ngày hôm nay.","hanviet":"VĨNH VIỄN","note_vi":"Đứng trước động từ: 永远爱你, 永远不会忘记. Hai thanh 3 liền nhau nên 永 đọc gần như thanh 2."},
+      {"id":"v15","hanzi":"尊重","pinyin":"zūnzhòng","pos":"động từ","meaning_vi":"tôn trọng","example_zh":"爱一个人，就要尊重他的选择。","example_pinyin":"Ài yí ge rén, jiù yào zūnzhòng tā de xuǎnzé.","example_vi":"Yêu một người thì phải tôn trọng lựa chọn của người ấy.","hanviet":"TÔN TRỌNG","note_vi":"z (尊) và zh (重) khác nhau: zūn đầu lưỡi thẳng, đặt sau răng; zhòng uốn lưỡi. 重 ở đây đọc zhòng, không phải chóng."},
+      {"id":"v16","hanzi":"吸引","pinyin":"xīyǐn","pos":"động từ","meaning_vi":"thu hút, lôi cuốn","example_zh":"他的幽默吸引了我。","example_pinyin":"Tā de yōumò xīyǐn le wǒ.","example_vi":"Sự hài hước của anh ấy đã thu hút tôi.","hanviet":"HẤP DẪN","note_vi":"Âm Hán Việt là “hấp dẫn”, nhưng 吸引 chủ yếu là động từ “thu hút ai”: A 吸引 B / B 被 A 吸引. Muốn nói “rất hấp dẫn” thì dùng 很吸引人."},
+      {"id":"v17","hanzi":"陪","pinyin":"péi","pos":"động từ","meaning_vi":"đi cùng, ở bên, bầu bạn","example_zh":"周末我要陪妈妈去医院。","example_pinyin":"Zhōumò wǒ yào péi māma qù yīyuàn.","example_vi":"Cuối tuần tôi phải đưa mẹ đi bệnh viện.","note_vi":"陪 + người + (động từ): ở bên cạnh để giúp đỡ hoặc làm bạn với người đó. 我陪你去 nhấn mạnh “tôi đi vì bạn”, còn 我跟你一起去 chỉ là “cùng đi”. p bật hơi mạnh."},
+      {"id":"v18","hanzi":"考虑","pinyin":"kǎolǜ","pos":"động từ","meaning_vi":"suy nghĩ, cân nhắc, xem xét","example_zh":"这件事我要好好考虑一下。","example_pinyin":"Zhè jiàn shì wǒ yào hǎohǎo kǎolǜ yíxià.","example_vi":"Việc này tôi phải suy nghĩ kỹ một chút.","note_vi":"Hay gặp: 考虑一下 (suy nghĩ một chút), 考虑清楚 (cân nhắc kỹ), 考虑别人 (nghĩ cho người khác). 虑 lǜ: l + ü, nhớ tròn môi."},
+      {"id":"v19","hanzi":"责任","pinyin":"zérèn","pos":"danh từ","meaning_vi":"trách nhiệm","example_zh":"照顾家人是我们的责任。","example_pinyin":"Zhàogù jiārén shì wǒmen de zérèn.","example_vi":"Chăm sóc người nhà là trách nhiệm của chúng ta.","hanviet":"TRÁCH NHIỆM","note_vi":"责 zé: z đọc gần “ts” không bật hơi, e là nguyên âm “ơ” hơi lùi về sau; đừng đọc theo âm Việt “trách”. 任 rèn: r uốn lưỡi, không phải “dân”."},
+      {"id":"v20","hanzi":"拒绝","pinyin":"jùjué","pos":"động từ","meaning_vi":"từ chối, khước từ","example_zh":"他请我吃饭，我拒绝了。","example_pinyin":"Tā qǐng wǒ chī fàn, wǒ jùjué le.","example_vi":"Anh ấy mời tôi ăn cơm, tôi đã từ chối.","hanviet":"CỰ TUYỆT","note_vi":"拒绝 khá thẳng, dứt khoát. Muốn từ chối khéo người ta hay nói 不好意思，我……. Hai âm j + ü: jù, jué, nhớ tròn môi."}
+    ],
+    "extra_vocab": [
+      {"id":"x1","hanzi":"家庭","pinyin":"jiātíng","pos":"danh từ","meaning_vi":"gia đình","example_zh":"她来自一个大家庭。","example_pinyin":"Tā láizì yí ge dà jiātíng.","example_vi":"Cô ấy đến từ một đại gia đình."},
+      {"id":"x2","hanzi":"年龄","pinyin":"niánlíng","pos":"danh từ","meaning_vi":"tuổi, tuổi tác","example_zh":"爱情跟年龄没关系。","example_pinyin":"Àiqíng gēn niánlíng méi guānxì.","example_vi":"Tình yêu không liên quan đến tuổi tác."},
+      {"id":"x3","hanzi":"感动","pinyin":"gǎndòng","pos":"tính từ / động từ","meaning_vi":"cảm động; làm cảm động","example_zh":"他的话让我很感动。","example_pinyin":"Tā de huà ràng wǒ hěn gǎndòng.","example_vi":"Lời anh ấy nói làm tôi rất cảm động."},
+      {"id":"x4","hanzi":"幽默","pinyin":"yōumò","pos":"tính từ","meaning_vi":"hài hước, dí dỏm","example_zh":"我男朋友很幽默，常常让我笑。","example_pinyin":"Wǒ nánpéngyou hěn yōumò, chángcháng ràng wǒ xiào.","example_vi":"Bạn trai tôi rất hài hước, hay làm tôi cười."},
+      {"id":"x5","hanzi":"害羞","pinyin":"hàixiū","pos":"tính từ","meaning_vi":"ngại ngùng, xấu hổ, thẹn thùng","example_zh":"第一次约会的时候，我很害羞。","example_pinyin":"Dì yī cì yuēhuì de shíhou, wǒ hěn hàixiū.","example_vi":"Lần đầu hẹn hò, tôi rất ngại ngùng."},
+      {"id":"x6","hanzi":"商量","pinyin":"shāngliang","pos":"động từ","meaning_vi":"bàn bạc, trao đổi","example_zh":"这件事我要跟家人商量一下。","example_pinyin":"Zhè jiàn shì wǒ yào gēn jiārén shāngliang yíxià.","example_vi":"Việc này tôi phải bàn với người nhà một chút."},
+      {"id":"x7","hanzi":"反对","pinyin":"fǎnduì","pos":"động từ","meaning_vi":"phản đối","example_zh":"开始的时候，她的家人反对他们结婚。","example_pinyin":"Kāishǐ de shíhou, tā de jiārén fǎnduì tāmen jiéhūn.","example_vi":"Lúc đầu, gia đình cô ấy phản đối họ kết hôn."},
+      {"id":"x8","hanzi":"心","pinyin":"xīn","pos":"danh từ","meaning_vi":"trái tim, tấm lòng","example_zh":"只要两个人的心在一起，就不怕远。","example_pinyin":"Zhǐyào liǎng ge rén de xīn zài yìqǐ, jiù bú pà yuǎn.","example_vi":"Chỉ cần trái tim hai người ở bên nhau thì không sợ xa."},
+      {"id":"x9","hanzi":"谈","pinyin":"tán","pos":"động từ","meaning_vi":"nói chuyện, bàn","example_zh":"我想跟你好好谈谈。","example_pinyin":"Wǒ xiǎng gēn nǐ hǎohǎo tántan.","example_vi":"Anh muốn nói chuyện đàng hoàng với em."},
+      {"id":"x10","hanzi":"好好","pinyin":"hǎohǎo","pos":"phó từ","meaning_vi":"(làm gì) cho tử tế, cẩn thận, kỹ","example_zh":"你累了，好好休息吧。","example_pinyin":"Nǐ lèi le, hǎohǎo xiūxi ba.","example_vi":"Bạn mệt rồi, nghỉ ngơi cho tử tế đi."},
+      {"id":"x11","hanzi":"当时","pinyin":"dāngshí","pos":"danh từ","meaning_vi":"lúc đó, khi ấy","example_zh":"当时我们都很年轻。","example_pinyin":"Dāngshí wǒmen dōu hěn niánqīng.","example_vi":"Lúc đó chúng tôi đều còn rất trẻ."},
+      {"id":"x12","hanzi":"从此","pinyin":"cóngcǐ","pos":"phó từ","meaning_vi":"từ đó, từ đây","example_zh":"那年他们结婚了，从此再也没有分开过。","example_pinyin":"Nà nián tāmen jiéhūn le, cóngcǐ zài yě méiyǒu fēnkāiguo.","example_vi":"Năm đó họ kết hôn, từ đó không bao giờ xa nhau nữa."},
+      {"id":"x13","hanzi":"错过","pinyin":"cuòguò","pos":"động từ","meaning_vi":"bỏ lỡ","example_zh":"我不想错过这个机会。","example_pinyin":"Wǒ bù xiǎng cuòguò zhège jīhuì.","example_vi":"Tôi không muốn bỏ lỡ cơ hội này."},
+      {"id":"x14","hanzi":"距离","pinyin":"jùlí","pos":"danh từ / động từ","meaning_vi":"khoảng cách; cách (xa)","example_zh":"我觉得距离不是问题。","example_pinyin":"Wǒ juéde jùlí bú shì wèntí.","example_vi":"Tôi thấy khoảng cách không phải là vấn đề."},
+      {"id":"x15","hanzi":"留","pinyin":"liú","pos":"động từ","meaning_vi":"để lại, giữ lại; ở lại","example_zh":"我给你留了一块蛋糕。","example_pinyin":"Wǒ gěi nǐ liú le yí kuài dàngāo.","example_vi":"Mình để phần bạn một miếng bánh kem."},
+      {"id":"x16","hanzi":"抱","pinyin":"bào","pos":"động từ","meaning_vi":"ôm, bế","example_zh":"妈妈抱着孩子在门口等我。","example_pinyin":"Māma bàozhe háizi zài ménkǒu děng wǒ.","example_vi":"Mẹ tôi bế đứa bé đứng ở cửa đợi tôi."},
+      {"id":"x17","hanzi":"讨厌","pinyin":"tǎoyàn","pos":"động từ / tính từ","meaning_vi":"ghét; đáng ghét","example_zh":"我最讨厌别人迟到。","example_pinyin":"Wǒ zuì tǎoyàn biérén chídào.","example_vi":"Tôi ghét nhất là người khác đến muộn."},
+      {"id":"x18","hanzi":"帅","pinyin":"shuài","pos":"tính từ","meaning_vi":"đẹp trai, phong độ","example_zh":"那个小伙子很帅。","example_pinyin":"Nàge xiǎohuǒzi hěn shuài.","example_vi":"Chàng trai kia rất đẹp trai."},
+      {"id":"x19","hanzi":"姑娘","pinyin":"gūniang","pos":"danh từ","meaning_vi":"cô gái","example_zh":"她是一个热情的姑娘。","example_pinyin":"Tā shì yí ge rèqíng de gūniang.","example_vi":"Cô ấy là một cô gái nhiệt tình."},
+      {"id":"x20","hanzi":"小伙子","pinyin":"xiǎohuǒzi","pos":"danh từ","meaning_vi":"chàng trai, cậu thanh niên","example_zh":"这个小伙子工作很认真。","example_pinyin":"Zhège xiǎohuǒzi gōngzuò hěn rènzhēn.","example_vi":"Cậu thanh niên này làm việc rất chăm chỉ."},
+      {"id":"x21","hanzi":"男性","pinyin":"nánxìng","pos":"danh từ","meaning_vi":"nam giới, phái nam","example_zh":"我们公司男性比女性多。","example_pinyin":"Wǒmen gōngsī nánxìng bǐ nǚxìng duō.","example_vi":"Công ty chúng tôi nam nhiều hơn nữ."},
+      {"id":"x22","hanzi":"女性","pinyin":"nǚxìng","pos":"danh từ","meaning_vi":"nữ giới, phụ nữ","example_zh":"现在很多女性也在外面工作。","example_pinyin":"Xiànzài hěn duō nǚxìng yě zài wàimiàn gōngzuò.","example_vi":"Bây giờ nhiều phụ nữ cũng đi làm bên ngoài."},
+      {"id":"x23","hanzi":"性别","pinyin":"xìngbié","pos":"danh từ","meaning_vi":"giới tính","example_zh":"请写一下你的姓名和性别。","example_pinyin":"Qǐng xiě yíxià nǐ de xìngmíng hé xìngbié.","example_vi":"Xin hãy viết họ tên và giới tính của bạn."},
+      {"id":"x24","hanzi":"男士","pinyin":"nánshì","pos":"danh từ","meaning_vi":"quý ông, nam giới (cách nói lịch sự)","example_zh":"这家店只卖男士的衣服。","example_pinyin":"Zhè jiā diàn zhǐ mài nánshì de yīfu.","example_vi":"Cửa hàng này chỉ bán quần áo nam."},
+      {"id":"x25","hanzi":"俩","pinyin":"liǎ","pos":"số từ","meaning_vi":"hai (người), cả hai (= 两个)","example_zh":"他们俩是大学同学。","example_pinyin":"Tāmen liǎ shì dàxué tóngxué.","example_vi":"Hai người họ là bạn đại học."},
+      {"id":"x26","hanzi":"约","pinyin":"yuē","pos":"động từ","meaning_vi":"hẹn, rủ","example_zh":"我约她周末去看电影。","example_pinyin":"Wǒ yuē tā zhōumò qù kàn diànyǐng.","example_vi":"Tôi hẹn cô ấy cuối tuần đi xem phim."},
+      {"id":"x27","hanzi":"不光","pinyin":"bùguāng","pos":"liên từ","meaning_vi":"không chỉ (khẩu ngữ, = 不仅)","example_zh":"不光我喜欢他，我妈妈也很喜欢他。","example_pinyin":"Bùguāng wǒ xǐhuan tā, wǒ māma yě hěn xǐhuan tā.","example_vi":"Không chỉ tôi thích anh ấy, mẹ tôi cũng rất thích anh ấy."},
+      {"id":"x28","hanzi":"仅","pinyin":"jǐn","pos":"phó từ","meaning_vi":"chỉ, vẻn vẹn (văn viết)","example_zh":"他们认识仅三个月，就决定结婚了。","example_pinyin":"Tāmen rènshi jǐn sān ge yuè, jiù juédìng jiéhūn le.","example_vi":"Họ mới quen vẻn vẹn ba tháng đã quyết định kết hôn."},
+      {"id":"x29","hanzi":"嗯","pinyin":"ǹg","pos":"thán từ","meaning_vi":"ừ, ừm (đồng ý, xác nhận)","example_zh":"嗯，我知道了。","example_pinyin":"Ǹg, wǒ zhīdao le.","example_vi":"Ừ, mình biết rồi."}
+    ],
+    "glossary": [],
+    "grammar": [
+      {
+        "id":"g1",
+        "title":"“不仅……也/还/而且……” (không những… mà còn…)",
+        "pattern":"S + 不仅 + A，(而且) + 还/也 + B　·　不仅 + S1 + A，S2 + 也 + B",
+        "explanation_vi":"“不仅” = “không những, không chỉ”. Vế sau dùng 而且 (mà còn), 还 (còn) hoặc 也 (cũng) để thêm một ý, thường ý sau mạnh hơn hoặc tiến thêm một bước. Nghĩa giống 不但 (HSK3) nhưng trang trọng hơn; khẩu ngữ còn có 不光.\nVị trí rất quan trọng: hai vế CÙNG một chủ ngữ thì 不仅 đứng SAU chủ ngữ (他不仅……，而且……); hai vế có HAI chủ ngữ khác nhau thì 不仅 đứng TRƯỚC chủ ngữ thứ nhất (不仅我……，我妈妈也……). 而且 đứng đầu vế sau (trước chủ ngữ nếu có), còn 还/也 là phó từ nên đứng sau chủ ngữ, ngay trước động từ.",
+        "examples":[
+          {"zh":"他不仅很帅，而且很幽默。","pinyin":"Tā bùjǐn hěn shuài, érqiě hěn yōumò.","vi":"Anh ấy không những đẹp trai mà còn rất hài hước."},
+          {"zh":"她不仅会做饭，还很会照顾人。","pinyin":"Tā bùjǐn huì zuò fàn, hái hěn huì zhàogù rén.","vi":"Cô ấy không chỉ biết nấu ăn mà còn rất biết chăm sóc người khác."},
+          {"zh":"不仅我喜欢他，我的家人也都喜欢他。","pinyin":"Bùjǐn wǒ xǐhuan tā, wǒ de jiārén yě dōu xǐhuan tā.","vi":"Không chỉ tôi thích anh ấy, cả nhà tôi cũng đều thích anh ấy."},
+          {"zh":"爱情不仅需要浪漫，还需要责任。","pinyin":"Àiqíng bùjǐn xūyào làngmàn, hái xūyào zérèn.","vi":"Tình yêu không chỉ cần lãng mạn mà còn cần trách nhiệm."}
+        ],
+        "mistakes_vi":"✗ 不仅他很帅，而且他很幽默。\n✓ 他不仅很帅，而且很幽默。\nHai vế cùng một chủ ngữ thì 不仅 đứng sau chủ ngữ (tiếng Việt nói được “không những anh ấy…” nhưng tiếng Trung thì không).\n✗ 她不仅会唱歌，还她会跳舞。\n✓ 她不仅会唱歌，还会跳舞。\n还/也 là phó từ, phải đứng sau chủ ngữ, ngay trước động từ.\n✗ 他不仅很帅，但是很幽默。\n✓ 他不仅很帅，而且很幽默。\nVế sau là ý tăng thêm, không phải ý trái ngược, nên không dùng 但是.",
+        "compare_vi":"Giống “không những… mà còn…” trong tiếng Việt. Khác ở vị trí: cùng chủ ngữ thì tiếng Trung luôn đặt 不仅 sau chủ ngữ."
+      },
+      {
+        "id":"g2",
+        "title":"Phó từ thời gian “从来” (xưa nay) và “刚” (vừa mới)",
+        "pattern":"S + 从来 + 没(有) + V + 过　·　S + 从来 + 不 + V　·　S + 刚 + V + thời lượng　·　S + 刚 + V1，(S) 就 + V2",
+        "explanation_vi":"从来 = “từ trước đến nay”, gần như luôn đi với phủ định:\n• 从来没(有) + V + 过 = “chưa bao giờ” (nói về trải nghiệm, phải có 过): 他从来没送过我花.\n• 从来不 + V = “không bao giờ” (thói quen, nguyên tắc, tính cách): 我爸爸从来不喝酒.\nDạng khẳng định thường thêm 都: 他从来都很认真.\n刚 (đã gặp ở HSK3) = “vừa mới”, đứng sau chủ ngữ, ngay trước động từ. Bài này học thêm hai cách dùng:\n① 刚 + V + thời lượng: nhấn mạnh thời gian còn ngắn, “mới… thôi”: 我们刚认识两个月.\n② 刚……就……: “vừa… đã/là…”, việc sau xảy ra ngay sau việc trước: 他刚下班就来陪我了.\nĐừng nhầm với 刚才 (danh từ “lúc nãy”): 刚才 chỉ một thời điểm, có thể đứng trước chủ ngữ, không đi với khoảng thời gian như “hai tháng”.",
+        "examples":[
+          {"zh":"他从来没送过我花。","pinyin":"Tā cónglái méi sòngguo wǒ huā.","vi":"Anh ấy chưa bao giờ tặng hoa cho tôi."},
+          {"zh":"我爸爸从来不喝酒。","pinyin":"Wǒ bàba cónglái bù hē jiǔ.","vi":"Bố tôi không bao giờ uống rượu."},
+          {"zh":"我们刚认识两个月，他就说要跟我结婚。","pinyin":"Wǒmen gāng rènshi liǎng ge yuè, tā jiù shuō yào gēn wǒ jiéhūn.","vi":"Chúng tôi mới quen nhau hai tháng mà anh ấy đã nói muốn cưới tôi."},
+          {"zh":"他刚下班就来陪我了。","pinyin":"Tā gāng xiàbān jiù lái péi wǒ le.","vi":"Anh ấy vừa tan làm là đến với tôi ngay."}
+        ],
+        "mistakes_vi":"✗ 我从来没去那个地方。\n✓ 我从来没去过那个地方。\nNói “chưa bao giờ” bằng 从来没 thì sau động từ cần có 过.\n✗ 我从来不去过那个地方。\n✓ 我从来没去过那个地方。\n过 (trải nghiệm) đi với 没, không đi với 不.\n✗ 刚才我们认识两个月。/ 刚我们认识两个月。\n✓ 我们刚认识两个月。\n刚 là phó từ, đứng sau chủ ngữ, trước động từ; 刚才 (lúc nãy) không đi với khoảng thời gian.",
+        "compare_vi":"从来没……过 ≈ “chưa bao giờ…”; 从来不…… ≈ “không bao giờ…”. 刚 + thời lượng ≈ “mới… thôi”; 刚……就…… ≈ “vừa… đã…”."
+      },
+      {
+        "id":"g3",
+        "title":"“即使……也……” (cho dù… cũng…)",
+        "pattern":"即使 + giả định，(S) + 也 + kết quả không đổi",
+        "explanation_vi":"即使 = “cho dù, ngay cả khi”. Vế đầu nêu một giả định, thường là trường hợp khó khăn hay cực đoan; vế sau dùng 也 để nói kết quả vẫn không thay đổi. 即使 có thể đứng trước hoặc sau chủ ngữ của vế đầu; 也 luôn đứng sau chủ ngữ của vế sau, ngay trước động từ.\nKhác với 虽然……但是…… (tuy… nhưng…), vốn nói chuyện có thật: 虽然下雨了 = trời đã mưa thật; 即使下雨 = giả sử có mưa đi nữa.",
+        "examples":[
+          {"zh":"即使工作很忙，他也每天陪我吃晚饭。","pinyin":"Jíshǐ gōngzuò hěn máng, tā yě měi tiān péi wǒ chī wǎnfàn.","vi":"Cho dù công việc có bận, ngày nào anh ấy cũng ăn tối cùng tôi."},
+          {"zh":"即使家人反对，我们也要在一起。","pinyin":"Jíshǐ jiārén fǎnduì, wǒmen yě yào zài yìqǐ.","vi":"Cho dù gia đình phản đối, chúng tôi cũng sẽ ở bên nhau."},
+          {"zh":"即使没有很多钱，两个人在一起也很开心。","pinyin":"Jíshǐ méiyǒu hěn duō qián, liǎng ge rén zài yìqǐ yě hěn kāixīn.","vi":"Cho dù không có nhiều tiền, hai người ở bên nhau cũng rất vui."}
+        ],
+        "mistakes_vi":"✗ 即使明天下雨，我们就去。\n✓ 即使明天下雨，我们也去。\nVế sau của 即使 dùng 也, không dùng 就.\n✗ 即使下雨，也我们去。\n✓ 即使下雨，我们也去。\n也 là phó từ, đứng sau chủ ngữ.\n✗ 即使他很忙，但是他每天都给我打电话。(nói chuyện có thật)\n✓ 虽然他很忙，但是他每天都给我打电话。\nSự thật đã có thì dùng 虽然……但是……; 即使 đi với 也.",
+        "compare_vi":"Tiếng Việt “dù… cũng…” dùng cho cả sự thật lẫn giả định; tiếng Trung tách ra: sự thật → 虽然……但是/可是……, giả định → 即使……也……."
+      },
+      {
+        "id":"g4",
+        "title":"“(在)……上” (về mặt…, trong…)",
+        "pattern":"(在) + danh từ trừu tượng + 上，S + V/Adj　·　S + 在 + N + 上 + V/Adj",
+        "explanation_vi":"Ngoài nghĩa “ở trên” (在桌子上), 在……上 còn đi với danh từ trừu tượng để nói “về mặt…, trong (lĩnh vực)…”: 在生活上 (trong cuộc sống), 在工作上 (về công việc), 在学习上 (trong học tập), 在性格上 (về tính cách), 在这个问题上 (về vấn đề này). Cụm này làm trạng ngữ: đứng đầu câu hoặc sau chủ ngữ, trước động từ/tính từ, không đặt ở cuối câu. Khi đứng đầu câu có thể bỏ 在: 生活上，他很照顾我.",
+        "examples":[
+          {"zh":"在生活上，他很照顾我。","pinyin":"Zài shēnghuó shang, tā hěn zhàogù wǒ.","vi":"Trong cuộc sống, anh ấy rất chăm lo cho tôi."},
+          {"zh":"他们在性格上很不一样，可是感情很好。","pinyin":"Tāmen zài xìnggé shang hěn bù yíyàng, kěshì gǎnqíng hěn hǎo.","vi":"Họ rất khác nhau về tính cách, nhưng tình cảm rất tốt."},
+          {"zh":"在这个问题上，我们要好好商量一下。","pinyin":"Zài zhège wèntí shang, wǒmen yào hǎohǎo shāngliang yíxià.","vi":"Về vấn đề này, chúng ta phải bàn bạc kỹ một chút."}
+        ],
+        "mistakes_vi":"✗ 他很认真在工作上。\n✓ 他在工作上很认真。\nTiếng Việt nói “anh ấy rất chăm chỉ trong công việc”, nhưng tiếng Trung đặt 在……上 trước tính từ/động từ.\n✗ 在生活，他很照顾我。\n✓ 在生活上，他很照顾我。\nThiếu 上 thì câu không có nghĩa “về mặt…”.",
+        "compare_vi":"Giống “về mặt… / trong…” của tiếng Việt, nhưng tiếng Việt hay để cuối câu (“rất quan tâm tôi trong cuộc sống”), còn tiếng Trung để trước động từ."
+      }
+    ],
+    "dialogue": {
+      "title_vi": "Bạn trai mới của Tiểu Vũ",
+      "scene_vi": "Chiều chủ nhật, Tiểu Vũ ngồi uống cà phê với bạn thân Lệ Lệ. Lệ Lệ tò mò hỏi về người bạn trai mới của Tiểu Vũ.",
+      "lines": [
+        {"speaker":"丽丽","zh":"小雨，听说你最近在跟一个小伙子约会？快说说，他人怎么样？","pinyin":"Xiǎoyǔ, tīngshuō nǐ zuìjìn zài gēn yí ge xiǎohuǒzi yuēhuì? Kuài shuōshuo, tā rén zěnmeyàng?","vi":"Tiểu Vũ, nghe nói dạo này cậu đang hẹn hò với một anh chàng à? Kể mau đi, anh ấy là người thế nào?"},
+        {"speaker":"小雨","zh":"嗯，我们刚认识两个月。他叫大伟，比我大三岁。他性格很好，可是一点儿也不浪漫。","pinyin":"Ǹg, wǒmen gāng rènshi liǎng ge yuè. Tā jiào Dàwěi, bǐ wǒ dà sān suì. Tā xìnggé hěn hǎo, kěshì yìdiǎnr yě bú làngmàn.","vi":"Ừ, bọn mình mới quen nhau được hai tháng. Anh ấy tên Đại Vĩ, hơn mình ba tuổi. Tính cách anh ấy rất tốt, nhưng chẳng lãng mạn chút nào."},
+        {"speaker":"丽丽","zh":"不浪漫？那他给你送过花吗？","pinyin":"Bú làngmàn? Nà tā gěi nǐ sòngguo huā ma?","vi":"Không lãng mạn á? Thế anh ấy đã tặng hoa cho cậu bao giờ chưa?"},
+        {"speaker":"小雨","zh":"从来没送过！他说花放几天就坏了，买水果更好。可是他特别幽默，跟他在一起的时候，我总是很开心。","pinyin":"Cónglái méi sòngguo! Tā shuō huā fàng jǐ tiān jiù huài le, mǎi shuǐguǒ gèng hǎo. Kěshì tā tèbié yōumò, gēn tā zài yìqǐ de shíhou, wǒ zǒngshì hěn kāixīn.","vi":"Chưa bao giờ! Anh ấy bảo hoa để mấy hôm là hỏng, mua hoa quả còn hơn. Nhưng anh ấy cực kỳ hài hước, ở bên anh ấy lúc nào mình cũng vui."},
+        {"speaker":"丽丽","zh":"这样的男朋友也挺可爱的！你们是怎么认识的？","pinyin":"Zhèyàng de nánpéngyou yě tǐng kě'ài de! Nǐmen shì zěnme rènshi de?","vi":"Bạn trai như thế cũng dễ thương đấy chứ! Hai người quen nhau thế nào?"},
+        {"speaker":"小雨","zh":"有一天下大雨，我在车站没带伞。他把自己的伞借给了我，自己跑着回去了。当时我真的很感动。","pinyin":"Yǒu yì tiān xià dà yǔ, wǒ zài chēzhàn méi dài sǎn. Tā bǎ zìjǐ de sǎn jiè gěi le wǒ, zìjǐ pǎozhe huíqu le. Dāngshí wǒ zhēn de hěn gǎndòng.","vi":"Có một hôm trời mưa to, mình đứng ở bến xe mà không mang ô. Anh ấy cho mình mượn ô của anh ấy, còn bản thân thì chạy về. Lúc đó mình cảm động lắm."},
+        {"speaker":"丽丽","zh":"这个小伙子真不错！那你觉得他最大的优点是什么？","pinyin":"Zhège xiǎohuǒzi zhēn búcuò! Nà nǐ juéde tā zuì dà de yōudiǎn shì shénme?","vi":"Chàng trai này được thật đấy! Vậy cậu thấy ưu điểm lớn nhất của anh ấy là gì?"},
+        {"speaker":"小雨","zh":"他很尊重我。做什么决定以前，他都会先跟我商量。而且即使工作很忙，他也每天陪我吃晚饭。","pinyin":"Tā hěn zūnzhòng wǒ. Zuò shénme juédìng yǐqián, tā dōu huì xiān gēn wǒ shāngliang. Érqiě jíshǐ gōngzuò hěn máng, tā yě měi tiān péi wǒ chī wǎnfàn.","vi":"Anh ấy rất tôn trọng mình. Trước khi quyết định việc gì, anh ấy đều bàn với mình trước. Hơn nữa, dù công việc có bận, ngày nào anh ấy cũng ăn tối cùng mình."},
+        {"speaker":"丽丽","zh":"听起来真好！那他有什么缺点吗？","pinyin":"Tīng qǐlai zhēn hǎo! Nà tā yǒu shénme quēdiǎn ma?","vi":"Nghe tuyệt thật! Thế anh ấy có khuyết điểm gì không?"},
+        {"speaker":"小雨","zh":"当然有。他脾气有点儿急，在生活上也不太会照顾自己。可是我觉得，爱情不仅需要浪漫，还需要尊重和责任。这样简单的爱情，我很喜欢。","pinyin":"Dāngrán yǒu. Tā píqi yǒudiǎnr jí, zài shēnghuó shang yě bú tài huì zhàogù zìjǐ. Kěshì wǒ juéde, àiqíng bùjǐn xūyào làngmàn, hái xūyào zūnzhòng hé zérèn. Zhèyàng jiǎndān de àiqíng, wǒ hěn xǐhuan.","vi":"Có chứ. Anh ấy hơi nóng tính, trong cuộc sống cũng không giỏi tự chăm sóc bản thân. Nhưng mình thấy tình yêu không chỉ cần lãng mạn mà còn cần sự tôn trọng và trách nhiệm. Một tình yêu giản dị như thế, mình rất thích."}
+      ]
+    },
+    "exercises": [
+      {"id":"e1","type":"choice","tag":"v:性格","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"她____很好，大家都喜欢跟她在一起。","options":["性格","责任","距离","年龄"],"answer":0,"explanation_vi":"“性格很好” = tính cách rất tốt, nên mọi người thích ở bên cô ấy."},
+      {"id":"e2","type":"choice","tag":"v:尊重","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"爱一个人，就要____他的选择。","options":["尊重","吸引","拒绝","约会"],"answer":0,"explanation_vi":"“尊重他的选择” = tôn trọng lựa chọn của người ấy."},
+      {"id":"e3","type":"choice","tag":"v:陪","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"妈妈生病了，周末我要____她去医院。","options":["陪","谈","错过","讨厌"],"answer":0,"explanation_vi":"“陪她去医院” = đi cùng mẹ đến bệnh viện. 陪 + người + động từ."},
+      {"id":"e4","type":"choice","tag":"v:拒绝","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他请我去看电影，可是那天我有事，所以____了他。","options":["拒绝","吸引","考虑","尊重"],"answer":0,"explanation_vi":"Có việc bận nên “拒绝了他” = đã từ chối anh ấy."},
+      {"id":"e5","type":"choice","tag":"g:不仅","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他不仅很帅，____很幽默。","options":["而且","但是","所以","因为"],"answer":0,"explanation_vi":"不仅……而且……: không những… mà còn…. Vế sau là ý thêm vào, không phải ý trái ngược."},
+      {"id":"e6","type":"choice","tag":"g:从来","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我____没去过那个地方。","options":["从来","刚","正在","马上"],"answer":0,"explanation_vi":"从来没 + V + 过 = chưa bao giờ làm gì."},
+      {"id":"e7","type":"choice","tag":"g:刚","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们____认识一个月，他就说要跟我结婚。","options":["刚","刚才","从来","永远"],"answer":0,"explanation_vi":"刚 + V + thời lượng (一个月) = mới… thôi; 刚……就…… = vừa… đã…. 刚才 (lúc nãy) không đi với khoảng thời gian."},
+      {"id":"e8","type":"choice","tag":"g:即使","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"____家人反对，我们也要在一起。","options":["即使","因为","所以","而且"],"answer":0,"explanation_vi":"即使……也……: cho dù (gia đình phản đối) … cũng…."},
+      {"id":"e9","type":"choice","tag":"g:在上","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"他____工作上很认真，大家都很喜欢他。","options":["在","从","给","离"],"answer":0,"explanation_vi":"在 + 工作 + 上 = về mặt công việc, trong công việc."},
+      {"id":"e10","type":"order","tag":"g:不仅","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["她","不仅","会做饭","还","会唱歌"],"answers":["她不仅会做饭还会唱歌","她不仅会唱歌还会做饭"],"translation_vi":"Cô ấy không những biết nấu ăn mà còn biết hát.","explanation_vi":"Cùng một chủ ngữ 她 nên 不仅 đứng sau chủ ngữ; 还 đứng trước động từ của vế sau."},
+      {"id":"e11","type":"order","tag":"g:从来","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["他","从来","没","送过","花"],"answers":["他从来没送过花"],"translation_vi":"Anh ấy chưa bao giờ tặng hoa.","explanation_vi":"Chủ ngữ + 从来没 + V + 过 + tân ngữ."},
+      {"id":"e12","type":"order","tag":"g:即使","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["即使","工作很忙","他","也","每天陪我"],"answers":["即使工作很忙他也每天陪我","他即使工作很忙也每天陪我"],"translation_vi":"Cho dù công việc bận, ngày nào anh ấy cũng ở bên tôi.","explanation_vi":"即使 + giả định, chủ ngữ + 也 + V. 他 có thể đứng đầu câu (trước 即使) hoặc đứng trước 也."},
+      {"id":"e13","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"爱情","vi":"tình yêu"},{"zh":"性格","vi":"tính cách"},{"zh":"优点","vi":"ưu điểm"},{"zh":"缺点","vi":"khuyết điểm"},{"zh":"责任","vi":"trách nhiệm"}]},
+      {"id":"e14","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"浪漫","vi":"lãng mạn"},{"zh":"脾气","vi":"tính khí"},{"zh":"拒绝","vi":"từ chối"},{"zh":"吸引","vi":"thu hút"},{"zh":"永远","vi":"mãi mãi"}]}
+    ],
+    "quiz": {
+      "grammar": [
+        {"id":"q1","type":"choice","tag":"g:不仅","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他不仅很帅，而且很幽默。","他不仅很帅，还他很幽默。","他不仅很帅，但是很幽默。","他很帅不仅，而且很幽默。"],"answer":0,"explanation_vi":"Cùng chủ ngữ: S + 不仅 + A，而且 + B. 还 phải đứng sau chủ ngữ; không dùng 但是; 不仅 đứng trước vị ngữ."},
+        {"id":"q2","type":"choice","tag":"g:不仅","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"不仅我喜欢他，我妈妈____很喜欢他。","options":["也","就","才","再"],"answer":0,"explanation_vi":"Hai chủ ngữ khác nhau: 不仅 + S1……，S2 + 也……."},
+        {"id":"q3","type":"choice","tag":"g:从来","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["我从来没去过那儿。","我从来不去过那儿。","我从来没去那儿过。","我没从来去过那儿。"],"answer":0,"explanation_vi":"从来没 + V + 过 + tân ngữ. 过 đứng ngay sau động từ và đi với 没, không đi với 不."},
+        {"id":"q4","type":"choice","tag":"g:刚","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"我们____认识三个月，他就带我去见他的家人了。","options":["刚","刚才","从来","永远"],"answer":0,"explanation_vi":"刚 + V + thời lượng, ……就……: mới quen ba tháng mà đã…. 刚才 không đi với khoảng thời gian."},
+        {"id":"q5","type":"choice","tag":"g:即使","prompt_vi":"Chọn từ thích hợp điền vào chỗ trống.","question_zh":"即使明天下雨，我们____去爬山。","options":["也","就","才","又"],"answer":0,"explanation_vi":"即使……也……: cho dù mai mưa, chúng ta cũng đi leo núi."},
+        {"id":"q6","type":"choice","tag":"g:在上","prompt_vi":"Chọn câu đúng.","question_zh":"Câu nào đúng?","options":["他在工作上很认真。","他很认真在工作上。","他在工作很认真上。","在工作他上很认真。"],"answer":0,"explanation_vi":"在 + N + 上 là trạng ngữ, đứng trước tính từ/động từ: 他在工作上很认真."}
+      ]
+    },
+    "test": [
+      {"id":"t1","type":"choice","tag":"v:考虑","prompt_vi":"Chọn đáp án đúng.","question_zh":"这件事很重要，你要好好____一下。","options":["考虑","拒绝","约会","吸引"],"answer":0,"explanation_vi":"“好好考虑一下” = suy nghĩ kỹ một chút."},
+      {"id":"t2","type":"choice","tag":"g:即使","prompt_vi":"Chọn đáp án đúng.","question_zh":"即使你不同意，我____要去。","options":["也","就","才","又"],"answer":0,"explanation_vi":"即使……也……: cho dù bạn không đồng ý, tôi cũng sẽ đi."},
+      {"id":"t3","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"家庭","vi":"gia đình"},{"zh":"年龄","vi":"tuổi tác"},{"zh":"感动","vi":"cảm động"},{"zh":"幽默","vi":"hài hước"},{"zh":"害羞","vi":"ngại ngùng"}]},
+      {"id":"t4","type":"match","tag":"vocab","prompt_vi":"Nối từ tiếng Trung với nghĩa tiếng Việt.","pairs":[{"zh":"约会","vi":"hẹn hò"},{"zh":"感情","vi":"tình cảm"},{"zh":"陪","vi":"ở bên, đi cùng"},{"zh":"一生","vi":"cả đời"},{"zh":"对方","vi":"người kia"}]},
+      {"id":"t5","type":"order","tag":"g:在上","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["在生活上","他","很","照顾","我"],"answers":["在生活上他很照顾我","他在生活上很照顾我"],"translation_vi":"Trong cuộc sống, anh ấy rất chăm lo cho tôi.","explanation_vi":"在生活上 đứng đầu câu hoặc sau chủ ngữ, luôn trước động từ."},
+      {"id":"t6","type":"order","tag":"g:刚","prompt_vi":"Sắp xếp các từ thành câu hoàn chỉnh.","words":["我们","刚","认识","两个月"],"answers":["我们刚认识两个月"],"translation_vi":"Chúng tôi mới quen nhau hai tháng.","explanation_vi":"Chủ ngữ + 刚 + động từ + thời lượng."},
+      {"id":"t7","type":"fill","tag":"v:浪漫","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"他每年都给女朋友送花，真____！","answers":["浪漫"],"hint_vi":"lãng mạn","explanation_vi":"浪漫 = lãng mạn."},
+      {"id":"t8","type":"fill","tag":"g:从来","prompt_vi":"Điền từ còn thiếu vào chỗ trống.","sentence_zh":"他____没送过我花。","answers":["从来"],"hint_vi":"từ trước đến nay (đi với 没……过 = chưa bao giờ)","explanation_vi":"从来没 + V + 过 = chưa bao giờ."},
+      {"id":"t9","type":"listen_choice","tag":"v:约会","prompt_vi":"Nghe và chọn nghĩa đúng.","audio_text":"今天晚上我跟男朋友有一个约会。","options":["Tối nay tôi có hẹn với bạn trai.","Tối nay tôi gọi điện cho bạn trai.","Tối qua tôi đi chơi với bạn trai.","Tối nay bạn trai tôi phải đi làm."],"answer":0,"explanation_vi":"今天晚上 = tối nay; 有一个约会 = có một cuộc hẹn."},
+      {"id":"t10","type":"listen_choice","tag":"g:不仅","prompt_vi":"Nghe và chọn câu bạn nghe được.","audio_text":"他不仅很帅，而且很幽默。","options":["他不仅很帅，而且很幽默。","他不仅很帅，而且很认真。","他很帅，可是不幽默。","他不帅，可是很幽默。"],"answer":0,"explanation_vi":"Câu nghe được: 他不仅很帅，而且很幽默 = Anh ấy không những đẹp trai mà còn hài hước."},
+      {"id":"t11","type":"dictation","tag":"g:即使","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"即使工作很忙，他也每天陪我。","answers":["即使工作很忙他也每天陪我"],"explanation_vi":"即使工作很忙，他也每天陪我 = Cho dù công việc bận, ngày nào anh ấy cũng ở bên tôi."},
+      {"id":"t12","type":"dictation","tag":"v:尊重","prompt_vi":"Nghe và viết lại câu bằng chữ Hán.","audio_text":"爱一个人就要尊重对方。","answers":["爱一个人就要尊重对方"],"explanation_vi":"爱一个人就要尊重对方 = Yêu một người thì phải tôn trọng người đó."},
+      {"id":"t13","type":"translate_vi_zh","tag":"g:从来","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Anh ấy chưa bao giờ tặng hoa cho tôi.","answers":["他从来没送过我花","他从来没有送过我花","他从来都没送过我花","他从来都没有送过我花","他从来没给我送过花","他从来没有给我送过花","他从来都没给我送过花","他从来都没有给我送过花","他从来没送过花给我","他从来没有送过花给我"],"explanation_vi":"“Chưa bao giờ” = 从来没(有) + V + 过: 他从来没送过我花 / 他从来没给我送过花."},
+      {"id":"t14","type":"translate_vi_zh","tag":"g:不仅","prompt_vi":"Dịch câu sau sang tiếng Trung.","source_vi":"Tình yêu không chỉ cần lãng mạn mà còn cần trách nhiệm.","answers":["爱情不仅需要浪漫还需要责任","爱情不仅需要浪漫而且需要责任","爱情不仅需要浪漫而且还需要责任","爱情不仅需要浪漫也需要责任","爱情不仅要浪漫还要责任","爱情不仅要有浪漫还要有责任","爱情不仅要有浪漫而且要有责任","爱情不但需要浪漫还需要责任","爱情不但需要浪漫而且需要责任","爱情不但需要浪漫而且还需要责任","爱情不光需要浪漫还需要责任"],"explanation_vi":"Cùng chủ ngữ 爱情: 爱情 + 不仅 + 需要浪漫，还/而且 + 需要责任."},
+      {"id":"t15","type":"translate_zh_vi","tag":"g:在上","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"在生活上，他很照顾我。","answers_vi":["Trong cuộc sống, anh ấy rất chăm sóc tôi.","Về mặt cuộc sống, anh ấy lo cho tôi rất chu đáo.","Trong cuộc sống, anh ấy rất quan tâm chăm sóc tôi."],"keywords":[["cuộc sống","sinh hoạt","đời sống"],["chăm sóc","quan tâm","lo cho","săn sóc","chăm lo"],["tôi","em","mình"]],"explanation_vi":"在生活上 = trong cuộc sống, về mặt sinh hoạt; 照顾 = chăm sóc."},
+      {"id":"t16","type":"translate_zh_vi","tag":"v:拒绝","prompt_vi":"Dịch câu sau sang tiếng Việt.","source_zh":"他请我吃饭，可是我拒绝了。","answers_vi":["Anh ấy mời tôi ăn cơm, nhưng tôi đã từ chối.","Anh ấy mời tôi đi ăn nhưng tôi từ chối rồi."],"keywords":[["mời"],["ăn"],["từ chối","khước từ"]],"explanation_vi":"请……吃饭 = mời… ăn cơm; 拒绝了 = đã từ chối."}
+    ],
+    "reading": [
+      {
+        "id":"rp1",
+        "title_zh":"爷爷奶奶的爱情",
+        "title_vi":"Tình yêu của ông bà",
+        "paragraphs":[
+          {
+            "tokens":[["我","wǒ","tôi"],["的","de","của"],["爷爷","yéye","ông nội"],["和","hé","và"],["奶奶","nǎinai","bà nội"],["结婚","jiéhūn","kết hôn"],["已经","yǐjīng","đã"],["五十","wǔshí","năm mươi"],["年","nián","năm"],["了","le","rồi"],["。"],["年轻","niánqīng","trẻ"],["的","de","(trợ từ)"],["时候","shíhou","lúc, khi"],["，"],["奶奶","nǎinai","bà"],["是","shì","là"],["一个","yí ge","một"],["漂亮","piàoliang","xinh đẹp"],["的","de","(trợ từ)"],["姑娘","gūniang","cô gái"],["，"],["很多","hěn duō","nhiều"],["小伙子","xiǎohuǒzi","chàng trai"],["都","dōu","đều"],["想","xiǎng","muốn"],["跟","gēn","với"],["她","tā","bà, cô ấy"],["约会","yuēhuì","hẹn hò"],["，"],["可是","kěshì","nhưng"],["她","tā","bà"],["都","dōu","đều"],["拒绝","jùjué","từ chối"],["了","le","(đã)"],["。"],["奶奶","nǎinai","bà"],["说","shuō","nói"],["，"],["她","tā","bà"],["是","shì","(nhấn mạnh)"],["被","bèi","bị, được"],["爷爷","yéye","ông"],["的","de","của"],["认真","rènzhēn","sự chân thành, nghiêm túc"],["和","hé","và"],["幽默","yōumò","sự hài hước"],["吸引","xīyǐn","thu hút"],["的","de","(nhấn mạnh)"],["。"]],
+            "vi":"Ông bà nội tôi đã kết hôn được năm mươi năm rồi. Hồi trẻ, bà là một cô gái xinh đẹp, nhiều chàng trai muốn hẹn hò với bà, nhưng bà đều từ chối. Bà nói, bà bị sự chân thành và hài hước của ông thu hút."
+          },
+          {
+            "tokens":[["爷爷","yéye","ông"],["不是","bú shì","không phải"],["一个","yí ge","một"],["浪漫","làngmàn","lãng mạn"],["的","de","(trợ từ)"],["人","rén","người"],["，"],["他","tā","ông"],["从来","cónglái","từ trước đến nay"],["没","méi","chưa"],["对","duì","với"],["奶奶","nǎinai","bà"],["说过","shuōguo","từng nói"],["“"],["我","wǒ","anh"],["爱","ài","yêu"],["你","nǐ","em"],["”"],["。"],["可是","kěshì","nhưng"],["五十","wǔshí","năm mươi"],["年","nián","năm"],["来","lái","(trở lại đây)"],["，"],["他","tā","ông"],["每天","měi tiān","mỗi ngày"],["早上","zǎoshang","buổi sáng"],["都","dōu","đều"],["给","gěi","cho"],["奶奶","nǎinai","bà"],["做","zuò","làm, nấu"],["早饭","zǎofàn","bữa sáng"],["；"],["即使","jíshǐ","cho dù"],["刮风","guā fēng","có gió"],["下雨","xià yǔ","trời mưa"],["，"],["他","tā","ông"],["也","yě","cũng"],["会","huì","sẽ"],["陪","péi","đi cùng"],["奶奶","nǎinai","bà"],["去","qù","đi"],["公园","gōngyuán","công viên"],["走一走","zǒu yi zǒu","đi dạo một chút"],["。"]],
+            "vi":"Ông không phải là người lãng mạn, ông chưa bao giờ nói với bà câu “Anh yêu em”. Nhưng suốt năm mươi năm qua, sáng nào ông cũng nấu bữa sáng cho bà; cho dù có gió hay mưa, ông cũng đi cùng bà ra công viên dạo một vòng."
+          },
+          {
+            "tokens":[["有","yǒu","có"],["一次","yí cì","một lần"],["，"],["我","wǒ","tôi"],["问","wèn","hỏi"],["奶奶","nǎinai","bà"],["："],["“"],["你们","nǐmen","ông bà"],["的","de","của"],["感情","gǎnqíng","tình cảm"],["为什么","wèi shénme","tại sao"],["一直","yìzhí","luôn luôn"],["这么","zhème","như thế này"],["好","hǎo","tốt"],["？"],["”"],["奶奶","nǎinai","bà"],["笑着","xiàozhe","cười"],["说","shuō","nói"],["："],["“"],["在","zài","(trong)"],["生活","shēnghuó","cuộc sống"],["上","shang","về mặt"],["，"],["我们","wǒmen","chúng tôi"],["总是","zǒngshì","luôn luôn"],["先","xiān","trước"],["考虑","kǎolǜ","nghĩ đến, cân nhắc"],["对方","duìfāng","người kia"],["。"],["两个","liǎng ge","hai"],["人","rén","người"],["在一起","zài yìqǐ","ở bên nhau"],["，"],["不仅","bùjǐn","không chỉ"],["要","yào","cần"],["有","yǒu","có"],["爱情","àiqíng","tình yêu"],["，"],["还","hái","còn"],["要","yào","cần"],["有","yǒu","có"],["尊重","zūnzhòng","sự tôn trọng"],["和","hé","và"],["责任","zérèn","trách nhiệm"],["。"],["”"],["爷爷","yéye","ông"],["在","zài","ở"],["旁边","pángbiān","bên cạnh"],["听","tīng","nghe"],["了","le","(xong)"],["，"],["笑着","xiàozhe","cười"],["说","shuō","nói"],["："],["“"],["我","wǒ","anh"],["会","huì","sẽ"],["永远","yǒngyuǎn","mãi mãi"],["陪着","péizhe","ở bên"],["你","nǐ","em"],["。"],["”"]],
+            "vi":"Có lần tôi hỏi bà: “Sao tình cảm của ông bà lúc nào cũng tốt thế ạ?” Bà cười nói: “Trong cuộc sống, ông bà luôn nghĩ cho người kia trước. Hai người ở bên nhau, không chỉ cần có tình yêu, mà còn cần sự tôn trọng và trách nhiệm.” Ông ngồi bên cạnh nghe xong, cười nói: “Anh sẽ mãi mãi ở bên em.”"
+          }
+        ],
+        "questions":[
+          {"id":"rq1","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"年轻的时候，奶奶被爷爷的什么吸引了？","options":["认真和幽默","浪漫","很多钱","他做的早饭"],"answer":0,"explanation_vi":"Đoạn 1: 她是被爷爷的认真和幽默吸引的."},
+          {"id":"rq2","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"五十年来，爷爷每天早上做什么？","options":["给奶奶做早饭","对奶奶说“我爱你”","去公司上班","给奶奶送花"],"answer":0,"explanation_vi":"Đoạn 2: 他每天早上都给奶奶做早饭."},
+          {"id":"rq3","type":"choice","tag":"g:从来","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"爷爷常常对奶奶说“我爱你”。","options":["对","错"],"answer":1,"explanation_vi":"Đoạn 2: 他从来没对奶奶说过“我爱你” — ông chưa bao giờ nói, nên câu này sai."},
+          {"id":"rq4","type":"choice","tag":"reading","prompt_vi":"Đọc đoạn văn và chọn đáp án đúng.","question_zh":"奶奶认为，两个人在一起，除了爱情，还要有什么？","options":["尊重和责任","很多钱","浪漫的礼物","一样的性格"],"answer":0,"explanation_vi":"Đoạn 3: 不仅要有爱情，还要有尊重和责任."},
+          {"id":"rq5","type":"choice","tag":"g:即使","prompt_vi":"Đúng (对) hay sai (错)?","question_zh":"下雨的时候，爷爷也会陪奶奶去公园。","options":["对","错"],"answer":0,"explanation_vi":"Đoạn 2: 即使刮风下雨，他也会陪奶奶去公园走一走."}
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "id":"lp1",
+        "title_vi":"Yêu xa",
+        "text_zh":"小林和男朋友在两个城市工作，坐火车要六个小时。很多朋友说，离得这么远，两个人很难一直在一起。可是小林不这么认为。他们每天晚上都打电话，聊一聊这一天发生的事情；每个月，男朋友都会坐火车来看她一次。有一次小林生病了，男朋友刚下班就坐火车来陪她了。小林说：“距离不是问题，只要两个人的心在一起就行。”明年他们打算结婚，从此不再分开。",
+        "pinyin":"Xiǎo Lín hé nánpéngyou zài liǎng ge chéngshì gōngzuò, zuò huǒchē yào liù ge xiǎoshí. Hěn duō péngyou shuō, lí de zhème yuǎn, liǎng ge rén hěn nán yìzhí zài yìqǐ. Kěshì Xiǎo Lín bú zhème rènwéi. Tāmen měi tiān wǎnshang dōu dǎ diànhuà, liáo yi liáo zhè yì tiān fāshēng de shìqing; měi ge yuè, nánpéngyou dōu huì zuò huǒchē lái kàn tā yí cì. Yǒu yí cì Xiǎo Lín shēngbìng le, nánpéngyou gāng xiàbān jiù zuò huǒchē lái péi tā le. Xiǎo Lín shuō: “Jùlí bú shì wèntí, zhǐyào liǎng ge rén de xīn zài yìqǐ jiù xíng.” Míngnián tāmen dǎsuàn jiéhūn, cóngcǐ bú zài fēnkāi.",
+        "vi":"Tiểu Lâm và bạn trai làm việc ở hai thành phố, đi tàu hỏa mất sáu tiếng. Nhiều bạn bè nói, ở xa nhau như thế, hai người khó mà bên nhau lâu được. Nhưng Tiểu Lâm không nghĩ vậy. Tối nào họ cũng gọi điện, kể cho nhau nghe chuyện xảy ra trong ngày; mỗi tháng, bạn trai đều đi tàu đến thăm cô một lần. Có lần Tiểu Lâm bị ốm, bạn trai vừa tan làm là lên tàu đến chăm cô ngay. Tiểu Lâm nói: “Khoảng cách không phải vấn đề, chỉ cần trái tim hai người ở bên nhau là được.” Năm sau họ định kết hôn, từ đó không phải xa nhau nữa.",
+        "questions":[
+          {"id":"lq1","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"从小林的城市到男朋友的城市，坐火车要多长时间？","options":["六个小时","两个小时","一天","三个小时"],"answer":0,"explanation_vi":"Nghe được: 坐火车要六个小时."},
+          {"id":"lq2","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"男朋友多长时间来看小林一次？","options":["每个月一次","每个星期一次","每天一次","每年一次"],"answer":0,"explanation_vi":"Nghe được: 每个月，男朋友都会坐火车来看她一次."},
+          {"id":"lq3","type":"choice","tag":"g:刚","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"小林生病的时候，男朋友做了什么？","options":["刚下班就坐火车来陪她","给她打了一个电话","给她送了很多花","让她去医院看病"],"answer":0,"explanation_vi":"Nghe được: 男朋友刚下班就坐火车来陪她了."},
+          {"id":"lq4","type":"choice","tag":"listening","prompt_vi":"Nghe đoạn văn và chọn đáp án đúng.","question_zh":"小林认为什么不是问题？","options":["距离","钱","年龄","工作"],"answer":0,"explanation_vi":"Nghe được: 距离不是问题."}
+        ]
+      }
+    ],
+    "speaking": [
+      {"id":"s1","zh":"爱情","pinyin":"àiqíng","vi":"tình yêu","tip_vi":"爱 ài: thanh 4 rơi dứt khoát từ cao xuống thấp, đừng đọc ngang. 情 qíng: q bật hơi mạnh, vần -ing kết thúc bằng cuống lưỡi; đừng đọc thành “thinh” hay “chinh” kiểu Việt."},
+      {"id":"s2","zh":"浪漫","pinyin":"làngmàn","vi":"lãng mạn","tip_vi":"Hai thanh 4 liền nhau: chữ đầu rơi nhẹ hơn một chút, chữ sau rơi hết. Phân biệt -ang (làng, cuống lưỡi nâng) và -an (màn, đầu lưỡi chạm lợi)."},
+      {"id":"s3","zh":"尊重对方","pinyin":"zūnzhòng duìfāng","vi":"tôn trọng người kia","tip_vi":"尊 zūn: z đầu lưỡi thẳng, không bật hơi, đừng đọc thành “chun”. 重 zhòng: zh uốn lưỡi. Hai âm z và zh đứng cạnh nhau, hãy đọc chậm để thấy lưỡi đổi vị trí."},
+      {"id":"s4","zh":"他从来没送过花。","pinyin":"Tā cónglái méi sòngguo huā.","vi":"Anh ấy chưa bao giờ tặng hoa.","tip_vi":"从 cóng: c đọc gần như “ts” và bật hơi mạnh, đầu lưỡi đặt sau răng; đừng đọc thành “chông”. 送 sòng: s đầu lưỡi, không phải “x” uốn. 过 guo đọc nhẹ, ngắn."},
+      {"id":"s5","zh":"我们刚认识两个月。","pinyin":"Wǒmen gāng rènshi liǎng ge yuè.","vi":"Chúng tôi mới quen nhau hai tháng.","tip_vi":"刚 gāng giữ thanh 1 cao và bằng. 认识 rènshi: r uốn lưỡi (không phải “d” hay “gi”), 识 đọc nhẹ. 月 yuè: tròn môi ü rồi mở ra ê, đừng đọc thành “duê”."},
+      {"id":"s6","zh":"即使工作很忙，他也每天陪我。","pinyin":"Jíshǐ gōngzuò hěn máng, tā yě měi tiān péi wǒ.","vi":"Cho dù công việc bận, ngày nào anh ấy cũng ở bên tôi.","tip_vi":"即使 jíshǐ: j mặt lưỡi, sh uốn lưỡi, hai âm khác nhau. 也每 yě měi là hai thanh 3 liền nhau: 也 đọc gần thanh 2. 陪 péi: p bật hơi mạnh, đừng đọc thành “bây”."},
+      {"id":"s7","zh":"在生活上，我们总是先考虑对方。","pinyin":"Zài shēnghuó shang, wǒmen zǒngshì xiān kǎolǜ duìfāng.","vi":"Trong cuộc sống, chúng tôi luôn nghĩ cho người kia trước.","tip_vi":"上 shang ở đây đọc nhẹ. 考虑 kǎolǜ: k bật hơi; 虑 lǜ phải tròn môi (ü), đừng đọc thành “lụy”. 总是 zǒngshì: z thẳng lưỡi rồi sh uốn lưỡi."},
+      {"id":"s8","zh":"爱情不仅需要浪漫，还需要尊重和责任。","pinyin":"Àiqíng bùjǐn xūyào làngmàn, hái xūyào zūnzhòng hé zérèn.","vi":"Tình yêu không chỉ cần lãng mạn mà còn cần sự tôn trọng và trách nhiệm.","tip_vi":"不仅 bùjǐn: 不 giữ thanh 4 vì 仅 là thanh 3 (chỉ đổi thành bú trước thanh 4). 需要 xūyào: ü tròn môi. 责任 zérèn: z không bật hơi, r uốn lưỡi. Ngắt hơi ở dấu phẩy."}
+    ],
+    "review": {
+      "remember": [
+        "不仅……而且/还/也……: không những… mà còn…; cùng chủ ngữ thì 不仅 đứng sau chủ ngữ (他不仅帅，而且幽默), khác chủ ngữ thì 不仅 đứng trước chủ ngữ thứ nhất (不仅我……，我妈妈也……).",
+        "从来没(有) + V + 过 = chưa bao giờ (trải nghiệm); 从来不 + V = không bao giờ (thói quen, nguyên tắc).",
+        "刚 + V + thời lượng = mới… thôi (我们刚认识两个月); 刚……就…… = vừa… đã…. 刚 đứng sau chủ ngữ; 刚才 là “lúc nãy”.",
+        "即使……也……: cho dù (giả định)… cũng…; chuyện có thật thì dùng 虽然……但是…….",
+        "在 + danh từ trừu tượng + 上 = về mặt…, trong… (在生活上、在工作上), đặt trước động từ/tính từ. Nhớ: 感情 = tình cảm (đảo thứ tự so với tiếng Việt), 对方 = người kia (không phải đối thủ)."
+      ],
+      "mistakes": [
+        "✗ 不仅他很帅，而且他很幽默 → ✓ 他不仅很帅，而且很幽默: cùng chủ ngữ thì 不仅 đứng sau chủ ngữ.",
+        "✗ 我从来不去过那儿 / 我从来没去那儿 → ✓ 我从来没去过那儿: “chưa bao giờ” = 从来没 + V + 过.",
+        "✗ 他很认真在工作上 → ✓ 他在工作上很认真: 在……上 đứng trước động từ/tính từ, không để cuối câu như tiếng Việt."
+      ]
+    }
+  }
+}
